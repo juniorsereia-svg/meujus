@@ -8,24 +8,42 @@
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     html,body{height:100%}
     body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif}
-    .enunciado{color:#0f2450;font-weight:400;text-align:justify}
+
+    /* Tipos - 2px menores que antes */
+    .enunciado{color:#1a335a;font-weight:400;text-align:justify;font-size:0.95rem;line-height:1.55}
     .alternativas{margin-left:1rem}
-    .alternativas li{cursor:pointer;user-select:none}
+    .alternativas li{cursor:pointer;user-select:none;font-size:0.875rem;line-height:1.5}
     .alternativas li[aria-disabled="true"]{cursor:default}
-    .meta{font-size:.8rem;color:#6b7280}
-    .separador{border-bottom:1px solid #e5e7eb;margin:16px 0}
+    .meta{font-size:.75rem;color:#6b7280}
+    .separador{border-bottom:1px solid #e5e7eb;margin:14px 0}
+
+    /* Dropdown Temas */
+    .combo{position:relative}
+    .combo-input{width:100%}
+    .combo-panel{position:absolute;z-index:20;left:0;right:0;top:100%;background:#fff;border:1px solid #e5e7eb;border-radius:14px;margin-top:6px;max-height:220px;overflow:auto;box-shadow:0 10px 30px rgba(0,0,0,.06)}
+    .combo-item{padding:8px 12px;font-size:.9rem}
+    .combo-item[aria-selected="true"]{background:#f3f4f6}
+    .chip{display:inline-flex;align-items:center;gap:6px;background:#eef2ff;border:1px solid #c7d2fe;color:#3730a3;font-size:.8rem;border-radius:9999px;padding:2px 8px}
+
+    /* Print – duas colunas, fluxo contínuo; oculta área de tela, mostra printArea; margens 0.8mm; sem meta */
     @media print{
-      @page{margin:10mm}
-      header, .no-print, footer{display:none!important}
-      main{column-count:2;column-gap:10mm;column-rule:1px solid #e5e7eb}
+      @page{margin:0.8mm}
+      header, .no-print, footer, #screenArea{display:none!important}
+      #printArea{display:block!important}
+      #printArea{column-count:2; column-gap:0.8mm; column-rule:1px solid #e5e7eb}
       .questao{break-inside:auto}
-      .separador{margin:10px 0;border-color:#cbd5e1}
+      .separador{margin:8px 0;border-color:#cbd5e1}
+      .enunciado{font-size:0.9rem}
+      .alternativas li{font-size:0.825rem}
+      .meta{display:none!important}
     }
+    /* Tela – mostra screenArea, esconde printArea */
+    #printArea{display:none}
   </style>
 </head>
 <body class="bg-zinc-50 text-zinc-900">
@@ -43,7 +61,8 @@
     </div>
   </header>
 
-  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 no-print">
+  <!-- Área de tela -->
+  <section id="screenArea" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
     <div class="grid lg:grid-cols-3 gap-8">
       <div class="lg:col-span-1">
         <div class="rounded-3xl border border-zinc-200 bg-white p-6 shadow-sm">
@@ -53,14 +72,22 @@
               <span class="text-sm font-medium">Curso</span>
               <select id="selCurso" class="rounded-2xl border border-zinc-300 bg-white px-3 py-2.5 focus:outline-none focus:ring-2 focus:ring-black/10"></select>
             </label>
-            <label class="grid gap-2">
-              <span class="text-sm font-medium">Temas (vírgulas)</span>
-              <input id="inpTemas" type="text" placeholder="Ex.: Tipicidade, Legislação Especial" class="rounded-2xl border border-zinc-300 px-3 py-2.5 focus:outline-none focus:ring-2 focus:ring-black/10">
-            </label>
+
+            <div class="grid gap-2">
+              <span class="text-sm font-medium">Temas</span>
+              <div class="combo">
+                <div id="chips" class="flex flex-wrap gap-2 mb-2"></div>
+                <input id="temaInput" class="combo-input rounded-2xl border border-zinc-300 px-3 py-2.5 focus:outline-none focus:ring-2 focus:ring-black/10" placeholder="Digite para buscar e selecione…" />
+                <div id="temaPanel" class="combo-panel hidden"></div>
+              </div>
+              <input id="temasHidden" type="hidden" />
+            </div>
+
             <label class="grid gap-2">
               <span class="text-sm font-medium">Nº Questões</span>
               <input id="inpQtd" type="number" min="1" max="100" value="10" class="rounded-2xl border border-zinc-300 px-3 py-2.5 focus:outline-none focus:ring-2 focus:ring-black/10">
             </label>
+
             <div class="mt-2 flex gap-3">
               <button type="submit" class="inline-flex items-center gap-2 rounded-2xl px-4 py-2 bg-black text-white hover:bg-zinc-800">Gerar</button>
               <button type="button" id="btnLimpar" class="inline-flex items-center gap-2 rounded-2xl px-4 py-2 border border-zinc-200 hover:bg-white">Limpar</button>
@@ -69,6 +96,7 @@
           </form>
         </div>
       </div>
+
       <div class="lg:col-span-2">
         <div class="rounded-3xl border border-zinc-200 bg-white p-6 shadow-sm">
           <h3 class="text-lg font-semibold">Prova</h3>
@@ -83,11 +111,12 @@
     </div>
   </section>
 
-  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
-    <article id="artigoImpressao" class="hidden"></article>
+  <!-- Área exclusiva de impressão -->
+  <main id="printArea" class="px-4 pb-4">
+    <article id="printArticle"></article>
   </main>
 
-  <footer class="border-t border-zinc-200">
+  <footer class="border-t border-zinc-200 no-print">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 text-sm text-zinc-500">
       <div class="flex items-center justify-between">
         <p>MeuJus — Gerador de Provas</p>
