@@ -51,37 +51,36 @@
   }
 
   // Parse TXT
-  function parseArquivo(txt, curso) {
-    const blocos = txt.split(/\n-{5,}\s*\n/).map(s=>s.trim()).filter(Boolean);
-    const out = [];
-    for (const b of blocos) {
-      const linhas = b.split('\n').map(s=>s.trim()).filter(Boolean);
-      if (!linhas.length) continue;
+ function parseArquivo(txt, curso, temaLabel) {
+  const blocos = txt.split(/\n-{5,}\s*\n/).map(s=>s.trim()).filter(Boolean);
+  const out = [];
+  for (const b of blocos) {
+    const linhas = b.split('\n').map(s=>s.trim()).filter(Boolean);
+    if (!linhas.length) continue;
 
-      const metaLinha = linhas.find(l=>l.startsWith('* '));
-      const enunciadoLinhas = linhas.filter(l=>l.startsWith('** ')).map(l=>l.replace(/^\*\*\s*/, ''));
-      const alternativas = linhas.filter(l=>l.startsWith('*** ')).map(l=>l.replace(/^\*\*\*\s*/, ''));
-      const gabaritoLinha = linhas.find(l=>l.startsWith('**** '));
-      const temaLinha = linhas.find(l=>l.startsWith('***** '));
+    const metaLinha = linhas.find(l=>l.startsWith('* '));
+    const enunciadoLinhas = linhas.filter(l=>l.startsWith('** ')).map(l=>l.replace(/^\*\*\s*/, ''));
+    const alternativas = linhas.filter(l=>l.startsWith('*** ')).map(l=>l.replace(/^\*\*\*\s*/, ''));
+    const gabaritoLinha = linhas.find(l=>l.startsWith('**** '));
+    // ***** (tema) é IGNORADO agora
+    // ****** (disciplina) pode existir, mas é opcional e não afeta o filtro
 
-      if (!metaLinha || !enunciadoLinhas.length || alternativas.length < 2 || !gabaritoLinha) continue;
+    if (!metaLinha || !enunciadoLinhas.length || alternativas.length < 2 || !gabaritoLinha) continue;
 
-      const meta = metaLinha.replace(/^\*\s*/, '').trim();
-      const enunciado = normalizarPontuacao(enunciadoLinhas.join(' '));
-      const alts = padronizarAlternativas(alternativas.map(a=>normalizarPontuacao(a)));
-      const gab = (gabaritoLinha.replace(/^(\*{4}\s*)?Gabarito:\s*/i,'').trim().match(/^[A-E]/i)||[''])[0].toUpperCase();
+    const meta = metaLinha.replace(/^\*\s*/, '').trim();
+    const enunciado = normalizarPontuacao(enunciadoLinhas.join(' '));
+    const alts = padronizarAlternativas(alternativas.map(a=>normalizarPontuacao(a)));
+    const gab = (gabaritoLinha.replace(/^(\*{4}\s*)?Gabarito:\s*/i,'').trim().match(/^[A-E]/i)||[''])[0].toUpperCase();
 
-      const temas = (temaLinha ? temaLinha.replace(/^\*{5}\s*/, '') : '')
-        .split(',')
-        .map(t=>t.trim())
-        .filter(Boolean);
+    // Tema vem do nome do arquivo
+    const temas = [temaLabel];
+    temasDisponiveis.add(temaLabel);
 
-      temas.forEach(t=>temasDisponiveis.add(t));
-
-      out.push({ curso, meta, enunciado, alternativas: alts, gabarito: gab, temas });
-    }
-    return out;
+    out.push({ curso, meta, enunciado, alternativas: alts, gabarito: gab, temas });
   }
+  return out;
+}
+
 
   // Manifest + TXT
   async function carregarBanco() {
