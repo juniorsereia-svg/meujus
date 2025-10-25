@@ -47,46 +47,50 @@
 .btn-acao:hover{background:#f8fafc}
 
     /* PRINT: 2 colunas, margens q0mm, gap 10mm, sem meta */
-    @media print {
-      @page { size: A4; margin: 10mm; }
-      html, body { background:#fff !important; -webkit-print-color-adjust:exact; print-color-adjust:exact }
+   @media print {
+  @page { size: A4; margin: 10mm; }
+  html, body { background:#fff !important; -webkit-print-color-adjust:exact; print-color-adjust:exact }
 
-      header, footer, .no-print, #screenArea { display:none !important }
-      #printArea { display:block !important }
+  header, footer, .no-print, #screenArea { display:none !important }
+  #printArea { display:block !important }
 
-      #printArea{
-  column-count:2;
-  column-gap:10mm;
-  column-fill:auto;          /* preenche 1ª coluna até o fim antes de usar a 2ª */
-  column-rule:0.1mm solid #cbd5e1;
-  margin:0; padding:0;
+  #printArea{
+    column-count:2;
+    column-gap:10mm;
+    column-fill:auto;
+    column-rule:0.1mm solid #cbd5e1;
+    margin:0; padding:0;
+  }
+
+  .enunciado{
+    font-size: 0.90rem !important;
+    line-height: 1.5;
+    color: #111827 !important;
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    break-after: avoid-column;
+    orphans: 2;
+    widows: 2;
+  }
+  .alternativas li{
+    font-size: 0.825rem !important;
+    line-height: 1.45;
+    break-inside: avoid;
+  }
+  .meta{ display: none !important; }
+
+  /* aqui */
+  .acoes-ia{ display:none !important; }
+
+  .questao{
+    break-inside: auto;
+    page-break-inside: auto;
+  }
+  .separador{ margin:6px 0; border-bottom:1px solid #d1d5db }
+  #printArea *{ box-shadow:none !important }
 }
 
-      .enunciado{
-  font-size: 0.90rem !important;
-  line-height: 1.5;
-  color: #111827 !important;
-  text-align: justify;
-  hyphens: auto;
-  -webkit-hyphens: auto;
-  break-after: avoid-column; /* evita enunciado “solto” no fim da coluna */
-  orphans: 2;
-  widows: 2;
-}
-.alternativas li{
-  font-size: 0.825rem !important;
-  line-height: 1.45;
-  break-inside: avoid;
-}
-.meta{ display: none !important; }
-.questao{
-  break-inside: auto;
-  page-break-inside: auto;
-}
-
-      .separador{margin:6px 0; border-bottom:1px solid #d1d5db}
-      #printArea *{box-shadow:none !important}
-    }
   </style>
 </head>
 
