@@ -7,7 +7,7 @@
 *** D) A autorização para o porte de arma de fogo de que trata este artigo independe do pagamento de taxa.
 *** E) A aquisição de munição poderá ser feita em qualquer calibre, independente da arma registrada, respeitada a quantidade estabelecida na lei.
 **** Gabarito: E
-******* Estatuto do Desarmamento, registro de arma de fogo
+***** Estatuto do Desarmamento, registro de arma de fogo
 
 -----
 
@@ -19,7 +19,7 @@
 *** C) As penas são restritivas de direitos, privativas da liberdade e de multa.
 *** D) Regime fechado é a execução da pena em estabelecimento de segurança máxima, apenas.
 **** Gabarito: C
-******* Código Penal, penas aplicadas
+***** Código Penal, penas aplicadas
 
 -----
 
@@ -31,7 +31,7 @@
 *** C) O consentimento do ofendido é uma das excludentes da ilicitude previstas no art. 23, do Código Penal.
 *** D) Exclui a ilicitude do crime o ato praticado em estado de necessidade, em estrito cumprimento do dever legal, no exercício regular de um direito ou em legítima defesa.
 **** Gabarito: D
-******* fatos típicos, ilicitude do ato
+***** fatos típicos, ilicitude do ato
 
 -----
 
@@ -43,7 +43,7 @@
 *** C) A lei excepcional ou temporária, embora decorrido o período de sua duração ou cessadas as circunstâncias que a determinaram, aplica-se ao fato praticado durante sua vigência.
 *** D) Se a lei posterior deixa de considerar crime, o condenado deverá seguir cumprindo a pena, pois a sentença penal condenatória transitou em julgado.
 **** Gabarito: C
-******* Direito Penal Brasileiro, lei excepcional ou temporária
+***** Direito Penal Brasileiro, lei excepcional ou temporária
 
 -----
 
@@ -54,7 +54,7 @@
 *** A) Certo
 *** B) Errado
 **** Gabarito: E
-******* imputabilidade, ato ilícito
+***** imputabilidade, ato ilícito
 
 -----
 
@@ -65,7 +65,7 @@
 *** A) Certo
 *** B) Errado
 **** Gabarito: E
-******* capacidade de entendimento, autodeterminação
+***** capacidade de entendimento, autodeterminação
 
 -----
 
@@ -76,7 +76,7 @@
 *** A) Certo
 *** B) Errado
 **** Gabarito: C
-******* medida de segurança, ilicitude do ato
+***** medida de segurança, ilicitude do ato
 
 -----
 
@@ -88,7 +88,7 @@
 *** C) Não configura ilícito penal perturbar a realização de qualquer ato de processo licitatório.
 *** D) Combinar previamente propostas entre licitantes, com o objetivo de obter vantagem decorrente da adjudicação do objeto da licitação, configura crime de frustração de caráter competitivo de licitação.
 **** Gabarito: D
-******* crimes contra licitações, contratos administrativos
+***** crimes contra licitações, contratos administrativos
 
 -----
 
@@ -100,7 +100,7 @@
 *** C) Ter o agente cometido o crime em estado de embriaguez preordenada.
 *** D) Quando o agente apenas instiga ou determina outro a cometer o crime, alguém sujeito à sua autoridade.
 **** Gabarito: A
-******* circunstância que atenua, execução material do crime
+***** circunstância que atenua, execução material do crime
 
 -----
 
@@ -114,7 +114,7 @@
 *** C) Marcelo responde pelo crime de concussão.
 *** D) Marcelo responde pelo crime de tráfico de influência.
 **** Gabarito: C
-******* servidor público, crime de concussão
+***** servidor público, crime de concussão
 
 -----
 
@@ -130,7 +130,7 @@
 *** C) Apenas os itens I e III estão corretos.
 *** D) Apenas os itens II e III estão corretos.
 **** Gabarito: B
-******* embriaguez culposa, imputabilidade penal
+***** embriaguez culposa, imputabilidade penal
 
 -----
 
@@ -144,7 +144,7 @@
 *** C) A revogação da lei penal descriminaliza a conduta, devendo o processo ser extinto, com reconhecimento da *abolitio criminis*.
 *** D) A *abolitio criminis* não alcança os casos ainda não transitados em julgado, aplicando-se apenas às execuções penais em curso e aos efeitos civis.
 **** Gabarito: C
-******* lei penal no tempo, abolitio criminis
+***** lei penal no tempo, abolitio criminis
 
 -----
 
@@ -156,7 +156,7 @@
 *** C) É um tipo de liberdade provisória concedida a réus primários, que aguardam julgamento em liberdade mediante o cumprimento de algumas medidas cautelares.
 *** D) É a conversão da pena de prisão em multa ou em prestação de serviços à comunidade, prevista em casos de crimes de menor gravidade.
 **** Gabarito: A
-******* anistia, instrumento jurídico
+***** anistia, instrumento jurídico
 
 -----
 
@@ -171,7 +171,7 @@
 *** D) a reprimenda aplicada a João consubstancia um todo monolítico, formado pelas duas sanções, logo, o inadimplemento da multa sempre irá obstar a extinção da punibilidade.
 *** E) a multa consubstancia sanção criminal, cabendo ao Ministério Público a primazia de sua execução, sendo que, em certas situações, o seu inadimplemento não obstará a extinção da punibilidade.
 **** Gabarito: E
-******* pena de multa, extinção da punibilidade
+***** pena de multa, extinção da punibilidade
 
 -----
 
@@ -186,7 +186,7 @@
 *** D) Para a punição do crime de lavagem de dinheiro é indispensável a condenação definitiva pelo crime antecedente de tráfico de drogas, de modo que a prescrição deste último impede a condenação pela lavagem.
 *** E) A autonomia do crime de lavagem de dinheiro em relação ao crime antecedente só se aplica se a infração antecedente for de menor potencial ofensivo, o que não é o caso do tráfico de drogas.
 **** Gabarito: C
-******* lavagem de dinheiro, prescrição do crime antecedente
+***** lavagem de dinheiro, prescrição do crime antecedente
 
 -----
 
@@ -202,7 +202,7 @@
 *** D) A aquisição do iate em nome de um “laranja” configura mero exaurimento do crime de fraude na licitação, não havendo autonomia suficiente para caracterizar o crime de lavagem de dinheiro, pois a finalidade principal de Tício era usufruir do produto do crime antecedente.
 *** E) O crime de lavagem de dinheiro na modalidade “autolavagem” somente se configura quando o agente pratica atos de ocultação ou dissimulação que não possuem qualquer relação com a infração penal antecedente, o que não se verificou na situação narrada, em que o dinheiro é proveniente diretamente da fraude na licitação.
 **** Gabarito: A
-******* fraude em licitação, autolavagem
+***** fraude em licitação, autolavagem
 
 -----
 
@@ -218,7 +218,7 @@
 *** D) Para a aplicação da causa de diminuição do tráfico privilegiado, basta que o agente não possua qualquer registro criminal, incluindo inquéritos e ações penais em curso, sob pena de desvirtuar a finalidade da norma.
 *** E) A aplicação da causa de diminuição pelo tráfico privilegiado não pode ter sua aplicação afastada, tendo como fundamento as investigações preliminares ou os processos criminais em andamento, a não ser que estejam em fase recursal com acórdão condenatório em segunda instância.
 **** Gabarito: A
-******* tráfico de drogas, causa de diminuição de pena
+***** tráfico de drogas, causa de diminuição de pena
 
 -----
 
@@ -234,7 +234,7 @@
 *** D) As condutas configuram crime continuado, dado o caráter permanente do tráfico de drogas e a habitualidade do porte de arma, devendo ser aplicada apenas a pena do delito mais grave, com acréscimo em razão da continuidade delitiva.
 *** E) Deve-se aplicar o concurso formal de crimes, pois as condutas de portar a arma e traficar drogas foram praticadas mediante uma única ação, resultando em dois crimes distintos, mas com desígnios autônomos.
 **** Gabarito: B
-******* concurso material, porte ilegal de arma de fogo
+***** concurso material, porte ilegal de arma de fogo
 
 -----
 
@@ -248,7 +248,7 @@
 *** D) Omar cometeu crime de estelionato e Paulina, crime de receptação.
 *** E) Omar cometeu crime de peculato impróprio e Paulina, crime de receptação.
 **** Gabarito: A
-******* peculato próprio, servidores públicos
+***** peculato próprio, servidores públicos
 
 -----
 
@@ -263,4 +263,4 @@
 *** D) difamação, no dia 9 de julho, consumando-se o delito em Itaperuna.
 *** E) injúria, no dia 10 de julho, consumando-se o delito em Itaperuna.
 **** Gabarito: A
-******* injúria, difamação
+***** injúria, difamação
