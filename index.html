@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -30,64 +31,49 @@
     .combo-item[aria-selected="true"]{background:#f3f4f6}
     .chip{display:inline-flex;align-items:center;gap:6px;background:#eef2ff;border:1px solid #c7d2fe;color:#3730a3;font-size:.8rem;border-radius:9999px;padding:2px 8px}
 
-    /* Print – duas colunas, fluxo contínuo; oculta área de tela, mostra printArea; margens 0.8mm; sem meta */
-   @media print {
-  /* Página e cores */
-  @page { size: A4; margin: 20mm; }
-  html, body {
-    background:#fff !important;
-    -webkit-print-color-adjust: exact;
-    print-color-adjust: exact;
-  }
+    /* Reduz o tamanho do seletor de temas (input, lista e chips) */
+    #screenArea .combo-input{font-size:0.85rem;padding:8px 12px}
+    #screenArea .combo-panel .combo-item{font-size:0.82rem;padding:6px 10px}
+    #screenArea #chips .chip{font-size:0.75rem;padding:2px 6px}
+    #screenArea .combo-input::placeholder{font-size:0.85rem;color:#9ca3af}
 
-  /* Mostrar só a área de impressão */
-  header, footer, .no-print, #screenArea { display:none !important; }
-  #printArea { display:block !important; }
+    /* PRINT: 2 colunas, margens 20mm, gap 15mm, sem meta */
+    @media print {
+      @page { size: A4; margin: 20mm; }
+      html, body { background:#fff !important; -webkit-print-color-adjust:exact; print-color-adjust:exact }
 
-  /* Duas colunas com fluxo contínuo */
-  #printArea{
-    column-count: 2;
-    column-gap: 15mm;                  /* 15 mm entre colunas */
-    column-fill: balance;
-    column-rule: 0.2mm solid #cbd5e1;  /* linha divisória */
-    margin: 0;
-    padding: 0;
-  }
+      header, footer, .no-print, #screenArea { display:none !important }
+      #printArea { display:block !important }
 
-  /* Tipografia 2 px menor e justificada */
-  .enunciado{
-    font-size: 0.90rem !important;
-    line-height: 1.5;
-    color: #111827 !important;
-    text-align: justify;
-    hyphens: auto;
-    -webkit-hyphens: auto;
-  }
-  .alternativas li{
-    font-size: 0.825rem !important;
-    line-height: 1.45;
-    break-inside: avoid;
-  }
+      #printArea{
+        column-count:2; column-gap:15mm; column-fill:balance;
+        column-rule:0.2mm solid #cbd5e1; margin:0; padding:0
+      }
 
-  /* Ocultar metadados (*) só na impressão */
-  .meta{ display:none !important; }
+      .enunciado{font-size:0.90rem !important; line-height:1.5; color:#111827 !important; text-align:justify; hyphens:auto; -webkit-hyphens:auto}
+      .alternativas li{font-size:0.825rem !important; line-height:1.45; break-inside:avoid}
+      .meta{display:none !important}
+      .questao{break-inside:avoid; page-break-inside:avoid}
+      .separador{margin:6px 0; border-bottom:1px solid #d1d5db}
+      #printArea *{box-shadow:none !important}
+    }
+  </style>
+</head>
 
-  /* Quebras e separadores */
-  .questao{
-    break-inside: avoid;
-    page-break-inside: avoid;
-  }
-  .separador{
-    margin: 6px 0;
-    border-bottom: 1px solid #d1d5db;
-  }
-
-  /* Remover sombras que possam vazar */
-  #printArea *{
-    box-shadow: none !important;
-  }
-}
-
+<body class="bg-zinc-50 text-zinc-900">
+  <header class="sticky top-0 z-40 bg-white/80 backdrop-blur border-b border-zinc-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <a class="flex items-center gap-3" href="#">
+        <svg width="28" height="28" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect x="4" y="4" width="40" height="40" rx="10" fill="#111827"/>
+          <path d="M14 30c6 0 8-8 10-8s4 8 10 8" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="24" cy="18" r="3" fill="white"/>
+        </svg>
+        <span class="text-lg font-semibold">MeuJus</span>
+      </a>
+      <div class="text-sm text-zinc-500">© <span id="ano"></span></div>
+    </div>
+  </header>
 
   <!-- Área de tela -->
   <section id="screenArea" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
@@ -156,3 +142,4 @@
   <script src="./app.js"></script>
 </body>
 </html>
+```
