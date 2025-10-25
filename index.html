@@ -14,7 +14,7 @@
     html,body{height:100%}
     body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif}
 
-    /* Tipos - 2px menores que antes */
+    /* Tipos */
     .enunciado{color:#1a335a;font-weight:400;text-align:justify;font-size:0.95rem;line-height:1.55}
     .alternativas{margin-left:1rem}
     .alternativas li{cursor:pointer;user-select:none;font-size:0.875rem;line-height:1.5}
@@ -22,75 +22,83 @@
     .meta{font-size:.75rem;color:#6b7280}
     .separador{border-bottom:1px solid #e5e7eb;margin:14px 0}
 
-    /* Dropdown Temas */
+    /* Combo unificado (Curso e Temas) */
     .combo{position:relative}
-    .combo-input{width:100%}
-    .combo-panel{position:absolute;z-index:20;left:0;right:0;top:100%;background:#fff;border:1px solid #e5e7eb;border-radius:14px;margin-top:6px;max-height:220px;overflow:auto;box-shadow:0 10px 30px rgba(0,0,0,.06)}
-    .combo-item{padding:8px 12px;font-size:.9rem}
-    .combo-item[aria-selected="true"]{background:#f3f4f6}
-    .chip{display:inline-flex;align-items:center;gap:6px;background:#eef2ff;border:1px solid #c7d2fe;color:#3730a3;font-size:.8rem;border-radius:9999px;padding:2px 8px}
+    .combo--solid .combo-control{
+      display:flex; align-items:center; gap:.5rem;
+      border:1px solid #e5e7eb; border-radius:14px; padding:.45rem .65rem; background:#fff;
+    }
+    .combo-input{width:100%; border:0; outline:0; font-size:0.9rem; line-height:1.4; padding:.1rem}
+    .combo-caret{
+      font-size:.85rem; line-height:1; padding:.25rem .45rem; border:1px solid #e5e7eb;
+      border-radius:8px; background:#fff; cursor:pointer;
+    }
+    .combo-caret:hover{background:#f8fafc}
+    .combo-panel{
+      position:absolute; z-index:20; left:0; right:0; top:calc(100% + 6px);
+      background:#fff; border:1px solid #e5e7eb; border-radius:14px; max-height:240px; overflow:auto;
+      box-shadow:0 10px 30px rgba(0,0,0,.06)
+    }
+    .combo-item{padding:8px 12px; font-size:.9rem; cursor:pointer}
+    .combo-item:hover{background:#f8fafc}
+    .combo-item[aria-selected="true"]{background:#eef2ff}
+    .divider{height:1px; background:linear-gradient(90deg,#fff, #e5e7eb 10%, #e5e7eb 90%, #fff); margin:.9rem 0}
 
-    /* Reduz o tamanho do seletor de temas (input, lista e chips) */
-    #screenArea .combo-input{font-size:0.85rem;padding:8px 12px}
-    #screenArea .combo-panel .combo-item{font-size:0.82rem;padding:6px 10px}
-    #screenArea #chips .chip{font-size:0.75rem;padding:2px 6px}
+    /* Chips Temas */
+    #screenArea #chips .chip{font-size:0.78rem; padding:2px 8px}
+
+    /* Placeholders menores */
     #screenArea .combo-input::placeholder{font-size:0.85rem;color:#9ca3af}
 
     #printArea{ display:none; }
-/* Botões IA após o gabarito */
-.acoes-ia{margin-top:.5rem; display:flex; flex-wrap:wrap; gap:.5rem}
-.btn-acao{
-  display:inline-flex; align-items:center; justify-content:center;
-  padding:.35rem .55rem; font-size:.78rem; line-height:1;
-  border:1px solid #e5e7eb; border-radius:.5rem; background:#fff;
-}
-.btn-acao:hover{background:#f8fafc}
 
-    /* PRINT: 2 colunas, margens q0mm, gap 10mm, sem meta */
-   @media print {
-  @page { size: A4; margin: 10mm; }
-  html, body { background:#fff !important; -webkit-print-color-adjust:exact; print-color-adjust:exact }
+    /* Botões IA após o gabarito */
+    .acoes-ia{margin-top:.5rem; display:flex; flex-wrap:wrap; gap:.5rem}
+    .btn-acao{
+      display:inline-flex; align-items:center; justify-content:center;
+      padding:.35rem .55rem; font-size:.78rem; line-height:1;
+      border:1px solid #e5e7eb; border-radius:.5rem; background:#fff;
+    }
+    .btn-acao:hover{background:#f8fafc}
 
-  header, footer, .no-print, #screenArea { display:none !important }
-  #printArea { display:block !important }
+    /* PRINT: 2 colunas, margens 10mm, gap 10mm, sem meta */
+    @media print {
+      @page { size: A4; margin: 10mm; }
+      html, body { background:#fff !important; -webkit-print-color-adjust:exact; print-color-adjust:exact }
 
-  #printArea{
-    column-count:2;
-    column-gap:10mm;
-    column-fill:auto;
-    column-rule:0.1mm solid #cbd5e1;
-    margin:0; padding:0;
-  }
+      header, footer, .no-print, #screenArea { display:none !important }
+      #printArea { display:block !important }
 
-  .enunciado{
-    font-size: 0.80rem !important;
-    line-height: 1.4;
-    color: #111827 !important;
-    text-align: justify;
-    hyphens: auto;
-    -webkit-hyphens: auto;
-    break-after: avoid-column;
-    orphans: 2;
-    widows: 2;
-  }
-  .alternativas li{
-    font-size: 0.725rem !important;
-    line-height: 1.35;
-    break-inside: avoid;
-  }
-  .meta{ display: none !important; }
+      #printArea{
+        column-count:2;
+        column-gap:10mm;
+        column-fill:auto;                 /* coluna 1 enche antes de começar coluna 2 */
+        column-rule:0.1mm solid #cbd5e1;
+        margin:0; padding:0;
+      }
 
-  /* aqui */
-  .acoes-ia{ display:none !important; }
-
-  .questao{
-    break-inside: auto;
-    page-break-inside: auto;
-  }
-  .separador{ margin:6px 0; border-bottom:1px solid #d1d5db }
-  #printArea *{ box-shadow:none !important }
-}
-
+      .enunciado{
+        font-size: 0.80rem !important;
+        line-height: 1.4;
+        color: #111827 !important;
+        text-align: justify;
+        hyphens: auto;
+        -webkit-hyphens: auto;
+        break-after: avoid-column;
+        orphans: 2;
+        widows: 2;
+      }
+      .alternativas li{
+        font-size: 0.725rem !important;
+        line-height: 1.35;
+        break-inside: avoid;
+      }
+      .meta{ display: none !important; }
+      .acoes-ia{ display:none !important; }  /* não imprime botões IA */
+      .questao{ break-inside: auto; page-break-inside: auto; }
+      .separador{ margin:6px 0; border-bottom:1px solid #d1d5db }
+      #printArea *{ box-shadow:none !important }
+    }
   </style>
 </head>
 
@@ -116,16 +124,31 @@
         <div class="rounded-3xl border border-zinc-200 bg-white p-6 shadow-sm">
           <h2 class="text-xl font-semibold">Gerar prova</h2>
           <form id="formProva" class="mt-4 grid gap-4" autocomplete="off">
+            <!-- Curso: combo não nativo -->
             <label class="grid gap-2">
               <span class="text-sm font-medium">Curso</span>
-              <select id="selCurso" class="rounded-2xl border border-zinc-300 bg-white px-3 py-2.5 focus:outline-none focus:ring-2 focus:ring-black/10"></select>
+              <div class="combo combo--solid" id="cursoCombo">
+                <div class="combo-control">
+                  <input id="cursoInput" class="combo-input" placeholder="Selecione ou digite para buscar…" />
+                  <button type="button" class="combo-caret" aria-label="Abrir">▾</button>
+                </div>
+                <div id="cursoPanel" class="combo-panel hidden"></div>
+              </div>
+              <input id="cursoHidden" type="hidden" />
             </label>
 
+            <!-- linha separadora entre os seletores -->
+            <div class="divider"></div>
+
+            <!-- Temas: combo com busca + chips -->
             <div class="grid gap-2">
               <span class="text-sm font-medium">Temas</span>
-              <div class="combo">
+              <div class="combo combo--solid">
                 <div id="chips" class="flex flex-wrap gap-2 mb-2"></div>
-                <input id="temaInput" class="combo-input rounded-2xl border border-zinc-300 px-3 py-2.5 focus:outline-none focus:ring-2 focus:ring-black/10" placeholder="Digite para buscar e selecione…" />
+                <div class="combo-control">
+                  <input id="temaInput" class="combo-input" placeholder="Digite para buscar e selecione…" />
+                  <button type="button" class="combo-caret" aria-label="Abrir">▾</button>
+                </div>
                 <div id="temaPanel" class="combo-panel hidden"></div>
               </div>
               <input id="temasHidden" type="hidden" />
