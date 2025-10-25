@@ -23,6 +23,7 @@
   const temaPanel = $('#temaPanel');
   const temasHidden = $('#temasHidden');
   const chips = $('#chips');
+  const temaCaret = temaPanel?.previousElementSibling?.querySelector('.combo-caret') || null;
 
   // Áreas
   const previewVazio = $('#previewVazio');
@@ -50,37 +51,34 @@
     return alts.slice(0,5).map((t,i)=>`${letras[i]}) ${t.replace(/^[A-Ea-e]\)\s*/, '').trim()}`);
   }
 
-  // Parse TXT
- function parseArquivo(txt, curso, temaLabel) {
-  const blocos = txt.split(/\n-{5,}\s*\n/).map(s=>s.trim()).filter(Boolean);
-  const out = [];
-  for (const b of blocos) {
-    const linhas = b.split('\n').map(s=>s.trim()).filter(Boolean);
-    if (!linhas.length) continue;
+  // Parse TXT (tema vem do nome do arquivo)
+  function parseArquivo(txt, curso, temaLabel) {
+    const blocos = txt.split(/\n-{5,}\s*\n/).map(s=>s.trim()).filter(Boolean);
+    const out = [];
+    for (const b of blocos) {
+      const linhas = b.split('\n').map(s=>s.trim()).filter(Boolean);
+      if (!linhas.length) continue;
 
-    const metaLinha = linhas.find(l=>l.startsWith('* '));
-    const enunciadoLinhas = linhas.filter(l=>l.startsWith('** ')).map(l=>l.replace(/^\*\*\s*/, ''));
-    const alternativas = linhas.filter(l=>l.startsWith('*** ')).map(l=>l.replace(/^\*\*\*\s*/, ''));
-    const gabaritoLinha = linhas.find(l=>l.startsWith('**** '));
-    // ***** (tema) é IGNORADO agora
-    // ****** (disciplina) pode existir, mas é opcional e não afeta o filtro
+      const metaLinha = linhas.find(l=>l.startsWith('* '));
+      const enunciadoLinhas = linhas.filter(l=>l.startsWith('** ')).map(l=>l.replace(/^\*\*\s*/, ''));
+      const alternativas = linhas.filter(l=>l.startsWith('*** ')).map(l=>l.replace(/^\*\*\*\s*/, ''));
+      const gabaritoLinha = linhas.find(l=>l.startsWith('**** '));
+      // ***** ignorado; ****** opcional
 
-    if (!metaLinha || !enunciadoLinhas.length || alternativas.length < 2 || !gabaritoLinha) continue;
+      if (!metaLinha || !enunciadoLinhas.length || alternativas.length < 2 || !gabaritoLinha) continue;
 
-    const meta = metaLinha.replace(/^\*\s*/, '').trim();
-    const enunciado = normalizarPontuacao(enunciadoLinhas.join(' '));
-    const alts = padronizarAlternativas(alternativas.map(a=>normalizarPontuacao(a)));
-    const gab = (gabaritoLinha.replace(/^(\*{4}\s*)?Gabarito:\s*/i,'').trim().match(/^[A-E]/i)||[''])[0].toUpperCase();
+      const meta = metaLinha.replace(/^\*\s*/, '').trim();
+      const enunciado = normalizarPontuacao(enunciadoLinhas.join(' '));
+      const alts = padronizarAlternativas(alternativas.map(a=>normalizarPontuacao(a)));
+      const gab = (gabaritoLinha.replace(/^(\*{4}\s*)?Gabarito:\s*/i,'').trim().match(/^[A-E]/i)||[''])[0].toUpperCase();
 
-    // Tema vem do nome do arquivo
-    const temas = [temaLabel];
-    temasDisponiveis.add(temaLabel);
+      const temas = [temaLabel];
+      temasDisponiveis.add(temaLabel);
 
-    out.push({ curso, meta, enunciado, alternativas: alts, gabarito: gab, temas });
+      out.push({ curso, meta, enunciado, alternativas: alts, gabarito: gab, temas });
+    }
+    return out;
   }
-  return out;
-}
-
 
   // Manifest + TXT
   async function carregarBanco() {
@@ -90,13 +88,21 @@
 
     montarComboCurso(cursos);
 
+    function labelFromFilename(filename){
+      const base = filename.replace(/\.[^.]+$/, '');
+      const words = base.split(/[_\-]+/).filter(Boolean);
+      return words.map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+    }
+
     for (const curso of cursos) {
       const folder = manifest[curso].folder;
       for (const f of manifest[curso].files) {
+        const temaLabel = labelFromFilename(f);
         const txt = await fetch(`./data/${folder}/${f}`).then(r=>r.text());
-        banco.push(...parseArquivo(txt, curso));
+        banco.push(...parseArquivo(txt, curso, temaLabel));
       }
     }
+
     montarComboTemas();
   }
 
@@ -160,8 +166,9 @@
     abrirPainel();
   });
   temaInput?.addEventListener('focus', abrirPainel);
+  temaCaret?.addEventListener('click', ()=> temaPanel.classList.toggle('hidden'));
   document.addEventListener('click', (e)=>{
-    if(!temaPanel.contains(e.target) && e.target!==temaInput) fecharPainel();
+    if(!temaPanel.contains(e.target) && e.target!==temaInput && e.target!==temaCaret) fecharPainel();
   });
   temaPanel.addEventListener('click', (e)=>{
     const item = e.target.closest('.combo-item'); if(!item) return;
