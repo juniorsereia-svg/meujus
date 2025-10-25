@@ -1,4 +1,5 @@
-// Funcional: carrega manifest e TXT, parse, multiselect de temas com busca, amostragem estratificada, impressão 2 colunas.
+// Funcional: carrega manifest e TXT, parse, multiselect de temas com busca,
+// amostragem estratificada, impressão 2 colunas, e botões IA pós-gabarito.
 (function () {
   const $ = (sel) => document.querySelector(sel);
   const ano = $('#ano'); const rodapeAno = $('#rodapeAno');
@@ -31,43 +32,47 @@
   // Utils
   function embaralhar(arr){for(let i=arr.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[arr[i],arr[j]]=[arr[j],arr[i]];}return arr;}
   function normalizarPontuacao(txt){
-    return txt.replace(/\s+([,.;:!?])/g,'$1').replace(/([(\[])\s+/g,'$1').replace(/\s{2,}/g,' ').replace(/\s*-\s*/g,' - ').trim();
+    return txt.replace(/\s+([,.;:!?])/g,'$1')
+              .replace(/([(\[])\s+/g,'$1')
+              .replace(/\s{2,}/g,' ')
+              .replace(/\s*-\s*/g,' - ')
+              .trim();
   }
   function padronizarAlternativas(alts){
     return alts.slice(0,5).map((t,i)=>`${letras[i]}) ${t.replace(/^[A-Ea-e]\)\s*/, '').trim()}`);
   }
 
   // Parse TXT
- function parseArquivo(txt, curso) {
-  const blocos = txt.split(/\n-{5,}\s*\n/).map(s=>s.trim()).filter(Boolean);
-  const out = [];
-  for (const b of blocos) {
-    const linhas = b.split('\n').map(s=>s.trim()).filter(Boolean);
-    if (!linhas.length) continue;
+  function parseArquivo(txt, curso) {
+    const blocos = txt.split(/\n-{5,}\s*\n/).map(s=>s.trim()).filter(Boolean);
+    const out = [];
+    for (const b of blocos) {
+      const linhas = b.split('\n').map(s=>s.trim()).filter(Boolean);
+      if (!linhas.length) continue;
 
-    const metaLinha = linhas.find(l=>l.startsWith('* '));
-    const enunciadoLinhas = linhas.filter(l=>l.startsWith('** ')).map(l=>l.replace(/^\*\*\s*/,''));
-    const alternativas = linhas.filter(l=>l.startsWith('*** ')).map(l=>l.replace(/^\*\*\*\s*/,''));
-    const gabaritoLinha = linhas.find(l=>l.startsWith('**** '));
-    const temaLinha = linhas.find(l=>l.startsWith('***** '));
+      const metaLinha = linhas.find(l=>l.startsWith('* '));
+      const enunciadoLinhas = linhas.filter(l=>l.startsWith('** ')).map(l=>l.replace(/^\*\*\s*/, ''));
+      const alternativas = linhas.filter(l=>l.startsWith('*** ')).map(l=>l.replace(/^\*\*\*\s*/, ''));
+      const gabaritoLinha = linhas.find(l=>l.startsWith('**** '));
+      const temaLinha = linhas.find(l=>l.startsWith('***** '));
 
-    if (!metaLinha || !enunciadoLinhas.length || alternativas.length < 2 || !gabaritoLinha) continue;
+      if (!metaLinha || !enunciadoLinhas.length || alternativas.length < 2 || !gabaritoLinha) continue;
 
-    const meta = metaLinha.replace(/^\*\s*/,'').trim();
-    const enunciado = normalizarPontuacao(enunciadoLinhas.join(' '));
-    const alts = padronizarAlternativas(alternativas.map(a=>normalizarPontuacao(a)));
-    const gab = (gabaritoLinha.replace(/^(\*{4}\s*)?Gabarito:\s*/i,'').trim().match(/^[A-E]/i)||[''])[0].toUpperCase();
+      const meta = metaLinha.replace(/^\*\s*/, '').trim();
+      const enunciado = normalizarPontuacao(enunciadoLinhas.join(' '));
+      const alts = padronizarAlternativas(alternativas.map(a=>normalizarPontuacao(a)));
+      const gab = (gabaritoLinha.replace(/^(\*{4}\s*)?Gabarito:\s*/i,'').trim().match(/^[A-E]/i)||[''])[0].toUpperCase();
 
-    const temas = (temaLinha ? temaLinha.replace(/^\*{5}\s*/,'') : '')
-      .split(',')
-      .map(t=>t.trim())
-      .filter(Boolean);
+      const temas = (temaLinha ? temaLinha.replace(/^\*{5}\s*/, '') : '')
+        .split(',')
+        .map(t=>t.trim())
+        .filter(Boolean);
 
-    temas.forEach(t=>temasDisponiveis.add(t));
+      temas.forEach(t=>temasDisponiveis.add(t));
 
-    out.push({ curso, meta, enunciado, alternativas: alts, gabarito: gab, temas });
-  }
-  return out;
+      out.push({ curso, meta, enunciado, alternativas: alts, gabarito: gab, temas });
+    }
+    return out;
   }
 
   // Manifest + TXT
@@ -76,9 +81,9 @@
     const manifest = await res.json();
     const cursos = Object.keys(manifest);
     selCurso.innerHTML = cursos.map(c=>`<option>${c}</option>`).join('');
-    for(const curso of cursos){
+    for (const curso of cursos) {
       const folder = manifest[curso].folder;
-      for(const f of manifest[curso].files){
+      for (const f of manifest[curso].files) {
         const txt = await fetch(`./data/${folder}/${f}`).then(r=>r.text());
         banco.push(...parseArquivo(txt, curso));
       }
@@ -91,12 +96,8 @@
     const lista = Array.from(temasDisponiveis).sort((a,b)=>a.localeCompare(b,'pt'));
     temaPanel.innerHTML = lista.map(t=>`<div class="combo-item" data-valor="${t}">${t}</div>`).join('');
   }
-  function abrirPainel(){
-    temaPanel.classList.remove('hidden');
-  }
-  function fecharPainel(){
-    temaPanel.classList.add('hidden');
-  }
+  function abrirPainel(){ temaPanel.classList.remove('hidden'); }
+  function fecharPainel(){ temaPanel.classList.add('hidden'); }
   function renderChips(){
     chips.innerHTML = '';
     temasHidden.value = JSON.stringify(Array.from(temasSelecionados));
@@ -104,11 +105,11 @@
       const el = document.createElement('span');
       el.className = 'chip';
       el.innerHTML = `${t} <button type="button" aria-label="Remover">×</button>`;
-      el.querySelector('button').onclick = ()=>{temasSelecionados.delete(t); renderChips();};
+      el.querySelector('button').onclick = ()=>{ temasSelecionados.delete(t); renderChips(); };
       chips.appendChild(el);
     });
   }
-  temaInput.addEventListener('input', ()=>{
+  temaInput?.addEventListener('input', ()=>{
     const q = temaInput.value.trim().toLowerCase();
     Array.from(temaPanel.children).forEach(it=>{
       const ok = it.textContent.toLowerCase().includes(q);
@@ -117,7 +118,7 @@
     });
     abrirPainel();
   });
-  temaInput.addEventListener('focus', abrirPainel);
+  temaInput?.addEventListener('focus', abrirPainel);
   document.addEventListener('click', (e)=>{
     if(!temaPanel.contains(e.target) && e.target!==temaInput) fecharPainel();
   });
@@ -132,81 +133,125 @@
 
   // Filtro + amostragem estratificada por tema
   function filtrarPorCursoETemas(){
-  const cursoAlvo = selCurso.value.trim();
-  let pool = banco.filter(q=>q.curso === cursoAlvo);
-  const selecionados = Array.from(temasSelecionados);
-  if (!selecionados.length) return pool;
-  return pool.filter(q => (q.temas && q.temas.some(t => selecionados.includes(t))));
-}
-  // Substitua sua função por esta versão com temas múltiplos e amostragem estratificada sem duplicar questões.
-function amostrarEstratificada(pool, qtd) {
-  // Temas selecionados pelo usuário, se existirem; caso contrário usa todos os temas encontrados no pool
-  const selecionados = (typeof temasSelecionados !== 'undefined' && temasSelecionados.size)
-    ? Array.from(temasSelecionados)
-    : Array.from(new Set(pool.flatMap(q => (q.temas || []))));
+    const cursoAlvo = selCurso.value.trim();
+    let pool = banco.filter(q=>q.curso === cursoAlvo);
+    const selecionados = Array.from(temasSelecionados);
+    if (!selecionados.length) return pool;
+    return pool.filter(q => (q.temas && q.temas.some(t => selecionados.includes(t))));
+  }
 
-  if (!selecionados.length) return embaralhar(pool.slice()).slice(0, qtd);
+  function amostrarEstratificada(pool, qtd) {
+    // Temas selecionados pelo usuário, se existirem; caso contrário usa todos os temas do pool
+    const selecionados = (temasSelecionados && temasSelecionados.size)
+      ? Array.from(temasSelecionados)
+      : Array.from(new Set(pool.flatMap(q => (q.temas || []))));
 
-  // Buckets por tema selecionado
-  const buckets = new Map();
-  selecionados.forEach(t => buckets.set(t, []));
-  pool.forEach(q => {
-    const ts = q.temas || (q.tema ? [q.tema] : []);
-    selecionados.forEach(t => { if (ts.includes(t)) buckets.get(t).push(q); });
-  });
-  // Embaralha cada bucket
-  buckets.forEach((arr, t) => buckets.set(t, embaralhar(arr)));
+    if (!selecionados.length) return embaralhar(pool.slice()).slice(0, qtd);
 
-  const usados = new Set(); // guarda referências de objetos já escolhidos
-  const res = [];
-  let i = 0;
-  const ordem = selecionados.slice(); // round-robin pelos temas escolhidos
+    // Buckets por tema
+    const buckets = new Map();
+    selecionados.forEach(t => buckets.set(t, []));
+    pool.forEach(q => {
+      const ts = q.temas || [];
+      selecionados.forEach(t => { if (ts.includes(t)) buckets.get(t).push(q); });
+    });
+    buckets.forEach((arr, t) => buckets.set(t, embaralhar(arr)));
 
-  while (res.length < qtd && buckets.size) {
-    const tema = ordem[i % ordem.length];
-    const arr = buckets.get(tema);
+    const usados = new Set();
+    const res = [];
+    let i = 0;
+    const ordem = selecionados.slice(); // round-robin
 
-    if (arr && arr.length) {
-      // pula itens já usados no topo
-      while (arr.length && usados.has(arr[arr.length - 1])) arr.pop();
-      if (arr.length) {
-        const q = arr.pop();
-        usados.add(q);
-        res.push(q);
+    while (res.length < qtd && buckets.size) {
+      const tema = ordem[i % ordem.length];
+      const arr = buckets.get(tema);
+      if (arr && arr.length) {
+        while (arr.length && usados.has(arr[arr.length - 1])) arr.pop();
+        if (arr.length) {
+          const q = arr.pop();
+          usados.add(q);
+          res.push(q);
+        } else {
+          buckets.delete(tema);
+        }
       } else {
         buckets.delete(tema);
       }
-    } else {
-      buckets.delete(tema);
+      i++;
     }
-    i++;
+
+    if (res.length < qtd) {
+      const resto = embaralhar(pool.filter(q => !usados.has(q)));
+      res.push(...resto.slice(0, qtd - res.length));
+    }
+    return res.slice(0, qtd);
   }
 
-  // Completa com quaisquer remanescentes do pool sem duplicar
-  if (res.length < qtd) {
-    const resto = embaralhar(pool.filter(q => !usados.has(q)));
-    res.push(...resto.slice(0, qtd - res.length));
+  // IA: helpers e botões
+  function formatarAlternativasParaPrompt(alts){
+    return alts.map(s=>s.replace(/\s+/g,' ').trim()).join(' | ');
+  }
+  function urlGoogleModoIA(prompt){
+    const base = 'https://www.google.com/search';
+    const q = encodeURIComponent(prompt);
+    return `${base}?hl=pt-BR&udm=50&q=${q}`;
+  }
+  function montarLinksIA(q){
+    const enunciado = q.enunciado.replace(/\s+/g,' ').trim();
+    const alternativas = formatarAlternativasParaPrompt(q.alternativas);
+    const gabarito = q.gabarito;
+    const temaPrincipal = (q.temas && q.temas.length ? q.temas.join(', ') : '');
+
+    const pComentario =
+`Comente e fundamente juridicamente a questão abaixo. Justifique por que o gabarito está correto e refute cada alternativa incorreta com base legal e, se possível, jurisprudência.
+ENUNCIADO: "${enunciado}"
+ALTERNATIVAS: "${alternativas}"
+GABARITO: "${gabarito}"`;
+
+    const pGlossario =
+`Produza um glossário objetivo dos termos jurídicos presentes na questão abaixo. Defina cada termo em até 2 linhas e cite base legal quando aplicável.
+ENUNCIADO: "${enunciado}"
+ALTERNATIVAS: "${alternativas}"`;
+
+    const pPrincipios =
+`Identifique e explique os princípios do direito relacionados à questão abaixo, com referência a doutrina e artigos jurídicos. Resuma cada princípio e mostre a pertinência.
+ENUNCIADO: "${enunciado}"
+ALTERNATIVAS: "${alternativas}"
+GABARITO: "${gabarito}"`;
+
+    const pVideos =
+`Liste 3 vídeos do YouTube que expliquem o tema principal desta questão de forma didática e atual. Dê título e link.
+TEMA PRINCIPAL: "${temaPrincipal}"
+ENUNCIADO: "${enunciado}"`;
+
+    const links = [
+      { rotulo:'Comentário', href:urlGoogleModoIA(pComentario) },
+      { rotulo:'Glossário',  href:urlGoogleModoIA(pGlossario) },
+      { rotulo:'Princípios', href:urlGoogleModoIA(pPrincipios) },
+      { rotulo:'Vídeos',     href:urlGoogleModoIA(pVideos) },
+    ];
+
+    return `<div class="acoes-ia">${
+      links.map(l=>`<a class="btn-acao" target="_blank" rel="noopener" href="${l.href}">${l.rotulo}</a>`).join('')
+    }</div>`;
   }
 
-  return res.slice(0, qtd);
-}
-
-// Render da tela permanece igual; mantendo classes e estrutura atuais
-function renderQuestoesTela(lista){
-  const html = lista.map((q, idx)=>{
-    const numero = idx+1;
-    const alts = q.alternativas.map((a,i)=>`<li class="py-1" data-alt="${letras[i]}" role="button" tabindex="0">${a}</li>`).join('');
-    return `
-    <section class="questao py-2" data-q="${idx}">
-      <div class="meta">${q.meta}</div>
-      <h4 class="enunciado mt-1">${numero}) ${q.enunciado}</h4>
-      <ul class="alternativas mt-2 space-y-1">${alts}</ul>
-      <div class="feedback mt-2 text-sm"></div>
-      <div class="separador"></div>
-    </section>`;
-  }).join('');
-  artigo.innerHTML = html;
-}
+  // Render tela
+  function renderQuestoesTela(lista){
+    const html = lista.map((q, idx)=>{
+      const numero = idx+1;
+      const alts = q.alternativas.map((a,i)=>`<li class="py-1" data-alt="${letras[i]}" role="button" tabindex="0">${a}</li>`).join('');
+      return `
+      <section class="questao py-2" data-q="${idx}">
+        <div class="meta">${q.meta}</div>
+        <h4 class="enunciado mt-1">${numero}) ${q.enunciado}</h4>
+        <ul class="alternativas mt-2 space-y-1">${alts}</ul>
+        <div class="feedback mt-2 text-sm"></div>
+        <div class="separador"></div>
+      </section>`;
+    }).join('');
+    artigo.innerHTML = html;
+  }
 
   // Render impressão: sem meta
   function renderQuestoesPrint(lista){
@@ -241,13 +286,17 @@ function renderQuestoesTela(lista){
     if(alt===correta){
       li.style.backgroundColor='rgba(16,185,129,0.15)';
       li.style.borderRadius='8px';
-      fb.innerHTML=`<span class="inline-block rounded-md px-2 py-1 bg-emerald-50 border border-emerald-200 text-emerald-700">Parabéns, você acertou. Gabarito: ${correta}</span>`;
+      fb.innerHTML =
+        `<span class="inline-block rounded-md px-2 py-1 bg-emerald-50 border border-emerald-200 text-emerald-700">Parabéns, você acertou. Gabarito: ${correta}</span>` +
+        montarLinksIA(q);
     }else{
       li.style.backgroundColor='rgba(239,68,68,0.15)';
       li.style.borderRadius='8px';
       const right = Array.from(sec.querySelectorAll('.alternativas li')).find(n=>n.getAttribute('data-alt')===correta);
       if(right){right.style.outline='2px solid rgba(16,185,129,0.6)'; right.style.borderRadius='8px';}
-      fb.innerHTML=`<span class="inline-block rounded-md px-2 py-1 bg-red-50 border border-red-200 text-red-700">Resposta incorreta. Gabarito: ${correta}</span>`;
+      fb.innerHTML =
+        `<span class="inline-block rounded-md px-2 py-1 bg-red-50 border border-red-200 text-red-700">Resposta incorreta. Gabarito: ${correta}</span>` +
+        montarLinksIA(q);
     }
   }
   function onKeyAlternativa(e){
