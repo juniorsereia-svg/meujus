@@ -36,17 +36,19 @@
     #screenArea #chips .chip{font-size:0.75rem;padding:2px 6px}
     #screenArea .combo-input::placeholder{font-size:0.85rem;color:#9ca3af}
 
+    #printArea{ display:none; }
+
     /* PRINT: 2 colunas, margens 20mm, gap 15mm, sem meta */
     @media print {
-      @page { size: A4; margin: 20mm; }
+      @page { size: A4; margin: 10mm; }
       html, body { background:#fff !important; -webkit-print-color-adjust:exact; print-color-adjust:exact }
 
       header, footer, .no-print, #screenArea { display:none !important }
       #printArea { display:block !important }
 
       #printArea{
-        column-count:2; column-gap:15mm; column-fill:balance;
-        column-rule:0.2mm solid #cbd5e1; margin:0; padding:0
+        column-count:2; column-gap:10mm; column-fill:balance;
+        column-rule:0.1mm solid #cbd5e1; margin:0; padding:0
       }
 
       .enunciado{font-size:0.90rem !important; line-height:1.5; color:#111827 !important; text-align:justify; hyphens:auto; -webkit-hyphens:auto}
