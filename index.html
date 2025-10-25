@@ -61,6 +61,15 @@
     }
     .btn-acao:hover{background:#f8fafc}
 
+    /* Botão redondo Substituir questão */
+    .btn-substituir{
+      display:inline-flex; align-items:center; justify-content:center;
+      width:28px; height:28px; border-radius:9999px;
+      border:1px solid #e5e7eb; background:#fff; font-size:.9rem; line-height:1;
+      cursor:pointer
+    }
+    .btn-substituir:hover{background:#f8fafc}
+
     /* PRINT: 2 colunas, margens 10mm, gap 10mm, sem meta */
     @media print {
       @page { size: A4; margin: 10mm; }
@@ -72,7 +81,7 @@
       #printArea{
         column-count:2;
         column-gap:10mm;
-        column-fill:auto;                 /* coluna 1 enche antes de começar coluna 2 */
+        column-fill:auto;
         column-rule:0.1mm solid #cbd5e1;
         margin:0; padding:0;
       }
@@ -94,7 +103,8 @@
         break-inside: avoid;
       }
       .meta{ display: none !important; }
-      .acoes-ia{ display:none !important; }  /* não imprime botões IA */
+      .acoes-ia{ display:none !important; }
+      .btn-substituir{ display:none !important; }
       .questao{ break-inside: auto; page-break-inside: auto; }
       .separador{ margin:6px 0; border-bottom:1px solid #d1d5db }
       #printArea *{ box-shadow:none !important }
