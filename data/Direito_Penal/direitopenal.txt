@@ -1,19 +1,1069 @@
-* Ano: 2024 | Banca: ICECE | Órgão: Prefeitura de Aratuba - CE 
-** A Lei Federal nº 7.716, de 5 de janeiro de 1989 que trata dos crimes resultantes de preconceito de raça ou cor foi alterada pela Lei Federal 14.532/2023 para incluir o Artigo 2º-A que prevê que aquele que injuriar alguém ofendendo-lhe a dignidade ou o decoro, em razão de raça, cor, etnia ou procedência nacional será punido com pena de: 
-*** A) Detenção simples, de dois a cinco meses e multa. 
-*** B) Reclusão, de dois a cinco anos e multa. 
-*** C) Reclusão, de dois a quatro anos e multa. 
-*** D) Detenção simples, de seis meses a um ano e multa. 
-**** Gabarito: B 
-***** Legislação Especial 
-****** Direito Penal 
------ 
-* Ano: 2024 | Banca: CESPE / CEBRASPE | Órgão: Prefeitura de Cachoeiro de Itapemirim - ES 
-** Em relação ao crime tentado e ao arrependimento posterior, julgue o item a seguir. 
-** Ao se estabelecer o critério de diminuição da pena prevista para o crime tentado, deve-se levar em consideração o *iter criminis* percorrido pelo agente. 
-*** A) Certo 
-*** B) Errado 
-**** Gabarito: A 
-***** Tipicidade 
-****** Direito Penal 
+* Ano: 2025 | Banca: FGV | Órgão: MPE-RJ
+** O Ministério Público do Estado *Alfa* ajuizou ação penal em face de João pela prática de crime. Ao final da relação processual, com estrita observância das garantias do contraditório e da ampla defesa, João foi condenado, sendo-lhe aplicadas as sanções de multa e privativa de liberdade. Após cumprir a pena privativa de liberdade, João requereu a extinção da punibilidade, sem ter pago a multa. O órgão de execução com atribuição, ao analisar a pendência no recolhimento da multa e os distintos aspectos afetos ao requerimento de João, observou corretamente que
+*** A) a multa consubstancia dívida de valor, não sanção criminal, logo, o requerimento deve ser deferido.
+*** B) a multa é aplicada no âmbito penal, mas consubstancia dívida de valor, competindo à Fazenda Pública executá-la.
+*** C) o requerimento de João somente pode ser acolhido caso seja demonstrada a fluência do prazo prescricional para a execução da multa.
+*** D) a reprimenda aplicada a João consubstancia um todo monolítico, formado pelas duas sanções, logo, o inadimplemento da multa sempre irá obstar a extinção da punibilidade.
+*** E) a multa consubstancia sanção criminal, cabendo ao Ministério Público a primazia de sua execução, sendo que, em certas situações, o seu inadimplemento não obstará a extinção da punibilidade.
+**** Gabarito: E
+***** Pena
+****** Direito Penal
+-----
+* Ano: 2025 | Banca: FGV | Órgão: MPE-RJ
+** Em uma investigação complexa, apurou-se que um grupo criminoso, atuante em 2005 2004, praticava o crime de tráfico de drogas. Os lucros obtidos direta e indiretamente com essa atividade ilícita eram sistematicamente ocultados e dissimulados por meio da aquisição de imóveis de luxo em nome de terceiros e da movimentação de grandes somas em contas bancárias, o que restou descoberto somente em 2025. A denúncia pelo crime de lavagem de dinheiro foi oferecida e recebida. No curso do processo, a defesa de um dos acusados alegou que o crime de tráfico de drogas, que serviu de antecedente para a lavagem de dinheiro, estaria prescrito e que, por consequência, o crime de lavagem de dinheiro também não poderia ser punido. Considerando a Lei nº 9.613/1998 e a jurisprudência consolidada do Superior Tribunal de Justiça, assinale a afirmativa correta.
+*** A) A prescrição do crime antecedente de tráfico de drogas impede a persecução penal do crime de lavagem de dinheiro, uma vez que este é um crime acessório e depende da punibilidade da infração anterior.
+*** B) A lavagem de dinheiro é um crime autônomo, mas a prescrição do crime antecedente de tráfico de drogas afasta a materialidade da lavagem, tornando a conduta atípica.
+*** C) A prescrição do crime antecedente de tráfico de drogas não impede a persecução penal do crime de lavagem de dinheiro, pois este possui autonomia em relação à infração anterior, exigindo-se apenas a existência de indícios suficientes da prática do crime antecedente.
+*** D) Para a punição do crime de lavagem de dinheiro é indispensável a condenação definitiva pelo crime antecedente de tráfico de drogas, de modo que a prescrição deste último impede a condenação pela lavagem.
+*** E) A autonomia do crime de lavagem de dinheiro em relação ao crime antecedente só se aplica se a infração antecedente for de menor potencial ofensivo, o que não é o caso do tráfico de drogas.
+**** Gabarito: C
+***** Lei da Lavagem de Dinheiro
+****** Direito Penal
+-----
+* Ano: 2025 | Banca: FGV | Órgão: MPE-RJ
+** Tício, empresário do ramo de construção civil, obteve, mediante fraude em licitação pública, a quantia de R$ 5.000.000,00 (cinco milhões de reais). Para dar aparência de legalidade ao dinheiro ilícito, Tício, utilizando-se da própria sociedade empresária beneficiária da fraude, da qual é sócio gestor, simulou a venda de um imóvel de alto valor para uma de suas outras sociedades empresárias de fachada, recebendo o pagamento com o dinheiro proveniente da fraude. Posteriormente, ele usou parte desse valor para adquirir um luxuoso iate em nome de um “laranja”, com o objetivo de ocultar a origem e a propriedade do bem. Em nenhum momento, Tício buscou a ajuda de terceiros para realizar as operações de ocultação ou dissimulação, agindo sempre de forma autônoma. Sobre o crime de lavagem de dinheiro, especialmente no que tange à “autolavagem”, considerando o entendimento consolidado do Supremo Tribunal Federal (STF), assinale a afirmativa correta.
+*** A) A conduta de Tício configura o crime de lavagem de dinheiro, pois, embora tenha sido o próprio autor da infração penal antecedente (fraude na licitação), ele praticou atos subsequentes e autônomos de ocultação e dissimulação dos valores e bens, com o objetivo de integrar o capital ilícito na economia formal, sendo irrelevante a ausência de participação de terceiros.
+*** B) A conduta de Tício não configura o crime de lavagem de dinheiro, uma vez que a “autolavagem” não é tipificada de forma autônoma na legislação penal brasileira, e a ocultação ou dissimulação dos bens e valores é inerente à consumação do crime antecedente, aplicando-se o princípio da consunção.
+*** C) Para a configuração do crime de lavagem de dinheiro na modalidade “autolavagem”, seria imprescindível a participação de terceiros na cadeia de ocultação ou dissimulação dos bens e valores, o que não ocorreu na situação narrada, descaracterizando o delito.
+*** D) A aquisição do iate em nome de um “laranja” configura mero exaurimento do crime de fraude na licitação, não havendo autonomia suficiente para caracterizar o crime de lavagem de dinheiro, pois a finalidade principal de Tício era usufruir do produto do crime antecedente.
+*** E) O crime de lavagem de dinheiro na modalidade “autolavagem” somente se configura quando o agente pratica atos de ocultação ou dissimulação que não possuem qualquer relação com a infração penal antecedente, o que não se verificou na situação narrada, em que o dinheiro é proveniente diretamente da fraude na licitação.
+**** Gabarito: A
+***** Lei da Lavagem de Dinheiro
+****** Direito Penal
+-----
+* Ano: 2025 | Banca: FGV | Órgão: MPE-RJ
+** Carlos foi preso em flagrante por traficar 1 kg de cocaína e, na audiência de custódia, a pedido do Ministério Público, a prisão em flagrante foi convertida em preventiva. No inquérito policial apurou-se que ele já fora investigado por um crime de roubo e fora condenado, sem trânsito em julgado, por furto praticado há quase cinco anos. Denunciado e processado, Carlos foi condenado pelo crime de tráfico de drogas (Art. 33, caput, da Lei nº 11.343/2006), mas o Juiz, sob o argumento de que os inquéritos e a outra Ação Penal em curso indicavam seus maus antecedentes e sua dedicação a atividades criminosas, afastou a aplicação da causa de diminuição de pena prevista no § 4º do mesmo artigo (§ 4º Nos delitos definidos no caput e no § 1º deste artigo, as penas poderão ser reduzidas de um sexto a dois terços, desde que o agente seja primário, de bons antecedentes, não se dedique às atividades criminosas nem integre organização criminosa). Considerando a jurisprudência dominante do Superior Tribunal de Justiça, assinale a afirmativa correta.
+*** A) A decisão do Juiz contraria a jurisprudência do STJ, que veda a utilização de inquéritos e/ou as ações penais em curso para impedir a aplicação da causa de diminuição de pena do Art. 33, § 4º, da Lei nº 11.343/2006.
+*** B) A quantidade de cocaína apreendida (1 kg) é, por si só, um fator impeditivo para a aplicação da causa de diminuição de pena do Art. 33, § 4º, da Lei nº 11.343/2006, independentemente da primariedade e dos bons antecedentes do agente.
+*** C) A decisão do Juiz de primeira instância está em consonância com o entendimento do STJ, pois a existência de inquéritos e ações penais em curso, mesmo sem trânsito em julgado, é suficiente para demonstrar a dedicação do agente a atividades criminosas e, consequentemente, afastar a aplicação do tráfico privilegiado.
+*** D) Para a aplicação da causa de diminuição do tráfico privilegiado, basta que o agente não possua qualquer registro criminal, incluindo inquéritos e ações penais em curso, sob pena de desvirtuar a finalidade da norma.
+*** E) A aplicação da causa de diminuição pelo tráfico privilegiado não pode ter sua aplicação afastada, tendo como fundamento as investigações preliminares ou os processos criminais em andamento, a não ser que estejam em fase recursal com acórdão condenatório em segunda instância.
+**** Gabarito: A
+***** Lei de Drogas
+****** Direito Penal
+-----
+* Ano: 2025 | Banca: FGV | Órgão: MPE-RJ
+** Durante uma operação policial de combate ao crime organizado, um indivíduo, conhecido por sua atuação em uma facção criminosa, foi preso em flagrante em um imóvel que funcionava como ponto de armazenamento e distribuição de drogas. Em sua posse, foi encontrada uma quantidade significativa de diferentes tipos de droga, prontas para a venda, e uma pistola de uso restrito, municiada e carregada. A investigação, com base em depoimentos e elementos colhidos no local, demonstrou que a referida arma de fogo era empregada habitualmente pelo indivíduo para a defesa do ponto de venda das drogas e para ameaçar e coagir tanto compradores inadimplentes quanto rivais, com o objetivo claro de assegurar o domínio territorial e o sucesso de suas atividades ilícitas. Sobre o caso narrado, considerando a jurisprudência consolidada do Superior Tribunal de Justiça (STJ), assinale a afirmativa correta.
+*** A) O indivíduo deve responder pelos crimes de tráfico de drogas (Art. 33, caput, da Lei nº 11.343/2006) e porte ilegal de arma de fogo de uso restrito (Art. 16 da Lei nº 10.826/2003) em concurso material, pois os bens jurídicos tutelados por cada delito são distintos, afastando-se qualquer hipótese de absorção.
+*** B) A conduta de porte ilegal de arma de fogo de uso restrito deve ser absorvida pelo crime de tráfico de drogas, com a aplicação da majorante do Art. 40, inciso IV, da Lei nº 11.343/2006, em razão da evidência de nexo finalístico entre o uso da arma e a atividade de traficância.
+*** C) O indivíduo deve ser punido exclusivamente pelo crime de tráfico de drogas, sem a incidência de qualquer majorante, pois a arma de fogo, nesse contexto, constitui mero instrumento da atividade criminosa, sendo o delito de porte absorvido pelo princípio da subsidiariedade.
+*** D) As condutas configuram crime continuado, dado o caráter permanente do tráfico de drogas e a habitualidade do porte de arma, devendo ser aplicada apenas a pena do delito mais grave, com acréscimo em razão da continuidade delitiva.
+*** E) Deve-se aplicar o concurso formal de crimes, pois as condutas de portar a arma e traficar drogas foram praticadas mediante uma única ação, resultando em dois crimes distintos, mas com desígnios autônomos.
+**** Gabarito: B
+***** Lei de Drogas
+****** Direito Penal
+-----
+* Ano: 2025 | Banca: FGV | Órgão: MPE-RJ
+** Omar é administrador e gestor da folha de pagamento dos servidores públicos do Município Alfa . Ele descontou dos contracheques dos servidores os valores relativos a empréstimos que foram consignados regularmente pelos servidores junto a instituições financeiras. Omar, no entanto, não repassou os valores para as instituições, transferindo-os para a conta-corrente de Paulina, sua namorada e estudante universitária, que ajustara com ele toda a dinâmica dos fatos. Diante do caso apresentado, à luz do Código Penal, assinale a afirmativa correta.
+*** A) Omar e Paulina cometeram crime de peculato próprio.
+*** B) Omar e Paulina cometeram crime de peculato impróprio.
+*** C) Omar cometeu crime de peculato próprio e Paulina, crime de receptação.
+*** D) Omar cometeu crime de estelionato e Paulina, crime de receptação.
+*** E) Omar cometeu crime de peculato impróprio e Paulina, crime de receptação.
+**** Gabarito: A
+***** Crimes contra a administração pública
+****** Direito Penal
+-----
+* Ano: 2025 | Banca: FGV | Órgão: MPE-RJ
+** Madalena, por estar insatisfeita com o trabalho realizado por Natanael, pedreiro, na reforma de seu banheiro, mandou mensagem de áudio privada a ele, por aplicativo de mensagens, na qual apontou falhas na obra (que de fato existiam) e o chamou de “porco”. A mensagem foi enviada no dia 9 de julho, da residência de Madalena, situada em Itaperuna, e foi ouvida por Natanael no dia seguinte, no interior de um ônibus, trafegando por via pública, situada em Natividade. Diante do caso narrado, Madalena praticou o crime de
+*** A) injúria, no dia 9 de julho, consumando-se o delito em Natividade.
+*** B) difamação, no dia 9 de julho, consumando-se o delito em Natividade.
+*** C) injúria, no dia 10 de julho, consumando-se o delito em Natividade.
+*** D) difamação, no dia 9 de julho, consumando-se o delito em Itaperuna.
+*** E) injúria, no dia 10 de julho, consumando-se o delito em Itaperuna.
+**** Gabarito: A
+***** Crimes contra a pessoa
+****** Direito Penal
+-----
+* Ano: 2025 | Banca: FGV | Órgão: MPE-RJ
+** O Magistrado, ao efetuar a dosimetria da pena de um réu por crime de receptação, fato praticado em 8 de julho de 2021, constatou, em sua folha de antecedentes criminais, duas anotações: • condenação criminal por crime de furto, praticado em 12 de junho de 2019, com trânsito em julgado para a condenação em 3 de março de 2021, cujo processo ainda está pendente de julgamento de recurso especial interposto pela defesa perante o Superior Tribunal de Justiça; e • condenação criminal por crime de roubo circunstanciado, praticado em 7 de agosto de 2012, com condenação a 4 anos de reclusão e multa, transitada em julgado em 7 de março de 2014, com início do período de prova do livramento condicional em 2 de junho de 2016 e extinção da pena, pelo término do período de prova sem revogação, em 1º de junho de 2020. Diante das citadas anotações, o Juiz, na 1ª fase do cálculo da pena, fixou a pena-base acima do mínimo cominado em lei, considerando mau antecedente a primeira anotação, e, na fase seguinte, agravou a pena pela reincidência, à luz da segunda anotação, tornando a pena definitiva à falta de causa de aumento ou de diminuição. Intimado o Promotor de Justiça da sentença, ele deverá
+*** A) anuir com a dosimetria da pena, e, no ponto, não recorrer da sentença.
+*** B) discordar da dosimetria da pena somente em relação ao reconhecimento de reincidência pela segunda anotação e, no ponto, recorrer da sentença.
+*** C) discordar da dosimetria da pena apenas no que tange ao reconhecimento de mau antecedente pela primeira anotação e, no ponto, recorrer da sentença.
+*** D) discordar da dosimetria da pena, já que a primeira anotação não poderia ser considerada mau antecedente, e a segunda anotação não caracterizaria reincidência, mas mau antecedente, e, no ponto, recorrer da sentença.
+*** E) discordar da dosimetria da pena apenas em relação ao reconhecimento de mau antecedente pela primeira anotação, a qual deveria ser considerada como reincidência, assim como a segunda anotação, e, no ponto, recorrer da sentença.
+**** Gabarito: D
+***** Pena
+****** Direito Penal
+-----
+* Ano: 2025 | Banca: FGV | Órgão: MPE-RJ
+** Kátia apresenta-se publicamente como mística e paranormal, mas não passa de uma vigarista. Ao atender a rica empresária Lucrécia, que lhe confidenciou estar vivendo problemas familiares (adultério do marido e uso de drogas ilícitas pelo filho mais velho), Kátia, durante consulta supostamente espiritual, afirmou, falsamente, que tudo isso era obra de um antigo demônio, que a estava “amarrando”, e que era necessário um trabalho espiritual urgente, ou as coisas iriam piorar ainda mais, já que a entidade em questão só sossegaria com a morte de alguém. Segundo a falsária, estaria para acontecer alguma tragédia com ela ou com seus familiares. Kátia, então, solicitou a Lucrécia que fizesse um Pix, em seu favor, no valor de R$ 5.000,00 (cinco mil reais). Muito assustada com as revelações e temendo pela própria vida ou de algum familiar próximo, Lucrécia realizou o pagamento. Diante do caso narrado, Kátia praticou
+*** A) extorsão.
+*** B) estelionato.
+*** C) fato atípico.
+*** D) charlatanismo.
+*** E) curandeirismo.
+**** Gabarito: A
+***** Crimes contra o patrimônio
+****** Direito Penal
+-----
+* Ano: 2025 | Banca: FGV | Órgão: MPE-RJ
+** No dia 2 de julho de 2025, às 3 horas da madrugada, na cidade de Duque de Caxias, RJ, Inácio, juntamente com Jorgina, inimputável por doença mental, retirou uma tampa metálica de bueiro de instalação de energia, pertencente à sociedade empresária concessionária de serviço público, localizada na via pública, no intuito de vendê-la como sucata a um ferro-velho clandestino. O bem em questão valia R$ 720,00 (setecentos e vinte reais). Inácio possui anotação em sua folha criminal por crime de lesão corporal, na qual foi concedida suspensão condicional da pena, cujo período de prova se iniciou em 3 de março de 2019; a pena extinguiu-se em 2 de março de 2024, em decorrência do término do período de prova sem revogação. Diante do caso narrado, à luz da jurisprudência do Superior Tribunal de Justiça, Inácio cometeu crime de furto
+*** A) qualificado.
+*** B) qualificado privilegiado.
+*** C) circunstanciado pelo repouso noturno.
+*** D) qualificado, com a incidência da causa de aumento de pena do repouso noturno.
+*** E) qualificado privilegiado, com a incidência da causa de aumento de pena do repouso noturno.
+**** Gabarito: B
+***** Crimes contra o patrimônio
+****** Direito Penal
+-----
+* Ano: 2025 | Banca: FGV | Órgão: MPE-RJ
+** Gilles, prostituto, mandou mensagem de texto para Homero, seu cliente, homem casado, às 22h, dizendo-lhe que se ele não transferisse R$ 5.000,00 (cinco mil reais) para sua conta, em até uma hora, via Pix, publicaria, em rede social aberta, vídeos íntimos, gravados clandestinamente, em que eles apareciam tendo relações sexuais. Temendo a ameaça, Homero tentou fazer a transferência, porém, devido ao horário, somente conseguiu transferir a importância de R$ 2.000,00 (dois mil reais) para a conta de Gilles, a quem explicou a restrição de valor para a transferência demandada. Gilles, irritado com o acontecido, publicou em rede social aberta, imagens por ele geradas, com o uso de inteligência artificial, a partir de um filme pornográfico comercial, em que dois homens faziam sexo, nas quais os rostos dos atores foram substituídos pelos de Homero e Gilles. Diante do caso narrado, Gilles cometeu o(s) crime(s) de
+*** A) extorsão, apenas.
+*** B) extorsão, na forma tentada.
+*** C) extorsão e registro não autorizado da intimidade sexual, apenas.
+*** D) extorsão, na forma tentada, e divulgação de cena de estupro ou de cena de estupro de vulnerável, de cena de sexo ou de pornografia.
+*** E) extorsão, registro não autorizado da intimidade sexual e divulgação de cena de estupro ou de cena de estupro de vulnerável, de cena de sexo ou de pornografia.
+**** Gabarito: E
+***** Crimes contra o patrimônio
+****** Direito Penal
+-----
+* Ano: 2025 | Banca: FGV | Órgão: MPE-RJ
+** Diva recebeu, em sua residência, Elmo, criança de 5 anos de idade, filho da vizinha, para que esta pudesse ir com a mãe ao médico. Felisberto, companheiro de Diva, aproveitando que estava sozinho com o menor na sala, já que Diva estava tomando banho, perguntou à criança se ela gostaria de um picolé. Ante a resposta afirmativa, ele colocou seu pênis para fora da bermuda, e o masturbou até que ficasse ereto. Ato contínuo, falou para a criança chupá-lo, pois tinha gosto de picolé. Quando o menino iniciou a aproximação de sua boca ao órgão genital de Felisberto, Diva os flagrou e gritou para que Elmo não o fizesse. A criança obedeceu à ordem, ao passo que Felisberto se recompôs e deixou o local às pressas. Diante do caso narrado, Felisberto cometeu o(s) crime(s) de
+*** A) ato obsceno.
+*** B) estupro de vulnerável, na forma tentada
+*** C) corrupção de menores, na forma tentada
+*** D) satisfação da lascívia mediante presença de criança ou adolescente e estupro de vulnerável, este na forma tentada.
+*** E) favorecimento da prostituição ou de outra forma de exploração sexual de criança, adolescente ou vulnerável, na forma tentada.
+**** Gabarito: B
+***** Crimes contra a dignidade sexual
+****** Direito Penal
+-----
+* Ano: 2025 | Banca: FGV | Órgão: MPE-RJ
+** Catarina, mãe de Júnior, de 5 anos de idade, ao passear com o filho no jardim zoológico, decidiu fotografá-lo em frente à jaula do tigre, e, para tanto, pediu que a criança se posicionasse bem próxima à grade. Em dado momento, passou pela cabeça de Catarina a possibilidade de um acidente, caso a criança se aproximasse demais da jaula, porém ela supôs, sinceramente, que isso não iria acontecer, visto que o animal estava posicionado nos fundos da jaula. Quando Júnior encostou na grade, o tigre rapidamente foi ao seu encontro, e, com um golpe de sua pata dianteira esquerda, rasgou a garganta da criança, que morreu imediatamente. Diante do caso narrado, Catarina
+*** A) não cometeu crime, pois é um caso de perdão judicial.
+*** B) cometeu o crime de homicídio doloso (dolo eventual).
+*** C) cometeu o crime de homicídio culposo (culpa consciente).
+*** D) cometeu o crime de homicídio culposo (culpa inconsciente).
+*** E) não cometeu crime, pois a morte da criança decorreu de acidente.
+**** Gabarito: C
+***** Crimes contra a pessoa
+****** Direito Penal
+-----
+* Ano: 2025 | Banca: FGV | Órgão: MPE-RJ
+** Alberto, aproveitando-se do fato de que a vizinha foi trabalhar, e deixou a filha, Bianca, de 15 anos de idade, sozinha em casa, bate em sua porta, sob o pretexto de pedir açúcar emprestado. Quando Bianca voltou com o pacote de açúcar, Alberto começou a dizer que ela era muito bonita e atraente, e que gostaria de “ficar” com ela, a quem ofereceu a importância de R$ 100,00 (cem reais), caso eles tivessem relações sexuais. Bianca aceitou a proposta e eles tiveram conjunção carnal na residência da menor, a qual não era virgem, pois perdera a virgindade, aos 13 anos, com o então namorado, também adolescente. Diante do caso narrado, Alberto cometeu
+*** A) fato atípico.
+*** B) crime de estupro de vulnerável.
+*** C) crime de corrupção de menores.
+*** D) crime de satisfação de lascívia mediante presença de criança ou adolescente.
+*** E) crime de favorecimento da prostituição ou de outra forma de exploração sexual de criança ou adolescente.
+**** Gabarito: D
+***** Crimes contra a dignidade sexual
+****** Direito Penal
+-----
+* Ano: 2025 | Banca: FCC | Órgão: DPE-AM
+** João tem 65 anos e foi vítima de um crime. De acordo com o que vem disposto no código penal, em razão da idade de João,
+*** A) incide qualificadora caso se trate de crime de estelionato.
+*** B) incide excludente de imputabilidade caso se trate de crime de furto qualificado.
+*** C) encontra-se presente uma das elementares do crime de abandono material.
+*** D) o prazo prescricional do crime, qualquer que seja ele, é aumentado de metade.
+*** E) o crime de constrangimento ilegal ser apenado com reclusão e multa.
+**** Gabarito: C
+***** Causas de extinção da punibilidade
+****** Direito Penal
+-----
+* Ano: 2025 | Banca: FCC | Órgão: DPE-AM
+** A mulher presa
+*** A) tem direito a prioridade no processamento de pedidos de progressão de regime e demais direitos no processo de execução penal.
+*** B) pode exigir acompanhamento médico no pós-parto mesmo sem previsão legal expressa.
+*** C) gestante, condenada pelo crime de roubo com emprego de arma de fogo, quando primária, deve cumprir 40% da pena pаra progredir de regime.
+*** D) tem direito à justiça reprodutiva plena, incluindo contracepção voluntária e interrupção legal da gravidez, segundo as Regras de Bangkok.
+*** E) tem direito a amamentar seu filho até, no máximo, 6 meses de vida, garantido, com isso, o direito à remição equiparada ao trabalho.
+**** Gabarito: C
+***** Lei de Execução Penal
+****** Direito Penal
+-----
+* Ano: 2025 | Banca: FCC | Órgão: DPE-AM
+** O trabalho
+*** A) interno é obrigatório e são vedadas objeções com relação à aptidão e capacidade para se eximir dessa obrigação.
+*** B) do preso não é regido pela CLT, motivo pelo qual pode ocorrer ininterruptamente durante os sete dias da semana.
+*** C) interno em serviços gerais e obras na unidade prisional confere direito à remição, mas impede a remuneração.
+*** D) externo para entidade privada só pode ser realizado com consentimento expresso do preso.
+*** E) externo é vedado a presos do regime fechado.
+**** Gabarito: D
+***** Lei de Execução Penal
+****** Direito Penal
+-----
+* Ano: 2025 | Banca: FCC | Órgão: DPE-AM
+** Giovana, primária e de bons antecedentes, foi denunciada pela prática dos delitos previstos no artigo 129, caput, do Código Penal (pena: 3 meses a 1 ano), e no artigo 140, §3º, do Código Penal (pena: 1 ano a 3 anos), em concurso material, pois no dia 24 de novembro de 2018, durante a comemoração do seu aniversário de 20 anos, teria agredido e ofendido sua vizinha, chamando-a de "aleijadinha". A denúncia foi recebida em 15 de janeiro de 2019, mas a ré não foi localizada para ser citada, tendo sido determinada sua citação por edital. Não tendo a ré comparecido nem constituído advogado, o juiz determinou a suspensão do processo em 17 de março de 2019, nos termos do artigo 366, do Código de Processo Penal. Em 20 de janeiro de 2024 a ré compareceu ao cartório e foi citada do processo, tendo o juiz na mesma data revogado a suspensão. Designada audiência de instrução para 25 de maio de 2025, o Defensor Público poderia alegar prescrição da pretensão punitiva pela
+*** A) pena em perspectiva, ocorrida em janeiro de 2021 em relação ao delito de lesão leve, e prescrição da pretensão punitiva pela pena em perspectiva, ocorrida em janeiro de 2022 em relação ao delito de injúria.
+*** B) pena máxima em abstrato, ocorrida em março de 2021 em relação ao delito de lesão leve, e prescrição da pretensão punitiva pela pena máxima em abstrato, ocorrida em março de 2023 em relação ao delito de injúria.
+*** C) pena máxima em abstrato, ocorrida em janeiro de 2023 em relação ao delito de lesão leve, e prescrição da pretensão punitiva pela pena em perspectiva, ocorrida em janeiro de 2025 em relação ao delito de injúria.
+*** D) pena em perspectiva, ocorrida em julho de 2020 em relação ao delito de lesão leve, e prescrição da pretensão punitiva pela pena em perspectiva, ocorrida em janeiro de 2021 em relação ao delito de injúria.
+*** E) pena em concreto, ocorrida em março de 2022 em relação ao delito de lesão leve, e a prescrição da pretensão punitiva pela pena em perspectiva, ocorrida em março de 2025 em relação ao delito de injúria.
+**** Gabarito: B
+***** Causas de extinção da punibilidade
+****** Direito Penal
+-----
+* Ano: 2025 | Banca: FCC | Órgão: DPE-AM
+** Adriano, ciente da morte de seu grande inimigo, Roger, passou a falar para todos os moradores de sua pequena cidade que Roger era um grande bandido, pois era responsável pela receptação de todos os veículos furtados na região. Neste caso,
+*** A) se for processado pelos familiares de Roger, a defesa de Adriano poderá alegar que não é punível a calúnia contra os mortos.
+*** B) por se tratar de delito cometido contra o respeito aos mortos, será incabível o reconhecimento do crime de calúnia.
+*** C) se for processado pelos familiares de Roger, a defesa de Adriano poderá provar a verdade dos fatos, aplicando-se a exceção da verdade.
+*** D) se houver comprovação de que Roger, em vida, havia provocado Adriano diretamente e de forma reprovável, o juiz poderá deixar de aplicar pena.
+*** E) somente será admitida a exceção da verdade se Roger, em vida, tiver sido funcionário público e a ofensa tenha sido relativa ao exercício de suas funções.
+**** Gabarito: E
+***** Crimes contra a pessoa
+****** Direito Penal
+-----
+* Ano: 2025 | Banca: FCC | Órgão: DPE-AM
+** Júlio foi condenado pela prática do delito de furto qualificado pelo concurso de agentes, por haver subtraído, junto de seu irmão Paulo - com 17 anos de idade à época dos fatos -, um veículo automotor que se encontrava estacionado na rua principal de sua cidade. Na sentença condenatória, a pena-base foi elevada pela circunstância judicial dos "antecedentes", uma vez que Júlio possuía uma condenação criminal anterior pelo delito de lesão corporal culposa, transitada em julgado 1 ano antes do cometimento do furto que era julgado. Na segunda fase da dosimetria, foi reconhecida a agravante da reincidência, em razão da mesma condenação criminal anterior pelo delito de lesão corporal culposa, resultando na pena definitiva de 3 anos de reclusão e pagamento de multa, a ser cumprida em regime inicial fechado. Nesse caso,
+*** A) o concurso de agentes deveria ser afastado na situação descrita, uma vez que o irmão de Júlio era adolescente à época do fato criminoso.
+*** B) apesar da reincidência, a pena privativa de liberdade poderia ser substituída por restritivas de direitos.
+*** C) não há qualquer vedação na utilização da mesma condenação para aumento da pena na primeira e segunda fases da dosimetria.
+*** D) seria impossível a fixação de regime prisional menos gravoso, diante da reincidência de Júlio.
+*** E) por se tratar de um delito cometido junto de um adolescente, deveria ser afastado o concurso de agentes, reconhecendo-se, em seu lugar, a prática de delito de corrupção de menores.
+**** Gabarito: D
+***** Pena
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: FGV | Órgão: TCE-PA
+** Manoela, com intenção de matar, efetuou um disparo de arma de fogo em face de Júlio, no dia 01/06/2024. Júlio foi atingido, com gravidade, e foi levado ao hospital por terceiros, onde recebeu efetivo atendimento médico. Entretanto, por complicações decorrentes do projétil de arma de fogo, Júlio veio a falecer em 01/08/2024. Em 10/07/2024 entrou em vigor norma penal que aumenta a pena dos crimes de homicídio praticados pelo emprego de arma de fogo, porém, a mesma lei criou uma causa de diminuição de pena aplicável, em tese, ao fato. Observando a situação descrita, e considerando as disposições do Código Penal e a jurisprudência dos Tribunais Superiores acerca do tema, assinale a afirmativa correta.
+*** A) Considera-se ocorrido o delito no dia 01/08/2024, de forma que a nova lei é inteiramente aplicável ao fato.
+*** B) O delito ocorreu em 01/08/2024. Contudo, deve ser observada a ultratividade da lei penal mais benéfica à Manoela.
+*** C) O delito ocorreu em 01/06/2024, porém, a nova lei retroage, apenas na parte que beneficia a acusada.
+*** D) O delito ocorreu em 01/06/2024, porém, a nova lei só pode ser aplicada ao caso se inteiramente mais favorável à acusada.
+*** E) O momento do crime se protrai entre a conduta e o resultado, de forma que qualquer alteração legislativa havida no período é inteiramente aplicável, ainda que prejudicial.
+**** Gabarito: D
+***** Teoria do crime
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: INSTITUTO AOCP | Órgão: TRF - 2ª REGIÃO
+** A respeito da Lei nº 7.210/1984, denominada Lei de Execução Penal, assinale a alternativa correta.
+*** A) O trabalho do preso será remunerado, mediante prévia tabela, não podendo ser inferior a 1/2 (metade) do salário-mínimo.
+*** B) As tarefas executadas pelo preso como prestação de serviço à comunidade devem ser remuneradas.
+*** C) Ao preso provisório, o trabalho não é obrigatório, contudo, se realizado, poderá ser executado no interior ou exterior do estabelecimento.
+*** D) A prestação de trabalho à entidade privada independe do consentimento expresso do preso.
+*** E) O trabalho externo será admissível para os presos em regime fechado somente em serviço ou obras públicas realizadas por órgãos da Administração Direta ou Indireta, ou entidades privadas, desde que tomadas as cautelas contra a fuga e em favor da disciplina.
+**** Gabarito: E
+***** Lei de Execução Penal
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: INSTITUTO AOCP | Órgão: TRF - 2ª REGIÃO
+** Sobre a aplicação da lei penal, assinale a alternativa correta.
+*** A) É pacífica a doutrina em admitir a retroatividade de precedente judicial quando este for favorável ao acusado, equiparando-se, nesse caso, à retroatividade da lei penal mais benéfica.
+*** B) Para o Superior Tribunal Federal (STF), a complementação de norma penal em branco por ato normativo estadual, distrital ou municipal viola a competência privativa da União para legislar sobre direito penal, nos casos do delito previsto no Art. 268 do Código Penal.
+*** C) Quando, posteriormente à prática da conduta, o complemento de uma norma penal em branco for modificado, se for mais benéfico ao réu, deve retroagir, ainda que diante de uma situação de excepcionalidade.
+*** D) Se for mais favorável ao réu, admite-se a aplicação da lei penal intermediária, considerando possuir, simultaneamente, as características de retroatividade e ultratividade.
+*** E) Configura interpretação endofórica quando o intérprete visa elucidar o alcance e o significado da expressão “veneno” valendo-se de termos que não estão presentes no ordenamento jurídico.
+**** Gabarito: D
+***** Teoria do crime
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: INSTITUTO AOCP | Órgão: TRF - 2ª REGIÃO
+** Na qualidade de policial civil e em razão do exercício da função, João, de forma abusiva, exigiu para si vantagem indevida de determinado cidadão. Diante desse fato, assinale a alternativa correta.
+*** A) O crime praticado por João admite a celebração da transação penal e a suspensão do processo.
+*** B) Em razão da natureza do crime cometido, não há possibilidade de celebração do acordo de não persecução penal.
+*** C) O fato não configura ilícito penal, considerando que João não se utilizou de grave ameaça na solicitação da vantagem indevida.
+*** D) Considerando que o crime praticado por João admite o fracionamento do iter criminis, é possível a tentativa, bem como admitida a modalidade culposa.
+*** E) Para o Supremo Tribunal Federal (STF), embora a condição de funcionário público integre o tipo penal praticado por João, não configura bis in idem a elevação da pena na primeira fase da dosimetria, tendo por base essa mesma função exercida por João.
+**** Gabarito: E
+***** Crimes contra a administração pública
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: INSTITUTO AOCP | Órgão: TRF - 2ª REGIÃO
+** Em relação aos crimes hediondos, na forma do disposto na Lei nº 8.072/1990 e em suas alterações e com base na jurisprudência dos Tribunais Superiores, assinale a alternativa INCORRETA.
+*** A) O porte ou posse de arma de fogo de uso permitido, ainda que com numeração, marca ou qualquer outro sinal de identificação raspado, suprimido ou adulterado, não é considerado crime hediondo.
+*** B) É constitucional a fixação, com base no Art. 2º, § 1º, da Lei nº 8.072/1990, do regime inicial fechado, dispensando-se a análise dos parâmetros previstos no Art. 33 do Código Penal.
+*** C) Considera-se crime hediondo o ato de induzir a suicídio ou a automutilação realizado por meio da rede de computadores.
+*** D) Os condenados por crimes hediondos ou assemelhados cometidos antes da vigência da Lei nº 11.464/2007 devem cumprir 1/6 da pena para fins de progressão de regime.
+*** E) O furto qualificado pelo emprego de explosivo ou de artefato análogo, que cause perigo comum, é crime hediondo.
+**** Gabarito: B
+***** Crimes Hediondos
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: INSTITUTO AOCP | Órgão: TRF - 2ª REGIÃO
+** Acerca da teoria do crime, informe se é verdadeiro (V) ou falso (F) o que se afirma a seguir e assinale a alternativa com a sequência correta. ( ) Através dos ensinamentos da doutrina moderna, a tipicidade penal engloba a tipicidade formal e a tipicidade material, passando a permitir, por exemplo, o reconhecimento da insignificância como hipótese de atipicidade material. ( ) Quando, para configurar o delito, houver necessidade de uma norma de extensão, pode-se afirmar que se está diante de uma tipicidade mediata ou indireta. ( ) A teoria da tipicidade conglobante tem como consequência a transferência do estrito cumprimento de um dever legal e do exercício regular do direito da tipicidade para a ilicitude. ( ) A conduta de tentar matar alguém somente é punível graças ao disposto no Art. 14, II, do Código Penal. Assim, pode-se afirmar que a figura da tentativa é considerada uma norma de extensão temporal.
+*** A) V – V – F – F.
+*** B) F – V – F – F.
+*** C) V – V – F – V.
+*** D) F – V – V – F.
+*** E) V – F – V – V.
+**** Gabarito: C
+***** Tipicidade
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: FURB | Órgão: Prefeitura de Guabiruba - SC
+** Considera-se funcionário público, para os efeitos penais, quem, embora transitoriamente ou sem remuneração, exerce cargo, emprego ou função pública. Sobre os crimes praticados pelos funcionários públicos, analise as afirmativas a seguir: I. Durante a execução de contratos celebrados com a Administração Pública, é crime admitir, possibilitar ou dar causa a qualquer modificação ou vantagem, inclusive prorrogação contratual, em favor do contratado, ainda que com autorização legal. II. É crime divulgar, sem justa causa, conteúdo de documento particular ou de correspondência confidencial, de que é destinatário ou detentor, e cuja divulgação possa produzir dano a outrem. III. O condenado por crime contra a administração pública terá a progressão de regime do cumprimento da pena condicionada à reparação do dano que causou ou à devolução do produto do ilícito praticado, com os acréscimos legais. IV. O crime de peculato consiste em apropriar-se o funcionário público de dinheiro, valor ou qualquer outro bem móvel, público ou particular, de que tem a posse em razão do cargo ou desviá-lo, em proveito próprio ou alheio. V. A concussão consiste em exigir, para si ou para outrem, direta ou indiretamente, ainda que fora da função ou antes de assumi-la, mas em razão dela, vantagem indevida. É correto o que se afirma em:
+*** A) II, III, IV e V, apenas.
+*** B) I, apenas.
+*** C) I, II, III, IV e V.
+*** D) II e V, apenas.
+*** E) I, III e IV, apenas
+**** Gabarito: C
+***** Crimes contra a administração pública
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: Instituto JK | Órgão: Prefeitura de Nina Rodrigues - MA
+** Lucas, sob efeito de álcool, destruiu a porta de entrada da Casa de Cultura do município, e ao ser retirado do local, furou o pneu do carro usado pela guarda municipal impedindo, por algumas horas, a patrulha do dia. Segundo o Código Penal Brasileiro, Lucas:
+*** A) Cometeu crime contra o município e poderá ser intimado em nome do prefeito da cidade.
+*** B) Cometeu crime contra o patrimônio cultural da União.
+*** C) Cometeu crime de vandalismo contra um bem sui generis.
+*** D) Cometeu crime contra o patrimônio público.
+**** Gabarito: D
+***** Crimes contra o patrimônio
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: IDESG | Órgão: Prefeitura de Varre-Sai - RJ
+** O funcionário público que exigir, para si ou para outrem, direta ou indiretamente, ainda que fora da função ou antes de assumi-la, mas em razão dela, vantagem indevida, comete o crime contra administração pública de:
+*** A) Prevaricação.
+*** B) Advocacia administrativa.
+*** C) Concussão.
+*** D) Violação do sigilo funcional.
+**** Gabarito: C
+***** Crimes contra a administração pública
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: OBJETIVA | Órgão: FEAS de Curitiba - PR
+** Uma pesquisa conduzida por J., servidor público, levou à criação de um software que, alinhado às redes sociais, pode ajudar a salvar vidas, auxiliando nas campanhas de doação de órgãos. Nesse sentido, de acordo com a Lei nº 9.609/1998: I. Sempre pertencerão ao órgão público os direitos relativos ao programa de computador, desenvolvido e elaborado durante a vigência de contrato ou de vínculo estatutário. II. Pertencerão, com exclusividade, ao servidor os direitos concernentes a programa de computador gerado com ou sem relação com o contrato de trabalho, prestação de serviços ou vínculo estatutário. III. A proteção aos direitos de que trata esta Lei independe de registro. Está(ão) CORRETO(S):
+*** A) Somente o item I.
+*** B) Somente o item II.
+*** C) Somente o item III.
+*** D) Somente os itens I e III.
+**** Gabarito: C
+***** Crimes contra a propriedade intelectual de programa de computador
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: Instituto Abaré-eté | Órgão: Câmara de Apuí - AM
+** Nos termos da Lei n. 8.137/90, que define os crimes contra a Ordem Tributária, Econômica e contra as relações de Consumo, é crime contra a ordem tributária fazer declaração falsa ou omitir declaração sobre rendas, bens ou fatos, ou empregar outra fraude, para eximir-se, total ou parcialmente, de pagamento de tributo. A pena prevista para esse delito é de:
+*** A) Reclusão, de 01 a 03 anos, e multa.
+*** B) Detenção, de 03 meses a 01 ano, e multa.
+*** C) Detenção, de 06 meses a 02 anos, e multa.
+*** D) Detenção, de 01 a 02 anos, e multa.
+*** E) Reclusão, de 01 a 02 anos, e multa.
+**** Gabarito: B
+***** Crimes contra o Consumidor, a Ordem Econômica e Tributária
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: Instituto JK | Órgão: Prefeitura de Icatu - MA
+** Durante a inspeção de uma obra em andamento para um novo condomínio vertical em sua jurisdição, um fiscal de posturas municipais identificou várias violações das normas de construção. O construtor, ao perceber que suas infrações seriam relatadas, propôs ao fiscal uma unidade no edifício assim que fosse finalizado, sugerindo que em troca, o fiscal deveria ignorar as irregularidades encontradas. O fiscal concordou com o acordo e interrompeu a fiscalização, não reportando as infrações. Contudo, antes que o edifício fosse concluído e o apartamento transferido, a transação foi descoberta por uma investigação interna da administração municipal. Identifique a alternativa correta sobre a conduta do servidor municipal:
+*** A) O servidor cometeu o crime de corrupção passiva.
+*** B) O servidor não cometeu nenhum delito, pois a infração só seria consumada após o recebimento do apartamento.
+*** C) O servidor não cometeu nenhum crime, pois a situação configura um crime impossível devido à ineficácia absoluta do meio.
+*** D) O servidor cometeu o crime de corrupção passiva, mas apenas na forma tentada.
+**** Gabarito: A
+***** Crimes contra a administração pública
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: Instituto JK | Órgão: Prefeitura de Icatu - MA
+** Dentro do âmbito do Direito Penal, os crimes contra a Administração Pública ocupam um lugar de especial relevância, dado o impacto que tais delitos têm sobre a integridade das instituições e a confiança que o cidadão deposita em seus representantes e servidores públicos. Entre esses delitos, encontra-se o ato de solicitar ou receber, para si ou para outrem, direta ou indiretamente, vantagem indevida, ou aceitar a promessa de tal vantagem, em razão da função pública que exerce ou virá a exercer. Este tipo de conduta desonesta mina os alicerces da administração pública e corrompe o sistema de governança, exigindo, por isso, uma resposta firme e inequívoca por parte do sistema de justiça criminal. Considerando a gravidade dessas ações e a necessidade de classificá-las adequadamente dentro do espectro de crimes contra a Administração Pública, é importante analisar as características que definem cada um desses delitos, a fim de identificar corretamente a conduta delituosa descrita. Com base nesse entendimento, examine as opções a seguir e determine qual delas corresponde ao crime cometido por aquele que aceita, para si ou para outrem, direta ou indiretamente, ainda que fora da função ou antes de assumi-la, mas em razão dela, vantagem indevida:
+*** A) Peculato
+*** B) Corrupção passiva
+*** C) Excesso de Exação
+*** D) Concussão
+**** Gabarito: C
+***** Crimes contra a administração pública
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: VUNESP | Órgão: TJ-SP
+** Assinale a alternativa INCORRETA.
+*** A) No erro sobre a ilicitude do fato, o desconhecimento da lei é inescusável. O erro sobre a ilicitude do fato, se evitável, isenta de pena; se inevitável, poderá diminuí-la de um sexto a um terço.
+*** B) O erro sobre elemento constitutivo do tipo legal de crime exclui o dolo, mas permite a punição por crime culposo, se previsto em lei.
+*** C) Tratando-se de descriminantes putativas, é isento de pena quem, por erro plenamente justificado pelas circunstâncias, supõe situação de fato que, se existisse, tornaria a ação legítima. Não há isenção de pena quando o erro deriva de culpa, e o fato é punível como crime culposo.
+*** D) O erro quanto à pessoa contra a qual o crime é praticado não isenta de pena. Não se consideram, neste caso, as condições ou qualidades da vítima, senão as da pessoa contra quem o agente queria praticar o crime.
+**** Gabarito: B
+***** Culpabilidade
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: VUNESP | Órgão: TJ-SP
+** A, escrevente do cartório de notas, reconheceu como verdadeira a firma de B, em documento público, mesmo sabendo da sua falsidade. A conduta de A configura crime de
+*** A) falsidade material de atestado ou certidão.
+*** B) falso reconhecimento de firma ou letra.
+*** C) falsificação de documento público.
+*** D) certidão ou atestado ideologicamente falso.
+**** Gabarito: A
+***** Crimes contra a fé pública
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: VUNESP | Órgão: TJ-SP
+** Causar dano emocional à mulher, que a prejudique e perturbe seu pleno desenvolvimento ou que vise degradá-la ou controlar suas ações, comportamentos, crenças e decisões, mediante ameaça, constrangimento, humilhação, manipulação, isolamento, chantagem, ridicularização, limitação do direito de ir e vir ou qualquer outro meio que cause prejuízo à sua saúde psicológica e autodeterminação, configura crime de:
+*** A) violência psicológica contra a mulher, definido no artigo 147-B do Código Penal.
+*** B) intimidação sistemática contra a mulher, definido no artigo 146-A do Código Penal.
+*** C) constrangimento ilegal qualificado contra mulher, definido no artigo 146 do Código Penal.
+*** D) perseguição, definido no artigo 147-A do Código Penal.
+**** Gabarito: C
+***** Crimes contra a pessoa
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: VUNESP | Órgão: TJ-SP
+** X costuma deixar seu carro quase todos os dias no estacionamento de seu amigo Y, com quem guarda relação de confiança. Certo dia, Z, com a intenção de se apossar do veículo de X, dirigiu-se ao estacionamento e falou ao manobrista que foi buscar o carro a pedido de X. O Manobrista entregou as chaves do veículo de X para Z, que o saiu conduzindo. X foi até o estacionamento e tomou conhecimento de que seu veículo havia sido levado por um terceiro. O veículo não foi localizado e X não conhece Z e nem lhe deu qualquer autorização. A conduta de Z amolda-se ao crime de:
+*** A) estelionato.
+*** B) apropriação de coisa havia por erro.
+*** C) furto qualificado pelo abuso de confiança.
+*** D) furto mediante fraude.
+**** Gabarito: C
+***** Crimes contra o patrimônio
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: Instituto JK | Órgão: Prefeitura de Icatu - MA
+** Sobre a Lei Nº 13.869 de 2019, que trata dos crimes de abuso de autoridade, julgue as alternativas a seguir: I. Abuso de autoridade é crime cometido por agente público, seja ou não servidor, que no desempenho de suas atividades ou a pretexto delas, abuse do poder lhe tenha sido dado. II. Só pode ser classificado como abuso de autoridade condutas onde o agente público tenha vontade, única e exclusiva de prejudicar um cidadão por mera vontade e satisfação pessoal. III. Servidores reincidentes e condenados por abuso de autoridade, ficam inabilitados para o exercício de cargo, função ou mandato na vida pública pelo período de 1 (um) a 5 (cinco) anos. IV. Membros de qualquer União não poderão ser sujeitos ativos em crime de abuso de autoridade em função da hierarquia entre os Poderes. Estão CORRETAS as alternativas:
+*** A) I, II e IV
+*** B) II e III
+*** C) I e III
+*** D) Apenas IV
+**** Gabarito: D
+***** Lei do Abuso de Autoridade
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: FGV | Órgão: Prefeitura de São José dos Campos - SP
+** Fernando, Guarda Municipal, de forma livre e consciente, no exercício da função, exigiu, para si, diretamente, do particular João, vantagem indevida consistente em dez mil reais. Assim agindo, Fernando praticou crime de
+*** A) corrupção passiva.
+*** B) peculato.
+*** C) concussão.
+*** D) prevaricação.
+*** E) corrupção ativa.
+**** Gabarito: C
+***** Crimes contra a administração pública
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: FGV | Órgão: Prefeitura de São José dos Campos - SP
+** Antônio, de forma livre e consciente, praticou contra Joana e sem a sua anuência ato libidinoso com o objetivo de satisfazer a própria lascívia. Agindo dessa forma e tendo a conduta se limitado ao que foi narrado, Antônio cometeu o crime de
+*** A) assédio sexual.
+*** B) violação sexual mediante fraude.
+*** C) estupro.
+*** D) importunação sexual.
+*** E) constrangimento sexual.
+**** Gabarito: D
+***** Crimes contra a dignidade sexual
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: FGV | Órgão: Prefeitura de São José dos Campos - SP
+** Marcelo, de forma livre e consciente, subtraiu, para si, coisa móvel alheia, consistente no aparelho de telefone celular da vítima Maria, mediante grave ameaça exercida com emprego de arma branca. Assim agindo, Marcelo praticou crime de
+*** A) roubo simples, porque a grave ameaça não foi exercida com emprego de arma de fogo.
+*** B) roubo com causa de aumento, porque a grave ameaça foi exercida com emprego de arma branca.
+*** C) roubo qualificado, que enseja o dobro da pena do roubo simples, porque houve emprego de grave ameaça.
+*** D) roubo qualificado, que enseja o triplo da pena do roubo simples, porque houve emprego de arma, ainda que branca.
+*** E) furto qualificado, não havendo que se falar em roubo, pois não houve violência contra a vítima.
+**** Gabarito: B
+***** Crimes contra o patrimônio
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: FGV | Órgão: Prefeitura de São José dos Campos - SP
+** João, de forma livre e consciente, matou José, mediante recurso que dificultou ou tornou impossível a defesa do ofendido, consistente em cinco tiros pelas costas, que foram disferidos por João assim que a vítima José saía do hospital recém-operado. Assim agindo, João está incurso nas penas do crime de
+*** A) homicídio simples, com causa de aumento porque foi praticado com disparo de arma de fogo.
+*** B) homicídio simples, com causa de aumento porque foi praticado quando a vítima saía do hospital.
+*** C) homicídio qualificado, pois o crime foi cometido com recurso que dificultou ou tornou impossível a defesa do ofendido.
+*** D) homicídio privilegiado, porque a vítima estava recém-operada.
+*** E) homicídio simples, com causa de aumento porque foi desferido mais de um disparo de arma de fogo.
+**** Gabarito: C
+***** Crimes contra a pessoa
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: FGV | Órgão: Prefeitura de São José dos Campos - SP
+** Em matéria de culpabilidade, de acordo com o Código Penal, é correto afirmar que
+*** A) é isento de pena o agente que, por doença mental ou desenvolvimento mental incompleto ou retardado, era, ao tempo da ação ou da omissão, parcial ou inteiramente incapaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento.
+*** B) é isento de pena o agente que, por embriaguez completa e voluntária, era, ao tempo da ação ou da omissão, inteiramente incapaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento.
+*** C) excluem a imputabilidade penal a emoção ou a paixão e a embriaguez, voluntária ou culposa, pelo álcool ou substância de efeitos análogos.
+*** D) é isento de pena o agente que, por doença mental ou desenvolvimento mental incompleto ou retardado, era, ao tempo da ação ou da omissão, inteiramente incapaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento.
+*** E) pode a pena ser reduzida até um terço, se o agente, em virtude de depressão não era inteiramente capaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento.
+**** Gabarito: D
+***** Culpabilidade
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: FGV | Órgão: Prefeitura de São José dos Campos - SP
+** Em matéria de ilicitude penal, observe as assertivas a seguir: I. Não há crime quando o agente pratica o fato em estado de necessidade; em legítima defesa; ou em estrito cumprimento de dever legal ou no exercício regular de direito. II. Considera-se em estado de necessidade quem pratica o fato para salvar de perigo atual, que não provocou por sua vontade, nem podia de outro modo evitar, direito próprio ou alheio, cujo sacrifício, nas circunstâncias, não era razoável exigir-se. III. Entende-se em legítima defesa quem, usando moderadamente dos meios necessários, repele injusta agressão, atual, não bastando que seja iminente, a direito seu. De acordo com o Código Penal, assinale a alternativa que contém as assertivas corretas.
+*** A) I, apenas.
+*** B) I e II, apenas.
+*** C) II e III, apenas.
+*** D) I e III, apenas.
+*** E) I, II e IIII.
+**** Gabarito: B
+***** Ilicitude
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: FGV | Órgão: Prefeitura de São José dos Campos - SP
+** De acordo com o Código Penal, em relação ao tempo do crime, considera-se praticado o crime no momento
+*** A) da ação ou omissão, exceto se outro tenha sido o momento do resultado.
+*** B) da ação ou omissão, ainda que outro seja o momento do resultado.
+*** C) da ação, no caso dos crimes comissivos, mas considera-se o momento do resultado nos casos de crimes omissivos.
+*** D) da omissão, no caso dos crimes omissivos, mas considera-se o momento do resultado nos casos de crimes comissivos.
+*** E) do resultado, para os crimes omissivos e comissivos, ainda que outro tenha sido o momento da conduta.
+**** Gabarito: B
+***** Teoria do crime
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: FGV | Órgão: Prefeitura de São José dos Campos - SP
+** Em julho de 2023, João praticou determinada conduta, àquela época tipificada como crime. Ocorre que, em julho de 2004, adveio nova legislação que passou a considerar a mesma conduta atípica. No caso em tela, considerando que a ação penal em face de João ainda está em curso, aplica-se
+*** A) a nova lei, porque ninguém pode ser punido por fato que lei posterior deixa de considerar crime.
+*** B) a lei antiga, porque o fato ocorreu à época de sua vigência.
+*** C) a lei antiga, mas incide uma causa de diminuição de pena, decorrente do novo tratamento penal para a matéria.
+*** D) parcialmente a nova lei, porque a lei posterior, que de qualquer modo favorecer o agente, aplica-se aos fatos anteriores, exceto se decididos por sentença condenatória transitada em julgado.
+*** E) parcialmente a nova lei, porque a lei posterior, que de qualquer modo favorecer o agente, aplica-se aos fatos anteriores, exceto se já tiver ocorrido o interrogatório do réu.
+**** Gabarito: A
+***** Causas de extinção da punibilidade
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: FGV | Órgão: Prefeitura de São José dos Campos - SP
+** As condutas a seguir são tipificadas como crime na Lei de Abuso de Autoridade, à exceção de uma. Assinale-a.
+*** A) Constranger o preso ou o detento, mediante violência, grave ameaça ou redução de sua capacidade de resistência, a submeter-se a situação vexatória ou a constrangimento não autorizado em lei.
+*** B) Constranger a depor, sob ameaça de prisão, pessoa que, em razão de função, ministério, ofício ou profissão, deva guardar segredo ou resguardar sigilo.
+*** C) Deixar de identificar-se ou identificar-se falsamente ao preso por ocasião de sua captura ou quando deva fazê-lo durante sua detenção ou prisão.
+*** D) Submeter o preso a interrogatório policial durante o período de repouso noturno, ainda na hipótese de ter sido capturado em flagrante delito.
+*** E) Antecipar o responsável pelas investigações, por meio de comunicação, inclusive rede social, atribuição de culpa, antes de concluídas as apurações e formalizada a acusação.
+**** Gabarito: D
+***** Lei do Abuso de Autoridade
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: FGV | Órgão: Prefeitura de São José dos Campos - SP
+** Jorge, Guarda Municipal, foi condenado com trânsito em julgado pela prática de crime previsto na lei de abuso de autoridade, no exercício da função. De acordo com a Lei nº 13.869/2019, é efeito da mencionada condenação
+*** A) a inabilitação para o exercício de novo cargo, mandato ou função pública, pelo período de 4 (quatro) a 8 (oito) anos.
+*** B) a inabilitação para o exercício de novo cargo, mandato ou função pública, pelo período de no máximo 10 (dez) anos.
+*** C) a perda do cargo público, de forma automática, bem como a suspensão dos direitos políticos por até 8 (oito) anos.
+*** D) a obrigação de indenizar o dano causado pelo crime, devendo o juiz, a requerimento do ofendido, fixar na sentença o valor mínimo de dez salários mínimos para reparação dos danos.
+*** E) a perda do cargo público, caso haja reincidência em crime de abuso de autoridade, não podendo tal perda ocorrer automaticamente, pois deve ser declarada motivadamente na sentença.
+**** Gabarito: E
+***** Lei do Abuso de Autoridade
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: FGV | Órgão: Prefeitura de São José dos Campos - SP
+** A Lei nº 13.869/2019 define os crimes de abuso de autoridade, cometidos por agente público, servidor ou não, que, no exercício de suas funções ou a pretexto de exercê-las, abuse do poder que lhe tenha sido atribuído. Sobre essa temática, avalie as assertivas a seguir. I. As condutas descritas na citada Lei constituem crime de abuso de autoridade quando praticadas pelo agente com a finalidade específica de prejudicar outrem ou beneficiar a si mesmo ou a terceiro, ou, ainda, por mero capricho ou satisfação pessoal. II. Os crimes previstos na citada Lei são de ação penal pública condicionada à representação. III. Reputa-se agente público, para os efeitos da citada lei, todo aquele servidor público da administração direta, indireta ou fundacional de qualquer dos Poderes da União, dos Estados, do Distrito Federal, dos Municípios e de Território, exceto os que exercem a função transitoriamente ou sem remuneração. De acordo com a lei do abuso de autoridade, está correto o que se afirma em
+*** A) I, apenas.
+*** B) II, apenas.
+*** C) I e II, apenas.
+*** D) II e III, apenas.
+*** E) I, II e III.
+**** Gabarito: A
+***** Lei do Abuso de Autoridade
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: FGV | Órgão: Prefeitura de São José dos Campos - SP
+** Pedro, de forma livre e consciente, transportava arma de fogo, com acessório ou munição, de uso permitido, sem autorização e em desacordo com determinação legal ou regulamentar. Assim agindo, Pedro está incurso nas penas do crime de
+*** A) porte ilegal de arma de fogo de uso permitido.
+*** B) posse irregular de arma de fogo de uso permitido.
+*** C) comércio ilegal de arma de fogo.
+*** D) disparo em potencial de arma de fogo.
+*** E) perigo de uso de arma de fogo.
+**** Gabarito: A
+***** Lei de Armas (Estatuto do Desarmamento)
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: FGV | Órgão: Prefeitura de São José dos Campos - SP
+** De acordo com o entendimento do Supremo Tribunal Federal, a leitura do dispositivo legal do Estatuto do Desarmamento que trata do porte de arma de fogo pela guarda municipal é no sentido de, nas condições estabelecidas no regulamento desse Estatuto, aos integrantes das guardas municipais
+*** A) permitir o porte de arma.
+*** B) vedar o porte de arma.
+*** C) das capitais dos Estados e dos Municípios com mais de 100.000 (cem mil) habitantes, apenas, permitir o porte de arma.
+*** D) dos Municípios com mais de 50.000 (cinquenta mil) e menos de 100.000 (cem mil) habitantes, permitir o porte de arma apenas quando em serviço;
+*** E) condicionar o porte de arma à autorização pela Secretaria de Segurança Pública do respectivo estado.
+**** Gabarito: C
+***** Lei de Armas (Estatuto do Desarmamento)
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: FGV | Órgão: Prefeitura de São José dos Campos - SP
+** De acordo com o Estatuto do Desarmamento, para adquirir arma de fogo de uso permitido o interessado deverá, além de declarar a efetiva necessidade,
+*** A) comprovar sua idoneidade, mediante apresentação de três declarações subscritas por autoridades públicas.
+*** B) apresentar documento comprobatório de sua residência certa, dispensado documento de ocupação lícita.
+*** C) comprovar sua capacidade técnica e de aptidão psicológica para o manuseio de arma de fogo, atestadas na forma disposta no regulamento desta Lei.
+*** D) apresentar certificado de aprovação em curso de tiro, com duração mínima de trezentos e sessenta horas, devidamente registrado no órgão de segurança pública competente.
+*** E) apresentar comprovante de sua idoneidade, com a apresentação de certidões negativas de antecedentes processuais criminais com trânsito em julgado, fornecidas pela Justiça Federal, Estadual, Militar e Eleitoral, desnecessária a menção a não estar respondendo a inquérito policial.
+**** Gabarito: B
+***** Lei de Armas (Estatuto do Desarmamento)
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: FGV | Órgão: Prefeitura de São José dos Campos - SP
+** A Lei nº 10.826/2003, conhecida como Estatuto do Desarmamento, dispõe sobre registro, posse e comercialização de armas de fogo e munição, sobre o Sistema Nacional de Armas (Sinarm), e define crimes. De acordo com o citado diploma legal, é obrigatório o registro de arma de fogo no órgão competente e as armas de fogo de uso restrito serão registradas, na forma do regulamento dessa Lei, no(a)
+*** A) Ministério da Justiça e Segurança Pública.
+*** B) Comando do Exército.
+*** C) Polícia Federal.
+*** D) Polícia Civil.
+*** E) Guarda Municipal.
+**** Gabarito: C
+***** Lei de Armas (Estatuto do Desarmamento)
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: FUNDATEC | Órgão: CRF-RS
+** “Retardar ou deixar de praticar, indevidamente, ato de ofício, ou praticá-lo contra disposição expressa de lei, para satisfazer interesse ou sentimento pessoal”. A descrição apresentada diz respeito a qual crime previsto no Código Penal?
+*** A) Roubo.
+*** B) Furto.
+*** C) Prevaricação.
+*** D) Estelionato.
+*** E) Peculato.
+**** Gabarito: B
+***** Crimes contra a administração pública
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: FUNDATEC | Órgão: CRF-RS
+** Sobre os crimes de abuso de autoridade, à luz do disposto na Lei nº 13.869/2019, assinale a alternativa INCORRETA.
+*** A) Dentre os efeitos da condenação, está a inabilitação para o exercício de cargo, mandato ou função pública, pelo período de 1 (um) a 5 (cinco) anos.
+*** B) Faz coisa julgada em âmbito cível, assim como no administrativo-disciplinar, a sentença penal que reconhecer ter sido o ato praticado em estado de necessidade, em legítima defesa, em estrito cumprimento de dever legal ou no exercício regular de direito.
+*** C) Configura abuso de autoridade requisitar instauração ou instaurar procedimento investigatório de infração penal ou administrativa, em desfavor de alguém, à falta de qualquer indício da prática de crime, de ilícito funcional ou de infração administrativa.
+*** D) Entre as penas restritivas de direitos, está a suspensão do exercício do cargo, da função ou do mandato, pelo prazo de 1 (um) a 6 (seis) meses, sem a perda dos vencimentos e das vantagens.
+*** E) A divergência na interpretação de lei ou na avaliação de fatos e provas não configura abuso de autoridade.
+**** Gabarito: C
+***** Lei do Abuso de Autoridade
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: FUNDATEC | Órgão: CRF-RS
+** Com base no Código Penal, em relação aos crimes contra a Administração Pública, relacione a Coluna 1 à Coluna 2, associando cada crime à sua descrição. Coluna 1 1. Prevaricação. 2. Advocacia administrativa. 3. Condescendência criminosa. Coluna 2 ( ) Deixar o funcionário, por indulgência, de responsabilizar subordinado que cometeu infração no exercício do cargo ou, quando lhe falte competência, não levar o fato ao conhecimento da autoridade competente. ( ) Retardar ou deixar de praticar, indevidamente, ato de ofício, ou praticá-lo contra disposição expressa de lei, para satisfazer interesse ou sentimento pessoal. ( ) Patrocinar, direta ou indiretamente, interesse privado perante a Administração Pública, valendo-se da qualidade de funcionário. A ordem correta de preenchimento dos parênteses, de cima para baixo, é:
+*** A) 1 – 2 – 3.
+*** B) 2 – 1 – 3.
+*** C) 2 – 3 – 1.
+*** D) 3 – 1 – 2.
+*** E) 3 – 2 – 1.
+**** Gabarito: D
+***** Crimes contra a administração pública
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: FUNDATEC | Órgão: Prefeitura de Cidreira - RS
+** Nicéia, servidora pública municipal autorizada, alterou dados corretos no banco de dados da Administração Pública, a fim de beneficiar Sidnei, seu sobrinho. A conduta praticada por Nicéia, à luz do preconizado no Código Penal, notadamente quanto aos crimes praticados contra a Administração Pública, corresponde, nos estritos termos da conduta narrada, ao tipo penal de:
+*** A) Peculato.
+*** B) Corrupção passiva.
+*** C) Modificação ou alteração não autorizada de sistema de informações.
+*** D) Inserção de dados falsos em sistema de informações.
+*** E) Condescendência criminosa.
+**** Gabarito: C
+***** Crimes contra a administração pública
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: CESPE / CEBRASPE | Órgão: Prefeitura de Mossoró - RN
+** A criação de empresas fictícias para emitir notas fiscais falsas, com a finalidade de reduzir a carga tributária, configura crime contra a ordem tributária, mesmo que não ocorra efetivo prejuízo ao erário.
+*** Certo
+*** Errado
+**** Gabarito: D
+***** Crimes contra o Consumidor, a Ordem Econômica e Tributária
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: CESPE / CEBRASPE | Órgão: Prefeitura de Mossoró - RN
+** A realização de operações de compra e venda não registradas, com a intenção de suprimir ou reduzir tributos, somente configura crime contra a ordem tributária se os valores não registrados ultrapassarem o montante autorizado em lei.
+*** Certo
+*** Errado
+**** Gabarito: C
+***** Crimes contra o Consumidor, a Ordem Econômica e Tributária
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: CESPE / CEBRASPE | Órgão: Prefeitura de Mossoró - RN
+** Pedro agiu em legítima defesa putativa, pois acreditou, erroneamente, que estivesse sendo atacado por um manifestante armado.
+*** Certo
+*** Errado
+**** Gabarito: D
+***** Ilicitude
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: CESPE / CEBRASPE | Órgão: Prefeitura de Mossoró - RN
+** Ainda que tenha agido em estrito cumprimento do dever legal, Pedro não poderá ser isentado de responsabilidade pela sua conduta, haja vista a lesão corporal grave causada em um manifestante.
+*** Certo
+*** Errado
+**** Gabarito: E
+***** Ilicitude
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: CESPE / CEBRASPE | Órgão: Prefeitura de Mossoró - RN
+** Os manifestantes que causaram dano à vidraça do prédio público devem responder pelo crime de dano qualificado, punível com pena de reclusão.
+*** Certo
+*** Errado
+**** Gabarito: E
+***** Crimes contra o patrimônio
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: FAU | Órgão: Prefeitura de Nova Laranjeiras - PR
+** A Lei Federal nº 8.137/1990 define que constitui crime contra a ordem tributária suprimir ou reduzir tributo, ou contribuição social e qualquer acessório. Na hipótese de o sujeito passivo fraudar a fiscalização tributária, inserindo elementos inexatos, ou omitindo operação de qualquer natureza, em documento ou livro exigido pela lei fiscal, estará sujeito a uma pena máxima de reclusão de:
+*** A) Um ano e multa.
+*** B) Dois anos e multa.
+*** C) Três anos e multa.
+*** D) Quatro anos e multa.
+*** E) Cinco anos e multa.
+**** Gabarito: E
+***** Crimes contra o Consumidor, a Ordem Econômica e Tributária
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: UNIVIDA | Órgão: Prefeitura de Bom Sucesso do Sul - PR
+** Não constituem ofensa aos direitos do titular de programa de computador: I - A reprodução, em um só exemplar, de cópia legitimamente adquirida, desde que se destine à cópia de salvaguarda ou armazenamento eletrônico, hipótese em que o exemplar original servirá de salvaguarda. II - A citação integral do programa, para fins didáticos, desde que identificados o programa e o titular dos direitos respectivos. III - A ocorrência de semelhança de programa a outro, preexistente, quando se der por força das características funcionais de sua aplicação, da observância de preceitos normativos e técnicos, ou de limitação de forma alternativa para a sua expressão. IV - A integração de um programa, mantendo-se suas características essenciais, a um sistema aplicativo ou operacional, tecnicamente indispensável às necessidades do usuário, desde que para o uso exclusivo de quem a promoveu. Estão corretas:
+*** A) I, III e IV, apenas.
+*** B) I, II, III e IV.
+*** C) II e III, apenas.
+*** D) I e IV, apenas.
+*** E) III e IV, apenas.
+**** Gabarito: A
+***** Crimes contra a propriedade intelectual de programa de computador
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: Avança SP | Órgão: Câmara Municipal de Itapecerica da Serra - SP
+** Sobre os crimes de estelionato e outras fraudes, é CORRETO o que se afirma em:
+*** A) No delito de estelionato, a ação penal é de iniciativa privada e somente se procede mediante queixa do ofendido.
+*** B) Não constitui fato típico tomar refeição em restaurante, alojar-se em hotel ou utilizar-se de meio de transporte sem dispor de recursos para efetuar o pagamento.
+*** C) Se o criminoso é primário, e é de pequeno valor o prejuízo, o juiz pode substituir a pena de reclusão pela de detenção, diminuí-la de um a dois terços, ou aplicar somente a pena de multa.
+*** D) A ação penal referente ao crime de fraude à execução somente se procede mediante representação.
+*** E) Abusar, em proveito próprio ou alheio, da inexperiência ou da simplicidade ou inferioridade mental de outrem, induzindo-o à prática de jogo ou aposta, ou à especulação com títulos ou mercadorias, sabendo ou devendo saber que a operação é ruinosa, constitui o delito de abuso de incapazes.
+**** Gabarito: C
+***** Crimes contra o patrimônio
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: Avança SP | Órgão: Câmara Municipal de Itapecerica da Serra - SP
+** Em relação aos crimes contra a administração da Justiça, é CORRETO o que se afirma em:
+*** A) Provocar a ação de autoridade, comunicando-lhe a ocorrência de crime ou de contravenção que sabe não se ter verificado configura crime de denunciação caluniosa.
+*** B) No crime de denunciação caluniosa, a pena é aumentada de sexta parte se o agente se serve de anonimato ou de nome suposto.
+*** C) No crime de falso testemunho ou falsa perícia, o fato deixa de ser punível se, antes do trânsito em julgado do processo em que ocorreu o ilícito, o agente se retrata ou declara a verdade.
+*** D) Acusar-se, perante a autoridade, de crime inexistente ou praticado por outrem, configura comunicação falsa de crime ou contravenção.
+*** E) Configura o crime de coação no curso do processo impedir, perturbar ou fraudar arrematação judicial; afastar ou procurar afastar concorrente ou licitante, por meio de violência, grave ameaça, fraude ou oferecimento de vantagem.
+**** Gabarito: C
+***** Crimes contra a administração pública
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: Avança SP | Órgão: Câmara Municipal de Itapecerica da Serra - SP
+** Considerando o quanto disposto na Lei Federal nº. 8.137/1990, assinale a alternativa CORRETA:
+*** A) omitir informação, ou prestar declaração falsa às autoridades fazendárias não constitui crime contra a ordem tributária.
+*** B) elaborar, distribuir, fornecer, emitir ou utilizar documento que saiba ou deva saber falso ou inexato não constitui crime contra a ordem tributária.
+*** C) negar ou deixar de fornecer, quando obrigatório, nota fiscal ou documento equivalente, relativa a venda de mercadoria ou prestação de serviço, efetivamente realizada, ou fornecê-la em desacordo com a legislação não constitui crime contra a ordem tributária.
+*** D) fraudar a fiscalização tributária, inserindo elementos inexatos, ou omitindo operação de qualquer natureza, em documento ou livro exigido pela lei fiscal não constitui crime contra a ordem tributária.
+*** E) sonegar insumos ou bens, recusando-se a vendê-los a quem pretenda comprá-los nas condições publicamente ofertadas, ou retê-los para o fim de especulação não constitui crime contra a ordem tributária.
+**** Gabarito: B
+***** Crimes contra o Consumidor, a Ordem Econômica e Tributária
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: Qconcursos | Órgão: Qconcursos
+** Drogo, professor de direito, ao manobrar o seu veículo automotor no estacionamento da Faculdade de Direito esquece de acionar o freio de mão veicular e, ao desembarcar, o automotor entra em movimento atingindo o famoso Noé, causando sua morte. Diante do fato narrado, tal conduta caracteriza:
+*** A) Lesão corporal grave seguida de morte (art. 129, § 3º, do Código Penal).
+*** B) Homicídio culposo (art. 121, § 3º, do Código Penal).
+*** C) Homicídio culposo na direção de veículo automotor (art. 302 do Código de Trânsito brasileiro)
+*** D) Homicídio doloso (art. 121, caput, do Código Penal).
+*** E) Fato atípico
+**** Gabarito: E
+***** Crimes contra a pessoa
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: Qconcursos | Órgão: Qconcursos
+** Ragnar, com habilidades em tecnologia e milhares de seguidores nas redes sociais, promove o conhecido jogo do "tigrinho" na internet, verdadeiro cassino online. Mévia, uma senhora de 69 anos de idade, seguidora de Ragnar, faz a inscrição na plataforma clandestina e, ao longo da madrugada, tem prejuízo financeiro de R$ 10.000,00 (dez mil reais). Nesses termos, podemos afirmar que a conduta de Ragnar caracteriza:
+*** A) Estelionato, em sua modalidade simples, com necessidade de representação de Mévia.
+*** B) Estelionato majorado por tratar-se de idoso, dispensada a representação por tratar-se de ação penal pública incondicionada.
+*** C) Furto qualificado pela fraude, dispensada a representação por tratar-se de ação penal pública incondicionada.
+*** D) Contravenção penal.
+*** E) Fato atípico.
+**** Gabarito: B
+***** Lei de Contravenções Penais
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: Qconcursos | Órgão: Qconcursos
+** A Polícia Militar é acionada para averiguar possível contravenção de perturbação ao sossego alheio (art. 42 da Lei das Contravenções Penais). Ao chegar no local, a guarnição militar atestou a materialidade da infração penal e, ao averiguar a autoria, chegou-se ao nome de Mevinho, jovem de 18 anos. Ocorre que, o vovô Mévio, com 75 anos, foi até a Delegacia de Polícia assumir a autoria da infração penal, sabedor que o real perturbador do sossego alheio era seu neto, Mevinho. Nesses termos, o vovô Mévio praticou:
+*** A) Auto-acusação falsa (art. 341 do Código Penal)
+*** B) Denunciação Caluniosa (art. 339 do Código Penal)
+*** C) Comunicação falsa de crime ou de contravenção (art. 340 do Código Penal)
+*** D) Conduta atípica
+*** E) Falso testemunho (art. 342 do Código Penal)
+**** Gabarito: D
+***** Crimes contra a administração pública
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: Qconcursos | Órgão: Qconcursos
+** Mevinho, jovem estudante de direito, inicia suas atividades na Delegacia de Polícia especializada em crimes contra o patrimônio, na qualidade de estagiário. No dia 22/7/2024, Mevinho estava com muita fome, mas a bolsa-auxílio do estágio era diminuta. Durante o período de estágio, Mevinho vai até a sala do Delegado e apropria-se de algumas joias, res furtiva de crime investigado. Ato sequencial, tentou fornecer tais joias como forma de pagamento em tradicional rede de fast food. Nesses termos, a conduta de Mevinho caracteriza:
+*** A) Furto qualificado
+*** B) Peculato-apropriação
+*** C) Peculato-furto
+*** D) Concussão
+*** E) Peculato-desvio
+**** Gabarito: C
+***** Crimes contra a administração pública
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: Qconcursos | Órgão: Qconcursos
+** Mevinho, Promotor de Justiça no Estado de São Paulo, sentia muita dor em uma de suas pernas. De todos os tratamentos conhecidos pela ciência, só havia uma forma de aliviar sua dor momentaneamente, qual seja, comer churros de doce de leite. Nesses termos, Mevinho vai ao encontro de um pequeno comerciante e diz: “ Tio do churros: - se você não me fornecer um churros agora, vou apreender todo seu material de trabalho e interromper sua atividade laboral, pois sou Promotor de Justiça, membro do Parquet Paulista”. Tal conduta caracteriza:
+*** A) Furto famélico
+*** B) Corrupção passiva
+*** C) Concussão
+*** D) Peculato-Furto
+*** E) Roubo
+**** Gabarito: C
+***** Crimes contra a administração pública
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: ADM&TEC | Órgão: Prefeitura de Brejo da Madre de Deus - PE
+** Crimes contra a pessoa, como homicídio e lesão corporal, são tratados com grande seriedade no sistema jurídico brasileiro, refletindo a importância da proteção à vida e à integridade física. Nesse tema, é CORRETO afirmar que, das alternativas apresentadas, seja considerado um crime contra a pessoa.
+*** A) Apropriação indébita.
+*** B) Lesão corporal.
+*** C) Furto qualificado.
+*** D) Fraude.
+**** Gabarito: B
+***** Crimes contra a pessoa
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: ADM&TEC | Órgão: Prefeitura de Brejo da Madre de Deus - PE
+** Os crimes contra os costumes estão relacionados às condutas que violam normas sociais de moralidade e decência pública. Nesse contexto, é CORRETO afirmar que, das alternativas apresentadas, seja considerado um crime contra os costumes segundo o Código Penal.
+*** A) Crime de dano.
+*** B) Crime de estelionato.
+*** C) Crime de atentado violento ao pudor.
+*** D) Crime de invasão de propriedade.
+**** Gabarito: D
+***** Crimes contra a dignidade sexual
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: ADM&TEC | Órgão: Prefeitura de Brejo da Madre de Deus - PE
+** Em relação à culpabilidade, o Direito Penal Brasileiro prevê situações em que a capacidade de o indivíduo ser culpado por um crime é excluída. Nesse tema, é CORRETO afirmar que, das opções listadas, seja condição que excluir a culpabilidade de um indivíduo.
+*** A) Cometer um ato ilícito em um momento de grande stress.
+*** B) Desconhecimento da lei no momento da prática do ato.
+*** C) Inimputabilidade por condição de saúde mental, não compreendendo a ilicitude do ato.
+*** D) Ação cometida sob influência de uma multidão em tumulto, sem consciência individual.
+**** Gabarito: C
+***** Culpabilidade
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: ADM&TEC | Órgão: Prefeitura de Brejo da Madre de Deus - PE
+** No âmbito do Direito Penal, certas situações permitem a exclusão de ilicitude, ou seja, uma conduta que normalmente seria considerada ilegal, mas que em determinadas circunstâncias é aceita pela lei. Nesse sentido, é CORRETO afirmar que, das alternativas dispostas, seja uma causa de exclusão de ilicitude reconhecida pelo Código Penal Brasileiro.
+*** A) A prática de um ato ilegal sob ordem de um superior hierárquico.
+*** B) Legítima defesa, quando alguém repele injusta agressão, atual ou iminente, a direito seu ou de outrem.
+*** C) Atos praticados sob influência de emoção, mesmo que resultem em danos a terceiros.
+*** D) Violação de domicílio durante o dia.
+**** Gabarito: B
+***** Ilicitude
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: ADM&TEC | Órgão: Prefeitura de Brejo da Madre de Deus - PE
+** Crimes contra o patrimônio são atos que resultam em prejuízo material ou financeiro para as vítimas. Nesse tema, é CORRETO afirmar que, das alternativas, seja considerado um crime contra o patrimônio.
+*** A) Lesão corporal leve.
+*** B) Calúnia contra um funcionário público.
+*** C) Roubo de um automóvel.
+*** D) Perturbação da paz.
+**** Gabarito: C
+***** Crimes contra o patrimônio
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: ADM&TEC | Órgão: Prefeitura de Brejo da Madre de Deus - PE
+** Os crimes contra a pessoa englobam uma variedade de delitos que afetam diretamente a integridade física e psicológica dos indivíduos. Nesse sentido, é CORRETO afirmar que, das alternativas dispostas, seja exemplo clássico de crime contra a pessoa.
+*** A) Furto de veículo.
+*** B) Difamação em redes sociais.
+*** C) Homicídio.
+*** D) Invasão de propriedade privada.
+**** Gabarito: C
+***** Crimes contra a pessoa
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: IVIN | Órgão: Prefeitura de Mãe do Rio - PA
+** Os Agentes Municipais de Trânsito de determinado Município flagraram Ulisses realizando o transporte de drogas em seu veículo, em desacordo com determinação legal. Conforme as disposições da Lei nº 11.343/2006, assinale a alternativa correta:
+*** A) Ulisses estará sujeito a pena de detenção de 1 a 3 anos e pagamento de 100 a 500 dias-multa.
+*** B) Ulisses estará sujeito a pena de reclusão de 3 a 5 anos e pagamento de 300 a 1.000 dias-multa.
+*** C) Ulisses estará sujeito a pena de detenção de 5 a 10 anos e pagamento de 500 a 1.200 dias-multa.
+*** D) Ulisses estará sujeito a pena de reclusão de 5 a 15 anos e pagamento de 500 a 1.500 dias-multa.
+*** E) Ulisses não estará sujeito a punição, por sua conduta ser atípica.
+**** Gabarito: D
+***** Lei de Drogas
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: IVIN | Órgão: Prefeitura de Mãe do Rio - PA
+** A respeito das regras em vigor sobre a posse de armas de fogo no Brasil, de acordo com a Lei nº 10.826/2003, assinale a alternativa correta:
+*** A) É dispensado o registro de armas de fogo em órgãos públicos.
+*** B) A expedição do certificado de registro de arma de fogo é de competência das Polícias Civis de cada Estado.
+*** C) É permitido a posse de armas de fogo por guardas municipais.
+*** D) É vedado o uso de armas de fogo por servidores como Auditores-Fiscais do Trabalho.
+*** E) Não é considerado crime possuir um acessório ou munição de arma de fogo, ainda que em desacordo com determinação legal.
+**** Gabarito: C
+***** Lei de Armas (Estatuto do Desarmamento)
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: SEAD-GO | Órgão: SEAD-GO
+** A Lei de Execução Penal, para fins de execução penal, considera-se egresso: 1. o preso em regime aberto. 2. o liberado definitivo, pelo prazo de 1 ano a contar da saída do estabelecimento. 3. o liberado condicional, durante o período de prova. 4. o acusado que tiver a prisão ilegal relaxada até o julgamento final do processo. Assinale a alternativa que indica todas as afirmativas corretas.
+*** A) São corretas apenas as afirmativas 1, 2 e 3.
+*** B) São corretas apenas as afirmativas 2, 3 e 4
+*** C) São corretas apenas as afirmativas 1 e 4.
+*** D) São corretas apenas as afirmativas 2 e 3.
+*** E) São corretas as afirmativas 1, 2, 3 e 4.
+**** Gabarito: D
+***** Lei de Execução Penal
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: SEAD-GO | Órgão: SEAD-GO
+** De acordo com a Lei de Execução Penal, a remissão da pena, por trabalho ou estudo, de parte do tempo de execução da pena poderá ocorrer no cumprimento de: 1. regime aberto. 2. regime semiaberto. 3. regime fechado. 4. penas restritivas de direito. Assinale a alternativa que indica todas as afirmativas corretas.
+*** A) São corretas apenas as afirmativas 1 e 3.
+*** B) São corretas apenas as afirmativas 2 e 3.
+*** C) São corretas apenas as afirmativas 3 e 4.
+*** D) São corretas apenas as afirmativas 1, 2 e 3.
+*** E) São corretas apenas as afirmativas 2, 3 e 4.
+**** Gabarito: B
+***** Lei de Execução Penal
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: SEAD-GO | Órgão: SEAD-GO
+** Assinale a alternativa correta de acordo com a Lei de Execução Penal.
+*** A) A monitoração eletrônica somente poderá ser revogada se o acusado ou condenado praticar falta grave.
+*** B) O condenado deverá ter cuidado com o equipamento eletrônico de monitoração, que poderá ser removido no interior da residência em que for cumprida prisão domiciliar.
+*** C) A fiscalização da saída temporária no regime semiaberto poderá ser definida por meio da monitoração eletrônica.
+*** D) O estabelecimento de monitoração eletrônica será exclusivo para determinação do cumprimento da pena em regime aberto.
+*** E) A violação dos deveres decorrentes da monitoração eletrônica acarretará, obrigatoriamente, a regressão de regime do apenado.
+**** Gabarito: C
+***** Lei de Execução Penal
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: SEAD-GO | Órgão: SEAD-GO
+** Quanto à falta grave que comete o condenado à pena privativa de liberdade, assinale a alternativa incorreta.
+*** A) Deixar de fazer higiene pessoal e cantar a noite.
+*** B) Fugir.
+*** C) Possuir, indevidamente, instrumento capaz de ofender a integridade física de outrem.
+*** D) Incitar ou participar de movimento para subverter a ordem ou a disciplina.
+*** E) Manter em sua posse, utilizar ou fornecer aparelho telefônico.
+**** Gabarito: A
+***** Lei de Execução Penal
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: SEAD-GO | Órgão: SEAD-GO
+** Constituem direitos do preso:
+*** A) escolher o cardápio da sua alimentação e o vestuário.
+*** B) atribuição de trabalho e sua remuneração.
+*** C) assistência material, à saúde, jurídica, educacional, social e religiosa.
+*** D) alimentação suficiente e vestuário.
+*** E) as alternativas “b”, “c” e “d” estão corretas.
+**** Gabarito: A
+***** Lei de Execução Penal
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: SEAD-GO | Órgão: SEAD-GO
+** Constituem deveres do condenado:
+*** A) Comportamento disciplinado e cumprimento fiel da sentença.
+*** B) Obediência ao servidor e respeito a qualquer pessoa com quem deva relacionar-se.
+*** C) Urbanidade e respeito no trato com os demais condenados.
+*** D) Higiene pessoal e asseio da cela ou alojamento.
+*** E) Todas as alternativas estão corretas.
+**** Gabarito: E
+***** Lei de Execução Penal
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: SEAD-GO | Órgão: SEAD-GO
+** A assistência ao preso e ao internado é dever do Estado, e essa assistência será:
+*** A) apenas jurídica.
+*** B) material, jurídica, educacional, social, religiosa e saúde.
+*** C) apenas educacional.
+*** D) apenas alimentação.
+*** E) nenhuma das alternativas.
+**** Gabarito: B
+***** Lei de Execução Penal
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: SEAD-GO | Órgão: SEAD-GO
+** Os condenados serão classificados, segundo os seus antecedentes e personalidade, para orientar a individualização da execução penal. Assinale a alternativa correta.
+*** A) Apenas nos casos de condenados com idade acima de 65 anos ocorrerá a individualização.
+*** B) Apenas as mulheres terão suas penas individualizadas.
+*** C) Todos que cometeram crimes hediondos terão suas penas individualizadas.
+*** D) Somente os condenados com curso superior terão suas penas individualizadas.
+*** E) Todos os condenados homens e mulheres terão suas penas individualizadas.
+**** Gabarito: E
+***** Lei de Execução Penal
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: SEAD-GO | Órgão: SEAD-GO
+** A execução penal tem por objetivo
+*** A) punir exemplarmente o indivíduo que comete crimes.
+*** B) impedir a prática de crimes violentos.
+*** C) efetivar as disposições de sentença ou decisão criminal.
+*** D) acabar com o tráfico de drogas.
+*** E) valorizar o trabalho dos Agentes Prisionais.
+**** Gabarito: C
+***** Lei de Execução Penal
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: SEAD-GO | Órgão: SEAD-GO
+** Analise a seguinte situação hipotética: O Vigilante Penitenciário Temporário Sicrano, que trabalha na Casa de Prisão Provisória do Complexo Prisional Policial Penal Daniella Cruvinel, mantém amizade íntima com Fulana, advogada do preso Beltrano, que se encontra custodiado no mencionado estabelecimento penal. Cedendo a pedido de Fulana, o Vigilante Penitenciário Temporário Sicrano, retarda ato de ofício, com infração de dever funcional, a fim de beneficiar o preso Beltrano. Nesse contexto, é correto afirmar que o Vigilante Penitenciário Temporário Sicrano praticou o delito de:
+*** A) prevaricação.
+*** B) condescendência criminosa.
+*** C) tráfico de influência.
+*** D) advocacia administrativa.
+*** E) corrupção passiva privilegiada.
+**** Gabarito: D
+***** Crimes contra a administração pública
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: SEAD-GO | Órgão: SEAD-GO
+** O Diretor do estabelecimento penal de segurança máxima do estado de Goiás, Policial Penal Beltrano, consciente de que o privado de liberdade Sicrano, que ostentava bom comportamento carcerário, possuía em sua cela um aparelho de telefonia móvel, o qual era utilizado, exclusivamente, para se comunicar com seu filho de tenra idade, que se encontrava gravemente enfermo, deixou de cumprir o seu dever de vedar o acesso do referido preso ao telefone, por ter ficado sensibilizado com a situação. Diante desse cenário hipotético, é correto afirmar que a conduta do Policial Penal Beltrano, Diretor do estabelecimento penal de segurança máxima do estado de Goiás,
+*** A) enquadra no delito de corrupção passiva.
+*** B) enquadra no delito de prevaricação culposa.
+*** C) não é penalmente típica, consoante o disposto no Código Penal e na legislação extravagante.
+*** D) enquadra no delito de prevaricação imprópria.
+*** E) enquadra no delito de advocacia administrativa.
+**** Gabarito: A
+***** Crimes contra a administração pública
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: SEAD-GO | Órgão: SEAD-GO
+** Suponha-se que, o Vigilante Penitenciário Temporário Fulano apropriou-se da quantia de R$ 1.000,00 do preso Beltrano, de que tinha a posse em razão de sua função pública, o que caracterizou o crime capitulado no art. 312 do Código Penal. A direção do estabelecimento penal tomou conhecimento dos fatos e o Vigilante Penitenciário Temporário Fulano reparou o dano, restituindo integralmente os valores de forma voluntária. Nessa situação hipotética, é correto afirmar que a restituição dos valores pelo Vigilante Penitenciário Temporário Fulano
+*** A) não possibilitará a extinção da punibilidade.
+*** B) ocasionará a extinção da punibilidade, se for precedente ao oferecimento da denúncia.
+*** C) proporcionará a extinção da punibilidade, mesmo que seja subsequente ao oferecimento da denúncia, mas desde que precedente a sentença irrecorrível.
+*** D) motivará a aplicação de atenuante de pena, sob condição de que seja anterior ao oferecimento da denúncia.
+*** E) ensejará a aplicação de atenuante de pena, apesar que seja posterior ao oferecimento da denúncia pelo Ministério Público.
+**** Gabarito: D
+***** Tipicidade
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: SEAD-GO | Órgão: SEAD-GO
+** Fulano e Beltrano, Vigilantes Penitenciários Temporários, realizavam revista pessoal em todos os visitantes do sexo masculino que pretendiam ingressar na Penitenciária Cel. Odenir Guimarães, momento em que, em cumprimento às formalidades legais, procederam a inspeção em Sicrano, o qual portava aproximadamente 800 gramas de substância análoga à maconha ( Cannabis sativa ). Após ser devidamente cientificado de seus direitos e garantias constitucionais, Sicrano confessou ser traficante de drogas. Nesse momento, ele ofereceu a quantia de R$ 10.000,00 para cada Vigilante Penitenciário Temporário com o intuito de ser liberado. Com base nesse caso hipotético e levando em conta as disposições previstas no Código Penal, Sicrano, excetuando a responsabilização criminal por tráfico de drogas, responderá pelo delito de:
+*** A) concussão.
+*** B) excesso de exação.
+*** C) corrupção ativa.
+*** D) corrupção passiva.
+*** E) peculato.
+**** Gabarito: D
+***** Crimes contra a administração pública
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: ISET | Órgão: Prefeitura de Jeremoabo - BA
+** Constranger alguém, mediante violência ou grave ameaça, e com o intuito de obter para si ou para outrem indevida vantagem econômica, a fazer, tolerar que se faça ou deixar de fazer alguma coisa consiste no crime de:
+*** A) Constrangimento.
+*** B) Extorsão.
+*** C) Extorsão mediante sequestro.
+*** D) Extorsão indireta.
+*** E) Nenhuma das alternativas anteriores.
+**** Gabarito: B
+***** Crimes contra o patrimônio
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: ISET | Órgão: Prefeitura de Jeremoabo - BA
+** Sobre o homicídio qualificado, julgue os itens e assinale a alternativa correta: I. Se o homicídio é cometido mediante paga ou promessa de recompensa, ou por outro motivo torpe, é considerado qualificado. II. Se o homicídio é cometido por motivo fútil, não é considerado qualificado. III. Se o homicídio é cometido com emprego de veneno, fogo, explosivo, asfixia, tortura ou outro meio insidioso ou cruel, ou de que possa resultar perigo comum, não é considerado qualificado. Assinale a alternativa correta:
+*** A) Somente I está correto.
+*** B) Somente II está correto.
+*** C) Somente III está correto.
+*** D) I, II e III estão incorretos.
+*** E) I, II e III estão corretos.
+**** Gabarito: C
+***** Crimes contra a pessoa
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: ISET | Órgão: Prefeitura de Jeremoabo - BA
+** Com base nas penas previstas no Código Penal Brasileiro, julgue os itens: I. Privativas de liberdade. II. Restritivas de direitos. III. De multa. Assinale a alternativa correta:
+*** A) Somente I está correto.
+*** B) Somente II está correto.
+*** C) Somente III está correto.
+*** D) I, II e III estão corretos.
+*** E) I, II e III estão incorretos.
+**** Gabarito: B
+***** Pena
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: ISET | Órgão: Prefeitura de Jeremoabo - BA
+** Consiste em crime impossível:
+*** A) Quando o agente que, voluntariamente, desiste de prosseguir na execução ou impede que o resultado se produza, só responde pelos atos já praticados.
+*** B) Quando o agente deu causa ao resultado por imprudência, negligência ou imperícia.
+*** C) Quando o agente quis o resultado ou assumiu o risco de produzi-lo.
+*** D) Quando não se pune a tentativa quando, por ineficácia absoluta do meio ou por absoluta impropriedade do objeto, é impossível consumar-se o crime.
+*** E) Quando, iniciada a execução, não se consuma por circunstâncias alheias à vontade do agente.
+**** Gabarito: A
+***** Tipicidade
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: ISET | Órgão: Prefeitura de Jeremoabo - BA
+** Ter conjunção carnal ou praticar outo ato libidinoso com alguém, mediante fraude ou outro meio que impeça ou dificulte a livre manifestação de vontade da vítima consiste no crime de:
+*** A) Importunação sexual.
+*** B) Assédio sexual.
+*** C) Violação sexual mediante fraude.
+*** D) Estupro.
+*** E) Sedução.
+**** Gabarito: D
+***** Crimes contra a dignidade sexual
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: ISET | Órgão: Prefeitura de Jeremoabo - BA
+** A pena por impedir ou obstar o acesso de alguém, devidamente habilitado, a qualquer cargo da Administração Direta ou Indireta, bem como das concessionárias de serviços públicos será de:
+*** A) Detenção de dois a cinco anos.
+*** B) Reclusão de três a cinco anos.
+*** C) Detenção de quatro a oito anos.
+*** D) Reclusão de dois a cinco anos.
+*** E) Reclusão de seis meses a dois anos.
+**** Gabarito: D
+***** Crimes Resultantes de Preconceito de Raça ou Cor
+****** Direito Penal
+-----
+* Ano: 2024 | Banca: ISET | Órgão: Prefeitura de Jeremoabo - BA
+** Quem adquirir, guardar, tiver em depósito, transportar ou trouxer consigo, para consumo pessoal, drogas sem autorização ou em desacordo com determinação legal ou regulamentar será submetido às seguintes penas: I. Advertência sobre os efeitos das drogas. II. Prestação de serviços à comunidade, salvo no caso de maiores de dezoito anos. III. Medida educativa de comparecimento à programa ou curso educativo durante um período de 5 anos, no mínimo. Julgue os itens e assinale a alternativa correta:
+*** A) Somente I está correto.
+*** B) Somente II está correto.
+*** C) Somente III está correto.
+*** D) I, II e III estão corretos.
+*** E) I, II e III estão incorretos.
+**** Gabarito: B
+***** Lei de Drogas
+****** Direito Penal
 -----
