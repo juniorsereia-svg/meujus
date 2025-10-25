@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MeuJus — Gerador de Provas de Direito</title>
+  <meta name="description" content="Gere provas a partir de um banco local de questões.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html,body{height:100%}
+    body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif}
+    .prose ol{list-style:decimal;padding-left:1.25rem}
+    .prose ul{list-style:none;padding-left:0}
+    .prose li+li{margin-top:.25rem}
+    @media print{
+      header,footer,.no-print{display:none!important}
+      .sheet{box-shadow:none;border:0}
+    }
+  </style>
+</head>
+<body class="bg-zinc-50 text-zinc-900">
+  <header class="sticky top-0 z-40 bg-white/80 backdrop-blur border-b border-zinc-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <a class="flex items-center gap-3" href="#">
+        <svg width="28" height="28" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect x="4" y="4" width="40" height="40" rx="10" fill="#111827"/>
+          <path d="M14 30c6 0 8-8 10-8s4 8 10 8" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="24" cy="18" r="3" fill="white"/>
+        </svg>
+        <span class="text-lg font-semibold">MeuJus</span>
+      </a>
+      <div class="text-sm text-zinc-500">Gerador de Provas</div>
+      <div class="text-sm text-zinc-500">© <span id="ano"></span></div>
+    </div>
+  </header>
+
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+    <div class="grid lg:grid-cols-3 gap-8">
+      <section class="lg:col-span-1 space-y-6">
+        <div class="rounded-3xl border border-zinc-200 bg-white p-6 shadow-sm">
+          <h2 class="text-xl font-semibold">Configurações</h2>
+          <p class="mt-1 text-sm text-zinc-600">Filtre e gere a prova.</p>
+          <form id="formProva" class="mt-4 grid gap-4" autocomplete="off">
+            <label class="grid gap-2">
+              <span class="text-sm font-medium">Curso</span>
+              <select id="selCurso" class="rounded-2xl border border-zinc-300 bg-white px-3 py-2.5 focus:outline-none focus:ring-2 focus:ring-black/10"></select>
+            </label>
+            <label class="grid gap-2">
+              <span class="text-sm font-medium">Disciplina</span>
+              <input id="inpDisciplina" type="text" placeholder="Ex.: Direito Penal" class="rounded-2xl border border-zinc-300 px-3 py-2.5 focus:outline-none focus:ring-2 focus:ring-black/10">
+            </label>
+            <label class="grid gap-2">
+              <span class="text-sm font-medium">Temas (vírgulas)</span>
+              <input id="inpTemas" type="text" placeholder="Ex.: Tipicidade, Legislação Especial" class="rounded-2xl border border-zinc-300 px-3 py-2.5 focus:outline-none focus:ring-2 focus:ring-black/10">
+            </label>
+            <div class="grid grid-cols-2 gap-4">
+              <label class="grid gap-2">
+                <span class="text-sm font-medium">Nº Questões</span>
+                <input id="inpQtd" type="number" min="1" max="100" value="10" class="rounded-2xl border border-zinc-300 px-3 py-2.5 focus:outline-none focus:ring-2 focus:ring-black/10">
+              </label>
+              <label class="grid gap-2">
+                <span class="text-sm font-medium">Ordem</span>
+                <select id="selOrdem" class="rounded-2xl border border-zinc-300 px-3 py-2.5 focus:outline-none focus:ring-2 focus:ring-black/10">
+                  <option value="aleatoria">Aleatória</option>
+                  <option value="original">Original</option>
+                </select>
+              </label>
+            </div>
+
+            <fieldset class="mt-2">
+              <legend class="text-sm font-medium">Parseamento</legend>
+              <div class="mt-2 grid gap-2">
+                <label class="inline-flex items-center justify-between rounded-2xl border border-zinc-300 px-3 py-2.5">
+                  <div class="flex items-center gap-2">
+                    <input type="checkbox" id="ckNorm" checked>
+                    <span class="text-sm">Normalizar pontuação</span>
+                  </div>
+                  <span class="text-xs text-zinc-500">espaços e vírgulas</span>
+                </label>
+                <label class="inline-flex items-center justify-between rounded-2xl border border-zinc-300 px-3 py-2.5">
+                  <div class="flex items-center gap-2">
+                    <input type="checkbox" id="ckCitar" checked>
+                    <span class="text-sm">Detectar citações legais</span>
+                  </div>
+                  <span class="text-xs text-zinc-500">ex.: art. 5º, CF/88</span>
+                </label>
+                <label class="inline-flex items-center justify-between rounded-2xl border border-zinc-300 px-3 py-2.5">
+                  <div class="flex items-center gap-2">
+                    <input type="checkbox" id="ckAlt" checked>
+                    <span class="text-sm">Padronizar alternativas</span>
+                  </div>
+                  <span class="text-xs text-zinc-500">A–E</span>
+                </label>
+              </div>
+            </fieldset>
+
+            <div class="mt-4 flex gap-3">
+              <button type="submit" class="inline-flex items-center gap-2 rounded-2xl px-4 py-2 bg-black text-white hover:bg-zinc-800">Gerar Prova</button>
+              <button type="button" id="btnLimpar" class="inline-flex items-center gap-2 rounded-2xl px-4 py-2 border border-zinc-200 hover:bg-white">Limpar</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="rounded-3xl border border-zinc-200 bg-white p-6 shadow-sm">
+          <h3 class="text-sm font-semibold text-zinc-700">Validação</h3>
+          <ul id="listaChecks" class="mt-3 space-y-2 text-sm text-zinc-600">
+            <li class="flex items-center gap-2"><span class="h-2.5 w-2.5 rounded-full bg-zinc-300"></span>Numeração sequencial</li>
+            <li class="flex items-center gap-2"><span class="h-2.5 w-2.5 rounded-full bg-zinc-300"></span>Alternativas padronizadas</li>
+            <li class="flex items-center gap-2"><span class="h-2.5 w-2.5 rounded-full bg-zinc-300"></span>Gabarito único</li>
+            <li class="flex items-center gap-2"><span class="h-2.5 w-2.5 rounded-full bg-zinc-300"></span>Citações detectadas</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="lg:col-span-2 space-y-6">
+        <div class="rounded-3xl border border-zinc-200 bg-white p-6 shadow-sm sheet">
+          <div class="flex items-center justify-between">
+            <div>
+              <h2 class="text-xl font-semibold">Preview</h2>
+              <p class="text-sm text-zinc-600">Gerado do banco local.</p>
+            </div>
+            <div class="flex gap-2 no-print">
+              <button id="btnImprimir" class="rounded-2xl border border-zinc-200 px-3 py-2 text-sm hover:bg-zinc-50">Exportar PDF</button>
+              <button id="btnBaixarJSON" class="rounded-2xl border border-zinc-200 px-3 py-2 text-sm hover:bg-zinc-50">Baixar JSON</button>
+            </div>
+          </div>
+
+          <div id="previewVazio" class="mt-6 rounded-2xl border border-dashed border-zinc-300 p-10 text-center text-sm text-zinc-600">
+            Nenhuma prova gerada.
+          </div>
+
+          <div id="previewConteudo" class="mt-6 hidden">
+            <article id="artigo" class="prose max-w-none"></article>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="border-t border-zinc-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 text-sm text-zinc-500">
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-4">
+        <p>© <span id="anoRodape"></span> MeuJus.</p>
+        <div class="flex items-center gap-4">
+          <a href="#" class="hover:text-zinc-700">Termos</a>
+          <a href="#" class="hover:text-zinc-700">Privacidade</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
