@@ -47,9 +47,12 @@
       #printArea { display:block !important }
 
       #printArea{
-        column-count:2; column-gap:10mm; column-fill:balance;
-        column-rule:0.1mm solid #cbd5e1; margin:0; padding:0
-      }
+  column-count:2;
+  column-gap:10mm;
+  column-fill:auto;          /* preenche 1ª coluna até o fim antes de usar a 2ª */
+  column-rule:0.1mm solid #cbd5e1;
+  margin:0; padding:0;
+}
 
       .enunciado{
   font-size: 0.90rem !important;
