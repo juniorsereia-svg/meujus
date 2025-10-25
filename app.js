@@ -6,17 +6,25 @@
   [ano, rodapeAno].forEach(el => el && (el.textContent = new Date().getFullYear()));
 
   // Controles
-  const selCurso = $('#selCurso');
   const inpQtd = $('#inpQtd');
   const form = $('#formProva');
   const btnLimpar = $('#btnLimpar');
   const btnImprimir = $('#btnImprimir');
 
+  // Curso: combo custom
+  let cursoSelecionado = '';
+  const cursoInput  = $('#cursoInput');
+  const cursoPanel  = $('#cursoPanel');
+  const cursoHidden = $('#cursoHidden');
+  const cursoCaret  = document.querySelector('#cursoCombo .combo-caret');
+
+  // Temas: combo + chips
   const temaInput = $('#temaInput');
   const temaPanel = $('#temaPanel');
   const temasHidden = $('#temasHidden');
   const chips = $('#chips');
 
+  // Áreas
   const previewVazio = $('#previewVazio');
   const previewConteudo = $('#previewConteudo');
   const artigo = $('#artigo');
@@ -80,7 +88,9 @@
     const res = await fetch('./data/manifest.json');
     const manifest = await res.json();
     const cursos = Object.keys(manifest);
-    selCurso.innerHTML = cursos.map(c=>`<option>${c}</option>`).join('');
+
+    montarComboCurso(cursos);
+
     for (const curso of cursos) {
       const folder = manifest[curso].folder;
       for (const f of manifest[curso].files) {
@@ -91,7 +101,39 @@
     montarComboTemas();
   }
 
-  // Combo de temas com busca e multiseleção
+  // Combo Curso
+  function montarComboCurso(cursos){
+    const lista = cursos.slice().sort((a,b)=>a.localeCompare(b,'pt'));
+    cursoPanel.innerHTML = lista.map(c=>`<div class="combo-item" data-valor="${c}">${c}</div>`).join('');
+    cursoSelecionado = lista[0] || '';
+    cursoHidden.value = cursoSelecionado;
+    cursoInput.value = cursoSelecionado;
+  }
+  function abrirPanelCurso(){ cursoPanel.classList.remove('hidden'); }
+  function fecharPanelCurso(){ cursoPanel.classList.add('hidden'); }
+  cursoInput?.addEventListener('focus', abrirPanelCurso);
+  cursoCaret?.addEventListener('click', ()=> cursoPanel.classList.toggle('hidden'));
+  cursoInput?.addEventListener('input', ()=>{
+    const q = cursoInput.value.trim().toLowerCase();
+    Array.from(cursoPanel.children).forEach(it=>{
+      const ok = it.textContent.toLowerCase().includes(q);
+      it.style.display = ok ? '' : 'none';
+      it.setAttribute('aria-selected', ok ? 'true' : 'false');
+    });
+    abrirPanelCurso();
+  });
+  cursoPanel.addEventListener('click', (e)=>{
+    const item = e.target.closest('.combo-item'); if(!item) return;
+    cursoSelecionado = item.getAttribute('data-valor');
+    cursoHidden.value = cursoSelecionado;
+    cursoInput.value = cursoSelecionado;
+    fecharPanelCurso();
+  });
+  document.addEventListener('click', (e)=>{
+    if(!cursoPanel.contains(e.target) && e.target!==cursoInput && e.target!==cursoCaret) fecharPanelCurso();
+  });
+
+  // Combo Temas
   function montarComboTemas(){
     const lista = Array.from(temasDisponiveis).sort((a,b)=>a.localeCompare(b,'pt'));
     temaPanel.innerHTML = lista.map(t=>`<div class="combo-item" data-valor="${t}">${t}</div>`).join('');
@@ -133,7 +175,7 @@
 
   // Filtro + amostragem estratificada por tema
   function filtrarPorCursoETemas(){
-    const cursoAlvo = selCurso.value.trim();
+    const cursoAlvo = (cursoSelecionado || '').trim();
     let pool = banco.filter(q=>q.curso === cursoAlvo);
     const selecionados = Array.from(temasSelecionados);
     if (!selecionados.length) return pool;
@@ -141,14 +183,11 @@
   }
 
   function amostrarEstratificada(pool, qtd) {
-    // Temas selecionados pelo usuário, se existirem; caso contrário usa todos os temas do pool
     const selecionados = (temasSelecionados && temasSelecionados.size)
       ? Array.from(temasSelecionados)
       : Array.from(new Set(pool.flatMap(q => (q.temas || []))));
-
     if (!selecionados.length) return embaralhar(pool.slice()).slice(0, qtd);
 
-    // Buckets por tema
     const buckets = new Map();
     selecionados.forEach(t => buckets.set(t, []));
     pool.forEach(q => {
@@ -160,7 +199,7 @@
     const usados = new Set();
     const res = [];
     let i = 0;
-    const ordem = selecionados.slice(); // round-robin
+    const ordem = selecionados.slice();
 
     while (res.length < qtd && buckets.size) {
       const tema = ordem[i % ordem.length];
