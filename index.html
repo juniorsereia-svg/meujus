@@ -31,35 +31,63 @@
     .chip{display:inline-flex;align-items:center;gap:6px;background:#eef2ff;border:1px solid #c7d2fe;color:#3730a3;font-size:.8rem;border-radius:9999px;padding:2px 8px}
 
     /* Print – duas colunas, fluxo contínuo; oculta área de tela, mostra printArea; margens 0.8mm; sem meta */
-    @media print{
-      @page{margin:0.8mm}
-      header, .no-print, footer, #screenArea{display:none!important}
-      #printArea{display:block!important}
-      #printArea{column-count:2; column-gap:0.8mm; column-rule:1px solid #e5e7eb}
-      .questao{break-inside:auto}
-      .separador{margin:8px 0;border-color:#cbd5e1}
-      .enunciado{font-size:0.9rem}
-      .alternativas li{font-size:0.825rem}
-      .meta{display:none!important}
-    }
-    /* Tela – mostra screenArea, esconde printArea */
-    #printArea{display:none}
-  </style>
-</head>
-<body class="bg-zinc-50 text-zinc-900">
-  <header class="sticky top-0 z-40 bg-white/80 backdrop-blur border-b border-zinc-200">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-      <a class="flex items-center gap-3" href="#">
-        <svg width="28" height="28" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <rect x="4" y="4" width="40" height="40" rx="10" fill="#111827"/>
-          <path d="M14 30c6 0 8-8 10-8s4 8 10 8" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-          <circle cx="24" cy="18" r="3" fill="white"/>
-        </svg>
-        <span class="text-lg font-semibold">MeuJus</span>
-      </a>
-      <div class="text-sm text-zinc-500">© <span id="ano"></span></div>
-    </div>
-  </header>
+    @media print {
+  /* Página e cores */
+  @page { size: A4; margin: 0.8mm; }
+  html, body {
+    background:#fff !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  /* Mostrar apenas a área de impressão */
+  header, footer, .no-print, #screenArea { display:none !important; }
+  #printArea { display:block !important; }
+
+  /* Duas colunas “tipo livro” com fluxo contínuo */
+  #printArea{
+    column-count: 2;
+    column-gap: 0.8mm;         /* espaço entre colunas */
+    column-fill: balance;       /* equilibrar altura das colunas */
+    column-rule: 0.2mm solid #cbd5e1;  /* linha divisória sutil */
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Tipografia 2px menor e justificada */
+  .enunciado{
+    font-size: 0.90rem !important;     /* ~2px menor que tela */
+    line-height: 1.5;
+    color: #111827 !important;          /* neutra para impressão */
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+  }
+  .alternativas li{
+    font-size: 0.825rem !important;     /* ~2px menor que tela */
+    line-height: 1.45;
+    break-inside: avoid;
+  }
+
+  /* Ocultar a linha de metadados (*) apenas na impressão */
+  .meta{ display:none !important; }
+
+  /* Quebras e separadores */
+  .questao{
+    break-inside: avoid;          /* não quebrar no meio da questão */
+    page-break-inside: avoid;
+  }
+  .separador{
+    margin: 6px 0;
+    border-bottom: 1px solid #d1d5db;
+  }
+
+  /* Limpar bordas/sombras de cartões que escapem para a área impressa */
+  #printArea *{
+    box-shadow: none !important;
+  }
+}
+
 
   <!-- Área de tela -->
   <section id="screenArea" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
