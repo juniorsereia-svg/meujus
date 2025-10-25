@@ -253,70 +253,81 @@
     return `${base}?hl=pt-BR&udm=50&q=${q}`;
   }
   function montarLinksIA(q){
-  const enunciado  = q.enunciado.replace(/\s+/g,' ').trim();
-  const alternativas = formatarAlternativasParaPrompt(q.alternativas);
-  const gabarito   = q.gabarito;
-  const temaPrincipal = (q.temas && q.temas.length ? q.temas.join(', ') : '');
+    const enunciado  = q.enunciado.replace(/\s+/g,' ').trim();
+    const alternativas = formatarAlternativasParaPrompt(q.alternativas);
+    const gabarito   = q.gabarito;
+    const temaPrincipal = (q.temas && q.temas.length ? q.temas.join(', ') : '');
 
-  const pComentario =
+    const pComentario =
 `Comente e fundamente juridicamente a questão abaixo. Justifique por que o gabarito está correto e refute cada alternativa incorreta com base legal e, se possível, jurisprudência.
 ENUNCIADO: "${enunciado}"
 ALTERNATIVAS: "${alternativas}"
 GABARITO: "${gabarito}"`;
 
-  const pGlossario =
+    const pGlossario =
 `Produza um glossário objetivo dos termos jurídicos presentes na questão abaixo. Defina cada termo em até 2 linhas e cite base legal quando aplicável.
 ENUNCIADO: "${enunciado}"
 ALTERNATIVAS: "${alternativas}"`;
 
-  const pPrincipios =
+    const pPrincipios =
 `Identifique e explique os princípios do direito relacionados à questão abaixo, com referência a doutrina e artigos jurídicos. Resuma cada princípio e mostre a pertinência.
 ENUNCIADO: "${enunciado}"
 ALTERNATIVAS: "${alternativas}"
 GABARITO: "${gabarito}"`;
 
-  const pVideos =
+    const pVideos =
 `Liste 3 vídeos do YouTube que expliquem o tema principal desta questão de forma didática e atual. Dê título e link.
 TEMA PRINCIPAL: "${temaPrincipal}"
 ENUNCIADO: "${enunciado}"`;
 
-  const hrefComentario = urlGoogleModoIA(pComentario);
-  const hrefGlossario  = urlGoogleModoIA(pGlossario);
-  const hrefPrincipios = urlGoogleModoIA(pPrincipios);
-  const hrefVideos     = urlGoogleModoIA(pVideos);
+    const hrefComentario = urlGoogleModoIA(pComentario);
+    const hrefGlossario  = urlGoogleModoIA(pGlossario);
+    const hrefPrincipios = urlGoogleModoIA(pPrincipios);
+    const hrefVideos     = urlGoogleModoIA(pVideos);
 
-  // Ícones SVG monocromáticos (brancos) dentro de botões pretos
-  const icoComentario = `
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-      <path d="M21 15a4 4 0 0 1-4 4H8l-5 4V5a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4v10z"/>
-    </svg>`;
-  const icoGlossario = `
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-      <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5v14Z"/>
-      <path d="M6.5 17V5.5A2.5 2.5 0 0 1 9 3"/>
-    </svg>`;
-  const icoPrincipios = `
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-      <path d="M12 3v18M3 7h18"/>
-      <path d="M7 7 3 13h8L7 7Z"/>
-      <path d="M17 7l-4 6h8l-4-6Z"/>
-    </svg>`;
-  const icoVideos = `
-    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-      <polygon points="9,6 19,12 9,18"/>
-      <rect x="3" y="5" width="18" height="14" rx="2" ry="2" fill="none" stroke="currentColor" stroke-width="2"/>
-    </svg>`;
+    const icoComentario = `
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+        <path d="M21 15a4 4 0 0 1-4 4H8l-5 4V5a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4v10z"/>
+      </svg>`;
+    const icoGlossario = `
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5v14Z"/>
+        <path d="M6.5 17V5.5A2.5 2.5 0 0 1 9 3"/>
+      </svg>`;
+    const icoPrincipios = `
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+        <path d="M12 3v18M3 7h18"/>
+        <path d="M7 7 3 13h8L7 7Z"/>
+        <path d="M17 7l-4 6h8l-4-6Z"/>
+      </svg>`;
+    const icoVideos = `
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+        <polygon points="9,6 19,12 9,18"/>
+        <rect x="3" y="5" width="18" height="14" rx="2" ry="2" fill="none" stroke="currentColor" stroke-width="2"/>
+      </svg>`;
 
-  return `
-    <div class="acoes-ia">
-      <span class="ia-label">Google I.A.</span>
-      <a class="btn-ia" title="Comentário"  target="_blank" rel="noopener noreferrer" href="${hrefComentario}">${icoComentario}</a>
-      <a class="btn-ia" title="Glossário"   target="_blank" rel="noopener noreferrer" href="${hrefGlossario}">${icoGlossario}</a>
-      <a class="btn-ia" title="Princípios"  target="_blank" rel="noopener noreferrer" href="${hrefPrincipios}">${icoPrincipios}</a>
-      <a class="btn-ia" title="Vídeos"      target="_blank" rel="noopener noreferrer" href="${hrefVideos}">${icoVideos}</a>
-    </div>`;
-}
+    return `
+      <div class="acoes-ia">
+        <span class="ia-label">Google I.A.</span>
+        <a class="btn-ia" title="Comentário"  target="_blank" rel="noopener noreferrer" href="${hrefComentario}">${icoComentario}</a>
+        <a class="btn-ia" title="Glossário"   target="_blank" rel="noopener noreferrer" href="${hrefGlossario}">${icoGlossario}</a>
+        <a class="btn-ia" title="Princípios"  target="_blank" rel="noopener noreferrer" href="${hrefPrincipios}">${icoPrincipios}</a>
+        <a class="btn-ia" title="Vídeos"      target="_blank" rel="noopener noreferrer" href="${hrefVideos}">${icoVideos}</a>
+      </div>`;
+  }
 
+  // Substituição: utilitário
+  function pickOutraDoMesmoArquivo(qAtual){
+    const chave = `${qAtual.curso}::${qAtual.tema}::${qAtual.srcFile}`;
+    const pool = idxPorArquivo.get(chave) || [];
+    if(!pool.length) return null;
+    for(let tent=0; tent<8; tent++){
+      const cand = pool[(Math.random()*pool.length)|0];
+      if(cand.id !== qAtual.id && !usadosProva.has(cand.id)) return cand;
+    }
+    const livre = pool.find(x=>x.id!==qAtual.id && !usadosProva.has(x.id));
+    return livre || null;
+  }
 
   // Render tela
   function renderQuestoesTela(lista){
@@ -325,8 +336,9 @@ ENUNCIADO: "${enunciado}"`;
       const alts = q.alternativas.map((a,i)=>`<li class="py-1" data-alt="${letras[i]}" role="button" tabindex="0">${a}</li>`).join('');
       return `
       <section class="questao py-2" data-q="${idx}" data-id="${q.id}">
+        <div class="titulo-questao">Questão ${numero}</div>
         <div class="meta">${q.meta}</div>
-        <h4 class="enunciado mt-1">${numero}) ${q.enunciado}</h4>
+        <h4 class="enunciado mt-1">${q.enunciado}</h4>
         <ul class="alternativas mt-2 space-y-1">${alts}</ul>
         <div class="mt-2">
           <button type="button" class="btn-substituir" title="Trocar questão" aria-label="Trocar questão">↻</button>
@@ -345,7 +357,8 @@ ENUNCIADO: "${enunciado}"`;
       const alts = q.alternativas.map(a=>`<li class="py-1" style="font-size:0.825rem;line-height:1.5">${a}</li>`).join('');
       return `
       <section class="questao py-1" data-q="${idx}">
-        <h4 class="enunciado mt-1" style="font-size:0.9rem;line-height:1.55;color:#111827;font-weight:400">${numero}) ${q.enunciado}</h4>
+        <div class="titulo-questao" style="font-size:0.9rem;font-weight:600;color:#111827">Questão ${numero}</div>
+        <h4 class="enunciado mt-1" style="font-size:0.9rem;line-height:1.55;color:#111827;font-weight:400">${q.enunciado}</h4>
         <ul class="alternativas mt-2" style="margin-left:1rem">${alts}</ul>
         <div class="separador"></div>
       </section>`;
@@ -408,7 +421,7 @@ ENUNCIADO: "${enunciado}"`;
     const alts = novo.alternativas.map((a,i)=>`<li class="py-1" data-alt="${letras[i]}" role="button" tabindex="0">${a}</li>`).join('');
     sec.setAttribute('data-id', novo.id);
     sec.querySelector('.meta').textContent = novo.meta;
-    sec.querySelector('.enunciado').innerHTML = `${idx+1}) ${novo.enunciado}`;
+    sec.querySelector('.enunciado').innerHTML = `${novo.enunciado}`;
     sec.querySelector('.alternativas').innerHTML = alts;
     sec.querySelector('.feedback').innerHTML = '';
   }
