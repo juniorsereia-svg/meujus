@@ -1,5 +1,5 @@
-// Funcional: carrega manifest e TXT, parse, combos custom (curso/temas), amostragem estratificada,
-// impressão 2 colunas, botões IA pós-gabarito e botão "substituir questão" por outra do mesmo arquivo/tema.
+// app.js
+// Lazy-load por tema. Subtemas multi-select. Impressão sincronizada após substituição.
 (function () {
   const $ = (sel) => document.querySelector(sel);
   const ano = $('#ano'); const rodapeAno = $('#rodapeAno');
@@ -11,19 +11,29 @@
   const btnLimpar = $('#btnLimpar');
   const btnImprimir = $('#btnImprimir');
 
-  // Curso: combo custom
+  // Curso combo
   let cursoSelecionado = '';
   const cursoInput  = $('#cursoInput');
   const cursoPanel  = $('#cursoPanel');
   const cursoHidden = $('#cursoHidden');
-  const cursoCaret  = document.querySelector('#cursoCombo .combo-caret');
+  const cursoCaret  = $('#cursoCombo .combo-caret');
+  const cursoClose  = $('#cursoCombo .combo-close');
 
-  // Temas: combo + chips
+  // Temas combo
   const temaInput = $('#temaInput');
   const temaPanel = $('#temaPanel');
   const temasHidden = $('#temasHidden');
   const chips = $('#chips');
-  const temaCaret = document.querySelector('#temaInput')?.closest('.combo-control')?.querySelector('.combo-caret') || null;
+  const temaCaret = temaInput?.closest('.combo-control')?.querySelector('.combo-caret');
+  const temaClose = temaInput?.closest('.combo-control')?.querySelector('.combo-close');
+
+  // Subtemas combo
+  const subtemaInput = $('#subtemaInput');
+  const subtemaPanel = $('#subtemaPanel');
+  const subtemasHidden = $('#subtemasHidden');
+  const chipsSub = $('#chipsSub');
+  const subtemaCaret = subtemaInput?.closest('.combo-control')?.querySelector('.combo-caret');
+  const subtemaClose = subtemaInput?.closest('.combo-control')?.querySelector('.combo-close');
 
   // Áreas
   const previewVazio = $('#previewVazio');
@@ -32,15 +42,20 @@
   const printArticle = $('#printArticle');
 
   // Estado
-  let banco = [];
-  let temasDisponiveis = new Set();
+  let manifest = {};
+  let mapCursoTemaArquivo = new Map(); // curso -> [{label, file}]
+  let carregadoSet = new Set();        // `${curso}::${file}`
+  let banco = [];                      // todas as questões carregadas
+  let temasDisponiveis = new Set();    // do curso atual
   let temasSelecionados = new Set();
+  let subtemasDisponiveis = new Set(); // agregados dos temas selecionados
+  let subtemasSelecionados = new Set();
   let resultado = [];
   const letras = ['A','B','C','D','E'];
 
-  // Índices p/ substituição
+  // Índices para substituição
   const idxPorArquivo = new Map();     // chave: curso::tema::srcFile -> array de questões
-  let usadosProva = new Set();         // ids já presentes na prova atual
+  let usadosProva = new Set();
 
   // Utils
   function embaralhar(arr){for(let i=arr.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[arr[i],arr[j]]=[arr[j],arr[i]];}return arr;}
@@ -54,8 +69,13 @@
   function padronizarAlternativas(alts){
     return alts.slice(0,5).map((t,i)=>`${letras[i]}) ${t.replace(/^[A-Ea-e]\)\s*/, '').trim()}`);
   }
+  function labelFromFilename(filename){
+    const base = filename.replace(/\.[^.]+$/, '');
+    const words = base.split(/[_\-]+/).filter(Boolean);
+    return words.map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+  }
 
-  // Parse TXT (tema vem do nome do arquivo)
+  // Parse TXT: tema = label do arquivo; subtemas = linha iniciada por "******" (opcional "Subtemas:")
   function parseArquivo(txt, curso, temaLabel, srcFile) {
     const blocos = txt.split(/\n-{5,}\s*\n/).map(s=>s.trim()).filter(Boolean);
     const out = [];
@@ -68,6 +88,7 @@
       const enunciadoLinhas = linhas.filter(l=>l.startsWith('** ')).map(l=>l.replace(/^\*\*\s*/, ''));
       const alternativas = linhas.filter(l=>l.startsWith('*** ')).map(l=>l.replace(/^\*\*\*\s*/, ''));
       const gabaritoLinha = linhas.find(l=>l.startsWith('**** '));
+      const subtemaLinha  = linhas.find(l=>l.startsWith('****** ')); // opcional
 
       if (!metaLinha || !enunciadoLinhas.length || alternativas.length < 2 || !gabaritoLinha) continue;
 
@@ -76,59 +97,69 @@
       const alts = padronizarAlternativas(alternativas.map(a=>normalizarPontuacao(a)));
       const gab = (gabaritoLinha.replace(/^(\*{4}\s*)?Gabarito:\s*/i,'').trim().match(/^[A-E]/i)||[''])[0].toUpperCase();
 
-      const id = `${curso}::${temaLabel}::${srcFile}::${idxBloco}`;
-      const tema = temaLabel;
-      const q = { id, curso, meta, enunciado, alternativas: alts, gabarito: gab, temas:[temaLabel], tema, srcFile };
+      let subtemas = [];
+      if (subtemaLinha) {
+        const raw = subtemaLinha.replace(/^\*{6}\s*/, '').replace(/^Subtemas:\s*/i,'').trim();
+        subtemas = raw.split(/[;,]/).map(s=>s.trim()).filter(Boolean);
+      }
 
-      temasDisponiveis.add(temaLabel);
+      const id = `${curso}::${temaLabel}::${srcFile}::${idxBloco}`;
+      const q = { id, curso, meta, enunciado, alternativas: alts, gabarito: gab, temas:[temaLabel], tema:temaLabel, srcFile, subtemas };
       out.push(q);
     }
     return out;
   }
 
-  // Manifest + TXT
-  async function carregarBanco() {
+  // Manifest
+  async function carregarManifest() {
     const res = await fetch('./data/manifest.json');
-    const manifest = await res.json();
-    const cursos = Object.keys(manifest);
+    manifest = await res.json();
 
-    montarComboCurso(cursos);
-
-    function labelFromFilename(filename){
-      const base = filename.replace(/\.[^.]+$/, '');
-      const words = base.split(/[_\-]+/).filter(Boolean);
-      return words.map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
-    }
-
-    for (const curso of cursos) {
+    // curso -> [{label, file}]
+    mapCursoTemaArquivo = new Map();
+    Object.keys(manifest).forEach(curso=>{
       const folder = manifest[curso].folder;
-      for (const f of manifest[curso].files) {
-        const temaLabel = labelFromFilename(f);
-        const txt = await fetch(`./data/${folder}/${f}`).then(r=>r.text());
-        const lote = parseArquivo(txt, curso, temaLabel, f);
-        banco.push(...lote);
+      const files = manifest[curso].files || [];
+      const items = files.map(f=>({ label: labelFromFilename(f), file:f, folder }));
+      mapCursoTemaArquivo.set(curso, items);
+    });
 
-        const chave = `${curso}::${temaLabel}::${f}`;
-        if(!idxPorArquivo.has(chave)) idxPorArquivo.set(chave, []);
-        idxPorArquivo.get(chave).push(...lote);
-      }
-    }
-
-    montarComboTemas();
+    montarComboCurso(Object.keys(manifest));
   }
 
-  // Combo Curso
+  // Lazy-load de um tema selecionado
+  async function ensureTemaCarregado(curso, temaLabel){
+    const items = mapCursoTemaArquivo.get(curso) || [];
+    const it = items.find(x=>x.label===temaLabel);
+    if(!it) return;
+    const key = `${curso}::${it.file}`;
+    if(carregadoSet.has(key)) return;
+
+    const txt = await fetch(`./data/${it.folder}/${it.file}`).then(r=>r.text());
+    const lote = parseArquivo(txt, curso, it.label, it.file);
+    banco.push(...lote);
+
+    const chave = `${curso}::${it.label}::${it.file}`;
+    if(!idxPorArquivo.has(chave)) idxPorArquivo.set(chave, []);
+    idxPorArquivo.get(chave).push(...lote);
+
+    carregadoSet.add(key);
+  }
+
+  // Curso combo
   function montarComboCurso(cursos){
     const lista = cursos.slice().sort((a,b)=>a.localeCompare(b,'pt'));
     cursoPanel.innerHTML = lista.map(c=>`<div class="combo-item" data-valor="${c}">${c}</div>`).join('');
     cursoSelecionado = lista[0] || '';
     cursoHidden.value = cursoSelecionado;
     cursoInput.value = cursoSelecionado;
+    onChangeCurso();
   }
-  function abrirPanelCurso(){ cursoPanel.classList.remove('hidden'); }
-  function fecharPanelCurso(){ cursoPanel.classList.add('hidden'); }
-  cursoInput?.addEventListener('focus', abrirPanelCurso);
-  cursoCaret?.addEventListener('click', ()=> cursoPanel.classList.toggle('hidden'));
+  function abrir(el){ el.classList.remove('hidden'); }
+  function fechar(el){ el.classList.add('hidden'); }
+  cursoInput?.addEventListener('focus', ()=>abrir(cursoPanel));
+  cursoCaret?.addEventListener('click', ()=>cursoPanel.classList.toggle('hidden'));
+  cursoClose?.addEventListener('click', ()=>fechar(cursoPanel));
   cursoInput?.addEventListener('input', ()=>{
     const q = cursoInput.value.trim().toLowerCase();
     Array.from(cursoPanel.children).forEach(it=>{
@@ -136,34 +167,47 @@
       it.style.display = ok ? '' : 'none';
       it.setAttribute('aria-selected', ok ? 'true' : 'false');
     });
-    abrirPanelCurso();
+    abrir(cursoPanel);
   });
   cursoPanel.addEventListener('click', (e)=>{
     const item = e.target.closest('.combo-item'); if(!item) return;
     cursoSelecionado = item.getAttribute('data-valor');
     cursoHidden.value = cursoSelecionado;
     cursoInput.value = cursoSelecionado;
-    fecharPanelCurso();
+    onChangeCurso();
   });
   document.addEventListener('click', (e)=>{
-    if(!cursoPanel.contains(e.target) && e.target!==cursoInput && e.target!==cursoCaret) fecharPanelCurso();
+    if(!cursoPanel.contains(e.target) && e.target!==cursoInput && e.target!==cursoCaret && e.target!==cursoClose) fechar(cursoPanel);
   });
 
-  // Combo Temas
-  function montarComboTemas(){
-    const lista = Array.from(temasDisponiveis).sort((a,b)=>a.localeCompare(b,'pt'));
-    temaPanel.innerHTML = lista.map(t=>`<div class="combo-item" data-valor="${t}">${t}</div>`).join('');
+  function onChangeCurso(){
+    // limpa seleções e listas
+    temasSelecionados.clear();
+    subtemasSelecionados.clear();
+    chips.innerHTML=''; chipsSub.innerHTML='';
+    temasHidden.value='[]'; subtemasHidden.value='[]';
+    montarComboTemas();
+    montarComboSubtemas([]); // vazio até carregar temas
   }
-  function abrirPainel(){ temaPanel.classList.remove('hidden'); }
-  function fecharPainel(){ temaPanel.classList.add('hidden'); }
-  function renderChips(){
+
+  // Temas combo
+  function montarComboTemas(){
+    const items = (mapCursoTemaArquivo.get(cursoSelecionado)||[])
+      .map(x=>x.label).sort((a,b)=>a.localeCompare(b,'pt'));
+    temaPanel.innerHTML = items.map(t=>`<div class="combo-item" data-valor="${t}">${t}</div>`).join('');
+  }
+  function renderChipsTemas(){
     chips.innerHTML = '';
     temasHidden.value = JSON.stringify(Array.from(temasSelecionados));
     temasSelecionados.forEach(t=>{
       const el = document.createElement('span');
       el.className = 'chip';
       el.innerHTML = `${t} <button type="button" aria-label="Remover">×</button>`;
-      el.querySelector('button').onclick = ()=>{ temasSelecionados.delete(t); renderChips(); };
+      el.querySelector('button').onclick = async ()=>{
+        temasSelecionados.delete(t);
+        renderChipsTemas();
+        await recomputarSubtemasDisponiveis();
+      };
       chips.appendChild(el);
     });
   }
@@ -174,32 +218,100 @@
       it.style.display = ok ? '' : 'none';
       it.setAttribute('aria-selected', ok ? 'true' : 'false');
     });
-    abrirPainel();
+    abrir(temaPanel);
   });
-  temaInput?.addEventListener('focus', abrirPainel);
-  temaCaret?.addEventListener('click', ()=> temaPanel.classList.toggle('hidden'));
+  temaInput?.addEventListener('focus', ()=>abrir(temaPanel));
+  temaCaret?.addEventListener('click', ()=>temaPanel.classList.toggle('hidden'));
+  temaClose?.addEventListener('click', ()=>fechar(temaPanel));
   document.addEventListener('click', (e)=>{
-    if(!temaPanel.contains(e.target) && e.target!==temaInput && e.target!==temaCaret) fecharPainel();
+    if(!temaPanel.contains(e.target) && e.target!==temaInput && e.target!==temaCaret && e.target!==temaClose) fechar(temaPanel);
   });
-  temaPanel.addEventListener('click', (e)=>{
+  temaPanel.addEventListener('click', async (e)=>{
     const item = e.target.closest('.combo-item'); if(!item) return;
     const val = item.getAttribute('data-valor');
-    temasSelecionados.add(val);
-    renderChips();
-    temaInput.value = '';
-    fecharPainel();
+    if(!temasSelecionados.has(val)){
+      temasSelecionados.add(val);
+      renderChipsTemas();
+      await ensureTemaCarregado(cursoSelecionado, val);
+      await recomputarSubtemasDisponiveis();
+      temaInput.value='';
+      // mantém aberto
+    }
   });
 
-  // Filtro + amostragem estratificada por tema
-  function filtrarPorCursoETemas(){
+  // Subtemas combo
+  function montarComboSubtemas(lista){
+    subtemaPanel.innerHTML = lista.map(t=>`<div class="combo-item" data-valor="${t}">${t}</div>`).join('');
+  }
+  function renderChipsSubtemas(){
+    chipsSub.innerHTML = '';
+    subtemasHidden.value = JSON.stringify(Array.from(subtemasSelecionados));
+    subtemasSelecionados.forEach(t=>{
+      const el = document.createElement('span');
+      el.className = 'chip';
+      el.style.fontSize='.70rem';
+      el.innerHTML = `${t} <button type="button" aria-label="Remover">×</button>`;
+      el.querySelector('button').onclick = ()=>{
+        subtemasSelecionados.delete(t);
+        renderChipsSubtemas();
+      };
+      chipsSub.appendChild(el);
+    });
+  }
+  subtemaInput?.addEventListener('input', ()=>{
+    const q = subtemaInput.value.trim().toLowerCase();
+    Array.from(subtemaPanel.children).forEach(it=>{
+      const ok = it.textContent.toLowerCase().includes(q);
+      it.style.display = ok ? '' : 'none';
+      it.setAttribute('aria-selected', ok ? 'true' : 'false');
+    });
+    abrir(subtemaPanel);
+  });
+  subtemaInput?.addEventListener('focus', ()=>abrir(subtemaPanel));
+  subtemaCaret?.addEventListener('click', ()=>subtemaPanel.classList.toggle('hidden'));
+  subtemaClose?.addEventListener('click', ()=>fechar(subtemaPanel));
+  document.addEventListener('click', (e)=>{
+    if(!subtemaPanel.contains(e.target) && e.target!==subtemaInput && e.target!==subtemaCaret && e.target!==subtemaClose) fechar(subtemaPanel);
+  });
+  subtemaPanel.addEventListener('click', (e)=>{
+    const item = e.target.closest('.combo-item'); if(!item) return;
+    const val = item.getAttribute('data-valor');
+    if(!subtemasSelecionados.has(val)){
+      subtemasSelecionados.add(val);
+      renderChipsSubtemas();
+      subtemaInput.value='';
+      // mantém aberto
+    }
+  });
+
+  async function recomputarSubtemasDisponiveis(){
+    subtemasDisponiveis = new Set();
+    if(!temasSelecionados.size) { montarComboSubtemas([]); return; }
+    const temasArr = Array.from(temasSelecionados);
+    // garante que todos os temas selecionados foram carregados
+    for(const t of temasArr){ await ensureTemaCarregado(cursoSelecionado, t); }
+    // agrega subtemas das questões carregadas do curso + temas selecionados
+    banco.forEach(q=>{
+      if(q.curso!==cursoSelecionado) return;
+      if(!q.temas?.some(t=>temasSelecionados.has(t))) return;
+      (q.subtemas||[]).forEach(s=>subtemasDisponiveis.add(s));
+    });
+    const lista = Array.from(subtemasDisponiveis).sort((a,b)=>a.localeCompare(b,'pt'));
+    montarComboSubtemas(lista);
+  }
+
+  // Filtro + amostragem
+  function filtrarPorCursoTemaSubtema(){
     const cursoAlvo = (cursoSelecionado || '').trim();
-    let pool = banco.filter(q=>q.curso === cursoAlvo);
-    const selecionados = Array.from(temasSelecionados);
-    if (!selecionados.length) return pool;
-    return pool.filter(q => (q.temas && q.temas.some(t => selecionados.includes(t))));
+    let pool = banco.filter(q=>q.curso === cursoAlvo && (!temasSelecionados.size || q.temas?.some(t=>temasSelecionados.has(t))));
+    if (subtemasSelecionados.size) {
+      pool = pool.filter(q => (q.subtemas && q.subtemas.some(s => subtemasSelecionados.has(s))));
+    }
+    return pool;
   }
 
   function amostrarEstratificada(pool, qtd) {
+    // estratifica por tema selecionado
     const selecionados = (temasSelecionados && temasSelecionados.size)
       ? Array.from(temasSelecionados)
       : Array.from(new Set(pool.flatMap(q => (q.temas || []))));
@@ -211,7 +323,7 @@
       const ts = q.temas || [];
       selecionados.forEach(t => { if (ts.includes(t)) buckets.get(t).push(q); });
     });
-    buckets.forEach((arr, t) => buckets.set(t, embaralhar(arr)));
+    buckets.forEach((arr) => embaralhar(arr));
 
     const usados = new Set();
     const res = [];
@@ -235,7 +347,6 @@
       }
       i++;
     }
-
     if (res.length < qtd) {
       const resto = embaralhar(pool.filter(q => !usados.has(q)));
       res.push(...resto.slice(0, qtd - res.length));
@@ -243,7 +354,7 @@
     return res.slice(0, qtd);
   }
 
-  // IA: helpers e botões
+  // IA links
   function formatarAlternativasParaPrompt(alts){
     return alts.map(s=>s.replace(/\s+/g,' ').trim()).join(' | ');
   }
@@ -285,38 +396,22 @@ ENUNCIADO: "${enunciado}"`;
     const hrefPrincipios = urlGoogleModoIA(pPrincipios);
     const hrefVideos     = urlGoogleModoIA(pVideos);
 
-    const icoComentario = `
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-        <path d="M21 15a4 4 0 0 1-4 4H8l-5 4V5a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4v10z"/>
-      </svg>`;
-    const icoGlossario = `
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5v14Z"/>
-        <path d="M6.5 17V5.5A2.5 2.5 0 0 1 9 3"/>
-      </svg>`;
-    const icoPrincipios = `
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-        <path d="M12 3v18M3 7h18"/>
-        <path d="M7 7 3 13h8L7 7Z"/>
-        <path d="M17 7l-4 6h8l-4-6Z"/>
-      </svg>`;
-    const icoVideos = `
-      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-        <polygon points="9,6 19,12 9,18"/>
-        <rect x="3" y="5" width="18" height="14" rx="2" ry="2" fill="none" stroke="currentColor" stroke-width="2"/>
-      </svg>`;
+    const icoComentario = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 15a4 4 0 0 1-4 4H8l-5 4V5a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4v10z"/></svg>`;
+    const icoGlossario = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5v14Z"/><path d="M6.5 17V5.5A2.5 2.5 0 0 1 9 3"/></svg>`;
+    const icoPrincipios = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v18M3 7h18"/><path d="M7 7 3 13h8L7 7Z"/><path d="M17 7l-4 6h8l-4-6Z"/></svg>`;
+    const icoVideos = `<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="9,6 19,12 9,18"/><rect x="3" y="5" width="18" height="14" rx="2" ry="2" fill="none" stroke="currentColor" stroke-width="2"/></svg>`;
 
     return `
       <div class="acoes-ia">
         <span class="ia-label">Google I.A.</span>
-        <a class="btn-ia" title="Comentário"  target="_blank" rel="noopener noreferrer" href="${hrefComentario}">${icoComentario}</a>
-        <a class="btn-ia" title="Glossário"   target="_blank" rel="noopener noreferrer" href="${hrefGlossario}">${icoGlossario}</a>
-        <a class="btn-ia" title="Princípios"  target="_blank" rel="noopener noreferrer" href="${hrefPrincipios}">${icoPrincipios}</a>
-        <a class="btn-ia" title="Vídeos"      target="_blank" rel="noopener noreferrer" href="${hrefVideos}">${icoVideos}</a>
+        <a class="btn-ia" title="Comentário"  target="_blank" rel="noopener" href="${hrefComentario}">${icoComentario}</a>
+        <a class="btn-ia" title="Glossário"   target="_blank" rel="noopener" href="${hrefGlossario}">${icoGlossario}</a>
+        <a class="btn-ia" title="Princípios"  target="_blank" rel="noopener" href="${hrefPrincipios}">${icoPrincipios}</a>
+        <a class="btn-ia" title="Vídeos"      target="_blank" rel="noopener" href="${hrefVideos}">${icoVideos}</a>
       </div>`;
   }
 
-  // Substituição: utilitário
+  // Substituição util
   function pickOutraDoMesmoArquivo(qAtual){
     const chave = `${qAtual.curso}::${qAtual.tema}::${qAtual.srcFile}`;
     const pool = idxPorArquivo.get(chave) || [];
@@ -335,14 +430,12 @@ ENUNCIADO: "${enunciado}"`;
       const numero = idx+1;
       const alts = q.alternativas.map((a,i)=>`<li class="py-1" data-alt="${letras[i]}" role="button" tabindex="0">${a}</li>`).join('');
       return `
-      <section class="questao py-2" data-q="${idx}" data-id="${q.id}">
+      <section class="questao" data-q="${idx}" data-id="${q.id}">
         <div class="titulo-questao">Questão ${numero}</div>
         <div class="meta">${q.meta}</div>
-        <h4 class="enunciado mt-1">${q.enunciado}</h4>
-        <ul class="alternativas mt-2 space-y-1">${alts}</ul>
-        <div class="mt-2">
-          <button type="button" class="btn-substituir" title="Trocar questão" aria-label="Trocar questão">↻</button>
-        </div>
+        <h4 class="enunciado">${q.enunciado}</h4>
+        <ul class="alternativas space-y-1">${alts}</ul>
+        <div class="mt-2"><button type="button" class="btn-substituir" title="Trocar questão" aria-label="Trocar questão">↻</button></div>
         <div class="feedback mt-2 text-sm"></div>
         <div class="separador"></div>
       </section>`;
@@ -350,23 +443,24 @@ ENUNCIADO: "${enunciado}"`;
     artigo.innerHTML = html;
   }
 
-  // Render impressão: sem meta
+  // Render impressão
   function renderQuestoesPrint(lista){
     const html = lista.map((q, idx)=>{
       const numero = idx+1;
       const alts = q.alternativas.map(a=>`<li class="py-1" style="font-size:0.825rem;line-height:1.5">${a}</li>`).join('');
       return `
-      <section class="questao py-1" data-q="${idx}">
-        <div class="titulo-questao" style="font-size:0.9rem;font-weight:600;color:#111827">Questão ${numero}</div>
-        <h4 class="enunciado mt-1" style="font-size:0.9rem;line-height:1.55;color:#111827;font-weight:400">${q.enunciado}</h4>
-        <ul class="alternativas mt-2" style="margin-left:1rem">${alts}</ul>
+      <section class="questao" data-q="${idx}">
+        <div class="titulo-questao">Questão ${numero}</div>
+        <div class="meta">${q.meta}</div>
+        <h4 class="enunciado" style="font-size:0.9rem;line-height:1.55;color:#111827;font-weight:400">${q.enunciado}</h4>
+        <ul class="alternativas" style="margin-left:1rem">${alts}</ul>
         <div class="separador"></div>
       </section>`;
     }).join('');
     printArticle.innerHTML = html;
   }
 
-  // Interação: alternativas
+  // Interação alternativas
   function onClickAlternativa(e){
     const li = e.target.closest('li[data-alt]'); if(!li) return;
     const sec = li.closest('section.questao'); if(!sec) return;
@@ -386,108 +480,87 @@ ENUNCIADO: "${enunciado}"`;
     if(alt===correta){
       li.style.backgroundColor='rgba(16,185,129,0.15)';
       li.style.borderRadius='8px';
-      fb.innerHTML =
-        `<span class="inline-block rounded-md px-2 py-1 bg-emerald-50 border border-emerald-200 text-emerald-700">Parabéns, você acertou. Gabarito: ${correta}</span>` +
-        montarLinksIA(q);
+      fb.innerHTML = `<span class="inline-block rounded-md px-2 py-1 bg-emerald-50 border border-emerald-200 text-emerald-700">Parabéns, você acertou. Gabarito: ${correta}</span>` + montarLinksIA(q);
     }else{
       li.style.backgroundColor='rgba(239,68,68,0.15)';
       li.style.borderRadius='8px';
       const right = Array.from(sec.querySelectorAll('.alternativas li')).find(n=>n.getAttribute('data-alt')===correta);
       if(right){right.style.outline='2px solid rgba(16,185,129,0.6)'; right.style.borderRadius='8px';}
-      fb.innerHTML =
-        `<span class="inline-block rounded-md px-2 py-1 bg-red-50 border border-red-200 text-red-700">Resposta incorreta. Gabarito: ${correta}</span>` +
-        montarLinksIA(q);
+      fb.innerHTML = `<span class="inline-block rounded-md px-2 py-1 bg-red-50 border border-red-200 text-red-700">Resposta incorreta. Gabarito: ${correta}</span>` + montarLinksIA(q);
     }
   }
   function onKeyAlternativa(e){
     if(e.key==='Enter'||e.key===' '){e.preventDefault(); onClickAlternativa(e);}
   }
 
-  // Interação: substituir questão
-function onClickSubstituir(e){
-  const btn = e.target.closest('.btn-substituir'); if(!btn) return;
-  const sec = btn.closest('section.questao'); if(!sec) return;
-  if(sec.getAttribute('data-respondida')==='1') return;
+  // Substituir questão
+  function onClickSubstituir(e){
+    const btn = e.target.closest('.btn-substituir'); if(!btn) return;
+    const sec = btn.closest('section.questao'); if(!sec) return;
+    if(sec.getAttribute('data-respondida')==='1') return;
 
-  const idx = parseInt(sec.getAttribute('data-q'),10);
-  const atual = resultado[idx];
-  const novo = pickOutraDoMesmoArquivo(atual);
-  if(!novo){ btn.disabled = true; btn.title = 'Sem outras questões neste tema'; return; }
+    const idx = parseInt(sec.getAttribute('data-q'),10);
+    const atual = resultado[idx];
+    const novo = pickOutraDoMesmoArquivo(atual);
+    if(!novo){ btn.disabled = true; btn.title = 'Sem outras questões neste tema'; return; }
 
-  // Atualiza estado
-  usadosProva.delete(atual.id);
-  usadosProva.add(novo.id);
-  resultado[idx] = novo;
+    usadosProva.delete(atual.id);
+    usadosProva.add(novo.id);
+    resultado[idx] = novo;
 
-  // === TELA ===
-  const altsTela = novo.alternativas
-    .map((a,i)=>`<li class="py-1" data-alt="${letras[i]}" role="button" tabindex="0">${a}</li>`).join('');
-  sec.setAttribute('data-id', novo.id);
-  const hTitulo = sec.querySelector('.titulo-questao');
-  const hEnun   = sec.querySelector('.enunciado');
-  sec.querySelector('.meta').textContent = novo.meta;
+    // Atualiza tela
+    const alts = novo.alternativas.map((a,i)=>`<li class="py-1" data-alt="${letras[i]}" role="button" tabindex="0">${a}</li>`).join('');
+    sec.setAttribute('data-id', novo.id);
+    sec.querySelector('.meta').textContent = novo.meta;
+    sec.querySelector('.enunciado').textContent = novo.enunciado;
+    sec.querySelector('.alternativas').innerHTML = alts;
+    sec.querySelector('.feedback').innerHTML = '';
 
-  // Se existir "Questão X" separado, só troca o enunciado. Caso contrário, mantém numeração "idx+1)" no próprio enunciado.
-  if (hTitulo) {
-    hEnun.innerHTML = `${novo.enunciado}`;
-  } else {
-    hEnun.innerHTML = `${idx+1}) ${novo.enunciado}`;
+    // Atualiza impressão para refletir a troca
+    renderQuestoesPrint(resultado);
   }
 
-  sec.querySelector('.alternativas').innerHTML = altsTela;
-  sec.querySelector('.feedback').innerHTML = '';
-
-  // === IMPRESSÃO ===
-  const secPrint = printArticle.querySelector(`.questao[data-q="${idx}"]`);
-  if (secPrint) {
-    const hEnunPrint = secPrint.querySelector('.enunciado');
-    if (hEnunPrint) hEnunPrint.textContent = `${idx+1}) ${novo.enunciado}`;
-    const ulPrint = secPrint.querySelector('.alternativas');
-    if (ulPrint) {
-      const altsPrint = novo.alternativas
-        .map(a=>`<li class="py-1" style="font-size:0.825rem;line-height:1.5">${a}</li>`).join('');
-      ulPrint.innerHTML = altsPrint;
+  // Geração
+  async function gerar(){
+    // garante que temas selecionados estão carregados
+    for(const t of Array.from(temasSelecionados)){ await ensureTemaCarregado(cursoSelecionado, t); }
+    const pool = filtrarPorCursoTemaSubtema();
+    if(!pool.length){
+      previewConteudo.classList.add('hidden');
+      previewVazio.classList.remove('hidden');
+      artigo.innerHTML=''; printArticle.innerHTML='';
+      return;
     }
+    const qtd = Math.max(1, Math.min(parseInt(inpQtd.value||'1',10), 100));
+    const lista = amostrarEstratificada(embaralhar(pool.slice()), qtd);
+    resultado = lista;
+    usadosProva = new Set(lista.map(q=>q.id));
+
+    previewVazio.classList.add('hidden');
+    previewConteudo.classList.remove('hidden');
+
+    renderQuestoesTela(resultado);
+    renderQuestoesPrint(resultado);
+
+    window.scrollTo({ top: previewConteudo.offsetTop - 60, behavior:'smooth' });
   }
-}
 
-// Geração
-function gerar(){
-  const pool = filtrarPorCursoETemas();
-  if(!pool.length){
-    previewConteudo.classList.add('hidden');
-    previewVazio.classList.remove('hidden');
-    artigo.innerHTML=''; printArticle.innerHTML='';
-    return;
-  }
-  const qtd = Math.max(1, Math.min(parseInt(inpQtd.value||'1',10), 100));
-  const lista = amostrarEstratificada(embaralhar(pool.slice()), qtd);
-  resultado = lista;
-  usadosProva = new Set(lista.map(q=>q.id));
+  // Eventos
+  form?.addEventListener('submit', (e)=>{e.preventDefault(); gerar().catch(err=>{console.error(err); alert('Erro ao gerar prova.');});});
+  btnLimpar?.addEventListener('click', ()=>{
+    form.reset();
+    temasSelecionados.clear(); subtemasSelecionados.clear();
+    chips.innerHTML=''; chipsSub.innerHTML='';
+    temasHidden.value='[]'; subtemasHidden.value='[]';
+    resultado=[]; artigo.innerHTML=''; printArticle.innerHTML='';
+    previewConteudo.classList.add('hidden'); previewVazio.classList.remove('hidden');
+    window.scrollTo({ top:0, behavior:'smooth' });
+  });
+  btnImprimir?.addEventListener('click', ()=>{ renderQuestoesPrint(resultado); window.print(); });
+  document.addEventListener('click', onClickAlternativa);
+  document.addEventListener('keydown', onKeyAlternativa);
+  document.addEventListener('click', onClickSubstituir);
 
-  previewVazio.classList.add('hidden');
-  previewConteudo.classList.remove('hidden');
-
-  renderQuestoesTela(resultado);
-  renderQuestoesPrint(resultado);
-
-  window.scrollTo({ top: previewConteudo.offsetTop - 60, behavior:'smooth' });
-}
-
-// Eventos gerais
-form?.addEventListener('submit', (e)=>{e.preventDefault(); try{gerar();}catch(err){console.error(err); alert('Erro ao gerar prova.');}});
-btnLimpar?.addEventListener('click', ()=>{
-  form.reset(); temasSelecionados.clear(); renderChips();
-  resultado=[]; artigo.innerHTML=''; printArticle.innerHTML='';
-  previewConteudo.classList.add('hidden'); previewVazio.classList.remove('hidden');
-  window.scrollTo({ top:0, behavior:'smooth' });
-});
-btnImprimir?.addEventListener('click', ()=>window.print());
-document.addEventListener('click', onClickAlternativa);
-document.addEventListener('keydown', onKeyAlternativa);
-document.addEventListener('click', onClickSubstituir);
-
-// Boot
-carregarBanco().catch(e=>{console.error(e); alert('Falha ao carregar banco de questões. Sirva via HTTP.');});
-})(); 
-
+  // Boot
+  carregarManifest().catch(e=>{console.error(e); alert('Falha ao carregar manifest. Sirva via HTTP.');});
+})();
