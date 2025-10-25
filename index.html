@@ -31,50 +31,50 @@
     .chip{display:inline-flex;align-items:center;gap:6px;background:#eef2ff;border:1px solid #c7d2fe;color:#3730a3;font-size:.8rem;border-radius:9999px;padding:2px 8px}
 
     /* Print – duas colunas, fluxo contínuo; oculta área de tela, mostra printArea; margens 0.8mm; sem meta */
-    @media print {
+   @media print {
   /* Página e cores */
-  @page { size: A4; margin: 0.8mm; }
+  @page { size: A4; margin: 20mm; }
   html, body {
     background:#fff !important;
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
   }
 
-  /* Mostrar apenas a área de impressão */
+  /* Mostrar só a área de impressão */
   header, footer, .no-print, #screenArea { display:none !important; }
   #printArea { display:block !important; }
 
-  /* Duas colunas “tipo livro” com fluxo contínuo */
+  /* Duas colunas com fluxo contínuo */
   #printArea{
     column-count: 2;
-    column-gap: 0.8mm;         /* espaço entre colunas */
-    column-fill: balance;       /* equilibrar altura das colunas */
-    column-rule: 0.2mm solid #cbd5e1;  /* linha divisória sutil */
+    column-gap: 15mm;                  /* 15 mm entre colunas */
+    column-fill: balance;
+    column-rule: 0.2mm solid #cbd5e1;  /* linha divisória */
     margin: 0;
     padding: 0;
   }
 
-  /* Tipografia 2px menor e justificada */
+  /* Tipografia 2 px menor e justificada */
   .enunciado{
-    font-size: 0.90rem !important;     /* ~2px menor que tela */
+    font-size: 0.90rem !important;
     line-height: 1.5;
-    color: #111827 !important;          /* neutra para impressão */
+    color: #111827 !important;
     text-align: justify;
     hyphens: auto;
     -webkit-hyphens: auto;
   }
   .alternativas li{
-    font-size: 0.825rem !important;     /* ~2px menor que tela */
+    font-size: 0.825rem !important;
     line-height: 1.45;
     break-inside: avoid;
   }
 
-  /* Ocultar a linha de metadados (*) apenas na impressão */
+  /* Ocultar metadados (*) só na impressão */
   .meta{ display:none !important; }
 
   /* Quebras e separadores */
   .questao{
-    break-inside: avoid;          /* não quebrar no meio da questão */
+    break-inside: avoid;
     page-break-inside: avoid;
   }
   .separador{
@@ -82,7 +82,7 @@
     border-bottom: 1px solid #d1d5db;
   }
 
-  /* Limpar bordas/sombras de cartões que escapem para a área impressa */
+  /* Remover sombras que possam vazar */
   #printArea *{
     box-shadow: none !important;
   }
