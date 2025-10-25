@@ -1,6 +1,13 @@
 {
   "Direito Penal": {
     "folder": "Direito_Penal",
-    "files": ["Direito_Penal.txt"]
+    "files": [
+      "Norma_Penal.txt",
+      "crimes_contra_a_vida.txt",
+      "ilicitude.txt",
+      "lavagem_de_dinheiro_01.txt",
+      "lavagem_de_dinheiro_02.txt",
+      "penas_e_medidas_alternativas.txt"
+    ]
   }
 }
