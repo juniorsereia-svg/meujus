@@ -1,5 +1,5 @@
-// Funcional: carrega manifest e TXT, parse, multiselect de temas com busca,
-// amostragem estratificada, impressão 2 colunas, e botões IA pós-gabarito.
+// Funcional: carrega manifest e TXT, parse, combos custom (curso/temas), amostragem estratificada,
+// impressão 2 colunas, botões IA pós-gabarito e botão "substituir questão" por outra do mesmo arquivo/tema.
 (function () {
   const $ = (sel) => document.querySelector(sel);
   const ano = $('#ano'); const rodapeAno = $('#rodapeAno');
@@ -23,7 +23,7 @@
   const temaPanel = $('#temaPanel');
   const temasHidden = $('#temasHidden');
   const chips = $('#chips');
-  const temaCaret = temaPanel?.previousElementSibling?.querySelector('.combo-caret') || null;
+  const temaCaret = document.querySelector('#temaInput')?.closest('.combo-control')?.querySelector('.combo-caret') || null;
 
   // Áreas
   const previewVazio = $('#previewVazio');
@@ -37,6 +37,10 @@
   let temasSelecionados = new Set();
   let resultado = [];
   const letras = ['A','B','C','D','E'];
+
+  // Índices p/ substituição
+  const idxPorArquivo = new Map();     // chave: curso::tema::srcFile -> array de questões
+  let usadosProva = new Set();         // ids já presentes na prova atual
 
   // Utils
   function embaralhar(arr){for(let i=arr.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[arr[i],arr[j]]=[arr[j],arr[i]];}return arr;}
@@ -52,10 +56,11 @@
   }
 
   // Parse TXT (tema vem do nome do arquivo)
-  function parseArquivo(txt, curso, temaLabel) {
+  function parseArquivo(txt, curso, temaLabel, srcFile) {
     const blocos = txt.split(/\n-{5,}\s*\n/).map(s=>s.trim()).filter(Boolean);
     const out = [];
-    for (const b of blocos) {
+    for (let idxBloco = 0; idxBloco < blocos.length; idxBloco++) {
+      const b = blocos[idxBloco];
       const linhas = b.split('\n').map(s=>s.trim()).filter(Boolean);
       if (!linhas.length) continue;
 
@@ -63,7 +68,6 @@
       const enunciadoLinhas = linhas.filter(l=>l.startsWith('** ')).map(l=>l.replace(/^\*\*\s*/, ''));
       const alternativas = linhas.filter(l=>l.startsWith('*** ')).map(l=>l.replace(/^\*\*\*\s*/, ''));
       const gabaritoLinha = linhas.find(l=>l.startsWith('**** '));
-      // ***** ignorado; ****** opcional
 
       if (!metaLinha || !enunciadoLinhas.length || alternativas.length < 2 || !gabaritoLinha) continue;
 
@@ -72,10 +76,12 @@
       const alts = padronizarAlternativas(alternativas.map(a=>normalizarPontuacao(a)));
       const gab = (gabaritoLinha.replace(/^(\*{4}\s*)?Gabarito:\s*/i,'').trim().match(/^[A-E]/i)||[''])[0].toUpperCase();
 
-      const temas = [temaLabel];
-      temasDisponiveis.add(temaLabel);
+      const id = `${curso}::${temaLabel}::${srcFile}::${idxBloco}`;
+      const tema = temaLabel;
+      const q = { id, curso, meta, enunciado, alternativas: alts, gabarito: gab, temas:[temaLabel], tema, srcFile };
 
-      out.push({ curso, meta, enunciado, alternativas: alts, gabarito: gab, temas });
+      temasDisponiveis.add(temaLabel);
+      out.push(q);
     }
     return out;
   }
@@ -99,7 +105,12 @@
       for (const f of manifest[curso].files) {
         const temaLabel = labelFromFilename(f);
         const txt = await fetch(`./data/${folder}/${f}`).then(r=>r.text());
-        banco.push(...parseArquivo(txt, curso, temaLabel));
+        const lote = parseArquivo(txt, curso, temaLabel, f);
+        banco.push(...lote);
+
+        const chave = `${curso}::${temaLabel}::${f}`;
+        if(!idxPorArquivo.has(chave)) idxPorArquivo.set(chave, []);
+        idxPorArquivo.get(chave).push(...lote);
       }
     }
 
@@ -281,16 +292,33 @@ ENUNCIADO: "${enunciado}"`;
     }</div>`;
   }
 
+  // Substituição: utilitário
+  function pickOutraDoMesmoArquivo(qAtual){
+    const chave = `${qAtual.curso}::${qAtual.tema}::${qAtual.srcFile}`;
+    const pool = idxPorArquivo.get(chave) || [];
+    if(!pool.length) return null;
+
+    for(let tent=0; tent<8; tent++){
+      const cand = pool[(Math.random()*pool.length)|0];
+      if(cand.id !== qAtual.id && !usadosProva.has(cand.id)) return cand;
+    }
+    const livre = pool.find(x=>x.id!==qAtual.id && !usadosProva.has(x.id));
+    return livre || null;
+  }
+
   // Render tela
   function renderQuestoesTela(lista){
     const html = lista.map((q, idx)=>{
       const numero = idx+1;
       const alts = q.alternativas.map((a,i)=>`<li class="py-1" data-alt="${letras[i]}" role="button" tabindex="0">${a}</li>`).join('');
       return `
-      <section class="questao py-2" data-q="${idx}">
+      <section class="questao py-2" data-q="${idx}" data-id="${q.id}">
         <div class="meta">${q.meta}</div>
         <h4 class="enunciado mt-1">${numero}) ${q.enunciado}</h4>
         <ul class="alternativas mt-2 space-y-1">${alts}</ul>
+        <div class="mt-2">
+          <button type="button" class="btn-substituir" title="Trocar questão" aria-label="Trocar questão">↻</button>
+        </div>
         <div class="feedback mt-2 text-sm"></div>
         <div class="separador"></div>
       </section>`;
@@ -313,7 +341,7 @@ ENUNCIADO: "${enunciado}"`;
     printArticle.innerHTML = html;
   }
 
-  // Interação alternativas
+  // Interação: alternativas
   function onClickAlternativa(e){
     const li = e.target.closest('li[data-alt]'); if(!li) return;
     const sec = li.closest('section.questao'); if(!sec) return;
@@ -326,6 +354,8 @@ ENUNCIADO: "${enunciado}"`;
 
     sec.setAttribute('data-respondida','1');
     sec.querySelectorAll('.alternativas li').forEach(n=>n.setAttribute('aria-disabled','true'));
+    const trocar = sec.querySelector('.btn-substituir');
+    if(trocar){ trocar.disabled = true; trocar.title = 'Questão já respondida'; }
 
     const fb = sec.querySelector('.feedback');
     if(alt===correta){
@@ -348,6 +378,29 @@ ENUNCIADO: "${enunciado}"`;
     if(e.key==='Enter'||e.key===' '){e.preventDefault(); onClickAlternativa(e);}
   }
 
+  // Interação: substituir questão
+  function onClickSubstituir(e){
+    const btn = e.target.closest('.btn-substituir'); if(!btn) return;
+    const sec = btn.closest('section.questao'); if(!sec) return;
+    if(sec.getAttribute('data-respondida')==='1') return;
+
+    const idx = parseInt(sec.getAttribute('data-q'),10);
+    const atual = resultado[idx];
+    const novo = pickOutraDoMesmoArquivo(atual);
+    if(!novo){ btn.disabled = true; btn.title = 'Sem outras questões neste tema'; return; }
+
+    usadosProva.delete(atual.id);
+    usadosProva.add(novo.id);
+    resultado[idx] = novo;
+
+    const alts = novo.alternativas.map((a,i)=>`<li class="py-1" data-alt="${letras[i]}" role="button" tabindex="0">${a}</li>`).join('');
+    sec.setAttribute('data-id', novo.id);
+    sec.querySelector('.meta').textContent = novo.meta;
+    sec.querySelector('.enunciado').innerHTML = `${idx+1}) ${novo.enunciado}`;
+    sec.querySelector('.alternativas').innerHTML = alts;
+    sec.querySelector('.feedback').innerHTML = '';
+  }
+
   // Geração
   function gerar(){
     const pool = filtrarPorCursoETemas();
@@ -360,6 +413,7 @@ ENUNCIADO: "${enunciado}"`;
     const qtd = Math.max(1, Math.min(parseInt(inpQtd.value||'1',10), 100));
     const lista = amostrarEstratificada(embaralhar(pool.slice()), qtd);
     resultado = lista;
+    usadosProva = new Set(lista.map(q=>q.id));
 
     previewVazio.classList.add('hidden');
     previewConteudo.classList.remove('hidden');
@@ -381,6 +435,7 @@ ENUNCIADO: "${enunciado}"`;
   btnImprimir?.addEventListener('click', ()=>window.print());
   document.addEventListener('click', onClickAlternativa);
   document.addEventListener('keydown', onKeyAlternativa);
+  document.addEventListener('click', onClickSubstituir);
 
   // Boot
   carregarBanco().catch(e=>{console.error(e); alert('Falha ao carregar banco de questões. Sirva via HTTP.');});
