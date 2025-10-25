@@ -404,64 +404,90 @@ ENUNCIADO: "${enunciado}"`;
   }
 
   // Interação: substituir questão
-  function onClickSubstituir(e){
-    const btn = e.target.closest('.btn-substituir'); if(!btn) return;
-    const sec = btn.closest('section.questao'); if(!sec) return;
-    if(sec.getAttribute('data-respondida')==='1') return;
+function onClickSubstituir(e){
+  const btn = e.target.closest('.btn-substituir'); if(!btn) return;
+  const sec = btn.closest('section.questao'); if(!sec) return;
+  if(sec.getAttribute('data-respondida')==='1') return;
 
-    const idx = parseInt(sec.getAttribute('data-q'),10);
-    const atual = resultado[idx];
-    const novo = pickOutraDoMesmoArquivo(atual);
-    if(!novo){ btn.disabled = true; btn.title = 'Sem outras questões neste tema'; return; }
+  const idx = parseInt(sec.getAttribute('data-q'),10);
+  const atual = resultado[idx];
+  const novo = pickOutraDoMesmoArquivo(atual);
+  if(!novo){ btn.disabled = true; btn.title = 'Sem outras questões neste tema'; return; }
 
-    usadosProva.delete(atual.id);
-    usadosProva.add(novo.id);
-    resultado[idx] = novo;
+  // Atualiza estado
+  usadosProva.delete(atual.id);
+  usadosProva.add(novo.id);
+  resultado[idx] = novo;
 
-    const alts = novo.alternativas.map((a,i)=>`<li class="py-1" data-alt="${letras[i]}" role="button" tabindex="0">${a}</li>`).join('');
-    sec.setAttribute('data-id', novo.id);
-    sec.querySelector('.meta').textContent = novo.meta;
-    sec.querySelector('.enunciado').innerHTML = `${novo.enunciado}`;
-    sec.querySelector('.alternativas').innerHTML = alts;
-    sec.querySelector('.feedback').innerHTML = '';
+  // === TELA ===
+  const altsTela = novo.alternativas
+    .map((a,i)=>`<li class="py-1" data-alt="${letras[i]}" role="button" tabindex="0">${a}</li>`).join('');
+  sec.setAttribute('data-id', novo.id);
+  const hTitulo = sec.querySelector('.titulo-questao');
+  const hEnun   = sec.querySelector('.enunciado');
+  sec.querySelector('.meta').textContent = novo.meta;
+
+  // Se existir "Questão X" separado, só troca o enunciado. Caso contrário, mantém numeração "idx+1)" no próprio enunciado.
+  if (hTitulo) {
+    hEnun.innerHTML = `${novo.enunciado}`;
+  } else {
+    hEnun.innerHTML = `${idx+1}) ${novo.enunciado}`;
   }
 
-  // Geração
-  function gerar(){
-    const pool = filtrarPorCursoETemas();
-    if(!pool.length){
-      previewConteudo.classList.add('hidden');
-      previewVazio.classList.remove('hidden');
-      artigo.innerHTML=''; printArticle.innerHTML='';
-      return;
+  sec.querySelector('.alternativas').innerHTML = altsTela;
+  sec.querySelector('.feedback').innerHTML = '';
+
+  // === IMPRESSÃO ===
+  const secPrint = printArticle.querySelector(`.questao[data-q="${idx}"]`);
+  if (secPrint) {
+    const hEnunPrint = secPrint.querySelector('.enunciado');
+    if (hEnunPrint) hEnunPrint.textContent = `${idx+1}) ${novo.enunciado}`;
+    const ulPrint = secPrint.querySelector('.alternativas');
+    if (ulPrint) {
+      const altsPrint = novo.alternativas
+        .map(a=>`<li class="py-1" style="font-size:0.825rem;line-height:1.5">${a}</li>`).join('');
+      ulPrint.innerHTML = altsPrint;
     }
-    const qtd = Math.max(1, Math.min(parseInt(inpQtd.value||'1',10), 100));
-    const lista = amostrarEstratificada(embaralhar(pool.slice()), qtd);
-    resultado = lista;
-    usadosProva = new Set(lista.map(q=>q.id));
-
-    previewVazio.classList.add('hidden');
-    previewConteudo.classList.remove('hidden');
-
-    renderQuestoesTela(resultado);
-    renderQuestoesPrint(resultado);
-
-    window.scrollTo({ top: previewConteudo.offsetTop - 60, behavior:'smooth' });
   }
+}
 
-  // Eventos gerais
-  form?.addEventListener('submit', (e)=>{e.preventDefault(); try{gerar();}catch(err){console.error(err); alert('Erro ao gerar prova.');}});
-  btnLimpar?.addEventListener('click', ()=>{
-    form.reset(); temasSelecionados.clear(); renderChips();
-    resultado=[]; artigo.innerHTML=''; printArticle.innerHTML='';
-    previewConteudo.classList.add('hidden'); previewVazio.classList.remove('hidden');
-    window.scrollTo({ top:0, behavior:'smooth' });
-  });
-  btnImprimir?.addEventListener('click', ()=>window.print());
-  document.addEventListener('click', onClickAlternativa);
-  document.addEventListener('keydown', onKeyAlternativa);
-  document.addEventListener('click', onClickSubstituir);
+// Geração
+function gerar(){
+  const pool = filtrarPorCursoETemas();
+  if(!pool.length){
+    previewConteudo.classList.add('hidden');
+    previewVazio.classList.remove('hidden');
+    artigo.innerHTML=''; printArticle.innerHTML='';
+    return;
+  }
+  const qtd = Math.max(1, Math.min(parseInt(inpQtd.value||'1',10), 100));
+  const lista = amostrarEstratificada(embaralhar(pool.slice()), qtd);
+  resultado = lista;
+  usadosProva = new Set(lista.map(q=>q.id));
 
-  // Boot
-  carregarBanco().catch(e=>{console.error(e); alert('Falha ao carregar banco de questões. Sirva via HTTP.');});
-})();
+  previewVazio.classList.add('hidden');
+  previewConteudo.classList.remove('hidden');
+
+  renderQuestoesTela(resultado);
+  renderQuestoesPrint(resultado);
+
+  window.scrollTo({ top: previewConteudo.offsetTop - 60, behavior:'smooth' });
+}
+
+// Eventos gerais
+form?.addEventListener('submit', (e)=>{e.preventDefault(); try{gerar();}catch(err){console.error(err); alert('Erro ao gerar prova.');}});
+btnLimpar?.addEventListener('click', ()=>{
+  form.reset(); temasSelecionados.clear(); renderChips();
+  resultado=[]; artigo.innerHTML=''; printArticle.innerHTML='';
+  previewConteudo.classList.add('hidden'); previewVazio.classList.remove('hidden');
+  window.scrollTo({ top:0, behavior:'smooth' });
+});
+btnImprimir?.addEventListener('click', ()=>window.print());
+document.addEventListener('click', onClickAlternativa);
+document.addEventListener('keydown', onKeyAlternativa);
+document.addEventListener('click', onClickSubstituir);
+
+// Boot
+carregarBanco().catch(e=>{console.error(e); alert('Falha ao carregar banco de questões. Sirva via HTTP.');});
+})(); 
+
