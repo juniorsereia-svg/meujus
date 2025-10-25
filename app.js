@@ -38,30 +38,36 @@
   }
 
   // Parse TXT
-  function parseArquivo(txt, curso) {
-    const blocos = txt.split(/\n-{5,}\s*\n/).map(s=>s.trim()).filter(Boolean);
-    const out = [];
-    for(const b of blocos){
-      const linhas = b.split('\n').map(s=>s.trim()).filter(Boolean);
-      if(!linhas.length) continue;
-      const metaLinha = linhas.find(l=>l.startsWith('* '));
-      const enunciadoLinhas = linhas.filter(l=>l.startsWith('** ')).map(l=>l.replace(/^\*\*\s*/,''));
-      const alternativas = linhas.filter(l=>l.startsWith('*** ')).map(l=>l.replace(/^\*\*\*\s*/,''));
-      const gabaritoLinha = linhas.find(l=>l.startsWith('**** '));
-      const temaLinha = linhas.find(l=>l.startsWith('***** '));
+ function parseArquivo(txt, curso) {
+  const blocos = txt.split(/\n-{5,}\s*\n/).map(s=>s.trim()).filter(Boolean);
+  const out = [];
+  for (const b of blocos) {
+    const linhas = b.split('\n').map(s=>s.trim()).filter(Boolean);
+    if (!linhas.length) continue;
 
-      if(!metaLinha || !enunciadoLinhas.length || alternativas.length<2 || !gabaritoLinha) continue;
+    const metaLinha = linhas.find(l=>l.startsWith('* '));
+    const enunciadoLinhas = linhas.filter(l=>l.startsWith('** ')).map(l=>l.replace(/^\*\*\s*/,''));
+    const alternativas = linhas.filter(l=>l.startsWith('*** ')).map(l=>l.replace(/^\*\*\*\s*/,''));
+    const gabaritoLinha = linhas.find(l=>l.startsWith('**** '));
+    const temaLinha = linhas.find(l=>l.startsWith('***** '));
 
-      const meta = metaLinha.replace(/^\*\s*/,'').trim();
-      const enunciado = normalizarPontuacao(enunciadoLinhas.join(' '));
-      const alts = padronizarAlternativas(alternativas.map(a=>normalizarPontuacao(a)));
-      const gab = (gabaritoLinha.replace(/^(\*{4}\s*)?Gabarito:\s*/i,'').trim().match(/^[A-E]/i)||[''])[0].toUpperCase();
-      const tema = temaLinha ? temaLinha.replace(/^\*{5}\s*/,'').trim() : '';
+    if (!metaLinha || !enunciadoLinhas.length || alternativas.length < 2 || !gabaritoLinha) continue;
 
-      if (tema) temasDisponiveis.add(tema);
-      out.push({ curso, meta, enunciado, alternativas: alts, gabarito: gab, tema });
-    }
-    return out;
+    const meta = metaLinha.replace(/^\*\s*/,'').trim();
+    const enunciado = normalizarPontuacao(enunciadoLinhas.join(' '));
+    const alts = padronizarAlternativas(alternativas.map(a=>normalizarPontuacao(a)));
+    const gab = (gabaritoLinha.replace(/^(\*{4}\s*)?Gabarito:\s*/i,'').trim().match(/^[A-E]/i)||[''])[0].toUpperCase();
+
+    const temas = (temaLinha ? temaLinha.replace(/^\*{5}\s*/,'') : '')
+      .split(',')
+      .map(t=>t.trim())
+      .filter(Boolean);
+
+    temas.forEach(t=>temasDisponiveis.add(t));
+
+    out.push({ curso, meta, enunciado, alternativas: alts, gabarito: gab, temas });
+  }
+  return out;
   }
 
   // Manifest + TXT
@@ -126,49 +132,81 @@
 
   // Filtro + amostragem estratificada por tema
   function filtrarPorCursoETemas(){
-    const cursoAlvo = selCurso.value.trim();
-    let pool = banco.filter(q=>q.curso===cursoAlvo);
-    const temas = Array.from(temasSelecionados);
-    if(!temas.length) return pool;
-    return pool.filter(q=>temas.includes(q.tema));
-  }
-  function amostrarEstratificada(pool, qtd){
-    const temas = Array.from(new Set(pool.map(q=>q.tema)));
-    if(!temas.length) return embaralhar(pool.slice()).slice(0,qtd);
+  const cursoAlvo = selCurso.value.trim();
+  let pool = banco.filter(q=>q.curso === cursoAlvo);
+  const selecionados = Array.from(temasSelecionados);
+  if (!selecionados.length) return pool;
+  return pool.filter(q => (q.temas && q.temas.some(t => selecionados.includes(t))));
+}
+  // Substitua sua função por esta versão com temas múltiplos e amostragem estratificada sem duplicar questões.
+function amostrarEstratificada(pool, qtd) {
+  // Temas selecionados pelo usuário, se existirem; caso contrário usa todos os temas encontrados no pool
+  const selecionados = (typeof temasSelecionados !== 'undefined' && temasSelecionados.size)
+    ? Array.from(temasSelecionados)
+    : Array.from(new Set(pool.flatMap(q => (q.temas || []))));
 
-    const mapa = new Map();
-    temas.forEach(t=>mapa.set(t, embaralhar(pool.filter(q=>q.tema===t))));
-    const res = [];
-    let i = 0;
-    while(res.length<qtd && mapa.size){
-      const tema = temas[i % temas.length];
-      const arr = mapa.get(tema);
-      if(arr && arr.length){
-        res.push(arr.pop());
-      }else{
-        mapa.delete(tema);
+  if (!selecionados.length) return embaralhar(pool.slice()).slice(0, qtd);
+
+  // Buckets por tema selecionado
+  const buckets = new Map();
+  selecionados.forEach(t => buckets.set(t, []));
+  pool.forEach(q => {
+    const ts = q.temas || (q.tema ? [q.tema] : []);
+    selecionados.forEach(t => { if (ts.includes(t)) buckets.get(t).push(q); });
+  });
+  // Embaralha cada bucket
+  buckets.forEach((arr, t) => buckets.set(t, embaralhar(arr)));
+
+  const usados = new Set(); // guarda referências de objetos já escolhidos
+  const res = [];
+  let i = 0;
+  const ordem = selecionados.slice(); // round-robin pelos temas escolhidos
+
+  while (res.length < qtd && buckets.size) {
+    const tema = ordem[i % ordem.length];
+    const arr = buckets.get(tema);
+
+    if (arr && arr.length) {
+      // pula itens já usados no topo
+      while (arr.length && usados.has(arr[arr.length - 1])) arr.pop();
+      if (arr.length) {
+        const q = arr.pop();
+        usados.add(q);
+        res.push(q);
+      } else {
+        buckets.delete(tema);
       }
-      i++;
+    } else {
+      buckets.delete(tema);
     }
-    return res;
+    i++;
   }
 
-  // Render tela
-  function renderQuestoesTela(lista){
-    const html = lista.map((q, idx)=>{
-      const numero = idx+1;
-      const alts = q.alternativas.map((a,i)=>`<li class="py-1" data-alt="${letras[i]}" role="button" tabindex="0">${a}</li>`).join('');
-      return `
-      <section class="questao py-2" data-q="${idx}">
-        <div class="meta">${q.meta}</div>
-        <h4 class="enunciado mt-1">${numero}) ${q.enunciado}</h4>
-        <ul class="alternativas mt-2 space-y-1">${alts}</ul>
-        <div class="feedback mt-2 text-sm"></div>
-        <div class="separador"></div>
-      </section>`;
-    }).join('');
-    artigo.innerHTML = html;
+  // Completa com quaisquer remanescentes do pool sem duplicar
+  if (res.length < qtd) {
+    const resto = embaralhar(pool.filter(q => !usados.has(q)));
+    res.push(...resto.slice(0, qtd - res.length));
   }
+
+  return res.slice(0, qtd);
+}
+
+// Render da tela permanece igual; mantendo classes e estrutura atuais
+function renderQuestoesTela(lista){
+  const html = lista.map((q, idx)=>{
+    const numero = idx+1;
+    const alts = q.alternativas.map((a,i)=>`<li class="py-1" data-alt="${letras[i]}" role="button" tabindex="0">${a}</li>`).join('');
+    return `
+    <section class="questao py-2" data-q="${idx}">
+      <div class="meta">${q.meta}</div>
+      <h4 class="enunciado mt-1">${numero}) ${q.enunciado}</h4>
+      <ul class="alternativas mt-2 space-y-1">${alts}</ul>
+      <div class="feedback mt-2 text-sm"></div>
+      <div class="separador"></div>
+    </section>`;
+  }).join('');
+  artigo.innerHTML = html;
+}
 
   // Render impressão: sem meta
   function renderQuestoesPrint(lista){
