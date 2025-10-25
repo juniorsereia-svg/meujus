@@ -1,3 +1,6 @@
 {
-  "Direito_Penal": ["direitopenal.txt"]
+  "Direito Penal": {
+    "folder": "Direito_Penal",
+    "files": ["direitopenal.txt"]
+  }
 }
