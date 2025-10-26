@@ -1,4 +1,4 @@
-// MeuJus — app.js (modelo simples: 1 tema => pasta com p1.txt..p10.txt; cache via Service Worker)
+// MeuJus — app.js (sem botão de "Trocar questão"; provas p1.txt..p10.txt; cache via Service Worker)
 (function () {
   const $ = (sel) => document.querySelector(sel);
   const ano = $('#ano'); const rodapeAno = $('#rodapeAno');
@@ -22,7 +22,7 @@
   const temaCaret   = temaInput?.closest('.combo')?.querySelector('.combo-caret') || null;
   const temaClose   = temaInput?.closest('.combo')?.querySelector('.combo-close') || null;
 
-  const provaSel    = $('#provaSel'); // 0=aleatória, 1..10
+  const provaSel    = $('#provaSel'); // opções são geradas dinamicamente
 
   // Áreas
   const previewVazio = $('#previewVazio');
@@ -35,7 +35,7 @@
   let cursos = [];
   let cursoSelecionado = '';
   let temaSelecionado = '';
-  let mapaTemasPorCurso = new Map(); // curso -> [{label, base}]
+  let mapaTemasPorCurso = new Map(); // curso -> [{label, base, count?}]
   let resultado = [];
   const letras = ['A','B','C','D','E'];
 
@@ -99,9 +99,10 @@
     for(const curso of cursos){
       const temasObj = manifest[curso].temas || {};
       const temas = Object.keys(temasObj).map(label=>{
-        // cada tema possui "base": caminho onde ficam p1.txt..p10.txt
-        const base = typeof temasObj[label] === 'string' ? temasObj[label] : (temasObj[label].base || temasObj[label].path);
-        return { label, base };
+        const entry = temasObj[label];
+        const base = typeof entry === 'string' ? entry : (entry?.base || entry?.path);
+        const count = typeof entry === 'object' && Number.isInteger(entry.count) ? entry.count : undefined;
+        return { label, base, count };
       }).sort((a,b)=>a.label.localeCompare(b.label,'pt'));
       mapaTemasPorCurso.set(curso, temas);
     }
@@ -109,7 +110,7 @@
   }
 
   // Baixa somente o arquivo da prova escolhida
-  async function carregarArquivoProva(curso, tema, provaIndex1a10){
+  async function carregarArquivoProva(curso, tema, provaIndex1aN){
     const infoCurso = manifest[curso];
     if(!infoCurso) throw new Error('Disciplina inválida.');
     const temaEntry = (infoCurso.temas||{})[tema];
@@ -118,12 +119,42 @@
 
     const ROOT = ROOT_BASE();
     const ASSETS = ROOT + 'data/';
-    const file = `p${provaIndex1a10}.txt`;
+    const file = `p${provaIndex1aN}.txt`;
     const url = `${ASSETS}${base}/${file}`;
     const r = await fetch(url); // SW decide cache
     if(!r.ok) throw new Error(`HTTP ${r.status} ao buscar ${url}`);
     const txt = await r.text();
-    return parseProvaTxt(txt, curso, tema, file, provaIndex1a10);
+    return parseProvaTxt(txt, curso, tema, file, provaIndex1aN);
+  }
+
+  // Helpers de Prova
+  function setOpcoesProva(qtd){
+    const opts = ['<option value="0">Aleatória (1–'+qtd+')</option>']
+      .concat(Array.from({length:qtd},(_,i)=>`<option value="${i+1}">Prova ${i+1}</option>`));
+    provaSel.innerHTML = opts.join('');
+  }
+  async function detectarQtdProvas(base){
+    const infoCurso = manifest[cursoSelecionado];
+    const temaEntry = (infoCurso?.temas||{})[temaSelecionado];
+    const declarado = typeof temaEntry==='object' ? (temaEntry.count|0) : 0;
+    if (declarado > 0) return Math.min(declarado, 10);
+
+    const ROOT = ROOT_BASE(); const ASSETS = ROOT + 'data/';
+    let qtd = 0;
+    for (let i=1;i<=10;i++){
+      const url = `${ASSETS}${base}/p${i}.txt`;
+      try{
+        const r = await fetch(url, { method:'HEAD', cache:'no-store' });
+        if (r.ok) qtd = i; else break;
+      } catch { break; }
+    }
+    return Math.max(qtd, 1);
+  }
+  function aquecerTema(base, count){
+    try{
+      if (!navigator.serviceWorker?.controller) return;
+      navigator.serviceWorker.controller.postMessage({ type:'warmup', base, count });
+    }catch{}
   }
 
   // Curso
@@ -168,16 +199,23 @@
   // Tema
   function montarComboTemas(){
     const temas = mapaTemasPorCurso.get(cursoSelecionado) || [];
-    temaPanel.innerHTML = temas.map(t=>`<div class="combo-item" data-valor="${t.label}">${t.label}</div>`).join('');
+    temaPanel.innerHTML = temas.map(t=>`<div class="combo-item" data-valor="${t.label}" data-base="${t.base}" data-count="${t.count??''}">${t.label}</div>`).join('');
     if(temas.length){
       temaSelecionado = temas[0].label;
       temasHidden.value = temaSelecionado;
       temaInput.value = temaSelecionado;
-      aquecerTemaSelecionado(); // warmup imediato do primeiro tema
+      // detectar e aquecer
+      const base = temas[0].base;
+      (async ()=>{
+        const qtd = await detectarQtdProvas(base);
+        setOpcoesProva(qtd);
+        aquecerTema(base, qtd);
+      })();
     }else{
       temaSelecionado = '';
       temasHidden.value = '';
       temaInput.value = '';
+      setOpcoesProva(1);
     }
   }
   function abrirPainelTemas(){ temaPanel.classList.remove('hidden'); }
@@ -205,22 +243,17 @@
     temasHidden.value = temaSelecionado;
     temaInput.value = temaSelecionado;
     fecharPainelTemas();
-    aquecerTemaSelecionado(); // warmup quando usuário escolhe tema
+    // detectar e aquecer
+    const base = item.getAttribute('data-base');
+    (async ()=>{
+      const qtd = await detectarQtdProvas(base);
+      setOpcoesProva(qtd);
+      aquecerTema(base, qtd);
+    })();
   });
   document.addEventListener('click', (e)=>{
     if(!temaPanel.contains(e.target) && e.target!==temaInput && e.target!==temaCaret && e.target!==temaClose) fecharPainelTemas();
   });
-
-  // Aquecimento das 10 provas do tema via SW
-  function aquecerTemaSelecionado(){
-    try{
-      if (!navigator.serviceWorker?.controller) return;
-      const infoCurso = manifest[cursoSelecionado];
-      const temaEntry = (infoCurso?.temas||{})[temaSelecionado];
-      const base = typeof temaEntry === 'string' ? temaEntry : (temaEntry?.base || temaEntry?.path);
-      if (base) navigator.serviceWorker.controller.postMessage({ type:'warmup', base });
-    }catch{}
-  }
 
   // IA
   function formatarAlternativasParaPrompt(alts){
@@ -263,22 +296,6 @@ ENUNCIADO: "${enunciado}"`;
     return `<div class="acoes-ia">${links.map(l=>`<a class="btn-ia" target="_blank" rel="noopener" href="${l.href}" title="${l.rotulo}">${l.rotulo[0]}</a>`).join('')}</div>`;
   }
 
-  // Substituir questão: baixa outra prova pK.txt e pega a mesma posição
-  async function substituirQuestaoMesmoPos(idxQuestao){
-    const sel = parseInt(provaSel.value,10);
-    const atual = (isNaN(sel) || sel===0) ? 0 : sel;
-    let k = atual;
-    for(let tent=0; tent<8; tent++){
-      const cand = 1 + ((Math.random()*10)|0);
-      if(cand !== atual){ k = cand; break; }
-    }
-    if(k===0) k = 1 + ((Math.random()*10)|0);
-    try{
-      const outras = await carregarArquivoProva(cursoSelecionado, temaSelecionado, k);
-      return outras[idxQuestao] || null;
-    }catch{ return null; }
-  }
-
   // Render
   function renderQuestoesTela(lista){
     const html = lista.map((q, idx)=>{
@@ -289,7 +306,6 @@ ENUNCIADO: "${enunciado}"`;
         <div class="meta">${q.meta}</div>
         <h4 class="enunciado mt-1">${numero}) ${q.enunciado}</h4>
         <ul class="alternativas mt-2 space-y-1">${alts}</ul>
-        <div class="mt-2"><button type="button" class="btn-substituir" title="Trocar questão" aria-label="Trocar questão">↻</button></div>
         <div class="feedback mt-2 text-sm"></div>
         <div class="separador"></div>
       </section>`;
@@ -312,23 +328,6 @@ ENUNCIADO: "${enunciado}"`;
   }
 
   // Interações
-  async function onClickSubstituir(e){
-    const btn = e.target.closest('.btn-substituir'); if(!btn) return;
-    const sec = btn.closest('section.questao'); if(!sec) return;
-    if(sec.getAttribute('data-respondida')==='1') return;
-
-    const idx = parseInt(sec.getAttribute('data-q'),10);
-    const novo = await substituirQuestaoMesmoPos(idx);
-    if(!novo){ btn.disabled = true; btn.title = 'Sem alternativa para esta posição'; return; }
-
-    resultado[idx] = novo;
-    const alts = novo.alternativas.map((a,i)=>`<li class="py-1" data-alt="${letras[i]}" role="button" tabindex="0">${a}</li>`).join('');
-    sec.setAttribute('data-id', novo.id);
-    sec.querySelector('.meta').textContent = novo.meta;
-    sec.querySelector('.enunciado').innerHTML = `${idx+1}) ${novo.enunciado}`;
-    sec.querySelector('.alternativas').innerHTML = alts;
-    sec.querySelector('.feedback').innerHTML = '';
-  }
   function onClickAlternativa(e){
     const li = e.target.closest('li[data-alt]'); if(!li) return;
     const sec = li.closest('section.questao'); if(!sec) return;
@@ -341,8 +340,6 @@ ENUNCIADO: "${enunciado}"`;
 
     sec.setAttribute('data-respondida','1');
     sec.querySelectorAll('.alternativas li').forEach(n=>n.setAttribute('aria-disabled','true'));
-    const trocar = sec.querySelector('.btn-substituir');
-    if(trocar){ trocar.disabled = true; trocar.title = 'Questão já respondida'; }
 
     const fb = sec.querySelector('.feedback');
     if(alt===correta){
@@ -362,9 +359,11 @@ ENUNCIADO: "${enunciado}"`;
   // Gerar
   async function gerar(){
     if(!cursoSelecionado || !temaSelecionado){ alert('Selecione disciplina e tema.'); return; }
+    const totalOp = provaSel.options.length ? (provaSel.options.length - 1) : 10; // -1 por "Aleatória"
     let idxProva;
     const sel = parseInt(provaSel.value,10);
-    if (sel===0){ idxProva = 1 + ((Math.random()*10)|0); } else { idxProva = Math.max(1, Math.min(sel, 10)); }
+    if (sel===0 || isNaN(sel)){ idxProva = 1 + ((Math.random()*totalOp)|0); }
+    else { idxProva = Math.max(1, Math.min(sel, totalOp)); }
 
     try{
       resultado = await carregarArquivoProva(cursoSelecionado, temaSelecionado, idxProva);
@@ -391,6 +390,7 @@ ENUNCIADO: "${enunciado}"`;
     } else {
       cursoSelecionado=''; cursoHidden.value=''; cursoInput.value='';
       temaSelecionado=''; temasHidden.value=''; temaInput.value='';
+      setOpcoesProva(1);
     }
     resultado=[]; artigo.innerHTML=''; printArticle.innerHTML='';
     previewConteudo.classList.add('hidden'); previewVazio.classList.remove('hidden');
@@ -399,7 +399,6 @@ ENUNCIADO: "${enunciado}"`;
   btnImprimir?.addEventListener('click', ()=>window.print());
   document.addEventListener('click', onClickAlternativa);
   document.addEventListener('keydown', onKeyAlternativa);
-  document.addEventListener('click', onClickSubstituir);
 
   // Boot
   carregarManifest().catch(e=>{
