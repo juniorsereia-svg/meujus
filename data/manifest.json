@@ -4,6 +4,10 @@
       "Conceitos e Características": {
         "base": "direito-penal/conceitos",
         "count": 4
+      },
+      "Teoria Geral do Delito": {
+        "base": "direito-penal/teoria-geral-do-delito",
+        "count": 10
       }
     }
   }
