@@ -106,7 +106,7 @@
       if (!metaLinha || !enunciadoLinhas.length || alternativas.length < 2 || !gabaritoLinha) continue;
 
       const meta = metaLinha.replace(/^\*\s*/, '').trim();
-      const enunciado = normalizarPontuacao(enunciadoLinhas.join(' '));
+      const enunciado = normalizarPontuacao(enunciadoLinhas.join('\n'));
       const alts = padronizarAlternativas(alternativas.map(a=>normalizarPontuacao(a)));
       const gab = (gabaritoLinha.replace(/^(\*{4}\s*)?Gabarito:\s*/i,'').trim().match(/^[A-E]/i)||[''])[0].toUpperCase();
 
