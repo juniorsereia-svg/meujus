@@ -1,21 +1,16 @@
 {
-  "version": 1,
-  "updatedAt": "2025-10-26",
-  "counts": { "Direito Penal": 5 },
-  "shards": {
-    "Direito Penal": ["data/shards/penal-a.jsonl"]
+  "Direito Penal": {
+    "folder": "penal",
+    "temas": {
+      "Tipicidade": "tipicidade.txt",
+      "Consumação e Tentativa": "consumacao_tentativa.txt"
+    }
   },
-  "temas": [
-    "Legislação Penal Especial",
-    "Estatuto do Desarmamento",
-    "Imputabilidade",
-    "Penas",
-    "Ilicitude",
-    "Lei penal no tempo"
-  ],
-  "subtemas": [
-    "Norma Penal",
-    "Conceitos e Características",
-    "Princípios limitadores do poder punitivo estatal"
-  ]
+  "Direito Civil": {
+    "folder": "civil",
+    "temas": {
+      "Obrigação": "obrigacao.txt",
+      "Contratos": "contratos.txt"
+    }
+  }
 }
