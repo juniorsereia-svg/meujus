@@ -1,4 +1,4 @@
-// MeuJus — app.js (sem "trocar questão"; print render on demand)
+// MeuJus — app.js (robusto: URL base segura + cache-busting + mobile)
 (function () {
   const $ = (sel) => document.querySelector(sel);
   const ano = $('#ano'); const rodapeAno = $('#rodapeAno');
@@ -22,7 +22,7 @@
   const temaCaret   = temaInput?.closest('.combo')?.querySelector('.combo-caret') || null;
   const temaClose   = temaInput?.closest('.combo')?.querySelector('.combo-close') || null;
 
-  const provaSel    = $('#provaSel'); // opções são geradas dinamicamente
+  const provaSel    = $('#provaSel');
 
   // Áreas
   const previewVazio = $('#previewVazio');
@@ -40,9 +40,9 @@
   const letras = ['A','B','C','D','E'];
 
   // Utils
-  function ROOT_BASE(){
-    return location.pathname.endsWith('/') ? location.pathname : location.pathname.replace(/[^/]+$/, '/');
-  }
+  const VER = `v=${Date.now()}`; // bust simples
+  const ASSETS_URL = new URL('./data/', location.href).href;
+
   function normalizarPontuacao(txt){
     return txt
       .replace(/\s+([,.;:?!])/g, '$1')
@@ -59,13 +59,11 @@
     }
     return out;
   }
-
   async function carregarTxt(url){
     const r = await fetch(url, { cache:'no-store' });
     if(!r.ok) throw new Error(`HTTP ${r.status} em ${url}`);
     return await r.text();
   }
-
   function parseQuestoesTxt({ curso, tema, srcFile, provaNum, base }, txt){
     const blocos = txt.replace(/\r\n/g,'\n').split(/\n-{5,}\s*\n/).map(s=>s.trim()).filter(Boolean);
     const out = [];
@@ -95,23 +93,18 @@
 
   // Manifest + combos
   async function carregarManifest() {
-    const ROOT = ROOT_BASE();
-    const ASSETS = ROOT + 'data/';
-    const url = ASSETS + 'manifest.json';
+    const url = `${ASSETS_URL}manifest.json?${VER}`;
     const r = await fetch(url, { cache:'no-store' });
     if(!r.ok) throw new Error(`HTTP ${r.status} ao buscar manifest`);
     manifest = await r.json();
 
     cursos = Object.keys(manifest||{}).sort((a,b)=>a.localeCompare(b,'pt'));
-
-    // Combo curso
     montarComboCurso(cursos);
 
-    // Combo tema
     cursoInput?.addEventListener('change', onChangeCurso);
     temaInput?.addEventListener('change', onChangeTema);
 
-    // Abrir/fechar curso
+    // abrir/fechar e filtro
     cursoCaret?.addEventListener('click', ()=> {
       cursoPanel?.classList.toggle('hidden');
       if (!cursoPanel?.classList.contains('hidden')) cursoInput?.focus();
@@ -129,7 +122,6 @@
       cursoPanel.classList.remove('hidden');
     });
 
-    // Abrir/fechar tema
     temaCaret?.addEventListener('click', ()=> {
       if (temaInput.disabled) return;
       temaPanel?.classList.toggle('hidden');
@@ -141,10 +133,8 @@
       temaPanel.classList.add('hidden');
     });
 
-    // Opções de prova/lista
     setOpcoesProva(10);
 
-    // Eventos
     form?.addEventListener('submit', (e)=>{ e.preventDefault(); gerar(); });
     btnLimpar?.addEventListener('click', limpar);
     btnImprimir?.addEventListener('click', ()=>{
@@ -155,7 +145,6 @@
     document.addEventListener('keydown', onKeyAlternativa);
   }
 
-  // Estimar número de provas disponíveis
   function setOpcoesProva(qtd){
     if(!provaSel) return;
     const opts = ['<option value="0">Aleatória (1–'+qtd+')</option>']
@@ -168,10 +157,9 @@
     const declarado = typeof temaEntry==='object' ? (temaEntry.count|0) : 0;
     if (declarado > 0) return Math.min(declarado, 10);
 
-    const ROOT = ROOT_BASE(); const ASSETS = ROOT + 'data/';
     let qtd = 0;
     for (let i=1;i<=10;i++){
-      const url = `${ASSETS}${base}/p${i}.txt`;
+      const url = new URL(`./data/${base}/p${i}.txt?${VER}`, location.href).href;
       try{
         const r = await fetch(url, { method:'HEAD', cache:'no-store' });
         if (r.ok) qtd = i; else break;
@@ -213,7 +201,7 @@
     if(!temaPanel) return;
     temaPanel.innerHTML = (mapaTemasPorCurso.get(curso)||[])
       .map(({label})=>`<div class="combo-item" data-value="${label}">${label}</div>`).join('');
-    temaPanel.addEventListener('click', onClickTema);
+    temaPanel.addEventListener('click', onClickTema, { once:false });
     temaInput.disabled = false;
   }
   function onClickTema(e){
@@ -265,8 +253,7 @@
     if (!temaEntry) throw new Error('Tema inválido');
 
     const base = typeof temaEntry==='string' ? temaEntry : (temaEntry.base||tema);
-    const ROOT = ROOT_BASE(); const ASSETS = ROOT + 'data/';
-    const srcFile = `${ASSETS}${base}/p${provaNum}.txt`;
+    const srcFile = new URL(`./data/${base}/p${provaNum}.txt?${VER}`, location.href).href;
     const txt = await carregarTxt(srcFile);
     return parseQuestoesTxt({ curso, tema, srcFile, provaNum, base }, txt);
   }
@@ -305,7 +292,6 @@ ENUNCIADO: "${enunciado}"`;
   }
 
   // Render
-  function renderEstoques(lista){ /* legado, não usado */ }
   function renderQuestoesTela(lista){
     const html = lista.map((q, idx)=>{
       const numero = idx+1;
@@ -414,19 +400,18 @@ ENUNCIADO: "${enunciado}"`;
       .actions{flex-wrap:wrap}
       .actions > *{flex:1 1 48%}
       .panel{padding:12px}
-      .combo input, select, button{font-size:16px}
+      .combo input, select, button{font-size:16px; min-height:44px}
+      .combo .combo-caret, .combo .combo-close{width:36px;height:36px;top:4px}
     }
     @media print{ .questao .meta{display:none!important} .separador{height:2px;background:#9ca3af;margin:.6rem 0} }
   `;
   const st = document.createElement('style'); st.textContent = css; document.head.appendChild(st);
 
-  // rótulo e botão
   const provaLabel = document.querySelector('label[for="provaSel"]');
   if(provaLabel) provaLabel.textContent = 'Lista';
   const submit = document.querySelector('button[type="submit"],input[type="submit"]');
   if(submit) submit.textContent = 'Abrir';
 
-  // "Prova X" -> "Lista X" (caso venha do cache)
   const sel = document.getElementById('provaSel');
   if(sel){
     const re = /^Prova\s+/i;
