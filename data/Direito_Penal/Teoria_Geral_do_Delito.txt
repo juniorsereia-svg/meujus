@@ -2288,3 +2288,384 @@ O crime de lesão corporal seguida de morte é preterdoloso, havendo dolo na con
 **** Gabarito: Errado
 ****** Sistemas Penais
 -----
+A seguir estão as 40 questões, 20 de cada fonte, reescritas na ordem original e formatadas conforme o modelo solicitado, com a associação dos temas "Sistemas Penais" ou "Conceito de Crime".
+
+### Questões da Fonte 1 (Página 8)
+
+* Ano: 2013 | Banca: PUC-PR | Órgão: TCE-MS
+** Segundo o Direito Penal brasileiro, analise os itens abaixo e assinale a alternativa **CORRETA.** Alternativas
+*** A) São elementos que integram o fato típico: a conduta humana, o resultado, o nexo causal e a ilicitude.
+*** B) São excludentes legais de ilicitude: o estado de necessidade, a legítima defesa, o estrito cumprimento de dever legal, o exercício regular de direito e o consentimento do ofendido.
+*** C) Integram o crime tentado: o início da execução e a não consumação por circunstâncias alheias à vontade do agente, a qual pode ser dar a título de dolo ou de culpa.
+*** D) Sobre a lei penal no tempo, o Código Penal Brasileiro adotou a Teoria da Ubiquidade.
+*** E) O crime é consumado quando nele se reúnem todos os elementos de sua definição legal.
+**** Gabarito: E
+****** Conceito de Crime
+-----
+* Ano: 2013 | Banca: MPE-SP | Órgão: MPE-SP
+** É exemplo típico do chamado Direito Penal do Inimigo: Alternativas
+*** A) a caça, o sequestro e a condução do oficial nazista (Executor Chefe do III Reich) Adolf Eichmann para Israel em 1960, onde ele foi preso, julgado, condenado e executado por haver contribuído para a “solução final”, que vitimou mais de cinco milhões de judeus, durante a II Guerra Mundial.
+*** B) a prisão e o julgamento (ainda não encerrado) por Tribunal instalado no Camboja, do dirigente do Khmer Vermelho Khieu Samphan (expresidente do conselho de estado do Kampuchea Democrático) – que é filho de um juiz e que estudou economia e ciências políticas em Paris –, pela prática de crimes de guerra e contra a humanidade, assassinato, tortura e perseguição por razões religiosas e de raça contra a minoria muçulmana cham, a população vietnamita e o monacato, cujo resultado foi a morte de cerca de um quarto da população daquele país (mais de um milhão e meio de pessoas), entre os anos de 1975 e 1979.
+*** C) )a perseguição, prisão e submissão a julgamento (está em curso) do psiquiatra e poeta Radovan Karadzic, de origem sérvia e cristã, que presidiu a Bósnia-Herzegovina durante a Guerra dos Bálcãs, em 1992, acusado perante o Tribunal Internacional da ONU para a ex-Iugoslávia, instalado em Haia, de ter contribuído para o genocídio, a “limpeza étnica” e a prática de crimes contra a humanidade que resultaram na morte de dezenas de milhares mulçumanos bósnios e croatas.
+*** D) a prisão, o julgamento e a condenação à prisão perpétua (pena máxima permitida), por genocídio e crimes contra a humanidade, em dezembro de 2008, pelo Tribunal Penal Internacional para Ruanda, instalado na Tanzânia, dos três principais dirigentes – Theoneste Bagosora, Aloys Ntabakuze e Anatole Nsengiyumva – do governo daquele país à época, pertencentes à etnia Hutu, que instigaram, colaboraram, permitiram e foram responsabilizados pelo massacre de cerca de oitocentas mil pessoas da etnia Tutsi, ocorrido em 1994.
+*** E) a procura, localização e a posterior execução (por tropa militar norte- americana - SEALs) do árabe saudita e muçulmano Osama Bin Laden, líder da Al-Qaeda (A Base), ocorrida no Paquistão, em maio de 2011, por ter sido a ele atribuída a prática de crimes contra a humanidade, assassinatos em massa e terrorismo (inclusive o planejamento do ataque aéreo às chamadas “Torres Gêmeas” em Nova Iorque, EUA, em que mais de três mil pessoas morreram).
+**** Gabarito: E
+****** Sistemas Penais
+-----
+* Ano: 2013 | Banca: MPE-MS | Órgão: MPE-MS
+** Considere as seguintes proposições, I. O Direito Penal do Inimigo, idealizado por Günther Jakobs, pode ser entendido como um Direito Penal de quarta geração. Na sua concepção inimigo é aquele que afasta de modo permanente da norma. Segundo esta teoria, não deve ser ao criminoso conferido o *status* de cidadão. II. Segundo Hans Welzel, o Direito Penal tipifica somente condutas que tenham certa relevância social; caso contrário não poderiam ser delitos. Welzel desenvolve, a partir dessa ideia, o princípio da adequação social. III. Com introdução de considerações axiológicas e materiais, o neokantismo substituiu o método puramente jurídico-formal do positivismo. O modelo neokantista possui o mérito de ter demonstrado que toda realidade traz em seu bojo um valor preestabelecido, permitindo a constatação de que as normas jurídicas, como um produto cultural, possuem como pressupostos valores prévios, e o próprio intérprete que, por mais que procure adorar certa neutralidade, não estará imune a maior ou menor influência desses valores. IV. Claus Roxin aborda a Teoria da Imputação Objetiva sob a concepção de um funcionalismo radical, entendendo que o Direito Penal tem como função essencial a reafirmação da norma, visando fortalecer as expectativas de quem a obedece. São **corretas** : Alternativas
+*** A) Somente as proposições I e II.
+*** B) Somente as proposições III e IV.
+*** C) Somente as proposições I, II e IV.
+*** D) Somente as proposições II e III.
+*** E) Somente as proposições I, II e III.
+**** Gabarito: E
+****** Sistemas Penais
+-----
+* Ano: 2013 | Banca: FGV | Órgão: TJ-AM
+** Observada a doutrina majoritária brasileira no estudo da teoria do crime, analise as afirmativas a seguir. I. O fato típico é composto da conduta humana dolosa ou culposa, resultado, nexo causal e tipicidade. II. A força irresistível, o movimento reflexo e a coação moral irresistível, são hipóteses de ausência de conduta. III. A força física absoluta que exclui a conduta pode ser proveniente da natureza ou da ação de um terceiro. Assinale: Alternativas
+*** A) se somente a afirmativa I estiver correta.
+*** B) se somente a afirmativa II estiver correta.
+*** C) se somente as afirmativas I e II estiverem corretas.
+*** D) se somente as afirmativas I e III estiverem corretas.
+*** E) se todas as afirmativas estiverem corretas.
+**** Gabarito: D
+****** Conceito de Crime
+-----
+* Ano: 2013 | Banca: FUMARC | Órgão: PC-MG
+** Em relação à interpretação da norma penal, é CORRETO afirmar: Alternativas
+*** A) O Direito Penal veda o uso da interpretação analógica em desfavor do réu.
+*** B) O resultado da interpretação da norma penal necessariamente será declarativo.
+*** C) A interpretação autêntica vincula o entendimento dos demais intérpretes e operadores do Direito Penal.
+*** D) A interpretação gramatical ou literal é a única admitida em matéria penal em relação às normas penais incri- minadoras.
+**** Gabarito: C
+****** Conceito de Crime
+-----
+* Ano: 2013 | Banca: FCC | Órgão: TJ-PE
+** Na estrutura analítica do crime, o juízo da culpabilidade presta-se para avaliar a Alternativas
+*** A) prática da conduta.
+*** B) contrariedade da conduta ao direito.
+*** C) reprovabilidade da conduta.
+*** D) existência do injusto penal.
+*** E) ilicitude da conduta.
+**** Gabarito: C
+****** Conceito de Crime
+-----
+* Ano: 2013 | Banca: MPE-MG | Órgão: MPE-MG
+** Constituem críticas deslegitimadoras do sistema penal em sua dogmática clássica, EXCETO: Alternativas
+*** A) O caráter consequencial (sintomatológico) e não causal (etiológico) da intervenção penal
+*** B) A intervenção sobre situações e não sobre pessoas.
+*** C) A reificação delitiva, com a neutralização da vítima pelo sistema.
+*** D) As cifras ocultas da criminalidade.
+**** Gabarito: B
+****** Sistemas Penais
+-----
+* Ano: 2013 | Banca: MPE-MG | Órgão: MPE-MG
+** São criações doutrinárias diretamente relacionadas à punição na sociedade do risco, EXCETO: Alternativas
+*** A) Direito de Intervenção.
+*** B) Direito Penal de duas velocidades.
+*** C) Direito Penal secundário.
+*** D) Direito Penal funcional.
+**** Gabarito: D
+****** Sistemas Penais
+-----
+* Ano: 2013 | Banca: CESPE / CEBRASPE | Órgão: STF
+** Acerca dos princípios gerais que norteiam o direito penal, das teorias do crime e dos institutos da Parte Geral do Código Penal brasileiro, julgue os itens a seguir. A teoria finalista adota o conceito clássico de ação, entendida como mero impulso mecânico, dissociado de qualquer conteúdo da vontade. Alternativas
+*** Certo
+*** Errado
+**** Gabarito: Errado
+****** Sistemas Penais, Conceito de Crime
+-----
+* Ano: 2013 | Banca: PGR | Órgão: PGR
+** A DOGMÁTICA JURÍDICO-PENAL OBJETIVA AVERIGUAR QUAIS SÃO OS PRESSUPOSTOS QUE DEVEM ESTAR PRESENTES PARA A INCIDÊNCIA DE UMA NORMA PENAL INCRIMINADORA. FAZ-SE POSSÍVEL, ATRAVÉS DELA, UMA APLICAÇÃO SEGURA E CALCULÁVEL DO DIREITO PENAL, SUBTRAINDO-O DA IRRACIONALIDADE, DA ARBITRARIEDADE OU DA ALEATORIEDADE. DIANTE DISSO, E CONSIDERANDO SER A AÇÃO OU CONDUTA A PEDRA ANGULAR DA TEORIA DO CRIME (*NULLUM CRIMEN SINE CONDUCTA* **), ASSINALE A ALTERNATIVA INCORRETA:** Alternativas
+*** A) Segundo a teoria finalista da ação, considera-se equivocada a ideia de ser a conduta um mero movimento corporal despido de finalidade, pois o que caracteriza o ser humano, ontologicamente, é, justamente, a capacidade de poder prever, dentro de certos limites, as consequências possíveis de sua atividade, e dirigi-la, conforme o planejado, até atingir os seus objetivos.
+*** B) Segundo a teoria social da ação, considera-se que a conduta pode constituir-se em uma atividade final, pode restringir-se a uma causação involuntária de consequências relevantes previsíveis ou pode manifestar-se por intermédio da inatividade frente a uma expectativa de ação, sendo sempre irrelevante a existência de um sentido social.
+*** C) Segundo a teoria personalista da ação, considera-se que a conduta penalmente relevante compreende tudo o que possa atribuir ao ser humano como centro anímico-espiritual, o que não ocorre, por exemplo, quando o comportamento decorre de fatores mecânicos do corpo, sem submissão ao controle psíquico. No mesmo sentido, não configuram conduta os fenômenos anímico- espirituais que ficam cerrados internamente, sem se exteriorizarem.
+*** D) Segundo a teoria negativa da ação, o conceito de conduta deve estar lastreado no princípio da evitabilidade, vale dizer, conduta é o não evitar o evitável na posição de garantidor, o que incluiria tanto os fatos comissivos como os omissivos. Uma variante dessa corrente sustenta que a conduta deve ser entendida como a causação do resultado individualmente evitável.
+**** Gabarito: B
+****** Sistemas Penais, Conceito de Crime
+-----
+* Ano: 2013 | Banca: CESPE / CEBRASPE | Órgão: Polícia Federal
+** No que se refere à teoria geral do crime, julgue o próxima item. Segundo a teoria causal, o dolo causalista é conhecido como dolo normativo, pelo fato de existir, nesse dolo, juntamente com os elementos volitivos e cognitivos, considerados psicológicos, elemento de natureza normativa ( real ou potencial consciência sobre a ilicitude do fato ). Alternativas
+*** Certo
+*** Errado
+**** Gabarito: Errado
+****** Sistemas Penais
+-----
+* Ano: 2013 | Banca: VUNESP | Órgão: PC-SP
+** De acordo com o Código Penal, a execução iniciada de um crime, que não se consuma por circunstâncias alheias à vontade do agente, caracteriza o(a) Alternativas
+*** A) arrependimento eficaz.
+*** B) arrependimento posterior.
+*** C) tentativa.
+*** D) crime frustrado.
+*** E) desistência voluntária.
+**** Gabarito: C
+****** Conceito de Crime
+-----
+* Ano: 2013 | Banca: FUNCAB | Órgão: PC-ES
+** Acerca do conceito de crime, considerando a corrente majoritária do Direito, assinale a alternativa INCORRETA.
+*** A) O crime é o fato típico, ilícito e culpável.
+*** B) O índio que não teve contato com a civilização e não tem como conhecer a ilicitude de um fato típico e ilícito não comete crime.
+*** C) O menor de dezoito anos não comete crime.
+*** D) O indivíduo portador de um transtorno psiquiátrico de natureza psicótica grave não comete crime.
+*** E) O indivíduo que comete um fato ilícito, sem dolo ou culpa, não comete crime.
+**** Gabarito: D
+****** Conceito de Crime
+-----
+* Ano: 2013 | Banca: CESPE / CEBRASPE | Órgão: TJ-DFT
+** A respeito do direito penal, julgue os itens que se seguem. Considera-se crime toda ação ou omissão típica, antijurídica e culpável. Alternativas
+*** Certo
+*** Errado
+**** Gabarito: Certo
+****** Conceito de Crime
+-----
+* Ano: 2013 | Banca: FCC | Órgão: DPE-AM
+** No que se refere aos elementos do crime, é correto afirmar que Alternativas
+*** A) o estrito cumprimento do dever legal exclui a imputabilidade.
+*** B) o dolo e a culpa integram a tipicidade e a culpabilidade, respectivamente.
+*** C) o arrependimento eficaz afasta a ilicitude.
+*** D) a exigibilidade de conduta diversa é pressuposto da culpabilidade.
+*** E) o crime impossível extingue a punibilidade.
+**** Gabarito: D
+****** Conceito de Crime
+-----
+* Ano: 2013 | Banca: FUNCAB | Órgão: PC-ES
+** Infração penal significa: Alternativas
+*** A) Quando um caso não previsto em lei é regulado por um preceito legal, que rege um semelhante.
+*** B) Ofensa real ou potencial a um bem jurídico, levando-se em consideração os elementos subjetivos do tipo, a ilicitude e a culpabilidade.
+*** C) Todos os valores ético-sociais que estejam a exigir uma proteção especial, no âmbito do direito penal, por se revelarem insuficientes à proteção dos outros ramos do direito.
+*** D) Quando o princípio para o caso omitido se deduz do espírito e do sistema do ordenamento jurídico, considerado em seu conjunto.
+*** E) Que o delito é sinônimo de contravenção penal no Brasil.
+**** Gabarito: B
+****** Conceito de Crime
+-----
+* Ano: 2013 | Banca: CESPE / CEBRASPE | Órgão: TRF - 5ª REGIÃO
+** No que se refere à teoria e à aplicação do direito penal, assinale a opção correta.
+*** A) O condutor de veículo automotor que, por imprudência, colidir em veículo dirigido por uma gestante, causando-lhe lesões corporais de natureza leve, responderá criminalmente por sua conduta, incidindo, na aplicação da pena, a circunstância agravante de ter sido o crime praticado contra mulher grávida.
+*** B) Crime profissional consiste na prática de ações com intenção de lucro, como é o caso, por exemplo, do curandeirismo, enquanto o crime habitual consiste na reiteração da mesma conduta reprovável, como um meio usual de sobrevivência, como, por exemplo, o rufianismo.
+*** C) Na hipótese de tentativa irreal ou supersticiosa, o agente não responde pelo crime pretendido porque sua intenção não basta para ofender o bem jurídico visado, sendo a tentativa impunível e, conforme o caso, o crime impossível ou o delito putativo.
+*** D) Não pode alegar, em sua defesa, estado de necessidade o indivíduo que tem o dever legal ou contratual de enfrentar o perigo.
+*** E) Será reduzida de um a dois terços a pena do condenado pelo crime de latrocínio que colaborar voluntariamente com a investigação policial e o processo criminal na identificação dos demais coautores ou partícipes do crime, na localização da vítima e na recuperação total ou parcial do produto do crime.
+**** Gabarito: C
+****** Conceito de Crime
+-----
+* Ano: 2013 | Banca: CESPE / CEBRASPE | Órgão: TRF - 5ª REGIÃO
+** No que concerne à teoria do crime, assinale a opção correta.
+*** A) Em direito penal, entende-se a tentativa como uma forma de adequação típica de subordinação imediata ou direta.
+*** B) O princípio da insignificância incide nos crimes contra a administração pública, o que exclui a tipicidade, mesmo que a conduta praticada ofenda a probidade administrativa, e não apenas o patrimônio.
+*** C) O indivíduo que tenta o suicídio pode ser sujeito ativo e passivo da própria conduta.
+*** D) Há crimes que se caracterizam pela pluralidade de objetos materiais, mas nenhum crime prescinde de objeto material.
+*** E) Crime de dever, semelhante ao crime de domínio, é aquele praticado dolosamente por quem rege a conduta dos demais envolvidos no crime, incidindo, nesse caso, a teoria do domínio do fato.
+**** Gabarito: B
+****** Conceito de Crime
+-----
+* Ano: 2013 | Banca: FMP Concursos | Órgão: MPE-AC
+** Assinale a alternativa correta.
+*** A) No conceito analítico do crime, a imputabilidade penal constitui elemento autônomo do crime.
+*** B) A adequação social constitui, segundo doutrina majoritária, excludente de ilicitude.
+*** C) Para a doutrina finalista, o princípio da insignificância constitui causa exculpante.
+*** D) De acordo com a doutrina finalista, a consciência da ilicitude é elemento do dolo.
+*** E) O erro de tipo sempre exclui o dolo.
+**** Gabarito: E
+****** Conceito de Crime
+-----
+* Ano: 2013 | Banca: UEG | Órgão: PC-GO
+** Sobre o sujeito da infração penal, tem-se que Alternativas
+*** A) nos denominados crimes vagos, não se faz possível determinar o sujeito passivo.
+*** B) a pessoa jurídica pode figurar como sujeito ativo nos crimes contra o sistema financeiro, tendo em vista a regulamentação legal.
+*** C) os crimes de concurso necessário são aqueles que necessitam da participação de mais de um autor, todos imputáveis.
+*** D) sujeito passivo do crime e prejudicado pelo crime sempre se reúnem na mesma pessoa.
+**** Gabarito: A
+****** Conceito de Crime
+
+### Questões da Fonte 2 (Página 9)
+
+* Ano: 2013 | Banca: UEG | Órgão: PC-GO
+** Em qual sistema penal a culpabilidade é concebida como o vínculo psicológico que une o autor ao fato? Alternativas
+*** A) finalista
+*** B) neoclássico
+*** C) clássico
+*** D) funcionalista
+**** Gabarito: C
+****** Sistemas Penais
+-----
+* Ano: 2013 | Banca: CESPE / CEBRASPE | Órgão: TJ-MA
+** No que concerne às posições existentes na teoria do delito, assinale a opção correta.
+*** A) É possível a punição a título de culpa mesmo se o resultado não tenha sido previsto pelo agente.
+*** B) É inadmissível legítima defesa contra legítima defesa putativa.
+*** C) A existência do dolo do tipo permissivo serve à concepção objetiva da descriminante.
+*** D) O dolo normativo corresponde ao modelo normativo de culpabilidade.
+**** Gabarito: A
+****** Conceito de Crime
+-----
+* Ano: 2013 | Banca: VUNESP | Órgão: PC-SP
+** No que diz respeito ao conceito do crime, é correto afirmar que
+*** A) é considerada como causa do crime a ação ou omissão sem a qual o resultado não teria ocorrido, sendo que a superveniência de causa relativamente independente exclui a imputação do crime quando, por si só, produziu o resultado.
+*** B) ao agente que tenha por lei obrigação de cuidado, proteção ou vigilância, não será imputado o crime se apenas omitiu-se, ainda que pudesse agir para evitar o resultado.
+*** C) se considera o crime tentado quando iniciada a preparação; este não se consuma por circunstâncias alheias à vontade do agente.
+*** D) para a caracterização da omissão penalmente relevante é suficiente que o agente tivesse o poder de agir para evitar o resultado do crime.
+*** E) se pune a tentativa se, por ineficácia absoluta do meio ou por absoluta impropriedade do objeto, é impossível consumar-se o crime.
+**** Gabarito: A
+****** Conceito de Crime
+-----
+* Ano: 2012 | Banca: IBAM | Órgão: Prefeitura de São Bernardo do Campo - SP
+** Em relação à norma penal, analise as afirmativas a seguir. I. As normas penais incriminadoras têm a função de definir as infrações penais, proibindo ou impondo a prática de condutas, sendo, portanto, consideradas normas penais em sentido estrito. II. As normas permissivas são aquelas que se opõem ao preceito primário da norma incriminadora, autorizando a realização de uma conduta em abstrato proibida. III. As normas penais não incriminadoras são aquelas que estabelecem regras gerais de interpretação e aplicação das normas penais em sentindo estrito. IV. As normas penais explicativas e complementares correspondem àquelas proposições jurídicas que esclarecem, limitam ou complementam as normas penais incriminadoras dispostas na Parte Especial. Alternativas
+*** A) Apenas a afirmativa I está correta.
+*** B) Apenas a afirmativa II está correta.
+*** C) Apenas as afirmativas III e IV estão corretas.
+*** D) As afirmativas I, II, III e IV estão corretas.
+**** Gabarito: D
+****** Conceito de Crime
+-----
+* Ano: 2012 | Banca: CESPE / CEBRASPE | Órgão: PC-AL
+** A respeito de princípios gerais do direito penal, julgue o item a seguir. Em caso de urgência, a definição do que é crime pode ser realizada por meio de medida provisória. Alternativas
+*** Certo
+*** Errado
+**** Gabarito: Errado
+****** Conceito de Crime
+-----
+* Ano: 2012 | Banca: CESPE / CEBRASPE | Órgão: TC-DF
+** A respeito da eficácia da lei no tempo e no espaço, julgue o item a seguir. O princípio da irretroatividade da lei nova se aplica às leis de ordem pública.
+*** Certo
+*** Errado
+**** Gabarito: Certo
+****** Conceito de Crime
+-----
+* Ano: 2012 | Banca: RBO | Órgão: Prefeitura de Porto Ferreira - SP
+** Assinale a alternativa incorreta: Alternativas
+*** A) Considera-se praticado o crime no momento da ação ou omissão, ainda que outro seja o momento do resultado.
+*** B) Não se aplica a lei brasileira, ao crime cometido no território nacional por estrangeiro que aqui não resida, devendo ser julgado segundo as leis do seu país de origem.
+*** C) Aplica-se a lei brasileira, sem prejuízo de convenções, tratados e regras de direito internacional, ao crime cometido no território nacional.
+*** D) Considera-se praticado o crime no lugar em que ocorreu a ação ou omissão, no todo ou em parte, bem como onde se produziu ou deveria produzir-se o resultado.
+**** Gabarito: B
+****** Conceito de Crime
+-----
+* Ano: 2012 | Banca: RBO | Órgão: Prefeitura de Porto Ferreira - SP
+** Em relação a crime, é correto afirmar que: Alternativas
+*** A) Grande parte da doutrina o define como sendo o fato típico e antijurídico.
+*** B) Não necessita estar previsto em lei, nos termos do artigo 5º, inciso XXXIX da Constituição Federal de 1988.
+*** C) Constitui Crime, nos termos do artigo 1º da LICP, a infração penal apenada com prisão simples, acompanhada ou não de multa.
+*** D) Diz-se que o crime é culposo, quando o agente quis o resultado ou assumiu o risco de produzi-lo.
+**** Gabarito: A
+****** Conceito de Crime
+-----
+* Ano: 2012 | Banca: TJ-SC | Órgão: TJ-SC
+** Nos termos do Código Penal – CP: I. Considera-se praticado o crime no momento da ação ou omissão, ainda que outro seja o momento do resultado. II. A pena cumprida no estrangeiro não atenua a pena imposta no Brasil pelo mesmo crime, quando diversa, mas nela é computada, quando idêntica. III. O dia do começo não se inclui no cômputo do prazo. Contam-se os dias, os meses e os anos pelo calendário comum. IV. O resultado, de que depende a existência do crime, somente é imputável a quem lhe deu causa. Considera-se causa a ação ou omissão sem a qual o resultado não teria ocorrido. Alternativas
+*** A) Somente as proposições I, II e IV estão corretas.
+*** B) Somente as proposições II, III e IV estão corretas.
+*** C) Somente as proposições I e IV estão corretas.
+*** D) Somente as proposições II e III estão corretas.
+*** E) Todas as proposições estão corretas.
+**** Gabarito: C
+****** Conceito de Crime
+-----
+* Ano: 2012 | Banca: FMP Concursos | Órgão: TJ-AC
+** Assinale a alternativa correta. Alternativas
+*** A) O conceito de infração penal é mais amplo do que o conceito de crime.
+*** B) O conceito de infração penal coincide com o conceito de delito.
+*** C) O conceito de infração penal coincide com o conceito de crime.
+*** D) O conceito de infração penal é menos amplo do que o conceito de crime.
+**** Gabarito: A
+****** Conceito de Crime
+-----
+* Ano: 2012 | Banca: OFFICIUM | Órgão: TJ-RS
+** Associe os institutos jurídicos previstos no Código Penal (coluna da esquerda) às situações a eles relacionadas (coluna da direita). 1- Resultado diverso do Pretendido 2- Concurso Material 3- Erro na execução 4- Concurso Formal 5- Crime continuado ( ) O agente, visando um determinado objetivo, termina atingindo outro fim. ( )O agente, em vez de atingir a pessoa visada, alcança pessoa diversa em razão de desvio no golpe. ( ) O agente, mediante mais de uma ação ou omissão, pratica dois ou mais crimes. A sequência numérica correta, de cima para baixo, da coluna da direita, é Alternativas
+*** A) 5 - 3 - 2
+*** B) 3 - 4 - 5
+*** C) 3 - 1 - 4
+*** D) 1 - 4 - 5
+*** E) 1 - 3 - 2
+**** Gabarito: E
+****** Conceito de Crime
+-----
+* Ano: 2012 | Banca: IESES | Órgão: TJ-RO
+** É certo afirmar: I. Crime é um fato típico, antijurídico e culpável. II. O resultado, de que depende a existência do crime, é imputável tanto a quem deu quanto a quem não lhe deu causa. III. A Lei penal brasileira por ser soberana se sobrepõe aos tratados e convenções internacionais, sendo de aplicação absoluta. IV. Considera-se praticado o crime no lugar em que ocorreu a ação ou omissão, no todo ou em parte, bem como onde se produziu ou deveria produzir-se o resultado. 
+** Analisando as proposições, pode-se afirmar:
+*** A) Somente as proposições II e IV estão corretas.
+*** B) Somente as proposições I e III estão corretas.
+*** C) Somente as proposições I e IV estão corretas.
+*** D) Somente as proposições II e III estão corretas.
+**** Gabarito: C
+****** Conceito de Crime
+-----
+* Ano: 2012 | Banca: ESAF | Órgão: CGU
+** Marque a opção correta.
+*** A) Quanto ao Lugar do crime, o Direito brasileiro adotou a Teoria da Atividade segundo a qual o Lugar do delito é aquele em que se verificou o ato executivo.
+*** B) O princípio da irretroatividade da lei penal é corolário do princípio da anterioridade da lei penal e limita-se às normas penais de caráter material.
+*** C) O Código Penal Brasileiro adotou, em relação ao dolo, a Teoria da Representação, segundo a qual para a existência do dolo é suficiente a representação subjetiva ou a previsão do resultado como certo ou provável.
+*** D) Os crimes comissivos por omissão são objetivamente descritos com uma conduta negativa, não se exigindo um resultado naturalístico.
+*** E) O conceito analítico de crime, segundo a Teoria Tripartite, crime é fato típico, antijurídico, culpável e punível.
+**** Gabarito: B
+****** Conceito de Crime
+-----
+* Ano: 2012 | Banca: CESPE / CEBRASPE | Órgão: TJ-AC
+** Em relação às teorias do crime e à legislação especial, assinale a opção correta.
+*** A) Conforme entendimento jurisprudencial, é suficiente, para fundamentar a aplicação do direito penal mínimo, a presença de um dos seguintes elementos: mínima ofensividade da conduta do agente, ínfima periculosidade da ação, ausência total de reprovabilidade do comportamento e mínima expressividade da lesão jurídica ocasionada.
+*** B) A coculpabilidade, expressamente admitida na lei penal como uma das hipóteses de aplicação da atenuante genérica, consiste em reconhecer que o Estado também é responsável pelo cometimento de determinados delitos quando o agente possui menor autodeterminação diante das circunstâncias do caso concreto, especificamente no que se refere às condições sociais e econômicas.
+*** C) A teoria constitucionalista do delito, que integra o direito penal à CF, enfoca o delito como ofensa, concreta ou abstrata, a bem jurídico protegido constitucionalmente, havendo crime com ou sem lesão ou perigo de lesão ao bem jurídico relevante.
+*** D) Idealizado por Günther Jakobs, o direito penal do inimigo é entendido como um direito penal de terceira velocidade, por utilizar a pena privativa de liberdade, mas permitir a flexibilização de garantias materiais e processuais, podendo ser observado, no direito brasileiro, em alguns institutos da lei que trata dos crimes hediondos e da que trata do crime organizado.
+*** E) O abolicionismo, ou minimalismo penal, prega a eliminação total, do ordenamento jurídico penal, da pena de prisão como meio de controle social formal e a sua substituição por outro mecanismo de controle.
+**** Gabarito: D
+****** Sistemas Penais
+-----
+* Ano: 2012 | Banca: CESPE / CEBRASPE | Órgão: TJ-RO
+** A respeito do *iter criminis* e do momento de consumação do delito, assinale a opção correta.
+*** A) A tentativa, uma norma de extensão temporal, não se enquadra diretamente no tipo incriminador; faz-se necessária uma norma que amplie a figura típica até alcançar o fato material.
+*** B) A tentativa perfeita ou crime falho é aquela na qual o agente interrompe a atividade executória e não consuma o crime por circunstâncias alheias à sua vontade.
+*** C) O crime de extorsão se consuma com a obtenção da indevida vantagem econômica por parte do agente.
+*** D) A tentativa de homicídio se distingue do delito de lesões corporais dolosas pela gravidade da ofensa à integridade física da vítima.
+*** E) O crime tentado é punido da mesma forma que o crime consumado, pois o que vale é a intenção do agente.
+**** Gabarito: A
+****** Conceito de Crime
+-----
+* Ano: 2012 | Banca: FCC | Órgão: DPE-PR
+** Considere as afirmações abaixo, entre tipicidade e antijuridicidade. 
+** I. Para a teoria do “tipo avalorado” (também chamado de “neutro”, “acromático”), a tipicidade não indica coisa alguma acerca da antijuridicidade. 
+** II. Para a teoria indiciária (*ratio congnoscendi*), a tipicidade é um indício ou presunção *iuris et iuris* da normatividade da licitude. 
+** III. Para a teoria da identidade, a tipicidade é a *ratio essendi* da antijuridicidade, onde afirmada a tipicidade resultará também afirmada antijuridicidade. IV. Para a teoria do *tipo puro*, a tipicidade representa uma valoração subjetiva da normatividade da licitude. 
+** Estão corretas APENAS as afirmações Alternativas
+*** A) I e III.
+*** B) I e II.
+*** C) II e III.
+*** D) II e IV.
+*** E) III e IV.
+**** Gabarito: A
+****** Conceito de Crime
+-----
+* Ano: 2012 | Banca: FCC | Órgão: DPE-SP
+** Assinale a alternativa correta.
+*** A) O ordenamento penal estende a relação de causalidade a qualquer resultado causado pela ação, ainda que imprevisível, em razão da aplicação do princípio *versari in re ilicita*.
+*** B) A missão do Direito Penal é a proteção de bens jurídicos, o que justifica a antecipação da intervenção penal aos atos que antecedem o início da prática dos atos executivos.
+*** C) Pela teoria da imputação objetiva, o resultado deve ser imputado ao agente de maneira objetiva, isto é, ainda que não tenha ele agido com dolo ou culpa.
+*** D) O desvalor da ação e o desvalor do resultado devem ser aferidos a partir da lesão ou exposição a risco do bem jurídico tutelado.
+*** E) A inocuidade da ação dolosa ao bem jurídico tutelado pela norma penal não serve para atestar a atipicidade da conduta se o ânimo do agente mostra que conduz sua vida de maneira reprovável.
+**** Gabarito: D
+****** Conceito de Crime
+-----
+* Ano: 2012 | Banca: MPE-MG | Órgão: MPE-MG
+** Sobre a **teoria finalista da ação**, é **INCORRETO** afirmar: Alternativas
+*** A) a partir do conceito ôntico de ação final, trata o injusto de maneira objetiva, quer dizer, o injusto é atribuído a uma pessoa em virtude do desvalor do resultado final.
+*** B) o tipo constitui um indício de antijuridicidade, característica que remonta à fase anterior ao neokantismo.
+*** C) confere à norma penal a função primária de proteção dos valores ético-sociais.
+*** D) pode ser apontada como precursora da moderna teoria da imputação objetiva, ao evidenciar a ilicitude como contrariedade a uma “norma de determinação” (perspectiva *ex ante*).
+**** Gabarito: A
+****** Sistemas Penais, Conceito de Crime
+-----
+* Ano: 2012 | Banca: CONSULPLAN | Órgão: TSE
+** A doutrina do direito penal explica que um dos elementos do fato típico é a existência de um comportamento humano comissivo ou omissivo, doloso ou culposo. Pode-se afirmar que há comportamento humano para efeitos de caracterização do fato típico nos casos de Alternativas
+*** A) força física irresistível, que pode ser por força da natureza ou proveniente da ação de um terceiro.
+*** B) movimentos reflexos, sendo o resultado imprevisível.
+*** C) estados de inconsciência, tais como sonambulismo, hipnose, etc.
+*** D) embriaguez completa, não proveniente de caso fortuito ou força maior.
+**** Gabarito: D
+****** Conceito de Crime
+-----
+* Ano: 2012 | Banca: FCC | Órgão: TJ-PE
+** No que concerne aos elementos do crime, é correto afirmar que Alternativas
+*** A) não há crime sem ação.
+*** B) os animais irracionais podem ser sujeitos ativos de crimes.
+*** C) o sujeito passivo material de um delito é o titular do bem jurídico diretamente lesado pela conduta do agente.
+*** D) não há crime sem resultado.
+*** E) só os bens jurídicos de natureza corpórea podem ser objeto material de um delito.
+**** Gabarito: C
+****** Conceito de Crime
