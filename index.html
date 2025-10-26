@@ -6,33 +6,45 @@
 <title>MeuJus</title>
 <style>
   :root{--bg:#fff;--ink:#111827}
-  html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Helvetica,Arial,sans-serif}
+  html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",Roboto,Ubuntu,Helvetica,Arial,sans-serif}
   .layout{display:grid;grid-template-columns:320px 1fr;gap:24px;max-width:1200px;margin:0 auto;padding:24px}
   @media (max-width:900px){.layout{grid-template-columns:1fr}}
   @media (max-width:640px){.layout{padding:12px}}
   .panel{border:1px solid #e5e7eb;border-radius:12px;padding:16px}
   .row{display:flex;gap:8px;align-items:center}
+  .column{display:flex;flex-direction:column;gap:12px}
+  .field{display:flex;flex-direction:column;gap:6px}
   label{font-size:.9rem;color:#374151}
+  .muted{color:#6b7280}
+
+  /* Combos */
   .combo{position:relative}
-  .combo input{width:100%;border:1px solid #d1d5db;border-radius:10px;padding:.5rem .75rem;padding-right:2.5rem}
+  .combo input{width:100%;border:1px solid #d1d5db;border-radius:10px;padding:.5rem .75rem;padding-right:2.6rem;background:#fff}
   .combo .combo-caret{position:absolute;right:.5rem;top:.5rem;width:28px;height:28px;border:1px solid #e5e7eb;border-radius:8px;background:#f9fafb;display:grid;place-items:center;cursor:pointer}
   .combo .combo-close{position:absolute;right:2.6rem;top:.5rem;width:28px;height:28px;border:1px solid #e5e7eb;border-radius:8px;background:#f9fafb;display:grid;place-items:center;cursor:pointer}
   .combo-panel{position:absolute;z-index:20;inset-inline:0;top:calc(100% + .25rem);background:#fff;border:1px solid #e5e7eb;border-radius:12px;box-shadow:0 10px 20px rgba(0,0,0,.05);max-height:14rem;overflow:auto}
   .combo-item{padding:.5rem .75rem;cursor:pointer}
   .combo-item:hover{background:#f3f4f6}
+  .hidden{display:none}
+
   select{width:100%;border:1px solid #d1d5db;border-radius:10px;padding:.5rem .75rem;background:#fff}
   button{border:1px solid #e5e7eb;border-radius:12px;padding:.6rem .9rem;background:#fff;cursor:pointer}
   .actions{display:flex;gap:8px;margin-top:8px}
-  .muted{color:#6b7280}
+
   .questao .alternativas{margin-left:1rem}
   .separador{height:1px;background:linear-gradient(90deg,transparent,#d1d5db,transparent);margin:1rem 0}
-  @media print{#painel{display:none} .layout{padding:0;margin:0}}
+
+  @media print{
+    #painel{display:none}
+    .layout{padding:0;margin:0}
+  }
 </style>
 </head>
 <body>
 <header style="padding:12px 16px;border-bottom:1px solid #e5e7eb">
   <div class="row"><strong>MeuJus</strong><span class="muted">© <span id="ano"></span></span></div>
 </header>
+
 <main class="layout">
   <aside id="painel" class="panel">
     <form id="formProva" class="column" onsubmit="return false;">
@@ -46,7 +58,8 @@
           <div id="cursoPanel" class="combo-panel hidden"></div>
         </div>
       </div>
-      <div class="field" style="margin-top:12px">
+
+      <div class="field">
         <label for="temaInput">Tema</label>
         <div class="combo">
           <input id="temaInput" placeholder="Selecione o tema" autocomplete="off">
@@ -56,10 +69,12 @@
           <div id="temaPanel" class="combo-panel hidden"></div>
         </div>
       </div>
-      <div class="field" style="margin-top:12px">
+
+      <div class="field">
         <label for="provaSel">Lista</label>
         <select id="provaSel"></select>
       </div>
+
       <div class="actions">
         <button id="btnLimpar" type="button">Limpar</button>
         <button id="btnImprimir" type="button">Imprimir</button>
@@ -75,6 +90,7 @@
     </div>
   </section>
 </main>
+
 <footer class="muted" style="padding:12px 16px;border-top:1px solid #e5e7eb">© <span id="rodapeAno"></span></footer>
 
 <!-- Área de impressão -->
