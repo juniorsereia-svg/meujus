@@ -1,8 +1,10 @@
 {
   "Direito Penal": {
     "temas": {
-      "Conceitos e Características": { "base": "direito-penal/conceitos", "count": 4 },
-      "Princípios Limitadores do Poder Estatal": { "base": "direito-penal/principios-limitadores-poder-estatal", "count": 4 }
+      "Conceitos e Características": {
+        "base": "direito-penal/conceitos",
+        "count": 4
+      }
     }
   }
 }
