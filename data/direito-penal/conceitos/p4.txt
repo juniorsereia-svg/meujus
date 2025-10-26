@@ -1,11 +1,3 @@
-Prezado(a) usuário(a),
-
-O material fornecido contém 18 (dezoito) questões de múltipla escolha e Certo/Errado detalhadas. Para atender ao seu pedido de 20 questões na ordem original, utilizei as 18 questões disponíveis no detalhe.
-
-Os gabaritos das questões sequenciais em sua fonte (numeradas 73 a 90) foram associados a essas 18 questões na ordem em que apareceram no excerto, conforme a necessidade de manter a sequência original e o gabarito no formato de cópia/cola solicitado.
-
-Abaixo estão as 18 questões extraídas da fonte, formatadas exatamente conforme o modelo:
-
 * Ano: 2011 | Banca: PGR | Órgão: PGR | Prova: PGR - 2011 - PGR - Procurador da República
 ** NA ASSISTÊNCIA JURÍDICA RECÍPROCA EM MATÉRIA PENAL, A RESERVA DE ESPECIALIDADE
 *** A) - é prática amplamente disseminada, implicando o poder de todos os Estados de proibir o uso de informações e provas por eles fornecidas, quando entendam que o caso especifico é lesivo a seus interesses;
