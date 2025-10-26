@@ -1,0 +1,175 @@
+
+* Ano: 2024 Banca: Instituto Access Órgão: Prefeitura de Cariacica - ES Prova: Instituto Access - 2024 - Prefeitura de Cariacica - ES - Guarda Municipal
+** Q 1: Robson, brasileiro que residia temporariamente na França, praticou em território francês delito de tentativa de homicídio contra Rodrigo, também brasileiro, que estava passando férias na França à época. Devidamente processado segundo as leis francesas, Robson lá foi absolvido por questões processuais previstas na legislação de referido país e, tão logo após a sentença absolutória ser publicada, Robson retornou ao Brasil. Já no Brasil, diante do que considerou uma grande injustiça, a família de Rodrigo deseja que Robson seja processado e condenado pelo delito praticado em terras francesas.
+Acerca do tema, assinale a alternativa correta
+*** A) - Trata-se de hipótese de extraterritorialidade condicionada, e a entrada de Robson no Brasil, bem como o fato de que ele, na França, não cumpriu pena autorizam a aplicação da lei penal brasileira.
+*** B) - Trata-se de hipótese de extraterritorialidade condicionada, e o fato de Robson ter sido absolvido no estrangeiro é impeditivo para a aplicação da lei penal brasileira ao caso.
+*** C) - A hipótese é de extraterritorialidade incondicionada, pois tanto vítima quanto autor do fato são brasileiros, razão pela qual a aplicação da lei penal brasileira é medida que se impõe independente de ter sido o agente absolvido ou condenado no estrangeiro.
+*** D) - A hipótese é de extraterritorialidade incondicionada, pois a absolvição de Robson na França se deu por questões processuais. Todavia a aplicação da lei penal brasileira depende de requisição do Ministro da Justiça, tendo em vista existência de sentença estrangeira.
+**** Gabarito: B
+-----
+* Ano: 2024 Banca: Instituto Access Órgão: Prefeitura de Cariacica - ES Prova: Instituto Access - 2024 - Prefeitura de Cariacica - ES - Guarda Municipal
+** Q 2: Durante o período de vigência de determinada lei penal excepcional, a qual trouxe circunstância qualificadora a delito já anteriormente previsto no Código Penal como tipo penal de injusto, Pedro praticou a conduta ali descrita, sendo certo que sua conduta abrangia também a circunstância qualificadora descrita na mencionada lei penal excepcional. Devidamente denunciado e regularmente processado pelo delito, no entanto, na data do julgamento já não estava mais em vigor a lei penal excepcional responsável pela qualificadora descrita.
+Nessa situação, assinale a alternativa correta
+*** A) - Pedro deve responder pelo delito praticado com a incidência da circunstância qualificadora prevista na lei penal excepcional, mesmo tendo cessado o período de sua vigência.
+*** B) - Ocorreu  abolitio criminis , razão pela qual a conduta praticada por Pedro não mais pode ser considerada delituosa e ele deve, portanto, ser absolvido.
+*** C) - Tendo cessado a vigência da lei penal excepcional que criou a qualificadora, Pedro deve responder tão somente pelo delito já antes previsto no Código Penal, sem a incidência da qualificadora, tendo ocorrido, portanto, abolitio criminis parcial.
+*** D) - A depender a culpabilidade do agente e das circunstâncias do caso concreto, o juiz, na aplicação da pena e com vistas à individualização, poderá escolher se a qualificadora prevista na lei penal excepcional incidirá ou não.
+**** Gabarito: A
+-----
+* Ano: 2024 Banca: IV - UFG Órgão: TJ-AC Prova: IV - UFG - 2024 - TJ-AC - Analista Judiciário - Direito (Área Judiciária)
+** Q 3: Leia o caso a seguir.
+Uma pessoa transporta, com intenção de venda, quantidade de droga, saindo da cidade de Rio Branco/AC com direção à cidade de La Paz, na Bolívia. Após ser detida pela polícia local da Bolívia e liberada provisoriamente, consegue retornar ao Brasil com uso de transporte clandestino.
+Elaborado pelo(a) autor(a).
+Considerando o disposto no Código Penal e o princípio do  ne bis in idem , a condenação pelo crime de tráfico de drogas e a consequente execução da pena pela jurisdição criminal brasileira no caso em tela poderá ser feito mediante aplicação das regras da
+*** A) - territorialidade da lei penal, mas fica impedida a denúncia penal do mesmo fato criminoso no Brasil diante de absolvição definitiva no país estrangeiro.
+*** B) - extraterritorialidade da lei penal, mas fica impedida a denúncia penal do mesmo fato criminoso no Brasil diante de absolvição definitiva no país estrangeiro.
+*** C) - territorialidade da lei penal, mas fica impedida a denúncia penal do mesmo fato criminoso no Brasil enquanto pendente o julgamento no país estrangeiro.
+*** D) - extraterritorialidade da lei penal, mas fica impedida a denúncia penal do mesmo fato criminoso no Brasil enquanto pendente o julgamento no país estrangeiro.
+**** Gabarito: A
+-----
+* Ano: 2024 Banca: SELECON Órgão: Prefeitura de Água Boa - MT Prova: SELECON - 2024 - Prefeitura de Água Boa - MT - Advogado de Assistência Jurídica/20H
+** Q 4: O princípio da bagatela decorre do entendimento de que o direito penal não deve se preocupar com condutas que observam determinadas características. Assim, para a aplicação objetiva do princípio da insignificância deve ser observado o seguinte vetor:
+*** A) - menor potencial ofensivo do tipo pena
+*** B) - nenhuma periculosidade social da ação
+*** C) - inexistência da lesão jurídica provocada
+*** D) - ausência de reprovabilidade do comportamento do agente
+**** Gabarito: B
+-----
+* Ano: 2024 Banca: CESPE / CEBRASPE Órgão: DPE-AC Prova: CESPE / CEBRASPE - 2024 - DPE-AC - Defensor Público
+** Q 5: Com relação à aplicação da lei penal no tempo, assinale a opção correta, considerando o entendimento jurisprudencial do Supremo Tribunal Federal (STF).
+*** A) - Aplica-se a pena mais branda quando o crime for continuado e surgir lei posterior mais gravosa que a vigente à época do início da continuidade.
+*** B) - Admite-se a conjugação de partes de uma lei, criando-se uma  lex tertia  a ser aplicada ao caso concreto.
+*** C) - Aplica-se a retroatividade da lei penal mais benéfica quando houver evolução de entendimento jurisprudencial mais benéfico.
+*** D) - Lei penal intermediária mais favorável ao réu, com vigência entre a data do fato criminoso e a data da respectiva sentença condenatória, não terá qualquer relevância para aplicação no direito penal brasileiro.
+*** E) - No caso de lei posterior que beneficie, em parte, o acusado e, em outra, o prejudique, deve o juiz da causa ou da execução aplicar, em sua integralidade, a lei que seja mais benéfica.
+**** Gabarito: E
+-----
+* Ano: 2024 Banca: IGEDUC Órgão: Prefeitura de Garanhuns - PE Prova: IGEDUC - 2024 - Prefeitura de Garanhuns - PE - Guarda Municipal Feminino (Manhã)
+** Q 6: Julgue o item a seguir.
+No caso de normas penais em branco, cujo complemento é de nível diverso, como regulamentos ou portarias, a alteração desses complementos pode ser aplicada retroativamente para agravar a situação do réu, em virtude da necessidade de atualização constante do Direito Penal.
+*** A) - Certo
+*** B) - Errado
+**** Gabarito: B
+-----
+* Ano: 2024 Banca: IGEDUC Órgão: Prefeitura de Garanhuns - PE Prova: IGEDUC - 2024 - Prefeitura de Garanhuns - PE - Guarda Municipal Feminino (Manhã)
+** Q 7: Julgue o item a seguir.
+O princípio da legalidade, conforme estabelecido no artigo 1º do Código Penal e no art. 5º, XXXIX, da Constituição Federal, determina que não há crime sem uma lei anterior que o defina, nem pena sem prévia cominação legal. Esse princípio é fundamental para garantir a segurança jurídica e a previsibilidade das condutas consideradas criminosas e das respectivas penas.
+*** A) - Certo
+*** B) - Errado
+**** Gabarito: A
+-----
+* Ano: 2024 Banca: IGEDUC Órgão: Prefeitura de Garanhuns - PE Prova: IGEDUC - 2024 - Prefeitura de Garanhuns - PE - Guarda Municipal Feminino (Manhã)
+** Q 8: Julgue o item a seguir.
+As normas penais em branco, que necessitam de complementação por outras normas de igual ou diverso nível hierárquico, não contrariam o princípio da reserva legal. Um exemplo é a norma que define os crimes relacionados ao tráfico de substâncias entorpecentes, cuja especificação das substâncias é feita por portarias do Ministério da Saúde. Essa característica permite a adaptação da lei às mudanças sociais e técnicas sem necessidade de revisão legislativa contínua.
+*** A) - Certo
+*** B) - Errado
+**** Gabarito: A
+-----
+* Ano: 2024 Banca: IGEDUC Órgão: Prefeitura de Garanhuns - PE Prova: IGEDUC - 2024 - Prefeitura de Garanhuns - PE - Guarda Municipal Feminino (Manhã)
+** Q 9: Julgue o item a seguir.
+O princípio da legalidade permite que medidas provisórias e decretos presidenciais possam criar novos tipos penais, aumentando a flexibilidade do sistema jurídico para responder rapidamente a novas demandas sociais sem a necessidade de passar pelo processo legislativo tradicional.
+*** A) - Certo
+*** B) - Errado
+**** Gabarito: B
+-----
+* Ano: 2024 Banca: IGEDUC Órgão: Prefeitura de Garanhuns - PE Prova: IGEDUC - 2024 - Prefeitura de Garanhuns - PE - Guarda Municipal Feminino (Manhã)
+** Q 10: Julgue o item a seguir.
+No Direito Penal, o princípio da legalidade, afirmado pelo art. 1º do Código Penal e reiterado no art. 5º, XXXIX, da Constituição Federal, estabelece que não pode haver punição por um fato que não esteja expressamente previsto como crime em lei anterior, nem aplicação de pena sem prévia definição legal. Esse princípio é essencial para a segurança jurídica, garantindo que ninguém seja surpreendido por leis retroativas que criem crimes ou penas.
+*** A) - Certo
+*** B) - Errado
+**** Gabarito: A
+-----
+* Ano: 2024 Banca: IGEDUC Órgão: Prefeitura de Garanhuns - PE Prova: IGEDUC - 2024 - Prefeitura de Garanhuns - PE - Guarda Municipal Feminino (Manhã)
+** Q 11: Julgue o item a seguir.
+A retroatividade da lei penal mais benéfica é um princípio estabelecido no art. 2º do Código Penal, permitindo que uma lei posterior, que deixa de considerar um fato como crime ou que de alguma forma beneficia o réu, seja aplicada a fatos anteriores, inclusive àqueles já julgados. Esse princípio reforça o compromisso do Direito Penal com a justiça e a proporcionalidade das penas.
+*** A) - Certo
+*** B) - Errado
+**** Gabarito: A
+-----
+* Ano: 2024 Banca: IGEDUC Órgão: Prefeitura de Garanhuns - PE Prova: IGEDUC - 2024 - Prefeitura de Garanhuns - PE - Guarda Municipal Feminino (Manhã)
+** Q 12: Julgue o item a seguir.
+A retroatividade da lei penal mais benéfica é um princípio que permite a aplicação de uma nova lei mais favorável ao réu a fatos ocorridos antes de sua vigência. Esse princípio está previsto no art. 2º do Código Penal e visa a garantir que avanços legislativos que discriminem condutas ou reduzam penas sejam aplicados a situações passadas, beneficiando indivíduos previamente condenados ou processados.
+*** A) - Certo
+*** B) - Errado
+**** Gabarito: A
+-----
+* Ano: 2024 Banca: IGEDUC Órgão: Prefeitura de Garanhuns - PE Prova: IGEDUC - 2024 - Prefeitura de Garanhuns - PE - Guarda Municipal Feminino (Manhã)
+** Q 13: Julgue o item a seguir.
+Normas penais em branco violam o princípio da reserva legal, uma vez que deixam para regulamentos e portarias a definição de elementos essenciais dos tipos penais, o que compromete a clareza e a precisão necessárias para a validade de uma norma penal.
+*** A) - Certo
+*** B) - Errado
+**** Gabarito: B
+-----
+* Ano: 2024 Banca: VUNESP Órgão: MPE-RO Prova: VUNESP - 2024 - MPE-RO - Promotor de Justiça Substituto
+** Q 14: Mévio, brasileiro, em voo com destino ao exterior, em aeronave de propriedade de empresa aérea brasileira, quando já em espaço aéreo estrangeiro, a fim de satisfazer a própria lascívia, aproveitando-se que a passageira ao lado dormia, masturba-se, ejaculando sobre o corpo da mulher que, imediatamente, acorda. A mulher também é brasileira. Mévio é detido, assim que a aeronave pousa em solo estrangeiro. No entanto, pouco tempo depois, por decisão judicial que julgou a conduta por ele praticada atípica, não abarcada no tipo penal estrangeiro equivalente ao crime de estupro e ante a inexistência de tipo penal estrangeiro equivalente ao crime de importunação sexual, é absolvido. Logo após a decisão absolutória, Mévio retorna ao Brasil, sendo certo que aqui, em vista da repercussão do caso na imprensa, por iniciativa da autoridade policial, passa a ser investigado por crime de importunação sexual.
+A respeito da situação hipotética, assinale a alternativa correta.
+*** A) - Em vista da regra de extensão territorial, que considera praticado no país, os crimes ocorridos em aeronaves brasileiras, por brasileiro, Mévio será julgado e processado pela lei brasileira, mesmo diante da absolvição por decisão estrangeira.
+*** B) - Embora a absolvição por decisão estrangeira não seja obstáculo, Mévio não poderá ser julgado e processado se inexistente representação da vítima, vez que o crime de importunação sexual é de ação penal pública condicionada.
+*** C) - Uma vez que houve julgamento e absolvição no estrangeiro, Mévio não poderá ser processado e julgado pela lei brasileira.
+*** D) - Ainda que cometido o crime no estrangeiro, Mévio será processado e julgado pela lei brasileira, mesmo diante da absolvição por decisão estrangeira, vez que se trata de crime que por convenção ou tratado, o Brasil se comprometeu a reprimir.
+*** E) - Em vista da regra de extensão territorial, que considera praticado no país, os crimes ocorridos em aeronaves brasileiras, contra brasileiro, Mévio será julgado e processado pela lei brasileira, mesmo diante da absolvição por decisão estrangeira.
+**** Gabarito: C
+-----
+* Ano: 2024 Banca: VUNESP Órgão: MPE-RO Prova: VUNESP - 2024 - MPE-RO - Promotor de Justiça Substituto
+** Q 15: A respeito da insignificância, conforme jurisprudência do Superior Tribunal de Justiça, é correto afirmar:
+*** A) - é cabível para afastar a tipicidade material dos crimes de estelionato, ainda que praticado contra o seguro desemprego.
+*** B) - é cabível para afastar a tipicidade material de crime de violação de direito autoral.
+*** C) - é cabível para afastar a tipicidade material da conduta de introduzir no território nacional medicamento falsificado ou não autorizado (artigo 273, §1 e §1-B, do CP).
+*** D) - não se aplica ao crime de dano qualificado por prejuízo ao patrimônio público.
+*** E) - não se aplica a crimes ambientais, ainda que ínfima a ofensividade da conduta.
+**** Gabarito: D
+-----
+* Ano: 2024 Banca: ICECE Órgão: Prefeitura de Aratuba - CE Prova: ICECE - 2024 - Prefeitura de Aratuba - CE - Guarda Municipal
+** Q 16: O princípio da retroatividade da Lei Penal mais benéfica está melhor definido na alternativa:
+*** A) - Impõe que a responsabilidade deve ser pessoal, subjetiva e pelo fato, afastando-se a influência de qualidades pessoais na formação da culpa.
+*** B) - A lei anterior ao delito é aplicável ao fato, afastando a possibilidade de aplicação de Lei Penal posterior que de qualquer forma modifique as características do tipo penal.
+*** C) - Possibilita afastar a ilicitude do fato e tolerar condutas socialmente aceitas, tal como a solicitação de pequenos presentes por servidores públicos.
+*** D) - A lei posterior, que de qualquer modo favorecer o agente, aplica-se aos fatos anteriores, ainda que decididos por sentença condenatória transitada em julgado.
+**** Gabarito: D
+-----
+* Ano: 2024 Banca: ICECE Órgão: Prefeitura de Aratuba - CE Prova: ICECE - 2024 - Prefeitura de Aratuba - CE - Guarda Municipal
+** Q 17: Acerca da aplicação da Lei Penal, julgue os itens a seguir:
+I. A lei posterior mais benéfica ao agente é aplicável aos fatos anteriores, exceto se decididos por sentença condenatória transitada em julgado.
+II. Constitui direito do investigado não se autoincriminar e de se manter em silêncio.
+III. A prévia cominação legal é imprescindível para a existência de pena.
+Assinale a opção correta.
+*** A) - Apenas os itens I e II estão certos.
+*** B) - Apenas os itens I e III estão certos.
+*** C) - Apenas os itens II e III estão certos.
+*** D) - Todos os itens estão certos.
+**** Gabarito: C
+-----
+* Ano: 2024 Banca: FGV Órgão: ENAM Prova: FGV - 2024 - ENAM - 1º Exame Nacional da Magistratura
+** Q 18: Bernardo, cidadão português, tripulante de um navio da marinha mercante brasileira, que partira de Santos e navega pelo Oceano Atlântico, em alto-mar, com destino ao porto de Roterdã, na Holanda, agride um outro tripulante, de nacionalidade peruana, desferindo-lhe socos, que o ferem levemente.
+Diante do caso narrado, assinale a alternativa correta.
+*** A) - não se aplica a Bernardo a legislação penal brasileira, pois o crime ocorreu no estrangeiro.
+*** B) - aplica-se a Bernardo a legislação penal brasileira, pois o local onde ocorreu o crime é considerado território nacional por extensão.
+*** C) - pode ser aplicada a Bernardo a legislação penal brasileira, pois, embora o crime tenha ocorrido no estrangeiro, trata-se de hipótese de extraterritorialidade condicionada da lei penal brasileira, à luz do princípio da defesa.
+*** D) - aplica-se a Bernardo a legislação penal brasileira, pois, embora o crime tenha ocorrido no estrangeiro, trata-se de hipótese de extraterritorialidade incondicionada da lei penal brasileira, à luz do princípio da representação.
+*** E) - pode ser aplicada a Bernardo a legislação penal brasileira, pois, embora o crime tenha ocorrido no estrangeiro, trata-se de hipótese de extraterritorialidade condicionada da lei penal brasileira, à luz do princípio da representação.
+**** Gabarito: B
+-----
+* Ano: 2024 Banca: FGV Órgão: ENAM Prova: FGV - 2024 - ENAM - 1º Exame Nacional da Magistratura
+** Q 19: Pierre, cidadão estrangeiro, praticou o delito de estupro em face da brasileira Marina, maior e capaz. O crime foi praticado em Estado estrangeiro, onde há incriminação da conduta, tal como ocorre no Brasil. Passado algum tempo, como o autor do fato e a vítima retornaram ao Brasil, o Ministério Público ajuizou ação penal pública incondicionada em face de Pierre, como incurso nas penas do delito de estupro.
+Sobre o caso narrado, assinale a afirmativa correta.
+*** A) - Há o preenchimento das condições de aplicação da lei penal brasileira ao fato ocorrido no exterior; porém, a ação penal depende de representação da vítima.
+*** B) - Há o preenchimento integral das condições de aplicação da lei penal brasileira ao fato ocorrido no exterior, sendo viável a responsabilização do autor do fato.
+*** C) - Não há o preenchimento das condições de aplicação da lei penal brasileira, pois ausente requisição do Ministro da Justiça.
+*** D) - Não há o preenchimento das condições de aplicação da lei penal brasileira, pois o autor do fato é estrangeiro, e a nacionalidade da vítima é indiferente à extraterritorialidade da lei penal brasileira.
+*** E) - A aplicação da lei penal brasileira ao fato independe de qualquer condição, por se tratar de crime praticado mediante violência.
+**** Gabarito: C
+-----
+* Ano: 2024 Banca: FGV Órgão: Câmara de Fortaleza - CE Prova: FGV - 2024 - Câmara de Fortaleza - CE - Advogado
+** Q 20: Acerca da aplicação da lei penal, analise as disposições a seguir.
+I. A lei penal excepcional é dotada de ultratividade e aplica-se aos fatos praticados durante sua vigência mesmo após sua revogação.
+II. A regra da irretroatividade da lei penal não admite exceções.
+III. No tocante à definição do tempo do crime, é aplicável a teoria da atividade.
+Está correto o que se afirma em
+*** A) - I, apenas.
+*** B) - II, apenas.
+*** C) - I e II, apenas.
+*** D) - I e III, apenas.
+*** E) - I, II e III.
+**** Gabarito: D
+-----
