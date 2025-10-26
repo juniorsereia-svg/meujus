@@ -1,0 +1,163 @@
+De acordo com sua solicitação e seguindo o modelo de formatação exigido, abaixo estão as 20 questões extraídas sequencialmente das fontes fornecidas, com seus respectivos gabaritos:
+
+* Ano: 2014 | Banca: VUNESP | Órgão: TJ-PA | Prova: VUNESP - 2014 - TJ-PA - Auxiliar Judiciário
+** A respeito da contagem de prazo no Código Penal, é correto afirmar que
+*** A) - o ano penal é composto de apenas trezentos e sessenta dias.
+*** B) - o dia do começo inclui-se no cômputo do prazo.
+*** C) - os dias, os meses e os anos não são contados pelo calendário comum.
+*** D) - o dia do fim não se inclui no cômputo do prazo.
+*** E) - os sábados e domingos são desprezados no cômputo do prazo.
+**** Gabarito: B
+-----
+* Ano: 2014 | Banca: IADES | Órgão: METRÔ-DF | Prova: IADES - 2014 - METRÔ-DF - Segurança Metroferroviário
+** Em relação ao conceito, às funções e aos caracteres do direito penal, assinale a alternativa correta.
+*** A) - O direito penal é o setor ou parcela do ordenamento jurídico público, que estabelece as ações ou omissões delitivas, cominando-lhes penas, medidas de segurança ou trabalho forçado.
+*** B) - Do ponto de vista material, integra-se por normas jurídicas (mandatos e proibições) que criam o injusto penal e suas respectivas consequências jurídicas.
+*** C) - A função primordial do direito penal radica na proteção de bens jurídico – penais – bens do Direito – essenciais ao país e à comunidade.
+*** D) - A missão do direito penal é proteger a convivência humana, assegurando-se, por meio da coação estatal, a inquebrantabilidade da ordem jurídica.
+*** E) - O direito penal não se presta à tutela de bens ou interesses difusos ou coletivos.
+**** Gabarito: D
+-----
+* Ano: 2014 | Banca: CESPE / CEBRASPE | Órgão: Câmara dos Deputados | Prova: CESPE - 2014 - Câmara dos Deputados - Analista Legislativo - Consultor Legislativo Área V
+** Com referência a fundamentos e noções gerais aplicadas ao direito penal, julgue o próximo item. Em matéria penal, os tratados e as convenções internacionais, após serem referendados pelo Congresso Nacional, constituem fontes imediatas do direito penal e têm eficácia *erga omnes*.
+*** A) - Certo
+*** B) - Errado
+**** Gabarito: B
+-----
+* Ano: 2013 | Banca: COPESE - UFPI | Órgão: Prefeitura de Parnaíba - PI | Prova: COPESE - UFPI - 2013 - Prefeitura de Parnaíba - PI - Guarda Civil
+** Sobre o uso de algemas, é CORRETO afirmar que:
+*** A) - Não há necessidade de justificativa, por escrito, do emprego de algemas por parte da autoridade ou de agentes públicos.
+*** B) - O uso indevido de algemas por autoridades ou agentes públicos não implica quaisquer responsabilidades para o Estado.
+*** C) - O uso de algemas é permitido, desde que haja fundado receio de fuga ou de perigo à integridade física própria ou alheia, por parte do preso ou de terceiros, com justificativa por escrito.
+*** D) - Fica a critério da autoridade ou do agente público o uso de algemas diante das circunstâncias reais que envolvem o caso concreto.
+*** E) - O uso indevido de algemas não pode resultar na nulidade da prisão e em qualquer consequência processual.
+**** Gabarito: C
+-----
+* Ano: 2013 | Banca: FCC | Órgão: DPE-SP | Prova: FCC - 2013 - DPE-SP - Defensor Público
+** Sobre a relação entre o sistema penal brasileiro contemporâneo e a Constituição Federal, é correto afirmar que:
+*** A) - o princípio constitucional da humanidade das penas encontra ampla efetividade no Brasil, diante da adequação concreta das condições de aprisionamento aos tratados internacionais de direitos humanos.
+*** B) - o princípio constitucional da legalidade restringe-se à tipificação de condutas como crimes, não abarcando as faltas disciplinares em execução penal.
+*** C) - o estereótipo do criminoso não contribui para o processo de criminalização, pois violaria o princípio constitucional da não discriminação.
+*** D) - a seletividade do sistema penal brasileiro, por ser um problema conjuntural, poderia ser resolvida com a aplicação do princípio da igualdade nas ações policiais.
+*** E) - o princípio constitucional da intranscendência da pena não é capaz de impedir a estigmatização e práticas violadoras de direitos humanos de familiares de pessoas presas.
+**** Gabarito: E
+-----
+* Ano: 2013 | Banca: CESPE / CEBRASPE | Órgão: SEGESP-AL | Prova: CESPE - 2013 - SEGESP-AL - Papiloscopista
+** No que se refere aos crimes contra a fé pública e contra o patrimônio e à imputabilidade, julgue os itens seguintes. Se uma lei ordinária alterar o Código Penal para estabelecer a maioridade penal aos dezesseis anos, será julgada inconstitucional, pois a Constituição Federal de 1988 dispõe expressamente que são penalmente inimputáveis os menores de dezoito anos de idade.
+*** A) - Certo
+*** B) - Errado
+**** Gabarito: A
+-----
+* Ano: 2013 | Banca: IBFC | Órgão: PC-RJ | Prova: IBFC - 2013 - PC-RJ - Oficial de Cartório
+** O princípio da reserva legal constitui-se na garantia individual de que o poder de punir do Estado em matéria penal será exercido nos limites da norma positivada, permitindo a criação de tipos penais incriminadores e a instituição de penas por intermédio de:
+*** A) - Qualquer espécie normativa, desde que elaborada em observância ao regular processo administrativo ou legislativo.
+*** B) - Lei ordinária e medida provisória, já que esta última também possui força de lei até que seja submetida a regular processo legislativo.
+*** C) - Decreto legislativo, já que são funções exclusivas do Poder Legislativo a criação de direito novo, a imposição de obrigações de caráter geral e a definição de sanções jurídicas.
+*** D) - Decreto-lei, regularmente elaborado no exercício do poder administrativo-normativo do chefe do Poder Executivo, já que o ato de legislar encontra-se no feixe de atribuições típicas deste Poder.
+*** E) - Lei em sentido estrito, entendida esta como a espécie normativa aprovada em regular processo legislativo levado a efeito no âmbito do Poder Legislativo.
+**** Gabarito: E
+-----
+* Ano: 2013 | Banca: MPDFT | Órgão: MPDFT | Prova: MPDFT - 2013 - MPDFT - Promotor de Justiça
+** Assinale a alternativa que NÃO SE AJUSTA à doutrina do garantismo penal, em sua concepção clássica:
+*** A) - A interpretação da lei nunca é uma atividade exclusivamente recognitiva, mas é sempre fruto de uma escolha prática a respeito de hipóteses interpretativas alternativas.
+*** B) - O problema do garantismo penal é elaborar técnicas no plano teórico, torná-las vinculantes no plano normativo e assegurar sua efetividade no plano prático.
+*** C) - Na aplicação da lei penal, o julgador, preocupado com a legitimação da atividade jurisdicional e com a adesão social a seus atos, deve orientar suas decisões em conformidade com o consenso geral da população.
+*** D) - O direito penal é necessário como técnica institucional de minimização da reação violenta ao desvio socialmente não tolerado e como garantia do acusado contra os arbítrios, os excessos e os erros conexos a formas não jurídicas de controle social.
+*** E) - As garantias penais não servem tanto para legitimar ou validar, senão mais para deslegitimar o abuso da potestade punitiva.
+**** Gabarito: C
+-----
+* Ano: 2013 | Banca: CESPE / CEBRASPE | Órgão: TJ-DFT | Prova: CESPE - 2013 - TJ-DFT - Analista Judiciário - Oficial de Justiça Avaliador
+** Pela analogia, meio de interpretação extensiva, busca-se alcançar o sentido exato do texto de lei obscura ou incerta, admitindo-se, em matéria penal, apenas a analogia *in bonam partem.*
+*** A) - Certo
+*** B) - Errado
+**** Gabarito: B
+-----
+* Ano: 2013 | Banca: MPE-SC | Órgão: MPE-SC | Prova: MPE-SC - 2013 - MPE-SC - Promotor de Justiça - Manhã
+** Em sede de Política Criminal, o Direito Penal de segunda velocidade, identificado, por exemplo, quando da edição das Leis dos Crimes Hediondos e do Crime Organizado, compreende a utilização da pena privativa de liberdade e a permissão de uma flexibilização de garantias materiais e processuais.
+*** A) - Certo
+*** B) - Errado
+**** Gabarito: B
+-----
+* Ano: 2013 | Banca: MPE-SC | Órgão: MPE-SC | Prova: MPE-SC - 2013 - MPE-SC - Promotor de Justiça - Manhã
+** A interpretação, quanto aos meios empregados, divide-se em gramatical, literal ou sintática; e lógica ou teleológica. Se houver contradição entre as conclusões da interpretação literal e lógica, deverá a esta prevalecer. A interpretação teleológica se vale dos seguintes elementos: *ratio legis*; sistemático; histórico; Direito Comparado; extrapenal e extrajurídico.
+*** A) - Certo
+*** B) - Errado
+**** Gabarito: A
+-----
+* Ano: 2013 | Banca: CESPE / CEBRASPE | Órgão: TRF - 2ª REGIÃO | Prova: CESPE - 2013 - TRF - 2ª REGIÃO - Juiz Federal
+** Assinale a opção correta acerca da interpretação da lei penal
+*** A) - A interpretação extensiva é admitida em direito penal para estender o sentido e o alcance da norma até que se atinja sua real acepção.
+*** B) - A interpretação analógica não é admitida em direito penal porque prejudica o réu.
+*** C) - A interpretação teleológica consiste em extrair o sentido e o alcance da norma de acordo com a posição da palavra na estrutura do texto legal.
+*** D) - A analogia penal permite ao juiz atuar para suprir a lacuna da lei, desde que isso favoreça o réu.
+*** E) - A interpretação judicial da lei penal se manifesta na edição de súmulas vinculantes editadas pelos tribunais.
+**** Gabarito: A
+-----
+* Ano: 2012 | Banca: CESPE / CEBRASPE | Órgão: MPE-TO | Prova: CESPE - 2012 - MPE-TO - Promotor de Justiça
+** A respeito de aspectos diversos dos crimes bem como dos princípios aplicáveis ao direito penal, assinale a opção correta de acordo com as disposições do CP e da doutrina penal.
+*** A) - Caracteriza situação de arrependimento eficaz o caso do agente que, durante a ação, diz para si “posso prosseguir, mas não quero” e encerra sua empreitada criminosa.
+*** B) - Chama-se de dolo direto de segundo grau aquele que se dirige em relação ao fim proposto e aos meios escolhidos.
+*** C) - Norma penal em branco homogênea, ou em sentido amplo, é aquela cujo complemento é oriundo da mesma fonte legislativa que editou a norma que necessita desse complemento.
+*** D) - Negligente é o agente que pratica um ato perigoso sem os cuidados que o caso requer.
+*** E) - No erro de tipo essencial incriminador, o erro recai sobre os pressupostos fáticos de uma causa de justificação, isto é, excludente de ilicitude, que se encontra em tipos penais permissivos.
+**** Gabarito: C
+-----
+* Ano: 2012 | Banca: CESPE / CEBRASPE | Órgão: TJ-CE | Prova: CESPE - 2012 - TJ-CE - Juiz Substituto
+** Em relação à analogia, assinale a opção correta.
+*** A) - A analogia só ocorre na hipótese de aplicação de lei, sendo vedada a utilização de entendimento firmado em súmula de tribunal superior analogicamente a outra situação semelhante.
+*** B) - A analogia em direito penal, em regra, só pode ser utilizada em razão da ausência de norma regulamentadora, da presença de lacuna na lei ou da existência de lei desproporcional.
+*** C) - A analogia, forma de autointegração da lei, não constitui fonte mediata do direito, podendo ser utilizada em relação a normas permissivas e incriminadoras.
+*** D) - A jurisprudência do STJ admite, no âmbito do direito penal, a aplicação de analogia de normas de direito civil ou processual civil, ainda que resulte na condenação do réu.
+*** E) - O uso do instituto da analogia pressupõe, necessariamente, uma lacuna involuntária da norma em vigor.
+**** Gabarito: E
+-----
+* Ano: 2012 | Banca: VUNESP | Órgão: TJ-MG | Prova: VUNESP - 2012 - TJ-MG - Juiz de Direito Substituto
+** Leia atentamente as assertivas a seguir. I. Pode-se afirmar que, na história do Direito Penal Brasileiro, as Ordenações Filipinas foram substituídas pelo Código Criminal do Império de 1830. II. A interpretação da lei é autêntica contextual quando o julgador, dentro de um determinado contexto fático, aplica-a. III. O agente que, voluntariamente, desiste de prosseguir na execução ou impede que o resultado se produza, só responde pelo crime tentado. IV. O erro sobre o elemento constitutivo do tipo legal de crime exclui o dolo, mas permite a punição por crime culposo, se previsto em lei. Está correto apenas o que se afirma em
+*** A) - I e II
+*** B) - I e IV.
+*** C) - III e IV.
+*** D) - I, III e IV.
+**** Gabarito: B
+-----
+* Ano: 2012 | Banca: PC-SP | Órgão: PC-SP | Prova: PC-SP - 2011 - PC-SP - Delegado de Polícia
+** Com relação às fontes do Direito Penal, é correto dizer que as fontes formais são classificadas em
+*** A) - materiais e de cognição.
+*** B) - imediata e substancial
+*** C) - mediata e de produção.
+*** D) - mediata e imediata
+*** E) - exclusivamente de cognição.
+**** Gabarito: D
+-----
+* Ano: 2012 | Banca: PC-SP | Órgão: PC-SP | Prova: PC-SP - 2011 - PC-SP - Delegado de Polícia
+** Assinale a alternativa que contenha o nome de uma elogiada legislação brasileira que, apos debates acalorados, manteve a pena de morte dentre as sanções penais e que foi responsável pela criação do sistema de dias-multa.
+*** A) - Código Penal da República (1890).
+*** B) - Código Criminal do Império (1830).
+*** C) - Consolidação das Leis Penais (1932)
+*** D) - Ordenações Filipinas (1603)
+*** E) - Código Penal (1940). V
+**** Gabarito: B
+-----
+* Ano: 2012 | Banca: CESPE / CEBRASPE | Órgão: Polícia Federal | Prova: CESPE - 2012 - Polícia Federal - Agente da Polícia Federal| CESPE - 2012 - Polícia Federal - Papiloscopista da Polícia Federal
+** Julgue os itens a seguir com base no direito penal. O fato de determinada conduta ser considerada crime somente se estiver como tal expressamente prevista em lei não impede, em decorrência do princípio da anterioridade, que sejam sancionadas condutas praticadas antes da vigência de norma excepcional ou temporária que as caracterize como crime.
+*** A) - Certo
+*** B) - Errado
+**** Gabarito: B
+-----
+* Ano: 2011 | Banca: CESPE / CEBRASPE | Órgão: TJ-ES | Prova: CESPE - 2011 - TJ-ES - Juiz Substituto
+** Acerca dos princípios aplicáveis ao direito penal, assinale a opção correta.
+*** A) - O princípio da adequação social, dirigido ao julgador, e não ao legislador, objetiva restringir a abrangência do tipo penal, limitando sua interpretação e dele excluindo as condutas consideradas socialmente adequadas e aceitas pela sociedade.
+*** B) - Dada a necessidade de observância do princípio da legalidade, a tipicidade penal resume-se ao mero exercício de adequação do fato concreto à norma abstrata.
+*** C) - O princípio da lesividade busca evitar a incriminação de condutas desviadas que não afetem qualquer bem jurídico, não cuidando de condutas que não excedam o âmbito do próprio autor.
+*** D) - A jurisprudência do STJ é firme no sentido da aplicabilidade do princípio da insignificância ao delito de moeda falsa, caso o valor das cédulas falsificadas não ultrapasse a quantia correspondente a um salário mínimo.
+*** E) - A aplicação do princípio da insignificância, que deve ser analisado em conexão com os postulados da fragmentariedade e da intervenção mínima do Estado, objetiva excluir ou afastar a própria tipicidade penal, examinada na perspectiva de seu caráter material.
+**** Gabarito: E
+-----
+* Ano: 2011 | Banca: CESPE / CEBRASPE | Órgão: TJ-ES | Prova: CESPE - 2011 - TJ-ES - Juiz Substituto
+** Assinale a opção correta com referência às fontes de direito penal.
+*** A) - Fontes formais mediatas do direito penal, os costumes qualificam-se como princípio consuetudinário com a mera repetição mecânica de uma regra de conduta.
+*** B) - A jurisprudência, entendida como a repetição de decisões em um mesmo sentido, emanadas dos tribunais, é fonte de criação do direito penal.
+*** C) - Quando serve de orientação ao legislador, mediante a formação de comissões prévias de estudos, a doutrina passa a ser fonte formal mediata do direito penal.
+*** D) - A lei, fonte material do direito penal, constitui a expressão suprema da vontade do Estado, a que outras fontes se condicionam e se subordinam.
+*** E) - A doutrina e a jurisprudência podem ter influência mais ou menos direta na sanção e modificação das leis, mas não são fontes do direito penal.
+**** Gabarito: E
+-----
