@@ -1,5 +1,5 @@
 // app.js
-// Lazy-load por tema. Subtemas multi-select. Impressão sincronizada após substituição.
+// Lazy-load por tema. Subtemas multi-select. Impressão sincronizada após substituição. Suporte a **negrito** e *itálico* inline.
 (function () {
   const $ = (sel) => document.querySelector(sel);
   const ano = $('#ano'); const rodapeAno = $('#rodapeAno');
@@ -76,6 +76,16 @@
       .filter(Boolean)
       .map(w => w.charAt(0).toLocaleUpperCase('pt-BR') + w.slice(1))
       .join(' ');
+  }
+  // Renderizador inline simples para **negrito** e *itálico*
+  function mdInline(s){
+    if(!s) return '';
+    let x = String(s)
+      .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+    // proteger ** antes de *
+    x = x.replace(/\*\*(.+?)\*\*/g, '<span class="md-strong">$1</span>');
+    x = x.replace(/\*(.+?)\*/g, '<span class="md-em">$1</span>');
+    return x;
   }
 
   // Parse TXT: tema = label do arquivo; subtemas = linha iniciada por "******" (opcional "Subtemas:")
@@ -426,12 +436,14 @@ ENUNCIADO: "${enunciado}"`;
   function renderQuestoesTela(lista){
     const html = lista.map((q, idx)=>{
       const numero = idx+1;
-      const alts = q.alternativas.map((a,i)=>`<li class="py-1" data-alt="${letras[i]}" role="button" tabindex="0">${a}</li>`).join('');
+      const alts = q.alternativas
+        .map((a,i)=>`<li class="py-1" data-alt="${letras[i]}" role="button" tabindex="0">${mdInline(a)}</li>`)
+        .join('');
       return `
       <section class="questao" data-q="${idx}" data-id="${q.id}">
         <div class="titulo-questao">Questão ${numero}</div>
-        <div class="meta">${q.meta}</div>
-        <h4 class="enunciado">${q.enunciado}</h4>
+        <div class="meta">${mdInline(q.meta)}</div>
+        <h4 class="enunciado">${mdInline(q.enunciado)}</h4>
         <ul class="alternativas space-y-1">${alts}</ul>
         <div class="mt-2"><button type="button" class="btn-substituir" title="Trocar questão" aria-label="Trocar questão">↻</button></div>
         <div class="feedback mt-2 text-sm"></div>
@@ -445,12 +457,13 @@ ENUNCIADO: "${enunciado}"`;
   function renderQuestoesPrint(lista){
     const html = lista.map((q, idx)=>{
       const numero = idx+1;
-      const alts = q.alternativas.map(a=>`<li class="py-1" style="font-size:0.825rem;line-height:1.5">${a}</li>`).join('');
+      const alts = q.alternativas
+        .map(a=>`<li class="py-1" style="font-size:0.825rem;line-height:1.5">${mdInline(a)}</li>`).join('');
       return `
       <section class="questao" data-q="${idx}">
         <div class="titulo-questao">Questão ${numero}</div>
-        <div class="meta">${q.meta}</div>
-        <h4 class="enunciado" style="font-size:0.9rem;line-height:1.55;color:#111827;font-weight:400">${q.enunciado}</h4>
+        <div class="meta">${mdInline(q.meta)}</div>
+        <h4 class="enunciado" style="font-size:0.9rem;line-height:1.55;color:#111827;font-weight:400">${mdInline(q.enunciado)}</h4>
         <ul class="alternativas" style="margin-left:1rem">${alts}</ul>
         <div class="separador"></div>
       </section>`;
@@ -507,10 +520,11 @@ ENUNCIADO: "${enunciado}"`;
     resultado[idx] = novo;
 
     // Atualiza tela
-    const alts = novo.alternativas.map((a,i)=>`<li class="py-1" data-alt="${letras[i]}" role="button" tabindex="0">${a}</li>`).join('');
+    const alts = novo.alternativas
+      .map((a,i)=>`<li class="py-1" data-alt="${letras[i]}" role="button" tabindex="0">${mdInline(a)}</li>`).join('');
     sec.setAttribute('data-id', novo.id);
-    sec.querySelector('.meta').textContent = novo.meta;
-    sec.querySelector('.enunciado').textContent = novo.enunciado;
+    sec.querySelector('.meta').innerHTML = mdInline(novo.meta);
+    sec.querySelector('.enunciado').innerHTML = mdInline(novo.enunciado);
     sec.querySelector('.alternativas').innerHTML = alts;
     sec.querySelector('.feedback').innerHTML = '';
 
