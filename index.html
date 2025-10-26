@@ -63,13 +63,17 @@
     .btn-ia:hover{ background:#111; transform:translateY(-1px); }
     .btn-ia svg{ width:18px; height:18px; color:#fff; }
 
-    /* Botão redondo Substituir questão */
-    .btn-substituir{
-      display:inline-flex; align-items:center; justify-content:center;
-      width:28px; height:28px; border-radius:9999px;
-      border:1px solid #e5e7eb; background:#fff; font-size:.9rem; line-height:1; cursor:pointer
-    }
-    .btn-substituir:hover{background:#f8fafc}
+   /* Botão "trocar questão" preto com ícone branco */
+.btn-substituir{
+  display:inline-flex; align-items:center; justify-content:center;
+  width:28px; height:28px; border-radius:9999px;
+  border:1px solid #000; background:#000; color:#fff; /* <- aqui */
+  font-size:.9rem; line-height:1; cursor:pointer;
+}
+.btn-substituir:hover{ background:#111; border-color:#111; }
+.btn-substituir:focus{ outline:2px solid #111; outline-offset:2px; }
+.btn-substituir:disabled{ opacity:.5; cursor:default; }
+
 
     /* PRINT */
     @media print {
