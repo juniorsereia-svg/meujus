@@ -1,10 +1,10 @@
 {
-  "Direito Penal": {
-    "folder": "Direito_Penal",
-    "files": [
-      "Noções_Fundamentais.txt",
-      "Teoria_Geral_do_Delito.txt",
-      "Tipicidade.txt"
-    ]
-  }
+  "version": 1,
+  "counts": {"Direito Penal": 1243, "Direito Civil": 980},
+  "shards": {
+    "Direito Penal": ["data/shards/penal-a.jsonl","data/shards/penal-b.jsonl"],
+    "Direito Civil": ["data/shards/civil-a.jsonl"]
+  },
+  "temas": ["Parte Geral","Teoria do Crime","Contratos","..."],
+  "subtemas": ["Tipicidade","Culpabilidade","Vício do Consentimento","..."]
 }
