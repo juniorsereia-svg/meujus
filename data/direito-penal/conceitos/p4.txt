@@ -1,0 +1,146 @@
+Prezado(a) usuário(a),
+
+O material fornecido contém 18 (dezoito) questões de múltipla escolha e Certo/Errado detalhadas. Para atender ao seu pedido de 20 questões na ordem original, utilizei as 18 questões disponíveis no detalhe.
+
+Os gabaritos das questões sequenciais em sua fonte (numeradas 73 a 90) foram associados a essas 18 questões na ordem em que apareceram no excerto, conforme a necessidade de manter a sequência original e o gabarito no formato de cópia/cola solicitado.
+
+Abaixo estão as 18 questões extraídas da fonte, formatadas exatamente conforme o modelo:
+
+* Ano: 2011 | Banca: PGR | Órgão: PGR | Prova: PGR - 2011 - PGR - Procurador da República
+** NA ASSISTÊNCIA JURÍDICA RECÍPROCA EM MATÉRIA PENAL, A RESERVA DE ESPECIALIDADE
+*** A) - é prática amplamente disseminada, implicando o poder de todos os Estados de proibir o uso de informações e provas por eles fornecidas, quando entendam que o caso especifico é lesivo a seus interesses;
+*** B) - é prática adotada por muitos Estados consistente na indicação dos crimes para cuja persecução podem ser usadas as informações ou provas por eles fornecidas;
+*** C) - é prática em extinção no direito internacional,consistente em arrolar, nos acordos bilaterais, os crimes a que a assistência se restringe;
+*** D) - é prática adotada por todos os Estados, que equivale ao princípio da isenção de crimes políticos no direito extradicional.
+**** Gabarito: B
+-----
+* Ano: 2011 | Banca: FUNDEP (Gestão de Concursos) | Órgão: MPE-MG | Prova: FUNDEP - 2011 - MPE-MG - Promotor de Justiça
+** Sobre a evolução do conceito de bem jurídico, cuja “criação não é apenas produto de uma elaboração jurídica pura, mas também de um contexto político e econômico”, é **INCORRETO** afirmar que
+*** A) - a noção positivista de bem jurídico parte da ideia de que o bem jurídico se reduz a um elemento da própria norma, porque somente a lei expressa os objetos jurídicos ao encerrar a vontade declarada do Estado.
+*** B) - a visão neokantiana exprime o bem jurídico como um valor que se identifica com a própria finalidade da norma, considerando-o como elemento de todos os pressupostos do complexo cultural de que emana o direito.
+*** C) - tanto na visão positivista quanto na visão neokantiana, o bem jurídico é visto como um pressuposto formal da incriminação, trabalhando com os dados existentes na ordem jurídica, sem questioná-los.
+*** D) - na visão funcionalista, o bem jurídico é visto na perspectiva dos valores ético-sociais elementares, relativos à pessoa, ao patrimônio, à família e ao Estado, negando-se o fim de estabilidade da norma como instrumental à manutenção do sistema.
+**** Gabarito: D
+-----
+* Ano: 2011 | Banca: FUNDEP (Gestão de Concursos) | Órgão: MPE-MG | Prova: FUNDEP - 2011 - MPE-MG - Promotor de Justiça
+** Sobre as possíveis leituras do garantismo, na perspectiva dos direitos fundamentais, é **CORRETO** afirmar que
+*** A) - a concepção de um “garantismo positivo” alia-se ao princípio da proibição de proteção deficiente, trazendo como consequência a extensão da função de tutela penal aos bens jurídicos de interesse coletivo.
+*** B) - o pensamento garantista se funda, em seu modelo clássico, em princípios que se opõem à tradição jurídica do iluminismo e do liberalismo.
+*** C) - o garantismo, na concepção de Ferrajoli, tem como objetivo principal edificar um conceito específico para a criminologia, a partir da discussão da legitimidade da intervenção penal, não se ocupando, por isso, do estudo da qualidade, quantidade e necessidade da pena.
+*** D) - a proposta do garantismo pode ser sintetizada na tentativa de arrefecer os princípios fundamentais que devem orientar o direito penal em um sistema punitivo democrático.
+**** Gabarito: A
+-----
+* Ano: 2011 | Banca: FMP Concursos | Órgão: TCE-RS | Prova: FMP Concursos - 2011 - TCE-RS - Auditor Público Externo - Ciências Jurídicas e Sociais
+** Em matéria de lei penal, observe as seguintes afirmativas: I. É possível a edição de medida provisória relativa a direito penal, desde que em benefício do réu. II. Consoante entendimento do Supremo Tribunal Federal, aplica-se a lei mais benéfica ao crime permanente, se a sua vigência é anterior à cessação da permanência. III. Consoante entendimento do Supremo Tribunal Federal, aplica-se a lei mais grave ao crime continuado, se a sua vigência é anterior à cessação da continuidade. IV. Consoante entendimento mais recente do Supremo Tribunal Federal, é possível a combinação de leis penais para beneficiar o réu. Pode-se afirmar que:
+*** A) - todas as assertivas estão corretas.
+*** B) - estão corretas somente as alternativas I e II.
+*** C) - estão corretas somente as alternativas III e IV.
+*** D) - estão corretas somente as alternativas II e IV.
+*** E) - está correta somente a alternativa III.
+**** Gabarito: A
+-----
+* Ano: 2011 | Banca: FCC | Órgão: TRE-RN | Prova: FCC - 2011 - TRE-RN - Analista Judiciário - Área Judiciária
+** João subtraiu, mediante destreza, a carteira do bolso de Paulo, contendo R$ 1.000,00 em dinheiro. Nesse caso, o sujeito passivo do crime é
+*** A) - o Estado.
+*** B) - Paulo.
+*** C) - o patrimônio.
+*** D) - a paz pública.
+*** E) - a coletividade.
+**** Gabarito: B
+-----
+* Ano: 2010 | Banca: CEPERJ | Órgão: SEFAZ-RJ | Prova: CEPERJ - 2010 - SEFAZ-RJ - Oficial de Fazenda
+** No Direito Penal, a necessidade de a norma ser complementada por outra de nível diverso denomina-se:
+*** A) - norma penal em branco em sentido amplo
+*** B) - norma penal em branco em sentido estrito
+*** C) - norma penal não incriminadora
+*** D) - norma penal regulamentar
+*** E) - norma penal especial
+**** Gabarito: B
+-----
+* Ano: 2010 | Banca: FESMIP-BA | Órgão: MPE-BA | Prova: FESMIP-BA - 2010 - MPE-BA - Promotor de Justiça - Prova amarela
+** A problemática do bem jurídico, merecedor da tutela penal, é assunto de alta sensibilidade nos dias atuais, na medida em que o direito penal contemporâneo lida, frequentemente, com questões concernentes a bens jurídicos coletivos e de alta complexidade na sua consideração, inclusive para o debate na doutrina nacional, sobretudo quando busca diferenciar bens jurídicos e funções. Assim, a tendencia de espiritualização dos bens jurídicos é um dos grandes desafios do estágio atual da dogmática penal. Nesse cenário de ideias, seria correto **afirmar:** I - A radicalização da tendencia da espiritualização dos bens jurídicos protegidos penalmente não envolve nenhum risco para um direito penal de um Estado Democrático, antes, pelo contrário, aumenta consideravelmente as garantias individuais. II - A tendencia de “espiritualização” dos bens jurídicos pode ser suficientemente mitigada com a simples redução à sua característica de pessoalidade, isto é, que interesse, antes de tudo, à pessoa humana. III - A tendencia de “espiritualização” dos bens jurídicos pode ser concretamente mitigada com a consideração conjunta da noção de pessoalidade com a de substancialidade, e não ser deduzida apenas de um dado normativo. IV - A noção de bem jurídico, neste contexto, não pode ter como objeto de proteção da norma situação referentes à moralidade pública, aos bons costumes, ao sentimento do povo e outras semelhantes. V - O bem jurídico, portanto, como advertia Roxin, nada tem a ver com o caráter de objeto valorado, prescindindo assim de qualquer alteração do mundo exterior ou juízo de valor de qualquer natureza. Alternativas A Somente a alternativa **I** é verdadeira. B As alternativas **II** e **V** são verdadeiras. C Somente a alternativa **II** é verdadeira. D As alternativas **III** e **IV** são verdadeiras. E As alternativas **II** e **V** são verdadeiras.
+**** Gabarito: D
+-----
+* Ano: 2010 | Banca: FEPESE | Órgão: UDESC | Prova: FEPESE - 2010 - UDESC - Advogado
+** Assinale a alternativa **correta.**
+*** A) - O princípio da humanidade das penas está consagrado na Constituição Federal.
+*** B) - O princípio da aplicação da lei mais benéfica não é utilizado pelo direito penal.
+*** C) - O princípio da intervenção mínima não se confunde com o principio da *ultima ratio.*
+*** D) - Por força do princípio da insignificância não são punidos os crimes de menor potencial ofensivo.
+*** E) - A existência de crimes funcionais ofende o princípio da igualdade.
+**** Gabarito: A
+-----
+* Ano: 2010 | Banca: FCC | Órgão: DPE-SP | Prova: FCC - 2010 - DPE-SP - Defensor Público
+** O postulado da fragmentariedade em matéria penal relativiza
+*** A) - a proporcionalidade entre o fato praticado e a consequência jurídica.
+*** B) - a dignidade humana como limite material à atividade punitiva do Estado.
+*** C) - o concurso entre causas de aumento e diminuição de penas.
+*** D) - a função de proteção dos bens jurídicos atribuída à lei penal.
+*** E) - o caráter estritamente pessoal que decorre da norma penal.
+**** Gabarito: D
+-----
+* Ano: 2009 | Banca: CESPE / CEBRASPE | Órgão: PC-RN | Prova: CESPE - 2009 - PC-RN - Delegado de Polícia
+** Cabe ao legislador, na sua propícia função, proteger os mais diferentes tipos de bens jurídicos, cominando as respectivas sanções, de acordo com a importância para a sociedade. Assim, haverá o ilícito administrativo, o civil, o penal etc. Este último é o que interessa ao direito penal, justamente por proteger os bens jurídicos mais importantes (vida, liberdade, patrimônio, liberdade sexual, administração pública etc.). O direito penal
+*** A) - tem natureza fragmentária, ou seja, somente protege os bens jurídicos mais importantes, pois os demais são protegidos pelos outros ramos do direito.
+*** B) - tem natureza minimalista, pois se ocupa, inclusive, dos bens jurídicos de valor irrisório.
+*** C) - tem natureza burguesa, pois se volta, exclusivamente, para a proteção daqueles que gerenciam o poder produtivo e a economia estatal.
+*** D) - é ramo do direito público e privado, pois protege bens que pertencem ao Estado, assim como aqueles de propriedade individualizada.
+*** E) - admite a perquirição estatal por crimes não previstos estritamente em lei, assim como a retroação da *lex gravior* .
+**** Gabarito: A
+-----
+* Ano: 2009 | Banca: CESPE / CEBRASPE | Órgão: DETRAN-DF | Prova: CESPE - 2009 - DETRAN-DF - Analista - Advocacia
+** Acerca do direito penal, julgue os itens que se seguem. A lei penal admite interpretação analógica, recurso que permite a ampliação do conteúdo da lei penal, através da indicação de fórmula genérica pelo legislador.
+*** A) - Certo
+*** B) - Errado
+**** Gabarito: C
+-----
+* Ano: 2009 | Banca: CESPE / CEBRASPE | Órgão: DETRAN-DF | Prova: CESPE - 2009 - DETRAN-DF - Analista - Advocacia
+** Acerca do direito penal, julgue os itens que se seguem. O Estado é a única fonte de produção do direito penal, já que compete privativamente à União legislar sobre normas gerais em matéria penal.
+*** A) - Certo
+*** B) - Errado
+**** Gabarito: C
+-----
+* Ano: 2009 | Banca: CESPE / CEBRASPE | Órgão: PC-PB | Provas: CESPE / CEBRASPE - 2009 - PC-PB - Agente de Investigação e Escrivão de Polícia| CESPE - 2009 - PC-PB - Perito Oficial Criminal
+** Em relação aos sujeitos ativo e passivo da infração penal no ordenamento jurídico brasileiro, assinale a opção **incorreta.**
+*** A) - A pessoa jurídica não pode ser sujeito ativo de infração penal.
+*** B) - Sujeito ativo do crime é aquele que pratica a conduta descrita na lei.
+*** C) - Sujeito passivo do crime é o titular do bem jurídico lesado ou ameaçado pela conduta criminosa.
+*** D) - O conceito de sujeito ativo da infração penal abrange não só aquele que pratica a ação principal, mas também quem colabora de alguma forma para a prática do fato criminoso.
+*** E) - Parte da doutrina entende que, sob o aspecto formal, o Estado é sempre sujeito passivo do crime.
+**** Gabarito: A
+-----
+* Ano: 2009 | Banca: VUNESP | Órgão: TJ-MT | Prova: VUNESP - 2009 - TJ-MT - Juiz
+** A combatida responsabilidade penal objetiva
+*** A) - não encontra exemplos concretos em nossa legislação penal.
+*** B) - é doutrinariamente definida como à sujeição de alguém à imposição de pena sem que tenha agido com dolo ou culpa ou sem que tenha ficado demonstrada sua culpabilidade, com fundamento no nexo de causalidade, todavia, não encontra aplicação prática em casos concretos.
+*** C) - pode ser exemplificada em nossa legislação penal na rixa qualificada e na *actio libera in causa* na embriaguez.
+*** D) - tem um único exemplo em nossa legislação penal consistente na responsabilização das pessoas jurídicas por crimes ambientais.
+*** E) - deve ser utilizada em *ultima ratio* , uma vez que, pode violar direitos e garantias fundamentais da pessoa humana.
+**** Gabarito: C
+-----
+* Ano: 2008 | Banca: CESPE / CEBRASPE | Órgão: STF | Provas: CESPE - 2008 - STF - Analista Judiciário - Área Judiciária| CESPE - 2008 - STF - Analista Judiciário - Área Judiciária - Execução de Mandados
+** Julgue os itens a seguir, relativos à interpretação da lei penal. Se o presidente do STF, em palestra proferida em seminário para magistrados de todo o Brasil, interpreta uma lei penal recém-publicada, essa interpretação é considerada interpretação judicial.
+*** A) - Certo
+*** B) - Errado
+**** Gabarito: B
+-----
+* Ano: 2007 | Banca: CESPE / CEBRASPE | Órgão: Prefeitura de Rio Branco - AC
+** Julgue o item a seguir, a respeito da aplicação da lei penal. As regras gerais estabelecidas pelo Código Penal não se aplicam aos delitos previstos na legislação especial ou extravagante.
+*** A) - Certo
+*** B) - Errado
+**** Gabarito: B
+-----
+* Ano: 2006 | Banca: CESPE / CEBRASPE | Órgão: TJ-RR | Prova: CESPE - 2006 - TJ-RR - Técnico Judiciário - Área Agente de Proteção
+** Acerca da parte geral do Código Penal, assinale a opção correta.
+*** A) - A entrada em vigor de lei nova que deixe de considerar o fato criminoso é uma das causas de extinção da punibilidade.
+*** B) - Age em legítima defesa aquele que, após ter aceito um desafio para um duelo, ofende a integridade física do desafiante.
+*** C) - A coação moral irresistível é causa de exclusão de antijuridicidade, pois afasta o caráter injusto do delito.
+*** D) - O erro sobre elemento constitutivo do tipo legal de crime exclui o dolo e impede a punição do agente por crime culposo.
+**** Gabarito: A
+-----
+* Ano: 2004 | Banca: CESPE / CEBRASPE | Órgão: TCE-PE
+** A respeito dos princípios e fontes do direito penal, julgue o item subseqüente. Em matéria penal, o costume *contra legem* não possui eficácia jurídica, mesmo que haja descompasso entre a lei penal e a realidade histórico-cultural.
+*** A) - Certo
+*** B) - Errado
+**** Gabarito: A
+-----
