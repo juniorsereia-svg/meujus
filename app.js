@@ -1,4 +1,4 @@
-// Funcional: carrega manifest e TXT, parse, combos custom (curso/temas), amostragem estratificada,
+// Funcional: carrega manifest e TXT, parse, combos custom (curso/temas/subtemas), amostragem estratificada,
 // impressão 2 colunas, botões IA pós-gabarito e botão "substituir questão" por outra do mesmo arquivo/tema.
 (function () {
   const $ = (sel) => document.querySelector(sel);
@@ -17,13 +17,23 @@
   const cursoPanel  = $('#cursoPanel');
   const cursoHidden = $('#cursoHidden');
   const cursoCaret  = document.querySelector('#cursoCombo .combo-caret');
+  const cursoClose  = document.querySelector('#cursoCombo .combo-close');
 
   // Temas: combo + chips
   const temaInput = $('#temaInput');
   const temaPanel = $('#temaPanel');
   const temasHidden = $('#temasHidden');
   const chips = $('#chips');
-  const temaCaret = document.querySelector('#temaInput')?.closest('.combo-control')?.querySelector('.combo-caret') || null;
+  const temaCaret = temaInput?.closest('.combo')?.querySelector('.combo-caret') || null;
+  const temaClose = temaInput?.closest('.combo')?.querySelector('.combo-close') || null;
+
+  // Subtemas: combo + chips
+  const subtemaInput = $('#subtemaInput');
+  const subtemaPanel = $('#subtemaPanel');
+  const subtemasHidden = $('#subtemasHidden');
+  const chipsSub = $('#chipsSub');
+  const subtemaCaret = subtemaInput?.closest('.combo')?.querySelector('.combo-caret') || null;
+  const subtemaClose = subtemaInput?.closest('.combo')?.querySelector('.combo-close') || null;
 
   // Áreas
   const previewVazio = $('#previewVazio');
@@ -34,7 +44,9 @@
   // Estado
   let banco = [];
   let temasDisponiveis = new Set();
+  let subtemasDisponiveis = new Set();
   let temasSelecionados = new Set();
+  let subtemasSelecionados = new Set();
   let resultado = [];
   const letras = ['A','B','C','D','E'];
 
@@ -54,8 +66,21 @@
   function padronizarAlternativas(alts){
     return alts.slice(0,5).map((t,i)=>`${letras[i]}) ${t.replace(/^[A-Ea-e]\)\s*/, '').trim()}`);
   }
+  function intersecaoNaoVazia(a, b){
+    if(!a || !b) return false;
+    for(const x of a){ if(b.has(x)) return true; }
+    return false;
+  }
 
-  // Parse TXT (tema vem do nome do arquivo)
+  // Parse TXT (tema vem do nome do arquivo) + subtemas opcionais extraídos da metadados
+  function extrairSubtemas(meta){
+    if(!meta) return [];
+    // formatos aceitos: "Subtema: A; B, C | D"
+    const m = meta.match(/subtemas?:\s*(.+)$/i);
+    if(!m) return [];
+    return m[1].split(/[;,|]/).map(s=>s.trim()).filter(Boolean);
+  }
+
   function parseArquivo(txt, curso, temaLabel, srcFile) {
     const blocos = txt.split(/\n-{5,}\s*\n/).map(s=>s.trim()).filter(Boolean);
     const out = [];
@@ -78,9 +103,13 @@
 
       const id = `${curso}::${temaLabel}::${srcFile}::${idxBloco}`;
       const tema = temaLabel;
-      const q = { id, curso, meta, enunciado, alternativas: alts, gabarito: gab, temas:[temaLabel], tema, srcFile };
+      const subtemas = extrairSubtemas(meta);
+
+      const q = { id, curso, meta, enunciado, alternativas: alts, gabarito: gab, temas:[temaLabel], tema, subtemas, srcFile };
 
       temasDisponiveis.add(temaLabel);
+      subtemas.forEach(s=>subtemasDisponiveis.add(s));
+
       out.push(q);
     }
     return out;
@@ -115,26 +144,39 @@
     }
 
     montarComboTemas();
+    montarComboSubtemas();
   }
 
   // Combo Curso
   function montarComboCurso(cursos){
     const lista = cursos.slice().sort((a,b)=>a.localeCompare(b,'pt'));
     cursoPanel.innerHTML = lista.map(c=>`<div class="combo-item" data-valor="${c}">${c}</div>`).join('');
+
     cursoSelecionado = lista[0] || '';
     cursoHidden.value = cursoSelecionado;
     cursoInput.value = cursoSelecionado;
   }
   function abrirPanelCurso(){ cursoPanel.classList.remove('hidden'); }
   function fecharPanelCurso(){ cursoPanel.classList.add('hidden'); }
+
   cursoInput?.addEventListener('focus', abrirPanelCurso);
   cursoCaret?.addEventListener('click', ()=> cursoPanel.classList.toggle('hidden'));
+  cursoClose?.addEventListener('click', ()=>{
+    if(cursoInput.value && cursoInput.value !== cursoSelecionado){
+      cursoInput.value = '';
+      Array.from(cursoPanel.children).forEach(it=>{
+        it.style.display = '';
+      });
+      abrirPanelCurso();
+    }else{
+      fecharPanelCurso();
+    }
+  });
   cursoInput?.addEventListener('input', ()=>{
     const q = cursoInput.value.trim().toLowerCase();
     Array.from(cursoPanel.children).forEach(it=>{
       const ok = it.textContent.toLowerCase().includes(q);
       it.style.display = ok ? '' : 'none';
-      it.setAttribute('aria-selected', ok ? 'true' : 'false');
     });
     abrirPanelCurso();
   });
@@ -146,7 +188,7 @@
     fecharPanelCurso();
   });
   document.addEventListener('click', (e)=>{
-    if(!cursoPanel.contains(e.target) && e.target!==cursoInput && e.target!==cursoCaret) fecharPanelCurso();
+    if(!cursoPanel.contains(e.target) && e.target!==cursoInput && e.target!==cursoCaret && e.target!==cursoClose) fecharPanelCurso();
   });
 
   // Combo Temas
@@ -154,16 +196,16 @@
     const lista = Array.from(temasDisponiveis).sort((a,b)=>a.localeCompare(b,'pt'));
     temaPanel.innerHTML = lista.map(t=>`<div class="combo-item" data-valor="${t}">${t}</div>`).join('');
   }
-  function abrirPainel(){ temaPanel.classList.remove('hidden'); }
-  function fecharPainel(){ temaPanel.classList.add('hidden'); }
-  function renderChips(){
+  function abrirPainelTemas(){ temaPanel.classList.remove('hidden'); }
+  function fecharPainelTemas(){ temaPanel.classList.add('hidden'); }
+  function renderChipsTemas(){
     chips.innerHTML = '';
     temasHidden.value = JSON.stringify(Array.from(temasSelecionados));
     temasSelecionados.forEach(t=>{
       const el = document.createElement('span');
       el.className = 'chip';
       el.innerHTML = `${t} <button type="button" aria-label="Remover">×</button>`;
-      el.querySelector('button').onclick = ()=>{ temasSelecionados.delete(t); renderChips(); };
+      el.querySelector('button').onclick = ()=>{ temasSelecionados.delete(t); renderChipsTemas(); };
       chips.appendChild(el);
     });
   }
@@ -172,31 +214,97 @@
     Array.from(temaPanel.children).forEach(it=>{
       const ok = it.textContent.toLowerCase().includes(q);
       it.style.display = ok ? '' : 'none';
-      it.setAttribute('aria-selected', ok ? 'true' : 'false');
     });
-    abrirPainel();
+    abrirPainelTemas();
   });
-  temaInput?.addEventListener('focus', abrirPainel);
+  temaInput?.addEventListener('focus', abrirPainelTemas);
   temaCaret?.addEventListener('click', ()=> temaPanel.classList.toggle('hidden'));
+  temaClose?.addEventListener('click', ()=>{
+    if(temaInput.value){
+      temaInput.value = '';
+      Array.from(temaPanel.children).forEach(it=>{ it.style.display=''; });
+      abrirPainelTemas();
+    } else {
+      fecharPainelTemas();
+    }
+  });
   document.addEventListener('click', (e)=>{
-    if(!temaPanel.contains(e.target) && e.target!==temaInput && e.target!==temaCaret) fecharPainel();
+    if(!temaPanel.contains(e.target) && e.target!==temaInput && e.target!==temaCaret && e.target!==temaClose) fecharPainelTemas();
   });
   temaPanel.addEventListener('click', (e)=>{
     const item = e.target.closest('.combo-item'); if(!item) return;
     const val = item.getAttribute('data-valor');
     temasSelecionados.add(val);
-    renderChips();
+    renderChipsTemas();
     temaInput.value = '';
-    fecharPainel();
+    fecharPainelTemas();
   });
 
-  // Filtro + amostragem estratificada por tema
+  // Combo Subtemas
+  function montarComboSubtemas(){
+    const lista = Array.from(subtemasDisponiveis).sort((a,b)=>a.localeCompare(b,'pt'));
+    subtemaPanel.innerHTML = lista.map(t=>`<div class="combo-item" data-valor="${t}">${t}</div>`).join('');
+  }
+  function abrirPainelSub(){ subtemaPanel.classList.remove('hidden'); }
+  function fecharPainelSub(){ subtemaPanel.classList.add('hidden'); }
+  function renderChipsSubtemas(){
+    chipsSub.innerHTML = '';
+    subtemasHidden.value = JSON.stringify(Array.from(subtemasSelecionados));
+    subtemasSelecionados.forEach(t=>{
+      const el = document.createElement('span');
+      el.className = 'chip';
+      el.innerHTML = `${t} <button type="button" aria-label="Remover">×</button>`;
+      el.querySelector('button').onclick = ()=>{ subtemasSelecionados.delete(t); renderChipsSubtemas(); };
+      chipsSub.appendChild(el);
+    });
+  }
+  subtemaInput?.addEventListener('input', ()=>{
+    const q = subtemaInput.value.trim().toLowerCase();
+    Array.from(subtemaPanel.children).forEach(it=>{
+      const ok = it.textContent.toLowerCase().includes(q);
+      it.style.display = ok ? '' : 'none';
+    });
+    abrirPainelSub();
+  });
+  subtemaInput?.addEventListener('focus', abrirPainelSub);
+  subtemaCaret?.addEventListener('click', ()=> subtemaPanel.classList.toggle('hidden'));
+  subtemaClose?.addEventListener('click', ()=>{
+    if(subtemaInput.value){
+      subtemaInput.value = '';
+      Array.from(subtemaPanel.children).forEach(it=>{ it.style.display=''; });
+      abrirPainelSub();
+    } else {
+      fecharPainelSub();
+    }
+  });
+  document.addEventListener('click', (e)=>{
+    if(!subtemaPanel.contains(e.target) && e.target!==subtemaInput && e.target!==subtemaCaret && e.target!==subtemaClose) fecharPainelSub();
+  });
+  subtemaPanel.addEventListener('click', (e)=>{
+    const item = e.target.closest('.combo-item'); if(!item) return;
+    const val = item.getAttribute('data-valor');
+    subtemasSelecionados.add(val);
+    renderChipsSubtemas();
+    subtemaInput.value = '';
+    fecharPainelSub();
+  });
+
+  // Filtro + amostragem estratificada por tema (+ subtema opcional)
   function filtrarPorCursoETemas(){
     const cursoAlvo = (cursoSelecionado || '').trim();
     let pool = banco.filter(q=>q.curso === cursoAlvo);
-    const selecionados = Array.from(temasSelecionados);
-    if (!selecionados.length) return pool;
-    return pool.filter(q => (q.temas && q.temas.some(t => selecionados.includes(t))));
+
+    const selecionadosTemas = Array.from(temasSelecionados);
+    if (selecionadosTemas.length) {
+      pool = pool.filter(q => (q.temas && q.temas.some(t => selecionadosTemas.includes(t))));
+    }
+
+    const selecionadosSub = Array.from(subtemasSelecionados);
+    if (selecionadosSub.length) {
+      const alvo = new Set(selecionadosSub);
+      pool = pool.filter(q => q.subtemas && intersecaoNaoVazia(q.subtemas, alvo));
+    }
+    return pool;
   }
 
   function amostrarEstratificada(pool, qtd) {
@@ -282,13 +390,13 @@ ENUNCIADO: "${enunciado}"`;
 
     const links = [
       { rotulo:'Comentário', href:urlGoogleModoIA(pComentario) },
-      { rotulo:'Glossário',  href:urlGoogleModoIA(pGlossario) },
+      { rotulo:'Glossário',  href:urlGoogleModoIA(pGlossario)  },
       { rotulo:'Princípios', href:urlGoogleModoIA(pPrincipios) },
-      { rotulo:'Vídeos',     href:urlGoogleModoIA(pVideos) },
+      { rotulo:'Vídeos',     href:urlGoogleModoIA(pVideos)     },
     ];
 
     return `<div class="acoes-ia">${
-      links.map(l=>`<a class="btn-acao" target="_blank" rel="noopener" href="${l.href}">${l.rotulo}</a>`).join('')
+      links.map(l=>`<a class="btn-ia" target="_blank" rel="noopener" href="${l.href}" title="${l.rotulo}">${l.rotulo[0]}</a>`).join('')
     }</div>`;
   }
 
@@ -326,13 +434,14 @@ ENUNCIADO: "${enunciado}"`;
     artigo.innerHTML = html;
   }
 
-  // Render impressão: sem meta
+  // Render impressão
   function renderQuestoesPrint(lista){
     const html = lista.map((q, idx)=>{
       const numero = idx+1;
       const alts = q.alternativas.map(a=>`<li class="py-1" style="font-size:0.825rem;line-height:1.5">${a}</li>`).join('');
       return `
       <section class="questao py-1" data-q="${idx}">
+        <div class="meta">${q.meta}</div>
         <h4 class="enunciado mt-1" style="font-size:0.9rem;line-height:1.55;color:#111827;font-weight:400">${numero}) ${q.enunciado}</h4>
         <ul class="alternativas mt-2" style="margin-left:1rem">${alts}</ul>
         <div class="separador"></div>
@@ -426,12 +535,23 @@ ENUNCIADO: "${enunciado}"`;
 
   // Eventos gerais
   form?.addEventListener('submit', (e)=>{e.preventDefault(); try{gerar();}catch(err){console.error(err); alert('Erro ao gerar prova.');}});
+
   btnLimpar?.addEventListener('click', ()=>{
-    form.reset(); temasSelecionados.clear(); renderChips();
+    form.reset();
+    temasSelecionados.clear(); renderChipsTemas();
+    subtemasSelecionados.clear(); renderChipsSubtemas();
+
+    // Reset curso para primeira opção visível
+    const firstItem = cursoPanel.querySelector('.combo-item');
+    cursoSelecionado = firstItem ? firstItem.getAttribute('data-valor') : '';
+    cursoHidden.value = cursoSelecionado;
+    cursoInput.value = cursoSelecionado;
+
     resultado=[]; artigo.innerHTML=''; printArticle.innerHTML='';
     previewConteudo.classList.add('hidden'); previewVazio.classList.remove('hidden');
     window.scrollTo({ top:0, behavior:'smooth' });
   });
+
   btnImprimir?.addEventListener('click', ()=>window.print());
   document.addEventListener('click', onClickAlternativa);
   document.addEventListener('keydown', onKeyAlternativa);
