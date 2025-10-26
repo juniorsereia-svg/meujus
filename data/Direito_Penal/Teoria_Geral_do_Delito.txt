@@ -429,7 +429,7 @@ Prevê a lei causa de redução da pena em caso de colaboração espontânea do 
 -----
 * Ano: 2009 | Banca: CESPE / CEBRASPE | Órgão: DPE-AL
 ** Julgue o item subsequente, acerca do instituto da pena.
-Quanto às suas finalidades, segundo a teoria eclética ou conciliatória, a pena tem dupla função: punir o criminoso e prevenir a prática do crime.
+** Quanto às suas finalidades, segundo a teoria eclética ou conciliatória, a pena tem dupla função: punir o criminoso e prevenir a prática do crime.
 *** A) Certo
 *** B) Errado
 **** Gabarito: Certo
@@ -614,10 +614,10 @@ Assinale:
 -----
 * Ano: 2009 | Banca: FGV | Órgão: TJ-PA
 ** Com relação ao crime organizado, analise as afirmativas a seguir.
-I. A lei 9.034/95, que dispõe sobre a utilização de meios operacionais para a prevenção e repressão de ações praticadas por organizações criminosas, não se aplica às ações praticadas por quadrilha ou bando, apenas às ações praticadas por organizações criminosas.
-II. Os condenados por crimes decorrentes de organização criminosa iniciarão o cumprimento da pena em regime fechado.
-III. Na apuração de crimes praticados por organizações criminosas, em qualquer fase de persecução criminal, são permitidos, sem prejuízo dos já previstos em lei, os seguintes procedimentos de investigação e formação de provas: ação controlada; captação e interceptação ambiental; infiltração por agentes de polícia.
-Assinale:
+** I. A lei 9.034/95, que dispõe sobre a utilização de meios operacionais para a prevenção e repressão de ações praticadas por organizações criminosas, não se aplica às ações praticadas por quadrilha ou bando, apenas às ações praticadas por organizações criminosas.
+** II. Os condenados por crimes decorrentes de organização criminosa iniciarão o cumprimento da pena em regime fechado.
+** III. Na apuração de crimes praticados por organizações criminosas, em qualquer fase de persecução criminal, são permitidos, sem prejuízo dos já previstos em lei, os seguintes procedimentos de investigação e formação de provas: ação controlada; captação e interceptação ambiental; infiltração por agentes de polícia.
+** Assinale:
 *** A) se nenhuma afirmativa estiver correta.
 *** B) se somente as afirmativas II e III estiverem corretas.
 *** C) se somente as afirmativas I e II estiverem corretas.
@@ -1031,7 +1031,7 @@ O crime de lesão corporal seguida de morte é preterdoloso, havendo dolo na con
 ****** Conceito de Crime
 -----
 * Ano: 2007 | Banca: PUC-PR | Órgão: TRT - 9ª REGIÃO (PR)
-** Considere as seguintes proposições: I. Age com dolo direto o chefe de seção de empresa que, para agilizar a produção, retira de máquina dispositivo de segurança que sabe ser necessário para evitar acidentes. II. São elementos do crime culposo a conduta; a inobservância do dever de cuidado objetivo; o resultado lesivo involuntário e a tipicidade, sendo irrelevante a previsibilidade. III. No crime de assédio sexual, o fato de o agente prevalecer-se de sua condição de superior hierárquico ou ascendência com relação ao ofendido é circunstância que agrava a pena. IV. Se o empregado comete crime em estrita obediência a ordem, não manifestamente ilegal, de superior hierárquico, essa circunstância atenua a pena. Assinale a alternativa correta:
+** Considere as seguintes proposições: I. Age com dolo direto o chefe de seção de empresa que, para agilizar a produção, retira de máquina dispositivo de segurança que sabe ser necessário para evitar acidentes. II. São elementos do crime culposo a conduta; a inobservância do dever de cuidado objetivo; o resultado lesivo involuntário e a tipicidade, sendo irrelevante a previsibilidade. III. No crime de assédio sexual, o fato de o agente prevalecer-se de sua condição de superior hierárquico ou ascendência com relação ao ofendido é circunstância que agrava a pena. IV. Se o empregado comete crime em estrita obediência a ordem, não manifestamente ilegal, de superior hierárquico, essa circunstância atenua a pena. ** Assinale a alternativa correta:
 *** A) Todas as proposições estão corretas;
 *** B) Apenas as proposições I, III e IV estão corretas;
 *** C) Apenas as proposições I, II e IV estão corretas;
