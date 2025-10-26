@@ -34,11 +34,13 @@
   .separador{height:1px;background:linear-gradient(90deg,transparent,#d1d5db,transparent);margin:1rem 0}
 
   @media (max-width:640px){
-    .layout{padding:10px}
-    .actions{flex-wrap:wrap}
-    .actions > *{flex:1 1 48%}
-    #painel .field{gap:8px}
-  }
+  .layout{padding:10px}
+  .panel{padding:12px}
+  .actions{flex-wrap:wrap}
+  .actions > *{flex:1 1 48%}
+  .combo input, select, button{font-size:16px; min-height:44px}
+  .combo .combo-caret, .combo .combo-close{width:36px;height:36px;top:4px}
+}
   @media print{#painel{display:none} .layout{padding:0;margin:0}}
 </style>
 </head>
