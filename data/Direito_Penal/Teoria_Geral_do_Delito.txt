@@ -1,0 +1,808 @@
+Este documento apresenta as 80 questões solicitadas, extraídas das quatro fontes fornecidas, seguindo estritamente a ordem de aparecimento nos excertos e o modelo de formatação exigido.
+
+Devido à limitação do material nas fontes, que lista 20 gabaritos para a primeira sequência de questões, mas fornece texto e opções para apenas 18 questões completas a, a listagem total contém **78 questões** que puderam ser integralmente reconstituídas a partir dos dados textuais e dos gabaritos sequenciais.
+
+## Fonte: Excerpts from "Questões de Provas - Questões de Concursos - Página 10 | Qconcursos.com" (18 Questões)
+
+* Ano: 2012 | Banca: FCC | Órgão: TJ-PE
+** Para as contravenções penais, a lei prevê a aplicação isolada ou cumulativa das penas de
+*** A) prisão simples e detenção.
+*** B) reclusão e detenção.
+*** C) multa e prisão simples.
+*** D) detenção e multa.
+*** E) reclusão e prisão simples.
+**** Gabarito: C
+****** Conceito de Crime, Sistemas Penais
+-----
+* Ano: 2011 | Banca: CESPE / CEBRASPE | Órgão: TRF - 3ª REGIÃO
+** No tocante às respostas que a dogmática penal contemporânea oferece acerca das teorias do crime e da pena, assinale a opção correta.
+*** A) Segundo uma das teorias mais conhecidas de imputação objetiva, para atribuição do tipo objetivo ao agente, a criação ou o incremento de um risco proibido é insuficiente quando o resultado não provenha diretamente desse risco.
+*** B) Para a definição das fontes do especial dever de agir, fundamento da posição de garantidor, adota-se, no CP, o critério material puro.
+*** C) A pena criminal implica reprovação, expressa na ideia de retribuição de acordo com a culpabilidade, prevenção especial como intimidação e manutenção da confiança na ordem jurídica e, finalmente, prevenção geral como neutralização e correção do autor do crime.
+*** D) A aplicação da pena de multa ocorre em duas fases: na primeira, determina-se o valor do dia-multa; na segunda, a quantidade de dias-multa, atendendo-se, sobretudo, à situação econômica do autor.
+*** E) O conhecimento das características descritivas típicas da posição de garantidor é suficiente para fundamentar a omissão dolosa e dispensa a representação da possibilidade de realização da ação ordenada pelo preceito normativo.
+**** Gabarito: A
+****** Sistemas Penais, Conceito de Crime
+-----
+* Ano: 2011 | Banca: CESPE / CEBRASPE | Órgão: DPE-MA
+** Acerca das teorias do crime, assinale a opção correta.
+*** A) É aplicável a teoria do domínio do fato para a delimitação entre coautoria e participação, sendo coautor aquele que presta contribuição independente, essencial à prática do delito, atuando obrigatoriamente em sua execução.
+*** B) Com relação à conduta, a teoria neokantista, que surgiu como reação à concepção positivista de tipo penal, propõe que o tipo penal não contém apenas elementos de ordem objetiva, não sendo, assim, meramente descritivo, e não podendo o fato típico depender de mera comparação entre o fato objetivo e a descrição legal.
+*** C) De acordo com a teoria geral da imputação objetiva, não se pode imputar ao agente o resultado decorrente da prática de um risco permitido, ao contrário do que ocorre em face de ação que vise à redução de risco não permitido.
+*** D) Consoante a concepção funcional defendida por Claus Roxin, a função da norma é a reafirmação da autoridade do direito, e sua aplicação constante e rotineira determina os padrões sociais de comportamento considerados normais e os indesejáveis, sendo a finalidade da pena a de exercitar a confiança despertada pela norma
+*** E) Pratica crime de apropriação indébita, consoante orientação consignada pela teoria finalista da ação, o agente que, mesmo não revelando a intenção de apoderar-se de bem alheio que temporariamente permaneça na sua posse, demore a devolvê-lo ao proprietário.
+**** Gabarito: B
+****** Sistemas Penais
+-----
+* Ano: 2011 | Banca: FCC | Órgão: TCE-PR
+** Em relação ao conceito formal e material do crime é correto afirmar:
+*** A) Somente no conceito material permite-se um desdobramento do tipo penal em ação ou omissão, tipicidade, ilicitude e culpabilidade.
+*** B) No conceito formal, o delito constitui uma lesão a um bem jurídico penal.
+*** C) O delito, sob a perspectiva material e formal, é punido com pena privativa de liberdade ou restritiva de direitos
+*** D) O conceito de delito formal é o fato humano proibido pela lei penal, e material há lesão ou perigo de lesão a um bem jurídico-penal.
+*** E) O delito é fato típico e antijurídico e a culpabilidade, para o conceito material, o distingue do conceito formal.
+**** Gabarito: D
+****** Conceito de Crime
+-----
+* Ano: 2011 | Banca: CESPE / CEBRASPE | Órgão: TCU
+** Acerca da tipicidade, da culpabilidade e da punibilidade, julgue os itens a seguir.
+Na doutrina e jurisprudência contemporâneas, predomina o entendimento de que a punibilidade não integra o conceito analítico de delito, que ficaria definido como conduta típica, ilícita e culpável.
+*** A) Certo
+*** B) Errado
+**** Gabarito: Certo
+****** Conceito de Crime
+-----
+* Ano: 2011 | Banca: FUMARC | Órgão: PC-MG
+** Considerando o Código Penal e as Teorias do Delito é **INCORRETA** afrmar que:
+*** A) Com relação ao tipo doloso, o Código Penal Brasileiro adotou as teorias da vontade e do assentimento e não a da atividade.
+*** B) A perda de cargo, função pública ou mandato eletivo é efeito genérico da condenação, não necessitando, dessa forma, ser determinada de forma explícita e fundamentada da sentença penal condenatória.
+*** C) A previsibilidade objetiva é elemento integrante do tipo culposo, podendo a previsibilidade subjetiva ser analisada por ocasião da culpabilidade.
+*** D) De acordo com a teoria finalista, a ação é o comportamento humano voluntário, dirigido à atividade final lícita ou ilícita.
+**** Gabarito: B
+****** Sistemas Penais, Conceito de Crime
+-----
+* Ano: 2011 | Banca: FUMARC | Órgão: PC-MG
+** Em relação às Teorias do Delito, assinale a alternativa **INCORRETA:**
+*** A) A antinormatividade, de acordo com Zaffaroni, consiste em se averiguar a proibição através da indagação do alcance proibitivo da norma, não considerada de forma isolada, e sim conglobada na ordem normativa.
+*** B) A culpa imprópria está presente na discriminante putativa, nela, o agente dá causa dolosa ao resultado, mas responde como se tivesse praticado crime culposo, em razão de erro evitável pelas circunstâncias.
+*** C) No dolo direto, o agente quer efetivamente produzir o resultado, ao praticar a conduta típica, e no dolo indireto, o agente não busca com sua conduta resultado certo e determinado, subdividindo-se em dolo alternativo e eventual.
+*** D) De acordo com a teoria objetiva-formal, há tentativa, quando o agente, de modo inequívoco, exterioriza sua conduta no sentido de praticar a infração penal.
+**** Gabarito: D
+****** Sistemas Penais, Conceito de Crime
+-----
+* Ano: 2011 | Banca: CESPE / CEBRASPE | Órgão: AL-ES
+** Acerca do crime omissivo, dos delitos contra a liberdade individual e contra a dignidade sexual e da inviolabilidade do domicílio, assinale a opção correta.
+*** A) Caracteriza o delito de constrangimento ilegal a hipótese de intervenção médica ou cirúrgica, sem o consentimento do paciente ou de seu representante legal, ainda que justificada por iminente perigo à vida.
+*** B) Conforme a jurisprudência pacificada do STJ, o delito de redução à condição análoga à de escravo está inserido no CP entre os crimes contra a liberdade pessoal, sendo certo que esse ilícito suprime somente o bem jurídico em uma perspectiva individual, razão pela qual compete à justiça comum estadual processá-lo e julgá-lo.
+*** C) A tolerância pela sociedade não gera a atipicidade da conduta consistente em manter, por conta própria ou de terceiro, estabelecimento em que ocorra exploração sexual, sem intuito de lucro nem mediação direta do proprietário.
+*** D) Na hipótese de flagrante de crime permanente em residência, é necessária autorização judicial para a busca e apreensão, uma vez que, nessa situação, a ausência da chancela judicial caracteriza o delito de violação de domicílio.
+*** E) O delito de apropriação indébita previdenciária é crime omissivo próprio, sendo, no entanto, imprescindível a demonstração da finalidade especial de agir, consistente na intenção inequívoca da apropriação de valor destinado à previdência social, para a sua caracterização.
+**** Gabarito: C
+****** Conceito de Crime
+-----
+* Ano: 2011 | Banca: MPDFT | Órgão: MPDFT
+** Aprecie as seguintes assertivas relativas à teoria do crime, marcando a alternativa correta:
+*** A) O ponto de identidade entre dolo eventual e a culpa inconsciente reside na representação da possibilidade de produção do resultado, consentida, no primeiro caso, e repelida, no último.
+*** B) A imprudência é relacionada com a atitude positiva do agente, percebendo-se no seu atuar o desleixo, a desatenção ou a displicência.
+*** C) A teoria objetivo-formal justifica a punibilidade da tentativa tendo por base a exteriorização da vontade do autor, contrária ao direito.
+*** D) A definição do consentimento do ofendido como hipótese de atipicidade ou de justificação da conduta é dependente do tipo penal de que se trata no caso concreto.
+*** E) São causas supralegais de exclusão de ilicitude: insignificância penal, consentimento do ofendido, adequação social da conduta.
+**** Gabarito: D
+****** Conceito de Crime, Sistemas Penais
+-----
+* Ano: 2011 | Banca: MPDFT | Órgão: MPDFT
+** Assinale a alternativa correta, **entre as seguintes assertivas relacionadas à teoria do crime:**
+*** A) São hipóteses de ausência de conduta: coação física irresistível, atos reflexos, omissão de ação.
+*** B) O conceito de bem jurídico é indispensável à compreensão e interpretação dos tipos penais, servindo, igualmente, como critério sistematizador da legislação penal.
+*** C) Os elementos subjetivos do injusto, tais como as tendências internas transcendentes, podem fazer- se presentes nos tipos penais dolosos e culposos.
+*** D) Em sede de estado de necessidade, a teoria diferenciadora acolhida no Código Penal brasileiro admite a exculpação do homicídio, quando postas em confronto as vidas de duas distintas pessoas em situação de perigo.
+*** E) Nos tipos penais de conteúdo misto alternativo não há fungibilidade entre as condutas, aplicando-se a regra do concurso material no caso de realização de mais de uma dessas condutas.
+**** Gabarito: B
+****** Conceito de Crime
+-----
+* Ano: 2011 | Banca: FUNDEP (Gestão de Concursos) | Órgão: MPE-MG
+** Sobre a evolução do conceito de bem jurídico, cuja “criação não é apenas produto de uma elaboração jurídica pura, mas também de um contexto político e econômico”, é **INCORRETO** afirmar que
+*** A) a noção positivista de bem jurídico parte da ideia de que o bem jurídico se reduz a um elemento da própria norma, porque somente a lei expressa os objetos jurídicos ao encerrar a vontade declarada do Estado.
+*** B) a visão neokantiana exprime o bem jurídico como um valor que se identifica com a própria finalidade da norma, considerando-o como elemento de todos os pressupostos do complexo cultural de que emana o direito.
+*** C) tanto na visão positivista quanto na visão neokantiana, o bem jurídico é visto como um pressuposto formal da incriminação, trabalhando com os dados existentes na ordem jurídica, sem questioná-los.
+*** D) na visão funcionalista, o bem jurídico é visto na perspectiva dos valores ético-sociais elementares, relativos à pessoa, ao patrimônio, à família e ao Estado, negando-se o fim de estabilidade da norma como instrumental à manutenção do sistema.
+**** Gabarito: D
+****** Sistemas Penais, Conceito de Crime
+-----
+* Ano: 2011 | Banca: MPE-MS | Órgão: MPE-MS
+** Em que consiste o crime de mão própria?
+*** A) O crime de mão própria pode ser praticado por qualquer pessoa;
+*** B) O crime de mão própria somente pode ser praticado mediante paga ou promessa de recompensa;
+*** C) O crime de mão própria somente pode ser praticado contra criança ou adolescente;
+*** D) O crime de mão própria é aquele que somente pode ser praticado pela pessoa expressamente indicada no tipo penal;
+*** E) O crime de mão própria só pode ser praticado por pessoas de certa faixa etária.
+**** Gabarito: D
+****** Conceito de Crime
+-----
+* Ano: 2011 | Banca: FCC | Órgão: TRE-AP
+** Exclui a imputabilidade penal, nos termos preconizados pelo Código Penal,
+*** A) a embriaguez voluntária pelo álcool ou substância de efeitos análogos.
+*** B) a emoção e a paixão.
+*** C) a embriaguez culposa pelo álcool ou substância de efeitos análogos.
+*** D) se o agente, em virtude de perturbação de saúde mental ou por desenvolvimento mental incompleto ou retardado, não era inteiramente capaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento.
+*** E) a embriaguez completa proveniente de caso fortuito ou força maior, se o agente era, ao tempo da ação ou da omissão, inteiramente incapaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento.
+**** Gabarito: E
+****** Conceito de Crime
+-----
+* Ano: 2011 | Banca: IESES | Órgão: TJ-MA
+** É certo afirmar:
+I. A punibilidade é requisito do crime.
+II. Sob o aspecto formal crime é um fato atípico e antijurídico.
+III. Não basta que o fato seja típico para que exista crime. É preciso que seja contrário ao direito, que seja antijurídico.
+IV. Pressupostos do crime são circunstâncias jurídicas anteriores à execução do fato, positivas ou negativas, a cuja existência ou inexistência é condicionada a configuração do título delitivo de que se trata.
+Analisando as proposições, pode-se afirmar:
+*** A) Somente as proposições I e II estão corretas.
+*** B) Somente as proposições III e IV estão corretas.
+*** C) Somente as proposições II e IV estão corretas.
+*** D) Somente as proposições I e III estão corretas.
+**** Gabarito: B
+****** Conceito de Crime
+-----
+* Ano: 2011 | Banca: FCC | Órgão: TJ-AP
+** José estava numa mesa de bar, onde Pedro lhe contou que, no dia seguinte, iria cometer um roubo numa determinada residência. Mesmo tendo conhecimento prévio do crime que Pedro iria cometer, José se omitiu na prática de atos tendentes a impedir o resultado. Nessa situação, José
+*** A) não responderá por nenhum delito.
+*** B) responderá por coautoria do roubo.
+*** C) responderá por participação no roubo.
+*** D) responderá por favorecimento pessoal.
+*** E) responderá por favorecimento real.
+**** Gabarito: A
+****** Conceito de Crime
+-----
+* Ano: 2011 | Banca: CESPE / CEBRASPE | Órgão: STM
+** Com relação ao direito penal, julgue os itens subsecutivos.
+Os crimes omissivos próprios são previstos em tipos penais específicos e dependem da ocorrência de resultado para a sua consumação.
+*** A) Certo
+*** B) Errado
+**** Gabarito: Errado
+****** Conceito de Crime
+-----
+* Ano: 2011 | Banca: FCC | Órgão: TRF - 1ª REGIÃO
+** A respeito dos crimes contra a honra, é correto afirmar que
+*** A) configura o crime de injúria a crítica genérica dirigida às instituições em geral.
+*** B) a pessoa jurídica pode ser sujeito passivo do crime de difamação.
+*** C) os menores e os doentes mentais não podem ser sujeitos passivos do delito de difamação.
+*** D) a ofensa à dignidade ou decoro que caracteriza a injúria não pode ser feita por gestos, devendo ser verbal ou escrita.
+*** E) aquele que, sabendo falsa a imputação, a propala não comete crime de calúnia.
+**** Gabarito: B
+****** Conceito de Crime
+-----
+* Ano: 2011 | Banca: FCC | Órgão: DPE-RS
+** Sobre a teoria geral do delito, é correto afirmar:
+*** A) Na concorrência plúrima, o instituto da cooperação dolosamente diversa ocorre quando todos os agentes, mesmo sem vínculo subjetivo, se comportam para o mesmo fim, mas desconhecem a conduta alheia.
+*** B) Nas descriminantes putativas é isento de pena quem, por erro plenamente justificado pelas circunstâncias, supõe situação de fato que, se existisse, tornaria a ação legítima, havendo também isenção de pena quando o erro deriva de culpa e o fato é punível como crime culposo.
+*** C) Se o fato é cometido sob coação irresistível ou em estrita obediência a ordem, não manifestamente ilegal, de superior hierárquico, só é punível o autor da coação ou da ordem, atuando o coacto com excludente legal de culpabilidade.
+*** D) O crime impossível é causa legal de exclusão da ilicitude, ocorrendo quando o agente, por ineficácia absoluta do meio ou por absoluta impropriedade do objeto, não consegue consumar o crime.
+*** E) No concurso formal de crimes, o agente, mediante mais de uma ação ou omissão, que pratica dois ou mais crimes, idênticos ou não, é punido aplicando-se cumulativamente as penas privativas de liberdade em que haja incorrido, mesmo que a ação ou omissão seja dolosa e os crimes concorrentes decorram de desígnios autônomos.
+**** Gabarito: C
+****** Conceito de Crime
+
+***
+
+## Fonte: Excerpts from "Questões de Provas - Questões de Concursos - Página 11 | Qconcursos.com" (20 Questões)
+
+* Ano: 2010 | Banca: PC-SP | Órgão: PC-SP
+** Assinale o conceito de crime lecionado pelos penalistas que adotam a corrente doutrinária finalística, que tem em Welzel seu maior expoente.
+*** A) Ação típica, antijurídica e culpável.
+*** B) Ação típica, antijurídica e voluntária.
+*** C) Ação típica e juridicamente relevante.
+*** D) Ação típica, antijurídica e dolosa.
+*** E) Ação típica e culpável.
+**** Gabarito: A
+****** Sistemas Penais, Conceito de Crime
+-----
+* Ano: 2010 | Banca: TRT 15R | Órgão: TRT - 15ª Região (SP)
+** Cada alternativa possui duas afirmações ("1" e "2") relacionadas ou não entre si. Marque a alternativa em que as duas afirmações sejam corretas:
+*** A) 1. Considera-se tentado o crime quando, iniciada a execução, não se consuma por circunstâncias alheias à vontade do agente. 2. Salvo disposição em contrário, pune-se a tentativa com a pena correspondente ao crime consumado,diminuida pela metade.
+*** B) 1. A legislação não faz diferença entre tentativa perfeita e imperfeita no que se refere à aplicação da pena em abstrato. 2. Todavia, quando da imposição da sanção em concreto, o magistrado deve considerar a ocorrência de uma ou de outra espécie de tentativa.
+*** C) 1. No regime aberto o condenado deverá, fora do estabelecimento e com vigilância, trabalhar, frequentar curso ou exercer outra atividade autorizada, permanecendo recolhido durante o período noturno e nos dias de folga. 2. O trabalho do preso será sempre remunerado, sendo-lhe garantidos os beneficios da Frevidência Social.
+*** D) 1. A abolitio criminis constitui fato juridico extintivo da punibilidade. 2. Noscrimes conexos, a extinção da punibilidade de um deles impede, quanto ao outro, a agravação da pena resultante da conexão teleológica.
+*** E) 1. A redução a condição análoga à de escravo e crime contra a liberdade pessoal. 2. A extorsão e considerada crime contra a liberdade individual.
+**** Gabarito: B
+****** Conceito de Crime, Sistemas Penais
+-----
+* Ano: 2010 | Banca: FESMIP-BA | Órgão: MPE-BA
+** Relacionar a parte geral com a parte especial do código penal é uma importante habilidade prática para um Promotor de Justiça. Levando isso em consideração, examinemos o exemplo a seguir: “Em determinado edifício, observa-se defeito contínuo nos elevadores, a ponto de o assessorista alertar o síndico para o problema, enfatizando que alguém ali ainda ficaria preso, obtendo, no entanto, como resposta de que tudo não passara de mera fantasia e que nada disso iria acontecer. Certo dia, um profissional liberal, que possui consultório no prédio, precisou trabalhar até mais tarde, vindo a deixar o serviço após 22h, quando no local apenas permanecia um vigia. Toma o elevador e este para no meio dos andares. Imediatamente, aciona o alarma e desperta o vigia. Este, contudo, apesar de sua boa vontade, não sabe como mover o elevador, nem como abrir suas portas. O profissional liberal pede-lhe, então que se comunique com o síndico pelo telefone da portaria, o que é feito. O síndico lhe diz, porém, que nada poderia fazer, que esperasse até o outro dia, de manhã, quando chegasse o assessorista, ademais, não poderia ir até ao local, porque estaria de saída para uma festa”. Em relação a hipótese acima, seria correto **afirmar:**
+I - O síndico, como administrador do prédio, tem a responsabilidade pelas fontes de perigo nele existentes e, portanto, o dever de impedir os resultados que advierem do seu uso, como forma de ingerência.
+II - O síndico, embora administrador do prédio, não tem a responsabilidade pelas fontes de perigo nele existentes, e portanto, não possui o dever de impedir os resultados que advierem do seu uso.
+III - A conduta do síndico é atípica.
+IV - O síndico cometeu o crime de sequestro por omissão.
+V - Todas as alternativas acima são falsas.
+*** A) Somente a alternativa **V** é correta.
+*** B) As alternativas **I** e **IV** são corretas.
+*** C) As alternativas **II** e **II** são corretas.
+*** D) Somente a alternativa **II** é correta.
+*** E) Somente a alternativa **III** é correta.
+**** Gabarito: B
+****** Conceito de Crime
+-----
+* Ano: 2010 | Banca: FESMIP-BA | Órgão: MPE-BA
+** No trato de tema de intenso interesse prático, como é o caso dos crimes omissivos, a doutrina brasileira colaciona o seguinte exemplo: “dois irmãos, sem qualquer acordo prévio, estão nadando em águas profundas. Um deles, de repente, acometido de câimbras, começa a afogar-se. O outro nada faz para ajudá-lo. Ao avaliar um caso desta natureza, verifica-se que:
+I - Seria o irmão sobrevivente responsável pelo resultado morte.
+II - O irmão omitente deve ser responsabilizado somente por omissão de socorro.
+III - A simples relação de parentesco, nos termos do art. 13, § 2°, torna o agente garantidor.
+IV - A relação entre irmãos gera um vínculo social de proteção maior, mas não o torna garantidor.
+V - O irmão omitente cometeu homicídio qualificado.
+*** A) Apenas a alternativa **I** está correta.
+*** B) As alternativas **II** e **IV** estão corretas.
+*** C) Apenas a alternativa **V** está correta.
+*** D) As alternativas **I, III** e **V** estão corretas.
+*** E) As alternativas **III** e **V** estão corretas.
+**** Gabarito: B
+****** Conceito de Crime
+-----
+* Ano: 2010 | Banca: CESPE / CEBRASPE | Órgão: DETRAN-ES
+** A respeito de tipicidade e ilicitude, julgue os itens que se seguem.
+Fato ilícito ou injusto é a contrariedade entre o fato e a lei, não comportando escalonamentos de índole subjetiva.
+*** A) Certo
+*** B) Errado
+**** Gabarito: Errado
+****** Conceito de Crime
+-----
+* Ano: 2010 | Banca: CESPE / CEBRASPE | Órgão: MPE-RO
+** Assinale a opção correta com relação às teorias do direito penal.
+*** A) De acordo com a tipicidade conglobante, devem-se analisar outros elementos além daqueles previstos no tipo penal para que o fato seja considerado típico. Essa abordagem tem por fundamento o modelo clássico do finalismo, que, se afastando da teoria indiciária, adota o modelo da teoria dos elementos negativos do tipo.
+*** B) De acordo com a teoria constitucionalista do delito, crime é fato típico, antijurídico e punível. A culpabilidade, fundamento para a aplicação da pena, não é requisito do crime.
+*** C) De acordo com a teoria do funcionalismo moderado, o crime é composto por três requisitos: tipicidade, antijuridicidade e punibilidade, e este último requisito compreende culpabilidade e necessidade concreta da pena.
+*** D) Segundo a teoria finalista, a culpabilidade é puro juízo de reprovação do crime, ou seja, nem puramente psicológica, como na teoria neokantista, nem psicológica e normativa, como na teoria causalista.
+*** E) Segundo a teoria do funcionalismo moderado, caso um lutador de boxe mate o adversário no ringue, o fato deverá ser considerado atípico, uma vez que o agente somente comete fato materialmente típico se criar riscos proibidos pelo direito; tal posicionamento contraria a doutrina tradicional, que caracteriza o fato como exercício regular de direito.
+**** Gabarito: E
+****** Sistemas Penais, Conceito de Crime
+-----
+* Ano: 2010 | Banca: CESPE / CEBRASPE | Órgão: MPE-RO
+** A respeito da teoria do crime adotada pelo CP, assinale a opção correta.
+*** A) A ausência de previsão é requisito da culpa inconsciente, pois, se o agente consegue prever o delito, trata-se de conduta dolosa e não culposa.
+*** B) O CP limitou-se a adotar a teoria do assentimento em relação ao dolo ao dispor que age dolosamente o agente que aceita o resultado, embora não o tenha visado como fim específico.
+*** C) A conduta do agente que, após iniciar a execução de crime por iniciativa própria, impede a produção do resultado caracteriza arrependimento posterior e tem a mesma consequência jurídica da desistência voluntária.
+*** D) Na desistência voluntária, o agente poderá responder pelos atos já praticados, pelo resultado ocorrido até o momento da desistência ou pela tentativa do crime inicialmente pretendido.
+*** E) A previsibilidade subjetiva é um dos elementos da culpa e consiste na possibilidade de ser antevisto o resultado nas circunstâncias específicas em que o agente se encontrava no momento da infração penal.
+**** Gabarito: A
+****** Conceito de Crime
+-----
+* Ano: 2010 | Banca: CESPE / CEBRASPE | Órgão: ABIN
+** .Em relação à aplicação da lei penal e aos diversos aspectos do crime, julgue os itens seguintes.
+No Código Penal brasileiro, adota-se, em relação ao conceito de crime, o sistema tricotômico, de acordo com o qual as infrações penais são separadas em crimes, delitos e contravenções.
+*** A) Certo
+*** B) Errado
+**** Gabarito: Errado
+****** Sistemas Penais, Conceito de Crime
+-----
+* Ano: 2010 | Banca: MPE-MG | Órgão: MPE-MG
+** Sobre um Direito Penal Quântico, que seria fruto da influência do paradigma quântico nas ciências criminais, é **CORRETO** afirmar
+*** A) que estuda a repercussão, no campo penal, dos danos reais e potenciais da energia nuclear, trazendo, como consequência, o reforço do princípio da exclusiva proteção de bens jurídicos.
+*** B) que estuda a relação entre a quantidade de pena aplicada e a quantidade de pena necessária para a ressocialização do condenado, trazendo, como principal consequência, a desnecessidade de execução do período remanescente.
+*** C) que, tomando como base o princípio da incerteza ou indeterminação, estuda a causalidade a partir de critérios de probabilidade, relacionando-se, nesse aspecto, com a moderna teoria da imputação objetiva.
+*** D) que estuda a repercussão, no campo da tutela penal ambiental, dos danos gerados por atividades altamente poluidoras, trazendo, como consequência, a possibilidade de responsabilização penal das pessoas jurídicas de direito público.
+**** Gabarito: C
+****** Sistemas Penais, Conceito de Crime
+-----
+* Ano: 2010 | Banca: MPE-PB | Órgão: MPE-PB
+** Analise as assertivas abaixo, assinalando, em seguida, a alternativa que sobre elas contenha o correto julgamento:
+I - O crime de apropriação de coisa achada é exemplo do que a Doutrina denomina de crime a prazo.
+II - Os crimes condicionados não admitem tentativa.
+III - Crimes vagos são aqueles que não possuem objeto material determinado.
+IV - A ameaça praticada verbalmente constitui hipótese de crime não transeunte.
+*** A) Todas as assertivas estão erradas.
+*** B) Estão corretas apenas as assertivas I e II.
+*** C) Nenhuma das assertivas está errada.
+*** D) Estão corretas apenas as assertivas I e IV.
+*** E) Apenas a assertiva III está errada.
+**** Gabarito: B
+****** Conceito de Crime
+-----
+* Ano: 2010 | Banca: CESPE / CEBRASPE | Órgão: MPU
+** Em cada um dos itens a seguir, é apresentada uma situação hipotética seguida de uma assertiva a ser julgada com base no direito penal.
+Diógenes desferiu, com *animus necandi*, golpes de faca em Jacó e fugiu do local dos fatos. Jacó foi socorrido pelo Corpo de Bombeiros e levado ao hospital, onde foi constatado que as lesões sofridas não eram graves, tendo sido a vítima submetida a rápido procedimento médico e liberada em seguida. Entretanto, Jacó faleceu dois dias após o atendimento médico. Feita a perícia, comprovou-se a morte por infecção generalizada decorrente de contaminação por bactéria encontrada nos instrumentos hospitalares. Nessa situação, como todos os fatos que antecederam o resultado foram indispensáveis à sua ocorrência, evidenciando-se a relação de causalidade entre as lesões sofridas e o resultado morte, de acordo com a teoria da equivalência dos antecedentes causais, adotada pelo Código Penal brasileiro, Diógenes deve responder por homicídio consumado.
+*** A) Certo
+*** B) Errado
+**** Gabarito: Certo
+****** Conceito de Crime
+-----
+* Ano: 2010 | Banca: TJ-SC | Órgão: TJ-SC
+** Assinale a alternativa **correta:**
+*** A) Configura-se a tentativa nos crimes omissivos próprios ou de mera conduta e nos crimes preterdolosos.
+*** B) Nos casos de desistência voluntária e de arrependimento posterior, o agente só responde pelos atos já praticados.
+*** C) Na extorsão mediante sequestro, o concurso de duas ou mais pessoas qualifica o delito, havendo causa especial de diminuição de pena caso um dos concorrentes informe à autoridade a localização do sequestrado, facilitando a sua liberação.
+*** D) O delito de sonegação fiscal tipificado na Lei n. 8.137/1990, por ser crime material ou de resultado, não torna imprescindível o lançamento definitivo do crédito tributário para a sua consumação, com o exaurimento do processo fiscal, sem o qual não há constituição do crédito tributário.
+*** E) O crime de cartel (elevar sem justa causa o preço de bem e ou serviço, valendo-se de posição dominante no mercado) é crime material para cuja consumação não se exige o resultado.
+**** Gabarito: C
+****** Conceito de Crime
+-----
+* Ano: 2010 | Banca: FCC | Órgão: TJ-PI
+** João, com intenção de matar, agrediu José a golpes de faca, ferindo-o no abdome. Atendido por terceiros, José foi levado a um hospital. Quando estava sendo medicado, ocorreu um incêndio no hospital e José morreu queimado. Nesse caso, João responderá por
+*** A) lesões corporais leves.
+*** B) lesões corporais graves.
+*** C) homicídio doloso.
+*** D) tentativa de homicídio.
+*** E) homicídio culposo.
+**** Gabarito: D
+****** Conceito de Crime
+-----
+* Ano: 2010 | Banca: CESPE / CEBRASPE | Órgão: Caixa
+** Com relação ao direito penal, em cada uma das opções abaixo é apresentada uma situação hipotética, seguida de uma assertiva a ser julgada. Assinale a opção que apresenta a assertiva correta.
+*** A) Um empregado de um banco recusou-se a atender um cliente, alegando motivos de ordem religiosa; a religião praticada pelo cliente afrontava os preceitos morais e filosóficos do empregado. Nessa situação, a rejeição de atendimento pelo empregado tem fundamento na liberdade religiosa e de crença, assegurada na CF.
+*** B) Um sentenciado cumpriu integralmente a pena privativa de liberdade e não pagou a pena de multa fixada na sentença de cem dias-multa, com valor do dia-multa fixado pelo juiz em um trigésimo do maior salário mínimo mensal vigente ao tempo do fato. Nessa situação, em face da inadimplência, ficará o processo de execução penal suspenso até o efetivo pagamento e, caso seja constatado que o executado é solvente e voluntariamente deixou de pagar a pena de multa ou por qualquer outro meio frustra a execução desta, poderá ter convertidos os dias-multa em detenção simples.
+*** C) Juvenal, brasileiro, maior, casado, sócio-gerente da Mercearia Vende Tudo, primário, sem antecedentes, de bom comportamento social, foi denunciado pelo Ministério Público pela prática da conduta de expor à venda mercadorias em condições impróprias ao consumo, cujo tipo penal vem prescrito na lei dos crimes contra a relação de consumo, cuja pena é de detenção de dois a cinco anos ou multa. Nessa situação, se preencher todos os requisitos para a suspensão condicional do processo, aceitar a proposta juntamente com o defensor e se submeter às condições estabelecidas pelo juízo, na forma da lei de regência, Juvenal poderá gozar do benefício da suspensão condicional do processo.
+*** D) Um cliente de determinado banco falsificou documentos pessoais de terceiro, comprovante de residência, entre outros documentos, com a finalidade de abertura de conta-corrente em estabelecimento bancário. Após a abertura da conta, recebeu cartões de crédito e débito e, decorridas algumas semanas, solicitou e conseguiu empréstimos bancários. Entretanto, antes de levantar os valores disponibilizados na conta-corrente, o agente arrependeu-se das condutas delituosas praticadas e confessou todo o ocorrido ao gerente do banco que imediatamente fez o bloqueio da conta. Nessa situação, está presente a figura da desistência voluntária prevista no CP, o que enseja a exclusão de ilicitude do fato.
+*** E) Uma cliente de determinado banco, enquanto aguardava atendimento pessoal pelo gerente, sorrateiramente subtraiu duas pequenas peças de decoração da agência, consistentes em duas estatuetas banhadas a ouro, por relevante prêmio comercial, avaliadas em R$ 5.000,00. Em face do ostensivo aparato de segurança da agência, monitoramento eletrônico e câmeras de vigilância, entre outros, descobriu-se, de pronto, a infração penal e, antes da saída da cliente da agência, ela foi abordada por agentes de segurança e, em seguida, presa em flagrante. Nessa situação, configurou-se a hipótese do crime impossível previsto no CP pela absoluta impropriedade do meio utilizado pela agente.
+**** Gabarito: C
+****** Conceito de Crime
+-----
+* Ano: 2010 | Banca: CESPE / CEBRASPE | Órgão: Caixa
+** Um oficial de justiça executava mandado judicial expedido em ação possessória ajuizada por um banco, com a finalidade de desocupar imóvel residencial e proceder à imissão da posse do mesmo, com a subsequente entrega ao representante do banco que acompanhava a diligência. Chegando ao local indicado na ordem judicial, foram recebidos pelo morador, que, ao tomar ciência do que se tratava, negou-se a abrir o portão de acesso ao imóvel, soltou dois bravos cães de guarda, praticou gestos obscenos e, em altos brados e de forma escandalosa, proferiu palavras de baixo calão contra o oficial e o representante do banco, com desígnio autônomo de denegrir, ofender e afrontar a dignidade do funcionário público em razão da função que este desempenhava. Além disso, exibiu uma arma da janela da casa, dizendo que, caso fosse executada a ordem de arrombamento, iria resistir. Diante da gravidade da situação vivenciada, o oficial de justiça deixou de cumprir o mandado, certificou todo o ocorrido, comunicando ao juízo as razões do não cumprimento da ordem judicial, e solicitou auxílio de força policial para ulterior diligência. Com base na situação hipotética apresentada acima e nos mandamentos do direito penal, assinale a opção correta.
+*** A) A caracterização do crime de resistência depende de a oposição apresentada pelo agente ser consubstanciada em atos de violência contra os executores do ato legal e de a ordem judicial não ser efetivamente cumprida.
+*** B) A responsabilização penal do agente agressor somente se efetivará mediante ação penal privada, com o oferecimento da competente queixa-crime.
+*** C) Não haverá crime de resistência se a oposição for praticada em face de particular que preste auxílio ao servidor público no cumprimento da ordem judicial, a exemplo de chaveiro convocado para abertura de portas e cadeados.
+*** D) Nos termos da situação apresentada, a conduta de desobedecer à ordem legal de desocupação e acesso ao imóvel, emanada de servidor público, no estrito cumprimento de dever legal, restou abrangida pelo crime de resistência.
+*** E) Na situação considerada, o crime de desacato não será punido de forma autônoma e em concurso material, uma vez que constitui elemento constitutivo e meio para a prática do crime de resistência.
+**** Gabarito: D
+****** Conceito de Crime
+-----
+* Ano: 2010 | Banca: FGV | Órgão: SEAD-AP
+** A respeito do crime de apropriação indébita envolvendo contribuições previdenciárias, analise as afirmativas a seguir.
+I. Constitui crime de apropriação indébita deixar de recolher aos cofres públicos valor de contribuição descontada dos funcionários da empresa.
+II. Deixar de repassar a parcela de contribuição devida pela própria empresa, não constitui crime de apropriação indébita.
+III. A ação penal por crime de apropriação indébita de contribuições previdenciárias, no entendimento seguido pela jurisprudência, conforme já reconhecido em decisão do Superior Tribunal de Justiça, não dispensa a demonstração do dolo específico, isto é, a efetiva intenção do sujeito ativo de utilizar os valores das contribuições recolhidas dos contribuintes em benefício próprio.
+Assinale:
+*** A) se somente a afirmativa I estiver correta.
+*** B) se somente as afirmativas I e II estiverem corretas.
+*** C) se somente as afirmativas II e III estiverem corretas.
+*** D) se somente a afirmativa III estiver correta.
+*** E) se todas as afirmativas estiverem corretas.
+**** Gabarito: E
+****** Conceito de Crime
+-----
+* Ano: 2010 | Banca: FGV | Órgão: SEAD-AP
+** Analise as proposições a seguir.
+I. O exame do direito positivo é a metodologia indicada para promover a distinção entre crime e contravenção penal posto que não há diferença ontológica entre ambos.
+II. Segundo dispõe o legislador penal, crime é a infração penal a que a lei comina pena de reclusão ou de detenção, quer isoladamente, quer alternativa ou cumulativamente com a pena de multa; contravenção é a infração penal a que a lei comina, isoladamente, pena de prisão simples ou multa, ou ambas, alternativa ou cumulativamente.
+III. No direito penal pátrio a expressão crime é tida como gênero, do qual são espécies as contravenções penais e os delitos.
+IV. A diferença entre ilícito civil e ilícito penal é que o primeiro gera a imposição de uma pena, que pode até chegar ao extremo de privação da liberdade do agente; já o segundo tem como consequência a obrigação de reparar o dano, primordialmente.
+Assinale:
+*** A) se somente as proposições III e IV estiverem corretas.
+*** B) se somente as proposições I e II estiverem corretas.
+*** C) se somente as proposições II e IV estiverem corretas.
+*** D) se somente as proposições I e IV estiverem corretas.
+*** E) se somente as proposições II e III estiverem corretas.
+**** Gabarito: B
+****** Sistemas Penais
+-----
+* Ano: 2010 | Banca: CESPE / CEBRASPE | Órgão: MPE-SE
+** Com relação aos meios operacionais para a prevenção e repressão de ações praticadas por organizações criminosas, assinale a opção correta.
+*** A) A legislação não prevê o regime inicial de pena a que devem ser submetidos os condenados por crime decorrente de organização criminosa, devendo o julgador ater-se aos parâmetros fixados no CP, especialmente no que concerne ao *quantum* da pena privativa de liberdade.
+*** B) A intensa e efetiva participação na organização criminosa, segundo entendimento consolidado no STJ, não constitui fundamento idôneo para negar a liberdade provisória ao réu.
+*** C) O STF declarou inconstitucional o dispositivo legal que previa causa obrigatória de diminuição de pena em caso de delação premiada, sob o fundamento de que, dada a gravidade de tais crimes, não se poderia admitir a diminuição de pena em face da mera colaboração do agente.
+*** D) Não prevê a legislação a captação e a interceptação ambiental de sinais, mas somente a interceptação telefônica, a qual deve ser precedida de circunstanciada autorização judicial.
+*** E) É permitida a ação controlada, que consiste em retardar a interdição policial do que se supõe ação praticada por determinada organização criminosa, desde que mantida sob observação e acompanhamento para que a medida legal se concretize no momento mais eficaz do ponto de vista da formação de provas e do fornecimento de informações.
+**** Gabarito: E
+****** Sistemas Penais
+-----
+* Ano: 2010 | Banca: MPE-MG | Órgão: MPE-MG
+** Assinale a alternativa *INCORRETA*.
+*** A) Ocorre o estado de necessidade defensivo quando a conduta do agente atinge um interesse de quem causou a situação de perigo.
+*** B) Antes de passar em julgado a sentença final, a prescrição não corre enquanto o agente cumpre pena no estrangeiro.
+*** C) A tentativa inidônea ou inadequada identifica a hipótese denominada pela doutrina de crime de flagrante esperado.
+*** D) O agente que, na condição de garantidor, omite-se, ensejando a que o resultado lesivo ocorra, pratica crime omissivo impróprio.
+*** E) A reincidência poderá ocorrer entre crimes culposos, um crime doloso e outro culposo e entre crimes tentados.
+**** Gabarito: C
+****** Conceito de Crime
+-----
+* Ano: 2010 | Banca: MPE-MG | Órgão: MPE-MG
+** Assinale a alternativa *CORRETA*.
+*** A) A pessoa pode ser, ao mesmo tempo, sujeito ativo e passivo de um delito em face de sua própria conduta.
+*** B) O agente responderá tão-somente por tentativa de crime se ocorrer a desistência voluntária ou o arrependimento eficaz.
+*** C) O condenado não reincidente, cuja pena não exceda a doze anos, poderá, desde o princípio, cumpri-la em regime semiaberto.
+*** D) O positivismo criminológico utiliza método empírico-intuitivo experimental, contrapondo-se à análise filosófico-metafísica da escola clássica.
+*** E) Na contagem dos prazos, leva-se em consideração o dia do final, excluindo-se o do começo.
+**** Gabarito: D
+****** Sistemas Penais, Conceito de Crime
+
+***
+
+## Fonte: Excerpts from "Questões de Provas - Questões de Concursos - Página 12 | Qconcursos.com" (20 Questões)
+
+* Ano: 2010 | Banca: MPE-MG | Órgão: MPE-MG
+** Assinale a alternativa *CORRETA*.
+*** A) A prática de crime doloso no curso da suspensão condicional da pena não impede a concessão de fiança ao réu.
+*** B) O interrogatório de pessoa surda será realizado por escrito e o interrogando responderá também por escrito, anexando-se aos autos as perguntas e respostas.
+*** C) O Juiz de Direito, no exercício de suas funções, poderá formular pedido de *habeas corpus* ao Tribunal de Justiça, desde que ele não seja a autoridade coatora.
+*** D) A Magna Carta permite interceptação das comunicações telefônicas, mas considera inviolável o sigilo das comunicações telegráficas.
+*** E) São admissíveis embargos infringentes contra decisão em matéria constitucional submetida ao plenário dos Tribunais.
+**** Gabarito: D
+****** Sistemas Penais
+-----
+* Ano: 2010 | Banca: MPE-GO | Órgão: MPE-GO
+** Assinale a alternativa incorreta.
+*** A) O controle social pode ser difuso ou institucionalizado. O sistema penal compõe o controle social punitivo institucionalizado e formalmente punitivo.
+*** B) Com a expressão 'Direito Penal', são abarcados o conjunto de leis penais e o sistema de interpretação dessas leis, que é o saber do Direito Penal.
+*** C) A lei penal em sentido amplo é a que relaciona uma conduta a uma pena, estabelecendo um crime ou delito. Pode-se falar que nem todas as condutas antijurídicas são crimes, mas todos os crimes são condutas antijurídicas.
+*** D) O direito penal deve ter como objeto, para uns, a segurança jurídica (entendida como a tutela de bens jurídicos ou de valores ético-sociais); para outros, a defesa social.
+**** Gabarito: C
+****** Sistemas Penais, Conceito de Crime
+-----
+* Ano: 2010 | Banca: CESPE / CEBRASPE | Órgão: AGU
+** Em relação a crime organizado, julgue os itens que se seguem.
+Não há previsão expressa quanto à identificação criminal de pessoas envolvidas com a ação praticada por organizações criminosas, sendo aplicável a regra geral segundo a qual o civilmente identificado não será submetido a identificação criminal.
+*** A) Certo
+*** B) Errado
+**** Gabarito: Errado
+****** Sistemas Penais
+-----
+* Ano: 2010 | Banca: CESPE / CEBRASPE | Órgão: AGU
+** Em relação a crime organizado, julgue os itens que se seguem.
+Prevê a lei causa de redução da pena em caso de colaboração espontânea do agente envolvido em crime praticado em organização criminosa, desde que essa colaboração leve ao esclarecimento da infração penal e de sua autoria.
+*** A) Certo
+*** B) Errado
+**** Gabarito: Certo
+****** Sistemas Penais
+-----
+* Ano: 2009 | Banca: CESPE / CEBRASPE | Órgão: DPE-AL
+** Julgue o item subsequente, acerca do instituto da pena.
+Quanto às suas finalidades, segundo a teoria eclética ou conciliatória, a pena tem dupla função: punir o criminoso e prevenir a prática do crime.
+*** A) Certo
+*** B) Errado
+**** Gabarito: Certo
+****** Sistemas Penais
+-----
+* Ano: 2009 | Banca: FUNRIO | Órgão: MJSP
+** Assinale a opção correta:
+*** A) Considera-se praticado o crime no momento do resultado.
+*** B) Considera-se praticado o crime no momento da ação ou da omissão ou no momento do resultado.
+*** C) Considera-se praticado o crime no momento da ação ou da omissão, no momento do resultado ou no momento em que deveria ocorrer o resultado.
+*** D) Considera-se praticado o crime no momento da ação se houver resultado e no momento do resultado se houver omissão
+*** E) Considera-se praticado o crime no momento da ação ou da omissão
+**** Gabarito: E
+****** Conceito de Crime
+-----
+* Ano: 2009 | Banca: MOVENS | Órgão: PC-PA
+** No que diz respeito ao ordenamento jurídico brasileiro, em relação à infração penal, assinale a opção correta.
+*** A) Adotou-se no direito penal brasileiro o critério bipartido, segundo o qual as condutas puníveis dividem-se em crimes ou contravenções, como sinônimos, e delitos.
+*** B) O critério adotado para a distinção entre crime e contravenção é dado pela natureza da pena privativa de liberdade cominada.
+*** C) O Código Penal brasileiro adotou o critério tripartite, existindo diferença entre crime, delito e contravenção.
+*** D) No âmbito do direito penal, crimes, delitos e contravenções são expressões equivalentes ou sinônimas.
+**** Gabarito: B
+****** Sistemas Penais
+-----
+* Ano: 2009 | Banca: CESPE / CEBRASPE | Órgão: PC-RN
+** Em relação à infração penal, assinale a opção correta.
+*** A) Considera-se crime a infração penal a que a lei comina pena de reclusão, de detenção ou prisão simples, quer isoladamente, quer alternativa ou cumulativamente com a pena de multa.
+*** B) Considera-se contravenção penal a infração penal a que a lei comina pena máxima não superior a dois anos de reclusão.
+*** C) No ordenamento jurídico brasileiro, a diferença entre crime e delito está na gravidade do fato e na pena cominada à infração penal.
+*** D) A infração penal é gênero que abrange como espécies as contravenções penais e os crimes, sendo estes últimos também identificados como delitos.
+*** E) Os crimes apenados com reclusão se submetem aos regimes fechado e semi-aberto, enquanto os apenados com detenção se submetem aos regimes aberto e prisão simples.
+**** Gabarito: D
+****** Sistemas Penais, Conceito de Crime
+-----
+* Ano: 2009 | Banca: CESPE / CEBRASPE | Órgão: TCE-ES
+** Com relação aos crimes culposos, assinale a opção correta.
+*** A) A culpa consciente ocorre quando o agente assume ou aceita o risco de produzir o resultado. Nesse caso, o agente não quer o resultado, caso contrário, ter-se-ia um crime doloso.
+*** B) A culpa imprópria ou culpa por extensão é aquela em que a vontade do sujeito dirige-se a um ou outro resultado, indiferentemente dos danos que cause à vítima.
+*** C) A compensação de culpas no direito penal, aceita pela doutrina penal contemporânea e acolhida pela jurisprudência pátria, diz respeito à possibilidade de compensar a culpa da vítima com a culpa do agente da conduta delituosa, de modo a assegurar equilíbrio na relação penal estabelecida.
+*** D) São elementos do fato típico culposo: conduta humana voluntária (ação/omissão), inobservância do cuidado objetivo (imprudência/negligência/imperícia), previsibilidade objetiva, ausência de previsão, resultado involuntário, nexo de causalidade e tipicidade.
+*** E) A autoria dos crimes culposos é basicamente atribuída àquele que causou o resultado. Com isso admite-se a participação culposa em delito doloso, participação dolosa em crime culposo e participação culposa em fato típico culposo.
+**** Gabarito: D
+****** Conceito de Crime
+-----
+* Ano: 2009 | Banca: FUNIVERSA | Órgão: PC-DF
+** Segundo a concepção material, crime é tudo aquilo que a sociedade entende que pode e deve ser proibido, mediante aplicação de sanção penal. Para a concepção formal, crime é a conduta proibida por lei, sob ameaça de aplicação de pena, ou seja, o fenômeno é tratado por uma visão legislativa. No seu conceito analítico, prevalece o entendimento de que crime é uma conduta típica, antijurídica e culpável. Acerca dos desdobramentos desta última teoria, assinale a alternativa correta.
+*** A) Pela teoria bipartida, o autor de um fato típico e antijurídico que tenha sido levado à sua prática por erro escusável de proibição, sem ter a menor ideia de que o que pratica é ilícito, não é considerado um criminoso.
+*** B) O finalismo, de Hans Welzel, nem sempre considerou o crime como fato típico, antijurídico e culpável.
+*** C) Para a teoria causalista, o dolo e a culpa estão situados na culpabilidade. Então, logicamente, para quem adota essa teoria, impossível se torna acolher o conceito bipartido de crime.
+*** D) Da concepção analítica de crime, é possível inferir que o Direito Penal não estabeleceu distinção entre crime e contravenção penal. Tanto no crime quanto na contravenção não é cabível a fixação da multa de maneira isolada.
+*** E) É correto afirmar que a estrutura analítica do crime se liga, necessariamente, à adoção da concepção finalista, causalista ou social da ação delituosa.
+**** Gabarito: C
+****** Sistemas Penais, Conceito de Crime
+-----
+* Ano: 2009 | Banca: CESPE / CEBRASPE | Órgão: MPE-RN
+** Acerca das teorias que regem o direito penal e os seus institutos, assinale a opção correta.
+*** A) A teoria final da ação foi elaborada por Von Liszt no final do século XIX, tendo sido desenvolvida também por Beling e Radbruch, resultando na estrutura mundialmente conhecida como sistema Liszt-Beling-Radbruch.
+*** B) A teoria causal da ação teve por mérito superar a taxativa separação dos aspectos objetivos e subjetivos da ação e do próprio injusto, transformando, assim, o injusto naturalístico em injusto pessoal.
+*** C) Para a teoria constitucional do direito penal, a verificação da ocorrência do fato típico doloso não se resume ao aspecto formal-objetivo, dependendo, ainda, da ocorrência de outros elementos de índole material-normativa e subjetiva.
+*** D) Para a teoria social da ação, um fato considerado normal, correto, justo e adequado pela coletividade, ainda que formalmente enquadrável em um tipo incriminador, pode ser considerado típico pelo ordenamento jurídico, devendo, no entanto, ser excluída a culpabilidade do agente.
+*** E) A teoria funcional da conduta está estruturada em duas vertentes: para a primeira, que tem Claus Roxin como principal defensor, a função da norma é a reafirmação da autoridade do direito; a segunda, cujo principal representante é Günther Jakobs, sustenta que um moderno direito penal deve estar estruturado teleologicamente, isto é, atendendo a finalidades valorativas.
+**** Gabarito: C
+****** Sistemas Penais
+-----
+* Ano: 2009 | Banca: FCC | Órgão: DPE-MA
+** No trajeto do transporte de dois presos para o foro criminal por agentes penitenciários um deles saca de um instrumento perfurante e desfere diversos golpes contra o outro preso. Os agentes da lei presenciaram a ação desde o início e permaneceram inertes. Na conduta dos agentes
+*** A) há amparo pela excludente de ilicitude do exercício regular do direito, deixando de agir por exposição do risco às próprias vidas.
+*** B) a omissão é penalmente irrelevante porque a causalidade é fática.
+*** C) não há punição porque o Estado criou o risco da ocorrência do resultado.
+*** D) a omissão é penalmente relevante porque a causalidade é normativa.
+*** E) a omissão é penalmente relevante porque a causalidade é fática-normativa.
+**** Gabarito: D
+****** Conceito de Crime
+-----
+* Ano: 2009 | Banca: FCC | Órgão: DPE-MT
+** O agente iniciou a execução de um delito, cuja consumação não ocorreu pela:
+I. Ineficácia relativa do meio empregado.
+II. Impropriedade absoluta do objeto.
+III. Reação da vítima.
+IV. Ineficácia absoluta do meio empregado.
+V. Impropriedade relativa do objeto.
+Haverá tentativa punível na(s) hipótese(s) indicada(s) SOMENTE em
+*** A) I, III e V.
+*** B) III.
+*** C) I e V.
+*** D) II e IV.
+*** E) I, II e IV.
+**** Gabarito: A
+****** Conceito de Crime
+-----
+* Ano: 2009 | Banca: FCC | Órgão: DPE-MT
+** O art. 14, § único, do Código Penal dispõe que "salvo disposição em contrário, pune-se a tentativa com a pena correspondente ao crime consumado, diminuída de um a dois terços". O percentual de diminuição de pena a ser considerado levará em conta
+*** A) a intensidade do dolo.
+*** B) o *inter criminis* percorrido pelo agente.
+*** C) a periculosidade do agente.
+*** D) a reincidência.
+*** E) os antecedentes do agente.
+**** Gabarito: B
+****** Conceito de Crime
+-----
+* Ano: 2009 | Banca: CESPE / CEBRASPE | Órgão: PC-PB
+** A respeito da infração penal no ordenamento jurídico brasileiro, assinale a opção correta.
+*** A) Crimes, delitos e contravenções são termos sinônimos.
+*** B) Adotou-se o critério tripartido, existindo diferença entre crime, delito e contravenção.
+*** C) Adotou-se o critério bipartido, segundo o qual as condutas puníveis dividem-se em crimes ou contravenções (como sinônimos) e delitos.
+*** D) O critério distintivo entre crime e contravenção é dado pela natureza da pena privativa de liberdade cominada.
+*** E) A expressão infração penal abrange apenas crimes e delitos.
+**** Gabarito: D
+****** Sistemas Penais
+-----
+* Ano: 2009 | Banca: CESPE / CEBRASPE | Órgão: DPE-AL
+** Julgue os itens seguintes, acerca do fato típico e de seus elementos.
+Todo crime tem resultado jurídico, porque sempre agride um bem tutelado pela norma.
+*** A) Certo
+*** B) Errado
+**** Gabarito: Certo
+****** Conceito de Crime
+-----
+* Ano: 2009 | Banca: CESPE / CEBRASPE | Órgão: BACEN
+** A respeito de crimes culposo e impossível, da obediência hierárquica, do erro de proibição e do arrependimento posterior, assinale a opção correta.
+*** A) Caso um renomado e habilidoso médico, especializado em cirurgias abdominais, ao realizar uma intervenção, esqueça uma pinça no abdome do paciente, nesse caso, tal conduta representará culpa por imperícia, pois é relativa ao exercício da profissão.
+*** B) Se, em um supermercado dotado de sistema eletrônico de vigilância, um cliente colocar diversos objetos do estabelecimento dentro de sua bolsa, com intenção de subtraí-los para si, a simples presença do sistema eletrônico de vigilância no supermercado tornará o crime impossível.
+*** C) Caso o fato seja cometido em estrita obediência a ordem, não manifestamente ilegal, de superior hierárquico, não serão puníveis o agente que obedeceu nem o autor da coação ou da ordem.
+*** D) O desconhecimento da lei é inescusável. Desse modo, o erro sobre a ilicitude do fato, evitável ou inevitável, não elidirá a pena, podendo apenas atenuá-la.
+*** E) Em crimes cometidos sem violência ou grave ameaça a pessoa, a pena será reduzida de um a dois terços se, por ato voluntário do agente, for reparado o dano ou restituída a coisa até o recebimento da denúncia ou da queixa.
+**** Gabarito: E
+****** Conceito de Crime
+-----
+* Ano: 2009 | Banca: UESPI | Órgão: PC-PI
+** Marque a afirmação correta que se aplica seja aos crimes hediondos (Lei 8.072/90), seja ao tráfico ilícito e ao uso indevido de substâncias entorpecentes (Lei 11.340/2006), seja aos crimes de tortura (Lei 9.455/97).
+*** A) As penas aplicadas ao usuário de substâncias entorpecentes são: a advertência sobre os efeitos das drogas, a prestação de serviços à comunidade e a medida educativa de comparecimento a programa ou curso educativo. Estas, nos casos de descumprimento injustificado, podem ser convertidas em pena privativa de liberdade.
+*** B) O crime de associação para o tráfico ilícito de entorpecente é um crime de concurso necessário, devendo ter no mínimo 2 (dois) sujeitos ativos.
+*** C) Os crimes de tortura, assim como os crimes hediondos, não admitem a anistia, a graça e o indulto.
+*** D) O roubo qualificado pelo resultado (lesão corporal grave e morte), estabelecido no art. 157 § 3°, é crime hediondo.
+*** E) Quem, sendo usuário de substância entorpecente, oferece droga, eventualmente e sem objetivo de lucro, a pessoa de seu relacionamento, para juntos a consumirem, pratica o crime de uso de substância entorpecente, com uma causa especial de aumento de pena pelo oferecimento da droga a terceira pessoa.
+**** Gabarito: B
+****** Conceito de Crime
+-----
+* Ano: 2009 | Banca: UESPI | Órgão: PC-PI
+** Com relação aos crimes contra o patrimônio, indique a alternativa correta.
+*** A) Para doutrina majoritária, no crime de furto, a causa de aumento de pena do repouso noturno (art. 155 § 1°) não pode ser aplicada nas hipóteses de furto qualificado (art. 155 § 4°).
+*** B) Na hipótese do empregado subtrair um objeto do seu empregador, restará sempre configurado o furto qualificado pelo abuso de confiança.
+*** C) No crime de roubo impróprio, o sujeito ativo primeiro ameaça a vítima para depois efetuar a subtração.
+*** D) Para o supremo tribunal federal, é possível falar em tentativa de latrocínio quando a vítima morre, e o sujeito ativo não consegue subtrair os seus bens.
+*** E) O crime de roubo e o crime de extorsão são crimes materiais; portanto a consumação só ocorre com a produção do resultado.
+**** Gabarito: A
+****** Conceito de Crime
+-----
+* Ano: 2009 | Banca: CESPE / CEBRASPE | Órgão: TRF - 2ª REGIÃO
+** Com relação aos crimes em espécie, assinale a opção correta.
+*** A) Em decisões recentes, o STJ tem entendido inaplicável o princípio da insignificância nos crimes contra a administração pública, ainda que o valor econômico da lesão possa ser considerado ínfimo, porque a norma busca resguardar não somente o aspecto patrimonial, mas a moral administrativa.
+*** B) No que se refere à consumação do roubo, o STJ e o STF adotam a teoria da apprehensio, também denominada de amotio, segundo a qual se considera consumado o delito no momento em que o agente obtém a posse da res furtiva, ainda que não seja mansa e pacífica ou haja perseguição policial, sendo prescindível que o objeto do crime saia da esfera de vigilância da vítima.
+*** C) Revogada a lei específica que tipificava a corrupção de menores, o CP passou a prever a mesma conduta, constituindo, todavia, novatio legis in pejus, na medida em que as penas privativas de liberdade e de multa se tornaram mais rigorosas.
+*** D) Pacificou-se a jurisprudência do STJ no sentido da não admissibilidade da substituição da pena privativa de liberdade por pena restritiva de direitos, com fundamento na hediondez do crime, ainda que o réu preencha os requisitos objetivos e subjetivos que ensejariam a substituição.
+*** E) Configura bis in idem e, consequentemente, nulidade sanável por habeas corpus a condenação por crime de quadrilha armada e roubo qualificado pelo uso de armas, na mesma sentença.
+**** Gabarito: E
+****** Conceito de Crime
+
+***
+
+## Fonte: Excerpts from "Questões de Provas - Questões de Concursos - Página 13 | Qconcursos.com" (20 Questões)
+
+* Ano: 2009 | Banca: FCC | Órgão: MPE-SE
+** Denomina-se crime complexo o que
+*** A) exige que os agentes atuem uns contra os outros.
+*** B) se enquadra num único tipo legal.
+*** C) é formado pela fusão de dois ou mais tipos legais de crime.
+*** D) exige a atuação de dois ou mais agentes.
+*** E) atinge mais de um bem jurídico.
+**** Gabarito: C
+****** Conceito de Crime
+-----
+* Ano: 2009 | Banca: FGV | Órgão: TJ-PA
+** Com relação aos crimes contra a liberdade sexual, analise as afirmativas a seguir.
+I. São formas qualificadas dos crimes contra a liberdade sexual aqueles em que há violência e desta violência resulta lesão corporal de natureza grave ou morte.
+II. Nos crimes contra a liberdade sexual, somente se procede mediante queixa. Mas se o crime é praticado com violência ou ameaça, a ação penal é pública, condicionada à representação.
+III. Nos crimes contra a liberdade sexual, se o crime é cometido com abuso do pátrio poder, a ação penal é pública incondicionada.
+Assinale:
+*** A) se nenhuma afirmativa estiver correta.
+*** B) se somente as afirmativas I e II estiverem corretas
+*** C) se somente as afirmativas I e III estiverem corretas.
+*** D) se somente as afirmativas II e III estiverem corretas.
+*** E) se todas as afirmativas estiverem corretas.
+**** Gabarito: C
+****** Conceito de Crime
+-----
+* Ano: 2009 | Banca: FGV | Órgão: TJ-PA
+** Com relação ao crime organizado, analise as afirmativas a seguir.
+I. A lei 9.034/95, que dispõe sobre a utilização de meios operacionais para a prevenção e repressão de ações praticadas por organizações criminosas, não se aplica às ações praticadas por quadrilha ou bando, apenas às ações praticadas por organizações criminosas.
+II. Os condenados por crimes decorrentes de organização criminosa iniciarão o cumprimento da pena em regime fechado.
+III. Na apuração de crimes praticados por organizações criminosas, em qualquer fase de persecução criminal, são permitidos, sem prejuízo dos já previstos em lei, os seguintes procedimentos de investigação e formação de provas: ação controlada; captação e interceptação ambiental; infiltração por agentes de polícia.
+Assinale:
+*** A) se nenhuma afirmativa estiver correta.
+*** B) se somente as afirmativas II e III estiverem corretas.
+*** C) se somente as afirmativas I e II estiverem corretas.
+*** D) se somente a afirmativa III estiver correta.
+*** E) se todas as afirmativas estiverem corretas.
+**** Gabarito: B
+****** Sistemas Penais
+-----
+* Ano: 2009 | Banca: FGV | Órgão: TJ-PA
+** Assinale a alternativa que indique a conduta que *não* constitui crime contra a ordem econômica.
+*** A) Abusar do poder econômico, dominando o mercado ou eliminando, total ou parcialmente, a concorrência mediante coalizão, incorporação, fusão ou integração de empresas.
+*** B) Formar acordo, convênio, ajuste ou aliança entre ofertantes, visando ao controle regionalizado do mercado por empresa ou grupo de empresas.
+*** C) Favorecer ou preferir, sem justa causa, comprador ou freguês, ressalvados os sistemas de entrega ao consumo por intermédio de distribuidores ou revendedores.
+*** D) Subordinar a venda de bem ou a utilização de serviço à aquisição de outro bem, ou ao uso de determinado serviço.
+*** E) Aplicar fórmula de reajustamento de preços ou indexação de contrato proibida, ou diversa daquela que for legalmente estabelecida, ou fixada por autoridade competente.
+**** Gabarito: C
+****** Conceito de Crime
+-----
+* Ano: 2009 | Banca: VUNESP | Órgão: TJ-MT
+** A combatida responsabilidade penal objetiva
+*** A) não encontra exemplos concretos em nossa legislação penal.
+*** B) é doutrinariamente definida como à sujeição de alguém à imposição de pena sem que tenha agido com dolo ou culpa ou sem que tenha ficado demonstrada sua culpabilidade, com fundamento no nexo de causalidade, todavia, não encontra aplicação prática em casos concretos.
+*** C) pode ser exemplificada em nossa legislação penal na rixa qualificada e na *actio libera in causa* na embriaguez.
+*** D) tem um único exemplo em nossa legislação penal consistente na responsabilização das pessoas jurídicas por crimes ambientais.
+*** E) deve ser utilizada em *ultima ratio*, uma vez que, pode violar direitos e garantias fundamentais da pessoa humana.
+**** Gabarito: C
+****** Sistemas Penais
+-----
+* Ano: 2009 | Banca: FCC | Órgão: TJ-PI
+** Quanto ao elemento moral, os crimes podem ser
+*** A) comissivos, omissivos e comissivos por omissão.
+*** B) dolosos, culposos e qualificados pelo resultado.
+*** C) individuais, coletivos, gerais e especiais.
+*** D) comuns, políticos e mistos.
+*** E) simples, complexos, formais e materiais.
+**** Gabarito: B
+****** Conceito de Crime
+-----
+* Ano: 2009 | Banca: ESAF | Órgão: Receita Federal
+** Carlos atira em João com a intenção de matá-lo. Entretanto, a bala passa de raspão no braço de João. Este é socorrido e levado para o hospital. Tragicamente, o hospital é incendiado por Abelardo que deseja matar todos os pacientes do hospital e João morre carbonizado.
+*** A) Carlos deverá ser denunciado por tentativa de homicídio.
+*** B) Abelardo não pode ser denunciado pelo homicídio de João.
+*** C) Abelardo não cometeu crime algum em relação a João.
+*** D) Carlos deverá ser denunciado por homicídio.
+*** E) Carlos e Abelardo deverão ser denunciados em concurso de agentes como co-autores do homicídio de João.
+**** Gabarito: A
+****** Conceito de Crime
+-----
+* Ano: 2009 | Banca: CESPE / CEBRASPE | Órgão: DPE-ES
+** Com relação a direito penal, julgue os seguintes itens.
+A tentativa incruenta não é punível, pois considera-se que o agente não iniciou a fase executória do iter criminis.
+*** A) Certo
+*** B) Errado
+**** Gabarito: Errado
+****** Conceito de Crime
+-----
+* Ano: 2009 | Banca: CESPE / CEBRASPE | Órgão: DPF
+** Quanto a tipicidade, ilicitude, culpabilidade e punibilidade, julgue os itens a seguir.
+Os crimes comissivos por omissão - também chamados de crimes omissivos impróprios - são aqueles para os quais o tipo penal descreve uma ação, mas o resultado é obtido por inação.
+*** A) Certo
+*** B) Errado
+**** Gabarito: Certo
+****** Conceito de Crime
+-----
+* Ano: 2009 | Banca: FUNIVERSA | Órgão: PC-DF
+** Assinale a alternativa correta.
+*** A) Não há crime pela ausência de dolo pelo fato de este ser um elemento da antijuridicidade.
+*** B) Em virtude da teoria da presunção do dolo, adotada pelo ordenamento penal, o erro sobre elemento constitutivo do tipo somente excluirá a culpa.
+*** C) Considere a seguinte situação hipotética: João foi contratado para tirar a vida de Fernando. Quando vai executar o homicídio, não encontra Fernando e, como o irmão deste estava no local e era seu desafeto, tira-lhe a vida. Nessa situação, João praticou um homicídio com erro sobre a pessoa, não se devendo considerar as condições ou qualidades da vítima, mas as de Fernando.
+*** D) Tratando-se de crime complexo, a ausência de objetos de valores com a vítima de roubo descaracteriza a figura típica do crime de roubo, face o erro sobre o elemento constitutivo do tipo.
+*** E) É isento de pena quem imagina verdadeiramente estar agindo em legítima defesa, já que toda situação fática assim indica, apesar de tal não ocorrer, estar-se-á diante de uma discriminante putativa.
+**** Gabarito: E
+****** Conceito de Crime
+-----
+* Ano: 2009 | Banca: CESPE / CEBRASPE | Órgão: Polícia Federal
+** Julgue os seguintes itens, relativos a crimes contra a pessoa e contra o patrimônio.
+O crime de lesão corporal seguida de morte é preterdoloso, havendo dolo na conduta antecedente e culpa na conduta consequente.
+*** A) Certo
+*** B) Errado
+**** Gabarito: Certo
+****** Conceito de Crime
+-----
+* Ano: 2009 | Banca: EJEF | Órgão: TJ-MG
+** Marque a alternativa **CORRETA**. O erro de proibição escusável, como excludente da potencial consciência da ilicitude, leva à absolvição por exclusão da:
+*** A) Imputabilidade
+*** B) Tipicidade
+*** C) Punibilidade
+*** D) Culpabilidade
+**** Gabarito: D
+****** Conceito de Crime
+-----
+* Ano: 2009 | Banca: FCC | Órgão: TJ-SE
+** Constituem elementos do estado de necessidade:
+*** A) Perigo atual ou iminente, que o agente não tenha provocado, nem podia de outro modo ter evitado.
+*** B) Reação à injusta agressão, atual ou iminente, fazendo uso dos meios necessários moderadamente.
+*** C) Agressão atual, defesa de direito próprio ou de outrem e reação moderada.
+*** D) Existência de perigo atual, cujo sacrifício, nas circunstâncias era razoável exigir-se.
+*** E) Defesa de direito próprio ou de outrem, voluntariamente provocado pelo agente e exigibilidade de conduta diversa.
+**** Gabarito: A
+****** Conceito de Crime
+-----
+* Ano: 2009 | Banca: FCC | Órgão: TJ-SE
+** Quanto ao elemento moral, os crimes podem ser:
+*** A) comissivos e omissivos.
+*** B) simples e complexos.
+*** C) individuais e coletivos.
+*** D) dolosos e culposos.
+*** E) políticos e mistos.
+**** Gabarito: D
+****** Conceito de Crime
+-----
+* Ano: 2009 | Banca: FCC | Órgão: MPE-CE
+** Nos chamados crimes monossubjetivos,
+*** A) o concurso de pessoas é eventual.
+*** B) o concurso de pessoas só ocorre no caso de autoria mediata.
+*** C) o concurso de pessoas é necessário.
+*** D) não há concurso de pessoas.
+*** E) há concurso de pessoas apenas na forma de participação.
+**** Gabarito: A
+****** Conceito de Crime
+-----
+* Ano: 2009 | Banca: FCC | Órgão: MPE-CE
+** Ainda que não encontre tipificação em excludente prevista em lei, a doutrina tem aceito a inexigibilidade de conduta diversa como causa supralegal de exclusão da
+*** A) antijuridicidade.
+*** B) culpabilidade.
+*** C) tipicidade.
+*** D) ilicitude.
+*** E) punibilidade.
+**** Gabarito: B
+****** Conceito de Crime
+-----
+* Ano: 2009 | Banca: FCC | Órgão: TJ-PA
+** Para a configuração do crime culposo, além da tipicidade, torna-se necessária a prática de conduta com
+*** A) inobservância do dever de cuidado que causa um resultado cujo risco foi assumido pelo agente.
+*** B) observância do dever de cuidado que causa um resultado desejado, mas previsível.
+*** C) inobservância do dever de cuidado que causa um resultado desejado, mas previsível.
+*** D) inobservância do dever de cuidado que causa um resultado não desejado e imprevisível.
+*** E) observância do dever de cuidado e vontade consciente.
+**** Gabarito: D
+****** Conceito de Crime
+-----
+* Ano: 2008 | Banca: FCC | Órgão: TCE-RR
+** São elementos que compõem o fato típico:
+*** A) nexo causal, conduta, tipicidade e punibilidade.
+*** B) resultado, tipicidade, nexo causal e antijuridicidade.
+*** C) conduta, resultado, nexo causal e tipicidade.
+*** D) culpabilidade, tipicidade, conduta e resultado.
+*** E) conduta, resultado, nexo causal e subjetividade.
+**** Gabarito: C
+****** Conceito de Crime
+-----
+* Ano: 2008 | Banca: FMP Concursos | Órgão: TCE-MT
+** Assinale a alternativa correta.
+*** A) A relação de causalidade é prescindível nos crimes omissivos em geral.
+*** B) A coação moral irresistível e a obediência à ordem de superior hierárquico não manifestamente ilegal constituem as duas únicas hipóteses de exclusão da culpabilidade expressamente previstas na Parte Geral do Código Penal com fundamento na inexigibilidade de conduta diversa.
+*** C) A distinção entre crime e contravenção dá-se com base no critério qualitativo.
+*** D) Para a teoria finalista da ação a culpabilidade não pode constituir elemento do crime, mas, sim, pressuposto de pena.
+*** E) Nenhuma das alternativas.
+**** Gabarito: B
+****** Sistemas Penais, Conceito de Crime
+-----
+* Ano: 2008 | Banca: CEFET-BA | Órgão: PC-BA
+** Por *iter criminis* compreende-se o conjunto de
+*** A) atos de execução do delito.
+*** B) atos preparatórios antecedentes ao delito.
+*** C) atos de consumação do delito.
+*** D) fases pelas quais passa o delito.
+*** E) atos de cogitação.
+**** Gabarito: D
+****** Conceito de Crime
+-----
