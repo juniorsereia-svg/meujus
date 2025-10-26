@@ -56,7 +56,6 @@
       background:#fff; border:1px solid #e5e7eb; border-radius:14px;
       max-height:260px; overflow:auto; box-shadow:0 10px 30px rgba(0,0,0,.06);
     }
-    /* Cabeçalho e busca dentro do painel (JS injeta .combo-head e .combo-search) */
     .combo-head{
       position:sticky; top:0; background:#fff; z-index:1;
       display:flex; align-items:center; justify-content:space-between;
@@ -71,7 +70,6 @@
       border:0; outline:0; width:140px; font-size:.86rem;
     }
 
-    /* Itens com checkbox visual e sem reordenar selecionados */
     .combo-item{
       position:relative; padding:10px 12px 10px 36px;
       font-size:.9rem; line-height:1.3; cursor:pointer; user-select:none;
@@ -80,7 +78,6 @@
     .combo-item[aria-selected="true"]{background:#eef2ff}
     .combo-item[aria-disabled="true"]{opacity:.5; cursor:default}
 
-    /* Checkbox à esquerda */
     .combo-item::before{
       content:""; position:absolute; left:12px; top:50%; transform:translateY(-50%);
       width:18px; height:18px; border:1px solid #cbd5e1; border-radius:6px; background:#fff;
@@ -123,7 +120,7 @@
     .btn-substituir:hover{ background:#f8fafc; border-color:#6b7280; transform:translateY(-1px); }
     .btn-substituir:focus{ outline:2px solid #93c5fd; outline-offset:2px; }
 
-    /* Ícone do botão SUBSTITUIR maior. Força sobre width/height inline e cobre <img>. */
+    /* Ícone do botão SUBSTITUIR maior */
     button.btn-substituir svg,
     button.btn-substituir img{
       width:22px !important;
@@ -131,7 +128,7 @@
       flex:0 0 auto;
     }
 
-    /* MOBILE: apenas no site */
+    /* MOBILE */
     @media (max-width:640px){
       .enunciado{ font-size:1rem; line-height:1.6; }
       .alternativas li{ font-size:.9rem; line-height:1.6; }
@@ -201,7 +198,7 @@
             <!-- Temas -->
             <div class="grid gap-2">
               <span class="text-sm font-medium">Temas</span>
-              <div class="combo combo--solid" id="">
+              <div class="combo combo--solid">
                 <div class="combo-control">
                   <input id="temaInput" class="combo-input" placeholder="Digite para buscar e selecione…"/>
                   <button type="button" class="combo-caret" aria-label="Abrir">▾</button>
@@ -215,7 +212,7 @@
             <!-- Subtemas -->
             <div class="grid gap-2">
               <span class="text-sm font-medium">Subtemas</span>
-              <div class="combo combo--solid" id="">
+              <div class="combo combo--solid">
                 <div class="combo-control">
                   <input id="subtemaInput" class="combo-input" placeholder="Filtre e selecione subtemas…"/>
                   <button type="button" class="combo-caret" aria-label="Abrir">▾</button>
