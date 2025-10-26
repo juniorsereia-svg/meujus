@@ -54,7 +54,6 @@
     const out = [];
     for (let i=0;i<v.length;i++){
       let s = v[i].trim();
-      // Remove prefixos como "A) ", "(A) " etc.
       s = s.replace(/^\(?[A-E]\)?\s*[\)\.\-–—]?\s*/i,'').trim();
       out.push(s);
     }
@@ -109,8 +108,38 @@
     montarComboCurso(cursos);
 
     // Combo tema
-    cursoInput.addEventListener('change', onChangeCurso);
+    cursoInput?.addEventListener('change', onChangeCurso);
     temaInput?.addEventListener('change', onChangeTema);
+
+    // Abrir/fechar curso
+    cursoCaret?.addEventListener('click', ()=> {
+      cursoPanel?.classList.toggle('hidden');
+      if (!cursoPanel?.classList.contains('hidden')) cursoInput?.focus();
+    });
+    cursoClose?.addEventListener('click', ()=>{
+      cursoInput.value=''; cursoHidden.value=''; cursoSelecionado='';
+      temaInput.value=''; temasHidden.value=''; temaSelecionado='';
+      temaPanel.innerHTML=''; cursoPanel?.classList.add('hidden');
+    });
+    cursoInput?.addEventListener('input', ()=>{
+      const q = cursoInput.value.toLowerCase().trim();
+      Array.from(cursoPanel.children).forEach(it=>{
+        it.style.display = it.textContent.toLowerCase().includes(q) ? '' : 'none';
+      });
+      cursoPanel.classList.remove('hidden');
+    });
+
+    // Abrir/fechar tema
+    temaCaret?.addEventListener('click', ()=> {
+      if (temaInput.disabled) return;
+      temaPanel?.classList.toggle('hidden');
+      if (!temaPanel?.classList.contains('hidden')) temaInput?.focus();
+    });
+    temaClose?.addEventListener('click', ()=>{
+      temaInput.value=''; temasHidden.value=''; temaSelecionado='';
+      Array.from(temaPanel.children).forEach(it=> it.style.display='');
+      temaPanel.classList.add('hidden');
+    });
 
     // Opções de prova/lista
     setOpcoesProva(10);
@@ -119,7 +148,6 @@
     form?.addEventListener('submit', (e)=>{ e.preventDefault(); gerar(); });
     btnLimpar?.addEventListener('click', limpar);
     btnImprimir?.addEventListener('click', ()=>{
-      // renderiza a versão de impressão apenas agora
       if (resultado.length) renderQuestoesPrint(resultado);
       window.print();
     });
@@ -129,6 +157,7 @@
 
   // Estimar número de provas disponíveis
   function setOpcoesProva(qtd){
+    if(!provaSel) return;
     const opts = ['<option value="0">Aleatória (1–'+qtd+')</option>']
       .concat(Array.from({length:qtd},(_,i)=>`<option value="${i+1}">Lista ${i+1}</option>`));
     provaSel.innerHTML = opts.join('');
@@ -159,6 +188,7 @@
 
   // Curso
   function montarComboCurso(listaCursos){
+    if(!cursoPanel) return;
     cursoPanel.innerHTML = listaCursos.slice().sort((a,b)=>a.localeCompare(b,'pt'))
       .map(label=>`<div class="combo-item" data-value="${label}">${label}</div>`).join('');
     cursoPanel.addEventListener('click', (e)=>{
@@ -166,10 +196,9 @@
       cursoInput.value = it.textContent;
       cursoHidden.value = it.getAttribute('data-value');
       cursoSelecionado = it.getAttribute('data-value');
-      // Montar temas
       montarTemasDoCurso(cursoSelecionado);
-      // Fecha painel
       cursoPanel.classList.add('hidden');
+      temaInput?.focus();
     });
   }
   function montarTemasDoCurso(curso){
@@ -181,7 +210,8 @@
       const count = typeof v==='object' ? (v.count|0) : 0;
       return { label:t, base, count };
     }));
-    temaPanel.innerHTML = mapaTemasPorCurso.get(curso)
+    if(!temaPanel) return;
+    temaPanel.innerHTML = (mapaTemasPorCurso.get(curso)||[])
       .map(({label})=>`<div class="combo-item" data-value="${label}">${label}</div>`).join('');
     temaPanel.addEventListener('click', onClickTema);
     temaInput.disabled = false;
@@ -192,7 +222,6 @@
     temasHidden.value = it.getAttribute('data-value');
     temaSelecionado = it.getAttribute('data-value');
     fecharPainelTemas();
-    // definir opções de prova a partir do tema
     const entry = (mapaTemasPorCurso.get(cursoSelecionado)||[]).find(x=>x.label===temaSelecionado);
     if(entry){
       const { base } = entry;
@@ -208,17 +237,9 @@
       setOpcoesProva(1);
     }
   }
-  function abrirPainelTemas(){ temaPanel.classList.remove('hidden'); }
-  function fecharPainelTemas(){ temaPanel.classList.add('hidden'); }
+  function abrirPainelTemas(){ temaPanel?.classList.remove('hidden'); }
+  function fecharPainelTemas(){ temaPanel?.classList.add('hidden'); }
   temaInput?.addEventListener('focus', abrirPainelTemas);
-  temaCaret?.addEventListener('click', ()=> temaPanel.classList.toggle('hidden'));
-  temaClose?.addEventListener('click', ()=>{
-    if(temaInput.value){
-      temaInput.value = '';
-      Array.from(temaPanel.children).forEach(it=>{ it.style.display=''; });
-      abrirPainelTemas();
-    } else fecharPainelTemas();
-  });
   temaInput?.addEventListener('input', ()=>{
     const q = temaInput.value.trim().toLowerCase();
     Array.from(temaPanel.children).forEach(it=>{
@@ -235,9 +256,7 @@
     if(!info?.temas){ temaInput.disabled = true; return; }
     montarTemasDoCurso(v);
   }
-  async function onChangeTema(){
-    // placeholder para compatibilidade
-  }
+  async function onChangeTema(){}
 
   // Carregar provas
   async function carregarArquivoProva(curso, tema, provaNum){
@@ -327,7 +346,6 @@ ENUNCIADO: "${enunciado}"`;
     const alt = li.getAttribute('data-alt');
     const correta = q.gabarito;
 
-    // desabilita cliques subsequentes
     sec.querySelectorAll('.alternativas li').forEach(n=>n.setAttribute('aria-disabled','true'));
 
     const fb = sec.querySelector('.feedback');
@@ -348,9 +366,9 @@ ENUNCIADO: "${enunciado}"`;
   // Gerar
   async function gerar(){
     if(!cursoSelecionado || !temaSelecionado){ alert('Selecione disciplina e tema.'); return; }
-    const totalOp = provaSel.options.length ? (provaSel.options.length - 1) : 10; // -1 por "Aleatória"
+    const totalOp = provaSel?.options?.length ? (provaSel.options.length - 1) : 10;
     let idxProva;
-    const sel = parseInt(provaSel.value,10);
+    const sel = parseInt(provaSel?.value || '0',10);
     if (sel===0 || isNaN(sel)){ idxProva = 1 + ((Math.random()*totalOp)|0); }
     else { idxProva = Math.max(1, Math.min(sel, totalOp)); }
 
@@ -380,7 +398,6 @@ ENUNCIADO: "${enunciado}"`;
 
 // === UI adjustments injetados pós-render ===
 (function uiAdjustments(){
-  // estilos extra
   const css = `
     .cabecalho-questao{display:flex;gap:.5rem;align-items:center;margin:.25rem 0 .5rem}
     .cabecalho-questao .meta{font-size:.85rem;color:#4b5563}
@@ -389,29 +406,27 @@ ENUNCIADO: "${enunciado}"`;
     .acoes-ia{display:flex;align-items:center;gap:.4rem;margin-top:.5rem}
     .acoes-ia::before{content:'Google I.A.';font-size:.775rem;color:#6b7280;margin-right:.25rem}
     .acoes-ia .btn-ia{display:inline-flex;align-items:center;justify-content:center;width:2rem;height:2rem;border:none;border-radius:.5rem;background:#f3f4f6;color:#111827;font-weight:600;text-decoration:none}
-    /* Dropdowns minimalistas */
     .combo-panel{box-shadow:0 10px 20px rgba(0,0,0,.06);border:1px solid #e5e7eb;border-radius:.75rem}
     .combo-item{padding:.5rem .75rem;cursor:pointer}
     .combo-item:hover{background:#f9fafb}
-    /* Mobile: mais largura útil */
-    @media (max-width:640px){ main, .container, .layout{padding-inline:.75rem} }
-    /* Print: ocultar metadados e destacar separador */
+    @media (max-width:640px){
+      main, .container, .layout{padding-inline:.6rem}
+      .actions{flex-wrap:wrap}
+      .actions > *{flex:1 1 48%}
+      .panel{padding:12px}
+      .combo input, select, button{font-size:16px}
+    }
     @media print{ .questao .meta{display:none!important} .separador{height:2px;background:#9ca3af;margin:.6rem 0} }
   `;
   const st = document.createElement('style'); st.textContent = css; document.head.appendChild(st);
 
-  // remove "Escolher prova"
-  Array.from(document.querySelectorAll('h1,h2,h3')).forEach(h=>{
-    if(h.textContent.trim().toLowerCase()==='escolher prova') h.remove();
-  });
-
-  // rótulos e botão
+  // rótulo e botão
   const provaLabel = document.querySelector('label[for="provaSel"]');
   if(provaLabel) provaLabel.textContent = 'Lista';
   const submit = document.querySelector('button[type="submit"],input[type="submit"]');
   if(submit) submit.textContent = 'Abrir';
 
-  // opções "Prova X" -> "Lista X" (garantia extra)
+  // "Prova X" -> "Lista X" (caso venha do cache)
   const sel = document.getElementById('provaSel');
   if(sel){
     const re = /^Prova\s+/i;
@@ -419,50 +434,4 @@ ENUNCIADO: "${enunciado}"`;
     fix();
     sel.addEventListener('change', fix);
   }
-
-  // fechar dropdowns ao selecionar
-  const cursoPanel = document.getElementById('cursoPanel');
-  const temaPanel  = document.getElementById('temaPanel');
-  cursoPanel?.addEventListener('click', (e)=>{
-    const it = e.target.closest('.combo-item'); if(!it) return;
-    document.querySelector('#cursoCombo .combo-caret')?.click();
-  });
-  temaPanel?.addEventListener('click', (e)=>{
-    const it = e.target.closest('.combo-item'); if(!it) return;
-    temaPanel.classList.add('hidden');
-  });
-
-  // pós-processamento das questões para cabeçalho e numeração
-  function formatMeta(html){
-    return html.replace(/\b(Ano|Banca|Prova)\s*:/g,(m,p)=>`<strong>${p}</strong>:`);
-  }
-  function enhance(container){
-    container.querySelectorAll('section.questao').forEach((sec, i)=>{
-      if(sec.__enhanced) return;
-      const meta = sec.querySelector('.meta');
-      const h = sec.querySelector('.enunciado');
-      if(h){ h.textContent = h.textContent.replace(/^\s*\d+\)\s*/,''); }
-      const head = document.createElement('div');
-      head.className = 'cabecalho-questao';
-      head.innerHTML = `<strong>Questão ${i+1}</strong>` + (meta? ` <span class="meta">${formatMeta(meta.innerHTML)}</span>`:'');
-      sec.insertBefore(head, sec.firstElementChild);
-      if(meta) meta.remove();
-      if(!sec.querySelector('.separador')){
-        const sep = document.createElement('div'); sep.className='separador'; sec.appendChild(sep);
-      }
-      sec.__enhanced = true;
-    });
-  }
-  const artigo = document.getElementById('artigo');
-  const printArticle = document.getElementById('printArticle');
-  if(artigo){
-    const mo = new MutationObserver(()=>enhance(artigo));
-    mo.observe(artigo, {childList:true, subtree:true});
-  }
-  if(printArticle){
-    const mo2 = new MutationObserver(()=>enhance(printArticle));
-    mo2.observe(printArticle, {childList:true, subtree:true});
-  }
-  if(artigo) setTimeout(()=>enhance(artigo), 200);
-  if(printArticle) setTimeout(()=>enhance(printArticle), 200);
 })();
