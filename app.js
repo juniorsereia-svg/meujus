@@ -92,6 +92,15 @@
   // restaura literais **...**
   x = x.replace(/§§(.+?)§§/g, '**$1**');
 
+    // quebra de linha para frases iniciadas por "•"
+// 1) protege bullets que já estão no início da string ou de linha
+x = x.replace(/(^|\n)\s*•\s*/g, '$1§BUL§');
+// 2) para os demais bullets, força quebra de linha antes
+x = x.replace(/\s*•\s*/g, '<br>• ');
+// 3) restaura os bullets protegidos (sem <br> no início)
+x = x.replace(/§BUL§/g, '• ');
+
+
   return x;
 }
 
