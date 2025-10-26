@@ -1,0 +1,178 @@
+
+* Ano: 2018 Banca: CESPE / CEBRASPE Órgão: TJ-CE Prova: CESPE - 2018 - TJ-CE - Juiz Substituto
+** A respeito dos princípios constitucionais penais e das escolas penais, assinale a opção correta.
+*** A) - Legalidade ou reserva legal, anterioridade, retroatividade da lei penal benéfica, humanidade e in dubio pro reo são espécies de princípios constitucionais penais explícitos.
+*** B) - O princípio da humanidade assegura o respeito à integridade física e moral do preso na medida em que motiva a vedação constitucional de pena de morte e de prisão perpétua.
+*** C) - O princípio da responsabilidade pessoal impede que os familiares do condenado sofram os efeitos da condenação de ressarcimento de dano causado pela prática do crime.
+*** D) - A posse de um único projétil de arma de fogo de uso permitido não configura crime se o agente não possuir arma que possa ser municiada, de acordo com o princípio da ofensividade.
+*** E) - A Escola Clássica adotava a teoria mista, que entende a pena não apenas como retribuição ao infrator pelo mal causado, mas também como medida com finalidade preventiva.
+**** Gabarito: B
+-----
+* Ano: 2018 Banca: FUMARC Órgão: PC-MG Prova: FUMARC - 2018 - PC-MG - Delegado de Polícia Substituto
+** Acerca dos princípios que limitam e informam o Direito Penal, é CORRETO afirmar:
+*** A) - A responsabilidade pela indenização do prejuízo que foi causado pelo crime imputado ao agente não pode ser estendida aos seus herdeiros sem que haja violação do princípio da personalidade da pena.
+*** B) - Conforme o princípio da culpabilidade, a responsabilidade penal é subjetiva, pelo que nenhum resultado penalmente relevante pode ser atribuído a quem não o tenha produzido por dolo ou culpa, elementos finalisticamente localizados na culpabilidade.
+*** C) - O princípio da insignificância funciona como causa de exclusão da culpabilidade, sendo requisitos de sua aplicação para o STF a ofensividade da conduta, a ausência de periculosidade social da ação e a inexpressividade da lesão jurídica.
+*** D) - O princípio da legalidade, do qual decorre a reserva legal, veda o uso dos costumes e da analogia para criar tipos penais incriminadores ou agravar as infrações existentes, embora permita a interpretação analógica da norma penal.
+**** Gabarito: D
+-----
+* Ano: 2018 Banca: VUNESP Órgão: PC-SP Prova: VUNESP - 2018 - PC-SP - Investigador de Polícia
+** Segundo o disposto na Declaração Universal dos Direitos Humanos, “Se depois da perpetração do delito a lei dispuser a imposição de pena mais leve, o delinquente será por isso beneficiado.” Essa norma de direito penal é representada pelo Princípio
+*** A) - da Individualização da Pena.
+*** B) - da Legalidade.
+*** C) - da Norma Penal em Branco.
+*** D) - da Presunção da Inocência.
+*** E) - da Retroatividade.
+**** Gabarito: E
+-----
+* Ano: 2018 Banca: FCC Órgão: DPE-RS Prova: FCC - 2018 - DPE-RS - Defensor Público
+** O afastamento da tipicidade, quando verificada lesão penalmente irrelevante decorrente de conduta formalmente incriminada, dá-se por:
+*** A) - princípio da adequação social.
+*** B) - princípio da intervenção mínima.
+*** C) - princípio da humanidade das sanções.
+*** D) - princípio da insignificância.
+*** E) - ineficácia absoluta do meio ou absoluta impropriedade do objeto (crime impossível).
+**** Gabarito: D
+-----
+* Ano: 2018 Banca: IESES Órgão: TJ-CE Prova: IESES - 2018 - TJ-CE - Titular de Serviços de Notas e de Registros - Provimento
+** É certo afirmar: I. Para os efeitos penais, consideram-se como extensão do território nacional as embarcações e aeronaves brasileiras, de natureza pública ou a serviço do governo brasileiro onde quer que se encontrem, bem como as aeronaves e as embarcações brasileiras, mercantes ou de propriedade privada, que se achem, respectivamente, no espaço aéreo correspondente ou em alto-mar. II. Não há crime sem lei anterior que o defina. Não há pena sem prévia cominação legal. Trata-se de princípio geral de que a lei penal nunca retroagirá. III. Considera-se praticado o crime no lugar em que ocorreu a ação ou omissão, no todo ou em parte, bem como onde se produziu ou deveria produzir-se o resultado. IV. A pena cumprida no estrangeiro agrava a pena imposta no Brasil pelo mesmo crime, quando diversas, ou nela é computada, quando idênticas. Analisando as proposições, pode-se afirmar:
+*** A) - Somente as proposições I e III estão corretas.
+*** B) - Somente as proposições I e IV estão corretas.
+*** C) - Somente as proposições II e III estão corretas.
+*** D) - Somente as proposições II e IV estão corretas.
+**** Gabarito: A
+-----
+* Ano: 2018 Banca: FUNDEP (Gestão de Concursos) Órgão: MPE-MG Prova: FUNDEP (Gestão de Concursos) - 2018 - MPE-MG - Promotor de Justiça Substituto
+** Analise as afirmações adiante e, à luz da doutrina, assinale a alternativa INCORRETA:
+*** A) - Norma penal em branco ao revés (ou invertida) é aquela em que a complementação se dá no preceito sancionador e não no mandamento proibitivo.
+*** B) - O princípio da intervenção mínima do Direito Penal encontra fundamento no caráter de sua subsidiariedade e no princípio da intranscendência.
+*** C) - Pelo princípio da confiança, todo aquele que se conduz com observância ao dever de cuidado objetivo exigido, pode esperar que os demais co-participantes de idêntica atividade procedam do mesmo modo.
+*** D) - Entre outras características, o Direito Penal tem natureza constitutiva e sancionatória.
+**** Gabarito: B
+-----
+* Ano: 2018 Banca: VUNESP Órgão: PC-BA Prova: VUNESP - 2018 - PC-BA - Investigador de Polícia
+** Acerca dos princípios da legalidade e da anterioridade insculpidos no art. 1° do Código Penal e no art. 5° , XXXIX, da Constituição Federal, analise as alternativas a seguir e assinale a correta.
+*** A) - Uma das funções do princípio da legalidade é permitir a criação de crimes e penas pelos usos e costumes.
+*** B) - No Brasil, em um primeiro momento, a União Federal pode legislar sobre matéria penal. No entanto, de forma indireta e urgente, leis estaduais podem impor regras e sanções de natureza criminal.
+*** C) - A lei penal incriminadora somente pode ser aplicada a um fato concreto desde que tenha tido origem antes da prática da conduta. Em situações temporárias e excepcionais, no entanto, admite-se a mitigação do princípio da anterioridade.
+*** D) - Desdobramento do princípio da legalidade é o da taxatividade, que impede a edição de tipos penais genéricos e indeterminados.
+*** E) - O princípio da legalidade afasta a aplicação da interpretação extensiva, mas permite a aplicação da analogia de forma ampla e irrestrita.
+**** Gabarito: D
+-----
+* Ano: 2018 Banca: Fundação CEFETBAHIA Órgão: MPE-BA Prova: Fundação CEFETBAHIA - 2018 - MPE-BA - Promotor de Justiça Substituto - Anulada
+** Assinale a alternativa correta.
+*** A) - As leis penais em branco são identificadas pelo sentido genérico do preceito que deve ser completado por outra disposição normativa e não se distinguem das leis penais incompletas ou imperfeitas.
+*** B) - A função político-criminal e a função interpretativa ou dogmática representam funções básicas do princípio da ofensividade no direito penal.
+*** C) - A pena de detenção trata-se de sanção privativa de liberdade e que só admite o cumprimento em regime semiaberto ou aberto, e se distingue da pena de reclusão ante a maior gravidade do crime.
+*** D) - O agente que efetua diversos disparos contra a vítima sinaliza com sua conduta várias ações identificadoras do concurso material homogêneo, aplicando-se cumulativamente as penas.
+*** E) - Admite-se a instigação, induzimento ou cumplicidade no fato culposo de outrem em face de contrariedade às normas que instituem um dever de cuidado objetivo.
+**** Gabarito: B
+-----
+* Ano: 2018 Banca: Fundação CEFETBAHIA Órgão: MPE-BA Prova: Fundação CEFETBAHIA - 2018 - MPE-BA - Promotor de Justiça Substituto - Anulada
+** Assinale a alternativa correta.
+*** A) - A assertiva de que ninguém pode ser punido pelo que pensa ou pelo modo de viver reflete o princípio da exteriorização do fato em direito penal.
+*** B) - Na hipótese de estupro de pessoa maior de idade e que não seja vulnerável, mas com violência de que resulte lesão corporal grave, haverá litisconsórcio facultativo entre o Ministério Público e o ofendido.
+*** C) - A derrogação é a revogação total da lei por enunciação expressa ou tácita da nova lei ao regular o mesmo fato.
+*** D) - A caracterização do delito de falsidade ideológica se contenta com a potencialidade de dano e imitação da verdade.
+*** E) - O crime progressivo e a progressão criminosa se identificam uma vez que se dão ao mesmo tempo e no mesmo momento, ou seja, se desdobram em dois atos.
+**** Gabarito: A
+-----
+* Ano: 2018 Banca: Fundação CEFETBAHIA Órgão: MPE-BA Prova: Fundação CEFETBAHIA - 2018 - MPE-BA - Promotor de Justiça Substituto - Anulada
+** Assinale a alternativa correta.
+*** A) - Na fixação da pena, o Magistrado após o reconhecimento da existência do crime e sua autoria tem uma discricionariedade “regrada ou vinculada”.
+*** B) - Na individualização legislativa, a qualidade, a quantidade e a forma de cumprimento da pena voltase tão somente para a importância do bem juridicamente ofendido.
+*** C) - Os princípios da legalidade e da proporcionalidade como princípios explícitos de direito criminal servem como garantias constitucionais do cidadão.
+*** D) - As alternativas “b” e “c” estão corretas.
+*** E) - A individualização da pena é um princípio de direito material implícito atento à individualidade objetiva do delito e condição subjetiva de cada delinquente.
+**** Gabarito: A
+-----
+* Ano: 2018 Banca: MPE-MS Órgão: MPE-MS Prova: MPE-MS - 2018 - MPE-MS - Promotor de Justiça Substituto
+** Assinale a alternativa correta.
+*** A) - Nos delitos de acumulação, não é possível a aplicação da teoria da bagatela em cada conduta individualmente considerada, mas apenas como resultado da análise da somatória de condutas.
+*** B) - O controle jurisdicional abstrato da norma incriminadora não pode ser feito com fundamento no princípio da lesividade.
+*** C) - Somente nas hipóteses de leis excepcionais, conforme entendimento do Supremo Tribunal Federal, as medidas provisórias podem regular matéria penal.
+*** D) - O princípio da fragmentariedade relativiza o concurso entre causas de aumento e diminuição de penas.
+*** E) - O princípio da legalidade admite ser afastado ante a incidência do princípio da proteção deficiente.
+**** Gabarito: A
+-----
+* Ano: 2018 Banca: FGV Órgão: TJ-AL Prova: FGV - 2018 - TJ-AL - Técnico Judiciário - Área Judiciária
+** Julia, primária e de bons antecedentes, verificando a facilidade de acesso a determinados bens de uma banca de jornal, subtrai duas revistas de moda, totalizando o valor inicial do prejuízo em R$15,00 (quinze reais). Após ser presa em flagrante, é denunciada pela prática do crime de furto simples, vindo, porém, a ser absolvida sumariamente em razão do princípio da insignificância. De acordo com a situação narrada, o magistrado, ao reconhecer o princípio da insignificância, optou por absolver Julia em razão da:
+*** A) - atipicidade da conduta;
+*** B) - causa legal de exclusão da ilicitude;
+*** C) - causa de exclusão da culpabilidade;
+*** D) - causa supralegal de exclusão da ilicitude;
+*** E) - extinção da punibilidade.
+**** Gabarito: A
+-----
+* Ano: 2018 Banca: CESPE / CEBRASPE Órgão: PGE-PE Prova: CESPE - 2018 - PGE-PE - Procurador do Estado
+** De acordo com o entendimento do STJ, é aplicável o princípio da insignificância na hipótese de crime
+*** A) - de descaminho, ainda que o agente responda a outros procedimentos fiscais, desde que o benefício econômico do crime seja inferior a dez mil reais.
+*** B) - contra a mulher no âmbito das relações domésticas.
+*** C) - de peculato, quando o bem jurídico tutelado for suscetível de valoração econômica.
+*** D) - de pesca, em período em que essa atividade esteja proibida ou em lugares interditados por órgão competente.
+*** E) - contra a fé pública.
+**** Gabarito: D
+-----
+* Ano: 2018 Banca: FUNDATEC Órgão: PC-RS Prova: FUNDATEC - 2018 - PC-RS - Escrivão e de Inspetor de Polícia - Tarde
+** Em relação à teoria geral da norma penal, assinale a alternativa correta.
+*** A) - Dentre os princípios gerais do Direito Penal, pode-se citar o princípio da exclusiva proteção de bens jurídicos e o princípio da intervenção mínima.
+*** B) - Os princípios só podem ser explícitos, ou seja, positivados no ordenamento jurídico.
+*** C) - O princípio da igualdade (ou da isonomia) não está previsto de maneira expressa na CF/1988.
+*** D) - O princípio da presunção de inocência (ou da não culpa) expresso na CF/1988 no artigo 5º, inciso LVII, determina que "ninguém será considerado culpado até o trânsito em julgado de sentença penal condenatória". Destarte, não é aceitável a decretação (excepcional) de uma prisão temporária ou preventiva sobre alguém sobre o qual pairam indícios suficientes de autoria, mas que ainda não pode ser considerado culpado.
+*** E) - O princípio da ofensividade ou lesividade ( nullum crimen sine iniuria ) não exige que do fato praticado ocorra lesão ou perigo de lesão ao bem jurídico tutelado.
+**** Gabarito: A
+-----
+* Ano: 2018 Banca: CESPE / CEBRASPE Órgão: PC-MA Prova: CESPE - 2018 - PC-MA - Investigador de Polícia
+** O princípio da legalidade compreende
+*** A) - a capacidade mental de entendimento do caráter ilícito do fato no momento da ação ou da omissão, bem como de ciência desse entendimento.
+*** B) - o juízo de censura que incide sobre a formação e a exteriorização da vontade do responsável por um fato típico e ilícito, com o propósito de aferir a necessidade de imposição de pena.
+*** C) - a oposição entre o ordenamento jurídico vigente e um fato típico praticado por alguém capaz de lesionar ou expor a perigo de lesão bens jurídicos penalmente protegidos.
+*** D) - a obediência às formas e aos procedimentos exigidos na criação da lei penal e, principalmente, na elaboração de seu conteúdo normativo.
+*** E) - a conformidade da conduta reprovável do agente ao modelo descrito na lei penal vigente no momento da ação ou da omissão.
+**** Gabarito: D
+-----
+* Ano: 2018 Banca: FUNDATEC Órgão: DPE-SC Prova: FUNDATEC - 2018 - DPE-SC - Técnico Administrativo
+** O princípio “Não há crime sem lei anterior que o defina. Não há pena sem prévia cominação legal” é chamado de:
+*** A) - Princípio da legalidade e anterioridade.
+*** B) - Princípio da excepcionalidade.
+*** C) - Princípio do contraditório.
+*** D) - Princípio da ampla defesa.
+*** E) - Princípio do devido processo legal.
+**** Gabarito: A
+-----
+* Ano: 2018 Banca: FUNDATEC Órgão: DPE-SC Prova: FUNDATEC - 2018 - DPE-SC - Analista Técnico
+** De acordo com o Professor Luiz Flávio Gomes: “A subtração de um par de chinelos (de R$ 16,00) vai monopolizar, em breve, a atenção dos onze ministros do STF, que têm milhares de questões de constitucionalidade pendentes. Decidirão qual é o custo (penal) para o pé descalço que subtrai um par de chinelos para subir de grau (na escala social) e se converter em um pé de chinelo. No dia 5/8/14, a 1ª Turma mandou para o Pleno a discussão desse tema. Reputado muito relevante. No mundo todo, a esse luxo requintadíssimo pouquíssimas Cortes Supremas se dão (se é que exista alguma outra que faça a mesma coisa). Recentemente outros casos semelhantes foram julgados pelo STF: subtração de 12 camarões (SC), de um galo e uma galinha (MG), de 5 livros, de 2 peças de picanha (MG), etc. Um homem, em MG, pelo par de chinelos (devolvido), foi condenado a um ano de prisão mais dez dias-multa. Três instâncias precedentes (1º grau, TJMG e STJ) fixaram o regime semiaberto para ele (porque já condenado antes por crime grave: outra subtração sem violência) (...)”. (Disponível em:<http://http://professorlfg.jusbrasil.com.br/ noticias/ 132988796/plenario-do-stf-vai-julgar-subtracao-de-um-par-dechinelos ). Com base no referido texto, a esses casos descritos, os quais seriam julgados pelo STF, qual princípio limitador do Poder Punitivo Estatal poderíamos aplicar a fim de dar resolução ao caso penal?
+*** A) - Da legalidade e da reserva legal.
+*** B) - Da intervenção mínima.
+*** C) - Da insignificância.
+*** D) - Da adequação social.
+*** E) - Da fragmentariedade.
+**** Gabarito: C
+-----
+* Ano: 2017 Banca: FEPESE Órgão: PC-SC Prova: FEPESE - 2017 - PC-SC - Escrivão de Polícia Civil
+** Assinale a alternativa que indica corretamente o princípio de direito penal pelo qual uma conduta legalmente tipificada não será considerada típica se for tolerada e aceita pela sociedade.
+*** A) - princípio da legalidade
+*** B) - princípio da reserva legal
+*** C) - princípio da ulterioridade
+*** D) - princípio da adequação social
+*** E) - princípio da aplicação da lei penal
+**** Gabarito: D
+-----
+* Ano: 2017 Banca: FEPESE Órgão: PC-SC Prova: FEPESE - 2017 - PC-SC - Agente de Polícia Civil
+** Assinale a alternativa que indica corretamente o princípio de que o direito penal não deve se preocupar com condutas que, embora típicas, o resultado ocorrido a partir delas não é suficientemente reprovável a ponto de sujeitar ou haver a necessidade do exercício do poder punitivo do Estado.
+*** A) - princípio do juiz natural.
+*** B) - princípio da reserva de lei.
+*** C) - princípio da insignificância.
+*** D) - princípio do exasperação da pena.
+*** E) - princípio da humanidade da pena.
+**** Gabarito: C
+-----
+* Ano: 2017 Banca: CESPE / CEBRASPE Órgão: TRE-TO Prova: CESPE - 2017 - TRE-TO - Analista Judiciário - Área Judiciária
+** Um açougueiro de uma rede de supermercados subtraiu duas peças de carne avaliadas em R$ 78,93 e ocultou-as nas vestes, mas a sua ação que foi observada por outro empregado, que comunicou ao chefe da segurança, e este, por sua vez, acionou a polícia. O agente foi preso em flagrante e a res furtiva foi restituída. O agente, de cinquenta e cinco anos de idade, tinha registro de outra ocorrência de furto praticado havia mais de cinco anos, sem que o inquérito policial tivesse sido concluído. Nessa situação hipotética, assinale a opção correta, de acordo com a legislação pertinente e o entendimento dos tribunais superiores.
+*** A) - A reincidência do agente afasta o furto privilegiado.
+*** B) - Houve arrependimento eficaz com a restituição da res furtiva.
+*** C) - O agente deverá ser absolvido em razão do princípio da insignificância.
+*** D) - Trata-se de crime impossível por ineficácia absoluta do meio.
+*** E) - A hipótese configura tentativa de furto simples.
+**** Gabarito: C
+-----
