@@ -10,117 +10,126 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
-  <style>
-    html,body{height:100%}
-    body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif}
+ <style>
+  html,body{height:100%}
+  body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif}
 
-    /* Tipos e respiros da questão */
-    .questao{padding-top:.75rem}
-    .titulo-questao{font-size:0.95rem;font-weight:600;color:#1a335a}
-    .meta{font-size:.78rem;color:#6b7280;margin-top:.25rem}
-/* site: fundo cinza claro no enunciado */
-.enunciado{
-  color:#1a335a; font-weight:400; text-align:justify;
-  font-size:0.9rem; line-height:1.5; margin-top:.45rem; white-space:pre-line;
-  background:#f8fafc;            /* cinza clarinho */
-  padding:.6rem .75rem;           /* respiro interno */
-  border-radius:.75rem;           /* cantos suaves */
-}
-    .alternativas{margin-left:1rem;margin-top:.35rem}
-    .alternativas li{cursor:pointer;user-select:none;font-size:0.8rem;line-height:1.5}
-    .alternativas li[aria-disabled="true"]{cursor:default}
-    .separador{border-bottom:1px solid #e5e7eb;margin:16px 0}
+  /* Tipos e respiros da questão */
+  .questao{padding-top:.75rem}
+  .titulo-questao{font-size:0.95rem;font-weight:600;color:#1a335a}
+  .meta{font-size:.78rem;color:#6b7280;margin-top:.25rem}
 
-    /* Ênfase leve para **negrito** e *itálico* (usado com mdInline no app.js) */
-    .enunciado .md-strong, .alternativas .md-strong, .meta .md-strong{font-weight:600}
-    .enunciado .md-em,     .alternativas .md-em,     .meta .md-em{font-style:italic}
-
-    /* Combos custom (curso, temas, subtemas) */
-    .combo{position:relative}
-    .combo--solid .combo-control{
-      display:flex; align-items:center; gap:.4rem;
-      border:1px solid #e5e7eb; border-radius:14px; padding:.45rem .65rem; background:#fff;
-    }
-    .combo-input{width:100%; border:0; outline:0; font-size:0.9rem; line-height:1.4; padding:.1rem}
-    .combo-caret,.combo-close{
-      font-size:.9rem; line-height:1; padding:.25rem .5rem; border:1px solid #e5e7eb;
-      border-radius:8px; background:#fff; cursor:pointer;
-    }
-    .combo-close{padding:.25rem .45rem}
-    .combo-caret:hover,.combo-close:hover{background:#f8fafc}
-    .combo-panel{
-      position:absolute; z-index:20; left:0; right:0; top:calc(100% + 6px);
-      background:#fff; border:1px solid #e5e7eb; border-radius:14px; max-height:260px; overflow:auto;
-      box-shadow:0 10px 30px rgba(0,0,0,.06)
-    }
-    .combo-item{padding:8px 12px; font-size:.9rem; cursor:pointer}
-    .combo-item:hover{background:#f8fafc}
-    .combo-item[aria-selected="true"]{background:#eef2ff}
-    .divider{height:1px; background:linear-gradient(90deg,#fff,#e5e7eb 10%,#e5e7eb 90%,#fff); margin:1rem 0}
-    #chips .chip{font-size:.78rem; padding:2px 8px}
-    #chipsSub .chip{font-size:.7rem; padding:1px 6px}
-
-    #printArea{ display:none; }
-
-   /* IA: rótulo + 4 botões redondos (mesmo tamanho do botão substituir) */
-.acoes-ia{margin-top:.6rem; display:flex; align-items:center; gap:.5rem; flex-wrap:wrap}
-.ia-label{font-size:.8rem; color:#2563eb}
-
-.btn-ia{
-  width:26px; height:26px; border-radius:9999px;
-  display:inline-flex; align-items:center; justify-content:center;
-  background:#fff; border:1px solid #fff; color:#2563eb;
-  cursor:pointer; transition:transform .06s ease, background-color .12s ease, border-color .12s ease;
-}
-.btn-ia:hover{ background:#f8fafc; border-color:#6b7280; transform:translateY(-1px); }
-.btn-ia:focus{ outline:2px solid #93c5fd; outline-offset:2px; }
-.btn-ia:disabled{ opacity:.5; cursor:default; }
-.btn-ia svg{ width:18px; height:18px; color:#2563eb; } /* ícone maior */
-
-.btn-substituir{
-  display:inline-flex; align-items:center; justify-content:center;
-  width:26px; height:26px; border-radius:9999px;
-  border:1px solid #fff; background:#fff; color:#2563eb;
-  font-size:.9rem; line-height:1; cursor:pointer;
-  transition:transform .06s ease, background-color .12s ease, border-color .12s ease;
-}
-.btn-substituir:hover{ background:#f8fafc; border-color:#6b7280; transform:translateY(-1px); }
-.btn-substituir:focus{ outline:2px solid #93c5fd; outline-offset:2px; }
-.btn-substituir svg{ width:22px; height:22px; color:#2563eb; } /* ícone maior */
-
-
-
-
-   /* PRINT */
-@media print {
-  @page { size: A4; margin: 10mm; }
-
-  header, footer, .no-print, #screenArea { display:none !important; }
-  #printArea { display:block !important; }
-
-  #printArea{
-    column-count:2; column-gap:10mm; column-fill:auto;
-    column-rule:0.1mm solid #cbd5e1; margin:0; padding:0;
-  }
-
-  .titulo-questao{ font-size:0.80rem !important; font-weight:600; color:#111827 !important; }
-  .meta{ display:block !important; color:#6b7280 !important; font-size:.72rem !important; margin-top:.15rem; }
-
+  /* site: fundo cinza claro no enunciado */
   .enunciado{
-    font-size:0.90rem !important; line-height:1.5; color:#111827 !important; text-align:justify;
-    hyphens:auto; -webkit-hyphens:auto; break-after:avoid-column;
-    background:transparent !important; padding:0 !important; border-radius:0 !important;
+    color:#1a335a; font-weight:400; text-align:justify;
+    font-size:0.9rem; line-height:1.5; margin-top:.45rem; white-space:pre-line;
+    background:#f8fafc; padding:.6rem .75rem; border-radius:.75rem;
   }
 
-  .alternativas li{ font-size:0.8rem !important; line-height:1.5; break-inside:avoid; }
-  .acoes-ia,.btn-substituir{ display:none !important; }
-  .questao{ break-inside:auto; page-break-inside:auto; }
-  .separador{ margin:6px 0; border-bottom:1px solid #d1d5db; }
-  #printArea *{ box-shadow:none !important; }
-}
+  .alternativas{margin-left:1rem;margin-top:.35rem}
+  .alternativas li{cursor:pointer;user-select:none;font-size:0.8rem;line-height:1.5}
+  .alternativas li[aria-disabled="true"]{cursor:default}
+  .separador{border-bottom:1px solid #e5e7eb;margin:16px 0}
 
+  /* Ênfase leve p/ **negrito** e *itálico* */
+  .enunciado .md-strong, .alternativas .md-strong, .meta .md-strong{font-weight:600}
+  .enunciado .md-em,     .alternativas .md-em,     .meta .md-em{font-style:italic}
+
+  /* Combos custom (curso, temas, subtemas) */
+  .combo{position:relative}
+  .combo--solid .combo-control{
+    display:flex; align-items:center; gap:.4rem;
+    border:1px solid #e5e7eb; border-radius:14px; padding:.45rem .65rem; background:#fff;
+  }
+  .combo-input{width:100%; border:0; outline:0; font-size:0.9rem; line-height:1.4; padding:.1rem}
+  .combo-caret,.combo-close{
+    font-size:.9rem; line-height:1; padding:.25rem .5rem; border:1px solid #e5e7eb;
+    border-radius:8px; background:#fff; cursor:pointer;
+  }
+  .combo-close{padding:.25rem .45rem}
+  .combo-caret:hover,.combo-close:hover{background:#f8fafc}
+  .combo-panel{
+    position:absolute; z-index:20; left:0; right:0; top:calc(100% + 6px);
+    background:#fff; border:1px solid #e5e7eb; border-radius:14px; max-height:260px; overflow:auto;
+    box-shadow:0 10px 30px rgba(0,0,0,.06)
+  }
+  .combo-item{padding:8px 12px; font-size:.9rem; cursor:pointer}
+  .combo-item:hover{background:#f8fafc}
+  .combo-item[aria-selected="true"]{background:#eef2ff}
+  .divider{height:1px; background:linear-gradient(90deg,#fff,#e5e7eb 10%,#e5e7eb 90%,#fff); margin:1rem 0}
+  #chips .chip{font-size:.78rem; padding:2px 8px}
+  #chipsSub .chip{font-size:.7rem; padding:1px 6px}
+
+  #printArea{ display:none; }
+
+  /* IA: rótulo + 4 botões redondos (mesmo tamanho do botão substituir) */
+  .acoes-ia{margin-top:.6rem; display:flex; align-items:center; gap:.5rem; flex-wrap:wrap}
+  .ia-label{font-size:.8rem; color:#2563eb}
+
+  .btn-ia{
+    width:26px; height:26px; border-radius:9999px;
+    display:inline-flex; align-items:center; justify-content:center;
+    background:#fff; border:1px solid #fff; color:#2563eb;
+    cursor:pointer; transition:transform .06s ease, background-color .12s ease, border-color .12s ease;
+  }
+  .btn-ia:hover{ background:#f8fafc; border-color:#6b7280; transform:translateY(-1px); }
+  .btn-ia:focus{ outline:2px solid #93c5fd; outline-offset:2px; }
+  .btn-ia:disabled{ opacity:.5; cursor:default; }
+  .btn-ia svg{ width:18px; height:18px; color:#2563eb; }
+
+  .btn-substituir{
+    display:inline-flex; align-items:center; justify-content:center;
+    width:26px; height:26px; border-radius:9999px;
+    border:1px solid #fff; background:#fff; color:#2563eb;
+    font-size:.9rem; line-height:1; cursor:pointer;
+    transition:transform .06s ease, background-color .12s ease, border-color .12s ease;
+  }
+  .btn-substituir:hover{ background:#f8fafc; border-color:#6b7280; transform:translateY(-1px); }
+  .btn-substituir:focus{ outline:2px solid #93c5fd; outline-offset:2px; }
+
+  /* Ícone do botão SUBSTITUIR maior. Força sobre width/height inline e cobre <img>. */
+  button.btn-substituir svg,
+  button.btn-substituir img{
+    width:22px !important;
+    height:22px !important;
+    flex:0 0 auto;
+  }
+
+  /* MOBILE: aumentar fontes só no mobile (≤640px) */
+  @media (max-width:640px){
+    .enunciado{ font-size:1rem; line-height:1.6; }
+    .alternativas li{ font-size:.9rem; line-height:1.6; }
+  }
+
+  /* PRINT */
+  @media print {
+    @page { size: A4; margin: 10mm; }
+
+    header, footer, .no-print, #screenArea { display:none !important; }
+    #printArea { display:block !important; }
+
+    #printArea{
+      column-count:2; column-gap:10mm; column-fill:auto;
+      column-rule:0.1mm solid #cbd5e1; margin:0; padding:0;
     }
-  </style>
+
+    .titulo-questao{ font-size:0.80rem !important; font-weight:600; color:#111827 !important; }
+    .meta{ display:block !important; color:#6b7280 !important; font-size:.72rem !important; margin-top:.15rem; }
+
+    .enunciado{
+      font-size:0.90rem !important; line-height:1.5; color:#111827 !important; text-align:justify;
+      hyphens:auto; -webkit-hyphens:auto; break-after:avoid-column;
+      background:transparent !important; padding:0 !important; border-radius:0 !important;
+    }
+
+    .alternativas li{ font-size:0.8rem !important; line-height:1.5; break-inside:avoid; }
+    .acoes-ia,.btn-substituir{ display:none !important; }
+    .questao{ break-inside:auto; page-break-inside:auto; }
+    .separador{ margin:6px 0; border-bottom:1px solid #d1d5db; }
+    #printArea *{ box-shadow:none !important; }
+  }
+</style>
+
 </head>
 <body class="bg-zinc-50 text-zinc-900">
   <header class="sticky top-0 z-40 bg-white/80 backdrop-blur border-b border-zinc-200">
