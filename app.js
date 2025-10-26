@@ -475,12 +475,12 @@ ENUNCIADO: "${enunciado}"`;
     const html = lista.map((q, idx)=>{
       const numero = idx+1;
       const alts = q.alternativas
-        .map(a=>`<li class="py-1" style="font-size:0.825rem;line-height:1.5">${mdInline(a)}</li>`).join('');
+        .map(a=>`<li class="py-1" style="font-size:0.7rem;line-height:1.4">${mdInline(a)}</li>`).join('');
       return `
       <section class="questao" data-q="${idx}">
         <div class="titulo-questao">Questão ${numero}</div>
         <div class="meta">${mdInline(q.meta)}</div>
-        <h4 class="enunciado" style="font-size:0.9rem;line-height:1.55;color:#111827;font-weight:400">${mdInline(q.enunciado)}</h4>
+        <h4 class="enunciado" style="font-size:0.8rem;line-height:1.45;color:#111827;font-weight:400">${mdInline(q.enunciado)}</h4>
         <ul class="alternativas" style="margin-left:1rem">${alts}</ul>
         <div class="separador"></div>
       </section>`;
