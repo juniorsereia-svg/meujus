@@ -1,0 +1,178 @@
+
+* Ano: 2024 Banca: FGV Órgão: PC-SC Prova: FGV - 2024 - PC-SC - Delegado
+** Q 1: Um pacote legislativo resultou na aprovação de três novas leis penais no Congresso Nacional. A Lei A revogou o crime previsto no art. 28 da Lei de Drogas (Lei n° 11.343/06). Noutro giro, a Lei B alterou o texto do art. 213 do Código Penal, passando a prever para o crime de estupro a pena de 8 a 12 anos de reclusão. Por fim, a Lei C alterou o art. 155 do Código Penal, passando a prever para o crime de furto simples a pena de detenção de 1 a 5 anos. Em relação ao tema, assinale a afirmativa correta.
+*** A) - A lei A se refere à hipótese de irretroatividade da lei penal mais severa.
+*** B) - As leis A e C constituem hipóteses de novatio legis in mellius.
+*** C) - As leis B e C se referem à hipótese de retroatividade da lei penal mais benéfica.
+*** D) - A lei B se refere à hipótese de ultratividade da lei anterior mais benéfica.
+*** E) - A lei C se refere à hipótese de novatio legis incriminadora.
+**** Gabarito: D
+-----
+* Ano: 2023 Banca: JVL Concursos Órgão: Prefeitura de Miguel Leão - PI Prova: JVL Concursos - 2023 - Prefeitura de Miguel Leão - PI - Vigia
+** Q 2: A defesa pessoal que consiste na ação propriamente dita, no momento de entrar para cobrir a situação ou fato, é a:
+*** A) - Repressiva.
+*** B) - Ostensiva.
+*** C) - Preventiva.
+*** D) - Posterior.
+**** Gabarito: A
+-----
+* Ano: 2023 Banca: FUNDATEC Órgão: Prefeitura de Rolante - RS Prova: FUNDATEC - 2023 - Prefeitura de Rolante - RS - Auxiliar de Contabilidade
+** Q 3: De acordo com a Constituição Federal, não há crime sem lei anterior que o defina, nem pena sem prévia cominação legal. Nesse sentido, a lei penal somente retroagirá para __________ o réu.
+Assinale a alternativa que preenche corretamente a lacuna do trecho acima.
+*** A) - prejudicar
+*** B) - beneficiar
+*** C) - prender
+*** D) - aprisionar
+*** E) - apreender
+**** Gabarito: B
+-----
+* Ano: 2023 Banca: VUNESP Órgão: TRF - 3ª REGIÃO Prova: VUNESP - 2023 - TRF - 3ª REGIÃO - Analista Judiciário / Área: Judiciária
+** Q 4: Ficam sujeitos à lei brasileira, embora cometidos no estrangeiro, ainda que o agente seja absolvido ou condenado no estrangeiro, sem a necessidade de concorrência de qualquer outra condição, os crimes
+*** A) - que, por tratado ou convenção, o Brasil se obrigou a reprimir.
+*** B) - praticados em embarcações brasileiras, mercantes ou de propriedade privada, quando em território estrangeiro.
+*** C) - praticados em aeronaves brasileiras, mercantes ou de propriedade privada, quando em território estrangeiro.
+*** D) - contra a administração pública, por quem está a seu serviço.
+*** E) - praticados por brasileiro.
+**** Gabarito: D
+-----
+* Ano: 2023 Banca: VUNESP Órgão: TRF - 3ª REGIÃO Prova: VUNESP - 2023 - TRF - 3ª REGIÃO - Analista Judiciário / Área: Judiciária - Especialidade: Oficial de Justiça Avaliador Federal
+** Q 5: Aplica-se a lei penal brasileira a fatos ocorridos no interior de aeronaves brasileiras de natureza pública, onde quer que se encontrem. Também se aplica a lei penal brasileira a fatos ocorridos no interior de
+*** A) - aeronaves brasileiras mercantes, onde quer que se encontrem, desde que a vítima seja brasileira.
+*** B) - aeronaves brasileiras mercantes, onde quer que se encontrem, contra qualquer vítima.
+*** C) - aeronaves brasileiras de propriedade privada, sobrevoando território estrangeiro.
+*** D) - embarcações brasileiras mercantes, ancoradas em porto estrangeiro.
+*** E) - embarcações brasileiras de propriedade privada, que estejam em alto-mar.
+**** Gabarito: E
+-----
+* Ano: 2023 Banca: FGV Órgão: PM-SP Prova: FGV - 2023 - PM-SP - Cabo PM
+** Q 6: Suponha que, no interior de uma aeronave privada brasileira a serviço do governo brasileiro, foi cometido um delito de furto quando tal aeronave estava localizada em aeroporto de país estrangeiro.
+Nesse caso, de acordo com o Código Penal brasileiro, é correto afirmar que
+*** A) - pelo princípio da territorialidade, deverá ser aplicada apenas a lei penal estrangeira, uma vez que se trata de aeronave privada, ainda que a serviço do governo brasileiro, que se encontrava em território estrangeiro no momento em que o delito foi cometido.
+*** B) - poderá ser aplicada a lei penal brasileira, por serem consideradas como extensão do território nacional as aeronaves brasileiras, ainda que privadas, a serviço do governo brasileiro, onde quer que se encontrem.
+*** C) - pelo princípio da extraterritorialidade da lei penal brasileira, esta poderá ser aplicada ao delito cometido no interior de aeronave privada brasileira a serviço do governo brasileiro, desde que haja requerimento do Ministro da Justiça às autoridades estrangeiras do país onde o delito foi cometido.
+*** D) - pelo princípio da extraterritorialidade da lei penal brasileira, esta poderá ser aplicada ao delito cometido no interior de aeronave privada brasileira a serviço do governo brasileiro, desde que haja requerimento do Ministro das Relações Exteriores às autoridades estrangeiras do país onde o delito foi cometido.
+**** Gabarito: B
+-----
+* Ano: 2023 Banca: IDECAN Órgão: Prefeitura de Maracanaú - CE Prova: IDECAN - 2023 - Prefeitura de Maracanaú - CE - Guarda Civil Municipal
+** Q 7: Quanto ao tempo do crime é correto afirmar:
+*** A) - Considera-se praticado o crime no momento da ação ou omissão, ainda que outro seja o momento do resultado.
+*** B) - Considera-se praticado o crime somente no momento da ação.
+*** C) - Considera-se praticado o crime tentado no momento da ação ou omissão culposa, ainda que outro seja o momento do resultado naturalístico.
+*** D) - Considera-se praticado o crime somente no momento da ação, pouco importando o momento do resultado.
+**** Gabarito: A
+-----
+* Ano: 2023 Banca: IDECAN Órgão: Prefeitura de Maracanaú - CE Prova: IDECAN - 2023 - Prefeitura de Maracanaú - CE - Guarda Civil Municipal
+** Q 8: Exclusivamente a respeito da anterioridade penal, assinale a assertiva que se amolda ao tema.
+*** A) - Não há crime sem lei anterior que o defina. Não há pena sem prévia cominação legal.
+*** B) - Ninguém pode ser punido por fato que lei posterior deixa de considerar crime, cessando em virtude dela a execução penal e os efeitos penais da sentença condenatória.
+*** C) - A pessoa só poderá ser punida por lei anterior ao fato, se for revogada e considerada mais benéfica à vítima.
+*** D) - A lei excepcional ou temporária, embora decorrido o período de sua duração ou cessadas as circunstâncias que a determinaram, aplica-se ao fato praticado durante sua vigência.
+**** Gabarito: A
+-----
+* Ano: 2023 Banca: IV - UFG Órgão: Prefeitura de Cidade Ocidental - GO Prova: IV - UFG - 2023 - Prefeitura de Cidade Ocidental - GO - Guarda Civil
+** Q 9: Leia o texto a seguir.
+O Código de Conduta para os Funcionários Responsáveis pela Aplicação da Lei adotado pela Assembleia Geral das Nações Unidas, no dia 17 de dezembro de 1979, através da Resolução nº 34/169, prevê no artigo 3º que “os funcionários responsáveis pela aplicação da lei só podem empregar a força quando estritamente necessária e na medida exigida para o cumprimento do seu dever.”
+Tendo como base o texto do dispositivo, os princípios que orientam o uso da força pelos funcionários responsáveis pela aplicação da lei são
+*** A) - impessoalidade e razoabilidade.
+*** B) - necessidade e proporcionalidade.
+*** C) - impessoalidade e necessidade.
+*** D) - razoabilidade e proporcionalidade.
+**** Gabarito: B
+-----
+* Ano: 2023 Banca: Instituto Consulplan Órgão: TJ-MA Prova: Instituto Consulplan - 2023 - TJ-MA - Titular de Serviços de Notas e de Registros - Provimento
+** Q 10: Em virtude de progressivo e elevado número de crimes contra o patrimônio no Município de São Luís do Maranhão, em cinco de setembro de 2022, foi editada uma medida provisória com previsão de alteração da pena de furto do Art. 155 do Código Penal que é de reclusão, de 1 a 4 anos, e multa para uma pena de reclusão de 6 a 9 anos e multa. Marcos, em 15 de setembro de 2022, subtrai para si um televisor. Considerando a situação hipotética mencionada, a doutrina, a legislação pátria e o entendimento das cortes superiores, assinale a afirmativa correta em relação à pena que deverá ser aplicada, caso haja condenação, atentando o julgamento em 18 de setembro de 2022.
+*** A) - 6 a 9 anos de reclusão e multa , pois no caso de medida provisória tem ultratividade gravosa.
+*** B) - 6 a 9 anos de reclusão e multa , pois aplica-se o princípio do tempus regit actum (tempo rege o ato).
+*** C) - 1 a 4 anos de detenção e multa , pois a Constituição prevê o princípio da ultratividade da lei penal mais benéfica ao réu.
+*** D) - 1 a 4 anos de reclusão e multa , pois medida provisória não pode servir para criar tipo incriminador nem cominar penal.
+**** Gabarito: D
+-----
+* Ano: 2023 Banca: COTEC Órgão: SAAE-UNAÍ Prova: COTEC - 2023 - SAAE-UNAÍ - Procurador
+** Q 11: Em 11 de junho de 2002, a Lei n° 10.467 inclui, no Título XI do Código Penal Brasileiro, o "Capítulo li-A" com o objetivo de dar efetividade ao Decreto nº 3.678, de 30 de novembro de 2000, que promulgou a Convenção sobre o Combate da Corrupção de Funcionários Públicos Estrangeiros em Transações Comerciais. Para efeitos da nova normalização, considera-se funcionário público estrangeiro
+*** A) - quem exerce cargo, emprego ou função em empresas controladas, diretamente, pelo Poder Público de país estrangeiro ou em organizações públicas internacionais.
+*** B) - quem exerce cargo, emprego ou função em entidade paraestatal e quem trabalha para empresa prestadora de serviço contratada ou conveniada para a execução de atividade típica de Administração Pública Internacional.
+*** C) - quem, ainda que transitoriamente com remuneração, exerce cargo, emprego ou função pública em entidades multinacionais ou em representações diplomáticas de país estrangeiro.
+*** D) - quem exerce cargo, emprego ou função em entidade estatal ou multinacional e quem trabalha para empresa prestadora de serviço contratada ou conveniada para a execução de atividade típica da Administração Pública.
+*** E) - quem, ainda que transitoriamente ou sem remuneração, exerce cargo, emprego ou função pública em entidades estatais ou em representações diplomáticas de país estrangeiro.
+**** Gabarito: E
+-----
+* Ano: 2023 Banca: IVIN Órgão: Prefeitura de Santana do Piauí - PI Prova: IVIN - 2023 - Prefeitura de Santana do Piauí - PI - Procurador
+** Q 12: Assinale a alternativa correta, de acordo com as disposições do Código Penal:
+*** A) - Se uma servidora pública municipal, em viagem ao exterior a serviço, comete crime contra o patrimônio do Município, ficará sujeita à lei estrangeira aplicável do país em que praticou a ação criminosa.
+*** B) - Os brasileiros acusados por crime contra a administração pública praticados no exterior somente ficam sujeitos à lei brasileira se residentes no Brasil.
+*** C) - O servidor que cometa crime contra a União no exterior, estando a serviço dela, não fica mais sujeito à lei brasileira, caso seja absolvido no estrangeiro.
+*** D) - Não se atenua pena imposta no Brasil por cumprimento de pena no estrangeiro, em nenhuma hipótese.
+*** E) - No Brasil, adota-se a teoria da atividade ou da ação, a qual entende praticado o crime no momento em que ocorreu a ação ou omissão, mesmo que outro seja o momento do resultado.
+**** Gabarito: E
+-----
+* Ano: 2023 Banca: MPE-PR Órgão: MPE-PR Prova: MPE-PR - 2023 - MPE-PR - Promotor Substituto
+** Q 13: Sobre a teoria da lei penal , assinale a alternativa incorreta:
+*** A) - A lei nova, que prevê exclusão de qualificadora a determinado crime, aplica-se a fatos anteriores à sua vigência, ainda que após o respectivo trânsito em julgado da sentença penal condenatória.
+*** B) - Dentre as proibições que derivam da aplicação do princípio da legalidade, pode-se citar a proibição de retroatividade da lei penal, que admite exceções, e a proibição de analogia em matéria penal, que não admite exceções.
+*** C) - As normas excepcionais e temporárias, de acordo com sistemática adotada pelo Código Penal brasileiro, possuem ultra-atividade.
+*** D) - As normas penais em branco - de que é exemplo o crime previsto no art. 39 da Lei 9.605/98 (cortar árvores em floresta considerada de preservação permanente, sem permissão da autoridade competente) -, dependem de complemento por atos legislativos ou administrativos para perfectibilização de sua tipicidade.
+*** E) - A lei nova, que prevê elevação do prazo prescricional para extinção da punibilidade de determinado crime, não se aplica a fatos anteriores à sua vigência, em razão do princípio da irretroatividade da lei penal.
+**** Gabarito: B
+-----
+* Ano: 2023 Banca: FUNDEP (Gestão de Concursos) Órgão: DPE-MG Prova: FUNDEP (Gestão de Concursos) - 2023 - DPE-MG - Defensor Público de Classe Inicial
+** Q 14: O direito positivo não esgota a ciência penal. Dessa maneira, considerando a principiologia do Direito Penal, assinale a alternativa incorreta.
+*** A) - A Convenção Americana de Direitos Humanos e o Pacto Internacional sobre Direitos Civis e Políticos têm, em seu bojo, o princípio do ne bis in idem como princípio processual, porém, esse é um princípio de índole substancial também aplicável à matéria penal.
+*** B) - A subsidiariedade do Direito Penal deriva de sua consideração como “remédio sancionar extremo”, que deve ser ministrado apenas quando outro se revele ineficiente, quando fracassam as demais barreiras protetoras de bem jurídico.
+*** C) - A doutrina trabalhou e a jurisprudência acolheu diversos casos de possíveis incidências do princípio da adequação social, como a perfuração de orelhas de crianças para colocar brincos e a venda de bebida alcoólica a menores de idade em localidades afastadas dos grandes centros.
+*** D) - A jurisprudência admite a aplicação do princípio da insignificância nos crimes patrimoniais em que não há emprego de violência ou grave ameaça, mas há resistência para o reconhecimento para o crime de roubo.
+*** E) - Há precedentes nos tribunais superiores reconhecendo a aplicação do princípio da insignificância mesmo que a vida pregressa do indivíduo denote reincidência criminal.
+**** Gabarito: E
+-----
+* Ano: 2023 Banca: CESPE / CEBRASPE Órgão: TCE-MS Prova: CESPE / CEBRASPE - 2023 - TCE-MS - Procurador de Contas Substituto do Ministério Público de Contas
+** Q 15: Em relação à aplicação da lei penal, de acordo com as disposições do Código Penal, assinale a opção correta.
+*** A) - Leis penais gravosas aplicam-se retroativamente, quando surgirem durante o processo.
+*** B) - Leis penais temporárias e excepcionais são sempre aplicadas de forma retroativa, uma vez que sua própria existência se fundamenta na necessidade de regular situação que demandava atuação imediata do legislador.
+*** C) - Leis penais mais brandas não retroagem no caso de crimes permanentes ou continuados.
+*** D) - Lei penal posterior que beneficie o réu deve ser aplicada retroativamente, mesmo no caso de condenação definitiva.
+*** E) - Lei penal posterior que tenha natureza benéfica para o réu não pode ser aplicada retroativamente se o processo já estiver em fase de execução da pena, sob pena de violação da coisa julgada.
+**** Gabarito: D
+-----
+* Ano: 2023 Banca: CONSULPLAN Órgão: CORE-PE Prova: CONSULPLAN - 2023 - CORE-PE - Assistente Jurídico
+** Q 16: Carlos, brasileiro nato, viajou à Alemanha com a finalidade de assumir o transporte de um carregamento de drogas ilícitas destinadas à Inglaterra. Na Alemanha, já em posse da droga, o veículo conduzido por Carlos foi interceptado pela polícia, mas ele conseguiu se desvencilhar da abordagem, escapar e retornar ao Brasil. Na Alemanha, a conduta de Carlos configura o crime de tráfico ilícito de drogas, punível com a restrição da liberdade. Sobre a situação narrada, assinale a alternativa que encontra correspondência com as normativas estabelecidas no Código Penal.
+*** A) - Carlos será responsabilizado de acordo com a lei brasileira, ainda que absolvido na Alemanha.
+*** B) - Poderá ser aplicada a lei brasileira ao fato ocorrido na Alemanha, com base no princípio da proteção.
+*** C) - Se Carlos for condenado na Alemanha pelo crime de tráfico ilícito de drogas, poderá ser processado e julgado pelo mesmo fato no Brasil, caso haja requisição do Ministro da Justiça.
+*** D) - A responsabilização de Carlos nos moldes da lei brasileira poderá ocorrer, desde que ele não seja absolvido ou perdoado na Alemanha ou ocorra a extinção da sua punibilidade, e que a lei brasileira autorize a extradição nos casos de tráfico ilícito de drogas.
+**** Gabarito: D
+-----
+* Ano: 2023 Banca: VUNESP Órgão: PC-SP Prova: VUNESP - 2023 - PC-SP - Delegado de Polícia
+** Q 17: Determina o art. 12 do CP: “as regras gerais deste Código aplicam-se aos fatos incriminados por lei especial, se esta não dispuser de modo diverso”. Trata-se de norma que
+*** A) - prescreve a aplicação do princípio da legalidade.
+*** B) - privilegia as regras do CP em detrimento da lei especial.
+*** C) - prescreve a aplicação das regras do CP em situação de antinomia.
+*** D) - admite a interpretação analógica em situação de anomia.
+*** E) - prescreve a aplicação do princípio da especialidade.
+**** Gabarito: E
+-----
+* Ano: 2023 Banca: VUNESP Órgão: PC-SP Prova: VUNESP - 2023 - PC-SP - Delegado de Polícia
+** Q 18: Indivíduo está sendo processado, ainda em fase de instrução em primeiro grau. Nesse momento, nova lei é publicada e entra em vigor, estabelecendo novas regras de progressão de regime para a execução de pena. Essas novas regras, com relação a esse indivíduo específico
+*** A) - serão aplicadas independentemente de serem mais benéficas, tendo em vista que ainda não houve trânsito em julgado.
+*** B) - serão aplicadas independentemente de serem mais benéficas, tendo em vista que ainda não houve sentença.
+*** C) - não serão aplicadas.
+*** D) - apenas serão aplicadas se lhe forem mais benéficas.
+*** E) - serão aplicadas independentemente de serem mais benéficas, tendo em vista que ainda não houve início da execução de pena.
+**** Gabarito: D
+-----
+* Ano: 2023 Banca: VUNESP Órgão: PC-SP Prova: VUNESP - 2023 - PC-SP - Delegado de Polícia
+** Q 19: Projeto que deu origem ao Código Penal de 1940, conhecido pelo nome de seu elaborador:
+*** A) - Galdino Siqueira.
+*** B) - Euzébio Gómez.
+*** C) - Alcântara Machado.
+*** D) - Sá Pereira.
+*** E) - Alfredo Buzaid.
+**** Gabarito: C
+-----
+* Ano: 2023 Banca: VUNESP Órgão: PC-SP Prova: VUNESP - 2023 - PC-SP - Delegado de Polícia
+** Q 20: A função do Direito Penal é
+*** A) - proteger bens jurídicos relevantes para a sociedade.
+*** B) - aplicar penas e medidas de segurança.
+*** C) - dirimir controvérsias e pacificar a sociedade.
+*** D) - construir uma sociedade livre, justa e solidária.
+*** E) - garantir a execução das leis.
+**** Gabarito: A
+-----
