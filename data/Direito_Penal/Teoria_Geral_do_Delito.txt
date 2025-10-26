@@ -47,7 +47,7 @@ Na doutrina e jurisprudência contemporâneas, predomina o entendimento de que a
 ****** Conceito de Crime
 -----
 * Ano: 2011 | Banca: FUMARC | Órgão: PC-MG
-** Considerando o Código Penal e as Teorias do Delito é **INCORRETA** afrmar que:
+** Considerando o Código Penal e as Teorias do Delito é ***INCORRETA*** afrmar que:
 *** A) Com relação ao tipo doloso, o Código Penal Brasileiro adotou as teorias da vontade e do assentimento e não a da atividade.
 *** B) A perda de cargo, função pública ou mandato eletivo é efeito genérico da condenação, não necessitando, dessa forma, ser determinada de forma explícita e fundamentada da sentença penal condenatória.
 *** C) A previsibilidade objetiva é elemento integrante do tipo culposo, podendo a previsibilidade subjetiva ser analisada por ocasião da culpabilidade.
@@ -349,11 +349,11 @@ Assinale:
 -----
 * Ano: 2010 | Banca: FGV | Órgão: SEAD-AP
 ** Analise as proposições a seguir.
-I. O exame do direito positivo é a metodologia indicada para promover a distinção entre crime e contravenção penal posto que não há diferença ontológica entre ambos.
-II. Segundo dispõe o legislador penal, crime é a infração penal a que a lei comina pena de reclusão ou de detenção, quer isoladamente, quer alternativa ou cumulativamente com a pena de multa; contravenção é a infração penal a que a lei comina, isoladamente, pena de prisão simples ou multa, ou ambas, alternativa ou cumulativamente.
-III. No direito penal pátrio a expressão crime é tida como gênero, do qual são espécies as contravenções penais e os delitos.
-IV. A diferença entre ilícito civil e ilícito penal é que o primeiro gera a imposição de uma pena, que pode até chegar ao extremo de privação da liberdade do agente; já o segundo tem como consequência a obrigação de reparar o dano, primordialmente.
-Assinale:
+** I. O exame do direito positivo é a metodologia indicada para promover a distinção entre crime e contravenção penal posto que não há diferença ontológica entre ambos.
+** II. Segundo dispõe o legislador penal, crime é a infração penal a que a lei comina pena de reclusão ou de detenção, quer isoladamente, quer alternativa ou cumulativamente com a pena de multa; contravenção é a infração penal a que a lei comina, isoladamente, pena de prisão simples ou multa, ou ambas, alternativa ou cumulativamente.
+** III. No direito penal pátrio a expressão crime é tida como gênero, do qual são espécies as contravenções penais e os delitos.
+** IV. A diferença entre ilícito civil e ilícito penal é que o primeiro gera a imposição de uma pena, que pode até chegar ao extremo de privação da liberdade do agente; já o segundo tem como consequência a obrigação de reparar o dano, primordialmente.
+** Assinale:
 *** A) se somente as proposições III e IV estiverem corretas.
 *** B) se somente as proposições I e II estiverem corretas.
 *** C) se somente as proposições II e IV estiverem corretas.
@@ -373,7 +373,7 @@ Assinale:
 ****** Sistemas Penais
 -----
 * Ano: 2010 | Banca: MPE-MG | Órgão: MPE-MG
-** Assinale a alternativa *INCORRETA*.
+** Assinale a alternativa **INCORRETA**.
 *** A) Ocorre o estado de necessidade defensivo quando a conduta do agente atinge um interesse de quem causou a situação de perigo.
 *** B) Antes de passar em julgado a sentença final, a prescrição não corre enquanto o agente cumpre pena no estrangeiro.
 *** C) A tentativa inidônea ou inadequada identifica a hipótese denominada pela doutrina de crime de flagrante esperado.
@@ -383,7 +383,7 @@ Assinale:
 ****** Conceito de Crime
 -----
 * Ano: 2010 | Banca: MPE-MG | Órgão: MPE-MG
-** Assinale a alternativa *CORRETA*.
+** Assinale a alternativa **CORRETA**.
 *** A) A pessoa pode ser, ao mesmo tempo, sujeito ativo e passivo de um delito em face de sua própria conduta.
 *** B) O agente responderá tão-somente por tentativa de crime se ocorrer a desistência voluntária ou o arrependimento eficaz.
 *** C) O condenado não reincidente, cuja pena não exceda a doze anos, poderá, desde o princípio, cumpri-la em regime semiaberto.
@@ -393,7 +393,7 @@ Assinale:
 ****** Sistemas Penais, Conceito de Crime
 -----
 * Ano: 2010 | Banca: MPE-MG | Órgão: MPE-MG
-** Assinale a alternativa *CORRETA*.
+** Assinale a alternativa **CORRETA**.
 *** A) A prática de crime doloso no curso da suspensão condicional da pena não impede a concessão de fiança ao réu.
 *** B) O interrogatório de pessoa surda será realizado por escrito e o interrogando responderá também por escrito, anexando-se aos autos as perguntas e respostas.
 *** C) O Juiz de Direito, no exercício de suas funções, poderá formular pedido de *habeas corpus* ao Tribunal de Justiça, desde que ele não seja a autoridade coatora.
@@ -413,7 +413,7 @@ Assinale:
 -----
 * Ano: 2010 | Banca: CESPE / CEBRASPE | Órgão: AGU
 ** Em relação a crime organizado, julgue os itens que se seguem.
-Não há previsão expressa quanto à identificação criminal de pessoas envolvidas com a ação praticada por organizações criminosas, sendo aplicável a regra geral segundo a qual o civilmente identificado não será submetido a identificação criminal.
+** Não há previsão expressa quanto à identificação criminal de pessoas envolvidas com a ação praticada por organizações criminosas, sendo aplicável a regra geral segundo a qual o civilmente identificado não será submetido a identificação criminal.
 *** A) Certo
 *** B) Errado
 **** Gabarito: Errado
@@ -421,7 +421,7 @@ Não há previsão expressa quanto à identificação criminal de pessoas envolv
 -----
 * Ano: 2010 | Banca: CESPE / CEBRASPE | Órgão: AGU
 ** Em relação a crime organizado, julgue os itens que se seguem.
-Prevê a lei causa de redução da pena em caso de colaboração espontânea do agente envolvido em crime praticado em organização criminosa, desde que essa colaboração leve ao esclarecimento da infração penal e de sua autoria.
+** Prevê a lei causa de redução da pena em caso de colaboração espontânea do agente envolvido em crime praticado em organização criminosa, desde que essa colaboração leve ao esclarecimento da infração penal e de sua autoria.
 *** A) Certo
 *** B) Errado
 **** Gabarito: Certo
@@ -701,7 +701,7 @@ O crime de lesão corporal seguida de morte é preterdoloso, havendo dolo na con
 ****** Conceito de Crime
 -----
 * Ano: 2009 | Banca: EJEF | Órgão: TJ-MG
-** Marque a alternativa **CORRETA**. O erro de proibição escusável, como excludente da potencial consciência da ilicitude, leva à absolvição por exclusão da:
+** Marque a alternativa ***CORRETA***. O erro de proibição escusável, como excludente da potencial consciência da ilicitude, leva à absolvição por exclusão da:
 *** A) Imputabilidade
 *** B) Tipicidade
 *** C) Punibilidade
@@ -801,7 +801,7 @@ O crime de lesão corporal seguida de morte é preterdoloso, havendo dolo na con
 ****** Conceito de Crime
 -----
 * Ano: 2008 | Banca: NUCEPE | Órgão: PC-PI
-** Sobre Fato Típico, e elementos conceituais do crime, assinale a alternativa **INCORRETA**:
+** Sobre Fato Típico, e elementos conceituais do crime, assinale a alternativa ***INCORRETA***:
 *** A) Fato material é aquele que existe independente de se enquadrar ou não ao descritivo legal. A tipicidade, porém, é essencial à existência do fato material.
 *** B) Fato típico é o fato material que se amolda perfeitamente aos elementos constantes do modelo previsto na lei penal.
 *** C) Conduta é a ação ou omissão humana, consciente e voluntária, dirigida a uma finalidade. O pensamento, enquanto permanecer encastelado na consciência, não representa absolutamente nada ao Direito Penal.
@@ -1131,7 +1131,7 @@ O crime de lesão corporal seguida de morte é preterdoloso, havendo dolo na con
 ****** Sistemas Penais
 -----
 * Ano: 2006 | Banca: PGT | Órgão: PGT
-** Assinale a afirmativa **INCORRETA**, quanto à omissão em matéria penal:
+** Assinale a afirmativa ***INCORRETA***, quanto à omissão em matéria penal:
 *** A) a figura do "garantidor" ou "garante" é aplicável aos crimes omissivos impróprios;
 *** B) crimes omissivos impróprios são aqueles objetivamente descritos com uma conduta negativa de não fazer o que a lei determina;
 *** C) a causalidade nos crimes omissivos impróprios é normativa, estabelecendo- se entre o resultado e o comportamento que o agente estava juridicamente obrigado a fazer e do qual se omitiu;
@@ -1191,7 +1191,7 @@ O crime de lesão corporal seguida de morte é preterdoloso, havendo dolo na con
 ****** Conceito de Crime
 -----
 * Ano: 2024 | Banca: NUCEPE | Órgão: SEJUS-PI
-** Quanto aos elementos do crime, especialmente ao fato típico, de acordo com o Código Penal Brasileiro e suas disposições, analise a questão e marque a alternativa **CORRETA**. Pedro, Bombeiro Militar, vê Antônio, seu desafeto, se afogando no rio. Populares pedem que ele o salve, porém, Pedro, propositalmente não o faz, com o intuito de matá-lo. Antônio efetivamente vem a falecer. Neste caso, Pedro cometeu que crime?
+** Quanto aos elementos do crime, especialmente ao fato típico, de acordo com o Código Penal Brasileiro e suas disposições, analise a questão e marque a alternativa ***CORRETA***. Pedro, Bombeiro Militar, vê Antônio, seu desafeto, se afogando no rio. Populares pedem que ele o salve, porém, Pedro, propositalmente não o faz, com o intuito de matá-lo. Antônio efetivamente vem a falecer. Neste caso, Pedro cometeu que crime?
 *** A) Homicídio culposo.
 *** B) Homicídio doloso, por omissão própria.
 *** C) Não houve crime.
@@ -1348,7 +1348,7 @@ O crime de lesão corporal seguida de morte é preterdoloso, havendo dolo na con
 ****** Conceito de Crime
 -----
 * Ano: 2022 | Banca: IASD | Órgão: Prefeitura de Fortuna - MA
-** A Lei de Introdução do Código Penal diz no “Art. 1º Considera-se crime a infração penal que a lei comina pena de reclusão ou de detenção, quer isoladamente, quer alternativa ou cumulativamente com a pena de multa; contravenção, a infração penal a que a lei comina, isoladamente, pena de prisão simples ou de multa, ou ambas, alternativa ou cumulativamente.” De acordo com as definições do art. 18 do Código Penal Brasileiro, assinale a alternativa **CORRETA**.
+** A Lei de Introdução do Código Penal diz no “Art. 1º Considera-se crime a infração penal que a lei comina pena de reclusão ou de detenção, quer isoladamente, quer alternativa ou cumulativamente com a pena de multa; contravenção, a infração penal a que a lei comina, isoladamente, pena de prisão simples ou de multa, ou ambas, alternativa ou cumulativamente.” De acordo com as definições do art. 18 do Código Penal Brasileiro, assinale a alternativa ***CORRETA***.
 *** A) O crime é culposo, quando o agente quis o resultado ou assumiu o risco de produzi-lo
 *** B) O crime é doloso, quando o agente quis o resultado ou assumiu o risco de produzi-lo.
 *** C) O crime é doloso, quando o agente deu causa ao resultado por imprudência, negligência ou imperícia.
@@ -1408,7 +1408,7 @@ O crime de lesão corporal seguida de morte é preterdoloso, havendo dolo na con
 ****** Sistemas Penais
 -----
 * Ano: 2022 | Banca: IBFC | Órgão: PC-BA
-** No que se refere à teoria do crime, assinale a alternativa **incorreta**.
+** No que se refere à teoria do crime, assinale a alternativa ***INCORRETA***.
 *** A) O agente que, voluntariamente, desiste de prosseguir na execução ou impede que o resultado se produza, responde por tentativa de crime
 *** B) O resultado, de que depende a existência do crime, somente é imputável a quem lhe deu causa. Considera-se causa a ação ou omissão sem a qual o resultado não teria ocorrido
 *** C) Não se pune a tentativa quando, por ineficácia absoluta do meio ou por absoluta impropriedade do objeto, é impossível consumar-se o crime
