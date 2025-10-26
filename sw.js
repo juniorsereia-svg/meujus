@@ -1,4 +1,4 @@
-const CACHE = 'meujus-v2';
+const CACHE = 'meujus-v3';
 const isProof = url => /\/data\/.+\/p\d+(\.\w+)?\.txt(\?.*)?$/.test(url);
 
 self.addEventListener('install', e => e.waitUntil(caches.open(CACHE)));
