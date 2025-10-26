@@ -1,5 +1,5 @@
 /* =========================================================
-   app.js — completo, da primeira à última linha
+   app.js — completo, com carregamento local e sem 429
    ========================================================= */
 
 /* Utilidades */
@@ -14,6 +14,29 @@ const byId = (id) => document.getElementById(id);
   const b = byId("rodapeAno"); if (b) b.textContent = `© ${y}`;
 })();
 
+/* ================== Fetch util: once + backoff ================== */
+const __once = new Map();
+async function fetchOnce(url, opt){
+  const k = url + JSON.stringify(opt||{});
+  if (__once.has(k)) return __once.get(k);
+  const p = (async()=>{
+    const res = await fetch(url, opt||{});
+    if (!res.ok) throw new Error(`HTTP ${res.status} em ${url}`);
+    const ct = res.headers.get("content-type")||"";
+    return ct.includes("application/json") ? res.json() : res.text();
+  })();
+  __once.set(k, p);
+  return p;
+}
+async function fetchWithBackoff(url, opt={}, tries=3, base=700){
+  for (let i=0;i<tries;i++){
+    const res = await fetch(url, opt);
+    if (res.status !== 429) return res;
+    await new Promise(r=>setTimeout(r, base*(i+1)));
+  }
+  throw new Error("429 repetido");
+}
+
 /* =========================================================
    Combo multisseleção estável (sem chips e sem contador)
    ========================================================= */
@@ -24,21 +47,18 @@ class Combo {
     this.hidden  = byId(cfg.hiddenId);
     this.multiple = cfg.multiple ?? true;
     this.headerText = cfg.header ?? "Busca rápida";
-
-    /* raiz: usa id se veio, senão pega o .combo mais próximo do input */
     this.root = cfg.rootId ? byId(cfg.rootId) : this.input.closest(".combo");
     this.control = $(".combo-control", this.root);
     this.caret   = $(".combo-caret", this.root);
     this.btnClose= $(".combo-close", this.root);
 
-    /* dados normalizados {value,label} */
     const normalize = (x) =>
       typeof x === "string" ? ({ value:x, label:x })
       : ({ value:x.value, label:x.label ?? x.value });
 
-    this.allOptions = (cfg.options ?? []).map(normalize);  // ordem original
+    this.allOptions = (cfg.options ?? []).map(normalize);
     this.filtered   = this.allOptions.slice();
-    this.valueSet   = new Set();                           // valores selecionados
+    this.valueSet   = new Set();
     this.focusIndex = -1;
 
     this._buildPanel();
@@ -49,7 +69,6 @@ class Combo {
   _buildPanel() {
     this.panel.innerHTML = "";
 
-    /* Cabeçalho + busca */
     const head = document.createElement("div");
     head.className = "combo-head";
     head.innerHTML = `<span>${this.headerText}</span>`;
@@ -59,11 +78,9 @@ class Combo {
     head.appendChild(searchWrap);
     this.panel.appendChild(head);
 
-    /* Lista */
     this.listEl = document.createElement("div");
     this.panel.appendChild(this.listEl);
 
-    /* Rodapé com limpar seleção */
     const foot = document.createElement("div");
     foot.className = "p-2 border-t border-zinc-100 flex items-center justify-between";
     const clearBtn = document.createElement("button");
@@ -74,7 +91,6 @@ class Combo {
     foot.appendChild(clearBtn);
     this.panel.appendChild(foot);
 
-    /* Busca */
     this.searchInput = $("input", searchWrap);
     this.searchInput.addEventListener("input", () => {
       const q = this.searchInput.value.trim().toLowerCase();
@@ -83,7 +99,6 @@ class Combo {
       this._paintList();
     });
 
-    /* inicia fechado */
     this.close();
   }
 
@@ -100,7 +115,6 @@ class Combo {
       if (!this.root.contains(e.target)) this.close();
     });
 
-    /* teclado no input */
     this.input.addEventListener("keydown", (e) => {
       if (e.key === "ArrowDown") { e.preventDefault(); this._move(1); }
       else if (e.key === "ArrowUp") { e.preventDefault(); this._move(-1); }
@@ -108,7 +122,6 @@ class Combo {
       else if (e.key === "Escape")  { this.close(); }
     });
 
-    /* teclado no painel */
     this.panel.addEventListener("keydown", (e) => {
       if (e.key === "ArrowDown") { e.preventDefault(); this._move(1); }
       else if (e.key === "ArrowUp") { e.preventDefault(); this._move(-1); }
@@ -178,7 +191,6 @@ class Combo {
   }
 
   _sync() {
-    /* serialização mantém ordem original da lista */
     const ordered = this.allOptions.map(o => o.value).filter(v => this.valueSet.has(v));
     if (this.hidden) this.hidden.value = JSON.stringify(ordered);
     this._paintList();
@@ -212,50 +224,89 @@ class Combo {
 }
 
 /* =========================================================
-   Dados opcionais expostos em window
+   Dados: preferir local ./data/banco.json, sem externas
    ========================================================= */
 const DATA = {
   cursos:    (window.DATA_CURSOS    || []).map(x => typeof x === "string" ? ({ value:x, label:x }) : x),
   temas:     (window.DATA_TEMAS     || []).map(x => typeof x === "string" ? ({ value:x, label:x }) : x),
   subtemas:  (window.DATA_SUBTEMAS  || []).map(x => typeof x === "string" ? ({ value:x, label:x }) : x),
-  banco:     (window.BANCO_QUESTOES || []), // [{id,curso,temas:[...],subtemas:[...],enunciado,alternativas:[...],correta}]
+  banco:     (window.BANCO_QUESTOES || []),
 };
 
+/* Se banco não veio via window, tenta local ./data/banco.json */
+async function ensureBancoLocal() {
+  if (Array.isArray(DATA.banco) && DATA.banco.length) return;
+  try {
+    const res = await fetchWithBackoff("./data/banco.json", {cache:"force-cache"});
+    if (!res.ok) throw new Error(res.status);
+    DATA.banco = await res.json();
+  } catch(e){
+    console.warn("Banco local não carregado:", e);
+    DATA.banco = DATA.banco || [];
+  }
+}
+
+/* Deriva listas de cursos/temas/subtemas a partir do banco se faltarem */
+function deriveOptionsFromBanco() {
+  if (!Array.isArray(DATA.banco) || !DATA.banco.length) return;
+  if (!DATA.cursos.length) {
+    const s = new Set(DATA.banco.map(q=>q.curso).filter(Boolean));
+    DATA.cursos = Array.from(s).sort().map(v=>({value:v,label:v}));
+  }
+  if (!DATA.temas.length) {
+    const s = new Set();
+    DATA.banco.forEach(q => (q.temas||[]).forEach(t => s.add(t)));
+    DATA.temas = Array.from(s).sort().map(v=>({value:v,label:v}));
+  }
+  if (!DATA.subtemas.length) {
+    const s = new Set();
+    DATA.banco.forEach(q => (q.subtemas||[]).forEach(t => s.add(t)));
+    DATA.subtemas = Array.from(s).sort().map(v=>({value:v,label:v}));
+  }
+}
+
 /* =========================================================
-   Instância dos combos
+   Instância dos combos (criados após dados prontos)
    ========================================================= */
-const cursoCombo = new Combo({
-  rootId:"cursoCombo",
-  inputId:"cursoInput",
-  panelId:"cursoPanel",
-  hiddenId:"cursoHidden",
-  multiple:false,
-  header:"Busca rápida",
-  options: DATA.cursos
-});
+let cursoCombo, temasCombo, subtemasCombo;
 
-const temasCombo = new Combo({
-  inputId:"temaInput",
-  panelId:"temaPanel",
-  hiddenId:"temasHidden",
-  multiple:true,
-  header:"Busca rápida",
-  options: DATA.temas
-});
+async function boot() {
+  await ensureBancoLocal();
+  deriveOptionsFromBanco();
 
-const subtemasCombo = new Combo({
-  inputId:"subtemaInput",
-  panelId:"subtemaPanel",
-  hiddenId:"subtemasHidden",
-  multiple:true,
-  header:"Busca rápida",
-  options: DATA.subtemas
-});
+  cursoCombo = new Combo({
+    rootId:"cursoCombo",
+    inputId:"cursoInput",
+    panelId:"cursoPanel",
+    hiddenId:"cursoHidden",
+    multiple:false,
+    header:"Busca rápida",
+    options: DATA.cursos
+  });
 
-/* Acessibilidade extra no caret */
-$$(".combo-caret").forEach(btn => btn.addEventListener("keydown", e => {
-  if (e.key === "Enter" || e.key === " ") { e.preventDefault(); btn.click(); }
-}));
+  temasCombo = new Combo({
+    inputId:"temaInput",
+    panelId:"temaPanel",
+    hiddenId:"temasHidden",
+    multiple:true,
+    header:"Busca rápida",
+    options: DATA.temas
+  });
+
+  subtemasCombo = new Combo({
+    inputId:"subtemaInput",
+    panelId:"subtemaPanel",
+    hiddenId:"subtemasHidden",
+    multiple:true,
+    header:"Busca rápida",
+    options: DATA.subtemas
+  });
+
+  $$(".combo-caret").forEach(btn => btn.addEventListener("keydown", e => {
+    if (e.key === "Enter" || e.key === " ") { e.preventDefault(); btn.click(); }
+  }));
+}
+document.addEventListener("DOMContentLoaded", boot);
 
 /* =========================================================
    Banco e filtros
@@ -293,7 +344,6 @@ const previewVazio = byId("previewVazio");
 const previewConteudo = byId("previewConteudo");
 const artigo = byId("artigo");
 
-/* cria a seção de uma questão e retorna o elemento <section> */
 function createQuestaoSection(q, idx) {
   const sec = document.createElement("section");
   sec.className = "questao";
@@ -333,7 +383,6 @@ function createQuestaoSection(q, idx) {
     sec.appendChild(ol);
   }
 
-  /* ações: substituir questão (SVG sem width/height inline) */
   const acoes = document.createElement("div");
   acoes.className = "acoes-ia";
   acoes.innerHTML = `
@@ -352,14 +401,12 @@ function createQuestaoSection(q, idx) {
   sep.className = "separador";
   sec.appendChild(sep);
 
-  /* bind do substituir da própria seção */
   const btn = $(".btn-substituir", sec);
   if (btn) btn.addEventListener("click", () => substituirQuestao(idx));
 
   return sec;
 }
 
-/* renderiza um conjunto completo de questões */
 function renderProva(questoes) {
   artigo.innerHTML = "";
   questoes.forEach((q, i) => artigo.appendChild(createQuestaoSection(q, i)));
@@ -367,7 +414,6 @@ function renderProva(questoes) {
   previewConteudo.classList.remove("hidden");
 }
 
-/* substitui apenas a questão na posição idx */
 function substituirQuestao(idx) {
   const curso = cursoCombo.value;
   const temas = temasCombo.value;
@@ -376,7 +422,6 @@ function substituirQuestao(idx) {
   const bancoFiltrado = filtrarBanco({curso, temas, subtemas});
   if (!bancoFiltrado.length) return;
 
-  /* ids já em uso no artigo, exceto o atual que será trocado */
   const sections = $$(".questao", artigo);
   const usados = new Set(sections.map(s => s.getAttribute("data-qid")));
   const atualSec = sections[idx];
@@ -392,8 +437,6 @@ function substituirQuestao(idx) {
 
   const novaSec = createQuestaoSection(novo, idx);
   artigo.replaceChild(novaSec, atualSec);
-
-  /* atualizar numeração e data-qidx das seguintes seções permanece igual */
 }
 
 /* =========================================================
@@ -402,8 +445,11 @@ function substituirQuestao(idx) {
 const form = byId("formProva");
 
 if (form) {
-  form.addEventListener("submit", (e) => {
+  form.addEventListener("submit", async (e) => {
     e.preventDefault();
+    await ensureBancoLocal();
+    deriveOptionsFromBanco();
+
     const qtd = Math.max(1, Math.min(100, Number(byId("inpQtd").value || 10)));
     const curso = cursoCombo.value;
     const temas = temasCombo.value;
@@ -413,7 +459,7 @@ if (form) {
     if (!bancoFiltrado.length) {
       previewConteudo.classList.add("hidden");
       previewVazio.classList.remove("hidden");
-      previewVazio.textContent = "Nenhuma prova gerada. Carregue um banco local de questões em window.BANCO_QUESTOES.";
+      previewVazio.textContent = "Nenhuma prova gerada. Carregue ./data/banco.json ou defina window.BANCO_QUESTOES.";
       return;
     }
     const usados = new Set();
@@ -422,7 +468,6 @@ if (form) {
   });
 }
 
-/* Limpar */
 const btnLimpar = byId("btnLimpar");
 if (btnLimpar) btnLimpar.addEventListener("click", () => {
   form.reset();
@@ -434,7 +479,6 @@ if (btnLimpar) btnLimpar.addEventListener("click", () => {
   previewVazio.textContent = "Nenhuma prova gerada.";
 });
 
-/* Imprimir */
 const btnImprimir = byId("btnImprimir");
 if (btnImprimir) btnImprimir.addEventListener("click", () => window.print());
 
