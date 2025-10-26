@@ -77,16 +77,7 @@
       .map(w => w.charAt(0).toLocaleUpperCase('pt-BR') + w.slice(1))
       .join(' ');
   }
-  // Renderizador inline simples para **negrito** e *itálico*
-  function mdInline(s){
-    if(!s) return '';
-    let x = String(s)
-      .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
-    // proteger ** antes de *
-    x = x.replace(/\*\*(.+?)\*\*/g, '<span class="md-strong">$1</span>');
-    x = x.replace(/\*(.+?)\*/g, '<span class="md-em">$1</span>');
-    return x;
-  }
+
 
   // Parse TXT: tema = label do arquivo; subtemas = linha iniciada por "******" (opcional "Subtemas:")
   function parseArquivo(txt, curso, temaLabel, srcFile) {
