@@ -1,7 +1,7 @@
 {
   "Direito Penal": {
     "temas": {
-      "Calúnia": { "base": "direito-penal/calunia", "count": 1 }
+      "Calúnia": { "base": "direito-penal/nocoes-fundamentais", "count": 1 }
     }
   }
 }
