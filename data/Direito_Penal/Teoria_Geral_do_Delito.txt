@@ -1153,16 +1153,16 @@ O crime de lesão corporal seguida de morte é preterdoloso, havendo dolo na con
 -----
 * Ano: 2005 | Banca: PGR | Órgão: PGR
 ** CRIME É CONDUTA TÍPICA, ANTIJURÍDICA E CULPÁVEL. A PARTIR DESTA DEFINiÇÃO ESTRATIFORME DO DELITO LEMBRA-SE O PRINCÍPIO "*NULLUM CRIMEN SINE CONDUCTA*". ENTRETANTO, • I. a conduta compreende o fato humano voluntário e o involuntário; • II. a conduta envolve a ação e a omissão, mas esta só tem relevância quando o omitente devia e podia agir para evitar o resultado; • III. a conduta atípica tem relevância no Direito Penal; • IV. a conduta humana e relevante para se verificar a ocorrência do delito, pois tem validade absoluta a parêmia latina. "*societas delinquere non potest'*. ANALISANDO AS ASSERTIVAS ACIMA, PODE-SE AFIRMAR QUE:
-*** A) ( ) estão corretas as de números I e ll;
-*** B) ( ) estao corretas as de números Il e lIl
-*** C) ( ) estão corretas as de números Ill e IV;
-*** D) ( ) todas estão corretas.
+*** A) (  ) estão corretas as de números I e ll;
+*** B) (  ) estao corretas as de números Il e lIl
+*** C) (  ) estão corretas as de números Ill e IV;
+*** D) (  ) todas estão corretas.
 **** Gabarito: B
 ****** Conceito de Crime
 
 -----
 * Ano: 2024 | Banca: INSTITUTO AOCP | Órgão: TRF - 2ª REGIÃO
-** Acerca da teoria do crime, informe se é verdadeiro (V) ou falso (F) o que se afirma a seguir e assinale a alternativa com a sequência correta. • ( ) Através dos ensinamentos da doutrina moderna, a tipicidade penal engloba a tipicidade formal e a tipicidade material, passando a permitir, por exemplo, o reconhecimento da insignificância como hipótese de atipicidade material. • ( ) Quando, para configurar o delito, houver necessidade de uma norma de extensão, pode-se afirmar que se está diante de uma tipicidade mediata ou indireta. • ( ) A teoria da tipicidade conglobante tem como consequência a transferência do estrito cumprimento de um dever legal e do exercício regular do direito da tipicidade para a ilicitude. • ( ) A conduta de tentar matar alguém somente é punível graças ao disposto no Art. 14, II, do Código Penal. Assim, pode-se afirmar que a figura da tentativa é considerada uma norma de extensão temporal.
+** Acerca da teoria do crime, informe se é verdadeiro (V) ou falso (F) o que se afirma a seguir e assinale a alternativa com a sequência correta. • (  ) Através dos ensinamentos da doutrina moderna, a tipicidade penal engloba a tipicidade formal e a tipicidade material, passando a permitir, por exemplo, o reconhecimento da insignificância como hipótese de atipicidade material. • (  ) Quando, para configurar o delito, houver necessidade de uma norma de extensão, pode-se afirmar que se está diante de uma tipicidade mediata ou indireta. • (  ) A teoria da tipicidade conglobante tem como consequência a transferência do estrito cumprimento de um dever legal e do exercício regular do direito da tipicidade para a ilicitude. • (  ) A conduta de tentar matar alguém somente é punível graças ao disposto no Art. 14, II, do Código Penal. Assim, pode-se afirmar que a figura da tentativa é considerada uma norma de extensão temporal.
 *** A) V – V – F – F.
 *** B) F – V – F – F.
 *** C) V – V – F – V.
@@ -1829,7 +1829,7 @@ O crime de lesão corporal seguida de morte é preterdoloso, havendo dolo na con
 ****** Sistemas Penais, Conceito de Crime
 -----
 * Ano: 2017 | Banca: Fundação CEFETBAHIA | Órgão: Prefeitura de Irecê - BA
-** Considerando as disposições do Código Penal Brasileiro sobre a Teoria do Delito, analise as assertivas e identifique com V as verdadeiras e com F as falsas. • ( ) O crime considera-se praticado no momento da ação ou omissão, ainda que outro seja o momento do resultado. • ( ) O agente que, voluntariamente, desiste de prosseguir na execução ou impede que o resultado se produza, só responde pelos atos já praticados. • ( ) Não se pune o exaurimento quando, por ineficácia relativa do meio ou por impropriedade completa do objeto, é impossível executar os atos preparatórios. • ( ) A pena não será reduzida, se o inimputável, em virtude de perturbação de saúde mental ou por desenvolvimento mental incompleto ou retardado, não era inteiramente capaz de entender o caráter ilícito do fato ou de determinar-se de acordo com o direito. A alternativa que contém a sequência correta, de cima pra baixo, é
+** Considerando as disposições do Código Penal Brasileiro sobre a Teoria do Delito, analise as assertivas e identifique com V as verdadeiras e com F as falsas. • (  ) O crime considera-se praticado no momento da ação ou omissão, ainda que outro seja o momento do resultado. • (  ) O agente que, voluntariamente, desiste de prosseguir na execução ou impede que o resultado se produza, só responde pelos atos já praticados. • (  ) Não se pune o exaurimento quando, por ineficácia relativa do meio ou por impropriedade completa do objeto, é impossível executar os atos preparatórios. • (  ) A pena não será reduzida, se o inimputável, em virtude de perturbação de saúde mental ou por desenvolvimento mental incompleto ou retardado, não era inteiramente capaz de entender o caráter ilícito do fato ou de determinar-se de acordo com o direito. A alternativa que contém a sequência correta, de cima pra baixo, é
 *** A) V F V F
 *** B) V V F F
 *** C) V F F V
@@ -2570,7 +2570,7 @@ A seguir estão as 40 questões, 20 de cada fonte, reescritas na ordem original 
 ****** Conceito de Crime
 -----
 * Ano: 2012 | Banca: OFFICIUM | Órgão: TJ-RS
-** Associe os institutos jurídicos previstos no Código Penal (coluna da esquerda) às situações a eles relacionadas (coluna da direita). 1- Resultado diverso do Pretendido 2- Concurso Material 3- Erro na execução 4- Concurso Formal 5- Crime continuado • ( ) O agente, visando um determinado objetivo, termina atingindo outro fim. • ( )O agente, em vez de atingir a pessoa visada, alcança pessoa diversa em razão de desvio no golpe. • ( ) O agente, mediante mais de uma ação ou omissão, pratica dois ou mais crimes. A sequência numérica correta, de cima para baixo, da coluna da direita, é Alternativas
+** Associe os institutos jurídicos previstos no Código Penal (coluna da esquerda) às situações a eles relacionadas (coluna da direita). 1- Resultado diverso do Pretendido 2- Concurso Material 3- Erro na execução 4- Concurso Formal 5- Crime continuado • (  ) O agente, visando um determinado objetivo, termina atingindo outro fim. • (  )O agente, em vez de atingir a pessoa visada, alcança pessoa diversa em razão de desvio no golpe. • (  ) O agente, mediante mais de uma ação ou omissão, pratica dois ou mais crimes. A sequência numérica correta, de cima para baixo, da coluna da direita, é Alternativas
 *** A) 5 - 3 - 2
 *** B) 3 - 4 - 5
 *** C) 3 - 1 - 4
@@ -2952,7 +2952,7 @@ A seguir estão as 40 questões, 20 de cada fonte, reescritas na ordem original 
 ****** Conceito de Crime
 -----
 * Ano: 2012 | Banca: OFFICIUM | Órgão: TJ-RS
-** Associe os institutos jurídicos previstos no Código Penal (coluna da esquerda) às situações a eles relacionadas (coluna da direita). 1- Resultado diverso do Pretendido 2- Concurso Material 3- Erro na execução 4- Concurso Formal 5- Crime continuado ( ) O agente, visando um determinado objetivo, termina atingindo outro fim. • ( )O agente, em vez de atingir a pessoa visada, alcança pessoa diversa em razão de desvio no golpe. • ( ) O agente, mediante mais de uma ação ou omissão, pratica dois ou mais crimes. A sequência numérica correta, de cima para baixo, da coluna da direita, é Alternativas
+** Associe os institutos jurídicos previstos no Código Penal (coluna da esquerda) às situações a eles relacionadas (coluna da direita). 1- Resultado diverso do Pretendido 2- Concurso Material 3- Erro na execução 4- Concurso Formal 5- Crime continuado (  ) O agente, visando um determinado objetivo, termina atingindo outro fim. • (  )O agente, em vez de atingir a pessoa visada, alcança pessoa diversa em razão de desvio no golpe. • (  ) O agente, mediante mais de uma ação ou omissão, pratica dois ou mais crimes. A sequência numérica correta, de cima para baixo, da coluna da direita, é Alternativas
 *** A) 5 - 3 - 2
 *** B) 3 - 4 - 5
 *** C) 3 - 1 - 4
