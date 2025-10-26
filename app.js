@@ -1,5 +1,5 @@
 /* =========================================================
-   app.js — completo, com carregamento local e sem 429
+   app.js — completo, NDJSON por shards + manifest
    ========================================================= */
 
 /* Utilidades */
@@ -37,6 +37,102 @@ async function fetchWithBackoff(url, opt={}, tries=3, base=700){
   throw new Error("429 repetido");
 }
 
+/* ================== NDJSON (JSONL) parser ================== */
+async function parseNDJSONStream(response){
+  if (!response.body || !response.body.getReader) {
+    const txt = await response.text();
+    return txt.split(/\r?\n/).filter(Boolean).map(line => JSON.parse(line));
+  }
+  const reader = response.body.getReader();
+  const decoder = new TextDecoder();
+  let { value, done } = await reader.read();
+  let buf = value ? decoder.decode(value, {stream:true}) : "";
+  const out = [];
+  while (!done) {
+    const lastNL = buf.lastIndexOf("\n");
+    if (lastNL >= 0) {
+      const chunk = buf.slice(0, lastNL);
+      buf = buf.slice(lastNL+1);
+      if (chunk) {
+        const lines = chunk.split("\n");
+        for (const ln of lines) if (ln.trim()) out.push(JSON.parse(ln));
+      }
+    }
+    ({ value, done } = await reader.read());
+    if (value) buf += decoder.decode(value, {stream:true});
+  }
+  if (buf.trim()) out.push(JSON.parse(buf.trim()));
+  return out;
+}
+
+/* =========================================================
+   Dados globais e manifesto
+   ========================================================= */
+const DATA = {
+  manifest: null,             // {version, updatedAt, counts, shards, temas, subtemas}
+  cursos: [],                 // [{value,label}]
+  temas: [],                  // [{value,label}] — do manifest
+  subtemas: [],               // [{value,label}] — do manifest
+  banco: [],                  // questões carregadas do curso selecionado (shards)
+};
+
+const LOADED_CURSOS = new Map(); // curso -> { loaded:true, count:number }
+
+/* Carrega manifesto uma única vez e popula listas de cursos/temas/subtemas */
+async function ensureManifest(){
+  if (DATA.manifest) return DATA.manifest;
+  const manifest = await fetchOnce("./data/manifest.json", {cache:"force-cache"});
+  DATA.manifest = manifest;
+
+  // cursos a partir das chaves de shards
+  const cursos = Object.keys(manifest.shards || {});
+  DATA.cursos = cursos.sort().map(v=>({value:v,label:v}));
+
+  // temas/subtemas globais do manifest
+  DATA.temas = (manifest.temas || []).map(v=>({value:v,label:v}));
+  DATA.subtemas = (manifest.subtemas || []).map(v=>({value:v,label:v}));
+
+  return manifest;
+}
+
+/* Carrega shards do curso selecionado, memoizando por curso */
+async function loadShardsForCurso(curso){
+  if (!curso) { DATA.banco = []; return; }
+  if (LOADED_CURSOS.get(curso)?.loaded) {
+    // já carregado anteriormente
+    return;
+  }
+  const manifest = await ensureManifest();
+  const list = (manifest.shards && manifest.shards[curso]) || [];
+  const agregadas = [];
+
+  for (const url of list) {
+    // usa once para evitar baixar duas vezes por navegação
+    // e backoff para mitigar 429
+    let res;
+    const key = `__shard__${url}`;
+    if (__once.has(key)) {
+      const cached = await __once.get(key);
+      agregadas.push(...cached);
+      continue;
+    }
+    try {
+      res = await fetchWithBackoff(`./${url.replace(/^\.?\//,'')}`, {cache:"force-cache"});
+      if (!res.ok) throw new Error(res.status);
+      const arr = await parseNDJSONStream(res);
+      __once.set(key, Promise.resolve(arr));
+      agregadas.push(...arr);
+    } catch(e){
+      console.warn("Shard não carregada:", url, e);
+    }
+  }
+
+  // mantém apenas do curso alvo por segurança
+  DATA.banco = agregadas.filter(q => q.curso === curso);
+
+  LOADED_CURSOS.set(curso, {loaded:true, count:DATA.banco.length});
+}
+
 /* =========================================================
    Combo multisseleção estável (sem chips e sem contador)
    ========================================================= */
@@ -47,6 +143,7 @@ class Combo {
     this.hidden  = byId(cfg.hiddenId);
     this.multiple = cfg.multiple ?? true;
     this.headerText = cfg.header ?? "Busca rápida";
+
     this.root = cfg.rootId ? byId(cfg.rootId) : this.input.closest(".combo");
     this.control = $(".combo-control", this.root);
     this.caret   = $(".combo-caret", this.root);
@@ -193,6 +290,10 @@ class Combo {
   _sync() {
     const ordered = this.allOptions.map(o => o.value).filter(v => this.valueSet.has(v));
     if (this.hidden) this.hidden.value = JSON.stringify(ordered);
+
+    // dispara evento para quem quiser ouvir mudanças
+    this.root.dispatchEvent(new CustomEvent("combochange", {detail: ordered.slice()}));
+
     this._paintList();
   }
 
@@ -224,55 +325,12 @@ class Combo {
 }
 
 /* =========================================================
-   Dados: preferir local ./data/banco.json, sem externas
-   ========================================================= */
-const DATA = {
-  cursos:    (window.DATA_CURSOS    || []).map(x => typeof x === "string" ? ({ value:x, label:x }) : x),
-  temas:     (window.DATA_TEMAS     || []).map(x => typeof x === "string" ? ({ value:x, label:x }) : x),
-  subtemas:  (window.DATA_SUBTEMAS  || []).map(x => typeof x === "string" ? ({ value:x, label:x }) : x),
-  banco:     (window.BANCO_QUESTOES || []),
-};
-
-/* Se banco não veio via window, tenta local ./data/banco.json */
-async function ensureBancoLocal() {
-  if (Array.isArray(DATA.banco) && DATA.banco.length) return;
-  try {
-    const res = await fetchWithBackoff("./data/banco.json", {cache:"force-cache"});
-    if (!res.ok) throw new Error(res.status);
-    DATA.banco = await res.json();
-  } catch(e){
-    console.warn("Banco local não carregado:", e);
-    DATA.banco = DATA.banco || [];
-  }
-}
-
-/* Deriva listas de cursos/temas/subtemas a partir do banco se faltarem */
-function deriveOptionsFromBanco() {
-  if (!Array.isArray(DATA.banco) || !DATA.banco.length) return;
-  if (!DATA.cursos.length) {
-    const s = new Set(DATA.banco.map(q=>q.curso).filter(Boolean));
-    DATA.cursos = Array.from(s).sort().map(v=>({value:v,label:v}));
-  }
-  if (!DATA.temas.length) {
-    const s = new Set();
-    DATA.banco.forEach(q => (q.temas||[]).forEach(t => s.add(t)));
-    DATA.temas = Array.from(s).sort().map(v=>({value:v,label:v}));
-  }
-  if (!DATA.subtemas.length) {
-    const s = new Set();
-    DATA.banco.forEach(q => (q.subtemas||[]).forEach(t => s.add(t)));
-    DATA.subtemas = Array.from(s).sort().map(v=>({value:v,label:v}));
-  }
-}
-
-/* =========================================================
-   Instância dos combos (criados após dados prontos)
+   Combos: criados após manifesto
    ========================================================= */
 let cursoCombo, temasCombo, subtemasCombo;
 
 async function boot() {
-  await ensureBancoLocal();
-  deriveOptionsFromBanco();
+  await ensureManifest();
 
   cursoCombo = new Combo({
     rootId:"cursoCombo",
@@ -300,6 +358,22 @@ async function boot() {
     multiple:true,
     header:"Busca rápida",
     options: DATA.subtemas
+  });
+
+  // Quando curso mudar, carregue shards desse curso (lazy) e opcionalmente ajuste temas/subtemas disponíveis
+  cursoCombo.root.addEventListener("combochange", async (e) => {
+    const sel = e.detail; // array
+    const curso = sel[0];
+    if (!curso) { DATA.banco = []; return; }
+    await loadShardsForCurso(curso);
+    // Se quiser, podemos filtrar listas de temas/subtemas para os existentes no curso carregado:
+    const tset = new Set(), sset = new Set();
+    DATA.banco.forEach(q => {
+      (q.temas||[]).forEach(t => tset.add(t));
+      (q.subtemas||[]).forEach(s => sset.add(s));
+    });
+    temasCombo.setOptions(Array.from(tset).sort().map(v=>({value:v,label:v})));
+    subtemasCombo.setOptions(Array.from(sset).sort().map(v=>({value:v,label:v})));
   });
 
   $$(".combo-caret").forEach(btn => btn.addEventListener("keydown", e => {
@@ -447,11 +521,14 @@ const form = byId("formProva");
 if (form) {
   form.addEventListener("submit", async (e) => {
     e.preventDefault();
-    await ensureBancoLocal();
-    deriveOptionsFromBanco();
+
+    await ensureManifest();
+
+    const cursoSel = (JSON.parse(byId("cursoHidden").value||"[]")[0]) || cursoCombo.value[0];
+    if (cursoSel) await loadShardsForCurso(cursoSel);
 
     const qtd = Math.max(1, Math.min(100, Number(byId("inpQtd").value || 10)));
-    const curso = cursoCombo.value;
+    const curso = cursoSel ? [cursoSel] : cursoCombo.value;
     const temas = temasCombo.value;
     const subtemas = subtemasCombo.value;
 
@@ -459,7 +536,7 @@ if (form) {
     if (!bancoFiltrado.length) {
       previewConteudo.classList.add("hidden");
       previewVazio.classList.remove("hidden");
-      previewVazio.textContent = "Nenhuma prova gerada. Carregue ./data/banco.json ou defina window.BANCO_QUESTOES.";
+      previewVazio.textContent = "Nenhuma prova gerada. Ajuste os filtros ou carregue shards no manifest.";
       return;
     }
     const usados = new Set();
