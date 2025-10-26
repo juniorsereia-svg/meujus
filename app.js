@@ -43,10 +43,9 @@
 
   // Estado
   let manifest = {};
-  let mapCursoTemaArquivo = new Map(); // curso -> [{label, file}]
+  let mapCursoTemaArquivo = new Map(); // curso -> [{label, file, folder}]
   let carregadoSet = new Set();        // `${curso}::${file}`
-  let banco = [];                      // todas as questões carregadas
-  let temasDisponiveis = new Set();    // do curso atual
+  let banco = [];                      // questões carregadas
   let temasSelecionados = new Set();
   let subtemasDisponiveis = new Set(); // agregados dos temas selecionados
   let subtemasSelecionados = new Set();
@@ -58,6 +57,7 @@
   let usadosProva = new Set();
 
   // Utils
+  function enc(s){ return encodeURIComponent(String(s)); }
   function embaralhar(arr){for(let i=arr.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[arr[i],arr[j]]=[arr[j],arr[i]];}return arr;}
   function normalizarPontuacao(txt){
     return txt.replace(/\s+([,.;:!?])/g,'$1')
@@ -70,9 +70,12 @@
     return alts.slice(0,5).map((t,i)=>`${letras[i]}) ${t.replace(/^[A-Ea-e]\)\s*/, '').trim()}`);
   }
   function labelFromFilename(filename){
-    const base = filename.replace(/\.[^.]+$/, '');
-    const words = base.split(/[_\-]+/).filter(Boolean);
-    return words.map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+    const base = String(filename).normalize('NFC').replace(/\.[^.]+$/, '');
+    return base
+      .split(/[_\-]+/)
+      .filter(Boolean)
+      .map(w => w.charAt(0).toLocaleUpperCase('pt-BR') + w.slice(1))
+      .join(' ');
   }
 
   // Parse TXT: tema = label do arquivo; subtemas = linha iniciada por "******" (opcional "Subtemas:")
@@ -115,11 +118,11 @@
     const res = await fetch('./data/manifest.json');
     manifest = await res.json();
 
-    // curso -> [{label, file}]
+    // curso -> [{label, file, folder}]
     mapCursoTemaArquivo = new Map();
     Object.keys(manifest).forEach(curso=>{
-      const folder = manifest[curso].folder;
-      const files = manifest[curso].files || [];
+      const folder = String(manifest[curso].folder).normalize('NFC');
+      const files = (manifest[curso].files || []).map(f => String(f).normalize('NFC'));
       const items = files.map(f=>({ label: labelFromFilename(f), file:f, folder }));
       mapCursoTemaArquivo.set(curso, items);
     });
@@ -135,7 +138,8 @@
     const key = `${curso}::${it.file}`;
     if(carregadoSet.has(key)) return;
 
-    const txt = await fetch(`./data/${it.folder}/${it.file}`).then(r=>r.text());
+    const url = `./data/${enc(it.folder)}/${enc(it.file)}`;
+    const txt = await fetch(url).then(r=>r.text());
     const lote = parseArquivo(txt, curso, it.label, it.file);
     banco.push(...lote);
 
@@ -181,13 +185,12 @@
   });
 
   function onChangeCurso(){
-    // limpa seleções e listas
     temasSelecionados.clear();
     subtemasSelecionados.clear();
     chips.innerHTML=''; chipsSub.innerHTML='';
     temasHidden.value='[]'; subtemasHidden.value='[]';
     montarComboTemas();
-    montarComboSubtemas([]); // vazio até carregar temas
+    montarComboSubtemas([]);
   }
 
   // Temas combo
@@ -235,7 +238,6 @@
       await ensureTemaCarregado(cursoSelecionado, val);
       await recomputarSubtemasDisponiveis();
       temaInput.value='';
-      // mantém aberto
     }
   });
 
@@ -280,7 +282,6 @@
       subtemasSelecionados.add(val);
       renderChipsSubtemas();
       subtemaInput.value='';
-      // mantém aberto
     }
   });
 
@@ -288,9 +289,7 @@
     subtemasDisponiveis = new Set();
     if(!temasSelecionados.size) { montarComboSubtemas([]); return; }
     const temasArr = Array.from(temasSelecionados);
-    // garante que todos os temas selecionados foram carregados
     for(const t of temasArr){ await ensureTemaCarregado(cursoSelecionado, t); }
-    // agrega subtemas das questões carregadas do curso + temas selecionados
     banco.forEach(q=>{
       if(q.curso!==cursoSelecionado) return;
       if(!q.temas?.some(t=>temasSelecionados.has(t))) return;
@@ -311,7 +310,6 @@
   }
 
   function amostrarEstratificada(pool, qtd) {
-    // estratifica por tema selecionado
     const selecionados = (temasSelecionados && temasSelecionados.size)
       ? Array.from(temasSelecionados)
       : Array.from(new Set(pool.flatMap(q => (q.temas || []))));
@@ -403,7 +401,7 @@ ENUNCIADO: "${enunciado}"`;
 
     return `
       <div class="acoes-ia">
-        <span class="ia-label">Google I.A.</span>
+        <span class="ia-label" style="border:none;background:transparent;color:#2563eb;padding:0">Google I.A.</span>
         <a class="btn-ia" title="Comentário"  target="_blank" rel="noopener" href="${hrefComentario}">${icoComentario}</a>
         <a class="btn-ia" title="Glossário"   target="_blank" rel="noopener" href="${hrefGlossario}">${icoGlossario}</a>
         <a class="btn-ia" title="Princípios"  target="_blank" rel="noopener" href="${hrefPrincipios}">${icoPrincipios}</a>
@@ -522,7 +520,6 @@ ENUNCIADO: "${enunciado}"`;
 
   // Geração
   async function gerar(){
-    // garante que temas selecionados estão carregados
     for(const t of Array.from(temasSelecionados)){ await ensureTemaCarregado(cursoSelecionado, t); }
     const pool = filtrarPorCursoTemaSubtema();
     if(!pool.length){
