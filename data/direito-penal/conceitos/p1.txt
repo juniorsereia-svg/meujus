@@ -1,151 +1,180 @@
+De acordo com sua solicitação, abaixo estão as 20 questões extraídas da fonte fornecida, na ordem original, formatadas exatamente conforme o modelo solicitado, prontas para copiar e colar:
 
-* Ano: 2024 Banca: Instituto Access Órgão: Prefeitura de Cariacica - ES Prova: Instituto Access - 2024 - Prefeitura de Cariacica - ES - Guarda Municipal
-** Robson, brasileiro que residia temporariamente na França, praticou em território francês delito de tentativa de homicídio contra Rodrigo, também brasileiro, que estava passando férias na França à época. Devidamente processado segundo as leis francesas, Robson lá foi absolvido por questões processuais previstas na legislação de referido país e, tão logo após a sentença absolutória ser publicada, Robson retornou ao Brasil. Já no Brasil, diante do que considerou uma grande injustiça, a família de Rodrigo deseja que Robson seja processado e condenado pelo delito praticado em terras francesas. Acerca do tema, assinale a alternativa correta
-*** A) - Trata-se de hipótese de extraterritorialidade condicionada, e a entrada de Robson no Brasil, bem como o fato de que ele, na França, não cumpriu pena autorizam a aplicação da lei penal brasileira.
-*** B) - Trata-se de hipótese de extraterritorialidade condicionada, e o fato de Robson ter sido absolvido no estrangeiro é impeditivo para a aplicação da lei penal brasileira ao caso.
-*** C) - A hipótese é de extraterritorialidade incondicionada, pois tanto vítima quanto autor do fato são brasileiros, razão pela qual a aplicação da lei penal brasileira é medida que se impõe independente de ter sido o agente absolvido ou condenado no estrangeiro.
-*** D) - A hipótese é de extraterritorialidade incondicionada, pois a absolvição de Robson na França se deu por questões processuais. Todavia a aplicação da lei penal brasileira depende de requisição do Ministro da Justiça, tendo em vista existência de sentença estrangeira.
+* Ano: 2022 | Banca: CESPE / CEBRASPE | Órgão: DPE-RO | Prova: CESPE / CEBRASPE - 2022 - DPE-RO - Analista da Defensoria Pública - Jurídica
+** Em termos de interpretação da lei penal, quando se encontram na legislação expressões como “qualquer outro meio”, “qualquer outra vantagem”, “outro recurso” ou “qualquer outro meio fraudulento”, por exemplo, tais preceitos serão supridos por
+*** A) - analogia.
+*** B) - interpretação progressiva.
+*** C) - interpretação autêntica.
+*** D) - interpretação analógica.
+*** E) - interpretação declarativa.
+**** Gabarito: D
+-----
+* Ano: 2021 | Banca: IBADE | Órgão: ISE-AC | Prova: IBADE - 2021 - ISE-AC - Agente Socioeducativo
+** Considerando os sujeitos da infração penal, pode-se dizer que a pessoa que realiza direta ou indiretamente a conduta criminosa, seja isoladamente, seja em concurso, é sujeito:
+*** A) - Menor de idade.
+*** B) - Ativo.
+*** C) - Passivo.
+*** D) - Amicus curiae.
+*** E) - Terceiro interessado.
 **** Gabarito: B
 -----
-* Ano: 2024 Banca: Instituto Access Órgão: Prefeitura de Cariacica - ES Prova: Instituto Access - 2024 - Prefeitura de Cariacica - ES - Guarda Municipal
-** Durante o período de vigência de determinada lei penal excepcional, a qual trouxe circunstância qualificadora a delito já anteriormente previsto no Código Penal como tipo penal de injusto, Pedro praticou a conduta ali descrita, sendo certo que sua conduta abrangia também a circunstância qualificadora descrita na mencionada lei penal excepcional. Devidamente denunciado e regularmente processado pelo delito, no entanto, na data do julgamento já não estava mais em vigor a lei penal excepcional responsável pela qualificadora descrita. Nessa situação, assinale a alternativa correta
-*** A) - Pedro deve responder pelo delito praticado com a incidência da circunstância qualificadora prevista na lei penal excepcional, mesmo tendo cessado o período de sua vigência.
-*** B) - Ocorreu abolitio criminis , razão pela qual a conduta praticada por Pedro não mais pode ser considerada delituosa e ele deve, portanto, ser absolvido.
-*** C) - Tendo cessado a vigência da lei penal excepcional que criou a qualificadora, Pedro deve responder tão somente pelo delito já antes previsto no Código Penal, sem a incidência da qualificadora, tendo ocorrido, portanto, abolitio criminis parcial.
-*** D) - A depender a culpabilidade do agente e das circunstâncias do caso concreto, o juiz, na aplicação da pena e com vistas à individualização, poderá escolher se a qualificadora prevista na lei penal excepcional incidirá ou não.
+* Ano: 2021 | Banca: CESPE / CEBRASPE | Órgão: SERIS-AL | Prova: CESPE / CEBRASPE - 2021 - SERIS - AL - Agente Penitenciário
+** Com relação ao direito penal, julgue o item a seguir. Suponha que uma pessoa de dezessete anos de idade, faixa preta em arte marcial, cometa um ato previsto como crime. Nessa situação, essa pessoa será considerada penalmente inimputável, conforme previsão expressa na Constituição Federal de 1988 e no Código Penal.
+*** A) - Certo
+*** B) - Errado
 **** Gabarito: A
 -----
-* Ano: 2024 Banca: IV - UFG Órgão: TJ-AC Prova: IV - UFG - 2024 - TJ-AC - Analista Judiciário - Direito (Área Judiciária)
-** Leia o caso a seguir. Uma pessoa transporta, com intenção de venda, quantidade de droga, saindo da cidade de Rio Branco/AC com direção à cidade de La Paz, na Bolívia. Após ser detida pela polícia local da Bolívia e liberada provisoriamente, consegue retornar ao Brasil com uso de transporte clandestino. Elaborado pelo(a) autor(a). Considerando o disposto no Código Penal e o princípio do ne bis in idem , a condenação pelo crime de tráfico de drogas e a consequente execução da pena pela jurisdição criminal brasileira no caso em tela poderá ser feito mediante aplicação das regras da
-*** A) - territorialidade da lei penal, mas fica impedida a denúncia penal do mesmo fato criminoso no Brasil diante de absolvição definitiva no país estrangeiro.
-*** B) - extraterritorialidade da lei penal, mas fica impedida a denúncia penal do mesmo fato criminoso no Brasil diante de absolvição definitiva no país estrangeiro.
-*** C) - territorialidade da lei penal, mas fica impedida a denúncia penal do mesmo fato criminoso no Brasil enquanto pendente o julgamento no país estrangeiro.
-*** D) - extraterritorialidade da lei penal, mas fica impedida a denúncia penal do mesmo fato criminoso no Brasil enquanto pendente o julgamento no país estrangeiro.
+* Ano: 2021 | Banca: FGV | Órgão: PC-RJ | Provas: FGV - 2021 - PC-RJ - Perito Criminal - Engenharia Civil| FGV - 2021 - PC-RJ - Perito Criminal - Química| FGV - 2021 - PC-RJ - Perito Criminal - Engenharia Mecânica
+** O tipo penal é a ferramenta fundamental para limitar o poder punitivo do Estado e determinar a liberdade de conduta dos cidadãos. Compõem o conceito de sujeitos da conduta típica:
+*** A) - autor, réu e juiz;
+*** B) - juiz, promotor, defensor e réu;
+*** C) - sujeito ativo, sujeito passivo e o Estado;
+*** D) - juiz, promotor e réu;
+*** E) - agente, vítima e testemunha.
+**** Gabarito: C
+-----
+* Ano: 2021 | Banca: CESPE / CEBRASPE | Órgão: DEPEN | Prova: CESPE / CEBRASPE - 2021 - DEPEN - Cargo 8 - Agente Federal de Execução Penal
+** A respeito da aplicação da lei penal, julgue o item a seguir. O direito penal brasileiro proíbe a interpretação analógica, ainda que ela seja favorável ao réu.
+*** A) - Certo
+*** B) - Errado
+**** Gabarito: B
+-----
+* Ano: 2021 | Banca: INSTITUTO AOCP | Órgão: PC-PA | Prova: INSTITUTO AOCP - 2021 - PC-PA - Delegado de Polícia Civil
+** De acordo com o autor alemão Jakobs, o direito penal do inimigo pode ser caracterizado por quais elementos?
+*** A) - Punição retrospectiva; desproporcionalidade das penas; e relativização ou supressão de garantias processuais.
+*** B) - Punição retrospectiva; proporcionalidade das penas; e relativização ou supressão de garantias processuais.
+*** C) - Punição prospectiva; desproporcionalidade das penas; e relativização ou supressão de garantias processuais.
+*** D) - Punição contemporânea; desproporcionalidade das penas; e relativização ou supressão de garantias processuais.
+*** E) - Punição prospectiva; proporcionalidade das penas; e relativização ou supressão de garantias processuais.
+**** Gabarito: C
+-----
+* Ano: 2021 | Banca: INSTITUTO AOCP | Órgão: PC-PA | Prova: INSTITUTO AOCP - 2021 - PC-PA - Delegado de Polícia Civil
+** No tocante ao Direito Penal, assinale a alternativa correta.
+*** A) - É vedada a edição de medidas provisórias sobre matéria relativa a Direito Penal (art. 62, §1º, I, alínea *b*, CF). Nada obstante, o STF firmou jurisprudência no sentido de que as medidas provisórias podem ser utilizadas na esfera penal, desde que benéficas ao agente.
+*** B) - O fundamento político do princípio da reserva legal revela a aceitação pelo povo, representado pelo Congresso Nacional, da opção legislativa no âmbito criminal.
+*** C) - Com a evolução da sociedade e a modificação dos seus valores, determinados comportamentos, inicialmente típicos, podem deixar de interessar ao Direito Penal. Nesse caso, pode-se afirmar que ocorreu a chamada desmaterialização (liquefação) de bens jurídicos no Direito Penal.
+*** D) - O princípio da fragmentariedade se projeta no plano concreto, isto é, em sua atuação prática, o Direito Penal somente se legitima quando os demais meios disponíveis já tiverem sido empregados, sem sucesso, para proteção do bem jurídico.
+*** E) - A primeira manifestação do princípio da personalidade da pena no Brasil ocorreu já no período republicano, com o advento do Código Penal de 1890.
 **** Gabarito: A
 -----
-* Ano: 2024 Banca: SELECON Órgão: Prefeitura de Água Boa - MT Prova: SELECON - 2024 - Prefeitura de Água Boa - MT - Advogado de Assistência Jurídica/20H
-** O princípio da bagatela decorre do entendimento de que o direito penal não deve se preocupar com condutas que observam determinadas características. Assim, para a aplicação objetiva do princípio da insignificância deve ser observado o seguinte vetor:
-*** A) - menor potencial ofensivo do tipo pena
-*** B) - nenhuma periculosidade social da ação
-*** C) - inexistência da lesão jurídica provocada
-*** D) - ausência de reprovabilidade do comportamento do agente
+* Ano: 2019 | Banca: MPE-GO | Órgão: MPE-GO | Prova: MPE-GO - 2019 - MPE-GO - Promotor de Justiça - Reaplicação
+** Sobre o bem jurídico-penal, assinale a alternativa que não está de acordo com o magistério doutrinário de Eugenio Raúl Zaffaroni e José Henrique Pierangeli (*Manual de Direito Penal Brasileiro - parte geral, ed. RT* **):**
+*** A) - Quando o legislador encontra-se diante de um ente e tem interesse em tutelá-lo, é porque o valora. Sua valoração do ente traduz-se em uma norma, que eleva o ente á categoria de bem jurídico. Quando quer dar uma tutela penal a esse bem jurídico, com base na norma elabora um tipo penal e o bem jurídico passa a ser penalmente tutelado.
+*** B) - Não se concebe a existência de uma conduta típica que não afete um bem jurídico, posto que os tipos não passam de particulares manifestações de tutela jurídica desses bens. Embora seja certo que o delito é algo mais - ou muito mais - que a lesão a um bem jurídico, esta lesão é indispensável para configurar a tipicidade.
+*** C) - Bem jurídico penalmente tutelado é a relação de indisponibilidade de um indivíduo com um objeto, protegida pelo Estado, que revela seu interesse mediante a tipificação penal de condutas que o afetam.
+*** D) - O bem jurídico cumpre duas funções, que são duas razões fundamentais pelas quais não podemos dele prescindir: uma função garantidora e outra função teleológico-sistemática. Ambas funções são necessárias para que o direito penal se mantenha dentro dos limites da racionalidade dos atos de governo, impostos pelo princípio republicano.
+**** Gabarito: C
+-----
+* Ano: 2019 | Banca: MPE-GO | Órgão: MPE-GO | Prova: MPE-GO - 2019 - MPE-GO - Promotor de Justiça Substituto - Anulada
+** Analise as proposições seguintes e assinale a alternativa correta:
+I - Jesús-María Silva Sánchez fala em Direito Penal de “duas velocidades”. Segundo o referido autor, há um a primeira velocidade, representada pelo Direito Penal “da prisão” , na qual haver-se-iam de manter rigidamente os princípios político-criminais clássicos, as regras de imputação e os princípios processuais. A segunda velocidade, por sua vez, estaria relacionada aos casos em que, por não se tratar de prisão, mas de penas de privação de direitos ou pecuniárias, aqueles princípios e regras poderiam experimentar um a flexibilização proporcional a menor intensidade da sanção.
+II - Na medida em que o Direito Penal nazista era entendido como um instrumento de luta contra os infiéis à com unidade do povo e que a violação de um dever era o conteúdo material do crime, era lógico que o centro de gravidade para o exercício do poder punitivo tinha de passar a ser a “vontade contrária ao Direito” , e não mais o “ resultado proibido” . Nesse contexto foi concebido o “Direito Penal da vontade” , construção teórica marcante do Direito Penal nazista, sendo Roland Freisler um de seus principais expoentes. Essa concepção baseada na vontade permitiu a expansão do poder punitivo a níveis que um a dogmática atrelada a resultados de dano a bens jurídicos não admitia, já que ensejou uma profusa criminalização dos perigos abstratos. Além do mais, tal concepção também defendia que a tentativa tivesse a mesma pena do crime consumado.
+III - Para Günther Jakobs a função do Direito Penal é tutelar a vigência da norma. Quando o infrator comete um crime ele rompe com as expectativas normativas. A pena, assim, tem como função restabelecer a vigência da norma e demonstrar para a sociedade que ela pode seguir confiando no sistema normativo (estabilização das expectativas normativas).
+IV - Winfried Hassemer, da chamada “Escola Penal de Frankfurt”, observa que o Direito Penal Moderno, procurando minimizar a insegurança oriunda de uma sociedade de riscos, tem se tornado um instrumento em busca do controle dos grandes problemas da sociedade atual, como a proteção ao meio ambiente, da saúde pública, da ordem econômica, dentre outros. Assim, com o intuito de frear essa tendência de expansão do Direito Penal e com o objetivo de permitir a atuação do Direito Penal em relação aos tipos penais tradicionais, consubstanciados pelo núcleo básico de bens jurídicos individuais, propõe um “Direito de Intervenção” , situado entre o Direito Penal e o Direito Administrativo, que teria por finalidade controlar e inibir os riscos oriundos das novas tecnologias e do desenvolvimento econômico contemporâneo, por meio da proibição de condutas perigosas e da proteção de bens jurídicos coletivos. Esse “Direito de Intervenção”, segundo Hassemer, poderia contar com garantias e formalidades mais flexíveis e menos exigentes, mas também seria provido com sanções menos intensas contra o indivíduo.
+*** A) - São corretos os itens I, II, III e IV.
+*** B) - São corretos os itens I, III e IV.
+*** C) - São corretos os itens II e III.
+*** D) - É correto apenas o item I.
+**** Gabarito: A
+-----
+* Ano: 2019 | Banca: CESPE / CEBRASPE | Órgão: TJ-DFT | Prova: CESPE - 2019 - TJ-DFT - Titular de Serviços de Notas e de Registros - Remoção
+** A respeito de características do direito penal, assinale a opção correta.
+*** A) - Segundo o direito penal, é possível incriminar a simples conduta humana que exponha a perigo bens jurídicos, ainda que não exista vítima determinada e direta.
+*** B) - O direito penal tem os princípios como fontes de integração da lei penal, que devem ser utilizados em caso de omissão legislativa, mas cuja aplicação é vedada para desfavorecer o réu.
+*** C) - De acordo com o direito penal, a aplicação de nova lei, no caso de esta estabelecer nova causa de diminuição de pena e nova causa de aumento para um tipo penal incriminador existente, deve ser afastada a fato ocorrido antes de sua vigência, ainda que em benefício do réu.
+*** D) - Segundo o direito penal, a fato praticado durante a vigência de lei excepcional, quando findo o período de sua duração ou quando cessarem as circunstâncias que a determinaram, não mais se aplica a lei excepcional.
+*** E) - O direito penal estabelece, com fundamento na teoria da atividade, que deve ser analisado todo o desdobramento da ação criminosa para se estabelecer o local do delito.
+**** Gabarito: A
+-----
+* Ano: 2018 | Banca: UEG | Órgão: PC-GO | Prova: UEG - 2018 - PC-GO - Delegado de Polícia
+** “Ciência ou a arte de selecionar os bens (ou direitos), que devem ser tutelados jurídica e penalmente, e escolher os caminhos para efetivar tal tutela, o que iniludivelmente implica a crítica dos valores e caminhos já eleitos.” (ZAFFARONI, E. R.; PIERANGELI, J. H. Manual de Direito Penal Brasileiro . 12. ed. São Paulo: Editora Revista dos Tribunais, 2018. p. 128) A descrição apresentada acima se refere a um conceito de
+*** A) - criminologia.
+*** B) - teoria do delito.
+*** C) - política criminal.
+*** D) - abolicionismo penal.
+*** E) - direito penal do inimigo.
+**** Gabarito: C
+-----
+* Ano: 2018 | Banca: UERR | Órgão: SETRABES | Prova: UERR - 2018 - SETRABES - Agente Sócio-Orientador
+** A respeito das disposições constitucionais aplicáveis ao direito penal, é incorreto afirmar:
+*** A) - a prática do racismo constitui crime inafiançável e imprescritível, sujeito à pena de reclusão, nos termos da lei.
+*** B) - a lei penal não retroagirá, salvo para beneficiar o réu.
+*** C) - não há crime sem lei anterior que o defina, nem pena sem prévia cominação legal.
+*** D) - a criação de crimes e penas por meio de medida provisória não ofende o princípio da legalidade.
+*** E) - nenhuma pena passará da pessoa do condenado, podendo a obrigação de reparar o dano e a decretação do perdimento de bens ser, nos termos da lei, estendidas aos sucessores e contra eles executadas, até o limite do valor do patrimônio transferido.
+**** Gabarito: D
+-----
+* Ano: 2018 | Banca: CESPE / CEBRASPE | Órgão: EMAP | Prova: CESPE - 2018 - EMAP - Analista Portuário - Área Jurídica
+** A respeito da aplicação da lei penal, julgue o item a seguir. A analogia constitui meio para suprir lacuna do direito positivado, mas, em direito penal, só é possível a aplicação analógica da lei penal *in bonam partem*, em atenção ao princípio da reserva legal, expresso no artigo primeiro do Código Penal.
+*** A) - Certo
+*** B) - Errado
+**** Gabarito: C
+-----
+* Ano: 2018 | Banca: Fundação CEFETBAHIA | Órgão: MPE-BA | Prova: Fundação CEFETBAHIA - 2018 - MPE-BA - Promotor de Justiça Substituto - Anulada
+** Assinale a alternativa correta.
+*** A) - As circunstâncias legais são descritas pela lei penal de maneira prévia, ou na parte geral, ou na parte especial do Código, ou em leis extravagantes.
+*** B) - Os crimes unissubsistentes ante o fracionamento da execução admitem a modalidade tentada.
+*** C) - Tocante ao erro inescusável pode-se afirmar que nele incide qualquer homem prudente e de discernimento e, na modalidade inescusável direta o sujeito conhece o mandamento proibitivo.
+*** D) - A despenalização informal pode resultar de ato administrativo, enquanto a despenalização formal pode decorrer da substituição da pena criminal por uma sanção de outra ordem jurídica.
+*** E) - As alternativas “a” e “d” estão corretas.
+**** Gabarito: E
+-----
+* Ano: 2018 | Banca: Fundação CEFETBAHIA | Órgão: MPE-BA | Prova: Fundação CEFETBAHIA - 2018 - MPE-BA - Promotor de Justiça Substituto - Anulada
+** Assinale a alternativa correta.
+*** A) - Traduzem elementos constitutivos essenciais da tentativa, o princípio da execução típica, o dolo e a não consumação involuntária.
+*** B) - Exige-se que a adequação típica se materialize através de indagações de ordem cultural ou de pesquisas pertinentes ao conhecimento hauridos na experiência cotidiana.
+*** C) - Todo direito penal de periculosidade é direito penal de autor, enquanto o direito penal de culpabilidade pode ser de autor ou de ato.
+*** D) - O objeto material do crime não se inclui nos elementos do fato típico, porque representa o conteúdo de valor que faz com que o Estado preveja como criminosa a ação descrita no preceito penal.
+*** E) - Todas as alternativas estão corretas.
+**** Gabarito: E
+-----
+* Ano: 2018 | Banca: Fundação CEFETBAHIA | Órgão: MPE-BA | Prova: Fundação CEFETBAHIA - 2018 - MPE-BA - Promotor de Justiça Substituto - Anulada
+** Assinale a alternativa correta.
+*** A) - A reação defensiva na legítima defesa não exige que o fato seja previsto como crime, mas deve ser no mínimo um ato ilícito em sentido amplo.
+*** B) - A ilicitude penal projeta-se para o todo do direito e, assim, não se restringe ao campo do direito penal.
+*** C) - Os conceitos de ilicitude e injusto não se distinguem uma vez que ambos não dispensam contrariedade ao ordenamento jurídico.
+*** D) - As alternativas “a”, “b” e “c” estão corretas.
+*** E) - Apenas as alternativas “a” e “b” estão corretas.
+**** Gabarito: E
+-----
+* Ano: 2018 | Banca: CESPE / CEBRASPE | Órgão: PC-MA | Prova: CESPE - 2018 - PC-MA - Delegado de Polícia Civil
+** No direito penal, a analogia
+*** A) - é uma forma de autointegração da norma penal para suprir as lacunas porventura existentes.
+*** B) - é uma fonte formal imediata do direito penal.
+*** C) - utiliza, na modalidade jurídica, preceitos legais existentes para solucionar hipóteses não previstas em lei.
+*** D) - corresponde a uma interpretação extensiva da norma penal.
+*** E) - é uma fonte formal mediata, tal como o costume e os princípios gerais do direito.
+**** Gabarito: A
+-----
+* Ano: 2018 | Banca: CESPE / CEBRASPE | Órgão: PC-MA | Prova: CESPE - 2018 - PC-MA - Delegado de Polícia Civil
+** Acerca do direito penal e do poder punitivo, assinale a opção correta.
+*** A) - O garantismo penal impede a intervenção punitiva do Estado, o qual deverá exercer função exclusivamente preventiva e garantidora das liberdades individuais.
+*** B) - O direito penal do autor poderá servir de fundamento para a redução da pena quando existirem circunstâncias pessoais favoráveis ao acusado.
+*** C) - O direito penal do ato tem como característica a ampliação da tipicidade do crime para atingir também os atos preparatórios e os de tentativa.
+*** D) - No direito penal do inimigo, a sanção penal é aplicada com extremo rigor e objetiva punir o inimigo de modo exemplar por atos cometidos, sem, contudo, relativizar ou suprimir garantias processuais.
+*** E) - A criminalização secundária tem como características a igualdade e a abstração, uma vez que a lei penal é genérica e a todos dirigida.
 **** Gabarito: B
 -----
-* Ano: 2024 Banca: CESPE / CEBRASPE Órgão: DPE-AC Prova: CESPE / CEBRASPE - 2024 - DPE-AC - Defensor Público
-** Com relação à aplicação da lei penal no tempo, assinale a opção correta, considerando o entendimento jurisprudencial do Supremo Tribunal Federal (STF).
-*** A) - Aplica-se a pena mais branda quando o crime for continuado e surgir lei posterior mais gravosa que a vigente à época do início da continuidade.
-*** B) - Admite-se a conjugação de partes de uma lei, criando-se uma lex tertia a ser aplicada ao caso concreto.
-*** C) - Aplica-se a retroatividade da lei penal mais benéfica quando houver evolução de entendimento jurisprudencial mais benéfico.
-*** D) - Lei penal intermediária mais favorável ao réu, com vigência entre a data do fato criminoso e a data da respectiva sentença condenatória, não terá qualquer relevância para aplicação no direito penal brasileiro.
-*** E) - No caso de lei posterior que beneficie, em parte, o acusado e, em outra, o prejudique, deve o juiz da causa ou da execução aplicar, em sua integralidade, a lei que seja mais benéfica.
+* Ano: 2018 | Banca: FUNDATEC | Órgão: DPE-SC | Prova: FUNDATEC - 2018 - DPE-SC - Analista Técnico
+** De acordo com o Professor Cezar Roberto Bitencourt, “o Direito Penal regula as relações dos indivíduos em sociedade e as relações destes com a mesma sociedade. (...) a persecução criminal somente pode ser legitimamente desempenhada de acordo com as normas preestabelecidas, legisladas de acordo com as regras de um sistema democrático. Por esse motivo, os bens protegidos pelo Direito Penal não interessam apenas ao indivíduo, mas à coletividade como um todo”. Tendo por base o pensamento do referido autor, analise as seguintes assertivas:
+I. Uma das principais características do Direito Penal moderno é seu caráter fragmentário, no sentido de que representa a *ultima ratio* do sistema para a proteção daqueles bens e interesses de maior importância para o indivíduo e a sociedade à qual pertence.
+II. Segundo leciona Paulo César Busato, o Direito Penal atua como o instrumento mais contundente de que dispõe o Estado para levar a cabo o controle social. Sua intervenção, portanto, constitui uma violência, por si só, razão pela qual o seu emprego deve dar-se somente e na exata medida da urgente necessidade de preservação da sociedade.
+III. Pode-se afirmar, no tocante aos objetivos e às missões do Direito Penal, que a opinião majoritária considera que a missão do Direito Penal é a de proteger bens jurídicos de possíveis lesões ou perigos, sendo que tais bens devem ser aqueles que permitem assegurar as condições de existência da sociedade, a fim de garantir os aspectos principais e indispensáveis da vida em comunidade.
+IV. Foi Welzel quem tentou atribuir uma dupla missão ao Direito Penal, pois, sem negar a missão de proteção de bens jurídicos, acrescentou-lhe a missão de proteção dos valores elementares da consciência, de caráter ético-social. O que não é admitido pela maioria da doutrina, já que o Direito Penal não deve se ocupar de exercer um controle moral sobre as pessoas.
+Quais estão corretas?
+*** A) - Apenas I e II.
+*** B) - Apenas I e IV.
+*** C) - Apenas III e IV.
+*** D) - Apenas II, III e IV.
+*** E) - I, II, III e IV.
 **** Gabarito: E
 -----
-* Ano: 2024 Banca: IGEDUC Órgão: Prefeitura de Garanhuns - PE Prova: IGEDUC - 2024 - Prefeitura de Garanhuns - PE - Guarda Municipal Feminino (Manhã)
-** No caso de normas penais em branco, cujo complemento é de nível diverso, como regulamentos ou portarias, a alteração desses complementos pode ser aplicada retroativamente para agravar a situação do réu, em virtude da necessidade de atualização constante do Direito Penal.
-*** A) - Certo
-*** B) - Errado
+* Ano: 2017 | Banca: FAPEMS | Órgão: PC-MS | Prova: FAPEMS - 2017 - PC-MS - Escrivão de Polícia Judiciária
+** No que se refere aos princípios aplicáveis ao Direito , Penal, assinale a alternativa correspondente ao Princípio da Lesividade.
+*** A) - Esse princípio é a expressão da intervenção mínima, pois reduz a capacidade de criminalização do Estado.
+*** B) - Esse princípio é a expressão de que só pode ser castigado aquele comportamento que lesione direitos de qualquer pessoa, até mesmo do próprio agente.
+*** C) - Esse princípio é a expressão de proteção do indivíduo quanto à dignidade da pessoa humana, pois determina a criminalização - mandados de criminalização - de bens jurídicos relevantes.
+*** D) - Esse princípio é a expressão da taxatividade, pois delimita o bem jurídico que pode ou não ser passível de tutela penal.
+*** E) - Esse princípio é a expressão da exterioridade e alteridade (bilateralidade), significa que a tutela penal não tem relevância para reprimir a os meramente internos à psique do agente.
 **** Gabarito: E
------
-* Ano: 2024 Banca: IGEDUC Órgão: Prefeitura de Garanhuns - PE Prova: IGEDUC - 2024 - Prefeitura de Garanhuns - PE - Guarda Municipal Feminino (Manhã)
-** O princípio da legalidade, conforme estabelecido no artigo 1º do Código Penal e no art. 5º, XXXIX, da Constituição Federal, determina que não há crime sem uma lei anterior que o defina, nem pena sem prévia cominação legal. Esse princípio é fundamental para garantir a segurança jurídica e a previsibilidade das condutas consideradas criminosas e das respectivas penas.
-*** A) - Certo
-*** B) - Errado
-**** Gabarito: C
------
-* Ano: 2024 Banca: IGEDUC Órgão: Prefeitura de Garanhuns - PE Prova: IGEDUC - 2024 - Prefeitura de Garanhuns - PE - Guarda Municipal Feminino (Manhã)
-** As normas penais em branco, que necessitam de complementação por outras normas de igual ou diverso nível hierárquico, não contrariam o princípio da reserva legal. Um exemplo é a norma que define os crimes relacionados ao tráfico de substâncias entorpecentes, cuja especificação das substâncias é feita por portarias do Ministério da Saúde. Essa característica permite a adaptação da lei às mudanças sociais e técnicas sem necessidade de revisão legislativa contínua.
-*** A) - Certo
-*** B) - Errado
-**** Gabarito: C
------
-* Ano: 2024 Banca: IGEDUC Órgão: Prefeitura de Garanhuns - PE Prova: IGEDUC - 2024 - Prefeitura de Garanhuns - PE - Guarda Municipal Feminino (Manhã)
-** O princípio da legalidade permite que medidas provisórias e decretos presidenciais possam criar novos tipos penais, aumentando a flexibilidade do sistema jurídico para responder rapidamente a novas demandas sociais sem a necessidade de passar pelo processo legislativo tradicional.
-*** A) - Certo
-*** B) - Errado
-**** Gabarito: E
------
-* Ano: 2024 Banca: IGEDUC Órgão: Prefeitura de Garanhuns - PE Prova: IGEDUC - 2024 - Prefeitura de Garanhuns - PE - Guarda Municipal Feminino (Manhã)
-** No Direito Penal, o princípio da legalidade, afirmado pelo art. 1º do Código Penal e reiterado no art. 5º, XXXIX, da Constituição Federal, estabelece que não pode haver punição por um fato que não esteja expressamente previsto como crime em lei anterior, nem aplicação de pena sem prévia definição legal. Esse princípio é essencial para a segurança jurídica, garantindo que ninguém seja surpreendido por leis retroativas que criem crimes ou penas.
-*** A) - Certo
-*** B) - Errado
-**** Gabarito: C
------
-* Ano: 2024 Banca: IGEDUC Órgão: Prefeitura de Garanhuns - PE Prova: IGEDUC - 2024 - Prefeitura de Garanhuns - PE - Guarda Municipal Feminino (Manhã)
-** A retroatividade da lei penal mais benéfica é um princípio estabelecido no art. 2º do Código Penal, permitindo que uma lei posterior, que deixa de considerar um fato como crime ou que de alguma forma beneficia o réu, seja aplicada a fatos anteriores, inclusive àqueles já julgados. Esse princípio reforça o compromisso do Direito Penal com a justiça e a proporcionalidade das penas.
-*** A) - Certo
-*** B) - Errado
-**** Gabarito: C
------
-* Ano: 2024 Banca: IGEDUC Órgão: Prefeitura de Garanhuns - PE Prova: IGEDUC - 2024 - Prefeitura de Garanhuns - PE - Guarda Municipal Feminino (Manhã)
-** A retroatividade da lei penal mais benéfica é um princípio que permite a aplicação de uma nova lei mais favorável ao réu a fatos ocorridos antes de sua vigência. Esse princípio está previsto no art. 2º do Código Penal e visa a garantir que avanços legislativos que discriminem condutas ou reduzam penas sejam aplicados a situações passadas, beneficiando indivíduos previamente condenados ou processados.
-*** A) - Certo
-*** B) - Errado
-**** Gabarito: C
------
-* Ano: 2024 Banca: IGEDUC Órgão: Prefeitura de Garanhuns - PE Prova: IGEDUC - 2024 - Prefeitura de Garanhuns - PE - Guarda Municipal Feminino (Manhã)
-** Normas penais em branco violam o princípio da reserva legal, uma vez que deixam para regulamentos e portarias a definição de elementos essenciais dos tipos penais, o que compromete a clareza e a precisão necessárias para a validade de uma norma penal.
-*** A) - Certo
-*** B) - Errado
-**** Gabarito: E
------
-* Ano: 2024 Banca: VUNESP Órgão: MPE-RO Prova: VUNESP - 2024 - MPE-RO - Promotor de Justiça Substituto
-** Mévio, brasileiro, em voo com destino ao exterior, em aeronave de propriedade de empresa aérea brasileira, quando já em espaço aéreo estrangeiro, a fim de satisfazer a própria lascívia, aproveitando-se que a passageira ao lado dormia, masturba-se, ejaculando sobre o corpo da mulher que, imediatamente, acorda. A mulher também é brasileira. Mévio é detido, assim que a aeronave pousa em solo estrangeiro. No entanto, pouco tempo depois, por decisão judicial que julgou a conduta por ele praticada atípica, não abarcada no tipo penal estrangeiro equivalente ao crime de estupro e ante a inexistência de tipo penal estrangeiro equivalente ao crime de importunação sexual, é absolvido. Logo após a decisão absolutória, Mévio retorna ao Brasil, sendo certo que aqui, em vista da repercussão do caso na imprensa, por iniciativa da autoridade policial, passa a ser investigado por crime de importunação sexual. A respeito da situação hipotética, assinale a alternativa correta.
-*** A) - Em vista da regra de extensão territorial, que considera praticado no país, os crimes ocorridos em aeronaves brasileiras, por brasileiro, Mévio será julgado e processado pela lei brasileira, mesmo diante da absolvição por decisão estrangeira.
-*** B) - Embora a absolvição por decisão estrangeira não seja obstáculo, Mévio não poderá ser julgado e processado se inexistente representação da vítima, vez que o crime de importunação sexual é de ação penal pública condicionada.
-*** C) - Uma vez que houve julgamento e absolvição no estrangeiro, Mévio não poderá ser processado e julgado pela lei brasileira.
-*** D) - Ainda que cometido o crime no estrangeiro, Mévio será processado e julgado pela lei brasileira, mesmo diante da absolvição por decisão estrangeira, vez que se trata de crime que por convenção ou tratado, o Brasil se comprometeu a reprimir.
-*** E) - Em vista da regra de extensão territorial, que considera praticado no país, os crimes ocorridos em aeronaves brasileiras, contra brasileiro, Mévio será julgado e processado pela lei brasileira, mesmo diante da absolvição por decisão estrangeira.
-**** Gabarito: C
------
-* Ano: 2024 Banca: VUNESP Órgão: MPE-RO Prova: VUNESP - 2024 - MPE-RO - Promotor de Justiça Substituto
-** A respeito da insignificância, conforme jurisprudência do Superior Tribunal de Justiça, é correto afirmar:
-*** A) - é cabível para afastar a tipicidade material dos crimes de estelionato, ainda que praticado contra o seguro desemprego.
-*** B) - é cabível para afastar a tipicidade material de crime de violação de direito autoral.
-*** C) - é cabível para afastar a tipicidade material da conduta de introduzir no território nacional medicamento falsificado ou não autorizado (artigo 273, §1 e §1-B, do CP).
-*** D) - não se aplica ao crime de dano qualificado por prejuízo ao patrimônio público.
-*** E) - não se aplica a crimes ambientais, ainda que ínfima a ofensividade da conduta.
-**** Gabarito: D
------
-* Ano: 2024 Banca: ICECE Órgão: Prefeitura de Aratuba - CE Prova: ICECE - 2024 - Prefeitura de Aratuba - CE - Guarda Municipal
-** O princípio da retroatividade da Lei Penal mais benéfica está melhor definido na alternativa:
-*** A) - Impõe que a responsabilidade deve ser pessoal, subjetiva e pelo fato, afastando-se a influência de qualidades pessoais na formação da culpa.
-*** B) - A lei anterior ao delito é aplicável ao fato, afastando a possibilidade de aplicação de Lei Penal posterior que de qualquer forma modifique as características do tipo penal.
-*** C) - Possibilita afastar a ilicitude do fato e tolerar condutas socialmente aceitas, tal como a solicitação de pequenos presentes por servidores públicos.
-*** D) - A lei posterior, que de qualquer modo favorecer o agente, aplica-se aos fatos anteriores, ainda que decididos por sentença condenatória transitada em julgado.
-**** Gabarito: D
------
-* Ano: 2024 Banca: ICECE Órgão: Prefeitura de Aratuba - CE Prova: ICECE - 2024 - Prefeitura de Aratuba - CE - Guarda Municipal
-** Acerca da aplicação da Lei Penal, julgue os itens a seguir: I. A lei posterior mais benéfica ao agente é aplicável aos fatos anteriores, exceto se decididos por sentença condenatória transitada em julgado. II. Constitui direito do investigado não se autoincriminar e de se manter em silêncio. III. A prévia cominação legal é imprescindível para a existência de pena. Assinale a opção correta.
-*** A) - Apenas os itens I e II estão certos.
-*** B) - Apenas os itens I e III estão certos.
-*** C) - Apenas os itens II e III estão certos.
-*** D) - Todos os itens estão certos.
-**** Gabarito: C
------
-* Ano: 2024 Banca: FGV Órgão: ENAM Prova: FGV - 2024 - ENAM - 1º Exame Nacional da Magistratura
-** Bernardo, cidadão português, tripulante de um navio da marinha mercante brasileira, que partira de Santos e navega pelo Oceano Atlântico, em alto-mar, com destino ao porto de Roterdã, na Holanda, agride um outro tripulante, de nacionalidade peruana, desferindo-lhe socos, que o ferem levemente. Diante do caso narrado, assinale a alternativa correta.
-*** A) - não se aplica a Bernardo a legislação penal brasileira, pois o crime ocorreu no estrangeiro.
-*** B) - aplica-se a Bernardo a legislação penal brasileira, pois o local onde ocorreu o crime é considerado território nacional por extensão.
-*** C) - pode ser aplicada a Bernardo a legislação penal brasileira, pois, embora o crime tenha ocorrido no estrangeiro, trata-se de hipótese de extraterritorialidade condicionada da lei penal brasileira, à luz do princípio da defesa.
-*** D) - aplica-se a Bernardo a legislação penal brasileira, pois, embora o crime tenha ocorrido no estrangeiro, trata-se de hipótese de extraterritorialidade incondicionada da lei penal brasileira, à luz do princípio da representação.
-*** E) - pode ser aplicada a Bernardo a legislação penal brasileira, pois, embora o crime tenha ocorrido no estrangeiro, trata-se de hipótese de extraterritorialidade condicionada da lei penal brasileira, à luz do princípio da representação.
-**** Gabarito: B
------
-* Ano: 2024 Banca: FGV Órgão: ENAM Prova: FGV - 2024 - ENAM - 1º Exame Nacional da Magistratura
-** Pierre, cidadão estrangeiro, praticou o delito de estupro em face da brasileira Marina, maior e capaz. O crime foi praticado em Estado estrangeiro, onde há incriminação da conduta, tal como ocorre no Brasil. Passado algum tempo, como o autor do fato e a vítima retornaram ao Brasil, o Ministério Público ajuizou ação penal pública incondicionada em face de Pierre, como incurso nas penas do delito de estupro. Sobre o caso narrado, assinale a afirmativa correta.
-*** A) - Há o preenchimento das condições de aplicação da lei penal brasileira ao fato ocorrido no exterior; porém, a ação penal depende de representação da vítima.
-*** B) - Há o preenchimento integral das condições de aplicação da lei penal brasileira ao fato ocorrido no exterior, sendo viável a responsabilização do autor do fato.
-*** C) - Não há o preenchimento das condições de aplicação da lei penal brasileira, pois ausente requisição do Ministro da Justiça.
-*** D) - Não há o preenchimento das condições de aplicação da lei penal brasileira, pois o autor do fato é estrangeiro, e a nacionalidade da vítima é indiferente à extraterritorialidade da lei penal brasileira.
-*** E) - A aplicação da lei penal brasileira ao fato independe de qualquer condição, por se tratar de crime praticado mediante violência.
-**** Gabarito: C
------
-* Ano: 2024 Banca: FGV Órgão: Câmara de Fortaleza - CE Prova: FGV - 2024 - Câmara de Fortaleza - CE - Advogado
-** Acerca da aplicação da lei penal, analise as disposições a seguir. I. A lei penal excepcional é dotada de ultratividade e aplica-se aos fatos praticados durante sua vigência mesmo após sua revogação. II. A regra da irretroatividade da lei penal não admite exceções. III. No tocante à definição do tempo do crime, é aplicável a teoria da atividade. Está correto o que se afirma em
-*** A) - I, apenas.
-*** B) - II, apenas.
-*** C) - I e II, apenas.
-*** D) - I e III, apenas.
-*** E) - I, II e III.
-**** Gabarito: D
 -----
