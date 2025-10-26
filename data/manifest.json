@@ -1,13 +1,7 @@
 {
   "Direito Penal": {
     "temas": {
-      "Tipicidade": { "base": "penal/tipicidade" },
-      "Consumação e Tentativa": { "base": "penal/consumacao_tentativa" }
-    }
-  },
-  "Direito Civil": {
-    "temas": {
-      "Contratos": { "base": "civil/contratos" }
+      "Calúnia": { "base": "direito-penal/calunia" }
     }
   }
 }
