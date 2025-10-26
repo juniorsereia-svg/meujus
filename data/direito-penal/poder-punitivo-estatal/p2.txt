@@ -1,0 +1,178 @@
+
+* Ano: 2017 Banca: CESPE / CEBRASPE Órgão: TRF - 5ª REGIÃO Prova: CESPE - 2017 - TRF - 5ª REGIÃO - Juiz Federal Substituto
+** Assinale a opção que apresenta princípios que devem ser observados pelas leis penais por expressa previsão constitucional.
+*** A) - legalidade, irretroatividade, responsabilidade pessoal, economicidade, individualização da pena
+*** B) - legalidade, irretroatividade, responsabilidade pessoal, presunção da inocência, eficiência da pena
+*** C) - legalidade, irretroatividade, responsabilidade pessoal, presunção da inocência, individualização da pena
+*** D) - legalidade, irretroatividade, moralidade, presunção da inocência, individualização da pena
+*** E) - legalidade, impessoalidade, irretroatividade, presunção da inocência, individualização da pena
+**** Gabarito: C
+-----
+* Ano: 2017 Banca: IBFC Órgão: TJ-PE Prova: IBFC - 2017 - TJ-PE - Técnico Judiciário - Função Judiciária
+** O conceito analítico de crime apresenta como um de seus elementos constituidores a tipicidade. No contexto do fato típico observa-se um aparente conflito entre normas penais aplicáveis ao caso concreto. Com base nos seus conhecimentos sobre Direito Penal, assinale a alternativa que não apresenta um dos mecanismos principiológicos utilizados para solucionar os conflitos aparentes de normas:
+*** A) - Princípio da subsidiariedade
+*** B) - Princípio da insignificância
+*** C) - Princípio da consunção
+*** D) - Princípio da alternatividade
+*** E) - Princípio da especialidade
+**** Gabarito: B
+-----
+* Ano: 2017 Banca: CESPE / CEBRASPE Órgão: PJC-MT Prova: CESPE - 2017 - PJC-MT - Delegado de Polícia Substituto
+** De acordo com o entendimento do STF, a aplicação do princípio da insignificância pressupõe a constatação de certos vetores para se caracterizar a atipicidade material do delito. Tais vetores incluem o(a)
+*** A) - reduzidíssimo grau de reprovabilidade do comportamento.
+*** B) - desvalor relevante da conduta e do resultado.
+*** C) - mínima periculosidade social da ação.
+*** D) - relevante ofensividade da conduta do agente.
+*** E) - expressiva lesão jurídica provocada.
+**** Gabarito: A
+-----
+* Ano: 2017 Banca: FAPEMS Órgão: PC-MS Prova: FAPEMS - 2017 - PC-MS - Delegado de Polícia
+** No que diz respeito aos princípios aplicáveis ao Direito Penal, analise os textos a seguir. A proteção de bens jurídicos não se realiza só mediante o Direito Penal, senão que nessa missão cooperam todo o instrumental do ordenamento jurídico. ROXIN, Claus. Der echo penai- parte geral. Madrid: Civitas, 1997.1.1, p. 65. A criminalização de uma conduta só se legitima se constituir meio necessário para a proteção de ataques contra bens jurídicos importantes. BITENCOURT, Cezar Roberto. Tratada de direito penal: parte geral. 20. ed. São Paulo: Saraiva, 2014, p. 54. Nesse sentido, é correto afirmar que os textos se referem ao
+*** A) - princípio da intervenção mínima, imputando ao Direito Penal somente fatos que escapem aos meios extrapenais de controle social, em virtude da gravidade da agressão e da importância do bem jurídico para a convivência social.
+*** B) - princípio da insignificância, que reserva ao Direito Penal a aplicação de pena somente aos crimes que produzirem ataques graves a bem jurídicos protegidos por esse Direito, sendo que agir de forma diferente causa afronta à tipicidade material.
+*** C) - princípio da adequação social em que as condutas previstas como ilícitas não necessariamente revelam-se como relevantes para sofrerem a intervenção do Estado, em particular quando se tornarem socialmente permitidas ou toleradas.
+*** D) - princípio da ofensividade, pois somente se justifica a intervenção do Estado para reprimir a infração com aplicação de pena, quando houver dano ou perigo concreto de dano a determinado interesse socialmente relevante e protegido pelo ordenamento jurídico.
+*** E) - princípio da proporcionalidade, em que somente se reserva a intervenção do Estado, quando for estritamente necessária a aplicação de pena em quantidade e qualidade proporcionais à gravidade do dano produzido e a necessária prevenção futura.
+**** Gabarito: A
+-----
+* Ano: 2017 Banca: FAPEMS Órgão: PC-MS Prova: FAPEMS - 2017 - PC-MS - Delegado de Polícia
+** Com relação aos princípios de Direito Penal e à interpretação da lei penal, assinale a alternativa correta.
+*** A) - A interpretação autêntica contextual visa a dirimir a incerteza ou obscuridade da lei anterior.
+*** B) - Não se aplica o princípio da individualização da pena na fase da execução penal.
+*** C) - A interpretação quanto ao resultado busca o significado legal de acordo com o progresso da ciência.
+*** D) - O princípio da proporcionalidade tem apenas o judiciário como destinatário cujas penas impostas ao autor do delito devem ser proporcionais à concreta gravidade.
+*** E) - A interpretação teleológica busca alcançar a finalidade da lei, aquilo que ela se destina a regular.
+**** Gabarito: E
+-----
+* Ano: 2017 Banca: FAPEMS Órgão: PC-MS Prova: FAPEMS - 2017 - PC-MS - Delegado de Polícia
+** Com relação aos princípios aplicáveis ao Direito Penal, em especial no que se refere ao princípio da adequação social, assinale a alternativa correta.
+*** A) - O Direito Penal deve tutelar bens jurídicos mais relevantes para a vida em sociedade, sem levar em consideração valores exclusivamente morais ou ideológicos.
+*** B) - só se deve recorrer ao Direito Penal se outros ramos do direito não forem suficientes.
+*** C) - Deve-se analisar se houve uma mínima ofensividade ao bem jurídico tutelado, se houve periculosidade social da ação e se há reprovabilidade relevante no comportamento do agente.
+*** D) - Não há crime se não há lesão ou perigo real de lesão a bem jurídico tutelado pelo Direito Penal.
+*** E) - Apesar de uma conduta subsumir ao modelo legal, não será considerada típica se for historicamente aceita pela sociedade.
+**** Gabarito: E
+-----
+* Ano: 2017 Banca: FCC Órgão: DPE-RS Prova: FCC - 2017 - DPE-RS - Analista - Processual
+** O que nos parece é que as duas dimensões do bem jurídico-penal ― a valorativa e a pragmática ― apresentam áreas de intensa interpenetração, o que origina a tendencial convergência entre elevada dignidade penal e necessidade de tutela penal, assim como, inversamente, entre reduzida dignidade penal e desnecessidade de tutela penal. (CUNHA, Maria da Conceição Ferreira da. Constituição e crime: uma perspectiva da criminalização e da descriminalização. Porto: Universidade Católica Portuguesa Editora, 1995, p. 424) Nesse tópico, o tema central do raciocínio da jurista portuguesa radica primacialmente no campo da ideia constitucional de
+*** A) - individualização.
+*** B) - dignidade humana.
+*** C) - irretroatividade.
+*** D) - proporcionalidade.
+*** E) - publicidade.
+**** Gabarito: D
+-----
+* Ano: 2017 Banca: CESPE / CEBRASPE Órgão: MPE-RR Prova: CESPE - 2017 - MPE-RR - Promotor de Justiça Substituto
+** No direito penal, o princípio da
+*** A) - fragmentariedade informa que o direito penal é autônomo e cuida das condutas tidas por ilícitas penalmente, sendo aplicável a lei penal independentemente da solução do problema por outros ramos do direito.
+*** B) - irretroatividade da lei se aplica absolutamente.
+*** C) - insignificância, segundo o entendimento do STF, pressupõe apenas três requisitos para a sua configuração: mínima ofensividade da conduta do agente, nenhuma periculosidade social e reduzidíssimo grau de reprovabilidade do comportamento.
+*** D) - proporcionalidade fundamenta a declaração de inconstitucionalidade de parte do art. 44 da Lei Antidrogas, que veda a concessão de liberdade provisória em crimes relacionados às drogas.
+**** Gabarito: D
+-----
+* Ano: 2017 Banca: CESPE / CEBRASPE Órgão: MPE-RR Prova: CESPE - 2017 - MPE-RR - Promotor de Justiça Substituto
+** Em uma aldeia indígena, um índio cometeu homicídio contra outro índio e, por tal fato, ele foi julgado e condenado por conselho dessa aldeia, razão por que, atualmente, se encontra cumprindo a pena que lhe foi imposta. Acerca dessa situação hipotética, assinale a opção correta à luz do entendimento do TJ/RR.
+*** A) - A punição do índio homicida pelo direito brasileiro é vedada em razão da exclusividade de punição dele pela tribo, uma vez que o fato tem como autor e como vítima índios e ocorreu no território da tribo, a quem pertence, portanto, o jus puniendi.
+*** B) - A punição do índio homicida pelo direito brasileiro é possível devido ao monopólio do poder de punir do Estado e, consequentemente, da exclusividade da ação penal de iniciativa pública incondicionada por parte do MP.
+*** C) - Em razão do princípio do ne bis in idem e de a CF reconhecer aos índios sua organização social, a punição pela tribo é legítima e é impossível a punição do índio homicida pelo direito penal brasileiro.
+*** D) - Devido à independência dos órgãos julgadores e da inexistência de jurisdição legal pela tribo em questão, é possível a punição do índio homicida pelo direito penal brasileiro.
+**** Gabarito: C
+-----
+* Ano: 2017 Banca: IBADE Órgão: PC-AC Prova: IBADE - 2017 - PC-AC - Delegado de Polícia Civil
+** “O suicídio é um crime (assassínio) [...]. Aniquilar o sujeito da moralidade na própria pessoa é erradicar a existência da moralidade mesma do mundo, o máximo possível, ainda que a moralidade seja um fim em si mesma. Consequentemente, dispor de si mesmo como um mero meio para algum fim discricionário é rebaixar a humanidade na própria pessoa ( homo noumenon ), à qual o ser humano ( homo phaenomenon ) foi, todavia, confiado para preservação” (KANT, Immanuel, a Metafísica dos Costumes). A extinção da própria vida já foi objeto de sancionamento penal em diversos países. Esclarece Galdino Siqueira (Tratado, tomo III, p. 68) que o direito romano punia com confisco de bens o ato de suicidar-se para fugir a uma acusação ou à pena por outro delito. A mesma pena foi aplicada em França. O confisco-segundo o autor-persistia na Inglaterra no início do século XX, desde que o suicídio não fosse efeito de uma desordem mental provada. Tendo por base o confisco de bens outrora pertencentes ao suicida - que tem herdeiros - como forma de punição penal, é correto afirmar que responsabilização de terceiros pela conduta de alguém viola o princípio penal, denominado:
+*** A) - individualização judicial da pena.
+*** B) - taxatividade
+*** C) - intranscendência.
+*** D) - ofensividade.
+*** E) - inderrogabilidade.
+**** Gabarito: C
+-----
+* Ano: 2017 Banca: FCC Órgão: DPE-PR Prova: FCC - 2017 - DPE-PR - Defensor Público
+** O princípio da intervenção mínima no Direito Penal encontra reflexo
+*** A) - no princípio da fragmentariedade e na teoria da imputação objetiva.
+*** B) - no princípio da subsidiariedade e na teoria da imputação objetiva.
+*** C) - nos princípios da subsidiariedade e da fragmentariedade.
+*** D) - no princípio da fragmentariedade e na proposta funcionalista sistêmica.
+*** E) - na teoria da imputação objetiva e na proposta funcionalista sistêmica
+**** Gabarito: C
+-----
+* Ano: 2017 Banca: CESPE / CEBRASPE Órgão: TJ-PR Prova: CESPE - 2017 - TJ-PR - Juiz Substituto
+** Considerando a jurisprudência do STF e do STJ sobre os princípios informativos do direito penal e da teoria geral da pena, assinale a opção correta.
+*** A) - Se a natureza e a quantidade da droga apreendida repercutirem na fixação da pena, não poderá esse mesmo parâmetro ser usado para definir o regime inicial de cumprimento dessa pena.
+*** B) - A irretroatividade da lei penal mais gravosa é sempre aplicável, inclusive nos crimes permanentes e nas hipóteses de continuidade delitiva.
+*** C) - Devido ao fato de o crime de lavagem de capitais ser de caráter acessório, a participação do agente no crime antecedente é indispensável à configuração daquele crime.
+*** D) - A prática sequenciada de atos libidinosos e conjunção carnal contra a mesma pessoa, dentro do mesmo contexto fático, configura crime único.
+**** Gabarito: D
+-----
+* Ano: 2017 Banca: MPE-RS Órgão: MPE-RS Prova: MPE-RS - 2017 - MPE-RS - Promotor de Justiça - Reaplicação
+** Assinale a alternativa INCORRETA.
+*** A) - Para a teoria da conditio sine qua non, se a vítima morre quando poderia ter sido salva, caso levada, logo após o fato, a atendimento médico, responde o agente da ação com animus necandi por homicídio consumado. Mas, se levada a socorro em hospital, morresse por efeito de substância tóxica ministrada por engano pela enfermeira, o agente responderia por tentativa de homicídio e não por homicídio consumado.
+*** B) - Para a teoria da imputação objetiva, o ato de imputar significa atribuir a alguém a realização de uma conduta criadora de um risco relevante e juridicamente proibido e a produção de um resultado jurídico. Pressupõe um perigo criado pelo agente e não coberto por um risco permitido dentro do alcance do tipo. O risco permitido conduz à atipicidade, e o risco proibido, quando relevante, à tipicidade. A imputação objetiva constitui elemento normativo implícito do tipo penal.
+*** C) - Os princípios da adequação social e da insignificância, sugeridos pela doutrina, servem de instrumentos de interpretação restritiva do tipo penal, que afetam a tipicidade formal do fato.
+*** D) - Para a teoria do domínio do fato, autor é quem executa a ação típica, por conduta própria ou pela utilização de outro como instrumento de realização; também quem, mesmo não executando o fato típico em sentido estrito, participa da resolução criminosa, realizando parte necessária da execução do plano global. A teoria, partindo do conceito restritivo de autor, segue um critério objetivo-subjetivo.
+*** E) - Para a teoria finalista, ação é a conduta do homem, comissiva ou omissiva, dirigida a uma finalidade e desenvolvida sob o domínio da vontade do agente, razão pela qual não reputa criminosa a ação ocorrida em estado de inconsciência, como no caso de quem, durante o sono, sonhando estar em legítima defesa, esbofeteia e causa lesão corporal na pessoa que dorme ao seu lado. Para esta mesma teoria, a culpabilidade não é psicológica, nem psicológico-normativa.
+**** Gabarito: C
+-----
+* Ano: 2016 Banca: Quadrix Órgão: CREF - 7ª Região (DF) Prova: Quadrix - 2016 - CREF - 7ª Região (DF) - Agente de Orientação e Fiscalização
+** Sobre a aplicação da lei penal, considerando o disposto no Título I do Código Penal, assinale a alternativa que não está correta.
+*** A) - Não há crime sem lei anterior que o defina. Não há pena sem prévia cominação legal.
+*** B) - Considera-se praticado o crime no momento da ação ou omissão, ainda que outro seja o momento do resultado.
+*** C) - Aplica-se a lei brasileira, sem prejuízo de convenções, tratados e regras de direito internacional, ao crime cometido no território nacional.
+*** D) - Os crimes contra a vida do Presidente da República ficam sujeitos à lei brasileira, se cometidos no Brasil, e sujeitos à lei estrangeira, se cometidos no exterior.
+*** E) - Considera-se praticado o crime no lugar em que ocorreu a ação ou omissão, no todo ou em parte, bem como no lugar em que se produziu ou deveria produzir-se o resultado.
+**** Gabarito: D
+-----
+* Ano: 2016 Banca: IBEG Órgão: Prefeitura de Teixeira de Freitas - BA Prova: IBEG - 2016 - Prefeitura de Teixeira de Freitas - BA - Procurador Municipal
+** O princípio da legalidade é uma garantia constitucional fundamental do homem: “não há crime sem lei anterior que o defina, nem pena sem prévia cominação legal” (CF/88, art. 5º, XXXIX e Código Penal, art. 1º). Sobre esse princípio, analise as assertivas abaixo e indique a incorreta.
+*** A) - De acordo com a maioria da doutrina, há no princÍpio da legalidade embutidos dois princípios diferentes: o da reserva legal, reservando para o estrito campo da lei a existência do crime e sua correspondente pena e o da anterioridade, exigindo que a lei esteja em vigor no momento da prática da infração penal.
+*** B) - O princípio da legalidade veda o uso da analogia in malam partem, e a criação de crimes e penas pelos costumes.
+*** C) - O Estado é a única fonte de produção do direito penal, já que compete privativamente à União legislar sobre normas gerais em matéria penal, ressaltando que, excepcionalmente, lei estadual (ou distrital) poderá tratar sobre questões específicas de Direito Penal, desde que permitido pela União por meio de lei complementar.
+*** D) - O princípio da legalidade não se aplica às medidas de segurança, pois não possuem natureza de pena e a parte geral do Código Penal se refere apenas aos crimes e contravenções penais.
+*** E) - Ninguém pode ser punido por fato que lei posterior deixa de considerar crime, cessando em virtude dela a execução e os efeitos penais da sentença condenatória.
+**** Gabarito: D
+-----
+* Ano: 2016 Banca: FCC Órgão: SEGEP-MA Prova: FCC - 2016 - SEGEP-MA - Auditor Fiscal da Receita Estadual - Administração Tributária - Conhecimentos Gerais
+** O princípio do direito penal que possui claro sentido de garantia fundamental da pessoa, impedindo que alguém possa ser punido por fato que, ao tempo do seu cometimento, não constituía delito é
+*** A) - atipicidade.
+*** B) - reserva legal.
+*** C) - punibilidade.
+*** D) - analogia.
+*** E) - territorialidade.
+**** Gabarito: B
+-----
+* Ano: 2016 Banca: FUNCAB Órgão: PC-PA Prova: FUNCAB - 2016 - PC-PA - Delegado de Polícia Civil - Prova Anulada
+** Expressiva parcela da doutrina sustenta a inadequação do crime de escrito ou objeto obsceno (art. 234 do CP) para com os princípios que instruem o direito penal democrático. Um dos focos dessa inadequação reside na indevida alocação do sentimento público de pudor como objeto da tutela jurídica. Isso representa, em tese, violação ao princípio da:
+*** A) - intranscendência.
+*** B) - culpabilidade.
+*** C) - taxatividade.
+*** D) - ofensividade.
+*** E) - insignificância.
+**** Gabarito: D
+-----
+* Ano: 2016 Banca: FAURGS Órgão: TJ-RS Prova: FAURGS - 2016 - TJ-RS - Assessor Judiciário
+** Acerca dos princípios constitucionais que norteiam o Direito Penal, assinale a alternativa correta.
+*** A) - O princípio da insignificância refere-se à aplicação da pena, impondo, em alguns casos, o reconhecimento de causa de diminuição de pena.
+*** B) - O uso da norma penal em branco heterogênea constitui situação de violação ao princípio da legalidade.
+*** C) - O princípio da coculpabilidade reconhece que o Estado também é responsável pelo cometimento de determinados delitos em razão das desigualdades sociais e econômicas. Tal circunstância pode ser considerada na dosimetria da pena, uma vez que o Código Penal prevê, no art. 66, uma atenuante inominada.
+*** D) - A utilização da analogia pelo juiz para criar tipos penais e responsabilizar criminalmente acusados reincidentes não fere o princípio da legalidade, tendo em vista a norma inscrita no art. 1º do Código Penal.
+*** E) - O princípio da pessoalidade da pena impede que a responsabilidade pela indenização do prejuízo que foi causado pelo autor do crime seja estendida aos seus herdeiros.
+**** Gabarito: C
+-----
+* Ano: 2016 Banca: VUNESP Órgão: TJM-SP Prova: VUNESP - 2016 - TJM-SP - Juiz de Direito Substituto
+** A respeito dos princípios penais e constitucionais penais, assinale a alternativa correta.
+*** A) - O princípio da humanidade, previsto expressamente na Constituição Federal, proíbe a pena de morte (salvo caso de guerra declarada), mas não impede que dos presos se exijam serviços forçados.
+*** B) - A pessoalidade da pena e a individualização da san- ção penal são princípios constitucionais implícitos, já que não são enumerados expressamente na Constituição Federal, mas deduzidos das normas constitucionais nela contidas.
+*** C) - O postulado da irretroatividade da lei penal, por expressa determinação constitucional, é excepcionado quando em causa lei penal benéfica ao réu. Isto importa que a lei penal retroage em favor do réu, desde que inexista sentença com trânsito em julgado.
+*** D) - O princípio da intervenção mínima do direito penal desdobra-se no caráter subsidiário e fragmentário do direito penal. O primeiro impõe que apenas lesões graves a bens jurídicos dignos de tutela penal sejam objeto do direito penal. Já o segundo impõe que só se recorra ao direito penal quando outros ramos do direito mostrarem-se insuficientes à proteção de determinado bem jurídico.
+*** E) - O princípio da legalidade desdobra-se nos postulados da reserva legal, da taxatividade e da irretroatividade. O primeiro impossibilita o uso de analogia como fonte do direito penal; o segundo exige que as leis sejam claras, certas e precisas, a fim de restringir a discricionariedade do aplicador da lei; o último exige a atualidade da lei, impondo que seja aplicada apenas a fatos ocorridos depois de sua vigência.
+**** Gabarito: E
+-----
+* Ano: 2016 Banca: CESPE / CEBRASPE Órgão: PC-PE Prova: CESPE - 2016 - PC-PE - Agente de Polícia
+** Acerca dos princípios básicos do direito penal brasileiro, assinale a opção correta.
+*** A) - O princípio da fragmentariedade ou o caráter fragmentário do direito penal quer dizer que a pessoa cometerá o crime se sua conduta coincidir com qualquer verbo da descrição desse crime, ou seja, com qualquer fragmento de seu tipo penal.
+*** B) - O princípio da anterioridade, no direito penal, informa que ninguém será punido sem lei anterior que defina a conduta como crime e que a pena também deve ser prevista previamente, ou seja, a lei nunca poderá retroagir.
+*** C) - É possível que uma lei penal mais benigna alcance condutas anteriores à sua vigência, seja para possibilitar a aplicação de pena menos severa, seja para contemplar situação em que a conduta tipificada passe a não mais ser crime.
+*** D) - O princípio da insignificância no direito penal dispõe que nenhuma vida humana será considerada insignificante, sendo que todas deverão ser protegidas.
+*** E) - O princípio da ultima ratio ou da intervenção mínima do direito penal significa que a pessoa só cometerá um crime se a pessoa a ser prejudicada por esse crime o permitir.
+**** Gabarito: C
+-----
