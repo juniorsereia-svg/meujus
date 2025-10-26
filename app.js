@@ -112,7 +112,7 @@
     cursoInput.addEventListener('change', onChangeCurso);
     temaInput?.addEventListener('change', onChangeTema);
 
-    // Opções de prova
+    // Opções de prova/lista
     setOpcoesProva(10);
 
     // Eventos
@@ -130,7 +130,7 @@
   // Estimar número de provas disponíveis
   function setOpcoesProva(qtd){
     const opts = ['<option value="0">Aleatória (1–'+qtd+')</option>']
-      .concat(Array.from({length:qtd},(_,i)=>`<option value="${i+1}">Prova ${i+1}</option>`));
+      .concat(Array.from({length:qtd},(_,i)=>`<option value="${i+1}">Lista ${i+1}</option>`));
     provaSel.innerHTML = opts.join('');
   }
   async function detectarQtdProvas(base){
@@ -286,6 +286,7 @@ ENUNCIADO: "${enunciado}"`;
   }
 
   // Render
+  function renderEstoques(lista){ /* legado, não usado */ }
   function renderQuestoesTela(lista){
     const html = lista.map((q, idx)=>{
       const numero = idx+1;
@@ -384,11 +385,17 @@ ENUNCIADO: "${enunciado}"`;
     .cabecalho-questao{display:flex;gap:.5rem;align-items:center;margin:.25rem 0 .5rem}
     .cabecalho-questao .meta{font-size:.85rem;color:#4b5563}
     .cabecalho-questao strong{font-weight:700}
-    .separador{height:1px;background:linear-gradient(90deg,transparent,#d1d5db,transparent);margin:1rem 0}
+    .separador{height:2px;background:linear-gradient(90deg,transparent,#cbd5e1,#cbd5e1,transparent);margin:1rem 0}
     .acoes-ia{display:flex;align-items:center;gap:.4rem;margin-top:.5rem}
     .acoes-ia::before{content:'Google I.A.';font-size:.775rem;color:#6b7280;margin-right:.25rem}
     .acoes-ia .btn-ia{display:inline-flex;align-items:center;justify-content:center;width:2rem;height:2rem;border:none;border-radius:.5rem;background:#f3f4f6;color:#111827;font-weight:600;text-decoration:none}
+    /* Dropdowns minimalistas */
+    .combo-panel{box-shadow:0 10px 20px rgba(0,0,0,.06);border:1px solid #e5e7eb;border-radius:.75rem}
+    .combo-item{padding:.5rem .75rem;cursor:pointer}
+    .combo-item:hover{background:#f9fafb}
+    /* Mobile: mais largura útil */
     @media (max-width:640px){ main, .container, .layout{padding-inline:.75rem} }
+    /* Print: ocultar metadados e destacar separador */
     @media print{ .questao .meta{display:none!important} .separador{height:2px;background:#9ca3af;margin:.6rem 0} }
   `;
   const st = document.createElement('style'); st.textContent = css; document.head.appendChild(st);
@@ -404,7 +411,7 @@ ENUNCIADO: "${enunciado}"`;
   const submit = document.querySelector('button[type="submit"],input[type="submit"]');
   if(submit) submit.textContent = 'Abrir';
 
-  // opções "Prova X" -> "Lista X"
+  // opções "Prova X" -> "Lista X" (garantia extra)
   const sel = document.getElementById('provaSel');
   if(sel){
     const re = /^Prova\s+/i;
