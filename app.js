@@ -44,19 +44,30 @@
     return location.pathname.endsWith('/') ? location.pathname : location.pathname.replace(/[^/]+$/, '/');
   }
   function normalizarPontuacao(txt){
-    return txt.replace(/\r\n/g,'\n')
-              .replace(/\s+([,.;:!?])/g,'$1')
-              .replace(/([(\[])\s+/g,'$1')
-              .replace(/\s{2,}/g,' ')
-              .replace(/\s*-\s*/g,' - ')
-              .trim();
+    return txt
+      .replace(/\s+([,.;:?!])/g, '$1')
+      .replace(/\(\s+/g, '(').replace(/\s+\)/g, ')')
+      .replace(/\s{2,}/g,' ')
+      .trim();
   }
-  function padronizarAlternativas(alts){
-    return alts.slice(0,5).map((t,i)=>`${letras[i]}) ${t.replace(/^[A-Ea-e]\)\s*/, '').trim()}`);
+  function padronizarAlternativas(v){
+    const out = [];
+    for (let i=0;i<v.length;i++){
+      let s = v[i].trim();
+      // Remove prefixos como "A) ", "(A) " etc.
+      s = s.replace(/^\(?[A-E]\)?\s*[\)\.\-–—]?\s*/i,'').trim();
+      out.push(s);
+    }
+    return out;
   }
 
-  // Parser de UMA prova (arquivo pN.txt) com 20 questões
-  function parseProvaTxt(txt, curso, tema, srcFile, provaNum){
+  async function carregarTxt(url){
+    const r = await fetch(url, { cache:'no-store' });
+    if(!r.ok) throw new Error(`HTTP ${r.status} em ${url}`);
+    return await r.text();
+  }
+
+  function parseQuestoesTxt({ curso, tema, srcFile, provaNum, base }, txt){
     const blocos = txt.replace(/\r\n/g,'\n').split(/\n-{5,}\s*\n/).map(s=>s.trim()).filter(Boolean);
     const out = [];
     for (let i=0;i<blocos.length;i++){
@@ -89,45 +100,34 @@
     const ASSETS = ROOT + 'data/';
     const url = ASSETS + 'manifest.json';
     const r = await fetch(url, { cache:'no-store' });
-    if(!r.ok) throw new Error(`HTTP ${r.status} ao buscar ${url}`);
+    if(!r.ok) throw new Error(`HTTP ${r.status} ao buscar manifest`);
     manifest = await r.json();
 
-    cursos = Object.keys(manifest);
+    cursos = Object.keys(manifest||{}).sort((a,b)=>a.localeCompare(b,'pt'));
+
+    // Combo curso
     montarComboCurso(cursos);
 
-    mapaTemasPorCurso.clear();
-    for(const curso of cursos){
-      const temasObj = manifest[curso].temas || {};
-      const temas = Object.keys(temasObj).map(label=>{
-        const entry = temasObj[label];
-        const base = typeof entry === 'string' ? entry : (entry?.base || entry?.path);
-        const count = typeof entry === 'object' && Number.isInteger(entry.count) ? entry.count : undefined;
-        return { label, base, count };
-      }).sort((a,b)=>a.label.localeCompare(b.label,'pt'));
-      mapaTemasPorCurso.set(curso, temas);
-    }
-    montarComboTemas();
+    // Combo tema
+    cursoInput.addEventListener('change', onChangeCurso);
+    temaInput?.addEventListener('change', onChangeTema);
+
+    // Opções de prova
+    setOpcoesProva(10);
+
+    // Eventos
+    form?.addEventListener('submit', (e)=>{ e.preventDefault(); gerar(); });
+    btnLimpar?.addEventListener('click', limpar);
+    btnImprimir?.addEventListener('click', ()=>{
+      // renderiza a versão de impressão apenas agora
+      if (resultado.length) renderQuestoesPrint(resultado);
+      window.print();
+    });
+    document.addEventListener('click', onClickAlternativa);
+    document.addEventListener('keydown', onKeyAlternativa);
   }
 
-  // Baixa somente o arquivo da prova escolhida
-  async function carregarArquivoProva(curso, tema, provaIndex1aN){
-    const infoCurso = manifest[curso];
-    if(!infoCurso) throw new Error('Disciplina inválida.');
-    const temaEntry = (infoCurso.temas||{})[tema];
-    const base = typeof temaEntry === 'string' ? temaEntry : (temaEntry?.base || temaEntry?.path);
-    if(!base) throw new Error('Tema inválido.');
-
-    const ROOT = ROOT_BASE();
-    const ASSETS = ROOT + 'data/';
-    const file = `p${provaIndex1aN}.txt`;
-    const url = `${ASSETS}${base}/${file}`;
-    const r = await fetch(url); // SW decide cache
-    if(!r.ok) throw new Error(`HTTP ${r.status} ao buscar ${url}`);
-    const txt = await r.text();
-    return parseProvaTxt(txt, curso, tema, file, provaIndex1aN);
-  }
-
-  // Helpers de Prova
+  // Estimar número de provas disponíveis
   function setOpcoesProva(qtd){
     const opts = ['<option value="0">Aleatória (1–'+qtd+')</option>']
       .concat(Array.from({length:qtd},(_,i)=>`<option value="${i+1}">Prova ${i+1}</option>`));
@@ -160,52 +160,43 @@
   // Curso
   function montarComboCurso(listaCursos){
     cursoPanel.innerHTML = listaCursos.slice().sort((a,b)=>a.localeCompare(b,'pt'))
-      .map(c=>`<div class="combo-item" data-valor="${c}">${c}</div>`).join('');
-    cursoSelecionado = listaCursos[0] || '';
-    cursoHidden.value = cursoSelecionado;
-    cursoInput.value = cursoSelecionado;
-  }
-  function abrirPanelCurso(){ cursoPanel.classList.remove('hidden'); }
-  function fecharPanelCurso(){ cursoPanel.classList.add('hidden'); }
-  cursoInput?.addEventListener('focus', abrirPanelCurso);
-  cursoCaret?.addEventListener('click', ()=> cursoPanel.classList.toggle('hidden'));
-  cursoClose?.addEventListener('click', ()=>{
-    if(cursoInput.value && cursoInput.value !== cursoSelecionado){
-      cursoInput.value = '';
-      Array.from(cursoPanel.children).forEach(it=>{ it.style.display=''; });
-      abrirPanelCurso();
-    } else fecharPanelCurso();
-  });
-  cursoInput?.addEventListener('input', ()=>{
-    const q = cursoInput.value.trim().toLowerCase();
-    Array.from(cursoPanel.children).forEach(it=>{
-      const ok = it.textContent.toLowerCase().includes(q);
-      it.style.display = ok ? '' : 'none';
+      .map(label=>`<div class="combo-item" data-value="${label}">${label}</div>`).join('');
+    cursoPanel.addEventListener('click', (e)=>{
+      const it = e.target.closest('.combo-item'); if(!it) return;
+      cursoInput.value = it.textContent;
+      cursoHidden.value = it.getAttribute('data-value');
+      cursoSelecionado = it.getAttribute('data-value');
+      // Montar temas
+      montarTemasDoCurso(cursoSelecionado);
+      // Fecha painel
+      cursoPanel.classList.add('hidden');
     });
-    abrirPanelCurso();
-  });
-  cursoPanel.addEventListener('click', (e)=>{
-    const item = e.target.closest('.combo-item'); if(!item) return;
-    cursoSelecionado = item.getAttribute('data-valor');
-    cursoHidden.value = cursoSelecionado;
-    cursoInput.value = cursoSelecionado;
-    fecharPanelCurso();
-    montarComboTemas();
-  });
-  document.addEventListener('click', (e)=>{
-    if(!cursoPanel.contains(e.target) && e.target!==cursoInput && e.target!==cursoCaret && e.target!==cursoClose) fecharPanelCurso();
-  });
-
-  // Tema
-  function montarComboTemas(){
-    const temas = mapaTemasPorCurso.get(cursoSelecionado) || [];
-    temaPanel.innerHTML = temas.map(t=>`<div class="combo-item" data-valor="${t.label}" data-base="${t.base}" data-count="${t.count??''}">${t.label}</div>`).join('');
-    if(temas.length){
-      temaSelecionado = temas[0].label;
-      temasHidden.value = temaSelecionado;
-      temaInput.value = temaSelecionado;
-      const base = temas[0].base;
-      (async ()=>{
+  }
+  function montarTemasDoCurso(curso){
+    const info = manifest[curso] || {};
+    const temas = Object.keys(info.temas||{});
+    mapaTemasPorCurso.set(curso, temas.map(t=>{
+      const v = info.temas[t];
+      const base = typeof v==='string' ? v : (v.base||t);
+      const count = typeof v==='object' ? (v.count|0) : 0;
+      return { label:t, base, count };
+    }));
+    temaPanel.innerHTML = mapaTemasPorCurso.get(curso)
+      .map(({label})=>`<div class="combo-item" data-value="${label}">${label}</div>`).join('');
+    temaPanel.addEventListener('click', onClickTema);
+    temaInput.disabled = false;
+  }
+  function onClickTema(e){
+    const it = e.target.closest('.combo-item'); if(!it) return;
+    temaInput.value = it.textContent;
+    temasHidden.value = it.getAttribute('data-value');
+    temaSelecionado = it.getAttribute('data-value');
+    fecharPainelTemas();
+    // definir opções de prova a partir do tema
+    const entry = (mapaTemasPorCurso.get(cursoSelecionado)||[]).find(x=>x.label===temaSelecionado);
+    if(entry){
+      const { base } = entry;
+      (async()=>{
         const qtd = await detectarQtdProvas(base);
         setOpcoesProva(qtd);
         aquecerTema(base, qtd);
@@ -236,48 +227,48 @@
     });
     abrirPainelTemas();
   });
-  temaPanel.addEventListener('click', (e)=>{
-    const item = e.target.closest('.combo-item'); if(!item) return;
-    temaSelecionado = item.getAttribute('data-valor');
-    temasHidden.value = temaSelecionado;
-    temaInput.value = temaSelecionado;
-    fecharPainelTemas();
-    const base = item.getAttribute('data-base');
-    (async ()=>{
-      const qtd = await detectarQtdProvas(base);
-      setOpcoesProva(qtd);
-      aquecerTema(base, qtd);
-    })();
-  });
-  document.addEventListener('click', (e)=>{
-    if(!temaPanel.contains(e.target) && e.target!==temaInput && e.target!==temaCaret && e.target!==temaClose) fecharPainelTemas();
-  });
 
-  // IA
-  function formatarAlternativasParaPrompt(alts){
-    return alts.map(s=>s.replace(/\s+/g,' ').trim()).join(' | ');
+  async function onChangeCurso(){
+    const v = cursoInput.value.trim();
+    cursoSelecionado = v;
+    const info = manifest[v] || {};
+    if(!info?.temas){ temaInput.disabled = true; return; }
+    montarTemasDoCurso(v);
   }
+  async function onChangeTema(){
+    // placeholder para compatibilidade
+  }
+
+  // Carregar provas
+  async function carregarArquivoProva(curso, tema, provaNum){
+    const infoCurso = manifest[curso];
+    const temaEntry = (infoCurso?.temas||{})[tema];
+    if (!temaEntry) throw new Error('Tema inválido');
+
+    const base = typeof temaEntry==='string' ? temaEntry : (temaEntry.base||tema);
+    const ROOT = ROOT_BASE(); const ASSETS = ROOT + 'data/';
+    const srcFile = `${ASSETS}${base}/p${provaNum}.txt`;
+    const txt = await carregarTxt(srcFile);
+    return parseQuestoesTxt({ curso, tema, srcFile, provaNum, base }, txt);
+  }
+
   function urlGoogleModoIA(prompt){
-    const base = 'https://www.google.com/search';
     const q = encodeURIComponent(prompt);
-    return `${base}?hl=pt-BR&udm=50&q=${q}`;
+    return `https://www.google.com/search?q=${q}&udm=28&fbs=AEQNm0B`;
   }
   function montarLinksIA(q){
-    const enunciado = q.enunciado.replace(/\s+/g,' ').trim();
-    const alternativas = formatarAlternativasParaPrompt(q.alternativas);
-    const gabarito = q.gabarito;
-    const temaPrincipal = q.tema || '';
+    const { enunciado, alternativas, gabarito } = q;
+    const temaPrincipal = (q.meta||'').split(' - ')[0]||'';
     const pComentario =
-`Comente e fundamente juridicamente a questão abaixo. Justifique por que o gabarito está correto e refute cada alternativa incorreta com base legal e, se possível, jurisprudência.
+`Explique de forma clara e objetiva o raciocínio para resolver esta questão, incluindo por que as alternativas incorretas estão erradas. Seja conciso, juridicamente correto e cite base legal quando necessário. Responda em português do Brasil.
 ENUNCIADO: "${enunciado}"
-ALTERNATIVAS: "${alternativas}"
-GABARITO: "${gabarito}"`;
+ALTERNATIVAS: "${alternativas}"`;
     const pGlossario =
-`Produza um glossário objetivo dos termos jurídicos presentes na questão abaixo. Defina cada termo em até 2 linhas e cite base legal quando aplicável.
+`Liste até 6 termos jurídicos essenciais para entender esta questão, com definições curtas e exemplos.
 ENUNCIADO: "${enunciado}"
 ALTERNATIVAS: "${alternativas}"`;
     const pPrincipios =
-`Identifique e explique os princípios do direito relacionados à questão abaixo, com referência a doutrina e artigos jurídicos. Resuma cada princípio e mostre a pertinência.
+`Identifique e explique os princípios do direito relacionados à questão. Dê base legal quando aplicável.
 ENUNCIADO: "${enunciado}"
 ALTERNATIVAS: "${alternativas}"
 GABARITO: "${gabarito}"`;
@@ -325,29 +316,28 @@ ENUNCIADO: "${enunciado}"`;
     printArticle.innerHTML = html;
   }
 
-  // Interações
   function onClickAlternativa(e){
-    const li = e.target.closest('li[data-alt]'); if(!li) return;
+    const li = e.target.closest('.alternativas li'); if(!li) return;
     const sec = li.closest('section.questao'); if(!sec) return;
-    if(sec.getAttribute('data-respondida')==='1') return;
-
     const idx = parseInt(sec.getAttribute('data-q'),10);
     const q = resultado[idx];
+    if(!q) return;
+
     const alt = li.getAttribute('data-alt');
     const correta = q.gabarito;
 
-    sec.setAttribute('data-respondida','1');
+    // desabilita cliques subsequentes
     sec.querySelectorAll('.alternativas li').forEach(n=>n.setAttribute('aria-disabled','true'));
 
     const fb = sec.querySelector('.feedback');
     if(alt===correta){
       li.style.backgroundColor='rgba(16,185,129,0.15)'; li.style.borderRadius='8px';
-      fb.innerHTML = `<span class="inline-block rounded-md px-2 py-1 bg-emerald-50 border border-emerald-200 text-emerald-700">Parabéns, você acertou. Gabarito: ${correta}</span>` + montarLinksIA(q);
+      fb.innerHTML = `<span class="inline-block rounded-md px-2 py-1">Correto, você acertou. Gabarito: ${correta}</span>` + montarLinksIA(q);
     }else{
       li.style.backgroundColor='rgba(239,68,68,0.15)'; li.style.borderRadius='8px';
       const right = Array.from(sec.querySelectorAll('.alternativas li')).find(n=>n.getAttribute('data-alt')===correta);
       if(right){right.style.outline='2px solid rgba(16,185,129,0.6)'; right.style.borderRadius='8px';}
-      fb.innerHTML = `<span class="inline-block rounded-md px-2 py-1 bg-red-50 border border-red-200 text-red-700">Resposta incorreta. Gabarito: ${correta}</span>` + montarLinksIA(q);
+      fb.innerHTML = `<span class="inline-block rounded-md px-2 py-1">Resposta incorreta. Gabarito: ${correta}</span>` + montarLinksIA(q);
     }
   }
   function onKeyAlternativa(e){
@@ -369,42 +359,103 @@ ENUNCIADO: "${enunciado}"`;
       previewVazio.classList.add('hidden');
       previewConteudo.classList.remove('hidden');
       renderQuestoesTela(resultado);
-      // não renderiza versão de impressão aqui
-      window.scrollTo({ top: previewConteudo.offsetTop - 60, behavior:'smooth' });
-    }catch(err){
-      console.error(err); alert(`Erro ao gerar prova:\n${err.message}`);
+    }catch(e){
+      alert(`Erro: ${e.message}`);
     }
   }
-
-  // Eventos
-  form?.addEventListener('submit', (e)=>{e.preventDefault(); gerar();});
-  btnLimpar?.addEventListener('click', ()=>{
-    form.reset();
-    if(cursos.length){
-      cursoSelecionado = cursos[0];
-      cursoHidden.value = cursoSelecionado;
-      cursoInput.value = cursoSelecionado;
-      montarComboTemas();
-    } else {
-      cursoSelecionado=''; cursoHidden.value=''; cursoInput.value='';
-      temaSelecionado=''; temasHidden.value=''; temaInput.value='';
-      setOpcoesProva(1);
-    }
-    resultado=[]; artigo.innerHTML=''; printArticle.innerHTML='';
-    previewConteudo.classList.add('hidden'); previewVazio.classList.remove('hidden');
-    window.scrollTo({ top:0, behavior:'smooth' });
-  });
-  btnImprimir?.addEventListener('click', ()=>{
-    // renderiza a versão de impressão apenas agora
-    if (resultado.length) renderQuestoesPrint(resultado);
-    window.print();
-  });
-  document.addEventListener('click', onClickAlternativa);
-  document.addEventListener('keydown', onKeyAlternativa);
+  function limpar(){
+    previewVazio.classList.remove('hidden');
+    previewConteudo.classList.add('hidden');
+    artigo.innerHTML = '';
+    printArticle.innerHTML = '';
+  }
 
   // Boot
   carregarManifest().catch(e=>{
     console.error(e);
     alert(`Falha ao carregar manifest:\n${e.message}\n\nVerifique /data/manifest.json e caminhos.`);
   });
+})();
+
+// === UI adjustments injetados pós-render ===
+(function uiAdjustments(){
+  // estilos extra
+  const css = `
+    .cabecalho-questao{display:flex;gap:.5rem;align-items:center;margin:.25rem 0 .5rem}
+    .cabecalho-questao .meta{font-size:.85rem;color:#4b5563}
+    .cabecalho-questao strong{font-weight:700}
+    .separador{height:1px;background:linear-gradient(90deg,transparent,#d1d5db,transparent);margin:1rem 0}
+    .acoes-ia{display:flex;align-items:center;gap:.4rem;margin-top:.5rem}
+    .acoes-ia::before{content:'Google I.A.';font-size:.775rem;color:#6b7280;margin-right:.25rem}
+    .acoes-ia .btn-ia{display:inline-flex;align-items:center;justify-content:center;width:2rem;height:2rem;border:none;border-radius:.5rem;background:#f3f4f6;color:#111827;font-weight:600;text-decoration:none}
+    @media (max-width:640px){ main, .container, .layout{padding-inline:.75rem} }
+    @media print{ .questao .meta{display:none!important} .separador{height:2px;background:#9ca3af;margin:.6rem 0} }
+  `;
+  const st = document.createElement('style'); st.textContent = css; document.head.appendChild(st);
+
+  // remove "Escolher prova"
+  Array.from(document.querySelectorAll('h1,h2,h3')).forEach(h=>{
+    if(h.textContent.trim().toLowerCase()==='escolher prova') h.remove();
+  });
+
+  // rótulos e botão
+  const provaLabel = document.querySelector('label[for="provaSel"]');
+  if(provaLabel) provaLabel.textContent = 'Lista';
+  const submit = document.querySelector('button[type="submit"],input[type="submit"]');
+  if(submit) submit.textContent = 'Abrir';
+
+  // opções "Prova X" -> "Lista X"
+  const sel = document.getElementById('provaSel');
+  if(sel){
+    const re = /^Prova\s+/i;
+    const fix = ()=>Array.from(sel.options).forEach(o=>{ if(re.test(o.text)) o.text = o.text.replace(re, 'Lista '); });
+    fix();
+    sel.addEventListener('change', fix);
+  }
+
+  // fechar dropdowns ao selecionar
+  const cursoPanel = document.getElementById('cursoPanel');
+  const temaPanel  = document.getElementById('temaPanel');
+  cursoPanel?.addEventListener('click', (e)=>{
+    const it = e.target.closest('.combo-item'); if(!it) return;
+    document.querySelector('#cursoCombo .combo-caret')?.click();
+  });
+  temaPanel?.addEventListener('click', (e)=>{
+    const it = e.target.closest('.combo-item'); if(!it) return;
+    temaPanel.classList.add('hidden');
+  });
+
+  // pós-processamento das questões para cabeçalho e numeração
+  function formatMeta(html){
+    return html.replace(/\b(Ano|Banca|Prova)\s*:/g,(m,p)=>`<strong>${p}</strong>:`);
+  }
+  function enhance(container){
+    container.querySelectorAll('section.questao').forEach((sec, i)=>{
+      if(sec.__enhanced) return;
+      const meta = sec.querySelector('.meta');
+      const h = sec.querySelector('.enunciado');
+      if(h){ h.textContent = h.textContent.replace(/^\s*\d+\)\s*/,''); }
+      const head = document.createElement('div');
+      head.className = 'cabecalho-questao';
+      head.innerHTML = `<strong>Questão ${i+1}</strong>` + (meta? ` <span class="meta">${formatMeta(meta.innerHTML)}</span>`:'');
+      sec.insertBefore(head, sec.firstElementChild);
+      if(meta) meta.remove();
+      if(!sec.querySelector('.separador')){
+        const sep = document.createElement('div'); sep.className='separador'; sec.appendChild(sep);
+      }
+      sec.__enhanced = true;
+    });
+  }
+  const artigo = document.getElementById('artigo');
+  const printArticle = document.getElementById('printArticle');
+  if(artigo){
+    const mo = new MutationObserver(()=>enhance(artigo));
+    mo.observe(artigo, {childList:true, subtree:true});
+  }
+  if(printArticle){
+    const mo2 = new MutationObserver(()=>enhance(printArticle));
+    mo2.observe(printArticle, {childList:true, subtree:true});
+  }
+  if(artigo) setTimeout(()=>enhance(artigo), 200);
+  if(printArticle) setTimeout(()=>enhance(printArticle), 200);
 })();
