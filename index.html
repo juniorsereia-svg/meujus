@@ -17,7 +17,6 @@
   label{font-size:.9rem;color:#374151}
   .muted{color:#6b7280}
 
-  /* Combos */
   .combo{position:relative}
   .combo input{width:100%;border:1px solid #d1d5db;border-radius:10px;padding:.5rem .75rem;padding-right:2.6rem;background:#fff}
   .combo .combo-caret{position:absolute;right:.5rem;top:.5rem;width:28px;height:28px;border:1px solid #e5e7eb;border-radius:8px;background:#f9fafb;display:grid;place-items:center;cursor:pointer}
@@ -34,10 +33,13 @@
   .questao .alternativas{margin-left:1rem}
   .separador{height:1px;background:linear-gradient(90deg,transparent,#d1d5db,transparent);margin:1rem 0}
 
-  @media print{
-    #painel{display:none}
-    .layout{padding:0;margin:0}
+  @media (max-width:640px){
+    .layout{padding:10px}
+    .actions{flex-wrap:wrap}
+    .actions > *{flex:1 1 48%}
+    #painel .field{gap:8px}
   }
+  @media print{#painel{display:none} .layout{padding:0;margin:0}}
 </style>
 </head>
 <body>
@@ -62,7 +64,7 @@
       <div class="field">
         <label for="temaInput">Tema</label>
         <div class="combo">
-          <input id="temaInput" placeholder="Selecione o tema" autocomplete="off">
+          <input id="temaInput" placeholder="Selecione o tema" autocomplete="off" disabled>
           <input id="temasHidden" type="hidden">
           <div class="combo-close" title="Limpar">×</div>
           <div class="combo-caret" title="Abrir">⌄</div>
@@ -93,7 +95,6 @@
 
 <footer class="muted" style="padding:12px 16px;border-top:1px solid #e5e7eb">© <span id="rodapeAno"></span></footer>
 
-<!-- Área de impressão -->
 <section id="printArticle" style="display:none"></section>
 
 <script src="app.js"></script>
