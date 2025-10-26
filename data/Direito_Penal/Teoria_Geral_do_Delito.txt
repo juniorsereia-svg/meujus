@@ -1,9 +1,3 @@
-Este documento apresenta as 80 questões solicitadas, extraídas das quatro fontes fornecidas, seguindo estritamente a ordem de aparecimento nos excertos e o modelo de formatação exigido.
-
-Devido à limitação do material nas fontes, que lista 20 gabaritos para a primeira sequência de questões, mas fornece texto e opções para apenas 18 questões completas a, a listagem total contém **78 questões** que puderam ser integralmente reconstituídas a partir dos dados textuais e dos gabaritos sequenciais.
-
-## Fonte: Excerpts from "Questões de Provas - Questões de Concursos - Página 10 | Qconcursos.com" (18 Questões)
-
 * Ano: 2012 | Banca: FCC | Órgão: TJ-PE
 ** Para as contravenções penais, a lei prevê a aplicação isolada ou cumulativa das penas de
 *** A) prisão simples e detenção.
@@ -181,10 +175,7 @@ Os crimes omissivos próprios são previstos em tipos penais específicos e depe
 **** Gabarito: C
 ****** Conceito de Crime
 
-***
-
-## Fonte: Excerpts from "Questões de Provas - Questões de Concursos - Página 11 | Qconcursos.com" (20 Questões)
-
+-----
 * Ano: 2010 | Banca: PC-SP | Órgão: PC-SP
 ** Assinale o conceito de crime lecionado pelos penalistas que adotam a corrente doutrinária finalística, que tem em Welzel seu maior expoente.
 *** A) Ação típica, antijurídica e culpável.
@@ -400,11 +391,7 @@ Assinale:
 *** E) Na contagem dos prazos, leva-se em consideração o dia do final, excluindo-se o do começo.
 **** Gabarito: D
 ****** Sistemas Penais, Conceito de Crime
-
-***
-
-## Fonte: Excerpts from "Questões de Provas - Questões de Concursos - Página 12 | Qconcursos.com" (20 Questões)
-
+-----
 * Ano: 2010 | Banca: MPE-MG | Órgão: MPE-MG
 ** Assinale a alternativa *CORRETA*.
 *** A) A prática de crime doloso no curso da suspensão condicional da pena não impede a concessão de fiança ao réu.
@@ -600,11 +587,7 @@ Todo crime tem resultado jurídico, porque sempre agride um bem tutelado pela no
 *** E) Configura bis in idem e, consequentemente, nulidade sanável por habeas corpus a condenação por crime de quadrilha armada e roubo qualificado pelo uso de armas, na mesma sentença.
 **** Gabarito: E
 ****** Conceito de Crime
-
-***
-
-## Fonte: Excerpts from "Questões de Provas - Questões de Concursos - Página 13 | Qconcursos.com" (20 Questões)
-
+-----
 * Ano: 2009 | Banca: FCC | Órgão: MPE-SE
 ** Denomina-se crime complexo o que
 *** A) exige que os agentes atuem uns contra os outros.
