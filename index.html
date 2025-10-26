@@ -55,10 +55,11 @@
 
     #printArea{ display:none; }
 
-    /* IA: rótulo + 4 botões redondos (mesmo tamanho do botão substituir) */
-    .acoes-ia{margin-top:.6rem; display:flex; align-items:center; gap:.5rem; flex-wrap:wrap}
-    .ia-label{font-size:.8rem; color:#2563eb}
-   .btn-ia{
+   /* IA: rótulo + 4 botões redondos (mesmo tamanho do botão substituir) */
+.acoes-ia{margin-top:.6rem; display:flex; align-items:center; gap:.5rem; flex-wrap:wrap}
+.ia-label{font-size:.8rem; color:#2563eb}
+
+.btn-ia{
   width:26px; height:26px; border-radius:9999px;
   display:inline-flex; align-items:center; justify-content:center;
   background:#fff; border:1px solid #fff; color:#2563eb;
@@ -67,7 +68,7 @@
 .btn-ia:hover{ background:#f8fafc; border-color:#6b7280; transform:translateY(-1px); }
 .btn-ia:focus{ outline:2px solid #93c5fd; outline-offset:2px; }
 .btn-ia:disabled{ opacity:.5; cursor:default; }
-.btn-ia svg{ width:16px; height:16px; color:#2563eb; }
+.btn-ia svg{ width:18px; height:18px; color:#2563eb; } /* ícone maior */
 
 .btn-substituir{
   display:inline-flex; align-items:center; justify-content:center;
@@ -78,6 +79,8 @@
 }
 .btn-substituir:hover{ background:#f8fafc; border-color:#6b7280; transform:translateY(-1px); }
 .btn-substituir:focus{ outline:2px solid #93c5fd; outline-offset:2px; }
+.btn-substituir svg{ width:18px; height:18px; color:#2563eb; } /* ícone maior */
+
 
 
 
