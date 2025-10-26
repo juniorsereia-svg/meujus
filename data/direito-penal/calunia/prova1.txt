@@ -1,0 +1,181 @@
+```
+* Banca Exemplo — 2025 — Subtemas: Princípios Gerais; Conceitos Básicos
+** Q01: Em relação ao princípio da legalidade, assinale a alternativa correta.
+*** A) - Somente a lei complementar pode criar obrigações.
+*** B) - A legalidade permite atuação estatal sem previsão normativa.
+*** C) - Ninguém será obrigado a fazer ou deixar de fazer algo senão em virtude de lei.
+*** D) - O costume sempre prevalece sobre a lei escrita.
+*** E) - A legalidade não se aplica à Administração Pública.
+**** Gabarito: C
+-----
+* Banca Exemplo — 2025 — Subtemas: Competência; Hierarquia das Normas
+** Q02: A Constituição ocupa qual posição na hierarquia normativa?
+*** A) - Inferior às leis ordinárias.
+*** B) - Superior a todas as normas no ordenamento jurídico.
+*** C) - Em igualdade com leis complementares.
+*** D) - Inferior aos tratados internacionais.
+*** E) - Em igualdade com decretos regulamentares.
+**** Gabarito: B
+-----
+* Banca Exemplo — 2025 — Subtemas: Interpretação; Hermenêutica
+** Q03: Na interpretação sistemática, o intérprete:
+*** A) - Isola o dispositivo e ignora o contexto.
+*** B) - Considera o texto à luz do conjunto do ordenamento.
+*** C) - Dá preferência absoluta à intenção do legislador histórico.
+*** D) - Aplica sempre analogia contra legem.
+*** E) - Desconsidera princípios constitucionais.
+**** Gabarito: B
+-----
+* Banca Exemplo — 2025 — Subtemas: Vigência; Aplicação da Lei
+** Q04: Sobre vigência da lei no tempo:
+*** A) - A lei nova retroage sempre.
+*** B) - Lei posterior revoga anterior apenas quando o disser expressamente ou for com ela incompatível.
+*** C) - Duas leis incompatíveis vigem simultaneamente.
+*** D) - A revogação tácita é proibida.
+*** E) - Cláusula de vigência é inconstitucional.
+**** Gabarito: B
+-----
+* Banca Exemplo — 2025 — Subtemas: Direitos Fundamentais
+** Q05: Assinale a correta sobre colisão de direitos fundamentais.
+*** A) - Colisão é resolvida por hierarquia fixa entre direitos.
+*** B) - Um direito fundamental jamais sofre restrições.
+*** C) - Utiliza-se a técnica da ponderação conforme o caso concreto.
+*** D) - O direito à propriedade sempre prevalece.
+*** E) - O princípio da proporcionalidade é incompatível com a colisão.
+**** Gabarito: C
+-----
+* Banca Exemplo — 2025 — Subtemas: Administração Pública; Legalidade
+** Q06: O princípio da impessoalidade significa que:
+*** A) - O agente pode favorecer amigos se for eficiente.
+*** B) - A atuação deve visar ao interesse público, sem promoção pessoal.
+*** C) - A publicidade de atos é vedada.
+*** D) - A moralidade é irrelevante.
+*** E) - Licitações são dispensadas por conveniência.
+**** Gabarito: B
+-----
+* Banca Exemplo — 2025 — Subtemas: Processo; Devido Processo Legal
+** Q07: O contraditório assegura:
+*** A) - Ciência e possibilidade de reação das partes.
+*** B) - Apenas ciência, sem manifestação.
+*** C) - Apenas manifestação, sem ciência.
+*** D) - Sigilo absoluto dos autos.
+*** E) - Julgamento sem defesa quando há prova documental.
+**** Gabarito: A
+-----
+* Banca Exemplo — 2025 — Subtemas: Responsabilidade Civil
+** Q08: Na responsabilidade objetiva do Estado, exige-se:
+*** A) - Dolo do agente público.
+*** B) - Culpa exclusiva da vítima.
+*** C) - Nexo causal e dano decorrente de atuação estatal.
+*** D) - Prova de enriquecimento ilícito do Estado.
+*** E) - Prévia autorização legislativa.
+**** Gabarito: C
+-----
+* Banca Exemplo — 2025 — Subtemas: Contratos; Boa-fé
+** Q09: A boa-fé objetiva:
+*** A) - É presunção de ignorância da lei.
+*** B) - Impõe deveres anexos como cooperação e lealdade.
+*** C) - Só se aplica na fase de execução, nunca na negociação.
+*** D) - Permite descumprimento imotivado.
+*** E) - É incompatível com equilíbrio contratual.
+**** Gabarito: B
+-----
+* Banca Exemplo — 2025 — Subtemas: Penal; Tipicidade
+** Q10: A tipicidade penal exige:
+*** A) - Conduta, resultado, nexo causal e tipicidade formal/material.
+*** B) - Apenas resultado naturalístico.
+*** C) - Dolo sempre, sem possibilidade de culpa.
+*** D) - Antijuridicidade presumida.
+*** E) - Pena aplicada antes da tipificação.
+**** Gabarito: A
+-----
+* Banca Exemplo — 2025 — Subtemas: Penal; Culpabilidade
+** Q11: Sobre culpabilidade:
+*** A) - Menor de 18 anos é plenamente imputável.
+*** B) - Exige imputabilidade, potencial consciência da ilicitude e exigibilidade de conduta diversa.
+*** C) - Erro de proibição inevitável não exclui culpabilidade.
+*** D) - Coação moral irresistível não gera isenção.
+*** E) - Embriaguez acidental exclui apenas a tipicidade.
+**** Gabarito: B
+-----
+* Banca Exemplo — 2025 — Subtemas: Processo Civil; Competência
+** Q12: A competência absoluta:
+*** A) - Pode ser prorrogada por acordo das partes.
+*** B) - É inderrogável e reconhecível de ofício.
+*** C) - Depende de convenção de foro válida.
+*** D) - Aplica-se apenas no Juizado Especial.
+*** E) - É sempre territorial.
+**** Gabarito: B
+-----
+* Banca Exemplo — 2025 — Subtemas: Consumidor; Responsabilidade
+** Q13: Fornecedor responde objetivamente por:
+*** A) - Fato do produto, salvo culpa exclusiva do consumidor.
+*** B) - Todo e qualquer dano sem excludentes.
+*** C) - Ato de terceiro inevitável.
+*** D) - Razões de força maior imputáveis ao consumidor.
+*** E) - Vício de quantidade não comprovado.
+**** Gabarito: A
+-----
+* Banca Exemplo — 2025 — Subtemas: Tributário; Legalidade
+** Q14: É vedado à União:
+*** A) - Instituir impostos residuais.
+*** B) - Cobrar tributo sem lei que o estabeleça.
+*** C) - Conceder isenções.
+*** D) - Fixar alíquotas do IOF.
+*** E) - Celebrar tratados.
+**** Gabarito: B
+-----
+* Banca Exemplo — 2025 — Subtemas: Trabalho; Princípios
+** Q15: Princípio da proteção implica:
+*** A) - Aplicar sempre a norma mais rígida ao empregado.
+*** B) - Aplicar a norma mais favorável ao empregado entre as disponíveis.
+*** C) - Desconsiderar acordos e convenções coletivas.
+*** D) - Prevalência do pacta sunt servanda sobre normas cogentes.
+*** E) - Inaplicabilidade da condição mais benéfica.
+**** Gabarito: B
+-----
+* Banca Exemplo — 2025 — Subtemas: Ambiental; Precaução
+** Q16: O princípio da precaução:
+*** A) - Exige prova plena de dano para agir.
+*** B) - Autoriza medidas diante de risco sério e verossímil, mesmo sem certeza científica.
+*** C) - Impede licenciamento ambiental.
+*** D) - Substitui responsabilidade civil.
+*** E) - É incompatível com desenvolvimento sustentável.
+**** Gabarito: B
+-----
+* Banca Exemplo — 2025 — Subtemas: Constitucional; Controle de Constitucionalidade
+** Q17: ADI no STF:
+*** A) - Exige caso concreto com lesão individual.
+*** B) - Tem efeito inter partes.
+*** C) - Pode ter medida cautelar para suspender eficácia da lei impugnada.
+*** D) - Não admite amici curiae.
+*** E) - É julgada pelos TRFs.
+**** Gabarito: C
+-----
+* Banca Exemplo — 2025 — Subtemas: Penal; Concurso de Pessoas
+** Q18: No concurso de pessoas:
+*** A) - Participação sempre responde por crime autônomo.
+*** B) - Coautoria exige domínio funcional do fato.
+*** C) - Partícipe responde com mesma pena do autor, sem causa de diminuição.
+*** D) - Autoria mediata é impossível.
+*** E) - Acordo prévio é irrelevante.
+**** Gabarito: B
+-----
+* Banca Exemplo — 2025 — Subtemas: Civil; Prescrição e Decadência
+** Q19: Assinale a correta:
+*** A) - Prescrição atinge o direito material.
+*** B) - Decadência atinge a pretensão de agir.
+*** C) - Prazo prescricional pode ser interrompido nas hipóteses legais.
+*** D) - Decadência é sempre suspensa por incapacidade.
+*** E) - Prescrição não admite renúncia.
+**** Gabarito: C
+-----
+* Banca Exemplo — 2025 — Subtemas: Processo Penal; Provas
+** Q20: Prova ilícita:
+*** A) - É sempre admitida por interesse público.
+*** B) - Pode ser admitida por derivação lícita inevitável (teoria da descoberta inevitável).
+*** C) - Não possui exceções.
+*** D) - Convalesce pelo decurso do tempo.
+*** E) - Pode ser produzida pelo juiz.
+**** Gabarito: B
+```
