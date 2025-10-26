@@ -1,7 +1,7 @@
 {
   "Direito Penal": {
     "temas": {
-      "Noções Fundamentais": { "base": "direito-penal/nocoes-fundamentais", "count": 50 }
+      "Conceitos e Características": { "base": "direito-penal/conceitos", "count": 4 }
     }
   }
 }
