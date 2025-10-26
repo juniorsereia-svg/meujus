@@ -1,39 +1,29 @@
-// Funcional: carrega manifest e TXT, parse, combos custom (curso/temas/subtemas), amostragem estratificada,
-// impressão 2 colunas, botões IA pós-gabarito e botão "substituir questão" por outra do mesmo arquivo/tema.
+// Novo modelo: 1 disciplina → vários temas → 1 TXT por tema com 10 PROVAS pré-montadas (20 questões cada).
+// O site carrega o TXT do tema escolhido e renderiza 1 prova (por nº ou aleatória).
 (function () {
   const $ = (sel) => document.querySelector(sel);
   const ano = $('#ano'); const rodapeAno = $('#rodapeAno');
   [ano, rodapeAno].forEach(el => el && (el.textContent = new Date().getFullYear()));
 
   // Controles
-  const inpQtd = $('#inpQtd');
   const form = $('#formProva');
   const btnLimpar = $('#btnLimpar');
   const btnImprimir = $('#btnImprimir');
 
-  // Curso: combo custom
-  let cursoSelecionado = '';
+  // Combos
   const cursoInput  = $('#cursoInput');
   const cursoPanel  = $('#cursoPanel');
   const cursoHidden = $('#cursoHidden');
   const cursoCaret  = document.querySelector('#cursoCombo .combo-caret');
   const cursoClose  = document.querySelector('#cursoCombo .combo-close');
 
-  // Temas: combo + chips
-  const temaInput = $('#temaInput');
-  const temaPanel = $('#temaPanel');
-  const temasHidden = $('#temasHidden');
-  const chips = $('#chips');
-  const temaCaret = temaInput?.closest('.combo')?.querySelector('.combo-caret') || null;
-  const temaClose = temaInput?.closest('.combo')?.querySelector('.combo-close') || null;
+  const temaInput   = $('#temaInput');
+  const temaPanel   = $('#temaPanel');
+  const temasHidden = $('#temasHidden'); // guarda tema selecionado como string
+  const temaCaret   = temaInput?.closest('.combo')?.querySelector('.combo-caret') || null;
+  const temaClose   = temaInput?.closest('.combo')?.querySelector('.combo-close') || null;
 
-  // Subtemas: combo + chips
-  const subtemaInput = $('#subtemaInput');
-  const subtemaPanel = $('#subtemaPanel');
-  const subtemasHidden = $('#subtemasHidden');
-  const chipsSub = $('#chipsSub');
-  const subtemaCaret = subtemaInput?.closest('.combo')?.querySelector('.combo-caret') || null;
-  const subtemaClose = subtemaInput?.closest('.combo')?.querySelector('.combo-close') || null;
+  const provaSel    = $('#provaSel'); // 0 = aleatória, 1..10 índices
 
   // Áreas
   const previewVazio = $('#previewVazio');
@@ -42,17 +32,14 @@
   const printArticle = $('#printArticle');
 
   // Estado
-  let banco = [];
-  let temasDisponiveis = new Set();
-  let subtemasDisponiveis = new Set();
-  let temasSelecionados = new Set();
-  let subtemasSelecionados = new Set();
-  let resultado = [];
+  let manifest = {};
+  let cursos = [];                 // ['Direito Penal', ...]
+  let cursoSelecionado = '';
+  let temaSelecionado = '';
+  let mapaTemasPorCurso = new Map(); // curso -> [{label, file, folder}]
+  let provas = [];                 // Array<Prova> carregadas do TXT atual (tamanho 10)
+  let resultado = [];              // questões da prova escolhida (20)
   const letras = ['A','B','C','D','E'];
-
-  // Índices p/ substituição
-  const idxPorArquivo = new Map();     // chave: curso::tema::srcFile -> array de questões
-  let usadosProva = new Set();         // ids já presentes na prova atual
 
   // Utils
   function embaralhar(arr){for(let i=arr.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[arr[i],arr[j]]=[arr[j],arr[i]];}return arr;}
@@ -66,93 +53,106 @@
   function padronizarAlternativas(alts){
     return alts.slice(0,5).map((t,i)=>`${letras[i]}) ${t.replace(/^[A-Ea-e]\)\s*/, '').trim()}`);
   }
-  function intersecaoNaoVazia(a, b){
-    if(!a || !b) return false;
-    for(const x of a){ if(b.has(x)) return true; }
-    return false;
+  function labelFromFilename(filename){
+    const base = filename.replace(/\.[^.]+$/, '');
+    const words = base.split(/[_\-]+/).filter(Boolean);
+    return words.map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+  }
+  function ROOT_BASE(){
+    return location.pathname.endsWith('/') ? location.pathname : location.pathname.replace(/[^/]+$/, '/');
   }
 
-  // Parse TXT (tema vem do nome do arquivo) + subtemas opcionais extraídos da metadados
-  function extrairSubtemas(meta){
-    if(!meta) return [];
-    // formatos aceitos: "Subtema: A; B, C | D"
-    const m = meta.match(/subtemas?:\s*(.+)$/i);
-    if(!m) return [];
-    return m[1].split(/[;,|]/).map(s=>s.trim()).filter(Boolean);
-  }
+  // Parser de TXT no novo formato:
+  // Nível 1 (PROVAS): linha com 5+ sinais de "=" entre blocos.
+  // Nível 2 (QUESTÕES): linha com 5+ sinais de "-" entre blocos.
+  // Em cada questão:
+  //   * meta
+  //   ** enunciado (1+ linhas)
+  //   *** alternativas (2-5)
+  //   **** Gabarito: X
+  function parseTXT_Provas(txt, curso, tema, srcFile){
+    const splitProvas = txt.split(/\n={5,}\s*\n/).map(s=>s.trim()).filter(Boolean);
+    const outProvas = [];
+    for(let iProva=0;iProva<splitProvas.length;iProva++){
+      const blocoProva = splitProvas[iProva];
+      const blocosQuestoes = blocoProva.split(/\n-{5,}\s*\n/).map(s=>s.trim()).filter(Boolean);
+      const questoes = [];
+      for (let idxBloco=0; idxBloco<blocosQuestoes.length; idxBloco++){
+        const b = blocosQuestoes[idxBloco];
+        const linhas = b.split('\n').map(s=>s.trim()).filter(Boolean);
+        if (!linhas.length) continue;
 
-  function parseArquivo(txt, curso, temaLabel, srcFile) {
-    const blocos = txt.split(/\n-{5,}\s*\n/).map(s=>s.trim()).filter(Boolean);
-    const out = [];
-    for (let idxBloco = 0; idxBloco < blocos.length; idxBloco++) {
-      const b = blocos[idxBloco];
-      const linhas = b.split('\n').map(s=>s.trim()).filter(Boolean);
-      if (!linhas.length) continue;
+        const metaLinha = linhas.find(l=>l.startsWith('* '));
+        const enunciadoLinhas = linhas.filter(l=>l.startsWith('** ')).map(l=>l.replace(/^\*\*\s*/, ''));
+        const alternativas = linhas.filter(l=>l.startsWith('*** ')).map(l=>l.replace(/^\*\*\*\s*/, ''));
+        const gabaritoLinha = linhas.find(l=>l.startsWith('**** '));
 
-      const metaLinha = linhas.find(l=>l.startsWith('* '));
-      const enunciadoLinhas = linhas.filter(l=>l.startsWith('** ')).map(l=>l.replace(/^\*\*\s*/, ''));
-      const alternativas = linhas.filter(l=>l.startsWith('*** ')).map(l=>l.replace(/^\*\*\*\s*/, ''));
-      const gabaritoLinha = linhas.find(l=>l.startsWith('**** '));
+        if (!metaLinha || !enunciadoLinhas.length || alternativas.length < 2 || !gabaritoLinha) continue;
 
-      if (!metaLinha || !enunciadoLinhas.length || alternativas.length < 2 || !gabaritoLinha) continue;
+        const meta = metaLinha.replace(/^\*\s*/, '').trim();
+        const enunciado = normalizarPontuacao(enunciadoLinhas.join(' '));
+        const alts = padronizarAlternativas(alternativas.map(a=>normalizarPontuacao(a)));
+        const gab = (gabaritoLinha.replace(/^(\*{4}\s*)?Gabarito:\s*/i,'').trim().match(/^[A-E]/i)||[''])[0].toUpperCase();
 
-      const meta = metaLinha.replace(/^\*\s*/, '').trim();
-      const enunciado = normalizarPontuacao(enunciadoLinhas.join(' '));
-      const alts = padronizarAlternativas(alternativas.map(a=>normalizarPontuacao(a)));
-      const gab = (gabaritoLinha.replace(/^(\*{4}\s*)?Gabarito:\s*/i,'').trim().match(/^[A-E]/i)||[''])[0].toUpperCase();
-
-      const id = `${curso}::${temaLabel}::${srcFile}::${idxBloco}`;
-      const tema = temaLabel;
-      const subtemas = extrairSubtemas(meta);
-
-      const q = { id, curso, meta, enunciado, alternativas: alts, gabarito: gab, temas:[temaLabel], tema, subtemas, srcFile };
-
-      temasDisponiveis.add(temaLabel);
-      subtemas.forEach(s=>subtemasDisponiveis.add(s));
-
-      out.push(q);
+        const id = `${curso}::${tema}::${srcFile}::P${iProva+1}::Q${idxBloco+1}`;
+        questoes.push({ id, curso, tema, prova:iProva+1, meta, enunciado, alternativas:alts, gabarito:gab, srcFile });
+      }
+      if (questoes.length) outProvas.push(questoes);
     }
-    return out;
+    return outProvas;
   }
 
-  // Manifest + TXT
-  async function carregarBanco() {
-    const res = await fetch('./data/manifest.json');
-    const manifest = await res.json();
-    const cursos = Object.keys(manifest);
+  // Manifest + combos
+  async function carregarManifest() {
+    const ROOT = ROOT_BASE();
+    const ASSETS = ROOT + 'data/';
+    const url = ASSETS + 'manifest.json';
+    const r = await fetch(url, { cache:'no-store' });
+    if(!r.ok) throw new Error(`HTTP ${r.status} ao buscar ${url}`);
+    manifest = await r.json();
 
+    cursos = Object.keys(manifest);
     montarComboCurso(cursos);
 
-    function labelFromFilename(filename){
-      const base = filename.replace(/\.[^.]+$/, '');
-      const words = base.split(/[_\-]+/).filter(Boolean);
-      return words.map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
-    }
-
-    for (const curso of cursos) {
+    // Construir mapa curso -> temas
+    mapaTemasPorCurso.clear();
+    for(const curso of cursos){
       const folder = manifest[curso].folder;
-      for (const f of manifest[curso].files) {
-        const temaLabel = labelFromFilename(f);
-        const txt = await fetch(`./data/${folder}/${f}`).then(r=>r.text());
-        const lote = parseArquivo(txt, curso, temaLabel, f);
-        banco.push(...lote);
-
-        const chave = `${curso}::${temaLabel}::${f}`;
-        if(!idxPorArquivo.has(chave)) idxPorArquivo.set(chave, []);
-        idxPorArquivo.get(chave).push(...lote);
-      }
+      const temasObj = manifest[curso].temas || {};
+      const temas = Object.keys(temasObj).map(label=>{
+        const file = typeof temasObj[label] === 'string' ? temasObj[label] : temasObj[label].file;
+        return { label, file, folder };
+      }).sort((a,b)=>a.label.localeCompare(b.label,'pt'));
+      mapaTemasPorCurso.set(curso, temas);
     }
-
     montarComboTemas();
-    montarComboSubtemas();
   }
 
-  // Combo Curso
-  function montarComboCurso(cursos){
-    const lista = cursos.slice().sort((a,b)=>a.localeCompare(b,'pt'));
-    cursoPanel.innerHTML = lista.map(c=>`<div class="combo-item" data-valor="${c}">${c}</div>`).join('');
+  // Carregar TXT do tema selecionado quando for gerar
+  async function carregarTXTDoTema(curso, tema){
+    const infoCurso = manifest[curso];
+    if(!infoCurso) throw new Error('Disciplina inválida.');
+    const temaEntry = (infoCurso.temas||{})[tema];
+    const file = typeof temaEntry === 'string' ? temaEntry : temaEntry?.file;
+    if(!file) throw new Error('Tema inválido.');
+    const folder = infoCurso.folder;
 
-    cursoSelecionado = lista[0] || '';
+    const ROOT = ROOT_BASE();
+    const ASSETS = ROOT + 'data/';
+    const url = `${ASSETS}${folder}/${file}`;
+    const r = await fetch(url, { cache:'no-store' });
+    if(!r.ok) throw new Error(`HTTP ${r.status} ao buscar ${url}`);
+    const txt = await r.text();
+    const parsed = parseTXT_Provas(txt, curso, tema, file);
+    if(!parsed.length) throw new Error('Nenhuma prova válida no TXT.');
+    provas = parsed; // array de provas; cada prova é array de questões
+  }
+
+  // Curso
+  function montarComboCurso(listaCursos){
+    cursoPanel.innerHTML = listaCursos.slice().sort((a,b)=>a.localeCompare(b,'pt'))
+      .map(c=>`<div class="combo-item" data-valor="${c}">${c}</div>`).join('');
+    cursoSelecionado = listaCursos[0] || '';
     cursoHidden.value = cursoSelecionado;
     cursoInput.value = cursoSelecionado;
   }
@@ -164,13 +164,9 @@
   cursoClose?.addEventListener('click', ()=>{
     if(cursoInput.value && cursoInput.value !== cursoSelecionado){
       cursoInput.value = '';
-      Array.from(cursoPanel.children).forEach(it=>{
-        it.style.display = '';
-      });
+      Array.from(cursoPanel.children).forEach(it=>{ it.style.display=''; });
       abrirPanelCurso();
-    }else{
-      fecharPanelCurso();
-    }
+    } else fecharPanelCurso();
   });
   cursoInput?.addEventListener('input', ()=>{
     const q = cursoInput.value.trim().toLowerCase();
@@ -186,29 +182,39 @@
     cursoHidden.value = cursoSelecionado;
     cursoInput.value = cursoSelecionado;
     fecharPanelCurso();
+    montarComboTemas(); // recarrega lista de temas do curso
   });
   document.addEventListener('click', (e)=>{
     if(!cursoPanel.contains(e.target) && e.target!==cursoInput && e.target!==cursoCaret && e.target!==cursoClose) fecharPanelCurso();
   });
 
-  // Combo Temas
+  // Tema
   function montarComboTemas(){
-    const lista = Array.from(temasDisponiveis).sort((a,b)=>a.localeCompare(b,'pt'));
-    temaPanel.innerHTML = lista.map(t=>`<div class="combo-item" data-valor="${t}">${t}</div>`).join('');
+    const temas = mapaTemasPorCurso.get(cursoSelecionado) || [];
+    temaPanel.innerHTML = temas.map(t=>`<div class="combo-item" data-valor="${t.label}">${t.label}</div>`).join('');
+    // autoseleciona primeiro
+    if(temas.length){
+      temaSelecionado = temas[0].label;
+      temasHidden.value = temaSelecionado;
+      temaInput.value = temaSelecionado;
+    }else{
+      temaSelecionado = '';
+      temasHidden.value = '';
+      temaInput.value = '';
+    }
   }
   function abrirPainelTemas(){ temaPanel.classList.remove('hidden'); }
   function fecharPainelTemas(){ temaPanel.classList.add('hidden'); }
-  function renderChipsTemas(){
-    chips.innerHTML = '';
-    temasHidden.value = JSON.stringify(Array.from(temasSelecionados));
-    temasSelecionados.forEach(t=>{
-      const el = document.createElement('span');
-      el.className = 'chip';
-      el.innerHTML = `${t} <button type="button" aria-label="Remover">×</button>`;
-      el.querySelector('button').onclick = ()=>{ temasSelecionados.delete(t); renderChipsTemas(); };
-      chips.appendChild(el);
-    });
-  }
+
+  temaInput?.addEventListener('focus', abrirPainelTemas);
+  temaCaret?.addEventListener('click', ()=> temaPanel.classList.toggle('hidden'));
+  temaClose?.addEventListener('click', ()=>{
+    if(temaInput.value){
+      temaInput.value = '';
+      Array.from(temaPanel.children).forEach(it=>{ it.style.display=''; });
+      abrirPainelTemas();
+    } else fecharPainelTemas();
+  });
   temaInput?.addEventListener('input', ()=>{
     const q = temaInput.value.trim().toLowerCase();
     Array.from(temaPanel.children).forEach(it=>{
@@ -217,141 +223,18 @@
     });
     abrirPainelTemas();
   });
-  temaInput?.addEventListener('focus', abrirPainelTemas);
-  temaCaret?.addEventListener('click', ()=> temaPanel.classList.toggle('hidden'));
-  temaClose?.addEventListener('click', ()=>{
-    if(temaInput.value){
-      temaInput.value = '';
-      Array.from(temaPanel.children).forEach(it=>{ it.style.display=''; });
-      abrirPainelTemas();
-    } else {
-      fecharPainelTemas();
-    }
+  temaPanel.addEventListener('click', (e)=>{
+    const item = e.target.closest('.combo-item'); if(!item) return;
+    temaSelecionado = item.getAttribute('data-valor');
+    temasHidden.value = temaSelecionado;
+    temaInput.value = temaSelecionado;
+    fecharPainelTemas();
   });
   document.addEventListener('click', (e)=>{
     if(!temaPanel.contains(e.target) && e.target!==temaInput && e.target!==temaCaret && e.target!==temaClose) fecharPainelTemas();
   });
-  temaPanel.addEventListener('click', (e)=>{
-    const item = e.target.closest('.combo-item'); if(!item) return;
-    const val = item.getAttribute('data-valor');
-    temasSelecionados.add(val);
-    renderChipsTemas();
-    temaInput.value = '';
-    fecharPainelTemas();
-  });
 
-  // Combo Subtemas
-  function montarComboSubtemas(){
-    const lista = Array.from(subtemasDisponiveis).sort((a,b)=>a.localeCompare(b,'pt'));
-    subtemaPanel.innerHTML = lista.map(t=>`<div class="combo-item" data-valor="${t}">${t}</div>`).join('');
-  }
-  function abrirPainelSub(){ subtemaPanel.classList.remove('hidden'); }
-  function fecharPainelSub(){ subtemaPanel.classList.add('hidden'); }
-  function renderChipsSubtemas(){
-    chipsSub.innerHTML = '';
-    subtemasHidden.value = JSON.stringify(Array.from(subtemasSelecionados));
-    subtemasSelecionados.forEach(t=>{
-      const el = document.createElement('span');
-      el.className = 'chip';
-      el.innerHTML = `${t} <button type="button" aria-label="Remover">×</button>`;
-      el.querySelector('button').onclick = ()=>{ subtemasSelecionados.delete(t); renderChipsSubtemas(); };
-      chipsSub.appendChild(el);
-    });
-  }
-  subtemaInput?.addEventListener('input', ()=>{
-    const q = subtemaInput.value.trim().toLowerCase();
-    Array.from(subtemaPanel.children).forEach(it=>{
-      const ok = it.textContent.toLowerCase().includes(q);
-      it.style.display = ok ? '' : 'none';
-    });
-    abrirPainelSub();
-  });
-  subtemaInput?.addEventListener('focus', abrirPainelSub);
-  subtemaCaret?.addEventListener('click', ()=> subtemaPanel.classList.toggle('hidden'));
-  subtemaClose?.addEventListener('click', ()=>{
-    if(subtemaInput.value){
-      subtemaInput.value = '';
-      Array.from(subtemaPanel.children).forEach(it=>{ it.style.display=''; });
-      abrirPainelSub();
-    } else {
-      fecharPainelSub();
-    }
-  });
-  document.addEventListener('click', (e)=>{
-    if(!subtemaPanel.contains(e.target) && e.target!==subtemaInput && e.target!==subtemaCaret && e.target!==subtemaClose) fecharPainelSub();
-  });
-  subtemaPanel.addEventListener('click', (e)=>{
-    const item = e.target.closest('.combo-item'); if(!item) return;
-    const val = item.getAttribute('data-valor');
-    subtemasSelecionados.add(val);
-    renderChipsSubtemas();
-    subtemaInput.value = '';
-    fecharPainelSub();
-  });
-
-  // Filtro + amostragem estratificada por tema (+ subtema opcional)
-  function filtrarPorCursoETemas(){
-    const cursoAlvo = (cursoSelecionado || '').trim();
-    let pool = banco.filter(q=>q.curso === cursoAlvo);
-
-    const selecionadosTemas = Array.from(temasSelecionados);
-    if (selecionadosTemas.length) {
-      pool = pool.filter(q => (q.temas && q.temas.some(t => selecionadosTemas.includes(t))));
-    }
-
-    const selecionadosSub = Array.from(subtemasSelecionados);
-    if (selecionadosSub.length) {
-      const alvo = new Set(selecionadosSub);
-      pool = pool.filter(q => q.subtemas && intersecaoNaoVazia(q.subtemas, alvo));
-    }
-    return pool;
-  }
-
-  function amostrarEstratificada(pool, qtd) {
-    const selecionados = (temasSelecionados && temasSelecionados.size)
-      ? Array.from(temasSelecionados)
-      : Array.from(new Set(pool.flatMap(q => (q.temas || []))));
-    if (!selecionados.length) return embaralhar(pool.slice()).slice(0, qtd);
-
-    const buckets = new Map();
-    selecionados.forEach(t => buckets.set(t, []));
-    pool.forEach(q => {
-      const ts = q.temas || [];
-      selecionados.forEach(t => { if (ts.includes(t)) buckets.get(t).push(q); });
-    });
-    buckets.forEach((arr, t) => buckets.set(t, embaralhar(arr)));
-
-    const usados = new Set();
-    const res = [];
-    let i = 0;
-    const ordem = selecionados.slice();
-
-    while (res.length < qtd && buckets.size) {
-      const tema = ordem[i % ordem.length];
-      const arr = buckets.get(tema);
-      if (arr && arr.length) {
-        while (arr.length && usados.has(arr[arr.length - 1])) arr.pop();
-        if (arr.length) {
-          const q = arr.pop();
-          usados.add(q);
-          res.push(q);
-        } else {
-          buckets.delete(tema);
-        }
-      } else {
-        buckets.delete(tema);
-      }
-      i++;
-    }
-
-    if (res.length < qtd) {
-      const resto = embaralhar(pool.filter(q => !usados.has(q)));
-      res.push(...resto.slice(0, qtd - res.length));
-    }
-    return res.slice(0, qtd);
-  }
-
-  // IA: helpers e botões
+  // IA
   function formatarAlternativasParaPrompt(alts){
     return alts.map(s=>s.replace(/\s+/g,' ').trim()).join(' | ');
   }
@@ -364,7 +247,7 @@
     const enunciado = q.enunciado.replace(/\s+/g,' ').trim();
     const alternativas = formatarAlternativasParaPrompt(q.alternativas);
     const gabarito = q.gabarito;
-    const temaPrincipal = (q.temas && q.temas.length ? q.temas.join(', ') : '');
+    const temaPrincipal = q.tema || '';
 
     const pComentario =
 `Comente e fundamente juridicamente a questão abaixo. Justifique por que o gabarito está correto e refute cada alternativa incorreta com base legal e, se possível, jurisprudência.
@@ -400,18 +283,26 @@ ENUNCIADO: "${enunciado}"`;
     }</div>`;
   }
 
-  // Substituição: utilitário
-  function pickOutraDoMesmoArquivo(qAtual){
-    const chave = `${qAtual.curso}::${qAtual.tema}::${qAtual.srcFile}`;
-    const pool = idxPorArquivo.get(chave) || [];
-    if(!pool.length) return null;
+  // Substituir questão: troca pela MESMA POSIÇÃO em outra prova do MESMO TXT
+  function substituirQuestaoMesmoPos(idxQuestao){
+    if(!Array.isArray(provas) || provas.length===0) return null;
+    const nQuestoes = resultado.length;
+    const pos = idxQuestao; // 0..19
+    const outras = provas.filter(p => p.length===nQuestoes); // sanidade
+    if(!outras.length) return null;
 
-    for(let tent=0; tent<8; tent++){
-      const cand = pool[(Math.random()*pool.length)|0];
-      if(cand.id !== qAtual.id && !usadosProva.has(cand.id)) return cand;
+    // tente até 8 amostras
+    for(let t=0;t<8;t++){
+      const candProva = outras[(Math.random()*outras.length)|0];
+      const cand = candProva[pos];
+      if(cand && cand.id !== resultado[pos].id) return cand;
     }
-    const livre = pool.find(x=>x.id!==qAtual.id && !usadosProva.has(x.id));
-    return livre || null;
+    // fallback varrendo
+    for(const p of outras){
+      const cand = p[pos];
+      if(cand && cand.id !== resultado[pos].id) return cand;
+    }
+    return null;
   }
 
   // Render tela
@@ -494,14 +385,10 @@ ENUNCIADO: "${enunciado}"`;
     if(sec.getAttribute('data-respondida')==='1') return;
 
     const idx = parseInt(sec.getAttribute('data-q'),10);
-    const atual = resultado[idx];
-    const novo = pickOutraDoMesmoArquivo(atual);
-    if(!novo){ btn.disabled = true; btn.title = 'Sem outras questões neste tema'; return; }
+    const novo = substituirQuestaoMesmoPos(idx);
+    if(!novo){ btn.disabled = true; btn.title = 'Sem alternativa para esta posição em outras provas'; return; }
 
-    usadosProva.delete(atual.id);
-    usadosProva.add(novo.id);
     resultado[idx] = novo;
-
     const alts = novo.alternativas.map((a,i)=>`<li class="py-1" data-alt="${letras[i]}" role="button" tabindex="0">${a}</li>`).join('');
     sec.setAttribute('data-id', novo.id);
     sec.querySelector('.meta').textContent = novo.meta;
@@ -510,43 +397,55 @@ ENUNCIADO: "${enunciado}"`;
     sec.querySelector('.feedback').innerHTML = '';
   }
 
-  // Geração
-  function gerar(){
-    const pool = filtrarPorCursoETemas();
-    if(!pool.length){
-      previewConteudo.classList.add('hidden');
-      previewVazio.classList.remove('hidden');
-      artigo.innerHTML=''; printArticle.innerHTML='';
-      return;
+  // Gerar prova
+  async function gerar(){
+    if(!cursoSelecionado || !temaSelecionado){
+      alert('Selecione disciplina e tema.'); return;
     }
-    const qtd = Math.max(1, Math.min(parseInt(inpQtd.value||'1',10), 100));
-    const lista = amostrarEstratificada(embaralhar(pool.slice()), qtd);
-    resultado = lista;
-    usadosProva = new Set(lista.map(q=>q.id));
+    try{
+      await carregarTXTDoTema(cursoSelecionado, temaSelecionado);
 
-    previewVazio.classList.add('hidden');
-    previewConteudo.classList.remove('hidden');
+      // escolher prova
+      let idxProva;
+      const sel = parseInt(provaSel.value,10); // 0=aleatória
+      if (sel===0){
+        idxProva = Math.min( (Math.random()*provas.length)|0 , provas.length-1 );
+      } else {
+        idxProva = Math.max(0, Math.min(sel-1, provas.length-1));
+      }
 
-    renderQuestoesTela(resultado);
-    renderQuestoesPrint(resultado);
+      const prova = provas[idxProva];
+      // garante 20 questões: se houver mais, usa 20 primeiras; se menos, usa todas
+      resultado = prova.slice(0, 20);
 
-    window.scrollTo({ top: previewConteudo.offsetTop - 60, behavior:'smooth' });
+      previewVazio.classList.add('hidden');
+      previewConteudo.classList.remove('hidden');
+
+      renderQuestoesTela(resultado);
+      renderQuestoesPrint(resultado);
+
+      window.scrollTo({ top: previewConteudo.offsetTop - 60, behavior:'smooth' });
+    }catch(err){
+      console.error(err);
+      alert(`Erro ao gerar prova:\n${err.message}`);
+    }
   }
 
-  // Eventos gerais
-  form?.addEventListener('submit', (e)=>{e.preventDefault(); try{gerar();}catch(err){console.error(err); alert('Erro ao gerar prova.');}});
+  // Eventos
+  form?.addEventListener('submit', (e)=>{e.preventDefault(); gerar();});
 
   btnLimpar?.addEventListener('click', ()=>{
     form.reset();
-    temasSelecionados.clear(); renderChipsTemas();
-    subtemasSelecionados.clear(); renderChipsSubtemas();
-
-    // Reset curso para primeira opção visível
-    const firstItem = cursoPanel.querySelector('.combo-item');
-    cursoSelecionado = firstItem ? firstItem.getAttribute('data-valor') : '';
-    cursoHidden.value = cursoSelecionado;
-    cursoInput.value = cursoSelecionado;
-
+    // reset combos
+    if(cursos.length){
+      cursoSelecionado = cursos[0];
+      cursoHidden.value = cursoSelecionado;
+      cursoInput.value = cursoSelecionado;
+      montarComboTemas();
+    } else {
+      cursoSelecionado=''; cursoHidden.value=''; cursoInput.value='';
+      temaSelecionado=''; temasHidden.value=''; temaInput.value='';
+    }
     resultado=[]; artigo.innerHTML=''; printArticle.innerHTML='';
     previewConteudo.classList.add('hidden'); previewVazio.classList.remove('hidden');
     window.scrollTo({ top:0, behavior:'smooth' });
@@ -558,5 +457,8 @@ ENUNCIADO: "${enunciado}"`;
   document.addEventListener('click', onClickSubstituir);
 
   // Boot
-  carregarBanco().catch(e=>{console.error(e); alert('Falha ao carregar banco de questões. Sirva via HTTP.');});
+  carregarManifest().catch(e=>{
+    console.error(e);
+    alert(`Falha ao carregar manifest:\n${e.message}\n\nVerifique /data/manifest.json e caminhos.`);
+  });
 })();
