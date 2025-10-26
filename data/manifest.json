@@ -1,16 +1,13 @@
 {
   "Direito Penal": {
-    "folder": "penal",
     "temas": {
-      "Tipicidade": "tipicidade.txt",
-      "Consumação e Tentativa": "consumacao_tentativa.txt"
+      "Tipicidade": { "base": "penal/tipicidade" },
+      "Consumação e Tentativa": { "base": "penal/consumacao_tentativa" }
     }
   },
   "Direito Civil": {
-    "folder": "civil",
     "temas": {
-      "Obrigação": "obrigacao.txt",
-      "Contratos": "contratos.txt"
+      "Contratos": { "base": "civil/contratos" }
     }
   }
 }
