@@ -91,28 +91,34 @@
 
 
 
-    /* PRINT */
-    @media print {
-      @page { size: A4; margin: 10mm; }
-      header, footer, .no-print, #screenArea { display:none !important }
-      #printArea { display:block !important }
-      #printArea{ column-count:2; column-gap:10mm; column-fill:auto; column-rule:0.1mm solid #cbd5e1; margin:0; padding:0; }
-      .titulo-questao{font-size:0.80rem !important;font-weight:600;color:#111827 !important}
-      .meta{ display:block !important; color:#6b7280 !important; font-size:.72rem !important; margin-top:.15rem }
-@media print{
+   /* PRINT */
+@media print {
+  @page { size: A4; margin: 10mm; }
+
+  header, footer, .no-print, #screenArea { display:none !important; }
+  #printArea { display:block !important; }
+
+  #printArea{
+    column-count:2; column-gap:10mm; column-fill:auto;
+    column-rule:0.1mm solid #cbd5e1; margin:0; padding:0;
+  }
+
+  .titulo-questao{ font-size:0.80rem !important; font-weight:600; color:#111827 !important; }
+  .meta{ display:block !important; color:#6b7280 !important; font-size:.72rem !important; margin-top:.15rem; }
+
   .enunciado{
     font-size:0.90rem !important; line-height:1.5; color:#111827 !important; text-align:justify;
     hyphens:auto; -webkit-hyphens:auto; break-after:avoid-column;
-    background:transparent !important;  /* sem fundo na impressão */
-    padding:0 !important;               /* remove padding no papel */
-    border-radius:0 !important;
+    background:transparent !important; padding:0 !important; border-radius:0 !important;
   }
+
+  .alternativas li{ font-size:0.8rem !important; line-height:1.5; break-inside:avoid; }
+  .acoes-ia,.btn-substituir{ display:none !important; }
+  .questao{ break-inside:auto; page-break-inside:auto; }
+  .separador{ margin:6px 0; border-bottom:1px solid #d1d5db; }
+  #printArea *{ box-shadow:none !important; }
 }
-      .alternativas li{font-size:0.8rem !important; line-height:1.5; break-inside:avoid}
-      .acoes-ia,.btn-substituir{ display:none !important; }
-      .questao{ break-inside:auto; page-break-inside:auto; }
-      .separador{ margin:6px 0; border-bottom:1px solid #d1d5db }
-      #printArea *{ box-shadow:none !important }
+
     }
   </style>
 </head>
