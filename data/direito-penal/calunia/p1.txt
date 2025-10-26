@@ -1,181 +1,178 @@
-```
-* Banca Exemplo — 2025 — Subtemas: Princípios Gerais; Conceitos Básicos
-** Q01: Em relação ao princípio da legalidade, assinale a alternativa correta.
-*** A) - Somente a lei complementar pode criar obrigações.
-*** B) - A legalidade permite atuação estatal sem previsão normativa.
-*** C) - Ninguém será obrigado a fazer ou deixar de fazer algo senão em virtude de lei.
-*** D) - O costume sempre prevalece sobre a lei escrita.
-*** E) - A legalidade não se aplica à Administração Pública.
-**** Gabarito: C
------
-* Banca Exemplo — 2025 — Subtemas: Competência; Hierarquia das Normas
-** Q02: A Constituição ocupa qual posição na hierarquia normativa?
-*** A) - Inferior às leis ordinárias.
-*** B) - Superior a todas as normas no ordenamento jurídico.
-*** C) - Em igualdade com leis complementares.
-*** D) - Inferior aos tratados internacionais.
-*** E) - Em igualdade com decretos regulamentares.
-**** Gabarito: B
------
-* Banca Exemplo — 2025 — Subtemas: Interpretação; Hermenêutica
-** Q03: Na interpretação sistemática, o intérprete:
-*** A) - Isola o dispositivo e ignora o contexto.
-*** B) - Considera o texto à luz do conjunto do ordenamento.
-*** C) - Dá preferência absoluta à intenção do legislador histórico.
-*** D) - Aplica sempre analogia contra legem.
-*** E) - Desconsidera princípios constitucionais.
-**** Gabarito: B
------
-* Banca Exemplo — 2025 — Subtemas: Vigência; Aplicação da Lei
-** Q04: Sobre vigência da lei no tempo:
-*** A) - A lei nova retroage sempre.
-*** B) - Lei posterior revoga anterior apenas quando o disser expressamente ou for com ela incompatível.
-*** C) - Duas leis incompatíveis vigem simultaneamente.
-*** D) - A revogação tácita é proibida.
-*** E) - Cláusula de vigência é inconstitucional.
-**** Gabarito: B
------
-* Banca Exemplo — 2025 — Subtemas: Direitos Fundamentais
-** Q05: Assinale a correta sobre colisão de direitos fundamentais.
-*** A) - Colisão é resolvida por hierarquia fixa entre direitos.
-*** B) - Um direito fundamental jamais sofre restrições.
-*** C) - Utiliza-se a técnica da ponderação conforme o caso concreto.
-*** D) - O direito à propriedade sempre prevalece.
-*** E) - O princípio da proporcionalidade é incompatível com a colisão.
-**** Gabarito: C
------
-* Banca Exemplo — 2025 — Subtemas: Administração Pública; Legalidade
-** Q06: O princípio da impessoalidade significa que:
-*** A) - O agente pode favorecer amigos se for eficiente.
-*** B) - A atuação deve visar ao interesse público, sem promoção pessoal.
-*** C) - A publicidade de atos é vedada.
-*** D) - A moralidade é irrelevante.
-*** E) - Licitações são dispensadas por conveniência.
-**** Gabarito: B
------
-* Banca Exemplo — 2025 — Subtemas: Processo; Devido Processo Legal
-** Q07: O contraditório assegura:
-*** A) - Ciência e possibilidade de reação das partes.
-*** B) - Apenas ciência, sem manifestação.
-*** C) - Apenas manifestação, sem ciência.
-*** D) - Sigilo absoluto dos autos.
-*** E) - Julgamento sem defesa quando há prova documental.
+* Ano: 2023 Banca: CONSULPLAN Órgão: CORE-PE Prova: CONSULPLAN - 2023 - CORE-PE - Fiscal
+** Q 01: Frederico e Francisco estavam se divertindo à margem de um rio, quando começaram a conversar sobre fatos que aconteceram no passado. Em dado momento, Frederico confessa a Francisco que no Natal do ano passado lhe subtraiu da carteira o valor de R$ 100,00. Enfurecido, Francisco pega uma pedra e desfere diversos golpes na cabeça de Frederico, com a intenção de matá-lo. Francisco se retira do local acreditando ter matado Frederico que, na verdade, estava apenas desmaiado. Um grupo de pessoas que passava próximo ao rio viu Frederico lesionado e lhe providenciou socorro. Enquanto caminhava carregando Frederico, o grupo foi alvo de um atentado à bomba, vindo todos a óbito em decorrência dos ferimentos sofridos. Considerando que Frederico foi vítima de homicídio, é correto afirmar que Francisco
+*** A) - responderá pela prática de homicídio doloso tentado.
+*** B) - responderá pela prática de homicídio doloso consumado.
+*** C) - não será responsabilizado, pois Frederico faleceu em decorrência de um ataque à bomba.
+*** D) - responderá pela prática de homicídio culposo consumado, pois Frederico não pôde se defender do ataque à bomba devido às lesões que foram anteriormente provocadas por Francisco.
 **** Gabarito: A
 -----
-* Banca Exemplo — 2025 — Subtemas: Responsabilidade Civil
-** Q08: Na responsabilidade objetiva do Estado, exige-se:
-*** A) - Dolo do agente público.
-*** B) - Culpa exclusiva da vítima.
-*** C) - Nexo causal e dano decorrente de atuação estatal.
-*** D) - Prova de enriquecimento ilícito do Estado.
-*** E) - Prévia autorização legislativa.
-**** Gabarito: C
------
-* Banca Exemplo — 2025 — Subtemas: Contratos; Boa-fé
-** Q09: A boa-fé objetiva:
-*** A) - É presunção de ignorância da lei.
-*** B) - Impõe deveres anexos como cooperação e lealdade.
-*** C) - Só se aplica na fase de execução, nunca na negociação.
-*** D) - Permite descumprimento imotivado.
-*** E) - É incompatível com equilíbrio contratual.
+* Ano: 2023 Banca: VUNESP Órgão: PC-SP Prova: VUNESP - 2023 - PC-SP - Delegado de Polícia
+** Q 02: No que concerne ao crime impossível, nossos tribunais, em matéria sumulada, interpretam que
+*** A) - o fato de a polícia preparar situação de flagrante, mesmo em hipótese que impeça sua consumação, não caracteriza, obrigatoriamente, crime impossível.
+*** B) - sistema de vigilância realizado por monitoramento eletrônico ou existência de segurança no interior de estabelecimento comercial, por si só, não tornam impossível a configuração do crime de furto.
+*** C) - mesmo a falsificação grosseira, constatável a olho nu, pode configurar os crimes de moeda falsa e estelionato.
+*** D) - a maioridade da vítima no crime de estupro impede a possibilidade de reconhecimento do estupro de vulnerável.
+*** E) - o pagamento de cheque inicialmente emitido sem provisão de fundos, até a prolação da sentença, obsta o reconhecimento de crime patrimonial.
 **** Gabarito: B
 -----
-* Banca Exemplo — 2025 — Subtemas: Penal; Tipicidade
-** Q10: A tipicidade penal exige:
-*** A) - Conduta, resultado, nexo causal e tipicidade formal/material.
-*** B) - Apenas resultado naturalístico.
-*** C) - Dolo sempre, sem possibilidade de culpa.
-*** D) - Antijuridicidade presumida.
-*** E) - Pena aplicada antes da tipificação.
+* Ano: 2023 Banca: VUNESP Órgão: PC-SP Prova: VUNESP - 2023 - PC-SP - Delegado de Polícia
+** Q 03: Teoria do Delito: especificamente com relação ao elemento subjetivo do tipo penal, o CP prevê a possibilidade de
+*** A) - tentativa e consumação.
+*** B) - ação e omissão.
+*** C) - dolo e culpa.
+*** D) - causa independente e causa relativamente independente.
+*** E) - punibilidade e culpabilidade.
+**** Gabarito: C
+-----
+* Ano: 2023 Banca: FGV Órgão: TJ-PR Prova: FGV - 2023 - TJ-PR - Juiz Substituto
+** Q 04: A doutrina classifica os delitos em diversas categorias, assim procurando melhor compreendê-los. Considerando algumas das classificações existentes, são, respectivamente, delito de resultado, delito de lesão, delito permanente e delito omissivo próprio:
+*** A) - concussão, furto, rufianismo e prevaricação;
+*** B) - furto, dano, cárcere privado e omissão de socorro;
+*** C) - roubo, lesão corporal, sequestro e homicídio por omissão;
+*** D) - homicídio, autoaborto, perseguição e estupro por omissão;
+*** E) - peculato, omissão de socorro, extorsão mediante sequestro e omissão de notificação de doença.
+**** Gabarito: B
+-----
+* Ano: 2023 Banca: VUNESP Órgão: PC-SP Prova: VUNESP - 2023 - PC-SP - Investigador de Polícia
+** Q 05: Agente policial comunica a autoridade policial sobre a ocorrência de contravenção penal de que sabe inocente seu desafeto, e o conduz detido até Delegacia de Polícia. Lá, o conduzido livra-se solto. Ao final da ação penal, o desafeto do agente policial é absolvido. É correto dizer que o agente policial
+*** A) - praticou crime consumado.
+*** B) - praticou crime tentado.
+*** C) - praticou, apenas, falsa comunicação de crime ou contravenção.
+*** D) - não praticou crime algum, tendo em vista a posterior absolvição.
+*** E) - não praticou crime algum, por se tratar de falsa imputação de contravenção.
 **** Gabarito: A
 -----
-* Banca Exemplo — 2025 — Subtemas: Penal; Culpabilidade
-** Q11: Sobre culpabilidade:
-*** A) - Menor de 18 anos é plenamente imputável.
-*** B) - Exige imputabilidade, potencial consciência da ilicitude e exigibilidade de conduta diversa.
-*** C) - Erro de proibição inevitável não exclui culpabilidade.
-*** D) - Coação moral irresistível não gera isenção.
-*** E) - Embriaguez acidental exclui apenas a tipicidade.
-**** Gabarito: B
+* Ano: 2023 Banca: VUNESP Órgão: PC-SP Prova: VUNESP - 2023 - PC-SP - Investigador de Polícia
+** Q 06: Quando o agente assume o risco de produzir o resultado, é correto dizer que houve
+*** A) - imperícia.
+*** B) - negligência.
+*** C) - culpa consciente.
+*** D) - culpa inconsciente.
+*** E) - dolo.
+**** Gabarito: E
 -----
-* Banca Exemplo — 2025 — Subtemas: Processo Civil; Competência
-** Q12: A competência absoluta:
-*** A) - Pode ser prorrogada por acordo das partes.
-*** B) - É inderrogável e reconhecível de ofício.
-*** C) - Depende de convenção de foro válida.
-*** D) - Aplica-se apenas no Juizado Especial.
-*** E) - É sempre territorial.
-**** Gabarito: B
+* Ano: 2023 Banca: VUNESP Órgão: PC-SP Prova: VUNESP - 2023 - PC-SP - Investigador de Polícia
+** Q 07: A conduta do agente que, uma vez iniciada a execução, impede, voluntariamente, que o ato se produza, é denominada
+*** A) - tentativa perfeita.
+*** B) - arrependimento posterior.
+*** C) - tentativa imperfeita.
+*** D) - desistência voluntária.
+*** E) - arrependimento eficaz.
+**** Gabarito: E
 -----
-* Banca Exemplo — 2025 — Subtemas: Consumidor; Responsabilidade
-** Q13: Fornecedor responde objetivamente por:
-*** A) - Fato do produto, salvo culpa exclusiva do consumidor.
-*** B) - Todo e qualquer dano sem excludentes.
-*** C) - Ato de terceiro inevitável.
-*** D) - Razões de força maior imputáveis ao consumidor.
-*** E) - Vício de quantidade não comprovado.
+* Ano: 2023 Banca: CESPE / CEBRASPE Órgão: PGE-SE Prova: CESPE / CEBRASPE - 2023 - PGE-SE - Procurador do Estado
+** Q 08: Diego adquiriu uma faca com a intenção de assaltar um ônibus. Ao entrar no veículo que pretendia assaltar, Diego notou a presença de lutadores de jiu-jítsu vestidos com seus respectivos quimonos, então decidiu descer e procurar outro alvo. Nessa situação hipotética, a conduta de Diego configura
+*** A) - ato preparatório impunível.
+*** B) - desistência voluntária.
+*** C) - arrependimento eficaz.
+*** D) - arrependimento posterior.
+*** E) - crime tentado.
 **** Gabarito: A
 -----
-* Banca Exemplo — 2025 — Subtemas: Tributário; Legalidade
-** Q14: É vedado à União:
-*** A) - Instituir impostos residuais.
-*** B) - Cobrar tributo sem lei que o estabeleça.
-*** C) - Conceder isenções.
-*** D) - Fixar alíquotas do IOF.
-*** E) - Celebrar tratados.
-**** Gabarito: B
------
-* Banca Exemplo — 2025 — Subtemas: Trabalho; Princípios
-** Q15: Princípio da proteção implica:
-*** A) - Aplicar sempre a norma mais rígida ao empregado.
-*** B) - Aplicar a norma mais favorável ao empregado entre as disponíveis.
-*** C) - Desconsiderar acordos e convenções coletivas.
-*** D) - Prevalência do pacta sunt servanda sobre normas cogentes.
-*** E) - Inaplicabilidade da condição mais benéfica.
-**** Gabarito: B
------
-* Banca Exemplo — 2025 — Subtemas: Ambiental; Precaução
-** Q16: O princípio da precaução:
-*** A) - Exige prova plena de dano para agir.
-*** B) - Autoriza medidas diante de risco sério e verossímil, mesmo sem certeza científica.
-*** C) - Impede licenciamento ambiental.
-*** D) - Substitui responsabilidade civil.
-*** E) - É incompatível com desenvolvimento sustentável.
-**** Gabarito: B
------
-* Banca Exemplo — 2025 — Subtemas: Constitucional; Controle de Constitucionalidade
-** Q17: ADI no STF:
-*** A) - Exige caso concreto com lesão individual.
-*** B) - Tem efeito inter partes.
-*** C) - Pode ter medida cautelar para suspender eficácia da lei impugnada.
-*** D) - Não admite amici curiae.
-*** E) - É julgada pelos TRFs.
+* Ano: 2023 Banca: CESPE / CEBRASPE Órgão: PGE-SE Prova: CESPE / CEBRASPE - 2023 - PGE-SE - Procurador do Estado
+** Q 09: Túlio, um conhecido chefe de organização criminosa, plantou uma bomba no automóvel que transportava o presidente da empresa Beta (alvo da ação delituosa) bem como um motorista e um segurança. Túlio detonou o artefato a distância, durante o deslocamento do veículo em via pública, o que resultou na morte de todos os seus ocupantes. Nessa situação hipotética, em relação à morte do segurança, Túlio agiu com
+*** A) - preterdolo.
+*** B) - dolo direto de primeiro grau.
+*** C) - dolo direto de segundo grau.
+*** D) - culpa consciente.
+*** E) - dolo eventual.
 **** Gabarito: C
 -----
-* Banca Exemplo — 2025 — Subtemas: Penal; Concurso de Pessoas
-** Q18: No concurso de pessoas:
-*** A) - Participação sempre responde por crime autônomo.
-*** B) - Coautoria exige domínio funcional do fato.
-*** C) - Partícipe responde com mesma pena do autor, sem causa de diminuição.
-*** D) - Autoria mediata é impossível.
-*** E) - Acordo prévio é irrelevante.
-**** Gabarito: B
------
-* Banca Exemplo — 2025 — Subtemas: Civil; Prescrição e Decadência
-** Q19: Assinale a correta:
-*** A) - Prescrição atinge o direito material.
-*** B) - Decadência atinge a pretensão de agir.
-*** C) - Prazo prescricional pode ser interrompido nas hipóteses legais.
-*** D) - Decadência é sempre suspensa por incapacidade.
-*** E) - Prescrição não admite renúncia.
+* Ano: 2023 Banca: EPL Órgão: Prefeitura de Pitangueiras - PR Prova: EPL - 2023 - Prefeitura de Pitangueiras - PR - Guarda Municipal
+** Q 10: Sobre a teoria do crime é incorreto afirmar que:
+*** A) - ilicitude ou antijuridicidade, diz respeito à contrariedade da conduta aos valores jurídicos protegidos pelo ordenamento jurídico.
+*** B) - a tipicidade diz respeito à adequação da conduta ao tipo penal descrito na lei, ou seja, é preciso que a conduta esteja prevista como criminosa em lei.
+*** C) - a culpabilidade exige que o agente tenha consciência da ilicitude de sua conduta e que possua capacidade para agir de forma diferente.
+*** D) - a legitima defesa é exclui a tipicidade da conduta.
 **** Gabarito: C
 -----
-* Banca Exemplo — 2025 — Subtemas: Processo Penal; Provas
-** Q20: Prova ilícita:
-*** A) - É sempre admitida por interesse público.
-*** B) - Pode ser admitida por derivação lícita inevitável (teoria da descoberta inevitável).
-*** C) - Não possui exceções.
-*** D) - Convalesce pelo decurso do tempo.
-*** E) - Pode ser produzida pelo juiz.
+* Ano: 2023 Banca: CPCON Órgão: Prefeitura de Dona Inês - PB Prova: CPCON - 2023 - Prefeitura de Dona Inês - PB - Agente da Guarda Municipal
+** Q 11: Considera-se o crime consumado quando nele se reúnem todos os elementos de sua definição legal. De outro modo, considera-se a possibilidade de ocorrer a tentativa de crime. De acordo com o Código Penal, assinale a alternativa CORRETA que define a “tentativa”:
+*** A) - Quando existe a participação de terceiro durante a execução consumada por parte de um agente, o terceiro responde sempre por tentativa.
+*** B) - Quando o agente, voluntariamente, desiste de prosseguir na execução ou impede que o resultado se produza, respondendo pelos atos já praticados.
+*** C) - Quando nos crimes sem violência ou grave ameaça à pessoa, o dano é reparado ou a coisa é restituída, até o recebimento da denúncia ou da queixa, por ato voluntário do agente.
+*** D) - Quando o agente deu causa ao resultado por imprudência, negligência ou imperícia.
+*** E) - Quando iniciada a execução, não se consuma por circunstâncias alheias à vontade do agente.
+**** Gabarito: E
+-----
+* Ano: 2023 Banca: FGV Órgão: DPE-RJ Prova: FGV - 2023 - DPE-RJ - Defensor Público
+** Q 12: Sérgio, no dia 01/10/2023, se aproxima de Stênio, que caminhava fumando tranquilamente pela rua, e lhe solicita um cigarro. Stênio, gentilmente, ao tentar pegar o maço de cigarro que estava em sua mochila, é surpreendido por Sérgio, que tenta arrebatá-la. Imediatamente, Stênio entra em luta corporal com Sérgio para que ele não consiga subtrair sua mochila com seus pertences. Durante a contenda, Sérgio morde a orelha de Stênio e, em razão disso, acaba conseguindo se desvencilhar, saindo correndo e abandonando a mochila. O fato é presenciado por transeuntes que, imediatamente, acionam policiais militares que passavam em ronda pelo local. Sendo assim, Sérgio é preso em flagrante e conduzido à Delegacia de Polícia. Considerando o fato narrado, é correto afirmar que sua conduta se adequou formalmente aos elementos descritos no:
+*** A) - Art. 157, *caput*, do Código Penal (roubo simples);
+*** B) - Art. 157, §1º, do Código Penal (roubo impróprio);
+*** C) - Art. 155, *caput* c/c Art. 129, *caput*, ambos do Código Penal (furto simples em concurso com lesão corporal);
+*** D) - Art. 157, *caput* n/f do Art. 14, inciso II, do Código Penal (roubo simples na forma tentada);
+*** E) - Art. 155, *caput* n/f do Art. 14, inciso II c/c Art. 129, *caput*, todos do Código Penal (furto simples tentado em concurso com lesão corporal).
+**** Gabarito: E
+-----
+* Ano: 2023 Banca: FGV Órgão: DPE-RJ Prova: FGV - 2023 - DPE-RJ - Defensor Público
+** Q 13: Tidão, primário, durante o cumprimento de pena privativa de liberdade decorrente de sentença penal condenatória transitada em julgado pela prática de roubo, rasga, em várias partes, o lençol que lhe foi fornecido pela Secretaria de Administração Penitenciária do Rio de Janeiro (Seap) com o intento de fazer um varal para que suas roupas lavadas pudessem secar com maior rapidez. O agente penitenciário de plantão, durante o confere diário do efetivo, ao adentrar a cela de Tidão percebe o dano causado ao item e comunica, imediatamente, à direção da unidade prisional. Com isso, o fato chega ao conhecimento do Ministério Público que oferece a peça vestibular acusatória por dano ao patrimônio público (Art. 163, parágrafo único, inciso III, do Código Penal), dando início à demanda penal. Considerando a doutrina pátria garantista sobre a teoria do crime e a jurisprudência ventilada no Supremo Tribunal Federal, é correto afirmar que Tidão deverá ser:
+*** A) - responsabilizado penalmente, considerando que seu comportamento se adequou formalmente aos elementos do Art. 163, parágrafo único, inciso III, do Código Penal. Além disso, embora Tidão tenha apenas inutilizado um lençol que lhe foi fornecido pelo Estado, considerando a Súmula 599 do Superior Tribunal de Justiça (“O princípio da insignificância é inaplicável aos crimes contra a administração pública”), não poderá ser utilizado o princípio da bagatela, observada, portanto, a tipicidade material;
+*** B) - absolvido sumariamente. Analisando o caso apresentado diante do conceito estratificado de infração penal, embora seu comportamento tenha se adequado aos elementos descritos abstratamente no Art. 163, parágrafo único, inciso III, do Código Penal, ele agiu acobertado pelo erro de proibição direto invencível, sendo gerada em seu favor a exclusão da culpabilidade;
+*** C) - absolvido sumariamente. Analisando o caso apresentado diante do conceito estratificado de infração penal, constatase a atipicidade formal. Isso porque o crime de dano é considerado, segundo entendimento doutrinário defensivo, delito de intenção, não sendo observado, no caso apresentado, o elemento subjetivo especial do injusto expressamente previsto em lei. Além disso, também é motivo para sua absolvição a atipicidade material, pois, conforme precedentes do Supremo Tribunal Federal, tem-se a orientação de que o cometimento de conduta em prejuízo da administração pública não impede, a princípio, a incidência do princípio da bagatela, pois devem ser avaliadas as especificidades do caso concreto;
+*** D) - absolvido sumariamente. Analisando o caso apresentado diante do conceito estratificado de infração penal, embora sua conduta tenha se adequado formalmente aos elementos descritos abstratamente no Art. 163, parágrafo único, inciso III, do Código Penal, poderá, em sua defesa, ser utilizado o princípio da bagatela imprópria e a consequente atipicidade material, pois, conforme precedentes do Supremo Tribunal Federal, tem-se a orientação de que o cometimento de conduta em prejuízo da administração pública não impede, a princípio, a incidência do princípio da bagatela imprópria, pois devem ser avaliadas as especificidades do caso concreto;
+*** E) - absolvido sumariamente. Analisando o caso apresentado diante do conceito estratificado de infração penal, constatase a atipicidade formal. Isso porque o crime de dano é considerado, segundo entendimento doutrinário defensivo, delito de tendência, não sendo observado, no caso apresentado, o elemento implícito e subjetivo especial do injusto. Além disso, também é motivo para sua absolvição a atipicidade material, pois, conforme precedentes do Supremo Tribunal Federal, tem-se a orientação de que o cometimento de conduta em prejuízo da administração pública não impede, a princípio, a incidência do princípio da bagatela, pois devem ser avaliadas as especificidades do caso concreto.
+**** Gabarito: E
+-----
+* Ano: 2023 Banca: FGV Órgão: DPE-RJ Prova: FGV - 2023 - DPE-RJ - Defensor Público
+** Q 14: Matéria 1 - Em 29/08/2017 foi noticiado pela mídia digital: “Assédio no ônibus - Homem ejacula no pescoço de passageira na avenida Paulista Mulher estava dormindo e foi acordada pelos movimentos do homem, que estava se masturbando e ejaculou em seu pescoço. Passageiros se revoltaram e queriam bater no agressor, que foi detido pela polícia. (...) No início da tarde desta terça-feira (29), uma mulher foi vítima de assédio sexual dentro de um ônibus municipal de São Paulo. O caso aconteceu dentro do ônibus que faz o trajeto Metrô Ana Rosa – Morro Grande, quando passava pela avenida Paulista” (Fonte: https://revistaforum.com.br/noticias/assedio-no-onibushomem-ejacula-no-pescoco-de-passageira-na-avenida-paulista/) Matéria 2 - Em 10/07/2023 foi noticiado pela mídia digital: “Um homem de 46 anos morreu ao ser baleado pelo amigo durante uma caçada de javalis na noite da última sexta-feira, 7. O caso foi registrado pela Polícia Militar de São Paulo por volta das 19h próximo à Estrada Vicinal Jesulino Cunha Frota, na área rural de São João de Iracema, a cerca de 114 quilômetros da capital paulista. Policiais militares foram acionados para o atendimento da ocorrência e, no local, encontraram a vítima caída no chão, já sem vida. De acordo com o depoimento de testemunhas, o grupo de amigos estava caçando javalis na mata, quando o suspeito teria atirado na vítima depois de confundi-la com um dos animais.” (Fonte: https://www.cnnbrasil.com.br/nacional/homem-morrebaleado-apos-ser-confundido-por-javali-durante cacada-no-interiorde-sp/) Matéria 3 - Em 15/07/2023 foi noticiado pela mídia digital: “Preso jovem que vendia maisena como se fosse cocaína em Anápolis (...) O suspeito, que trabalha como vendedor ambulante no município, já é um antigo conhecido da polícia. Isso porque essa não é a primeira vez que ele se envolve com o comércio de drogas. No entanto, este último episódio chamou muito a atenção das autoridades. O jovem estava vendendo um conteúdo para os clientes como se fosse cocaína, mas, na verdade, se tratava apenas de maisena. (...)” (Fonte: https://portal6.com.br/2023/07/15/preso-jovemque-vendia-maisena-como-se-fosse-cocaina-em-anapolis/) Considerando as matérias jornalísticas apontadas, é correto afirmar juridicamente que:
+*** A) - em relação à matéria 1, deverá ser observada, como consequência jurídico-penal, a adequação da conduta do agente ao delito de estupro previsto no Art. 213 do Código Penal (estupro). Em relação à matéria 2, deverá ser observado, como consequência jurídico-penal no tocante à morte da vítima, o erro de tipo sobre a pessoa invencível e, consequentemente, a atipicidade. Por fim, em relação à matéria 3, deverá ser observado, como consequência jurídico-penal no tocante à venda da substância, o delito putativo por erro de proibição e, consequentemente, a atipicidade;
+*** B) - em relação à matéria 1, deverá ser observada, como consequência jurídico-penal, a adequação da conduta do agente à contravenção penal textualizada no Art. 61 (importunação ofensiva ao pudor). Em relação à matéria 2, deverá ser observado, como consequência jurídico-penal no tocante à morte da vítima, o erro de tipo essencial invencível e, consequentemente, a atipicidade. Por fim, em relação à matéria 3, deverá ser observado, como consequência jurídico-penal no tocante à venda da substância, o delito putativo por erro de tipo e, consequentemente, a atipicidade;
+*** C) - em relação à matéria 1, deverá ser observada, como consequência jurídico-penal, a adequação da conduta do agente ao delito de importunação sexual indicado pelo Art. 215-A do Código Penal (importunação sexual). Em relação à matéria 2, deverá ser observado, como consequência jurídico-penal no tocante à morte da vítima, o erro de tipo essencial invencível e, consequentemente, a atipicidade. Por fim, em relação à matéria 3, deverá ser observado, como consequência jurídico-penal no tocante à venda da substância, o delito putativo por erro de tipo e, consequentemente, a atipicidade;
+*** D) - em relação à matéria 1, deverá ser observada, como consequência jurídico-penal, a adequação da conduta do agente ao delito de ato obsceno encartado no Art. 233 do Código Penal (ato obsceno). Em relação à matéria 2, deverá ser observado, como consequência jurídico-penal no tocante à morte da vítima, o erro de tipo essencial inescusável e, consequentemente, a atipicidade. Por fim, em relação à matéria 3, deverá ser observado, como consequência jurídico-penal no tocante à venda da substância, o delito putativo por erro de proibição e, consequentemente, a atipicidade;
+*** E) - em relação à matéria 1, deverá ser observada, como consequência jurídico-penal, a adequação da conduta do agente ao Art. 215-A do Código Penal (importunação sexual). Em relação à matéria 2, deverá ser observado, como consequência jurídico-penal no tocante à morte da vítima, o erro de tipo sobre a pessoa invencível e, consequentemente, a atipicidade. Por fim, em relação à matéria 3, deverá ser observado, como consequência jurídico-penal no tocante à venda da substância, o delito putativo por erro de tipo e, consequentemente, a exclusão da tipicidade.
 **** Gabarito: B
-```
+-----
+* Ano: 2023 Banca: VUNESP Órgão: TJ-RJ Prova: VUNESP - 2023 - TJ-RJ - Juiz Substituto
+** Q 15: Caio e Tício são sócios em uma sociedade empresária. Caio decide matar Tício e, sabedor que Tício é a primeira pessoa a chegar ao local de trabalho comum pela manhã, planeja uma emboscada. Caio aguarda Tício e, assim que vislumbra um vulto, que pensa ser o sócio adentrando a empresa, dispara um projétil de arma de fogo. Posteriormente, verifica-se que o vulto se tratava de um sequestrador que abordara Tício na porta da empresa e que, no momento do disparo, mantinha Tício refém, sob arma de fogo. O sequestrador morre em razão do disparo. Nessas circunstâncias, é correto afirmar que:
+*** A) - Caio responderá pela morte do sequestrador, como se contra Tício houvesse atentado.
+*** B) - ainda que Caio não tivesse ciência da ação do sequestrador, aplicar-se-á em seu favor a excludente de ilicitude da legítima defesa de terceiro.
+*** C) - socorre Caio o exercício regular de direito, pois, mesmo sem ter ciência da ofensa à integridade de Tício, agiu contra pessoa que invadia os limites de sua empresa, respondendo apenas por conduta culposa.
+*** D) - a situação equipara Caio ao agente de segurança pública que repele agressão ou risco de agressão a vítima mantida refém durante a prática de crimes.
+*** E) - não se vislumbra reprovação social na conduta de Caio, com o consequente afastamento da culpabilidade.
+**** Gabarito: A
+-----
+* Ano: 2023 Banca: TJ-AP Órgão: TJ-AP Prova: TJ-AP - 2023 - TJ-AP - Residência Jurídica
+** Q 16: No que tange aos institutos da tentativa e consumação, da desistência voluntária, do arrependimento eficaz e do arrependimento posterior, é correto afirmar: que o agente...
+*** A) - que, voluntariamente, desiste de prosseguir na execução, só responde pelos atos até então praticados.
+*** B) - que, por ato voluntário, repara o dano causado, em crime praticado com violência à pessoa, até o recebimento da denúncia ou da queixa, terá a pena reduzida de 1/3 a 2/3.
+*** C) - responde pela tentativa, nos crimes culposos, ao não observar o dever de cuidado a que estava obrigado.
+*** D) - que, após iniciar os atos de execução, voluntariamente, impede que o resultado se produza, responderá pelo resultado pretendido inicialmente.
+*** E) - não responde pela tentativa, quando, por ineficácia relativa do meio, é impossível consumar-se o crime.
+**** Gabarito: A
+-----
+* Ano: 2023 Banca: FGV Órgão: TJ-BA Prova: FGV - 2023 - TJ-BA - Juiz Leigo
+** Q 17: Em um determinado período, durante a evolução da Teoria do Crime, a culpabilidade era integrada por quatro elementos, quais sejam: dolo, culpa, exigibilidade de conduta diversa e imputabilidade. Nesse cenário, o sistema da teoria do delito e a concepção da culpabilidade ventilados são, respectivamente:
+*** A) - sistema neoclássico e concepção psicológico-normativa da culpabilidade;
+*** B) - sistema clássico e concepção psicológico-normativa da culpabilidade;
+*** C) - sistema finalista e concepção normativa pura da culpabilidade;
+*** D) - sistema neoclássico e concepção normativa pura da culpabilidade;
+*** E) - sistema clássico e concepção psicológica da culpabilidade.
+**** Gabarito: A
+-----
+* Ano: 2023 Banca: FGV Órgão: TRF - 1ª REGIÃO Prova: FGV - 2023 - TRF - 1ª REGIÃO - Juiz Federal Substituto
+** Q 18: A incriminação de condutas se propõe a tutelar direitos fundamentais, debruçando-se a doutrina, o legislador e a Jurisprudência sobre a identificação dos bens jurídicos passiveis de tutela penal. Acerca da teoria dos bens jurídicos, considerando a doutrina e a Jurisprudência sobre o tema, é correto afirmar que:
+*** A) - a teoria do *harm principle* é adotada nos países do *civil law* é tem pouca aceitação nos países que adotam a *common law*;
+*** B) - para o funcionalismo radical, o único bem jurídico protegido pelo direito penal é a vigência da norma;
+*** C) - deve ser considerado inconstitucional qualquer tipo penal que proteja bens coletivos, uma vez que somente são válidos bens jurídicos individuais;
+*** D) - não pode existir tipo penal que tenha por objetivo proteger bens jurídicos que não tenham expressa previsão na Constituição da República de 1988;
+*** E) - o funcionalismo moderado justifica a proteção jurídico-penal de bens morais.
+**** Gabarito: B
+-----
+* Ano: 2023 Banca: CESPE / CEBRASPE Órgão: MPE-BA Prova: CESPE / CEBRASPE - 2023 - MPE-BA - Promotor de Justiça Substituto
+** Q 19: No que se refere ao erro e à aplicação da pena no direito penal assinale a opção correta.
+*** A) - O desconhecimento da lei, escusável ou inescusável, é circunstância que atenua a pena.
+*** B) - O desconhecimento da lei, desde que escusável, autoriza o perdão judicial por crime, seja este doloso ou culposo.
+*** C) - O erro de proibição inescusável é penalmente irrelevante.
+*** D) - O erro sobre a ilicitude do fato, desde que escusável, afasta o dolo do agente.
+*** E) - A condescendência do órgão público fiscalizatório diante do fato típico é suficiente para autorizar o reconhecimento do erro de proibição.
+**** Gabarito: A
+-----
+* Ano: 2023 Banca: CESPE / CEBRASPE Órgão: PGM de Natal - RN Prova: CESPE / CEBRASPE - 2023 - PGM - RN - Procurador Geral do Município de Natal
+** Q 20: A respeito de crime impossível e delito putativo, julgue os próximos itens. I. Delito putativo refere-se à absoluta impropriedade do objeto, enquanto crime impossível, à ineficácia absoluta do meio. II. No delito putativo, o agente tem a intenção de praticar um crime, porém o ato não encontra tipificação legal correspondente. III Segundo entendimento do STF, não há crime quando o flagrante preparado pela polícia torna impossível a sua a consumação. Assinale a opção correta.
+*** A) - Apenas o item I está certo.
+*** B) - Apenas o item III está certo.
+*** C) - Apenas os itens I e II estão certos.
+*** D) - Apenas os itens II e III estão certos.
+*** E) - Todos os itens estão certos.
+**** Gabarito: D
+-----
