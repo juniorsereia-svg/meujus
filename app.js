@@ -77,6 +77,23 @@
       .map(w => w.charAt(0).toLocaleUpperCase('pt-BR') + w.slice(1))
       .join(' ');
   }
+  // Renderizador inline simples para **negrito** e *itálico*
+  function mdInline(s){
+  if(!s) return '';
+  let x = String(s)
+    .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+
+  // neutraliza **...** para o regex de itálico não capturar
+  x = x.replace(/\*\*(.+?)\*\*/g, '§§$1§§');
+
+  // itálico
+  x = x.replace(/\*(.+?)\*/g, '<span class="md-em">$1</span>');
+
+  // restaura literais **...**
+  x = x.replace(/§§(.+?)§§/g, '**$1**');
+
+  return x;
+}
 
 
   // Parse TXT: tema = label do arquivo; subtemas = linha iniciada por "******" (opcional "Subtemas:")
@@ -97,7 +114,7 @@
       if (!metaLinha || !enunciadoLinhas.length || alternativas.length < 2 || !gabaritoLinha) continue;
 
       const meta = metaLinha.replace(/^\*\s*/, '').trim();
-      const enunciado = normalizarPontuacao(enunciadoLinhas.join('\n'));
+      const enunciado = normalizarPontuacao(enunciadoLinhas.join(' '));
       const alts = padronizarAlternativas(alternativas.map(a=>normalizarPontuacao(a)));
       const gab = (gabaritoLinha.replace(/^(\*{4}\s*)?Gabarito:\s*/i,'').trim().match(/^[A-E]/i)||[''])[0].toUpperCase();
 
