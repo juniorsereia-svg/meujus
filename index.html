@@ -22,9 +22,9 @@
 
     /* Site: enunciado com fundo leve */
     .enunciado{
-      color:#000; font-weight:400; text-align:justify;
+      color:#1a335a; font-weight:400; text-align:justify;
       font-size:0.9rem; line-height:1.5; margin-top:.45rem; white-space:pre-line;
-      background:#f0f0f0; padding:.6rem .75rem; border-radius:.75rem;
+      background:#f8fafc; padding:.6rem .75rem; border-radius:.75rem;
     }
 
     .alternativas{margin-left:1rem;margin-top:.35rem}
@@ -36,7 +36,7 @@
     .enunciado .md-strong, .alternativas .md-strong, .meta .md-strong{font-weight:600}
     .enunciado .md-em,     .alternativas .md-em,     .meta .md-em{font-style:italic}
 
-    /* Combos (dropdown no estilo do screenshot) */
+    /* Combos (dropdown no estilo solicitado) */
     .combo{position:relative}
     .combo--solid .combo-control{
       display:flex; align-items:center; gap:.4rem;
@@ -50,7 +50,7 @@
     .combo-close{padding:.25rem .45rem}
     .combo-caret:hover,.combo-close:hover{background:#f8fafc}
 
-    /* Painel */
+    /* Painel do combo */
     .combo-panel{
       position:absolute; z-index:20; left:0; right:0; top:calc(100% + 6px);
       background:#fff; border:1px solid #e5e7eb; border-radius:14px;
@@ -85,9 +85,7 @@
       content:""; position:absolute; left:12px; top:50%; transform:translateY(-50%);
       width:18px; height:18px; border:1px solid #cbd5e1; border-radius:6px; background:#fff;
     }
-    .combo-item[aria-selected="true"]::before{
-      border-color:#60a5fa; background:#dbeafe;
-    }
+    .combo-item[aria-selected="true"]::before{ border-color:#60a5fa; background:#dbeafe; }
     .combo-item::after{
       content:""; position:absolute; left:16px; top:50%; transform:translateY(-55%) rotate(45deg);
       width:5px; height:9px; border-right:2px solid transparent; border-bottom:2px solid transparent;
@@ -97,12 +95,10 @@
     }
 
     .divider{height:1px; background:linear-gradient(90deg,#fff,#e5e7eb 10%,#e5e7eb 90%,#fff); margin:1rem 0}
-    #chips .chip{font-size:.78rem; padding:2px 8px}
-    #chipsSub .chip{font-size:.7rem; padding:1px 6px}
 
     #printArea{ display:none; }
 
-    /* IA: rótulo + 4 botões redondos (mesmo tamanho do botão substituir) */
+    /* IA: botões utilitários */
     .acoes-ia{margin-top:.6rem; display:flex; align-items:center; gap:.5rem; flex-wrap:wrap}
     .ia-label{font-size:.8rem; color:#2563eb}
 
@@ -195,7 +191,7 @@
                   <button type="button" class="combo-caret" aria-label="Abrir">▾</button>
                   <button type="button" class="combo-close" aria-label="Fechar">×</button>
                 </div>
-                <div id="cursoPanel" class="combo-panel hidden"></div>
+                <div id="cursoPanel" class="combo-panel hidden" role="listbox" aria-label="Cursos"></div>
               </div>
               <input id="cursoHidden" type="hidden"/>
             </label>
@@ -205,14 +201,13 @@
             <!-- Temas -->
             <div class="grid gap-2">
               <span class="text-sm font-medium">Temas</span>
-              <div class="combo combo--solid">
-                <div id="chips" class="flex flex-wrap gap-2 mb-2"></div>
+              <div class="combo combo--solid" id="">
                 <div class="combo-control">
                   <input id="temaInput" class="combo-input" placeholder="Digite para buscar e selecione…"/>
                   <button type="button" class="combo-caret" aria-label="Abrir">▾</button>
                   <button type="button" class="combo-close" aria-label="Fechar">×</button>
                 </div>
-                <div id="temaPanel" class="combo-panel hidden"></div>
+                <div id="temaPanel" class="combo-panel hidden" role="listbox" aria-label="Temas"></div>
               </div>
               <input id="temasHidden" type="hidden"/>
             </div>
@@ -220,14 +215,13 @@
             <!-- Subtemas -->
             <div class="grid gap-2">
               <span class="text-sm font-medium">Subtemas</span>
-              <div class="combo combo--solid">
-                <div id="chipsSub" class="flex flex-wrap gap-1 mb-2"></div>
+              <div class="combo combo--solid" id="">
                 <div class="combo-control">
                   <input id="subtemaInput" class="combo-input" placeholder="Filtre e selecione subtemas…"/>
                   <button type="button" class="combo-caret" aria-label="Abrir">▾</button>
                   <button type="button" class="combo-close" aria-label="Fechar">×</button>
                 </div>
-                <div id="subtemaPanel" class="combo-panel hidden"></div>
+                <div id="subtemaPanel" class="combo-panel hidden" role="listbox" aria-label="Subtemas"></div>
               </div>
               <input id="subtemasHidden" type="hidden"/>
             </div>
