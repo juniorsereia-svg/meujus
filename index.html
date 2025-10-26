@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>MeuJus — Gerador de Provas de Direito</title>
-  <meta name="description" content="Gere provas a partir de um banco local de questões.">
+  <title>MeuJus — Banco de Provas</title>
+  <meta name="description" content="Provas pré-montadas. Escolha disciplina, tema e a prova.">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,28 +15,19 @@
     html,body{height:100%}
     body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif}
 
-    /* Tipos e respiros da questão */
     .questao{padding-top:.75rem}
-    .titulo-questao{font-size:0.95rem;font-weight:600;color:#1a335a}
     .meta{font-size:.78rem;color:#6b7280;margin-top:.25rem}
-
-    /* Site: enunciado com fundo leve */
     .enunciado{
       color:#000; font-weight:400; text-align:justify;
       font-size:0.9rem; line-height:1.5; margin-top:.45rem; white-space:pre-line;
       background:#f0f0f0; padding:.6rem .75rem; border-radius:.75rem;
     }
-
     .alternativas{margin-left:1rem;margin-top:.35rem}
     .alternativas li{cursor:pointer;user-select:none;font-size:0.8rem;line-height:1.5}
     .alternativas li[aria-disabled="true"]{cursor:default}
     .separador{border-bottom:1px solid #e5e7eb;margin:16px 0}
 
-    /* Ênfase leve para **negrito** e *itálico* */
-    .enunciado .md-strong, .alternativas .md-strong, .meta .md-strong{font-weight:600}
-    .enunciado .md-em,     .alternativas .md-em,     .meta .md-em{font-style:italic}
-
-    /* Combos (dropdown) */
+    /* Combos */
     .combo{position:relative}
     .combo--solid .combo-control{
       display:flex; align-items:center; gap:.4rem;
@@ -49,45 +40,22 @@
     }
     .combo-close{padding:.25rem .45rem}
     .combo-caret:hover,.combo-close:hover{background:#f8fafc}
-
     .combo-panel{
       position:absolute; z-index:20; left:0; right:0; top:calc(100% + 6px);
       background:#fff; border:1px solid #e5e7eb; border-radius:14px;
       max-height:260px; overflow:auto; box-shadow:0 10px 30px rgba(0,0,0,.06);
     }
-
-    .combo-item{
-      position:relative; padding:10px 12px 10px 36px;
-      font-size:.9rem; line-height:1.3; cursor:pointer; user-select:none;
-    }
+    .combo-item{position:relative; padding:10px 12px 10px 36px; font-size:.9rem; line-height:1.3; cursor:pointer; user-select:none;}
     .combo-item:hover{background:#f8fafc}
-    .combo-item[aria-selected="true"]{background:#eef2ff}
-    .combo-item[aria-disabled="true"]{opacity:.5; cursor:default}
-
     .combo-item::before{
       content:""; position:absolute; left:12px; top:50%; transform:translateY(-50%);
       width:18px; height:18px; border:1px solid #cbd5e1; border-radius:6px; background:#fff;
     }
-    .combo-item[aria-selected="true"]::before{
-      border-color:#60a5fa; background:#dbeafe;
-    }
-    .combo-item::after{
-      content:""; position:absolute; left:16px; top:50%; transform:translateY(-55%) rotate(45deg);
-      width:5px; height:9px; border-right:2px solid transparent; border-bottom:2px solid transparent;
-    }
-    .combo-item[aria-selected="true"]::after{
-      border-right-color:#2563eb; border-bottom-color:#2563eb;
-    }
 
     .divider{height:1px; background:linear-gradient(90deg,#fff,#e5e7eb 10%,#e5e7eb 90%,#fff); margin:1rem 0}
-    #chips .chip{font-size:.78rem; padding:2px 8px}
-    #chipsSub .chip{font-size:.7rem; padding:1px 6px}
-
-    #printArea{ display:none; }
 
     /* IA */
     .acoes-ia{margin-top:.6rem; display:flex; align-items:center; gap:.5rem; flex-wrap:wrap}
-    .ia-label{font-size:.8rem; color:#2563eb}
     .btn-ia{
       width:26px; height:26px; border-radius:9999px;
       display:inline-flex; align-items:center; justify-content:center;
@@ -109,13 +77,6 @@
     .btn-substituir:hover{ background:#f8fafc; border-color:#6b7280; transform:translateY(-1px); }
     .btn-substituir:focus{ outline:2px solid #93c5fd; outline-offset:2px; }
 
-    button.btn-substituir svg,
-    button.btn-substituir img{
-      width:22px !important;
-      height:22px !important;
-      flex:0 0 auto;
-    }
-
     @media (max-width:640px){
       .enunciado{ font-size:1rem; line-height:1.6; }
       .alternativas li{ font-size:.9rem; line-height:1.6; }
@@ -130,7 +91,6 @@
         column-count:2; column-gap:10mm; column-fill:auto;
         column-rule:0.1mm solid #cbd5e1; margin:0; padding:0;
       }
-      .titulo-questao{ font-size:0.80rem !important; font-weight:600; color:#111827 !important; }
       .meta{ display:block !important; color:#6b7280 !important; font-size:.72rem !important; margin-top:.15rem; }
       .enunciado{
         font-size:0.90rem !important; line-height:1.5; color:#111827 !important; text-align:justify;
@@ -164,11 +124,11 @@
     <div class="grid lg:grid-cols-3 gap-8">
       <div class="lg:col-span-1">
         <div class="rounded-3xl border border-zinc-200 bg-white p-6 shadow-sm">
-          <h2 class="text-xl font-semibold">Gerar prova</h2>
+          <h2 class="text-xl font-semibold">Escolher prova</h2>
           <form id="formProva" class="mt-4 grid gap-4" autocomplete="off">
-            <!-- Curso -->
+            <!-- Disciplina -->
             <label class="grid gap-2">
-              <span class="text-sm font-medium">Curso</span>
+              <span class="text-sm font-medium">Disciplina</span>
               <div class="combo combo--solid" id="cursoCombo">
                 <div class="combo-control">
                   <input id="cursoInput" class="combo-input" placeholder="Selecione ou digite para buscar…"/>
@@ -182,39 +142,36 @@
 
             <div class="divider"></div>
 
-            <!-- Temas -->
-            <div class="grid gap-2">
-              <span class="text-sm font-medium">Temas</span>
+            <!-- Tema -->
+            <label class="grid gap-2">
+              <span class="text-sm font-medium">Tema</span>
               <div class="combo combo--solid">
-                <div id="chips" class="flex flex-wrap gap-2 mb-2"></div>
                 <div class="combo-control">
-                  <input id="temaInput" class="combo-input" placeholder="Digite para buscar e selecione…"/>
+                  <input id="temaInput" class="combo-input" placeholder="Selecione um tema…"/>
                   <button type="button" class="combo-caret" aria-label="Abrir">▾</button>
                   <button type="button" class="combo-close" aria-label="Fechar">×</button>
                 </div>
                 <div id="temaPanel" class="combo-panel hidden"></div>
               </div>
               <input id="temasHidden" type="hidden"/>
-            </div>
+            </label>
 
-            <!-- Subtemas -->
-            <div class="grid gap-2">
-              <span class="text-sm font-medium">Subtemas</span>
-              <div class="combo combo--solid">
-                <div id="chipsSub" class="flex flex-wrap gap-1 mb-2"></div>
-                <div class="combo-control">
-                  <input id="subtemaInput" class="combo-input" placeholder="Filtre e selecione subtemas…"/>
-                  <button type="button" class="combo-caret" aria-label="Abrir">▾</button>
-                  <button type="button" class="combo-close" aria-label="Fechar">×</button>
-                </div>
-                <div id="subtemaPanel" class="combo-panel hidden"></div>
-              </div>
-              <input id="subtemasHidden" type="hidden"/>
-            </div>
-
+            <!-- Prova -->
             <label class="grid gap-2">
-              <span class="text-sm font-medium">Nº Questões</span>
-              <input id="inpQtd" type="number" min="1" max="100" value="10" class="rounded-2xl border border-zinc-300 px-3 py-2.5 focus:outline-none focus:ring-2 focus:ring-black/10">
+              <span class="text-sm font-medium">Prova</span>
+              <select id="provaSel" class="rounded-2xl border border-zinc-300 px-3 py-2.5 focus:outline-none focus:ring-2 focus:ring-black/10">
+                <option value="0">Aleatória (1–10)</option>
+                <option value="1">Prova 1</option>
+                <option value="2">Prova 2</option>
+                <option value="3">Prova 3</option>
+                <option value="4">Prova 4</option>
+                <option value="5">Prova 5</option>
+                <option value="6">Prova 6</option>
+                <option value="7">Prova 7</option>
+                <option value="8">Prova 8</option>
+                <option value="9">Prova 9</option>
+                <option value="10">Prova 10</option>
+              </select>
             </label>
 
             <div class="mt-2 flex gap-3">
@@ -247,7 +204,7 @@
   <footer class="border-t border-zinc-200 no-print">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 text-sm text-zinc-500">
       <div class="flex items-center justify-between">
-        <p>MeuJus — Gerador de Provas</p>
+        <p>MeuJus — Banco de Provas</p>
         <p id="rodapeAno"></p>
       </div>
     </div>
