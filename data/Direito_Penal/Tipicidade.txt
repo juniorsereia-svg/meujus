@@ -187,7 +187,7 @@
 ****** Erro de Tipo Essencial, Ação, Conduta
 -----
 * Ano: 2023 | Banca: CESPE / CEBRASPE | Órgão: PGM de Natal - RN
-** A respeito de crime impossível e delito putativo, julgue os próximos itens. • I. Delito putativo refere-se à absoluta impropriedade do objeto, enquanto crime impossível, à ineficácia absoluta do meio. • II. No delito putativo, o agente tem a intenção de praticar um crime, porém o ato não encontra tipificação legal correspondente. • III Segundo entendimento do STF, não há crime quando o flagrante preparado pela polícia torna impossível a sua a consumação. Assinale a opção correta.
+** A respeito de crime impossível e delito putativo, julgue os próximos itens. •• I. Delito putativo refere-se à absoluta impropriedade do objeto, enquanto crime impossível, à ineficácia absoluta do meio. •• II. No delito putativo, o agente tem a intenção de praticar um crime, porém o ato não encontra tipificação legal correspondente. •• III Segundo entendimento do STF, não há crime quando o flagrante preparado pela polícia torna impossível a sua a consumação. Assinale a opção correta.
 *** A) Apenas o item I está certo.
 *** B) Apenas o item III está certo.
 *** C) Apenas os itens I e II estão certos.
@@ -220,7 +220,7 @@
 ****** Consumação e Tentativa, Ação, Conduta
 -----
 * Ano: 2023 | Banca: VUNESP | Órgão: MPE-SP
-** Considere as seguintes situações: • I. um aluno, ao final da aula, inadvertidamente, coloca em sua pasta um livro de um colega, pensando sinceramente ser o seu; • II. uma pessoa pretende matar seu desafeto e, quando sai à sua procura, encontra-se com um sósia de seu inimigo e, por confundi-lo com a vítima visada, acaba matando a pessoa errada, ou seja, o sósia; • III. um policial à paisana finge-se embriagado e, para chamar a atenção de um ladrão, com quem conversa em um bar, diz que está com muito dinheiro na carteira. O ladrão decide roubá-lo na saída do bar; ao fazê-lo, contudo, é preso em flagrante, por outros policiais à paisana que acompanhavam os fatos; • IV. José se depara com um sósia de seu inimigo que leva a mão à cintura, como se fosse sacar algum objeto; José, ao ver essa atitude, pensa estar prestes a ser atingido por um revólver e, por esse motivo, saca sua arma, atirando contra a vítima, que nada possuía nas mãos ou na cintura. Tais ocorrências configuram, respectivamente:
+** Considere as seguintes situações: •• I. um aluno, ao final da aula, inadvertidamente, coloca em sua pasta um livro de um colega, pensando sinceramente ser o seu; •• II. uma pessoa pretende matar seu desafeto e, quando sai à sua procura, encontra-se com um sósia de seu inimigo e, por confundi-lo com a vítima visada, acaba matando a pessoa errada, ou seja, o sósia; •• III. um policial à paisana finge-se embriagado e, para chamar a atenção de um ladrão, com quem conversa em um bar, diz que está com muito dinheiro na carteira. O ladrão decide roubá-lo na saída do bar; ao fazê-lo, contudo, é preso em flagrante, por outros policiais à paisana que acompanhavam os fatos; •• IV. José se depara com um sósia de seu inimigo que leva a mão à cintura, como se fosse sacar algum objeto; José, ao ver essa atitude, pensa estar prestes a ser atingido por um revólver e, por esse motivo, saca sua arma, atirando contra a vítima, que nada possuía nas mãos ou na cintura. Tais ocorrências configuram, respectivamente:
 *** A) erro de proibição; erro de tipo acidental; delito putativo por obra de agente provocador; descriminante putativa.
 *** B) erro de tipo essencial; erro de tipo acidental; crime impossível; erro de tipo permissivo.
 *** C) erro de tipo acidental; erro de tipo essencial; descriminante putativa; erro de proibição.
@@ -498,7 +498,7 @@
 ****** Desistência Voluntária, Arrependimento Eficaz, Consumação e Tentativa
 -----
 * Ano: 2023 | Banca: IDECAN | Órgão: SEFAZ-RR
-** Acerca do dolo e da culpa no âmbito penal, analise os itens abaixo: • I. O crime preterdoloso é aquele em que o agente age com o chamado dolo culposo. • II. Pelo resultado que agrava especialmente a pena, só responde o agente que o houver causado ao menos culposamente. • III. A depender do nexo de causalidade, se o agente der causa ao resultado por imperícia, é possível que o crime seja doloso ou culposo. Está(ão) correto(s) o(s) item(ns):
+** Acerca do dolo e da culpa no âmbito penal, analise os itens abaixo: •• I. O crime preterdoloso é aquele em que o agente age com o chamado dolo culposo. •• II. Pelo resultado que agrava especialmente a pena, só responde o agente que o houver causado ao menos culposamente. •• III. A depender do nexo de causalidade, se o agente der causa ao resultado por imperícia, é possível que o crime seja doloso ou culposo. Está(ão) correto(s) o(s) item(ns):
 *** A) apenas I.
 *** B) apenas II.
 *** C) apenas III.
@@ -777,7 +777,7 @@
 ****** Erro de Tipo Essencial, Erro de tipo Acidental, Crime Doloso
 -----
 * Ano: 2022 | Banca: FAU | Órgão: Prefeitura de Ponta Grossa - PR
-** O crime é tentado quando, iniciada a execução, não se consuma por circunstâncias alheias à vontade do agente. São tipos de tentativa de crimes: • I - Cruenta / Vermelha: Nessa modalidade, o agente consegue atingir o seu objetivo, mas não consuma o delito. • II - Imperfeita / inacabada: Não consegue utilizar todos os meios de execução para a prática delituosa. • III - Incruenta / branca: O agente não conseguiu nem mesmo atingir o objetivo pretendido para que o crime fosse consumado. • IV - Perfeita / acabada: O agente ativo utiliza todos os meios possíveis ao seu alcance e nas diversas tentativas consegue consumar o crime. Estão CORRETAS:
+** O crime é tentado quando, iniciada a execução, não se consuma por circunstâncias alheias à vontade do agente. São tipos de tentativa de crimes: •• I - Cruenta / Vermelha: Nessa modalidade, o agente consegue atingir o seu objetivo, mas não consuma o delito. •• II - Imperfeita / inacabada: Não consegue utilizar todos os meios de execução para a prática delituosa. •• III - Incruenta / branca: O agente não conseguiu nem mesmo atingir o objetivo pretendido para que o crime fosse consumado. •• IV - Perfeita / acabada: O agente ativo utiliza todos os meios possíveis ao seu alcance e nas diversas tentativas consegue consumar o crime. Estão CORRETAS:
 *** A) I, II e III, apenas.
 *** B) I, II e IV, apenas.
 *** C) I, II, III e IV, todas.
@@ -906,7 +906,7 @@
 ****** Desistência Voluntária, Arrependimento Eficaz, Consumação e Tentativa
 -----
 * Ano: 2022 | Banca: FUNDEP (Gestão de Concursos) | Órgão: TJM-MG
-** Sobre as referências aos diversos sistemas formulados para a teoria do crime constantes do Código Penal Comum e do Código Penal Militar, analise as afirmativas a seguir.  • I. O Código Penal Comum trata a descriminante putativa conforme a teoria limitada da culpabilidade.  • II. O Código Penal Militar registra circunstâncias judiciais compatíveis com a teoria psicológico- -normativa da culpabilidade.  • III. O Código Penal Comum concebe os crimes comissivos impróprios de maneira compatível com sistema de base normativa.  • IV. O Código Penal Militar considera dolo e culpa conforme o sistema causal-naturalista. Estão corretas as afirmativas
+** Sobre as referências aos diversos sistemas formulados para a teoria do crime constantes do Código Penal Comum e do Código Penal Militar, analise as afirmativas a seguir.  •• I. O Código Penal Comum trata a descriminante putativa conforme a teoria limitada da culpabilidade.  •• II. O Código Penal Militar registra circunstâncias judiciais compatíveis com a teoria psicológico- -normativa da culpabilidade.  •• III. O Código Penal Comum concebe os crimes comissivos impróprios de maneira compatível com sistema de base normativa.  •• IV. O Código Penal Militar considera dolo e culpa conforme o sistema causal-naturalista. Estão corretas as afirmativas
 *** A) I, II, III e IV.
 *** B) II e III, apenas.
 *** C) I e III, apenas.
@@ -925,7 +925,7 @@
 ****** Crime Impossível, Tipicidade Formal, Conduta
 -----
 * Ano: 2022 | Banca: FGV | Órgão: Senado Federal
-** Sobre a responsabilidade penal da pessoa jurídica por crimes ambientais, analise as afirmativas a seguir.  • I. A reponsabilidade penal da pessoa jurídica não exclui a das pessoas naturais que tenham concorrido para o mesmo crime.  • II. A pessoa jurídica responde penalmente se o delito tiver sido cometido por funcionário a seu serviço e se o cometimento do crime atender aos seus interesses econômicos.  • III. A responsabilidade penal da pessoa jurídica por crimes ambientais não tem previsão expressa em texto normativo, mas é fruto de construção jurisprudencial. Está correto o que se afirma em
+** Sobre a responsabilidade penal da pessoa jurídica por crimes ambientais, analise as afirmativas a seguir.  •• I. A reponsabilidade penal da pessoa jurídica não exclui a das pessoas naturais que tenham concorrido para o mesmo crime.  •• II. A pessoa jurídica responde penalmente se o delito tiver sido cometido por funcionário a seu serviço e se o cometimento do crime atender aos seus interesses econômicos.  •• III. A responsabilidade penal da pessoa jurídica por crimes ambientais não tem previsão expressa em texto normativo, mas é fruto de construção jurisprudencial. Está correto o que se afirma em
 *** A) I, II e III.
 *** B) I, apenas.
 *** C) II, apenas.
@@ -1395,7 +1395,7 @@ Nessa hipótese, é correto afirmar que tal agente poderá beneficiar-se
 ****** Conduta, Tipicidade Formal
 -----
 * Ano: 2022 | Banca: OBJETIVA | Órgão: Prefeitura de Nova Hartz - RS
-** Acerca da conceituação do crime de que trata o Código Penal, analisar os itens abaixo: I. Consumado, quando nele se reúnem todos os elementos de sua definição legal. II. Tentado, quando, iniciada a execução, não se consuma pela vontade do agente. III. Salvo disposição em contrário, pune-se a tentativa com a pena correspondente ao crime consumado, diminuída pela metade. Está(ão) CORRETO(S):
+** Acerca da conceituação do crime de que trata o Código Penal, analisar os itens abaixo: •• I. Consumado, quando nele se reúnem todos os elementos de sua definição legal. •• II. Tentado, quando, iniciada a execução, não se consuma pela vontade do agente. •• III. Salvo disposição em contrário, pune-se a tentativa com a pena correspondente ao crime consumado, diminuída pela metade. Está(ão) CORRETO(S):
 *** A) Somente os itens I e III.
 *** B) Somente o item I.
 *** C) Somente o item II.
@@ -1434,7 +1434,7 @@ Nessa hipótese, é correto afirmar que tal agente poderá beneficiar-se
 ****** Desistência Voluntária, Consumação e Tentativa, Ação
 -----
 * Ano: 2022 | Banca: FCC | Órgão: MPE-PE
-** O Código Penal estabelece que a omissão é penalmente relevante quando o omitente devia e podia agir para evitar o resultado. Sobre a relevância da omissão, o dever de agir incumbe a quem I. tenha por lei obrigação de cuidado, proteção ou vigilância. II. tenha assumido a responsabilidade de impedir o resultado. III. criou, com seu comportamento anterior, o risco da ocorrência do resultado. IV. impede que o resultado se produza. Está correto o que se afirma APENAS em
+** O Código Penal estabelece que a omissão é penalmente relevante quando o omitente devia e podia agir para evitar o resultado. Sobre a relevância da omissão, o dever de agir incumbe a quem: •• I. tenha por lei obrigação de cuidado, proteção ou vigilância. •• II. tenha assumido a responsabilidade de impedir o resultado. •• III. criou, com seu comportamento anterior, o risco da ocorrência do resultado. •• IV. impede que o resultado se produza. Está correto o que se afirma APENAS em
 *** A) I e II.
 *** B) I, II e III.
 *** C) I, II e IV.
@@ -1561,7 +1561,7 @@ Nessa hipótese, é correto afirmar que tal agente poderá beneficiar-se
 ****** Consumação e Tentativa
 -----
 * Ano: 2022 | Banca: MPE-SP | Órgão: MPE-SP
-• Imputabilidade penal é a possibilidade de se atribuir a alguém a responsabilidade pelo cometimento de algum ilícito penal. Acerca desse tema, de suas consequências jurídicopenais, e considerando a legislação penal, bem como a doutrina majoritária, assinale a alternativa correta.
+•• Imputabilidade penal é a possibilidade de se atribuir a alguém a responsabilidade pelo cometimento de algum ilícito penal. Acerca desse tema, de suas consequências jurídicopenais, e considerando a legislação penal, bem como a doutrina majoritária, assinale a alternativa correta.
 *** A) Extinta a punibilidade do agente inimputável ou semi-imputável, não se impõe medida de segurança nem subsiste a que tenha sido imposta.
 *** B) A embriaguez culposa decorrente do uso do álcool autoriza a redução de um a dois terços da pena do agente.
 *** C) A emoção e paixão, quando violentas, podem excluir a imputabilidade penal ou servir como atenuante inominada.
@@ -1662,7 +1662,7 @@ Nessa hipótese, é correto afirmar que tal agente poderá beneficiar-se
 ****** Erro de tipo Acidental, Consumação e Tentativa, Crime Doloso
 -----
 * Ano: 2022 | Banca: FGV | Órgão: PC-RJ
-• Insatisfeito com o término da sua relação amorosa, Hélios passa a monitorar as atividades de Atena, vindo a descobrir que, em curto espaço de tempo, ela assumiu um novo relacionamento com Eros. Após elaborar uma emboscada, de posse de uma faca de cozinha, Hélios surpreende o casal numa praça pública, atentando contra a vida de Eros, desferindo três facadas. Com a vítima já caída ao solo, Atena passa a suplicar pela interrupção da ação, prometendo reatar o romance com Hélios, que, satisfeito com o que ouviu, cessa os golpes e providencia o transporte de Eros até o hospital. Em que pese a gravidade das lesões, a vítima é salva, retomando suas ocupações habituais após trinta dias de internação. O caso narrado retrata hipótese de:
+•• Insatisfeito com o término da sua relação amorosa, Hélios passa a monitorar as atividades de Atena, vindo a descobrir que, em curto espaço de tempo, ela assumiu um novo relacionamento com Eros. Após elaborar uma emboscada, de posse de uma faca de cozinha, Hélios surpreende o casal numa praça pública, atentando contra a vida de Eros, desferindo três facadas. Com a vítima já caída ao solo, Atena passa a suplicar pela interrupção da ação, prometendo reatar o romance com Hélios, que, satisfeito com o que ouviu, cessa os golpes e providencia o transporte de Eros até o hospital. Em que pese a gravidade das lesões, a vítima é salva, retomando suas ocupações habituais após trinta dias de internação. O caso narrado retrata hipótese de:
 *** A) desistência voluntária;
 *** B) arrependimento eficaz;
 *** C) arrependimento posterior;
@@ -1702,7 +1702,7 @@ Nessa hipótese, é correto afirmar que tal agente poderá beneficiar-se
 ****** Consumação e Tentativa, Tipicidade Formal
 -----
 * Ano: 2022 | Banca: FGV | Órgão: PC-RJ
-• Insatisfeito com uma disputa acirrada num jogo de futebol, Ares, que contava com 17 anos e 11 meses de vida, aguarda a saída de Príapo de um curso preparatório, sequestrando seu desafeto, mantendo-o em cárcere privado por dois meses, quando o cativeiro é descoberto pela polícia e a vítima é resgatada. De acordo com o Código Penal, Ares deverá:
+•• Insatisfeito com uma disputa acirrada num jogo de futebol, Ares, que contava com 17 anos e 11 meses de vida, aguarda a saída de Príapo de um curso preparatório, sequestrando seu desafeto, mantendo-o em cárcere privado por dois meses, quando o cativeiro é descoberto pela polícia e a vítima é resgatada. De acordo com o Código Penal, Ares deverá:
 *** A) responder pelo crime, em razão da teoria do resultado;
 *** B) responder pelo crime, em razão da teoria mista;
 *** C) responder pelo crime, em razão da teoria da ação;
@@ -1771,7 +1771,7 @@ Nessa hipótese, é correto afirmar que tal agente poderá beneficiar-se
 *** D) É correto afirmar que, segundo a teoria da imputação objetiva, na perspectiva funcional-teleológica, que abandona a conditio sine qua non, a conduta de Michael deveria ser um indiferente penal, pois, diante da prognose póstuma objetiva, não houve efetivo incremento do risco proibido, pois tolerado pela sociedade.
 *** E) A teoria da conditio sine qua non, reformulada por Maximiliam Von Buri, por exigir a investigação da cadeia causal antecedente ao resultado, mas apta para a sua ocorrência, incluindo-se a análise da causa juridicamente relevante, não incide para explicar a conduta de Michael, diante da inexistência de resultado naturalístico.
 **** Gabarito: D
-****• Imputação Objetiva, Conduta, Tipicidade Formal
+****•• Imputação Objetiva, Conduta, Tipicidade Formal
 -----
 * Ano: 2022 | Banca: CESPE / CEBRASPE | Órgão: DPE-PI
 ** Fernando estava sentado no banco de uma praça, jogando dominó quando visualizou uma pessoa com capacete e viseira escura fechada e que gesticulava, dando mostras de irritação. De repente, essa pessoa correu em sua direção e Fernando, acreditando que seria atacado, precipitadamente, pegou uma pedra e arremessou contra o desconhecido. Devido a sua má pontaria, Fernando errou o homem e acertou uma criança, que passava pelo local. A criança faleceu em decorrência da pedrada. Nesse momento, o homem tirou o capacete e Fernando o reconheceu. Era Roberto, seu primo. Como não se viam há muito tempo, Roberto queria apenas lhe dar um abraço acalorado quando correu em sua direção. Considerando o disposto no Código Penal, assinale a opção correta, acerca da situação hipotética apresentada.
@@ -1799,7 +1799,7 @@ Nessa hipótese, é correto afirmar que tal agente poderá beneficiar-se
 *** C) é responsável pelo resultado, em razão de omissão penalmente relevante;
 *** D) não é responsável pelo resultado, em razão da autocolocação em perigo culposa.
 **** Gabarito: B
-****• Imputação Objetiva, Omissão, Tipicidade Formal
+****•• Imputação Objetiva, Omissão, Tipicidade Formal
 -----
 * Ano: 2022 | Banca: FGV | Órgão: DPE-MS
 ** Cleiton exercia, há três meses, a função de vigilante junto à Caixa Econômica Federal, agência localizada na Rua Barão do Rio Branco, nº 1.119, Centro, Campo Grande/MS, sendo responsável também por realizar o fechamento da agência, não tendo qualquer tipo de acesso ao cofre. Em determinado dia, ao retornar para sua residência, por volta das 19h, foi abordado por Jack, na Gaudêncio Ajala, Tiradentes, Campo Grande/MS, que, mediante grave ameaça exercida com emprego de arma de fogo, rendeu o vigilante e ordenou que ficasse próximo de uma árvore e entregasse seu celular. Na sequência, um Fiat Uno, cor prata, parou ao lado da vítima, tendo Jack ordenado que Cleiton entrasse no veículo. Ao ingressar no veículo, constatou a presença de outros três agentes, permanecendo, a partir de então, com a cabeça para baixo e trafegando por cerca de vinte minutos, parando em local aparentando ser uma favela, com chão de terra e matagal, passando por uma viela. Durante esse período no veículo, os indivíduos continuaram a ameaçar o declarante, dizendo para o declarante cooperar, que o dinheiro não era dele, era da agência, e que no máximo ele seria transferido. A vítima foi conduzida até um barraco, local em que os agentes passaram a dizer que a vítima seria o gerente do banco e que sequestrariam sua genitora. Durante o período que permaneceu no cativeiro, diversas pessoas entravam no cômodo e diziam para cooperar, caso contrário, sua família seria morta. Esclarece que conseguiu distinguir cerca de seis a oito pessoas, inclusive uma voz feminina, que, de início, acreditou ser sua genitora, pois os indivíduos afirmavam que já estavam em poder da família da vítima. Como a vítima acreditou que sua família já estava refém dos criminosos, informou aos indivíduos onde estava sua carteira de trabalho, visando comprovar que não era gerente do estabelecimento bancário, mas sim vigilante. Por volta das 23h50, dois indivíduos entraram no cômodo e afirmaram que tinham confirmado a veracidade da profissão da vítima e que ela seria libertada, porém, exigiram ainda sua cooperação para não avisar a polícia, principalmente a Polícia Civil, pois seus integrantes estariam em conluio com os criminosos. O vigilante, então, foi levado, por esses dois indivíduos, pelo mesmo caminho que chegaram ao local e, ao chegarem numa via pública sem saída, exigiram que a vítima esperasse cerca de vinte minutos e fosse embora, pois teria pessoal deles defronte, na cobertura. Ainda sobre a hipótese delineada, no texto 1, é correto afirmar que:
@@ -1869,7 +1869,7 @@ Nessa hipótese, é correto afirmar que tal agente poderá beneficiar-se
 *** A) Certo
 *** B) Errado
 **** Gabarito: Certo
-****• Imputação Objetiva, Tipicidade Formal
+****•• Imputação Objetiva, Tipicidade Formal
 -----
 * Ano: 2022 | Banca: CESPE / CEBRASPE | Órgão: DPE-RS
 ** Acerca da estrutura analítica do crime, julgue o item a seguir. O erro de tipo tem como consequência jurídica a exclusão do dolo enquanto elemento subjetivo, sendo vedada, nesse caso, a responsabilização penal do agente por crime culposo.
