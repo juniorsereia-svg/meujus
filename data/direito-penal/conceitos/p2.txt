@@ -1,0 +1,183 @@
+De acordo com sua solicitação, abaixo estão as 20 questões extraídas da fonte, na ordem original, formatadas exatamente conforme o modelo especificado e com o gabarito associado.
+
+* Ano: 2017 | Banca: VUNESP | Órgão: DPE-RO | Prova: VUNESP - 2017 - DPE-RO - Defensor Público Substituto
+** O Código Penal estabelece que é crime “praticar ato obsceno em lugar público, ou aberto ou exposto ao público” (CP, art. 233). Para interpretar o exato significado da expressão “ato obsceno”, deve o operador do Direito valer-se de elementos
+*** A) - analógicos.
+*** B) - autênticos.
+*** C) - sociológicos.
+*** D) - gramaticais.
+*** E) - sintáticos.
+**** Gabarito: C
+-----
+* Ano: 2017 | Banca: FEPESE | Órgão: PC-SC | Prova: FEPESE - 2017 - PC-SC - Escrivão de Polícia Civil
+** É correto afirmar sobre a infração penal:
+*** A) - A infração penal somente poderá ser cometida por pessoa física.
+*** B) - O Estado sempre será sujeito passivo formal de um crime.
+*** C) - Apenas os bens materiais poderão ser objeto de infração penal.
+*** D) - A infração penal não poderá ser praticada de forma isolada por um agente.
+*** E) - O sujeito ativo de uma infração penal é o titular do bem jurídico lesado.
+**** Gabarito: B
+-----
+* Ano: 2017 | Banca: MPT | Órgão: MPT | Prova: MPT - 2017 - MPT - Procurador do Trabalho
+** Sobre o garantismo jurídico, analise as proposições abaixo:
+I - O garantismo jurídico surge nos anos 1970, na Itália, restrito ao Direito Penal, como movimento em oposição à redução dos direitos e garantias penais e processuais penais, em reação a uma legislação de exceção implementada sob a justificativa do combate ao terrorismo.
+II - Atualmente o garantismo jurídico é entendido de maneira mais ampla, sendo um modelo de Direito que subordina os poderes à garantia dos direitos, submetendo a sua atuação, em primeiro lugar, à efetivação dos direitos humanos e direitos fundamentais.
+III - O garantismo jurídico pode ser entendido como sinônimo de Estado Constitucional de Direito, em oposição ao paradigma clássico de Estado Liberal, alargando-o em duas direções: de um lado, a todos os poderes públicos, não só submetendo o Judiciário, mas também o Legislativo e o Executivo; e, de outro lado, também aos poderes privados, incluindo nestes o poder econômico, impondo limites à liberdade de mercado.
+IV - Nos dias de hoje é necessário estender o paradigma garantista aos novos poderes e instituições supraestatais, devido ao fato de que o constitucionalismo estatal é inadequado para enfrentar a crise da capacidade regulatória do Direito em relação a emergências planetárias, tais como: crise política e econômica; crise humanitária e social; crise ambiental; questão nuclear e questão criminal e corrupção dos poderes. No âmbito dos Estados Nacionais, o garantismo jurídico não encontra mais lugar, devido à necessidade de enfrentamento do terrorismo, da corrupção espraiada no poder político e da premência de crescimento econômico.
+Assinale a alternativa CORRETA:
+*** A) - Apenas a assertiva IV está incorreta.
+*** B) - Apenas a assertiva I está incorreta.
+*** C) - Apenas a assertiva II está correta.
+*** D) - Todas as assertivas estão corretas.
+*** E) - Não respondida.
+**** Gabarito: A
+-----
+* Ano: 2016 | Banca: CONSULPAM | Órgão: Prefeitura de Cascavel - PR | Prova: CONSULPAM - 2016 - Prefeitura de Cascavel - PR - Guarda Municipal
+** Analise as afirmativas a seguir.
+I. Não há crime sem lei anterior que o defina. Não há pena sem prévia cominação legal.
+II. Ninguém pode ser punido por fato que lei posterior deixa de considerar crime.
+III. Considera-se praticado o crime no momento do resultado, ainda que distinto da ação ou omissão.
+Considerando o que dispõe o Código Penal brasileiro, está correto o que se afirma em
+*** A) - I, II e III.
+*** B) - I, apenas.
+*** C) - II, apenas.
+*** D) - III, apenas.
+*** E) - I e II, apenas.
+**** Gabarito: E
+-----
+* Ano: 2016 | Banca: VUNESP | Órgão: TJM-SP | Prova: VUNESP - 2016 - TJM-SP - Juiz de Direito Substituto
+** A corrente/teoria penal que se funda na ideia de que as normas jurídicas devem ser protegidas por si mesmas, pouco importando o bem jurídico por trás delas, é
+*** A) - a teoria do garantismo penal, de Luigi Ferrajoli.
+*** B) - o funcionalismo teleológico-racional, de Claus Roxin.
+*** C) - o funcionalismo sistêmico, de Günther Jakobs.
+*** D) - a teoria da tipicidade conglobante, de Eugenio Zaffaroni.
+*** E) - a teoria constitucionalista do delito.
+**** Gabarito: C
+-----
+* Ano: 2016 | Banca: FUNCAB | Órgão: SEGEP-MA | Prova: FUNCAB - 2016 - SEGEP-MA - Agente Penitenciário
+** Assinale a alternativa que corretamente indica uma das missões do direito penal.
+*** A) - Aplicar a pena com o escopo único de retribuir ao criminoso o mal causado, pois a pena é intrinsecamente justa.
+*** B) - Aplacar o clamor popular através de instrumentos simbólicos de punição.
+*** C) - Manter a ordem política através da seletividade nas incriminações.
+*** D) - Estimar a vingança privada nas hipóteses previstas em lei, como, por exemplo, na legítima defesa.
+*** E) - Servir como instrumento de garantias para o criminoso.
+**** Gabarito: E
+-----
+* Ano: 2016 | Banca: IBEG | Órgão: Prefeitura de Guarapari - ES | Prova: IBEG - 2016 - Prefeitura de Guarapari - ES - Procurador Municipal
+** Sendo o Brasil um Estado Democrático de Direito, por reflexo, seu direito penal há de ser legítimo, democrático e obediente aos princípios constitucionais que o informam, passando o tipo penal a ser uma categoria aberta, cujo conteúdo deve ser preenchido em consonância com os princípios derivados deste perfil político-constitucional. Assim, analisando as premissas abaixo, pode-se afirmar que:
+I. Não se admitem mais critérios absolutos na definição dos crimes, os quais passam a ter exigências de ordem formal (somente a lei pode descrevê-los e cominar-lhes uma pena correspondente) e material (o seu conteúdo deve ser questionado à luz dos princípios constitucionais derivados do Estado Democrático de Direito).
+II. Podemos, então, afirmar que do Estado Democrático de Direito parte o princípio da dignidade humana, orientando toda a formação do Direito Penal. Qualquer construção típica, cujo conteúdo contrariar e afrontar a dignidade humana será materialmente inconstitucional, posto que atentatória ao próprio fundamento da existência de nosso Estado.
+III. Assim, considerando a aplicação do princípio da legalidade, para a caracterização do crime de calúnia, é imprescindível a imputação falsa de fato determinado e definido na lei como crime ou contravenção penal.
+IV. Os princípios da legalidade e anterioridade são os principais alicerces de manutenção da segurança jurídica num Estado Democrático de Direito, pois se tratam de obstáculos à intervenção estatal na esfera de liberdade do indivíduo. É uma conquista de cunho político, uma proteção ao cidadão. Dessa forma, não poderá o Estado atuar de forma absoluta ou arbitrária, tendo o seu poder punitivo limitado ao direito positivo.
+V. O princípio da legalidade não veda o uso da analogia *in malam partem*, pois se admite o emprego de analogia para normas incriminadoras, desde que haja lacunas na lei em questão e disposição legal relativa a um caso semelhante.
+*** A) - Apenas as assertivas I, II e III são verdadeiras.
+*** B) - Apenas as assertivas I, II e IV são verdadeiras.
+*** C) - Apenas as assertivas II, IV e V são verdadeiras.
+*** D) - Apenas as assertivas II, III e IV são verdadeiras.
+*** E) - Apenas as alternativas II, III e V são verdadeiras.
+**** Gabarito: B
+-----
+* Ano: 2015 | Banca: CESPE / CEBRASPE | Órgão: TJ-DFT | Prova: CESPE - 2015 - TJ-DFT - Técnico Judiciário - Administrativa
+** Acerca do crime e da aplicação da lei penal no tempo e no espaço, julgue o item que se segue.
+Sob o prisma formal, crime corresponde à concepção do direito acerca do delito, em uma visão legislativa do fenômeno; sob o prisma material, o conceito de crime é pré-jurídico, ou seja, é a concepção da sociedade a respeito do que pode e deve ser proibido.
+*** A) - Certo
+*** B) - Errado
+**** Gabarito: A
+-----
+* Ano: 2015 | Banca: CESPE / CEBRASPE | Órgão: TRE-MT | Prova: CESPE - 2015 - TRE-MT - Analista Judiciário - Judiciária
+** Com relação às fontes e aos princípios de direito penal, bem como à aplicação e interpretação da lei penal no tempo e no espaço, assinale a opção correta.
+*** A) - No Código Penal brasileiro, adota-se, com relação ao tempo do crime, a teoria da ubiquidade.
+*** B) - A lei penal brasileira aplica-se ao crime perpetrado no interior de navio de guerra de pavilhão pátrio, ainda que em mar territorial estrangeiro, dado o princípio da territorialidade.
+*** C) - Segundo a doutrina majoritária, os costumes e os princípios gerais do direito são fontes formais imediatas do direito penal.
+*** D) - Dado o princípio da legalidade estrita, é proibido o uso de analogia em direito penal.
+*** E) - Dada a ampla margem de escolha atribuída ao legislador no que se refere à tipificação dos crimes e cominações de pena, é-lhe permitido tipificar crimes de perigo abstrato e criminalizar atitudes internas das pessoas, como orientações sexuais.
+**** Gabarito: B
+-----
+* Ano: 2015 | Banca: FCC | Órgão: DPE-MA | Prova: FCC - 2015 - DPE-MA - Defensor Público
+** Identifica-se a aplicação do *direito penal do autor em detrimento ao direito penal do fato* nas seguintes disposições legais:
+*** A) - Regime de cumprimento de pena e reincidência.
+*** B) - Fixação da pena, regime de cumprimento da pena e espécies de sanção.
+*** C) - Concurso material de delitos, concurso formal de delitos e crime continuado.
+*** D) - Fixação da pena e concurso de crimes.
+*** E) - *Aberratio ictus*, resultado diverso do pretendido, espécies de sanção.
+**** Gabarito: B
+-----
+* Ano: 2015 | Banca: CESPE / CEBRASPE | Órgão: TJ-PB | Prova: CESPE - 2015 - TJ-PB - Juiz Substituto
+** Acerca dos princípios e fontes do direito penal, assinale a opção correta.
+*** A) - Segundo a jurisprudência do STJ, o princípio da insignificância deve ser aplicado a casos de furto qualificado em que o prejuízo da vítima tenha sido mínimo.
+*** B) - Conforme entendimento do STJ, o princípio da adequação social justificaria o arquivamento de inquérito policial instaurado em razão da venda de CDs e DVDs.
+*** C) - Depreende-se do princípio da lesividade que a autolesão, via de regra, não é punível.
+*** D) - Depreende-se da aplicação do princípio da insignificância a determinado caso que a conduta em questão é formal e materialmente atípica.
+*** E) - As medidas provisórias podem regular matéria penal nas hipóteses de leis temporárias ou excepcionais.
+**** Gabarito: C
+-----
+* Ano: 2014 | Banca: FUNCAB | Órgão: PC-RO | Prova: FUNCAB - 2014 - PC-RO - Datiloscopista Policial
+** É correto afirmar que a coação física irresistível exclui:
+*** A) - a culpabilidade.
+*** B) - o potencial de consciência da ilicitude.
+*** C) - a imputabilidade.
+*** D) - o fato típico.
+*** E) - a ilicitude.
+**** Gabarito: D
+-----
+* Ano: 2014 | Banca: FUNCAB | Órgão: PC-RO | Prova: FUNCAB - 2014 - PC-RO - Escrivão de Polícia Civil
+** De acordo com a doutrina, os delitos que dependem da ocorrência de um resultado naturalístico para sua consumação são conhecidos como crimes:
+*** A) - formais.
+*** B) - unissubsistentes.
+*** C) - de mera conduta.
+*** D) - materiais.
+*** E) - plurissubsistentes.
+**** Gabarito: D
+-----
+* Ano: 2014 | Banca: FUNCAB | Órgão: PC-RO | Prova: FUNCAB - 2014 - PC-RO - Escrivão de Polícia Civil
+** De acordo com o conceito analítico de crime, é um dos elementos do fato típico:
+*** A) - imputabilidade.
+*** B) - conduta.
+*** C) - exigibilidade de conduta diversa.
+*** D) - exercício regular de um direito.
+*** E) - potencial consciência da ilicitude.
+**** Gabarito: B
+-----
+* Ano: 2014 | Banca: CESPE / CEBRASPE | Órgão: Câmara dos Deputados | Prova: CESPE - 2014 - Câmara dos Deputados - Analista Legislativo - Consultor Legislativo Área XI
+** No que diz respeito a noções gerais aplicadas no âmbito do direito penal, julgue o próximo item.
+Conforme jurisprudência assente do STF, o princípio da insignificância descaracteriza a tipicidade penal em seu caráter material.
+*** A) - Certo
+*** B) - Errado
+**** Gabarito: A
+-----
+* Ano: 2014 | Banca: CESPE / CEBRASPE | Órgão: Câmara dos Deputados | Prova: CESPE - 2014 - Câmara dos Deputados - Analista Legislativo - Consultor Legislativo Área XI
+** No que diz respeito a noções gerais aplicadas no âmbito do direito penal, julgue o próximo item.
+O direito de punir do Estado está vinculado ao direito penal substantivo, ou direito penal objetivo.
+*** A) - Certo
+*** B) - Errado
+**** Gabarito: B
+-----
+* Ano: 2014 | Banca: CESPE / CEBRASPE | Órgão: Câmara dos Deputados | Prova: CESPE - 2014 - Câmara dos Deputados - Analista Legislativo - Consultor Legislativo Área XI
+** No que diz respeito a noções gerais aplicadas no âmbito do direito penal, julgue o próximo item.
+O direito penal subjetivo refere-se ao conjunto de princípios e regras que se ocupam da definição das infrações penais e da imposição de penas ou medidas de segurança.
+*** A) - Certo
+*** B) - Errado
+**** Gabarito: B
+-----
+* Ano: 2014 | Banca: CESPE / CEBRASPE | Órgão: Câmara dos Deputados | Prova: CESPE - 2014 - Câmara dos Deputados - Analista Legislativo - Consultor Legislativo Área XI
+** No que diz respeito a noções gerais aplicadas no âmbito do direito penal, julgue o próximo item.
+O direito penal vincula-se ao estudo dos valores fundamentais sobre os quais se assentam as bases da convivência e da paz social, dos fatos que os violam e do conjunto de normas jurídicas instauradas para proteger esses valores, mediante a imposição de penas e de medidas de segurança.
+*** A) - Certo
+*** B) - Errado
+**** Gabarito: A
+-----
+* Ano: 2014 | Banca: MPE-GO | Órgão: MPE-GO | Prova: MPE-GO - 2014 - MPE-GO - Promotor de Justiça Substituto
+** Em relação ao Direito Penal a Sociedade de Risco, marque a alternativa incorreta.
+*** A) - A vida em si é um risco e este, portanto, é inerente à condição humana. Entretanto, a transposição das ameaças internas e externas torna-se obrigatória para o aprimoramento das condições em que se estabelece a vida em sociedade. Segundo Ulrich Beck, as duas faces do risco – oportunidade e perigo – se converteram em tema durante a industrialização e a partir da navegação mercante internacional. Um tempo marcado pelas incertezas, inseguranças e grandes obstáculos ao desenvolvimento da civilização.
+*** B) - O risco decorre da colocação em uma situação intelectual que assuma projetivamente os resultados positivo e negativo. A situação de risco advém da contraposição da situação positiva de ausência de risco com sua antítese, a realização do risco considerado. O risco, portanto, é a possibilidade de que algo venha a macular o *status quo ante.*
+*** C) - O conceito de risco é semelhante ao de catástrofe, já que, pelos processos informativos atuais, o risco é realidade fática. Por exemplo, através da análise de dados específicos pode-se vislumbrar o maior risco da ocorrência de um grave problema ambiental (a 'catástrofe do risco').
+*** D) - A atuação da persecução penal do Estado é chamada a solucionar os conflitos decorrentes dessa sociedade de risco, em nome de uma segurança concreta, veloz e eficaz. O Direito Penal e o Direito Processual Penal, por vezes, passam a ser vistos como as soluções mágicas para o sentimento de insegurança da sociedade de risco. A adoção desse papel nas atividades persecutórias faz com que se crie um ambiente de valorização excessiva da intervenção estatal, o que pode caracterizar um Estado de prevenção, absolutamente incompatível com a ideia do modelo liberal e garantista.
+**** Gabarito: C
+-----
+* Ano: 2014 | Banca: CESPE / CEBRASPE | Órgão: Câmara dos Deputados | Prova: CESPE - 2014 - Câmara dos Deputados - Analista Legislativo - Consultor Legislativo Área XXII
+** Julgue o item subsequente, a respeito dos crimes militares e dos delitos em espécie previstos na parte especial do Código Penal.
+De acordo com a jurisprudência do STJ, a conduta do empresário que emite duplicata mercantil sem que esta corresponda à venda de mercadoria ou serviço prestado constitui fato atípico, pois a utilização da interpretação analógica *in malam partem* é vedada em direito penal.
+*** A) - Certo
+*** B) - Errado
+**** Gabarito: B
+-----
