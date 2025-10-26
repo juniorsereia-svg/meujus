@@ -125,10 +125,10 @@ Na doutrina e jurisprudência contemporâneas, predomina o entendimento de que a
 -----
 * Ano: 2011 | Banca: IESES | Órgão: TJ-MA
 ** É certo afirmar:
- --- I. A punibilidade é requisito do crime.
- --- II. Sob o aspecto formal crime é um fato atípico e antijurídico.
- --- III. Não basta que o fato seja típico para que exista crime. É preciso que seja contrário ao direito, que seja antijurídico.
- --- IV. Pressupostos do crime são circunstâncias jurídicas anteriores à execução do fato, positivas ou negativas, a cuja existência ou inexistência é condicionada a configuração do título delitivo de que se trata.
+ •• I. A punibilidade é requisito do crime.
+ •• I•• I. Sob o aspecto formal crime é um fato atípico e antijurídico.
+ •• I•• I•• I. Não basta que o fato seja típico para que exista crime. É preciso que seja contrário ao direito, que seja antijurídico.
+ •• IV. Pressupostos do crime são circunstâncias jurídicas anteriores à execução do fato, positivas ou negativas, a cuja existência ou inexistência é condicionada a configuração do título delitivo de que se trata.
 Analisando as proposições, pode-se afirmar:
 *** A) Somente as proposições I e II estão corretas.
 *** B) Somente as proposições III e IV estão corretas.
@@ -187,7 +187,7 @@ Os crimes omissivos próprios são previstos em tipos penais específicos e depe
 ****** Sistemas Penais, Conceito de Crime
 -----
 * Ano: 2010 | Banca: TRT 15R | Órgão: TRT - 15ª Região (SP)
-** Cada alternativa possui duas afirmações ("1" e "2") relacionadas ou não entre si. Marque a alternativa em que as duas afirmações sejam corretas:
+** Cada alternativa possui duas afirmações ("1" e "2") relacionadas ou não entre s•• I. Marque a alternativa em que as duas afirmações sejam corretas:
 *** A) 1. Considera-se tentado o crime quando, iniciada a execução, não se consuma por circunstâncias alheias à vontade do agente. 2. Salvo disposição em contrário, pune-se a tentativa com a pena correspondente ao crime consumado,diminuida pela metade.
 *** B) 1. A legislação não faz diferença entre tentativa perfeita e imperfeita no que se refere à aplicação da pena em abstrato. 2. Todavia, quando da imposição da sanção em concreto, o magistrado deve considerar a ocorrência de uma ou de outra espécie de tentativa.
 *** C) 1. No regime aberto o condenado deverá, fora do estabelecimento e com vigilância, trabalhar, frequentar curso ou exercer outra atividade autorizada, permanecendo recolhido durante o período noturno e nos dias de folga. 2. O trabalho do preso será sempre remunerado, sendo-lhe garantidos os beneficios da Frevidência Social.
@@ -335,9 +335,9 @@ Diógenes desferiu, com *animus necandi*, golpes de faca em Jacó e fugiu do loc
 -----
 * Ano: 2010 | Banca: FGV | Órgão: SEAD-AP
 ** A respeito do crime de apropriação indébita envolvendo contribuições previdenciárias, analise as afirmativas a seguir.
-I. Constitui crime de apropriação indébita deixar de recolher aos cofres públicos valor de contribuição descontada dos funcionários da empresa.
-II. Deixar de repassar a parcela de contribuição devida pela própria empresa, não constitui crime de apropriação indébita.
-III. A ação penal por crime de apropriação indébita de contribuições previdenciárias, no entendimento seguido pela jurisprudência, conforme já reconhecido em decisão do Superior Tribunal de Justiça, não dispensa a demonstração do dolo específico, isto é, a efetiva intenção do sujeito ativo de utilizar os valores das contribuições recolhidas dos contribuintes em benefício próprio.
+•• I. Constitui crime de apropriação indébita deixar de recolher aos cofres públicos valor de contribuição descontada dos funcionários da empresa.
+•• I•• I. Deixar de repassar a parcela de contribuição devida pela própria empresa, não constitui crime de apropriação indébita.
+•• I•• I•• I. A ação penal por crime de apropriação indébita de contribuições previdenciárias, no entendimento seguido pela jurisprudência, conforme já reconhecido em decisão do Superior Tribunal de Justiça, não dispensa a demonstração do dolo específico, isto é, a efetiva intenção do sujeito ativo de utilizar os valores das contribuições recolhidas dos contribuintes em benefício próprio.
 Assinale:
 *** A) se somente a afirmativa I estiver correta.
 *** B) se somente as afirmativas I e II estiverem corretas.
@@ -349,10 +349,10 @@ Assinale:
 -----
 * Ano: 2010 | Banca: FGV | Órgão: SEAD-AP
 ** Analise as proposições a seguir.
-** I. O exame do direito positivo é a metodologia indicada para promover a distinção entre crime e contravenção penal posto que não há diferença ontológica entre ambos.
-** II. Segundo dispõe o legislador penal, crime é a infração penal a que a lei comina pena de reclusão ou de detenção, quer isoladamente, quer alternativa ou cumulativamente com a pena de multa; contravenção é a infração penal a que a lei comina, isoladamente, pena de prisão simples ou multa, ou ambas, alternativa ou cumulativamente.
-** III. No direito penal pátrio a expressão crime é tida como gênero, do qual são espécies as contravenções penais e os delitos.
-** IV. A diferença entre ilícito civil e ilícito penal é que o primeiro gera a imposição de uma pena, que pode até chegar ao extremo de privação da liberdade do agente; já o segundo tem como consequência a obrigação de reparar o dano, primordialmente.
+** •• I. O exame do direito positivo é a metodologia indicada para promover a distinção entre crime e contravenção penal posto que não há diferença ontológica entre ambos.
+** •• I•• I. Segundo dispõe o legislador penal, crime é a infração penal a que a lei comina pena de reclusão ou de detenção, quer isoladamente, quer alternativa ou cumulativamente com a pena de multa; contravenção é a infração penal a que a lei comina, isoladamente, pena de prisão simples ou multa, ou ambas, alternativa ou cumulativamente.
+** •• I•• I•• I. No direito penal pátrio a expressão crime é tida como gênero, do qual são espécies as contravenções penais e os delitos.
+** •• IV. A diferença entre ilícito civil e ilícito penal é que o primeiro gera a imposição de uma pena, que pode até chegar ao extremo de privação da liberdade do agente; já o segundo tem como consequência a obrigação de reparar o dano, primordialmente.
 ** Assinale:
 *** A) se somente as proposições III e IV estiverem corretas.
 *** B) se somente as proposições I e II estiverem corretas.
@@ -506,10 +506,10 @@ Assinale:
 -----
 * Ano: 2009 | Banca: FCC | Órgão: DPE-MT
 ** O agente iniciou a execução de um delito, cuja consumação não ocorreu pela:
-** I. Ineficácia relativa do meio empregado.
-** II. Impropriedade absoluta do objeto.
-** III. Reação da vítima.
-** IV. Ineficácia absoluta do meio empregado.
+** •• I. Ineficácia relativa do meio empregado.
+** •• I•• I. Impropriedade absoluta do objeto.
+** •• I•• I•• I. Reação da vítima.
+** •• IV. Ineficácia absoluta do meio empregado.
 ** V. Impropriedade relativa do objeto.
 ** Haverá tentativa punível na(s) hipótese(s) indicada(s) SOMENTE em:
 *** A) I, III e V.
@@ -600,9 +600,9 @@ Todo crime tem resultado jurídico, porque sempre agride um bem tutelado pela no
 -----
 * Ano: 2009 | Banca: FGV | Órgão: TJ-PA
 ** Com relação aos crimes contra a liberdade sexual, analise as afirmativas a seguir.
-I. São formas qualificadas dos crimes contra a liberdade sexual aqueles em que há violência e desta violência resulta lesão corporal de natureza grave ou morte.
-II. Nos crimes contra a liberdade sexual, somente se procede mediante queixa. Mas se o crime é praticado com violência ou ameaça, a ação penal é pública, condicionada à representação.
-III. Nos crimes contra a liberdade sexual, se o crime é cometido com abuso do pátrio poder, a ação penal é pública incondicionada.
+•• I. São formas qualificadas dos crimes contra a liberdade sexual aqueles em que há violência e desta violência resulta lesão corporal de natureza grave ou morte.
+•• I•• I. Nos crimes contra a liberdade sexual, somente se procede mediante queixa. Mas se o crime é praticado com violência ou ameaça, a ação penal é pública, condicionada à representação.
+•• I•• I•• I. Nos crimes contra a liberdade sexual, se o crime é cometido com abuso do pátrio poder, a ação penal é pública incondicionada.
 Assinale:
 *** A) se nenhuma afirmativa estiver correta.
 *** B) se somente as afirmativas I e II estiverem corretas
@@ -614,9 +614,9 @@ Assinale:
 -----
 * Ano: 2009 | Banca: FGV | Órgão: TJ-PA
 ** Com relação ao crime organizado, analise as afirmativas a seguir.
- --- I. A lei 9.034/95, que dispõe sobre a utilização de meios operacionais para a prevenção e repressão de ações praticadas por organizações criminosas, não se aplica às ações praticadas por quadrilha ou bando, apenas às ações praticadas por organizações criminosas.
- --- II. Os condenados por crimes decorrentes de organização criminosa iniciarão o cumprimento da pena em regime fechado.
- --- III. Na apuração de crimes praticados por organizações criminosas, em qualquer fase de persecução criminal, são permitidos, sem prejuízo dos já previstos em lei, os seguintes procedimentos de investigação e formação de provas: ação controlada; captação e interceptação ambiental; infiltração por agentes de polícia.
+ •• I. A lei 9.034/95, que dispõe sobre a utilização de meios operacionais para a prevenção e repressão de ações praticadas por organizações criminosas, não se aplica às ações praticadas por quadrilha ou bando, apenas às ações praticadas por organizações criminosas.
+ •• I•• I. Os condenados por crimes decorrentes de organização criminosa iniciarão o cumprimento da pena em regime fechado.
+ •• I•• I•• I. Na apuração de crimes praticados por organizações criminosas, em qualquer fase de persecução criminal, são permitidos, sem prejuízo dos já previstos em lei, os seguintes procedimentos de investigação e formação de provas: ação controlada; captação e interceptação ambiental; infiltração por agentes de polícia.
 ** Assinale:
 *** A) se nenhuma afirmativa estiver correta.
 *** B) se somente as afirmativas II e III estiverem corretas.
@@ -884,7 +884,7 @@ O crime de lesão corporal seguida de morte é preterdoloso, havendo dolo na con
 ****** Conceito de Crime
 -----
 * Ano: 2008 | Banca: FGV | Órgão: Senado Federal
-** Relativamente ao Direito Penal Brasileiro, analise as afirmativas a seguir: --- I. Os crimes unissubsistentes, habituais próprios, comissivos e permanentes na forma omissiva não admitem tentativa. --- II. Considera-se desistência voluntária ou arrependimento posterior a conduta do agente que, depois de consumado o crime, repara o dano causado respondendo o agente somente pelos fatos praticados. --- III. Considera-se impossível o crime quando o meio utilizado pelo agente é relativamente incapaz de alcançar o resultado. --- IV. Nos crimes tentados, aplica-se a pena do crime consumado reduzindo-a de 1/3 a 2/3, ao passo que no arrependimento eficaz se aplica a pena do crime consumado reduzindo-a de 1/6 a 1/3. Assinale:
+** Relativamente ao Direito Penal Brasileiro, analise as afirmativas a seguir: •• I. Os crimes unissubsistentes, habituais próprios, comissivos e permanentes na forma omissiva não admitem tentativa. •• I•• I. Considera-se desistência voluntária ou arrependimento posterior a conduta do agente que, depois de consumado o crime, repara o dano causado respondendo o agente somente pelos fatos praticados. •• I•• I•• I. Considera-se impossível o crime quando o meio utilizado pelo agente é relativamente incapaz de alcançar o resultado. •• IV. Nos crimes tentados, aplica-se a pena do crime consumado reduzindo-a de 1/3 a 2/3, ao passo que no arrependimento eficaz se aplica a pena do crime consumado reduzindo-a de 1/6 a 1/3. Assinale:
 *** A) se apenas as afirmativas I e II estiverem corretas.
 *** B) se apenas as afirmativas I e III estiverem corretas.
 *** C) se apenas as afirmativas I e IV estiverem corretas.
@@ -1032,7 +1032,7 @@ O crime de lesão corporal seguida de morte é preterdoloso, havendo dolo na con
 ****** Conceito de Crime
 -----
 * Ano: 2007 | Banca: PUC-PR | Órgão: TRT - 9ª REGIÃO (PR)
-** Considere as seguintes proposições: --- I. Age com dolo direto o chefe de seção de empresa que, para agilizar a produção, retira de máquina dispositivo de segurança que sabe ser necessário para evitar acidentes. --- II. São elementos do crime culposo a conduta; a inobservância do dever de cuidado objetivo; o resultado lesivo involuntário e a tipicidade, sendo irrelevante a previsibilidade. --- III. No crime de assédio sexual, o fato de o agente prevalecer-se de sua condição de superior hierárquico ou ascendência com relação ao ofendido é circunstância que agrava a pena. --- IV. Se o empregado comete crime em estrita obediência a ordem, não manifestamente ilegal, de superior hierárquico, essa circunstância atenua a pena. ** Assinale a alternativa correta:
+** Considere as seguintes proposições: •• I. Age com dolo direto o chefe de seção de empresa que, para agilizar a produção, retira de máquina dispositivo de segurança que sabe ser necessário para evitar acidentes. •• I•• I. São elementos do crime culposo a conduta; a inobservância do dever de cuidado objetivo; o resultado lesivo involuntário e a tipicidade, sendo irrelevante a previsibilidade. •• I•• I•• I. No crime de assédio sexual, o fato de o agente prevalecer-se de sua condição de superior hierárquico ou ascendência com relação ao ofendido é circunstância que agrava a pena. •• IV. Se o empregado comete crime em estrita obediência a ordem, não manifestamente ilegal, de superior hierárquico, essa circunstância atenua a pena. ** Assinale a alternativa correta:
 *** A) Todas as proposições estão corretas;
 *** B) Apenas as proposições I, III e IV estão corretas;
 *** C) Apenas as proposições I, II e IV estão corretas;
@@ -1112,7 +1112,7 @@ O crime de lesão corporal seguida de morte é preterdoloso, havendo dolo na con
 ****** Conceito de Crime
 -----
 * Ano: 2006 | Banca: FCC | Órgão: DPE-SP
-** Considere as afirmações: --- I. No Estado democrático de direito é dada especial relevância à noção de que o direito penal tem como missão a proteção de bens jurídicos e se considera que o conceito de bem jurídico tem por função legitimar e delimitar o poder punitivo estatal. --- II. O poder legiferante penal independe dos bens jurídicos postos na Constituição Federal para determinar quais serão os bens tutelados. --- III. Só se legitima a intervenção penal nos casos em que a conduta possa colocar em grave risco ou lesionar bem jurídico relevante. SOMENTE está correto o que se afirma em
+** Considere as afirmações: •• I. No Estado democrático de direito é dada especial relevância à noção de que o direito penal tem como missão a proteção de bens jurídicos e se considera que o conceito de bem jurídico tem por função legitimar e delimitar o poder punitivo estatal. •• I•• I. O poder legiferante penal independe dos bens jurídicos postos na Constituição Federal para determinar quais serão os bens tutelados. •• I•• I•• I. Só se legitima a intervenção penal nos casos em que a conduta possa colocar em grave risco ou lesionar bem jurídico relevante. SOMENTE está correto o que se afirma em
 *** A) I.
 *** B) II.
 *** C) III.
@@ -1152,7 +1152,7 @@ O crime de lesão corporal seguida de morte é preterdoloso, havendo dolo na con
 ****** Conceito de Crime
 -----
 * Ano: 2005 | Banca: PGR | Órgão: PGR
-** CRIME É CONDUTA TÍPICA, ANTIJURÍDICA E CULPÁVEL. A PARTIR DESTA DEFINiÇÃO ESTRATIFORME DO DELITO LEMBRA-SE O PRINCÍPIO "*NULLUM CRIMEN SINE CONDUCTA*". ENTRETANTO, --- I. a conduta compreende o fato humano voluntário e o involuntário; --- II. a conduta envolve a ação e a omissão, mas esta só tem relevância quando o omitente devia e podia agir para evitar o resultado; --- III. a conduta atípica tem relevância no Direito Penal; --- IV. a conduta humana e relevante para se verificar a ocorrência do delito, pois tem validade absoluta a parêmia latina. "*societas delinquere non potest'*. ANALISANDO AS ASSERTIVAS ACIMA, PODE-SE AFIRMAR QUE:
+** CRIME É CONDUTA TÍPICA, ANTIJURÍDICA E CULPÁVEL. A PARTIR DESTA DEFINiÇÃO ESTRATIFORME DO DELITO LEMBRA-SE O PRINCÍPIO "*NULLUM CRIMEN SINE CONDUCTA*". ENTRETANTO, •• I. a conduta compreende o fato humano voluntário e o involuntário; •• I•• I. a conduta envolve a ação e a omissão, mas esta só tem relevância quando o omitente devia e podia agir para evitar o resultado; •• I•• I•• I. a conduta atípica tem relevância no Direito Penal; •• IV. a conduta humana e relevante para se verificar a ocorrência do delito, pois tem validade absoluta a parêmia latina. "*societas delinquere non potest'*. ANALISANDO AS ASSERTIVAS ACIMA, PODE-SE AFIRMAR QUE:
 *** A) ( ) estão corretas as de números I e ll;
 *** B) ( ) estao corretas as de números Il e lIl
 *** C) ( ) estão corretas as de números Ill e IV;
@@ -1162,7 +1162,7 @@ O crime de lesão corporal seguida de morte é preterdoloso, havendo dolo na con
 
 -----
 * Ano: 2024 | Banca: INSTITUTO AOCP | Órgão: TRF - 2ª REGIÃO
-** Acerca da teoria do crime, informe se é verdadeiro (V) ou falso (F) o que se afirma a seguir e assinale a alternativa com a sequência correta. ** ( ) Através dos ensinamentos da doutrina moderna, a tipicidade penal engloba a tipicidade formal e a tipicidade material, passando a permitir, por exemplo, o reconhecimento da insignificância como hipótese de atipicidade material. ** ( ) Quando, para configurar o delito, houver necessidade de uma norma de extensão, pode-se afirmar que se está diante de uma tipicidade mediata ou indireta. ** ( ) A teoria da tipicidade conglobante tem como consequência a transferência do estrito cumprimento de um dever legal e do exercício regular do direito da tipicidade para a ilicitude. ** ( ) A conduta de tentar matar alguém somente é punível graças ao disposto no Art. 14, II, do Código Penal. Assim, pode-se afirmar que a figura da tentativa é considerada uma norma de extensão temporal.
+** Acerca da teoria do crime, informe se é verdadeiro (V) ou falso (F) o que se afirma a seguir e assinale a alternativa com a sequência correta. •• ( ) Através dos ensinamentos da doutrina moderna, a tipicidade penal engloba a tipicidade formal e a tipicidade material, passando a permitir, por exemplo, o reconhecimento da insignificância como hipótese de atipicidade material. •• ( ) Quando, para configurar o delito, houver necessidade de uma norma de extensão, pode-se afirmar que se está diante de uma tipicidade mediata ou indireta. •• ( ) A teoria da tipicidade conglobante tem como consequência a transferência do estrito cumprimento de um dever legal e do exercício regular do direito da tipicidade para a ilicitude. •• ( ) A conduta de tentar matar alguém somente é punível graças ao disposto no Art. 14, II, do Código Penal. Assim, pode-se afirmar que a figura da tentativa é considerada uma norma de extensão temporal.
 *** A) V – V – F – F.
 *** B) F – V – F – F.
 *** C) V – V – F – V.
@@ -1230,7 +1230,7 @@ O crime de lesão corporal seguida de morte é preterdoloso, havendo dolo na con
 ****** Conceito de Crime
 -----
 * Ano: 2023 | Banca: FUNDEP (Gestão de Concursos) | Órgão: DPE-MG
-** Conforme Cláudio Brandão (2019): A culpabilidade é o único elemento que versa sobre a pessoa humana. Por isso já se disse, desde o século XIX, a partir da obra de Von Liszt, que o progresso do Direito Penal é medido pelo aperfeiçoamento da culpabilidade. BRANDÃO, Cláudio. Teoria Jurídica do Crime. Coleção Ciência Criminal Contemporânea. Coord. Cláudio Brandão. Belo Horizonte: Editora D’Plácido, 2019, p. 216. Sobre esse elemento do crime, analise as afirmativas a seguir. --- I. Para a teoria finalista, a culpabilidade é um juízo normativo que reprova o autor de um fato típico e antijurídico, quando se verificam concomitantemente a potencial consciência de antijuridicidade, a imputabilidade e a exigibilidade de outra conduta. --- II. Cometer o fato sob coação moral irresistível ou em estrita obediência à ordem de superior hierárquico não manifestamente ilegal são hipóteses previstas no Código Penal de excludente de culpabilidade por inexigibilidade de conduta conforme o direito. --- III. A exclusão da culpabilidade por inexigibilidade de comportamento conforme o direito é admitida por significativa parcela da doutrina e jurisprudência, mesmo em hipóteses não previstas na legislação. --- IV. A culpabilidade pela vulnerabilidade, proposta por Zaffaroni, expressa a busca pela limitação da violência punitiva a partir da constatação de que o âmbito de autodeterminação dos agentes é diferente em razão das reais desigualdades. Estão corretas as afirmativas
+** Conforme Cláudio Brandão (2019): A culpabilidade é o único elemento que versa sobre a pessoa humana. Por isso já se disse, desde o século XIX, a partir da obra de Von Liszt, que o progresso do Direito Penal é medido pelo aperfeiçoamento da culpabilidade. BRANDÃO, Cláudio. Teoria Jurídica do Crime. Coleção Ciência Criminal Contemporânea. Coord. Cláudio Brandão. Belo Horizonte: Editora D’Plácido, 2019, p. 216. Sobre esse elemento do crime, analise as afirmativas a seguir. •• I. Para a teoria finalista, a culpabilidade é um juízo normativo que reprova o autor de um fato típico e antijurídico, quando se verificam concomitantemente a potencial consciência de antijuridicidade, a imputabilidade e a exigibilidade de outra conduta. •• I•• I. Cometer o fato sob coação moral irresistível ou em estrita obediência à ordem de superior hierárquico não manifestamente ilegal são hipóteses previstas no Código Penal de excludente de culpabilidade por inexigibilidade de conduta conforme o direito. •• I•• I•• I. A exclusão da culpabilidade por inexigibilidade de comportamento conforme o direito é admitida por significativa parcela da doutrina e jurisprudência, mesmo em hipóteses não previstas na legislação. •• IV. A culpabilidade pela vulnerabilidade, proposta por Zaffaroni, expressa a busca pela limitação da violência punitiva a partir da constatação de que o âmbito de autodeterminação dos agentes é diferente em razão das reais desigualdades. Estão corretas as afirmativas
 *** A) I, II, III e IV.
 *** B) I e III, apenas.
 *** C) I e II, apenas.
@@ -1240,7 +1240,7 @@ O crime de lesão corporal seguida de morte é preterdoloso, havendo dolo na con
 ****** Sistemas Penais, Conceito de Crime
 -----
 * Ano: 2023 | Banca: FUNDEP (Gestão de Concursos) | Órgão: DPE-MG
-** Sobre a teoria do crime, analise as afirmativas a seguir. --- I. O Código Penal brasileiro trouxe o conceito de crime, mas deixou para a doutrina a tarefa de regular o nexo de causalidade, sendo atualmente mais aceita a teoria da causalidade adequada. --- II. A norma penal não se confunde com o tipo penal, mas é uma decorrência lógica que é extraída do tipo. A antinormatividade é a contradição da conduta com a norma proibitiva e a antijuridicidade é a contrariedade dessa conduta com o ordenamento jurídico, no qual se complementam normas proibitivas com permissivas. --- III. Na esteira de Roxin, a teoria da imputação objetiva cria um elo normativo que serve de limitação ao poder punitivo do Estado, na medida em que a imputação ao tipo objetivo pressupõe a realização de um perigo criado pelo autor e não coberto por um risco permitido. --- IV. O erro sobre elemento constitutivo do tipo legal de crime exclui o dolo, mas permite a punição por crime culposo, se necessariamente previsto em lei. V. A teoria do domínio do fato resolve problemas de delimitação probatória na medida que, pela escala hierárquica, torna-se possível presumir a ciência de determinados agentes sobre o delito praticado por subalternos. Estão corretas as afirmativas
+** Sobre a teoria do crime, analise as afirmativas a seguir. •• I. O Código Penal brasileiro trouxe o conceito de crime, mas deixou para a doutrina a tarefa de regular o nexo de causalidade, sendo atualmente mais aceita a teoria da causalidade adequada. •• I•• I. A norma penal não se confunde com o tipo penal, mas é uma decorrência lógica que é extraída do tipo. A antinormatividade é a contradição da conduta com a norma proibitiva e a antijuridicidade é a contrariedade dessa conduta com o ordenamento jurídico, no qual se complementam normas proibitivas com permissivas. •• I•• I•• I. Na esteira de Roxin, a teoria da imputação objetiva cria um elo normativo que serve de limitação ao poder punitivo do Estado, na medida em que a imputação ao tipo objetivo pressupõe a realização de um perigo criado pelo autor e não coberto por um risco permitido. •• IV. O erro sobre elemento constitutivo do tipo legal de crime exclui o dolo, mas permite a punição por crime culposo, se necessariamente previsto em le•• I. V. A teoria do domínio do fato resolve problemas de delimitação probatória na medida que, pela escala hierárquica, torna-se possível presumir a ciência de determinados agentes sobre o delito praticado por subalternos. Estão corretas as afirmativas
 *** A) I, II e III, apenas.
 *** B) I e V, apenas
 *** C) II, III e IV, apenas.
@@ -1476,7 +1476,7 @@ O crime de lesão corporal seguida de morte é preterdoloso, havendo dolo na con
 ****** Conceito de Crime
 -----
 * Ano: 2022 | Banca: FCC | Órgão: MPE-PE
-** O Código Penal estabelece que a omissão é penalmente relevante quando o omitente devia e podia agir para evitar o resultado. Sobre a relevância da omissão, o dever de agir incumbe a quem --- I. tenha por lei obrigação de cuidado, proteção ou vigilância. --- II. tenha assumido a responsabilidade de impedir o resultado. --- III. criou, com seu comportamento anterior, o risco da ocorrência do resultado. --- IV. impede que o resultado se produza. Está correto o que se afirma APENAS em
+** O Código Penal estabelece que a omissão é penalmente relevante quando o omitente devia e podia agir para evitar o resultado. Sobre a relevância da omissão, o dever de agir incumbe a quem •• I. tenha por lei obrigação de cuidado, proteção ou vigilância. •• I•• I. tenha assumido a responsabilidade de impedir o resultado. •• I•• I•• I. criou, com seu comportamento anterior, o risco da ocorrência do resultado.  impede que o resultado se produza. Está correto o que se afirma APENAS em
 *** A) I e II.
 *** B) I, II e III.
 *** C) I, II e IV.
@@ -1644,7 +1644,7 @@ O crime de lesão corporal seguida de morte é preterdoloso, havendo dolo na con
 ****** Sistemas Penais, Conceito de Crime
 -----
 * Ano: 2019 | Banca: MPE-GO | Órgão: MPE-GO
-** Analise as proposições seguintes e assinale a alternativa correta: --- I - Jesús-María Silva Sánchez fala em Direito Penal de “duas velocidades”. Segundo o referido autor, há um a primeira velocidade, representada pelo Direito Penal “da prisão” , na qual haver-se-iam de manter rigidamente os princípios político-criminais clássicos, as regras de imputação e os princípios processuais. A segunda velocidade, por sua vez, estaria relacionada aos casos em que, por não se tratar de prisão, mas de penas de privação de direitos ou pecuniárias, aqueles princípios e regras poderiam experimentar um a flexibilização proporcional a menor intensidade da sanção. --- II - Na medida em que o Direito Penal nazista era entendido como um instrumento de luta contra os infiéis à com unidade do povo e que a violação de um dever era o conteúdo material do crime, era lógico que o centro de gravidade para o exercício do poder punitivo tinha de passar a ser a “vontade contrária ao Direito” , e não mais o “ resultado proibido” . Nesse contexto foi concebido o “Direito Penal da vontade” , construção teórica marcante do Direito Penal nazista, sendo Roland Freisler um de seus principais expoentes. Essa concepção baseada na vontade permitiu a expansão do poder punitivo a níveis que um a dogmática atrelada a resultados de dano a bens jurídicos não admitia, já que ensejou uma profusa criminalização dos perigos abstratos. Além do mais, tal concepção também defendia que a tentativa tivesse a mesma pena do crime consumado. --- III - Para Günther Jakobs a função do Direito Penal é tutelar a vigência da norma. Quando o infrator comete um crime ele rompe com as expectativas normativas. A pena, assim, tem como função restabelecer a vigência da norma e demonstrar para a sociedade que ela pode seguir confiando no sistema normativo (estabilização das expectativas normativas). --- IV - Winfried Hassemer, da chamada “Escola Penal de Frankfurt”, observa que o Direito Penal Moderno, procurando minimizar a insegurança oriunda de uma sociedade de riscos, tem se tornado um instrumento em busca do controle dos grandes problemas da sociedade atual, como a proteção ao meio ambiente, da saúde pública, da ordem econômica, dentre outros. Assim, com o intuito de frear essa tendência de expansão do Direito Penal e com o objetivo de permitir a atuação do Direito Penal em relação aos tipos penais tradicionais, consubstanciados pelo núcleo básico de bens jurídicos individuais, propõe um “Direito de Intervenção” , situado entre o Direito Penal e o Direito Administrativo, que teria por finalidade controlar e inibir os riscos oriundos das novas tecnologias e do desenvolvimento econômico contemporâneo, por meio da proibição de condutas perigosas e da proteção de bens jurídicos coletivos. Esse “Direito de Intervenção”, segundo Hassemer, poderia contar com garantias e formalidades mais flexíveis e menos exigentes, mas também seria provido com sanções menos intensas contra o indivíduo.
+** Analise as proposições seguintes e assinale a alternativa correta: I - Jesús-María Silva Sánchez fala em Direito Penal de “duas velocidades”. Segundo o referido autor, há um a primeira velocidade, representada pelo Direito Penal “da prisão” , na qual haver-se-iam de manter rigidamente os princípios político-criminais clássicos, as regras de imputação e os princípios processuais. A segunda velocidade, por sua vez, estaria relacionada aos casos em que, por não se tratar de prisão, mas de penas de privação de direitos ou pecuniárias, aqueles princípios e regras poderiam experimentar um a flexibilização proporcional a menor intensidade da sanção. II - Na medida em que o Direito Penal nazista era entendido como um instrumento de luta contra os infiéis à com unidade do povo e que a violação de um dever era o conteúdo material do crime, era lógico que o centro de gravidade para o exercício do poder punitivo tinha de passar a ser a “vontade contrária ao Direito” , e não mais o “ resultado proibido” . Nesse contexto foi concebido o “Direito Penal da vontade” , construção teórica marcante do Direito Penal nazista, sendo Roland Freisler um de seus principais expoentes. Essa concepção baseada na vontade permitiu a expansão do poder punitivo a níveis que um a dogmática atrelada a resultados de dano a bens jurídicos não admitia, já que ensejou uma profusa criminalização dos perigos abstratos. Além do mais, tal concepção também defendia que a tentativa tivesse a mesma pena do crime consumado. III - Para Günther Jakobs a função do Direito Penal é tutelar a vigência da norma. Quando o infrator comete um crime ele rompe com as expectativas normativas. A pena, assim, tem como função restabelecer a vigência da norma e demonstrar para a sociedade que ela pode seguir confiando no sistema normativo (estabilização das expectativas normativas). IV - Winfried Hassemer, da chamada “Escola Penal de Frankfurt”, observa que o Direito Penal Moderno, procurando minimizar a insegurança oriunda de uma sociedade de riscos, tem se tornado um instrumento em busca do controle dos grandes problemas da sociedade atual, como a proteção ao meio ambiente, da saúde pública, da ordem econômica, dentre outros. Assim, com o intuito de frear essa tendência de expansão do Direito Penal e com o objetivo de permitir a atuação do Direito Penal em relação aos tipos penais tradicionais, consubstanciados pelo núcleo básico de bens jurídicos individuais, propõe um “Direito de Intervenção” , situado entre o Direito Penal e o Direito Administrativo, que teria por finalidade controlar e inibir os riscos oriundos das novas tecnologias e do desenvolvimento econômico contemporâneo, por meio da proibição de condutas perigosas e da proteção de bens jurídicos coletivos. Esse “Direito de Intervenção”, segundo Hassemer, poderia contar com garantias e formalidades mais flexíveis e menos exigentes, mas também seria provido com sanções menos intensas contra o indivíduo.
 *** A) São corretos os itens I, II, III e IV.
 *** B) São corretos os itens I, III e IV.
 *** C) São corretos os itens II e III.
@@ -1761,7 +1761,7 @@ O crime de lesão corporal seguida de morte é preterdoloso, havendo dolo na con
 ****** Conceito de Crime
 -----
 * Ano: 2018 | Banca: IESES | Órgão: TJ-CE
-** É certo afirmar: --- I. A finalidade do conceito analítico do crime é a análise dos seus caracteres e elementos, por isso seu foco são os elementos ou requisitos do delito, onde é entendido como conduta típica, antijurídica e culpável (conceito tripartido, teoria clássica ou tridimensional), ou apenas conduta típica e antijurídica, ou ainda, como fato típico, antijurídico e punível abstratamente. --- II. Trata-se de concurso formal quando o agente, mediante mais de uma ação ou omissão, pratica dois ou mais crimes, idênticos ou não, aplicam-se cumulativamente as penas privativas de liberdade em que haja incorrido. No caso de aplicação cumulativa de penas de reclusão e de detenção, executa-se primeiro aquela. --- III. Na fixação da pena de multa o juiz deve atender, principalmente, à situação social do réu. --- IV. A continuidade temporal e espacial não é um requisito invariável do delito continuado, mas pode ser um indício da continuidade. Analisando as proposições, pode-se afirmar:
+** É certo afirmar: •• I. A finalidade do conceito analítico do crime é a análise dos seus caracteres e elementos, por isso seu foco são os elementos ou requisitos do delito, onde é entendido como conduta típica, antijurídica e culpável (conceito tripartido, teoria clássica ou tridimensional), ou apenas conduta típica e antijurídica, ou ainda, como fato típico, antijurídico e punível abstratamente. •• I•• I. Trata-se de concurso formal quando o agente, mediante mais de uma ação ou omissão, pratica dois ou mais crimes, idênticos ou não, aplicam-se cumulativamente as penas privativas de liberdade em que haja incorrido. No caso de aplicação cumulativa de penas de reclusão e de detenção, executa-se primeiro aquela. •• I•• I•• I. Na fixação da pena de multa o juiz deve atender, principalmente, à situação social do réu. •• IV. A continuidade temporal e espacial não é um requisito invariável do delito continuado, mas pode ser um indício da continuidade. Analisando as proposições, pode-se afirmar:
 *** A) Somente as proposições I e IV estão corretas.
 *** B) Somente as proposições II e III estão corretas.
 *** C) Somente as proposições I e III estão corretas.
@@ -1770,7 +1770,7 @@ O crime de lesão corporal seguida de morte é preterdoloso, havendo dolo na con
 ****** Conceito de Crime
 -----
 * Ano: 2018 | Banca: IESES | Órgão: TJ-CE
-** É certo afirmar: --- I. Mesmo nos crimes cometidos com violência ou grave ameaça à pessoa, reparado o dano ou restituída a coisa, até o recebimento da denúncia ou da queixa, por ato voluntário do agente, a pena será reduzida de um a dois terços. É o que o Código Penal define como “arrependimento posterior”. --- II. Chama-se “teoria do delito” à parte da ciência do direito penal que se ocupa de explicar o que é o delito em geral, isto é, quais são as características que deve ter qualquer delito. --- III. A emoção ou a paixão excluem a imputabilidade penal. --- IV. Preterdoloso é o crime onde o resultado final é mais grave do que o pretendido pelo agente. Analisando as proposições, pode-se afirmar:
+** É certo afirmar: •• I. Mesmo nos crimes cometidos com violência ou grave ameaça à pessoa, reparado o dano ou restituída a coisa, até o recebimento da denúncia ou da queixa, por ato voluntário do agente, a pena será reduzida de um a dois terços. É o que o Código Penal define como “arrependimento posterior”. •• I•• I. Chama-se “teoria do delito” à parte da ciência do direito penal que se ocupa de explicar o que é o delito em geral, isto é, quais são as características que deve ter qualquer delito. •• I•• I•• I. A emoção ou a paixão excluem a imputabilidade penal. •• IV. Preterdoloso é o crime onde o resultado final é mais grave do que o pretendido pelo agente. Analisando as proposições, pode-se afirmar:
 *** A) Somente as proposições I e II estão corretas.
 *** B) Somente as proposições II e IV estão corretas.
 *** C) Somente as proposições I e III estão corretas.
@@ -1829,7 +1829,7 @@ O crime de lesão corporal seguida de morte é preterdoloso, havendo dolo na con
 ****** Sistemas Penais, Conceito de Crime
 -----
 * Ano: 2017 | Banca: Fundação CEFETBAHIA | Órgão: Prefeitura de Irecê - BA
-** Considerando as disposições do Código Penal Brasileiro sobre a Teoria do Delito, analise as assertivas e identifique com V as verdadeiras e com F as falsas. ** ( ) O crime considera-se praticado no momento da ação ou omissão, ainda que outro seja o momento do resultado. ** ( ) O agente que, voluntariamente, desiste de prosseguir na execução ou impede que o resultado se produza, só responde pelos atos já praticados. ** ( ) Não se pune o exaurimento quando, por ineficácia relativa do meio ou por impropriedade completa do objeto, é impossível executar os atos preparatórios. ** ( ) A pena não será reduzida, se o inimputável, em virtude de perturbação de saúde mental ou por desenvolvimento mental incompleto ou retardado, não era inteiramente capaz de entender o caráter ilícito do fato ou de determinar-se de acordo com o direito. A alternativa que contém a sequência correta, de cima pra baixo, é
+** Considerando as disposições do Código Penal Brasileiro sobre a Teoria do Delito, analise as assertivas e identifique com V as verdadeiras e com F as falsas. •• ( ) O crime considera-se praticado no momento da ação ou omissão, ainda que outro seja o momento do resultado. •• ( ) O agente que, voluntariamente, desiste de prosseguir na execução ou impede que o resultado se produza, só responde pelos atos já praticados. •• ( ) Não se pune o exaurimento quando, por ineficácia relativa do meio ou por impropriedade completa do objeto, é impossível executar os atos preparatórios. •• ( ) A pena não será reduzida, se o inimputável, em virtude de perturbação de saúde mental ou por desenvolvimento mental incompleto ou retardado, não era inteiramente capaz de entender o caráter ilícito do fato ou de determinar-se de acordo com o direito. A alternativa que contém a sequência correta, de cima pra baixo, é
 *** A) V F V F
 *** B) V V F F
 *** C) V F F V
@@ -1917,7 +1917,7 @@ O crime de lesão corporal seguida de morte é preterdoloso, havendo dolo na con
 ****** Sistemas Penais, Conceito de Crime
 -----
 * Ano: 2016 | Banca: FAEPESUL | Órgão: Prefeitura de Araranguá - SC
-** Marque a alternativa que corresponde com as afirmações abaixo: --- I. Inundação é o tipo penal descrito pela conduta de causar inundação, expondo a perigo a vida, a integridade física ou o patrimônio de outrem. --- II. Remover, destruir ou inutilizar, em prédio próprio ou alheio, expondo a perigo a vida, a integridade física ou o patrimônio de outrem, obstáculo natural ou obra destinada a impedir inundação configura crime de subtração, ocultação ou inutilização de material de salvamento. --- III. Pelo crime de risco de deslizamento responde a pessoa que causar desabamento, deslizamento ou desmoronamento, expondo a perigo a vida, a integridade física ou o patrimônio de outrem. --- IV. Comete crime de perigo de inundação aquele que subtrair, ocultar ou inutilizar, por ocasião de incêndio, inundação, naufrágio, ou outro desastre ou calamidade, aparelho, material ou qualquer meio destinado a serviço de combate ao perigo, de socorro ou salvamento; ou impedir ou dificultar serviço de tal natureza. V. Aquele que expor a perigo a vida, a integridade física ou o patrimônio de outrem, usando de gás tóxico ou asfixiante comete o tipo penal de uso de gás tóxico ou asfixiante.
+** Marque a alternativa que corresponde com as afirmações abaixo: •• I. Inundação é o tipo penal descrito pela conduta de causar inundação, expondo a perigo a vida, a integridade física ou o patrimônio de outrem. •• I•• I. Remover, destruir ou inutilizar, em prédio próprio ou alheio, expondo a perigo a vida, a integridade física ou o patrimônio de outrem, obstáculo natural ou obra destinada a impedir inundação configura crime de subtração, ocultação ou inutilização de material de salvamento. •• I•• I•• I. Pelo crime de risco de deslizamento responde a pessoa que causar desabamento, deslizamento ou desmoronamento, expondo a perigo a vida, a integridade física ou o patrimônio de outrem. •• IV. Comete crime de perigo de inundação aquele que subtrair, ocultar ou inutilizar, por ocasião de incêndio, inundação, naufrágio, ou outro desastre ou calamidade, aparelho, material ou qualquer meio destinado a serviço de combate ao perigo, de socorro ou salvamento; ou impedir ou dificultar serviço de tal natureza. V. Aquele que expor a perigo a vida, a integridade física ou o patrimônio de outrem, usando de gás tóxico ou asfixiante comete o tipo penal de uso de gás tóxico ou asfixiante.
 *** A) Apenas as alternativas II, III e IV estão corretas.
 *** B) Apenas as alternativas I, II e V estão corretas.
 *** C) Apenas as alternativas II e IV estão corretas.
@@ -2139,7 +2139,7 @@ O crime de lesão corporal seguida de morte é preterdoloso, havendo dolo na con
 ****** Conceito de Crime
 -----
 * Ano: 2014 | Banca: FUNDATEC | Órgão: SEFAZ-RS
-** No que diz respeito à aplicação da lei penal, analise as assertivas a abaixo: --- I. Ultratividade da lei penal significa que quando a lei revogada for mais benéfica, ela será aplicada ao fato cometido durante a sua vigência. --- II. *Abolitio criminis* significa que a nova lei deixa de considerar crime um fato anteriormente tipificado como ilícito penal, fazendo desaparecer todos os efeitos penais e civis das condenações proferidas com base na lei anterior. --- III. O Código Penal Brasileiro adotou a teoria da ubiquidade, também conhecida por mista ou unitária, considerando o lugar do crime tanto o local onde ocorreu a ação ou a omissão, no todo ou em parte, como onde se produziu ou deveria produzir-se o resultado. Quais estão corretas?
+** No que diz respeito à aplicação da lei penal, analise as assertivas a abaixo: •• I. Ultratividade da lei penal significa que quando a lei revogada for mais benéfica, ela será aplicada ao fato cometido durante a sua vigência. •• I•• I. *Abolitio criminis* significa que a nova lei deixa de considerar crime um fato anteriormente tipificado como ilícito penal, fazendo desaparecer todos os efeitos penais e civis das condenações proferidas com base na lei anterior. •• I•• I•• I. O Código Penal Brasileiro adotou a teoria da ubiquidade, também conhecida por mista ou unitária, considerando o lugar do crime tanto o local onde ocorreu a ação ou a omissão, no todo ou em parte, como onde se produziu ou deveria produzir-se o resultado. Quais estão corretas?
 *** A) Apenas II.
 *** B) Apenas I e II.
 *** C) Apenas I e III.
@@ -2175,7 +2175,7 @@ O crime de lesão corporal seguida de morte é preterdoloso, havendo dolo na con
 ****** Sistemas Penais, Conceito de Crime
 -----
 * Ano: 2014 | Banca: TRF - 4ª REGIÃO | Órgão: TRF - 4ª REGIÃO
-** Dadas as assertivas abaixo, assinale a alternativa correta. --- I. Segundo o Código Penal, o crime é complexo quando elemento ou circunstância do tipo legal, por si mesmo, constituir crime. --- II. A lei brasileira sobre lavagem de dinheiro (Lei nº 9.613/98), a exemplo de legislações europeias, não contemplou a "autolavagem", ou seja, a possibilidade de o autor do crime antecedente responder também, em concurso de crimes, por lavagem de dinheiro. --- III. Em apertada síntese, segundo a teoria do domínio do fato, o autor de um delito é quem tem o poder de decisão sobre a realização do fato. Explica, assim, a figura do autor mediato, ou seja, o "autor atrás de outro autor". Na prática, essa teoria se aplica nas hipóteses em que não se logra obter elementos probatórios que vinculem, por exemplo, um superior hierárquico, que se utiliza de um subordinado para a execução da conduta típica. --- IV. De acordo com a jurisprudência do Superior Tribunal de Justiça, o monitoramento por câmeras de vigilância e por sistema de alarmes ou mesmo a existência de seguranças no estabelecimento tornam impossível a consumação do furto, incidindo, assim, a regra do art. 17 do Código Penal.
+** Dadas as assertivas abaixo, assinale a alternativa correta. •• I. Segundo o Código Penal, o crime é complexo quando elemento ou circunstância do tipo legal, por si mesmo, constituir crime. •• I•• I. A lei brasileira sobre lavagem de dinheiro (Lei nº 9.613/98), a exemplo de legislações europeias, não contemplou a "autolavagem", ou seja, a possibilidade de o autor do crime antecedente responder também, em concurso de crimes, por lavagem de dinheiro. •• I•• I•• I. Em apertada síntese, segundo a teoria do domínio do fato, o autor de um delito é quem tem o poder de decisão sobre a realização do fato. Explica, assim, a figura do autor mediato, ou seja, o "autor atrás de outro autor". Na prática, essa teoria se aplica nas hipóteses em que não se logra obter elementos probatórios que vinculem, por exemplo, um superior hierárquico, que se utiliza de um subordinado para a execução da conduta típica. •• IV. De acordo com a jurisprudência do Superior Tribunal de Justiça, o monitoramento por câmeras de vigilância e por sistema de alarmes ou mesmo a existência de seguranças no estabelecimento tornam impossível a consumação do furto, incidindo, assim, a regra do art. 17 do Código Penal.
 *** A) Está correta apenas a assertiva I.
 *** B) Está correta apenas a assertiva II.
 *** C) Está correta apenas a assertiva III.
@@ -2314,7 +2314,7 @@ A seguir estão as 40 questões, 20 de cada fonte, reescritas na ordem original 
 ****** Sistemas Penais
 -----
 * Ano: 2013 | Banca: MPE-MS | Órgão: MPE-MS
-** Considere as seguintes proposições, --- I. O Direito Penal do Inimigo, idealizado por Günther Jakobs, pode ser entendido como um Direito Penal de quarta geração. Na sua concepção inimigo é aquele que afasta de modo permanente da norma. Segundo esta teoria, não deve ser ao criminoso conferido o *status* de cidadão. --- II. Segundo Hans Welzel, o Direito Penal tipifica somente condutas que tenham certa relevância social; caso contrário não poderiam ser delitos. Welzel desenvolve, a partir dessa ideia, o princípio da adequação social. --- III. Com introdução de considerações axiológicas e materiais, o neokantismo substituiu o método puramente jurídico-formal do positivismo. O modelo neokantista possui o mérito de ter demonstrado que toda realidade traz em seu bojo um valor preestabelecido, permitindo a constatação de que as normas jurídicas, como um produto cultural, possuem como pressupostos valores prévios, e o próprio intérprete que, por mais que procure adorar certa neutralidade, não estará imune a maior ou menor influência desses valores. --- IV. Claus Roxin aborda a Teoria da Imputação Objetiva sob a concepção de um funcionalismo radical, entendendo que o Direito Penal tem como função essencial a reafirmação da norma, visando fortalecer as expectativas de quem a obedece. São **corretas** : Alternativas
+** Considere as seguintes proposições, •• I. O Direito Penal do Inimigo, idealizado por Günther Jakobs, pode ser entendido como um Direito Penal de quarta geração. Na sua concepção inimigo é aquele que afasta de modo permanente da norma. Segundo esta teoria, não deve ser ao criminoso conferido o *status* de cidadão. •• I•• I. Segundo Hans Welzel, o Direito Penal tipifica somente condutas que tenham certa relevância social; caso contrário não poderiam ser delitos. Welzel desenvolve, a partir dessa ideia, o princípio da adequação social. •• I•• I•• I. Com introdução de considerações axiológicas e materiais, o neokantismo substituiu o método puramente jurídico-formal do positivismo. O modelo neokantista possui o mérito de ter demonstrado que toda realidade traz em seu bojo um valor preestabelecido, permitindo a constatação de que as normas jurídicas, como um produto cultural, possuem como pressupostos valores prévios, e o próprio intérprete que, por mais que procure adorar certa neutralidade, não estará imune a maior ou menor influência desses valores. •• IV. Claus Roxin aborda a Teoria da Imputação Objetiva sob a concepção de um funcionalismo radical, entendendo que o Direito Penal tem como função essencial a reafirmação da norma, visando fortalecer as expectativas de quem a obedece. São **corretas** : Alternativas
 *** A) Somente as proposições I e II.
 *** B) Somente as proposições III e IV.
 *** C) Somente as proposições I, II e IV.
@@ -2324,7 +2324,7 @@ A seguir estão as 40 questões, 20 de cada fonte, reescritas na ordem original 
 ****** Sistemas Penais
 -----
 * Ano: 2013 | Banca: FGV | Órgão: TJ-AM
-** Observada a doutrina majoritária brasileira no estudo da teoria do crime, analise as afirmativas a seguir. --- I. O fato típico é composto da conduta humana dolosa ou culposa, resultado, nexo causal e tipicidade. --- II. A força irresistível, o movimento reflexo e a coação moral irresistível, são hipóteses de ausência de conduta. --- III. A força física absoluta que exclui a conduta pode ser proveniente da natureza ou da ação de um terceiro. Assinale: Alternativas
+** Observada a doutrina majoritária brasileira no estudo da teoria do crime, analise as afirmativas a seguir. •• I. O fato típico é composto da conduta humana dolosa ou culposa, resultado, nexo causal e tipicidade. •• I•• I. A força irresistível, o movimento reflexo e a coação moral irresistível, são hipóteses de ausência de conduta. •• I•• I•• I. A força física absoluta que exclui a conduta pode ser proveniente da natureza ou da ação de um terceiro. Assinale: Alternativas
 *** A) se somente a afirmativa I estiver correta.
 *** B) se somente a afirmativa II estiver correta.
 *** C) se somente as afirmativas I e II estiverem corretas.
@@ -2510,7 +2510,7 @@ A seguir estão as 40 questões, 20 de cada fonte, reescritas na ordem original 
 ****** Conceito de Crime
 -----
 * Ano: 2012 | Banca: IBAM | Órgão: Prefeitura de São Bernardo do Campo - SP
-** Em relação à norma penal, analise as afirmativas a seguir. --- I. As normas penais incriminadoras têm a função de definir as infrações penais, proibindo ou impondo a prática de condutas, sendo, portanto, consideradas normas penais em sentido estrito. --- II. As normas permissivas são aquelas que se opõem ao preceito primário da norma incriminadora, autorizando a realização de uma conduta em abstrato proibida. --- III. As normas penais não incriminadoras são aquelas que estabelecem regras gerais de interpretação e aplicação das normas penais em sentindo estrito. --- IV. As normas penais explicativas e complementares correspondem àquelas proposições jurídicas que esclarecem, limitam ou complementam as normas penais incriminadoras dispostas na Parte Especial. Alternativas
+** Em relação à norma penal, analise as afirmativas a seguir. •• I. As normas penais incriminadoras têm a função de definir as infrações penais, proibindo ou impondo a prática de condutas, sendo, portanto, consideradas normas penais em sentido estrito. •• I•• I. As normas permissivas são aquelas que se opõem ao preceito primário da norma incriminadora, autorizando a realização de uma conduta em abstrato proibida. •• I•• I•• I. As normas penais não incriminadoras são aquelas que estabelecem regras gerais de interpretação e aplicação das normas penais em sentindo estrito. •• IV. As normas penais explicativas e complementares correspondem àquelas proposições jurídicas que esclarecem, limitam ou complementam as normas penais incriminadoras dispostas na Parte Especial. Alternativas
 *** A) Apenas a afirmativa I está correta.
 *** B) Apenas a afirmativa II está correta.
 *** C) Apenas as afirmativas III e IV estão corretas.
@@ -2551,7 +2551,7 @@ A seguir estão as 40 questões, 20 de cada fonte, reescritas na ordem original 
 ****** Conceito de Crime
 -----
 * Ano: 2012 | Banca: TJ-SC | Órgão: TJ-SC
-** Nos termos do Código Penal – CP: --- I. Considera-se praticado o crime no momento da ação ou omissão, ainda que outro seja o momento do resultado. --- II. A pena cumprida no estrangeiro não atenua a pena imposta no Brasil pelo mesmo crime, quando diversa, mas nela é computada, quando idêntica. --- III. O dia do começo não se inclui no cômputo do prazo. Contam-se os dias, os meses e os anos pelo calendário comum. --- IV. O resultado, de que depende a existência do crime, somente é imputável a quem lhe deu causa. Considera-se causa a ação ou omissão sem a qual o resultado não teria ocorrido. Alternativas
+** Nos termos do Código Penal – CP: •• I. Considera-se praticado o crime no momento da ação ou omissão, ainda que outro seja o momento do resultado. •• I•• I. A pena cumprida no estrangeiro não atenua a pena imposta no Brasil pelo mesmo crime, quando diversa, mas nela é computada, quando idêntica. •• I•• I•• I. O dia do começo não se inclui no cômputo do prazo. Contam-se os dias, os meses e os anos pelo calendário comum. •• IV. O resultado, de que depende a existência do crime, somente é imputável a quem lhe deu causa. Considera-se causa a ação ou omissão sem a qual o resultado não teria ocorrido. Alternativas
 *** A) Somente as proposições I, II e IV estão corretas.
 *** B) Somente as proposições II, III e IV estão corretas.
 *** C) Somente as proposições I e IV estão corretas.
@@ -2570,7 +2570,7 @@ A seguir estão as 40 questões, 20 de cada fonte, reescritas na ordem original 
 ****** Conceito de Crime
 -----
 * Ano: 2012 | Banca: OFFICIUM | Órgão: TJ-RS
-** Associe os institutos jurídicos previstos no Código Penal (coluna da esquerda) às situações a eles relacionadas (coluna da direita). 1- Resultado diverso do Pretendido 2- Concurso Material 3- Erro na execução 4- Concurso Formal 5- Crime continuado ** ( ) O agente, visando um determinado objetivo, termina atingindo outro fim. ** ( )O agente, em vez de atingir a pessoa visada, alcança pessoa diversa em razão de desvio no golpe. ** ( ) O agente, mediante mais de uma ação ou omissão, pratica dois ou mais crimes. A sequência numérica correta, de cima para baixo, da coluna da direita, é Alternativas
+** Associe os institutos jurídicos previstos no Código Penal (coluna da esquerda) às situações a eles relacionadas (coluna da direita). 1- Resultado diverso do Pretendido 2- Concurso Material 3- Erro na execução 4- Concurso Formal 5- Crime continuado •• ( ) O agente, visando um determinado objetivo, termina atingindo outro fim. •• ( )O agente, em vez de atingir a pessoa visada, alcança pessoa diversa em razão de desvio no golpe. •• ( ) O agente, mediante mais de uma ação ou omissão, pratica dois ou mais crimes. A sequência numérica correta, de cima para baixo, da coluna da direita, é Alternativas
 *** A) 5 - 3 - 2
 *** B) 3 - 4 - 5
 *** C) 3 - 1 - 4
@@ -2580,7 +2580,7 @@ A seguir estão as 40 questões, 20 de cada fonte, reescritas na ordem original 
 ****** Conceito de Crime
 -----
 * Ano: 2012 | Banca: IESES | Órgão: TJ-RO
-** É certo afirmar: --- I. Crime é um fato típico, antijurídico e culpável. --- II. O resultado, de que depende a existência do crime, é imputável tanto a quem deu quanto a quem não lhe deu causa. --- III. A Lei penal brasileira por ser soberana se sobrepõe aos tratados e convenções internacionais, sendo de aplicação absoluta. --- IV. Considera-se praticado o crime no lugar em que ocorreu a ação ou omissão, no todo ou em parte, bem como onde se produziu ou deveria produzir-se o resultado. 
+** É certo afirmar: •• I. Crime é um fato típico, antijurídico e culpável. •• I•• I. O resultado, de que depende a existência do crime, é imputável tanto a quem deu quanto a quem não lhe deu causa. •• I•• I•• I. A Lei penal brasileira por ser soberana se sobrepõe aos tratados e convenções internacionais, sendo de aplicação absoluta. •• IV. Considera-se praticado o crime no lugar em que ocorreu a ação ou omissão, no todo ou em parte, bem como onde se produziu ou deveria produzir-se o resultado. 
 ** Analisando as proposições, pode-se afirmar:
 *** A) Somente as proposições II e IV estão corretas.
 *** B) Somente as proposições I e III estão corretas.
@@ -2621,9 +2621,9 @@ A seguir estão as 40 questões, 20 de cada fonte, reescritas na ordem original 
 -----
 * Ano: 2012 | Banca: FCC | Órgão: DPE-PR
 ** Considere as afirmações abaixo, entre tipicidade e antijuridicidade. 
- --- I. Para a teoria do “tipo avalorado” (também chamado de “neutro”, “acromático”), a tipicidade não indica coisa alguma acerca da antijuridicidade. 
- --- II. Para a teoria indiciária (*ratio congnoscendi*), a tipicidade é um indício ou presunção *iuris et iuris* da normatividade da licitude. 
- --- III. Para a teoria da identidade, a tipicidade é a *ratio essendi* da antijuridicidade, onde afirmada a tipicidade resultará também afirmada antijuridicidade. --- IV. Para a teoria do *tipo puro*, a tipicidade representa uma valoração subjetiva da normatividade da licitude. 
+ •• I. Para a teoria do “tipo avalorado” (também chamado de “neutro”, “acromático”), a tipicidade não indica coisa alguma acerca da antijuridicidade. 
+ •• I•• I. Para a teoria indiciária (*ratio congnoscendi*), a tipicidade é um indício ou presunção *iuris et iuris* da normatividade da licitude. 
+ •• I•• I•• I. Para a teoria da identidade, a tipicidade é a *ratio essendi* da antijuridicidade, onde afirmada a tipicidade resultará também afirmada antijuridicidade. •• IV. Para a teoria do *tipo puro*, a tipicidade representa uma valoração subjetiva da normatividade da licitude. 
 ** Estão corretas APENAS as afirmações Alternativas
 *** A) I e III.
 *** B) I e II.
@@ -2696,7 +2696,7 @@ A seguir estão as 40 questões, 20 de cada fonte, reescritas na ordem original 
 ****** Sistemas Penais
 -----
 * Ano: 2013 | Banca: MPE-MS | Órgão: MPE-MS
-** Considere as seguintes proposições, --- I. O Direito Penal do Inimigo, idealizado por Günther Jakobs, pode ser entendido como um Direito Penal de quarta geração. Na sua concepção inimigo é aquele que afasta de modo permanente da norma. Segundo esta teoria, não deve ser ao criminoso conferido o *status* de cidadão. --- II. Segundo Hans Welzel, o Direito Penal tipifica somente condutas que tenham certa relevância social; caso contrário não poderiam ser delitos. Welzel desenvolve, a partir dessa ideia, o princípio da adequação social. --- III. Com introdução de considerações axiológicas e materiais, o neokantismo substituiu o método puramente jurídico-formal do positivismo. O modelo neokantista possui o mérito de ter demonstrado que toda realidade traz em seu bojo um valor preestabelecido, permitindo a constatação de que as normas jurídicas, como um produto cultural, possuem como pressupostos valores prévios, e o próprio intérprete que, por mais que procure adorar certa neutralidade, não estará imune a maior ou menor influência desses valores. --- IV. Claus Roxin aborda a Teoria da Imputação Objetiva sob a concepção de um funcionalismo radical, entendendo que o Direito Penal tem como função essencial a reafirmação da norma, visando fortalecer as expectativas de quem a obedece. São **corretas** : Alternativas
+** Considere as seguintes proposições, •• I. O Direito Penal do Inimigo, idealizado por Günther Jakobs, pode ser entendido como um Direito Penal de quarta geração. Na sua concepção inimigo é aquele que afasta de modo permanente da norma. Segundo esta teoria, não deve ser ao criminoso conferido o *status* de cidadão. •• I•• I. Segundo Hans Welzel, o Direito Penal tipifica somente condutas que tenham certa relevância social; caso contrário não poderiam ser delitos. Welzel desenvolve, a partir dessa ideia, o princípio da adequação social. •• I•• I•• I. Com introdução de considerações axiológicas e materiais, o neokantismo substituiu o método puramente jurídico-formal do positivismo. O modelo neokantista possui o mérito de ter demonstrado que toda realidade traz em seu bojo um valor preestabelecido, permitindo a constatação de que as normas jurídicas, como um produto cultural, possuem como pressupostos valores prévios, e o próprio intérprete que, por mais que procure adorar certa neutralidade, não estará imune a maior ou menor influência desses valores. •• IV. Claus Roxin aborda a Teoria da Imputação Objetiva sob a concepção de um funcionalismo radical, entendendo que o Direito Penal tem como função essencial a reafirmação da norma, visando fortalecer as expectativas de quem a obedece. São **corretas** : Alternativas
 *** A) Somente as proposições I e II.
 *** B) Somente as proposições III e IV.
 *** C) Somente as proposições I, II e IV.
@@ -2706,7 +2706,7 @@ A seguir estão as 40 questões, 20 de cada fonte, reescritas na ordem original 
 ****** Sistemas Penais
 -----
 * Ano: 2013 | Banca: FGV | Órgão: TJ-AM
-** Observada a doutrina majoritária brasileira no estudo da teoria do crime, analise as afirmativas a seguir. --- I. O fato típico é composto da conduta humana dolosa ou culposa, resultado, nexo causal e tipicidade. --- II. A força irresistível, o movimento reflexo e a coação moral irresistível, são hipóteses de ausência de conduta. --- III. A força física absoluta que exclui a conduta pode ser proveniente da natureza ou da ação de um terceiro. Assinale: Alternativas
+** Observada a doutrina majoritária brasileira no estudo da teoria do crime, analise as afirmativas a seguir. •• I. O fato típico é composto da conduta humana dolosa ou culposa, resultado, nexo causal e tipicidade. •• I•• I. A força irresistível, o movimento reflexo e a coação moral irresistível, são hipóteses de ausência de conduta. •• I•• I•• I. A força física absoluta que exclui a conduta pode ser proveniente da natureza ou da ação de um terceiro. Assinale: Alternativas
 *** A) se somente a afirmativa I estiver correta.
 *** B) se somente a afirmativa II estiver correta.
 *** C) se somente as afirmativas I e II estiverem corretas.
@@ -2892,7 +2892,7 @@ A seguir estão as 40 questões, 20 de cada fonte, reescritas na ordem original 
 ****** Conceito de Crime
 -----
 * Ano: 2012 | Banca: IBAM | Órgão: Prefeitura de São Bernardo do Campo - SP
-** Em relação à norma penal, analise as afirmativas a seguir. --- I. As normas penais incriminadoras têm a função de definir as infrações penais, proibindo ou impondo a prática de condutas, sendo, portanto, consideradas normas penais em sentido estrito. --- II. As normas permissivas são aquelas que se opõem ao preceito primário da norma incriminadora, autorizando a realização de uma conduta em abstrato proibida. --- III. As normas penais não incriminadoras são aquelas que estabelecem regras gerais de interpretação e aplicação das normas penais em sentindo estrito. --- IV. As normas penais explicativas e complementares correspondem àquelas proposições jurídicas que esclarecem, limitam ou complementam as normas penais incriminadoras dispostas na Parte Especial. Alternativas
+** Em relação à norma penal, analise as afirmativas a seguir. •• I. As normas penais incriminadoras têm a função de definir as infrações penais, proibindo ou impondo a prática de condutas, sendo, portanto, consideradas normas penais em sentido estrito. •• I•• I. As normas permissivas são aquelas que se opõem ao preceito primário da norma incriminadora, autorizando a realização de uma conduta em abstrato proibida. •• I•• I•• I. As normas penais não incriminadoras são aquelas que estabelecem regras gerais de interpretação e aplicação das normas penais em sentindo estrito. •• IV. As normas penais explicativas e complementares correspondem àquelas proposições jurídicas que esclarecem, limitam ou complementam as normas penais incriminadoras dispostas na Parte Especial. Alternativas
 *** A) Apenas a afirmativa I está correta.
 *** B) Apenas a afirmativa II está correta.
 *** C) Apenas as afirmativas III e IV estão corretas.
@@ -2933,7 +2933,7 @@ A seguir estão as 40 questões, 20 de cada fonte, reescritas na ordem original 
 ****** Conceito de Crime
 -----
 * Ano: 2012 | Banca: TJ-SC | Órgão: TJ-SC
-** Nos termos do Código Penal – CP: --- I. Considera-se praticado o crime no momento da ação ou omissão, ainda que outro seja o momento do resultado. --- II. A pena cumprida no estrangeiro não atenua a pena imposta no Brasil pelo mesmo crime, quando diversa, mas nela é computada, quando idêntica. --- III. O dia do começo não se inclui no cômputo do prazo. Contam-se os dias, os meses e os anos pelo calendário comum. --- IV. O resultado, de que depende a existência do crime, somente é imputável a quem lhe deu causa. Considera-se causa a ação ou omissão sem a qual o resultado não teria ocorrido. Alternativas
+** Nos termos do Código Penal – CP: •• I. Considera-se praticado o crime no momento da ação ou omissão, ainda que outro seja o momento do resultado. •• I•• I. A pena cumprida no estrangeiro não atenua a pena imposta no Brasil pelo mesmo crime, quando diversa, mas nela é computada, quando idêntica. •• I•• I•• I. O dia do começo não se inclui no cômputo do prazo. Contam-se os dias, os meses e os anos pelo calendário comum. •• IV. O resultado, de que depende a existência do crime, somente é imputável a quem lhe deu causa. Considera-se causa a ação ou omissão sem a qual o resultado não teria ocorrido. Alternativas
 *** A) Somente as proposições I, II e IV estão corretas.
 *** B) Somente as proposições II, III e IV estão corretas.
 *** C) Somente as proposições I e IV estão corretas.
@@ -2952,7 +2952,7 @@ A seguir estão as 40 questões, 20 de cada fonte, reescritas na ordem original 
 ****** Conceito de Crime
 -----
 * Ano: 2012 | Banca: OFFICIUM | Órgão: TJ-RS
-** Associe os institutos jurídicos previstos no Código Penal (coluna da esquerda) às situações a eles relacionadas (coluna da direita). 1- Resultado diverso do Pretendido 2- Concurso Material 3- Erro na execução 4- Concurso Formal 5- Crime continuado ( ) O agente, visando um determinado objetivo, termina atingindo outro fim. ** ( )O agente, em vez de atingir a pessoa visada, alcança pessoa diversa em razão de desvio no golpe. ** ( ) O agente, mediante mais de uma ação ou omissão, pratica dois ou mais crimes. A sequência numérica correta, de cima para baixo, da coluna da direita, é Alternativas
+** Associe os institutos jurídicos previstos no Código Penal (coluna da esquerda) às situações a eles relacionadas (coluna da direita). 1- Resultado diverso do Pretendido 2- Concurso Material 3- Erro na execução 4- Concurso Formal 5- Crime continuado ( ) O agente, visando um determinado objetivo, termina atingindo outro fim. •• ( )O agente, em vez de atingir a pessoa visada, alcança pessoa diversa em razão de desvio no golpe. •• ( ) O agente, mediante mais de uma ação ou omissão, pratica dois ou mais crimes. A sequência numérica correta, de cima para baixo, da coluna da direita, é Alternativas
 *** A) 5 - 3 - 2
 *** B) 3 - 4 - 5
 *** C) 3 - 1 - 4
@@ -2962,7 +2962,7 @@ A seguir estão as 40 questões, 20 de cada fonte, reescritas na ordem original 
 ****** Conceito de Crime
 -----
 * Ano: 2012 | Banca: IESES | Órgão: TJ-RO
-** É certo afirmar: --- I. Crime é um fato típico, antijurídico e culpável. --- II. O resultado, de que depende a existência do crime, é imputável tanto a quem deu quanto a quem não lhe deu causa. --- III. A Lei penal brasileira por ser soberana se sobrepõe aos tratados e convenções internacionais, sendo de aplicação absoluta. --- IV. Considera-se praticado o crime no lugar em que ocorreu a ação ou omissão, no todo ou em parte, bem como onde se produziu ou deveria produzir-se o resultado. Analisando as proposições, pode-se afirmar:
+** É certo afirmar: •• I. Crime é um fato típico, antijurídico e culpável. •• I•• I. O resultado, de que depende a existência do crime, é imputável tanto a quem deu quanto a quem não lhe deu causa. •• I•• I•• I. A Lei penal brasileira por ser soberana se sobrepõe aos tratados e convenções internacionais, sendo de aplicação absoluta. •• IV. Considera-se praticado o crime no lugar em que ocorreu a ação ou omissão, no todo ou em parte, bem como onde se produziu ou deveria produzir-se o resultado. Analisando as proposições, pode-se afirmar:
 *** A) Somente as proposições II e IV estão corretas.
 *** B) Somente as proposições I e III estão corretas.
 *** C) Somente as proposições I e IV estão corretas.
@@ -3001,7 +3001,7 @@ A seguir estão as 40 questões, 20 de cada fonte, reescritas na ordem original 
 ****** Conceito de Crime
 -----
 * Ano: 2012 | Banca: FCC | Órgão: DPE-PR
-** Considere as afirmações abaixo, entre tipicidade e antijuridicidade. --- I. Para a teoria do “tipo avalorado” (também chamado de “neutro”, “acromático”), a tipicidade não indica coisa alguma acerca da antijuridicidade. --- II. Para a teoria indiciária (*ratio congnoscendi*), a tipicidade é um indício ou presunção *iuris et iuris* da normatividade da licitude. --- III. Para a teoria da identidade, a tipicidade é a *ratio essendi* da antijuridicidade, onde afirmada a tipicidade resultará também afirmada antijuridicidade. --- IV. Para a teoria do *tipo puro*, a tipicidade representa uma valoração subjetiva da normatividade da licitude. Estão corretas APENAS as afirmações Alternativas
+** Considere as afirmações abaixo, entre tipicidade e antijuridicidade. •• I. Para a teoria do “tipo avalorado” (também chamado de “neutro”, “acromático”), a tipicidade não indica coisa alguma acerca da antijuridicidade. •• I•• I. Para a teoria indiciária (*ratio congnoscendi*), a tipicidade é um indício ou presunção *iuris et iuris* da normatividade da licitude. •• I•• I•• I. Para a teoria da identidade, a tipicidade é a *ratio essendi* da antijuridicidade, onde afirmada a tipicidade resultará também afirmada antijuridicidade. •• IV. Para a teoria do *tipo puro*, a tipicidade representa uma valoração subjetiva da normatividade da licitude. Estão corretas APENAS as afirmações Alternativas
 *** A) I e III.
 *** B) I e II.
 *** C) II e III.
