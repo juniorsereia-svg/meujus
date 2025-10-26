@@ -1,4 +1,4 @@
-// Modelo simples: 1 tema => pasta com p1.txt..p10.txt (cada um = 20 questões).
+// MeuJus — app.js (modelo simples: 1 tema => pasta com p1.txt..p10.txt; cache via Service Worker)
 (function () {
   const $ = (sel) => document.querySelector(sel);
   const ano = $('#ano'); const rodapeAno = $('#rodapeAno');
@@ -120,7 +120,7 @@
     const ASSETS = ROOT + 'data/';
     const file = `p${provaIndex1a10}.txt`;
     const url = `${ASSETS}${base}/${file}`;
-    const r = await fetch(url, { cache:'reload' });
+    const r = await fetch(url); // SW decide cache
     if(!r.ok) throw new Error(`HTTP ${r.status} ao buscar ${url}`);
     const txt = await r.text();
     return parseProvaTxt(txt, curso, tema, file, provaIndex1a10);
@@ -173,6 +173,7 @@
       temaSelecionado = temas[0].label;
       temasHidden.value = temaSelecionado;
       temaInput.value = temaSelecionado;
+      aquecerTemaSelecionado(); // warmup imediato do primeiro tema
     }else{
       temaSelecionado = '';
       temasHidden.value = '';
@@ -204,10 +205,22 @@
     temasHidden.value = temaSelecionado;
     temaInput.value = temaSelecionado;
     fecharPainelTemas();
+    aquecerTemaSelecionado(); // warmup quando usuário escolhe tema
   });
   document.addEventListener('click', (e)=>{
     if(!temaPanel.contains(e.target) && e.target!==temaInput && e.target!==temaCaret && e.target!==temaClose) fecharPainelTemas();
   });
+
+  // Aquecimento das 10 provas do tema via SW
+  function aquecerTemaSelecionado(){
+    try{
+      if (!navigator.serviceWorker?.controller) return;
+      const infoCurso = manifest[cursoSelecionado];
+      const temaEntry = (infoCurso?.temas||{})[temaSelecionado];
+      const base = typeof temaEntry === 'string' ? temaEntry : (temaEntry?.base || temaEntry?.path);
+      if (base) navigator.serviceWorker.controller.postMessage({ type:'warmup', base });
+    }catch{}
+  }
 
   // IA
   function formatarAlternativasParaPrompt(alts){
