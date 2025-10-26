@@ -1,10 +1,33 @@
 {
   "version": 1,
-  "counts": {"Direito Penal": 1243, "Direito Civil": 980},
-  "shards": {
-    "Direito Penal": ["data/shards/penal-a.jsonl","data/shards/penal-b.jsonl"],
-    "Direito Civil": ["data/shards/civil-a.jsonl"]
+  "updatedAt": "2025-10-26",
+  "counts": {
+    "Direito Penal": 1243,
+    "Direito Civil": 980,
+    "Direito Constitucional": 712
   },
-  "temas": ["Parte Geral","Teoria do Crime","Contratos","..."],
-  "subtemas": ["Tipicidade","Culpabilidade","Vício do Consentimento","..."]
+  "shards": {
+    "Direito Penal": [
+      "data/shards/penal-a.jsonl",
+      "data/shards/penal-b.jsonl"
+    ],
+    "Direito Civil": [
+      "data/shards/civil-a.jsonl"
+    ],
+    "Direito Constitucional": [
+      "data/shards/constitucional-a.jsonl"
+    ]
+  },
+  "temas": [
+    "Parte Geral",
+    "Teoria do Crime",
+    "Contratos",
+    "Direitos Fundamentais"
+  ],
+  "subtemas": [
+    "Tipicidade",
+    "Culpabilidade",
+    "Vício do Consentimento",
+    "Aplicabilidade"
+  ]
 }
