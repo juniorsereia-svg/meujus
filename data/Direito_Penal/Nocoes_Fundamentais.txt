@@ -1595,3 +1595,1091 @@ Ano: 2025 | Banca: CESPE / CEBRASPE | Órgão: STM
 **** Gabarito: Errado
 ****** Lei penal no tempo, Conceitos e Características
 -----
+Abaixo estão as 60 questões reescritas na ordem original das três fontes, conforme o modelo solicitado, com a associação dos temas pertinentes.
+
+### Fonte 1: Questões 1 a 20
+
+* Ano: 2025 | Banca: FGV | Órgão: TJ-TO
+** Analise as hipóteses a seguir. (i) Pedro, conhecedor de que seu colega de trabalho Renato, 25 anos, está comprando um carro, telefona para este fazendo-se passar por funcionário da loja e oferece um seguro para o veículo novo. Renato aceita a oferta e transfere o valor equivalente ao suposto prêmio para a conta-corrente indicada por Pedro. (ii) Luís Felipe veste um colete da cor da marca de um banco e posiciona-se próximo aos caixas eletrônicos situados na entrada da agência. Aborda Marisa, 73 anos, que está pagando uma conta, apresenta-se como funcionário do banco e oferece ajuda, que é aceita pela vítima. Luís Felipe observa a senha digitada e, terminada a operação, fica com o cartão da vítima e entrega a ela um cartão semelhante que trazia consigo. A vítima não percebe a troca e vai embora. Obtidos o cartão e a senha, Luís Felipe saca a quantia de R$ 5.000,00 da conta da vítima Marisa. (iii) Durante quinze meses, Conrado, médico plantonista de hospital municipal, registrou o ponto e foi embora sem cumprir a carga horária. Consideradas as hipóteses acima, é correto afirmar, à luz da jurisprudência dos Tribunais Superiores, que:
+*** A) há duas hipóteses que tipificam crimes de ação penal pública incondicionada;
+*** B) todas as hipóteses tipificam o crime de estelionato;
+*** C) a hipótese (i) tipifica crime de ação penal pública incondicionada;
+*** D) na hipótese (ii), se a vítima tivesse menos de 60 anos, o crime seria de ação penal pública condicionada à representação;
+*** E) na hipótese (iii), somente se procede mediante representação do órgão ao qual couber a representação judicial do município.
+**** Gabarito: C
+****** Norma Penal
+-----
+* Ano: 2025 | Banca: FGV | Órgão: TJ-TO
+** Analise as hipóteses a seguir. (i) Felício, inconformado com o fim de seu casamento, efetua disparo de arma de fogo contra sua ex-esposa, que sobrevive. (ii) João, ao descobrir que sua ex-namorada tem um novo relacionamento amoroso, envia-lhe uma mensagem de WhatsApp com a foto de um punhal e a seguinte legenda: “Se você não for minha, não vai ser de mais ninguém”. (iii) Mariana, durante uma discussão motivada por ciúmes, dá um soco em sua namorada, causando-lhe lesões corporais. (iv) José, durante uma discussão motivada por dívida, dá um soco em sua irmã, causando-lhe lesões corporais. Consideradas as hipóteses acima, é correto afirmar, à luz dos dispositivos legais aplicáveis e da jurisprudência dos Tribunais Superiores, que:
+*** A) em caso de condenação, o efeito da perda do cargo, função pública ou mandato eletivo será automático apenas nas hipóteses (i), (iii) e (iv);
+*** B) a Lei nº 11.340/2006 aplica-se apenas a três hipóteses;
+*** C) todas as hipóteses tipificam crimes de ação penal pública incondicionada;
+*** D) em caso de condenação, Felício poderá obter livramento condicional, depois de cumprir 55% da pena;
+*** E) em caso de condenação, somente Felício não poderá usufruir do direito à visita íntima ou conjugal.
+**** Gabarito: D
+****** Norma Penal, Conceitos e Características
+-----
+* Ano: 2025 | Banca: INSTITUTO AOCP | Órgão: MPE-RS
+** Um servidor público, responsável pelo setor de licitações de um órgão municipal, exigiu de um empresário o pagamento de R$ 10.000 (dez mil reais) para garantir a vitória em um processo licitatório, sob a justificativa de que o valor seria “necessário para agilizar a aprovação dos documentos”. O empresário, temendo represálias, realizou o pagamento. Nessa situação hipotética, é correto afirmar que esse servidor
+*** A) cometeu o crime de concussão previsto no Código Penal, pois exigiu vantagem indevida em razão de seu cargo.
+*** B) cometeu o crime de corrupção ativa, pois solicitou vantagem indevida para si, valendo-se de sua função pública.
+*** C) não cometeu crime algum, pois o empresário realizou o pagamento de forma voluntária.
+*** D) cometeu o crime de prevaricação, pois deixou de praticar um ato de ofício para satisfazer interesse pessoal.
+*** E) cometeu uma infração administrativa, estando sujeito a penalidades disciplinares no âmbito do serviço público, sem ter praticado qualquer espécie de crime tipificado no Código Penal.
+**** Gabarito: A
+****** Norma Penal
+-----
+* Ano: 2025 | Banca: INSTITUTO AOCP | Órgão: MPE-RS
+** Um servidor público, responsável pelo almoxarifado de um órgão governamental, está desviando, para uso particular, materiais de expediente adquiridos para a repartição. Ele retira regularmente caixas de papel, toners de impressora e outros insumos para utilizar em sua residência. Diante dessa situação hipotética, é correto afirmar que ele está cometendo o crime de
+*** A) concussão.
+*** B) peculato.
+*** C) corrupção passiva.
+*** D) prevaricação.
+*** E) corrupção ativa.
+**** Gabarito: B
+****** Norma Penal
+-----
+* Ano: 2025 | Banca: CESPE / CEBRASPE | Órgão: CAESB-DF
+** Com base na Lei Maria da Penha, considerando a jurisprudência dos Tribunais Superiores, assinale a opção correta.
+*** A) A ausente relação duradoura de afeto afasta a incidência do sistema protetivo da Lei Maria da Penha.
+*** B) A aplicação da Lei Maria da Penha às mulheres em situação de violência doméstica leva em conta, exclusivamente, o critério biológico, razão pela qual a lei não se aplica às mulheres transexuais.
+*** C) A aplicação do sistema protetivo da Lei Maria da Penha prescinde da demonstração específica da subjugação feminina.
+*** D) Para que uma lesão corporal no ambiente doméstico praticada contra uma mulher seja enquadrada na Lei Maria da Penha, é necessária à demonstração da motivação de gênero.
+*** E) As medidas protetivas previstas na Lei Maria da Penha devem ser aplicadas com a fixação de prazo certo de validade.
+**** Gabarito: C
+****** Norma Penal
+-----
+* Ano: 2025 | Banca: CESPE / CEBRASPE | Órgão: CAESB-DF
+** De acordo com a Lei Maria da Penha (Lei n.º 11.340/2006), assinale a opção correta.
+*** A) O descumprimento de decisão judicial que defere medidas protetivas de urgência prevista na Lei Maria da Penha é punível com pena de reclusão e multa.
+*** B) Nos atos processuais, cíveis e criminais, a mulher em situação de violência doméstica e familiar não precisa estar obrigatoriamente acompanhada de advogado.
+*** C) A defesa dos interesses e direitos transindividuais previstos na Lei Maria da Penha é atribuição exclusiva do Ministério Público.
+*** D) Nos casos de violência doméstica e familiar contra a mulher, admite-se a substituição de pena que implique o pagamento isolado de multa.
+*** E) Juizados de violência doméstica e familiar contra a mulher são competentes para processar pretensão relativa à partilha e bens da ofendida.
+**** Gabarito: A
+****** Norma Penal, Conceitos e Características
+-----
+* Ano: 2025 | Banca: CESPE / CEBRASPE | Órgão: CAESB-DF
+** Com base na Lei Maria da Penha (Lei n.º 11.340/2006), julgue os itens a seguir. I A aplicação da Lei Maria da Penha pressupõe coabitação entre o agressor e a vítima. II No âmbito da assistência à mulher em situação de violência doméstica, é legítimo ao juiz, quando aquela for servidora pública da administração direta ou indireta, franquear o acesso prioritário à remoção. III Os mecanismos de segurança disponibilizados para o monitoramento das vítimas de violência doméstica ou familiar amparadas por medidas protetivas, em caso de perigo iminente, devem ter os custos ressarcidos pelo agressor. Assinale a opção correta.
+*** A) Apenas o item I está certo.
+*** B) Apenas o item II está certo.
+*** C) Apenas os itens I e III estão certos.
+*** D) Apenas os itens II e III estão certos.
+*** E) Todos os itens estão certos.
+**** Gabarito: B
+****** Norma Penal
+-----
+* Ano: 2025 | Banca: CESPE / CEBRASPE | Órgão: CAESB-DF
+** De acordo com a Lei Maria da Penha (Lei n.º 11.340/2006), a violência moral contra a mulher é configurada pela prática de conduta que
+*** A) ofenda a sua integridade ou saúde corporal.
+*** B) lhe cause dano emocional e diminuição de sua autoestima.
+*** C) vise degradar ou controlar suas ações, seus comportamentos, suas crenças e decisões, mediante ameaça.
+*** D) a calunie, difame ou injurie.
+*** E) a constranja a presenciar, manter ou participar de relação sexual não desejada, mediante coação.
+**** Gabarito: D
+****** Norma Penal
+-----
+* Ano: 2025 | Banca: Instituto Fênix | Órgão: Câmara de Novo Horizonte - SC
+** Segundo a lei federal nº 14.133/21, sobre os crimes em licitações e contratos administrativos, devassar o sigilo de proposta apresentada em processo licitatório ou proporcionar a terceiro o ensejo de devassá-lo implica em pena de:
+*** A) detenção, de 6 (seis) meses a 3 (três) anos, e multa.
+*** B) reclusão, de 4 (quatro) anos a 8 (oito) anos, e multa.
+*** C) detenção, de 2 (dois) anos a 3 (três) anos, e multa.
+*** D) reclusão, de 6 (seis) meses a 3 (três) anos, e multa.
+**** Gabarito: A
+****** Norma Penal
+-----
+* Ano: 2025 | Banca: Instituto Indec | Órgão: Prefeitura de Igarassu - PE
+** Sobre os Crimes contra a Administração Pública, e suas caracterizações legais, atente-se aos itens: I - Exigir, para si ou para outrem, direta ou indiretamente, ainda que fora da função ou antes de assumi-la, mas em razão dela, vantagem indevida. II - Deixar o funcionário, por indulgência, de responsabilizar subordinado que cometeu infração no exercício do cargo ou, quando lhe falte competência, não levar o fato ao conhecimento da autoridade competente. III - Se o funcionário exige tributo ou contribuição social que sabe ou deveria saber indevido, ou, quando devido, emprega na cobrança meio vexatório ou gravoso, que a lei não autoriza. IV - Patrocinar, direta ou indiretamente, interesse privado perante a administração pública, valendo-se da qualidade de funcionário. Indique a alternativa que nomeie, corretamente, as definições:
+*** A) Concussão (I). Condescendência criminosa (II). Excesso de exação (III). Advocacia administrativa (IV).
+*** B) Corrupção passiva (I). Prevaricação (II). Excesso de poder (III). Tráfico de influência (IV).
+*** C) Excesso de exação (I). Omissão de dever funcional (II). Coação no curso do processo (III). Usurpação de função pública (IV).
+*** D) Improbidade administrativa (I). Cumplicidade funcional (II). Exação tributária (III). Patrocínio ilegítimo (IV).
+**** Gabarito: A
+****** Norma Penal, Conceitos e Características
+-----
+* Ano: 2025 | Banca: Instituto Indec | Órgão: Prefeitura de Igarassu - PE
+** Dos crimes contra a administração pública, excesso de exação é caracterizado por:
+*** A) Se o funcionário exige tributo ou contribuição social que sabe ou deveria saber indevido, ou, quando devido, emprega na cobrança meio vexatório ou gravoso, que a lei não autoriza.
+*** B) Apropriar-se o funcionário público de dinheiro, valor ou qualquer outro bem móvel, público ou particular, de que tem a posse em razão do cargo, ou desviá-lo, em proveito próprio ou alheio.
+*** C) Inserir ou facilitar, o funcionário autorizado, a inserção de dados falsos, alterar ou excluir indevidamente dados corretos nos sistemas informatizados ou bancos de dados da Administração Pública com o fim de obter vantagem indevida para si ou para outrem ou para causar dano.
+*** D) Retardar ou deixar de praticar, indevidamente, ato de ofício, ou praticá-lo contra disposição expressa de lei, para satisfazer interesse ou sentimento pessoal.
+**** Gabarito: A
+****** Norma Penal
+-----
+* Ano: 2025 | Banca: Instituto Indec | Órgão: Prefeitura de Igarassu - PE
+** Dos crimes contra a administração pública, define-se como concussão:
+*** A) Dar às verbas ou rendas públicas aplicação diversa da estabelecida em lei.
+*** B) Extraviar livro oficial ou qualquer documento, de que tem a guarda em razão do cargo; sonegá-lo ou inutilizá-lo, total ou parcialmente.
+*** C) Modificar ou alterar, o funcionário, sistema de informações ou programa de informática sem autorização ou solicitação de autoridade competente.
+*** D) Exigir, para si ou para outrem, direta ou indiretamente, ainda que fora da função ou antes de assumi-la, mas em razão dela, vantagem indevida.
+**** Gabarito: D
+****** Norma Penal
+-----
+* Ano: 2025 | Banca: FGV | Órgão: TRF - 1ª REGIÃO
+** A respeito da prescrição, considere as situações a seguir. (i) A Fazenda Pública, em 10/01/2015, constituiu definitivamente crédito tributário que tem como devedor Antônio, profissional liberal de 45 anos. Em 10/03/2019, a Justiça recebeu denúncia que imputou a Antônio o crime de declaração falsa às autoridades fazendárias. Em 10/01/2023, publicou-se sentença que condenou Antônio à pena mínima, isto é, 2 anos de reclusão, cujo prazo prescricional é de 4 anos, e multa. A condenação transitou em julgado para a acusação, mas pende recurso interposto pela defesa. Em 10/12/2024, o crédito tributário foi declarado prescrito na esfera administrativa. (ii) O Ministério Público Federal ofereceu denúncia em face de duas pessoas em razão de fato criminoso ocorrido há mais de 40 anos. Sustenta que a imprescritibilidade decorre de norma prevista em tratado internalizado pelo ordenamento jurídico brasileiro. À luz do entendimento do Superior Tribunal de Justiça, é correto afirmar que:
+*** A) no caso (i), a prescrição da pena de multa, cujo prazo é de 2 anos e regulado autonomamente em relação à prescrição da pena privativa de liberdade, ocorreu entre o recebimento da denúncia e a publicação da sentença condenatória;
+*** B) no caso (i), a apreciação do recurso de apelação, em 02/06/2025, deverá declarar a prescrição da pretensão punitiva em concreto retroativa, ocorrida entre a constituição definitiva do crédito e o recebimento da denúncia;
+*** C) no caso (i), a apreciação do recurso de apelação, em 02/06/2025, deverá declarar a prescrição da pretensão punitiva como decorrência da prescrição do crédito tributário;
+*** D) no caso (ii), afastar-se-á a imprescritibilidade quando o agente completar 70 anos;
+*** E) no caso (ii), a denúncia deverá ser rejeitada, porque a imprescritibilidade, norma de direito penal, exige a existência de lei em sentido formal.
+**** Gabarito: C
+****** Lei penal no tempo, Conceitos e Características
+-----
+* Ano: 2025 | Banca: FGV | Órgão: TRF - 1ª REGIÃO
+** Considerando a jurisprudência dos Tribunais Superiores acerca da pena de multa, é correto afirmar que:
+*** A) a atualização do valor da multa pelos índices de correção monetária dar-se-á a partir da data da sentença condenatória;
+*** B) cumprida a pena privativa de liberdade, o inadimplemento da pena de multa não obsta a extinção da punibilidade para o condenado economicamente hipossuficiente;
+*** C) a requerimento do condenado, o juiz pode permitir que o pagamento da multa se realize em parcelas mensais, vedado o desconto no vencimento ou salário do condenado;
+*** D) na execução da pena de multa, observar-se-ão as causas interruptivas e suspensivas da prescrição previstas no Código Penal;
+*** E) cabe *habeas corpus* contra decisão condenatória à pena de multa, ou relativo a processo em curso por infração penal a que a pena seja a única cominada.
+**** Gabarito: B
+****** Conceitos e Características
+-----
+* Ano: 2025 | Banca: FGV | Órgão: TRF - 1ª REGIÃO
+** O Ministério Público Federal ofereceu denúncia em face de pessoa jurídica e de dois de seus dirigentes, em razão de poluição causada em rio que banha mais de um estado. À luz da jurisprudência dos Tribunais Superiores, o juiz deverá:
+*** A) observar, no que couber, as garantias fundamentais, como, por exemplo, o princípio da intranscendência da pena;
+*** B) observar que as sanções criminais impostas pela sentença equiparam-se a obrigações cíveis;
+*** C) observar que a denúncia somente poderá ser recebida se houver imputação concomitante de crime à pessoa física;
+*** D) observar que, em caso de incorporação, não se admite a transmissão dos efeitos extrapenais da condenação à incorporadora;
+*** E) rejeitar a denúncia no que toca à pessoa jurídica, porque a falta de capacidade natural de ação, a carência de culpabilidade e a ausência de indicação clara dos tipos penais impedem a responsabilidade penal dela.
+**** Gabarito: A
+****** Princípios limitadores do poder punitivos estatal, Conceitos e Características
+-----
+* Ano: 2025 | Banca: FGV | Órgão: TRF - 1ª REGIÃO
+** Em determinada rede social, o perfil aberto destinado à promoção do turismo em um estado da Federação faz uma postagem que gera as seguintes reações: (i) Teresa comenta: “cambada de macumbeiro safado”; (ii) nos comentários José xinga Felipe, um homem trans, de “sapatão sem vergonha”; (iii) nos comentários Elisa xinga Maria, idosa, de “velha maluca”. Observada a legislação aplicável e a jurisprudência do Supremo Tribunal Federal, é correto afirmar que:
+*** A) todos os crimes são de ação penal pública incondicionada;
+*** B) há duas condutas que tipificam crimes imprescritíveis;
+*** C) se aplica a pena em triplo a todos os crimes, porque praticados em rede social da rede mundial de computadores;
+*** D) em todos os crimes, a pena será aumentada da metade se o crime for cometido mediante concurso de pessoas;
+*** E) há uma conduta atípica.
+**** Gabarito: B
+****** Norma Penal, Princípios limitadores do poder punitivos estatal
+-----
+* Ano: 2025 | Banca: FGV | Órgão: TRF - 1ª REGIÃO
+** Carlos, funcionário público de autarquia federal, foi denunciado pelo crime de corrupção passiva. No curso da investigação, ficou claro que, dos R$ 500.000,00 obtidos com a prática criminosa, R$ 100.000,00 foram usados para compras de artigos de luxo, como relógios, joias e objetos de arte, jamais localizados. Os R$ 400.000,00 restantes foram empregados na compra de um imóvel na cidade de Punta del Este, no Uruguai. Além disso, o Ministério Público Federal demonstrou que, do patrimônio do réu, apurado em R$ 2.000.000,00, apenas R$ 1.100.000,00 eram compatíveis com os seus rendimentos lícitos. O juiz, ao proferir a condenação, deverá:
+*** A) decretar a perda de bens ou valores equivalentes ao valor do imóvel situado no exterior, mas não ao valor dos artigos de luxo não localizados;
+*** B) observar que a decretação da perda de bens ou valores equivalentes ao produto ou proveito do crime somente é possível na hipótese de condenação por crime ao qual a lei comine pena máxima superior a 6 anos;
+*** C) presumir ilícitos bens correspondentes ao valor de R$ 900.000,00 e decretar sua perda;
+*** D) decretar a perda alargada, de ofício, caso o Ministério Público Federal não tenha formulado pedido;
+*** E) incluir no cálculo do patrimônio do réu, para fins de decretar a perda alargada, os bens titularizados pelo cônjuge, se casados nos regimes da comunhão parcial ou total de bens.
+**** Gabarito: C
+****** Norma Penal, Conceitos e Características
+-----
+* Ano: 2025 | Banca: FGV | Órgão: TRF - 1ª REGIÃO
+** Três homens, um deles portando arma de fogo, invadem uma agência da Caixa Econômica Federal, subtraem os valores que estão nas caixas e exigem que o gerente digite a senha de abertura do cofre, de onde subtraem mais dinheiro. No curso da ação, o criminoso armado aponta constantemente a arma de fogo para a cabeça de uma cliente idosa, que, apavorada com a situação, infarta e morre. Alertada, a Polícia Militar invade a agência bancária e encerra a ação. Todo o dinheiro subtraído é recuperado. O criminoso que portava a arma de fogo consegue escapar, razão pela qual a referida arma não é apreendida. Considerados os fatos e a jurisprudência dos Tribunais Superiores a respeito dos crimes de roubo e extorsão, é correto afirmar que:
+*** A) a apreensão e perícia da arma de fogo são imprescindíveis para a incidência da causa de aumento de pena relativa ao seu emprego;
+*** B) a despeito da morte da cliente idosa, não consumada a subtração dos bens, os agentes responderão por latrocínio tentado;
+*** C) os agentes responderão pelos crimes de latrocínio e extorsão, ambos consumados;
+*** D) haverá crime continuado entre o latrocínio e a extorsão, porque são crimes da mesma espécie;
+*** E) não há crime de latrocínio.
+**** Gabarito: C
+****** Norma Penal, Conflito aparente de normas
+-----
+* Ano: 2025 | Banca: FGV | Órgão: TRF - 1ª REGIÃO
+** João e Pedro entram em uma agência dos Correios, dirigem-se à caixa onde estão duas funcionárias e, mediante tapas e socos no rosto de ambas, subtraem o dinheiro que ali se encontra. Pedro porta um punhal durante a ação. A dupla de roubadores sai da agência e, enquanto monta na motocicleta estacionada em frente ao local, é presa em flagrante pela Polícia Militar. Considerados os fatos e a jurisprudência do Superior Tribunal de Justiça, é correto afirmar que:
+*** A) o crime praticado não é hediondo;
+*** B) o crime restou tentado, porque João e Pedro não alcançaram a posse mansa, pacífica e desvigiada do dinheiro subtraído;
+*** C) a gravidade inata do crime de roubo justifica a imposição de regime mais severo que o permitido segundo a pena aplicada;
+*** D) João e Pedro responderão por dois crimes de roubo em concurso formal, haja vista o emprego de violência contra duas pessoas;
+*** E) a multiplicidade de majorantes, por si só, constitui fundamento suficiente para aplicar uma elevação superior à fração mínima, na terceira fase de aplicação da pena.
+**** Gabarito: D
+****** Norma Penal, Conceitos e Características
+-----
+* Ano: 2025 | Banca: VUNESP | Órgão: Prefeitura de Campinas - SP
+** O crime de abandono de função, de acordo com o Código Penal, tem pena aumentada se
+*** A) praticado à noite ou em local ermo.
+*** B) ocorre em lugar compreendido na faixa de fronteira.
+*** C) praticado por militar em serviço ativo.
+*** D) resulta prejuízo público ou privado.
+*** E) praticado mediante violência ou grave ameaça.
+**** Gabarito: D
+****** Norma Penal
+
+### Fonte 2: Questões 21 a 40
+
+* Ano: 2025 | Banca: FGV | Órgão: CNU
+** Durante uma operação em rodovia federal, a Polícia Rodoviária interceptou um veículo que transportava adolescentes em condições suspeitas. Apurou-se que as vítimas haviam sido aliciadas com promessas de emprego e seriam levadas a outro estado para exploração sexual. Após o resgate, foram encaminhadas a serviços de acolhimento, e os autores foram detidos em flagrante. Nesse caso, o tráfico de pessoas está caracterizado porque:
+*** A) os adolescentes foram levados para outro estado e foram necessariamente vinculados ao trabalho escravo, configurando, portanto, o tráfico de pessoas, segundo a legislação pertinente;
+*** B) os adolescentes consentiram em serem levados para outro estado, e, por serem maiores de idade no momento do aliciamento, restou caracterizado o tráfico de pessoas, segundo previsto na política nacional vigente;
+*** C) a interceptação foi realizada pela polícia federal, que tem a competência exclusiva para a proteção às vítimas e repressão ao tráfico de pessoas, conforme previsto na legislação;
+*** D) o encaminhamento dos adolescentes a serviços de acolhimento e a detenção dos autores em flagrante são ações integradas de prevenção, repressão e proteção às vítimas, conforme previsto na política nacional vigente;
+*** E) houve remuneração paga pelos adolescentes e por seus familiares, e o crime de tráfico só se configura se houver a remuneração paga, nos termos descritos na legislação pertinente.
+**** Gabarito: D
+****** Norma Penal
+-----
+* Ano: 2025 | Banca: FGV | Órgão: CNU
+** O crime organizado e as milícias representam desafios distintos para a segurança pública no Brasil, com dinâmicas e impactos variados em diferentes regiões. Sobre tais organizações criminosas, é correto afirmar que:
+*** A) a formação de milícias é permitida quando tem o fim exclusivo de combater grupos armados de traficantes de drogas, sendo entendida como um meio legítimo de defesa da comunidade;
+*** B) se entende por organização criminosa o grupo paramilitar, grupo ou esquadrão criado com o objetivo de praticar crimes previstos pelo Código Penal brasileiro;
+*** C) o controle territorial em áreas específicas e a participação de agentes ou ex-agentes estatais são características típicas das milícias;
+*** D) o aumento do número de pessoas presas no Brasil, sobretudo lideranças de facções, vem sendo relacionado à constatação de enfraquecimento do crime organizado;
+*** E) a constituição de milícias privadas não é um crime autônomo no Brasil, enquadrando-se a conduta como associação criminosa, formação de quadrilha ou organização criminosa.
+**** Gabarito: C
+****** Norma Penal
+-----
+* Ano: 2025 | Banca: FGV | Órgão: CNU
+** Considere a situação de João, condenado a 20 anos de prisão pela Justiça Federal, em regime inicial fechado, com transferência prevista para uma penitenciária do Sistema Penitenciário Federal. Nesse caso, é correto afirmar que:
+*** A) os gastos da União na administração da execução da pena de João fazem parte da despesa pública do Sistema Penitenciário Federal, responsável por aproximadamente metade da despesa pública nacional com o sistema prisional, sendo a outra metade dividida entre os estados;
+*** B) o local correto de execução da pena de João é uma penitenciária federal, pois são elas as responsáveis pela custódia das pessoas condenadas à prisão pela Justiça Federal;
+*** C) quando cumprir os requisitos legais, e desde que autorizado pelo juiz competente, João poderá progredir para um estabelecimento penal federal de regime semiaberto;
+*** D) na penitenciária federal, em regime disciplinar diferenciado, João não terá direito à saída da cela, devendo ser garantida a ventilação e o contato com o sol;
+*** E) na penitenciária federal, em regime disciplinar diferenciado, João não terá direito a visitas íntimas.
+**** Gabarito: E
+****** Conceitos e Características
+-----
+* Ano: 2025 | Banca: AMEOSC | Órgão: Prefeitura de Guarujá do Sul - SC
+** A Lei Maria da Penha define cinco modalidades de violência contra a mulher: física, sexual, psicológica, patrimonial e moral. Compreender essas categorias é essencial para tipificar o crime e aplicar medidas protetivas. Com base nesse contexto, assinale a alternativa que corresponde a violência entendida como qualquer conduta que configure calúnia, difamação ou injúria.
+*** A) Violência patrimonial.
+*** B) Violência moral.
+*** C) Violência física.
+*** D) Violência sexual.
+**** Gabarito: B
+****** Norma Penal
+-----
+* Ano: 2025 | Banca: AMEOSC | Órgão: Prefeitura de Guarujá do Sul - SC
+** O Estatuto da Pessoa Idosa (Lei nº 10.741/2003) estabelece penas privativas de liberdade e multa para crimes contra pessoas idosas, com variação conforme a gravidade da conduta. Considerando as disposições do Estatuto, a penalidade aplicada para aqueles que discriminam pessoa idosa, impedindo ou dificultando seu acesso a operações bancárias, aos meios de transporte, ao direito de contratar ou por qualquer outro meio ou instrumento necessário ao exercício da cidadania, por motivo de idade, consiste em:
+*** A) Pena − reclusão de 10 meses a 1 ano e multa.
+*** B) Pena − reclusão de 12 meses a 3 anos e multa.
+*** C) Pena − reclusão de 6 meses a 1 ano e multa.
+*** D) Pena − reclusão de 7 meses a 2 anos e multa.
+**** Gabarito: B
+****** Norma Penal
+-----
+* Ano: 2025 | Banca: Avança SP | Órgão: Prefeitura de Cerquilho - SP
+** A Lei Federal n.º 13.869/2019 dispõe como crime de abuso de autoridade o seguinte:
+*** A) Invadir ou adentrar, clandestina ou astuciosamente, ou à revelia da vontade do ocupante, imóvel alheio ou suas dependências, ou nele permanecer nas mesmas condições, sem determinação judicial ou fora das condições estabelecidas em lei.
+*** B) Atuar na proteção dos direitos humanos fundamentais, do exercício da cidadania e das liberdades públicas.
+*** C) Reduzir o sofrimento e diminuir as perdas.
+*** D) Realizar patrulhamento preventivo.
+*** E) Usar progressivamente a força durante sua atuação profissional.
+**** Gabarito: A
+****** Norma Penal
+-----
+* Ano: 2025 | Banca: Avança SP | Órgão: Prefeitura de Cerquilho - SP
+** A partir das disposições do Código Penal, assinale a alternativa que NÃO se trata de um dos crimes praticados por particular contra a administração em geral:
+*** A) Opor-se à execução de ato legal, mediante violência ou ameaça a funcionário competente para executá-lo ou a quem lhe esteja prestando auxílio.
+*** B) Desobedecer a ordem legal de funcionário público.
+*** C) Desacatar funcionário público no exercício da função ou em razão dela.
+*** D) Oferecer ou prometer vantagem indevida a funcionário público, para determiná-lo a praticar, omitir ou retardar ato de ofício.
+*** E) Apropriar-se de dinheiro, valor ou qualquer outro bem móvel, público ou particular, de que tem a posse em razão do cargo.
+**** Gabarito: E
+****** Norma Penal, Conceitos e Características
+-----
+* Ano: 2025 | Banca: Avança SP | Órgão: Prefeitura de Cerquilho - SP
+** Assinale a alternativa que dispõe corretamente um crime de dano disposto no Código Penal:
+*** A) Subtrair coisa móvel alheia, para si ou para outrem, mediante grave ameaça ou violência a pessoa.
+*** B) Destruir, inutilizar ou deteriorar coisa alheia.
+*** C) Constranger alguém com o intuito de obter para si ou para outrem indevida vantagem econômica.
+*** D) Obter, para si ou para outrem, vantagem ilícita, em prejuízo alheio, induzindo ou mantendo alguém em erro.
+*** E) Enganar, no exercício de atividade comercial, o adquirente ou consumidor.
+**** Gabarito: B
+****** Norma Penal
+-----
+* Ano: 2025 | Banca: Qconcursos | Órgão: CNU
+** O feminicídio está diretamente relacionado à cultura do machismo estrutural e da violência de gênero, que naturalizam o controle, a agressão e até a morte de mulheres. A Lei nº 13.104/2015 incluiu o feminicídio como circunstância qualificadora do homicídio no Código Penal brasileiro. Sobre esse tema, assinale a alternativa correta:
+*** A) O feminicídio ocorre sempre que uma mulher é vítima de homicídio, independentemente da motivação do crime.
+*** B) O feminicídio se caracteriza apenas quando o agressor é desconhecido da vítima.
+*** C) O feminicídio é considerado crime hediondo e está relacionado ao homicídio de mulheres em razão de sua condição de gênero, muitas vezes no contexto de violência doméstica e familiar.
+*** D) O feminicídio é aplicado apenas a crimes praticados em espaços públicos, nunca em âmbito doméstico.
+*** E) O feminicídio é um tipo penal aplicado exclusivamente a agressões psicológicas, sem relação com a morte da vítima.
+**** Gabarito: C
+****** Norma Penal, Conceitos e Características
+-----
+* Ano: 2025 | Banca: CESPE / CEBRASPE | Órgão: SEFAZ-SE
+** Em 2014, Paulo, servidor de autarquia federal, praticou crimes de concussão e peculato. O Ministério Público ofereceu denúncia, a qual foi recebida no mesmo ano, e o processo seguiu seu curso até 2024, quando foi proferida sentença. Considerando a situação hipotética precedente e as regras do Código Penal relativas à prescrição, assinale a opção correta.
+*** A) As penas de multa previstas para os crimes cometidos por Paulo, se aplicadas cumulativamente com as privativas de liberdade, prescrevem em dois anos.
+*** B) Se, na data da sentença, Paulo tivesse 65 anos de idade, o prazo prescricional seria reduzido à metade.
+*** C) Caso Paulo estivesse, no decorrer da ação penal, cumprindo pena no exterior por fato diverso, a prescrição não correria durante o período de cumprimento da pena.
+*** D) Caso Paulo tivesse permanecido preso no Brasil por outro motivo no decorrer da ação penal, o prazo prescricional teria ficado suspenso durante o período da prisão.
+*** E) Em se tratando de concurso de crimes, o prazo prescricional deve ser calculado de acordo com a soma das penas previstas para cada um dos delitos.
+**** Gabarito: C
+****** Lei penal no tempo, Conceitos e Características
+-----
+* Ano: 2025 | Banca: CESPE / CEBRASPE | Órgão: SEFAZ-SE
+** Suponha que um cidadão brasileiro residente no exterior tenha praticado um crime contra a fé pública do município de Aracaju e que tenha sido apurado, durante investigação criminal, que o crime fora cometido em território estrangeiro. Nessa situação hipotética, aplica-se a lei penal
+*** A) brasileira, desde que haja previsão de reciprocidade em tratado internacional celebrado com o país onde ocorreu o crime.
+*** B) estrangeira, porque o crime foi praticado fora do território nacional e não se enquadra em nenhuma hipótese de extraterritorialidade.
+*** C) estrangeira, pois, pelo princípio da territorialidade absoluta, apenas a jurisdição do local do crime tem competência para aplicar sua lei penal.
+*** D) estrangeira, porquanto a lei penal brasileira não é aplicável a crimes contra a fé pública de municípios.
+*** E) brasileira, pois o crime, embora cometido no exterior, atingiu bem jurídico cuja tutela penal admite a extraterritorialidade incondicionada.
+**** Gabarito: E
+****** Lei penal no espaço
+-----
+* Ano: 2025 | Banca: FUNDATEC | Órgão: PROCERGS
+** Segundo a Lei Maria da Penha, entre as formas de violência doméstica e familiar contra a mulher, está a violência psicológica, entendida como qualquer conduta que
+*** A) a constranja a manter ou a participar de relação sexual não desejada.
+*** B) ofenda sua integridade ou saúde corporal.
+*** C) configure calúnia, difamação ou injúria.
+*** D) cause dano emocional e diminuição da autoestima.
+*** E) configure retenção, subtração, destruição parcial ou total de seus objetos.
+**** Gabarito: D
+****** Norma Penal
+-----
+* Ano: 2025 | Banca: FUNDATEC | Órgão: Prefeitura de Viamão - RS
+** Leia a seguinte reportagem: Fonte: El País (2025). Nessa reportagem, revela-se que, desde a tipificação do feminicídio em 2015, o Brasil contabilizou 11.859 casos. Desde essa época, os feminicídios quase triplicaram: de 535 em 2015 para mais de 1.200 em 2024. Considerando esse cenário, é correto afirmar que:
+*** A) A redução dos casos relatada demonstra eficácia na reabilitação dos infratores.
+*** B) A tipificação do feminicídio em 2015 foi suficiente para reduzir os casos no país.
+*** C) Esses dados não têm relação com os aspectos sociais de segurança e saúde, sejam físicos ou psicológicos.
+*** D) A tipificação do crime mostrou-se fundamental para dar visibilidade aos números da violência contra a mulher.
+*** E) Os números mostram que a tipificação do crime é ineficaz e que a Lei é desnecessária.
+**** Gabarito: D
+****** Norma Penal
+-----
+* Ano: 2025 | Banca: IBFC | Órgão: TJ-PE
+** Para efeitos penais, assinale a alternativa que conceitua o funcionário público.
+*** A) Todos aqueles aprovados em concurso público e/ou em processo seletivo promovido pela administração pública direta e indireta e os agentes políticos
+*** B) Todos aqueles aprovados em concurso público e/ou processo seletivo promovido pela administração pública direta, bem como os agentes políticos
+*** C) Todos aqueles que exercem função, cargo ou emprego público, independentemente de concurso ou processo seletivo, ainda que transitoriamente, desde que a função seja remunerada
+*** D) Todos aqueles que exercem função, cargo ou emprego públicos, independentemente de concurso ou processo seletivo, ainda que transitoriamente e sem remuneração
+**** Gabarito: D
+****** Conceitos e Características
+-----
+* Ano: 2025 | Banca: IBFC | Órgão: TJ-PE
+** Analise as afirmativas abaixo. I. A decadência se dá durante a ação e a perempção antes de seu início. II. A graça é um benefício individual, enquanto o indulto é coletivo. III. A perda do direito de punir do Estado pelo não exercício em determinado lapso de tempo é causa de extinção da punibilidade. Estão corretas as afirmativas:
+*** A) I apenas
+*** B) II apenas
+*** C) III apenas
+*** D) II e III apenas
+**** Gabarito: D
+****** Conceitos e Características
+-----
+* Ano: 2025 | Banca: IBFC | Órgão: TJ-PE
+** Tadeu é Oficial de Justiça, encontra-se jogando futebol em seu horário de folga, quando, ao ver que sofreria um drible humilhante de seu amigo Tomás, desfere neste um forte chute. Tomás, então, dirige-se a Tadeu, chamando-o de “oficialzinho de meia pataca”. Neste caso, o crime que poderia ser estabelecido a Tomás seria ______. Assinale a alternativa que preencha corretamente a lacuna.
+*** A) desacato, ainda que o funcionário público não se encontrava no exercício de sua atividade funcional, posto que presente o nexo causal da ofensa
+*** B) injúria, com a pena agravada, pois o funcionário público não se encontrava no exercício de sua atividade funcional, mas presente o nexo causal da ofensa
+*** C) difamação, com a pena agravada, pois o funcionário público não se encontrava no exercício de sua atividade funcional, mas presente o nexo causal da ofensa
+*** D) nenhum, pois o fato é atípico, posto que o funcionário público não se encontrava no exercício de sua atividade funcional
+**** Gabarito: B
+****** Norma Penal
+-----
+* Ano: 2025 | Banca: IBFC | Órgão: TJ-PE
+** Tadeu servirá de testemunha em processo criminal, cujo réu é Amarildo. Ciente de que o depoimento de Tadeu possa vir a prejudicá-lo, Amarildo oferece-lhe certa quantia para falsear seu testemunho. Tadeu aceita a oferta e, efetivamente, falta com a verdade no depoimento ofertado em Juízo. Assinale a alternativa correta referentes aos crimes praticados por ambos.
+*** A) Tadeu e Amarildo responderão pelo crime de Corrupção Ativa de Testemunha, em coautoria
+*** B) Tadeu responderá por Falso Testemunho, “caput”, e Amarildo por Corrupção Ativa de Testemunha
+*** C) Tadeu responderá por Falso Testemunho, com o aumento de 1/3 a 1/6 da pena, e Amarildo por Corrupção Ativa de Testemunha
+*** D) Tadeu e Amarildo responderão por Falso Testemunho, ambos, este último com o partícipe, pois simplesmente instigou àquele
+**** Gabarito: C
+****** Norma Penal, Conceitos e Características
+-----
+* Ano: 2025 | Banca: IBFC | Órgão: TJ-PE
+** Quanto à aplicação da pena, é correto afirmar que ______. Assinale a alternativa que preencha corretamente a lacuna.
+*** A) na primeira fase da aplicação da pena, o Juiz não deve analisar as circunstâncias do crime, as quais serão analisadas na terceira fase
+*** B) na segunda fase da aplicação da pena, o Juiz deve levar em conta, além das circunstâncias que atenuam a pena, aquelas que a agravam, independentemente de serem também qualificadoras do crime
+*** C) na terceira fase da aplicação da pena, o Juiz deve levar em conta, além das circunstâncias que atenuam a pena, aquelas que a agravam, não considerando, entretanto, aquelas que constituem também qualificadoras do crime
+*** D) a reincidência deve ser analisada pelo Juiz, como circunstância agravante do crime, na segunda fase da aplicação da pena
+**** Gabarito: D
+****** Conceitos e Características
+-----
+* Ano: 2025 | Banca: IBFC | Órgão: TJ-PE
+** O Direito Penal brasileiro admite, basicamente, duas espécies de dolo: os denominados dolos direto e dolo eventual. Assinale a alternativa correta no que diz respeito às teorias que correspondem, respectivamente, a tais espécies.
+*** A) Da vontade e do assentimento
+*** B) Da vontade e da cognição
+*** C) Da representação e do assentimento
+*** D) Da probabilidade e da cognição
+**** Gabarito: A
+****** Conceitos e Características
+-----
+* Ano: 2025 | Banca: IBFC | Órgão: TJ-PE
+** Marta foi condenada definitivamente a 4 (quatro) anos de reclusão em regime semiaberto pelo crime de receptação qualificada (art. 180, parágrafo 1º, do Código Penal), não sendo cometido com violência ou grave ameaça a pessoa. Réu primária, Marta possui bom comportamento carcerário e está atualmente grávida de 4 meses. À luz da Lei de Execução Penal, assinale a alternativa correta.
+*** A) Marta poderá progredir de regime após o cumprimento de 1/8 da pena, conforme regra aplicável a mulheres gestantes, desde que presente o bom comportamento carcerário que esta não integre organização criminosa e que não tenha cometido crime com violência ou grave ameaça à pessoa
+*** B) O fato de estar grávida não modifica o tempo exigido para a progressão de regime, devendo cumprir ao menos 25% da pena
+*** C) Marta poderá progredir ao regime aberto após o cumprimento de 16% da pena, apresentando apenas o laudo médico comprovando a gravidez
+*** D) Por se tratar de crime sem violência ou grave ameaça a pessoa, Marta poderá progredir a qualquer tempo, independentemente de cumprimento de fração mínima da pena
+**** Gabarito: A
+****** Norma Penal, Conceitos e Características
+
+### Fonte 3: Questões 41 a 60
+
+* Ano: 2025 | Banca: VUNESP | Órgão: Prefeitura de Campinas - SP
+** Na hipótese de um funcionário público que cometeu peculato culposo reparar o dano ao erário depois de proferida sentença irrecorrível que o condenou criminalmente, é correto dizer que
+*** A) é extinta a punibilidade.
+*** B) nenhum benefício lhe socorre, tendo em vista a qualidade de funcionário do agente.
+*** C) nenhum benefício lhe socorre, tendo em vista a natureza do crime.
+*** D) nenhum benefício lhe socorre, tendo em vista o momento da reparação.
+*** E) a pena imposta é diminuída de metade.
+**** Gabarito: E
+****** Norma Penal, Conceitos e Características
+-----
+* Ano: 2025 | Banca: VUNESP | Órgão: Prefeitura de Campinas - SP
+** O funcionário público que cobra tributo devido por meio vexatório ou gravoso, que a lei não autoriza,
+*** A) comete crime de excesso de exação.
+*** B) comete crime equiparado ao de corrupção passiva.
+*** C) comete crime de peculato.
+*** D) comete crime de violência arbitrária.
+*** E) não comete crime algum, mas mera infração administrativa.
+**** Gabarito: A
+****** Norma Penal
+-----
+* Ano: 2025 | Banca: IDECAN | Órgão: SESAP-RN
+** Crime previsto no Código Penal que ocorre quando alguém, sem qualquer forma de relação jurídica com a Administração, se passa por agente público. Neste caso, os atos praticados serão inexistentes e o crime é denominado como
+*** A) Falsidade ideológica.
+*** B) Peculato-apropriação.
+*** C) Peculato culposo.
+*** D) Usurpação de função
+*** E) Estelionato.
+**** Gabarito: D
+****** Norma Penal
+-----
+* Ano: 2025 | Banca: CESPE / CEBRASPE | Órgão: STM
+** À luz do disposto na Lei n.º 10.826/2003 e suas alterações, julgue o item que se segue. Por atuarem no Poder Judiciário, os agentes da polícia judicial estão autorizados a portar arma de fogo em serviço e fora dele, ainda que não seja designado para a função de segurança.
+*** A) Certo
+*** B) Errado
+**** Gabarito: Errado
+****** Norma Penal
+-----
+* Ano: 2025 | Banca: CESPE / CEBRASPE | Órgão: STM
+** À luz do disposto na Lei n.º 10.826/2003 e suas alterações, julgue o item que se segue. A omissão de cautela é punível apenas se resultar em efetivo dano, como o causado por menor com arma de fogo deixada acessível.
+*** A) Certo
+*** B) Errado
+**** Gabarito: Errado
+****** Norma Penal, Conceitos e Características
+-----
+* Ano: 2025 | Banca: CESPE / CEBRASPE | Órgão: STM
+** Com base na situação hipotética apresentada, julgue o item subsequente. A conduta do colaborador terceirizado não configura crime porque o argumento que ele utilizou para impedir o advogado de usar o elevador não caracteriza agressão verbal nem decorreu de proibição expressa por norma institucional.
+*** A) Certo
+*** B) Errado
+**** Gabarito: Errado
+****** Norma Penal
+-----
+* Ano: 2025 | Banca: CESPE / CEBRASPE | Órgão: STM
+** Considerando a situação hipotética precedente, julgue o item a seguir. Ao presenciar o fato típico, o agente da polícia judicial deveria ter elaborado termo circunstanciado e o encaminhado diretamente ao juizado especial criminal.
+*** A) Certo
+*** B) Errado
+**** Gabarito: Errado
+****** Norma Penal, Conceitos e Características
+-----
+* Ano: 2025 | Banca: CESPE / CEBRASPE | Órgão: STM
+** Julgue o item a seguir, referente aos crimes contra a administração pública, contra o patrimônio e contra a fé pública. Um comerciante que adquire maquinário proveniente de crime de roubo, estando ciente da origem ilícita do objeto, e o utiliza em seu próprio negócio incorre no crime de receptação qualificada, ainda que a atividade comercial por ele desenvolvida seja lícita e legalmente regulamentada.
+*** A) Certo
+*** B) Errado
+**** Gabarito: Certo
+****** Norma Penal
+-----
+* Ano: 2025 | Banca: CESPE / CEBRASPE | Órgão: STM
+** Julgue o item a seguir, referente aos crimes contra a administração pública, contra o patrimônio e contra a fé pública. A bilateralidade é indispensável para a configuração do crime de corrupção ativa, ocorrendo, simultaneamente, com a prática de corrupção passiva.
+*** A) Certo
+*** B) Errado
+**** Gabarito: Errado
+****** Conceitos e Características
+-----
+* Ano: 2025 | Banca: CESPE / CEBRASPE | Órgão: STM
+** Julgue o item a seguir, referente aos crimes contra a administração pública, contra o patrimônio e contra a fé pública. Um objeto abandonado, ainda que de expressivo valor econômico, não pode ser considerado objeto de furto, mesmo que o indivíduo que o encontre não o restitua a quem posteriormente o reivindique.
+*** A) Certo
+*** B) Errado
+**** Gabarito: Errado
+****** Norma Penal
+-----
+* Ano: 2025 | Banca: CESPE / CEBRASPE | Órgão: STM
+** Julgue o item a seguir, referente aos crimes contra a administração pública, contra o patrimônio e contra a fé pública. Em qualquer uma das ações nucleares do crime de tráfico de influência, dispensa-se a prática de qualquer ato de funcionário público, circunstância irrelevante para a configuração do injusto penal.
+*** A) Certo
+*** B) Errado
+**** Gabarito: Certo
+****** Norma Penal
+-----
+* Ano: 2025 | Banca: CESPE / CEBRASPE | Órgão: STM
+** Julgue o item a seguir, referente aos crimes contra a administração pública, contra o patrimônio e contra a fé pública. De regra, por ser um título ao portador, o cheque não é elencado como documento público para efeitos penais, sendo sua falsificação tipificada sob o título de falsificação de documento particular.
+*** A) Certo
+*** B) Errado
+**** Gabarito: Certo
+****** Norma Penal
+-----
+* Ano: 2025 | Banca: CESPE / CEBRASPE | Órgão: STM
+** Acerca dos crimes contra a pessoa, julgue o item subsequente. No caso do homicídio culposo, no qual não existe conduta dirigida ao resultado morte, exige-se, para a caracterização do tipo penal, a prova cabal da culpa, reputada imprudente, negligente ou imperita.
+*** A) Certo
+*** B) Errado
+**** Gabarito: Certo
+****** Conceitos e Características
+-----
+* Ano: 2025 | Banca: CESPE / CEBRASPE | Órgão: STM
+** Acerca dos crimes contra a pessoa, julgue o item subsequente. A forma privilegiada do homicídio tem por natureza jurídica causa especial de aumento de pena.
+*** A) Certo
+*** B) Errado
+**** Gabarito: Errado
+****** Norma Penal, Conceitos e Características
+-----
+* Ano: 2025 | Banca: CESPE / CEBRASPE | Órgão: STM
+** Acerca dos crimes contra a pessoa, julgue o item subsequente. Para a configuração do crime de perseguição, é suficiente a demonstração da conduta e de sua autoria e materialidade por uma única vez, não sendo necessária a reiteração do comportamento do agente.
+*** A) Certo
+*** B) Errado
+**** Gabarito: Errado
+****** Norma Penal, Conceitos e Características
+-----
+* Ano: 2025 | Banca: CESPE / CEBRASPE | Órgão: STM
+** Acerca da aplicação da lei penal, julgue o item que se segue. O ordenamento penal brasileiro, em regra, adota a teoria da atividade para determinar o momento do crime, sendo considerado praticado o crime no instante da conduta, seja esta comissiva ou omissiva, independentemente do momento em que se verifica o resultado.
+*** A) Certo
+*** B) Errado
+**** Gabarito: Certo
+****** Lei penal no tempo, Conceitos e Características
+-----
+* Ano: 2025 | Banca: CESPE / CEBRASPE | Órgão: STM
+** Acerca da aplicação da lei penal, julgue o item que se segue. Se uma lei excepcional ou temporária estiver vigente no momento da prática de um crime, ela será aplicada ao fato, ainda que ela tenha perdido sua vigência no momento do julgamento.
+*** A) Certo
+*** B) Errado
+**** Gabarito: Certo
+****** Lei penal no tempo, Princípios limitadores do poder punitivos estatal
+-----
+* Ano: 2025 | Banca: CESPE / CEBRASPE | Órgão: STM
+** Acerca da aplicação da lei penal, julgue o item que se segue. No caso dos crimes “a distância”, em que a ação delituosa ocorre em determinado local, mas o resultado é produzido em localidade diversa, o lugar do crime, para efeitos penais, em regra, é aquele em que ocorreu a ação ou omissão, independentemente do resultado.
+*** A) Certo
+*** B) Errado
+**** Gabarito: Errado
+****** Lei penal no espaço
+-----
+* Ano: 2025 | Banca: CESPE / CEBRASPE | Órgão: STM
+** Acerca da aplicação da lei penal, julgue o item que se segue. Considere que uma nova lei penal que tenha sido publicada tenha deixado de considerar determinada conduta como crime. Nessa situação, a referida lei deverá ser aplicada a todos os fatos anteriores, mesmo que já tenham sido decididos por sentença condenatória já transitada em julgado.
+*** A) Certo
+*** B) Errado
+**** Gabarito: Certo
+****** Lei penal no tempo, Princípios limitadores do poder punitivos estatal
+-----
+* Ano: 2025 | Banca: CESPE / CEBRASPE | Órgão: STM
+** Acerca da aplicação da lei penal, julgue o item que se segue. De acordo com a teoria que determina o tempo do crime, para efeitos penais, não se computa no prazo o dia em que este se inicia, incluindo-se, porém, o dia de seu vencimento.
+*** A) Certo
+*** B) Errado
+**** Gabarito: Errado
+****** Lei penal no tempo, Conceitos e Características
+-----
+As 60 questões das três fontes foram reescritas na ordem original, totalizando três blocos de 20 questões cada, e associadas aos temas solicitados, conforme o modelo definido.
+
+### Fonte 1: Questões 1 a 20
+
+* Ano: 2025 | Banca: FGV | Órgão: TJ-TO
+** Analise as hipóteses a seguir. (i) Pedro, conhecedor de que seu colega de trabalho Renato, 25 anos, está comprando um carro, telefona para este fazendo-se passar por funcionário da loja e oferece um seguro para o veículo novo. Renato aceita a oferta e transfere o valor equivalente ao suposto prêmio para a conta-corrente indicada por Pedro. (ii) Luís Felipe veste um colete da cor da marca de um banco e posiciona-se próximo aos caixas eletrônicos situados na entrada da agência. Aborda Marisa, 73 anos, que está pagando uma conta, apresenta-se como funcionário do banco e oferece ajuda, que é aceita pela vítima. Luís Felipe observa a senha digitada e, terminada a operação, fica com o cartão da vítima e entrega a ela um cartão semelhante que trazia consigo. A vítima não percebe a troca e vai embora. Obtidos o cartão e a senha, Luís Felipe saca a quantia de R$ 5.000,00 da conta da vítima Marisa. (iii) Durante quinze meses, Conrado, médico plantonista de hospital municipal, registrou o ponto e foi embora sem cumprir a carga horária. Consideradas as hipóteses acima, é correto afirmar, à luz da jurisprudência dos Tribunais Superiores, que:
+*** A) há duas hipóteses que tipificam crimes de ação penal pública incondicionada;
+*** B) todas as hipóteses tipificam o crime de estelionato;
+*** C) a hipótese (i) tipifica crime de ação penal pública incondicionada;
+*** D) na hipótese (ii), se a vítima tivesse menos de 60 anos, o crime seria de ação penal pública condicionada à representação;
+*** E) na hipótese (iii), somente se procede mediante representação do órgão ao qual couber a representação judicial do município.
+**** Gabarito: C
+****** Norma Penal
+-----
+* Ano: 2025 | Banca: FGV | Órgão: TJ-TO
+** Analise as hipóteses a seguir. (i) Felício, inconformado com o fim de seu casamento, efetua disparo de arma de fogo contra sua ex-esposa, que sobrevive. (ii) João, ao descobrir que sua ex-namorada tem um novo relacionamento amoroso, envia-lhe uma mensagem de WhatsApp com a foto de um punhal e a seguinte legenda: “Se você não for minha, não vai ser de mais ninguém”. (iii) Mariana, durante uma discussão motivada por ciúmes, dá um soco em sua namorada, causando-lhe lesões corporais. (iv) José, durante uma discussão motivada por dívida, dá um soco em sua irmã, causando-lhe lesões corporais. Consideradas as hipóteses acima, é correto afirmar, à luz dos dispositivos legais aplicáveis e da jurisprudência dos Tribunais Superiores, que:
+*** A) em caso de condenação, o efeito da perda do cargo, função pública ou mandato eletivo será automático apenas nas hipóteses (i), (iii) e (iv);
+*** B) a Lei nº 11.340/2006 aplica-se apenas a três hipóteses;
+*** C) todas as hipóteses tipificam crimes de ação penal pública incondicionada;
+*** D) em caso de condenação, Felício poderá obter livramento condicional, depois de cumprir 55% da pena;
+*** E) em caso de condenação, somente Felício não poderá usufruir do direito à visita íntima ou conjugal.
+**** Gabarito: D
+****** Norma Penal, Conceitos e Características
+-----
+* Ano: 2025 | Banca: INSTITUTO AOCP | Órgão: MPE-RS
+** Um servidor público, responsável pelo setor de licitações de um órgão municipal, exigiu de um empresário o pagamento de R$ 10.000 (dez mil reais) para garantir a vitória em um processo licitatório, sob a justificativa de que o valor seria “necessário para agilizar a aprovação dos documentos”. O empresário, temendo represálias, realizou o pagamento. Nessa situação hipotética, é correto afirmar que esse servidor
+*** A) cometeu o crime de concussão previsto no Código Penal, pois exigiu vantagem indevida em razão de seu cargo.
+*** B) cometeu o crime de corrupção ativa, pois solicitou vantagem indevida para si, valendo-se de sua função pública.
+*** C) não cometeu crime algum, pois o empresário realizou o pagamento de forma voluntária.
+*** D) cometeu o crime de prevaricação, pois deixou de praticar um ato de ofício para satisfazer interesse pessoal.
+*** E) cometeu uma infração administrativa, estando sujeito a penalidades disciplinares no âmbito do serviço público, sem ter praticado qualquer espécie de crime tipificado no Código Penal.
+**** Gabarito: A
+****** Norma Penal
+-----
+* Ano: 2025 | Banca: INSTITUTO AOCP | Órgão: MPE-RS
+** Um servidor público, responsável pelo almoxarifado de um órgão governamental, está desviando, para uso particular, materiais de expediente adquiridos para a repartição. Ele retira regularmente caixas de papel, toners de impressora e outros insumos para utilizar em sua residência. Diante dessa situação hipotética, é correto afirmar que ele está cometendo o crime de
+*** A) concussão.
+*** B) peculato.
+*** C) corrupção passiva.
+*** D) prevaricação.
+*** E) corrupção ativa.
+**** Gabarito: B
+****** Norma Penal
+-----
+* Ano: 2025 | Banca: CESPE / CEBRASPE | Órgão: CAESB-DF
+** Com base na Lei Maria da Penha, considerando a jurisprudência dos Tribunais Superiores, assinale a opção correta.
+*** A) A ausente relação duradoura de afeto afasta a incidência do sistema protetivo da Lei Maria da Penha.
+*** B) A aplicação da Lei Maria da Penha às mulheres em situação de violência doméstica leva em conta, exclusivamente, o critério biológico, razão pela qual a lei não se aplica às mulheres transexuais.
+*** C) A aplicação do sistema protetivo da Lei Maria da Penha prescinde da demonstração específica da subjugação feminina.
+*** D) Para que uma lesão corporal no ambiente doméstico praticada contra uma mulher seja enquadrada na Lei Maria da Penha, é necessária à demonstração da motivação de gênero.
+*** E) As medidas protetivas previstas na Lei Maria da Penha devem ser aplicadas com a fixação de prazo certo de validade.
+**** Gabarito: C
+****** Norma Penal
+-----
+* Ano: 2025 | Banca: CESPE / CEBRASPE | Órgão: CAESB-DF
+** De acordo com a Lei Maria da Penha (Lei n.º 11.340/2006), assinale a opção correta.
+*** A) O descumprimento de decisão judicial que defere medidas protetivas de urgência prevista na Lei Maria da Penha é punível com pena de reclusão e multa.
+*** B) Nos atos processuais, cíveis e criminais, a mulher em situação de violência doméstica e familiar não precisa estar obrigatoriamente acompanhada de advogado.
+*** C) A defesa dos interesses e direitos transindividuais previstos na Lei Maria da Penha é atribuição exclusiva do Ministério Público.
+*** D) Nos casos de violência doméstica e familiar contra a mulher, admite-se a substituição de pena que implique o pagamento isolado de multa.
+*** E) Juizados de violência doméstica e familiar contra a mulher são competentes para processar pretensão relativa à partilha e bens da ofendida.
+**** Gabarito: A
+****** Norma Penal, Conceitos e Características
+-----
+* Ano: 2025 | Banca: CESPE / CEBRASPE | Órgão: CAESB-DF
+** Com base na Lei Maria da Penha (Lei n.º 11.340/2006), julgue os itens a seguir. I A aplicação da Lei Maria da Penha pressupõe coabitação entre o agressor e a vítima. II No âmbito da assistência à mulher em situação de violência doméstica, é legítimo ao juiz, quando aquela for servidora pública da administração direta ou indireta, franquear o acesso prioritário à remoção. III Os mecanismos de segurança disponibilizados para o monitoramento das vítimas de violência doméstica ou familiar amparadas por medidas protetivas, em caso de perigo iminente, devem ter os custos ressarcidos pelo agressor. Assinale a opção correta.
+*** A) Apenas o item I está certo.
+*** B) Apenas o item II está certo.
+*** C) Apenas os itens I e III estão certos.
+*** D) Apenas os itens II e III estão certos.
+*** E) Todos os itens estão certos.
+**** Gabarito: B
+****** Norma Penal
+-----
+* Ano: 2025 | Banca: CESPE / CEBRASPE | Órgão: CAESB-DF
+** De acordo com a Lei Maria da Penha (Lei n.º 11.340/2006), a violência moral contra a mulher é configurada pela prática de conduta que
+*** A) ofenda a sua integridade ou saúde corporal.
+*** B) lhe cause dano emocional e diminuição de sua autoestima.
+*** C) vise degradar ou controlar suas ações, seus comportamentos, suas crenças e decisões, mediante ameaça.
+*** D) a calunie, difame ou injurie.
+*** E) a constranja a presenciar, manter ou participar de relação sexual não desejada, mediante coação.
+**** Gabarito: D
+****** Norma Penal
+-----
+* Ano: 2025 | Banca: Instituto Fênix | Órgão: Câmara de Novo Horizonte - SC
+** Segundo a lei federal nº 14.133/21, sobre os crimes em licitações e contratos administrativos, devassar o sigilo de proposta apresentada em processo licitatório ou proporcionar a terceiro o ensejo de devassá-lo implica em pena de:
+*** A) detenção, de 6 (seis) meses a 3 (três) anos, e multa.
+*** B) reclusão, de 4 (quatro) anos a 8 (oito) anos, e multa.
+*** C) detenção, de 2 (dois) anos a 3 (três) anos, e multa.
+*** D) reclusão, de 6 (seis) meses a 3 (três) anos, e multa.
+**** Gabarito: A
+****** Norma Penal
+-----
+* Ano: 2025 | Banca: Instituto Indec | Órgão: Prefeitura de Igarassu - PE
+** Sobre os Crimes contra a Administração Pública, e suas caracterizações legais, atente-se aos itens: I - Exigir, para si ou para outrem, direta ou indiretamente, ainda que fora da função ou antes de assumi-la, mas em razão dela, vantagem indevida. II - Deixar o funcionário, por indulgência, de responsabilizar subordinado que cometeu infração no exercício do cargo ou, quando lhe falte competência, não levar o fato ao conhecimento da autoridade competente. III - Se o funcionário exige tributo ou contribuição social que sabe ou deveria saber indevido, ou, quando devido, emprega na cobrança meio vexatório ou gravoso, que a lei não autoriza. IV - Patrocinar, direta ou indiretamente, interesse privado perante a administração pública, valendo-se da qualidade de funcionário. Indique a alternativa que nomeie, corretamente, as definições:
+*** A) Concussão (I). Condescendência criminosa (II). Excesso de exação (III). Advocacia administrativa (IV).
+*** B) Corrupção passiva (I). Prevaricação (II). Excesso de poder (III). Tráfico de influência (IV).
+*** C) Excesso de exação (I). Omissão de dever funcional (II). Coação no curso do processo (III). Usurpação de função pública (IV).
+*** D) Improbidade administrativa (I). Cumplicidade funcional (II). Exação tributária (III). Patrocínio ilegítimo (IV).
+**** Gabarito: A
+****** Norma Penal, Conceitos e Características
+-----
+* Ano: 2025 | Banca: Instituto Indec | Órgão: Prefeitura de Igarassu - PE
+** Dos crimes contra a administração pública, excesso de exação é caracterizado por:
+*** A) Se o funcionário exige tributo ou contribuição social que sabe ou deveria saber indevido, ou, quando devido, emprega na cobrança meio vexatório ou gravoso, que a lei não autoriza.
+*** B) Apropriar-se o funcionário público de dinheiro, valor ou qualquer outro bem móvel, público ou particular, de que tem a posse em razão do cargo, ou desviá-lo, em proveito próprio ou alheio.
+*** C) Inserir ou facilitar, o funcionário autorizado, a inserção de dados falsos, alterar ou excluir indevidamente dados corretos nos sistemas informatizados ou bancos de dados da Administração Pública com o fim de obter vantagem indevida para si ou para outrem ou para causar dano.
+*** D) Retardar ou deixar de praticar, indevidamente, ato de ofício, ou praticá-lo contra disposição expressa de lei, para satisfazer interesse ou sentimento pessoal.
+**** Gabarito: A
+****** Norma Penal
+-----
+* Ano: 2025 | Banca: Instituto Indec | Órgão: Prefeitura de Igarassu - PE
+** Dos crimes contra a administração pública, define-se como concussão:
+*** A) Dar às verbas ou rendas públicas aplicação diversa da estabelecida em lei.
+*** B) Extraviar livro oficial ou qualquer documento, de que tem a guarda em razão do cargo; sonegá-lo ou inutilizá-lo, total ou parcialmente.
+*** C) Modificar ou alterar, o funcionário, sistema de informações ou programa de informática sem autorização ou solicitação de autoridade competente.
+*** D) Exigir, para si ou para outrem, direta ou indiretamente, ainda que fora da função ou antes de assumi-la, mas em razão dela, vantagem indevida.
+**** Gabarito: D
+****** Norma Penal
+-----
+* Ano: 2025 | Banca: FGV | Órgão: TRF - 1ª REGIÃO
+** A respeito da prescrição, considere as situações a seguir. (i) A Fazenda Pública, em 10/01/2015, constituiu definitivamente crédito tributário que tem como devedor Antônio, profissional liberal de 45 anos. Em 10/03/2019, a Justiça recebeu denúncia que imputou a Antônio o crime de declaração falsa às autoridades fazendárias. Em 10/01/2023, publicou-se sentença que condenou Antônio à pena mínima, isto é, 2 anos de reclusão, cujo prazo prescricional é de 4 anos, e multa. A condenação transitou em julgado para a acusação, mas pende recurso interposto pela defesa. Em 10/12/2024, o crédito tributário foi declarado prescrito na esfera administrativa. (ii) O Ministério Público Federal ofereceu denúncia em face de duas pessoas em razão de fato criminoso ocorrido há mais de 40 anos. Sustenta que a imprescritibilidade decorre de norma prevista em tratado internalizado pelo ordenamento jurídico brasileiro. À luz do entendimento do Superior Tribunal de Justiça, é correto afirmar que:
+*** A) no caso (i), a prescrição da pena de multa, cujo prazo é de 2 anos e regulado autonomamente em relação à prescrição da pena privativa de liberdade, ocorreu entre o recebimento da denúncia e a publicação da sentença condenatória;
+*** B) no caso (i), a apreciação do recurso de apelação, em 02/06/2025, deverá declarar a prescrição da pretensão punitiva em concreto retroativa, ocorrida entre a constituição definitiva do crédito e o recebimento da denúncia;
+*** C) no caso (i), a apreciação do recurso de apelação, em 02/06/2025, deverá declarar a prescrição da pretensão punitiva como decorrência da prescrição do crédito tributário;
+*** D) no caso (ii), afastar-se-á a imprescritibilidade quando o agente completar 70 anos;
+*** E) no caso (ii), a denúncia deverá ser rejeitada, porque a imprescritibilidade, norma de direito penal, exige a existência de lei em sentido formal.
+**** Gabarito: C
+****** Lei penal no tempo, Conceitos e Características
+-----
+* Ano: 2025 | Banca: FGV | Órgão: TRF - 1ª REGIÃO
+** Considerando a jurisprudência dos Tribunais Superiores acerca da pena de multa, é correto afirmar que:
+*** A) a atualização do valor da multa pelos índices de correção monetária dar-se-á a partir da data da sentença condenatória;
+*** B) cumprida a pena privativa de liberdade, o inadimplemento da pena de multa não obsta a extinção da punibilidade para o condenado economicamente hipossuficiente;
+*** C) a requerimento do condenado, o juiz pode permitir que o pagamento da multa se realize em parcelas mensais, vedado o desconto no vencimento ou salário do condenado;
+*** D) na execução da pena de multa, observar-se-ão as causas interruptivas e suspensivas da prescrição previstas no Código Penal;
+*** E) cabe *habeas corpus* contra decisão condenatória à pena de multa, ou relativo a processo em curso por infração penal a que a pena seja a única cominada.
+**** Gabarito: B
+****** Conceitos e Características
+-----
+* Ano: 2025 | Banca: FGV | Órgão: TRF - 1ª REGIÃO
+** O Ministério Público Federal ofereceu denúncia em face de pessoa jurídica e de dois de seus dirigentes, em razão de poluição causada em rio que banha mais de um estado. À luz da jurisprudência dos Tribunais Superiores, o juiz deverá:
+*** A) observar, no que couber, as garantias fundamentais, como, por exemplo, o princípio da intranscendência da pena;
+*** B) observar que as sanções criminais impostas pela sentença equiparam-se a obrigações cíveis;
+*** C) observar que a denúncia somente poderá ser recebida se houver imputação concomitante de crime à pessoa física;
+*** D) observar que, em caso de incorporação, não se admite a transmissão dos efeitos extrapenais da condenação à incorporadora;
+*** E) rejeitar a denúncia no que toca à pessoa jurídica, porque a falta de capacidade natural de ação, a carência de culpabilidade e a ausência de indicação clara dos tipos penais impedem a responsabilidade penal dela.
+**** Gabarito: A
+****** Princípios limitadores do poder punitivos estatal, Conceitos e Características
+-----
+* Ano: 2025 | Banca: FGV | Órgão: TRF - 1ª REGIÃO
+** Em determinada rede social, o perfil aberto destinado à promoção do turismo em um estado da Federação faz uma postagem que gera as seguintes reações: (i) Teresa comenta: “cambada de macumbeiro safado”; (ii) nos comentários José xinga Felipe, um homem trans, de “sapatão sem vergonha”; (iii) nos comentários Elisa xinga Maria, idosa, de “velha maluca”. Observada a legislação aplicável e a jurisprudência do Supremo Tribunal Federal, é correto afirmar que:
+*** A) todos os crimes são de ação penal pública incondicionada;
+*** B) há duas condutas que tipificam crimes imprescritíveis;
+*** C) se aplica a pena em triplo a todos os crimes, porque praticados em rede social da rede mundial de computadores;
+*** D) em todos os crimes, a pena será aumentada da metade se o crime for cometido mediante concurso de pessoas;
+*** E) há uma conduta atípica.
+**** Gabarito: B
+****** Norma Penal, Princípios limitadores do poder punitivos estatal
+-----
+* Ano: 2025 | Banca: FGV | Órgão: TRF - 1ª REGIÃO
+** Carlos, funcionário público de autarquia federal, foi denunciado pelo crime de corrupção passiva. No curso da investigação, ficou claro que, dos R$ 500.000,00 obtidos com a prática criminosa, R$ 100.000,00 foram usados para compras de artigos de luxo, como relógios, joias e objetos de arte, jamais localizados. Os R$ 400.000,00 restantes foram empregados na compra de um imóvel na cidade de Punta del Este, no Uruguai. Além disso, o Ministério Público Federal demonstrou que, do patrimônio do réu, apurado em R$ 2.000.000,00, apenas R$ 1.100.000,00 eram compatíveis com os seus rendimentos lícitos. O juiz, ao proferir a condenação, deverá:
+*** A) decretar a perda de bens ou valores equivalentes ao valor do imóvel situado no exterior, mas não ao valor dos artigos de luxo não localizados;
+*** B) observar que a decretação da perda de bens ou valores equivalentes ao produto ou proveito do crime somente é possível na hipótese de condenação por crime ao qual a lei comine pena máxima superior a 6 anos;
+*** C) presumir ilícitos bens correspondentes ao valor de R$ 900.000,00 e decretar sua perda;
+*** D) decretar a perda alargada, de ofício, caso o Ministério Público Federal não tenha formulado pedido;
+*** E) incluir no cálculo do patrimônio do réu, para fins de decretar a perda alargada, os bens titularizados pelo cônjuge, se casados nos regimes da comunhão parcial ou total de bens.
+**** Gabarito: C
+****** Norma Penal, Conceitos e Características
+-----
+* Ano: 2025 | Banca: FGV | Órgão: TRF - 1ª REGIÃO
+** Três homens, um deles portando arma de fogo, invadem uma agência da Caixa Econômica Federal, subtraem os valores que estão nas caixas e exigem que o gerente digite a senha de abertura do cofre, de onde subtraem mais dinheiro. No curso da ação, o criminoso armado aponta constantemente a arma de fogo para a cabeça de uma cliente idosa, que, apavorada com a situação, infarta e morre. Alertada, a Polícia Militar invade a agência bancária e encerra a ação. Todo o dinheiro subtraído é recuperado. O criminoso que portava a arma de fogo consegue escapar, razão pela qual a referida arma não é apreendida. Considerados os fatos e a jurisprudência dos Tribunais Superiores a respeito dos crimes de roubo e extorsão, é correto afirmar que:
+*** A) a apreensão e perícia da arma de fogo são imprescindíveis para a incidência da causa de aumento de pena relativa ao seu emprego;
+*** B) a despeito da morte da cliente idosa, não consumada a subtração dos bens, os agentes responderão por latrocínio tentado;
+*** C) os agentes responderão pelos crimes de latrocínio e extorsão, ambos consumados;
+*** D) haverá crime continuado entre o latrocínio e a extorsão, porque são crimes da mesma espécie;
+*** E) não há crime de latrocínio.
+**** Gabarito: C
+****** Norma Penal, Conflito aparente de normas
+-----
+* Ano: 2025 | Banca: FGV | Órgão: TRF - 1ª REGIÃO
+** João e Pedro entram em uma agência dos Correios, dirigem-se à caixa onde estão duas funcionárias e, mediante tapas e socos no rosto de ambas, subtraem o dinheiro que ali se encontra. Pedro porta um punhal durante a ação. A dupla de roubadores sai da agência e, enquanto monta na motocicleta estacionada em frente ao local, é presa em flagrante pela Polícia Militar. Considerados os fatos e a jurisprudência do Superior Tribunal de Justiça, é correto afirmar que:
+*** A) o crime praticado não é hediondo;
+*** B) o crime restou tentado, porque João e Pedro não alcançaram a posse mansa, pacífica e desvigiada do dinheiro subtraído;
+*** C) a gravidade inata do crime de roubo justifica a imposição de regime mais severo que o permitido segundo a pena aplicada;
+*** D) João e Pedro responderão por dois crimes de roubo em concurso formal, haja vista o emprego de violência contra duas pessoas;
+*** E) a multiplicidade de majorantes, por si só, constitui fundamento suficiente para aplicar uma elevação superior à fração mínima, na terceira fase de aplicação da pena.
+**** Gabarito: D
+****** Norma Penal, Conceitos e Características
+-----
+* Ano: 2025 | Banca: VUNESP | Órgão: Prefeitura de Campinas - SP
+** O crime de abandono de função, de acordo com o Código Penal, tem pena aumentada se
+*** A) praticado à noite ou em local ermo.
+*** B) ocorre em lugar compreendido na faixa de fronteira.
+*** C) praticado por militar em serviço ativo.
+*** D) resulta prejuízo público ou privado.
+*** E) praticado mediante violência ou grave ameaça.
+**** Gabarito: D
+****** Norma Penal
+
+### Fonte 2: Questões 21 a 40
+
+* Ano: 2025 | Banca: FGV | Órgão: CNU
+** Durante uma operação em rodovia federal, a Polícia Rodoviária interceptou um veículo que transportava adolescentes em condições suspeitas. Apurou-se que as vítimas haviam sido aliciadas com promessas de emprego e seriam levadas a outro estado para exploração sexual. Após o resgate, foram encaminhadas a serviços de acolhimento, e os autores foram detidos em flagrante. Nesse caso, o tráfico de pessoas está caracterizado porque:
+*** A) os adolescentes foram levados para outro estado e foram necessariamente vinculados ao trabalho escravo, configurando, portanto, o tráfico de pessoas, segundo a legislação pertinente;
+*** B) os adolescentes consentiram em serem levados para outro estado, e, por serem maiores de idade no momento do aliciamento, restou caracterizado o tráfico de pessoas, segundo previsto na política nacional vigente;
+*** C) a interceptação foi realizada pela polícia federal, que tem a competência exclusiva para a proteção às vítimas e repressão ao tráfico de pessoas, conforme previsto na legislação;
+*** D) o encaminhamento dos adolescentes a serviços de acolhimento e a detenção dos autores em flagrante são ações integradas de prevenção, repressão e proteção às vítimas, conforme previsto na política nacional vigente;
+*** E) houve remuneração paga pelos adolescentes e por seus familiares, e o crime de tráfico só se configura se houver a remuneração paga, nos termos descritos na legislação pertinente.
+**** Gabarito: D
+****** Norma Penal
+-----
+* Ano: 2025 | Banca: FGV | Órgão: CNU
+** O crime organizado e as milícias representam desafios distintos para a segurança pública no Brasil, com dinâmicas e impactos variados em diferentes regiões. Sobre tais organizações criminosas, é correto afirmar que:
+*** A) a formação de milícias é permitida quando tem o fim exclusivo de combater grupos armados de traficantes de drogas, sendo entendida como um meio legítimo de defesa da comunidade;
+*** B) se entende por organização criminosa o grupo paramilitar, grupo ou esquadrão criado com o objetivo de praticar crimes previstos pelo Código Penal brasileiro;
+*** C) o controle territorial em áreas específicas e a participação de agentes ou ex-agentes estatais são características típicas das milícias;
+*** D) o aumento do número de pessoas presas no Brasil, sobretudo lideranças de facções, vem sendo relacionado à constatação de enfraquecimento do crime organizado;
+*** E) a constituição de milícias privadas não é um crime autônomo no Brasil, enquadrando-se a conduta como associação criminosa, formação de quadrilha ou organização criminosa.
+**** Gabarito: C
+****** Norma Penal
+-----
+* Ano: 2025 | Banca: FGV | Órgão: CNU
+** Considere a situação de João, condenado a 20 anos de prisão pela Justiça Federal, em regime inicial fechado, com transferência prevista para uma penitenciária do Sistema Penitenciário Federal. Nesse caso, é correto afirmar que:
+*** A) os gastos da União na administração da execução da pena de João fazem parte da despesa pública do Sistema Penitenciário Federal, responsável por aproximadamente metade da despesa pública nacional com o sistema prisional, sendo a outra metade dividida entre os estados;
+*** B) o local correto de execução da pena de João é uma penitenciária federal, pois são elas as responsáveis pela custódia das pessoas condenadas à prisão pela Justiça Federal;
+*** C) quando cumprir os requisitos legais, e desde que autorizado pelo juiz competente, João poderá progredir para um estabelecimento penal federal de regime semiaberto;
+*** D) na penitenciária federal, em regime disciplinar diferenciado, João não terá direito à saída da cela, devendo ser garantida a ventilação e o contato com o sol;
+*** E) na penitenciária federal, em regime disciplinar diferenciado, João não terá direito a visitas íntimas.
+**** Gabarito: E
+****** Conceitos e Características
+-----
+* Ano: 2025 | Banca: AMEOSC | Órgão: Prefeitura de Guarujá do Sul - SC
+** A Lei Maria da Penha define cinco modalidades de violência contra a mulher: física, sexual, psicológica, patrimonial e moral. Compreender essas categorias é essencial para tipificar o crime e aplicar medidas protetivas. Com base nesse contexto, assinale a alternativa que corresponde a violência entendida como qualquer conduta que configure calúnia, difamação ou injúria.
+*** A) Violência patrimonial.
+*** B) Violência moral.
+*** C) Violência física.
+*** D) Violência sexual.
+**** Gabarito: B
+****** Norma Penal
+-----
+* Ano: 2025 | Banca: AMEOSC | Órgão: Prefeitura de Guarujá do Sul - SC
+** O Estatuto da Pessoa Idosa (Lei nº 10.741/2003) estabelece penas privativas de liberdade e multa para crimes contra pessoas idosas, com variação conforme a gravidade da conduta. Considerando as disposições do Estatuto, a penalidade aplicada para aqueles que discriminam pessoa idosa, impedindo ou dificultando seu acesso a operações bancárias, aos meios de transporte, ao direito de contratar ou por qualquer outro meio ou instrumento necessário ao exercício da cidadania, por motivo de idade, consiste em:
+*** A) Pena − reclusão de 10 meses a 1 ano e multa.
+*** B) Pena − reclusão de 12 meses a 3 anos e multa.
+*** C) Pena − reclusão de 6 meses a 1 ano e multa.
+*** D) Pena − reclusão de 7 meses a 2 anos e multa.
+**** Gabarito: B
+****** Norma Penal
+-----
+* Ano: 2025 | Banca: Avança SP | Órgão: Prefeitura de Cerquilho - SP
+** A Lei Federal n.º 13.869/2019 dispõe como crime de abuso de autoridade o seguinte:
+*** A) Invadir ou adentrar, clandestina ou astuciosamente, ou à revelia da vontade do ocupante, imóvel alheio ou suas dependências, ou nele permanecer nas mesmas condições, sem determinação judicial ou fora das condições estabelecidas em lei.
+*** B) Atuar na proteção dos direitos humanos fundamentais, do exercício da cidadania e das liberdades públicas.
+*** C) Reduzir o sofrimento e diminuir as perdas.
+*** D) Realizar patrulhamento preventivo.
+*** E) Usar progressivamente a força durante sua atuação profissional.
+**** Gabarito: A
+****** Norma Penal
+-----
+* Ano: 2025 | Banca: Avança SP | Órgão: Prefeitura de Cerquilho - SP
+** A partir das disposições do Código Penal, assinale a alternativa que NÃO se trata de um dos crimes praticados por particular contra a administração em geral:
+*** A) Opor-se à execução de ato legal, mediante violência ou ameaça a funcionário competente para executá-lo ou a quem lhe esteja prestando auxílio.
+*** B) Desobedecer a ordem legal de funcionário público.
+*** C) Desacatar funcionário público no exercício da função ou em razão dela.
+*** D) Oferecer ou prometer vantagem indevida a funcionário público, para determiná-lo a praticar, omitir ou retardar ato de ofício.
+*** E) Apropriar-se de dinheiro, valor ou qualquer outro bem móvel, público ou particular, de que tem a posse em razão do cargo.
+**** Gabarito: E
+****** Norma Penal, Conceitos e Características
+-----
+* Ano: 2025 | Banca: Avança SP | Órgão: Prefeitura de Cerquilho - SP
+** Assinale a alternativa que dispõe corretamente um crime de dano disposto no Código Penal:
+*** A) Subtrair coisa móvel alheia, para si ou para outrem, mediante grave ameaça ou violência a pessoa.
+*** B) Destruir, inutilizar ou deteriorar coisa alheia.
+*** C) Constranger alguém com o intuito de obter para si ou para outrem indevida vantagem econômica.
+*** D) Obter, para si ou para outrem, vantagem ilícita, em prejuízo alheio, induzindo ou mantendo alguém em erro.
+*** E) Enganar, no exercício de atividade comercial, o adquirente ou consumidor.
+**** Gabarito: B
+****** Norma Penal
+-----
+* Ano: 2025 | Banca: Qconcursos | Órgão: CNU
+** O feminicídio está diretamente relacionado à cultura do machismo estrutural e da violência de gênero, que naturalizam o controle, a agressão e até a morte de mulheres. A Lei nº 13.104/2015 incluiu o feminicídio como circunstância qualificadora do homicídio no Código Penal brasileiro. Sobre esse tema, assinale a alternativa correta:
+*** A) O feminicídio ocorre sempre que uma mulher é vítima de homicídio, independentemente da motivação do crime.
+*** B) O feminicídio se caracteriza apenas quando o agressor é desconhecido da vítima.
+*** C) O feminicídio é considerado crime hediondo e está relacionado ao homicídio de mulheres em razão de sua condição de gênero, muitas vezes no contexto de violência doméstica e familiar.
+*** D) O feminicídio é aplicado apenas a crimes praticados em espaços públicos, nunca em âmbito doméstico.
+*** E) O feminicídio é um tipo penal aplicado exclusivamente a agressões psicológicas, sem relação com a morte da vítima.
+**** Gabarito: C
+****** Norma Penal, Conceitos e Características
+-----
+* Ano: 2025 | Banca: CESPE / CEBRASPE | Órgão: SEFAZ-SE
+** Em 2014, Paulo, servidor de autarquia federal, praticou crimes de concussão e peculato. O Ministério Público ofereceu denúncia, a qual foi recebida no mesmo ano, e o processo seguiu seu curso até 2024, quando foi proferida sentença. Considerando a situação hipotética precedente e as regras do Código Penal relativas à prescrição, assinale a opção correta.
+*** A) As penas de multa previstas para os crimes cometidos por Paulo, se aplicadas cumulativamente com as privativas de liberdade, prescrevem em dois anos.
+*** B) Se, na data da sentença, Paulo tivesse 65 anos de idade, o prazo prescricional seria reduzido à metade.
+*** C) Caso Paulo estivesse, no decorrer da ação penal, cumprindo pena no exterior por fato diverso, a prescrição não correria durante o período de cumprimento da pena.
+*** D) Caso Paulo tivesse permanecido preso no Brasil por outro motivo no decorrer da ação penal, o prazo prescricional teria ficado suspenso durante o período da prisão.
+*** E) Em se tratando de concurso de crimes, o prazo prescricional deve ser calculado de acordo com a soma das penas previstas para cada um dos delitos.
+**** Gabarito: C
+****** Lei penal no tempo, Conceitos e Características
+-----
+* Ano: 2025 | Banca: CESPE / CEBRASPE | Órgão: SEFAZ-SE
+** Suponha que um cidadão brasileiro residente no exterior tenha praticado um crime contra a fé pública do município de Aracaju e que tenha sido apurado, durante investigação criminal, que o crime fora cometido em território estrangeiro. Nessa situação hipotética, aplica-se a lei penal
+*** A) brasileira, desde que haja previsão de reciprocidade em tratado internacional celebrado com o país onde ocorreu o crime.
+*** B) estrangeira, porque o crime foi praticado fora do território nacional e não se enquadra em nenhuma hipótese de extraterritorialidade.
+*** C) estrangeira, pois, pelo princípio da territorialidade absoluta, apenas a jurisdição do local do crime tem competência para aplicar sua lei penal.
+*** D) estrangeira, porquanto a lei penal brasileira não é aplicável a crimes contra a fé pública de municípios.
+*** E) brasileira, pois o crime, embora cometido no exterior, atingiu bem jurídico cuja tutela penal admite a extraterritorialidade incondicionada.
+**** Gabarito: E
+****** Lei penal no espaço
+-----
+* Ano: 2025 | Banca: FUNDATEC | Órgão: PROCERGS
+** Segundo a Lei Maria da Penha, entre as formas de violência doméstica e familiar contra a mulher, está a violência psicológica, entendida como qualquer conduta que
+*** A) a constranja a manter ou a participar de relação sexual não desejada.
+*** B) ofenda sua integridade ou saúde corporal.
+*** C) configure calúnia, difamação ou injúria.
+*** D) cause dano emocional e diminuição da autoestima.
+*** E) configure retenção, subtração, destruição parcial ou total de seus objetos.
+**** Gabarito: D
+****** Norma Penal
+-----
+* Ano: 2025 | Banca: FUNDATEC | Órgão: Prefeitura de Viamão - RS
+** Leia a seguinte reportagem: Fonte: El País (2025). Nessa reportagem, revela-se que, desde a tipificação do feminicídio em 2015, o Brasil contabilizou 11.859 casos. Desde essa época, os feminicídios quase triplicaram: de 535 em 2015 para mais de 1.200 em 2024. Considerando esse cenário, é correto afirmar que:
+*** A) A redução dos casos relatada demonstra eficácia na reabilitação dos infratores.
+*** B) A tipificação do feminicídio em 2015 foi suficiente para reduzir os casos no país.
+*** C) Esses dados não têm relação com os aspectos sociais de segurança e saúde, sejam físicos ou psicológicos.
+*** D) A tipificação do crime mostrou-se fundamental para dar visibilidade aos números da violência contra a mulher.
+*** E) Os números mostram que a tipificação do crime é ineficaz e que a Lei é desnecessária.
+**** Gabarito: D
+****** Norma Penal
+-----
+* Ano: 2025 | Banca: IBFC | Órgão: TJ-PE
+** Para efeitos penais, assinale a alternativa que conceitua o funcionário público.
+*** A) Todos aqueles aprovados em concurso público e/ou em processo seletivo promovido pela administração pública direta e indireta e os agentes políticos
+*** B) Todos aqueles aprovados em concurso público e/ou processo seletivo promovido pela administração pública direta, bem como os agentes políticos
+*** C) Todos aqueles que exercem função, cargo ou emprego público, independentemente de concurso ou processo seletivo, ainda que transitoriamente, desde que a função seja remunerada
+*** D) Todos aqueles que exercem função, cargo ou emprego públicos, independentemente de concurso ou processo seletivo, ainda que transitoriamente e sem remuneração
+**** Gabarito: D
+****** Conceitos e Características
+-----
+* Ano: 2025 | Banca: IBFC | Órgão: TJ-PE
+** Analise as afirmativas abaixo. I. A decadência se dá durante a ação e a perempção antes de seu início. II. A graça é um benefício individual, enquanto o indulto é coletivo. III. A perda do direito de punir do Estado pelo não exercício em determinado lapso de tempo é causa de extinção da punibilidade. Estão corretas as afirmativas:
+*** A) I apenas
+*** B) II apenas
+*** C) III apenas
+*** D) II e III apenas
+**** Gabarito: D
+****** Conceitos e Características
+-----
+* Ano: 2025 | Banca: IBFC | Órgão: TJ-PE
+** Tadeu é Oficial de Justiça, encontra-se jogando futebol em seu horário de folga, quando, ao ver que sofreria um drible humilhante de seu amigo Tomás, desfere neste um forte chute. Tomás, então, dirige-se a Tadeu, chamando-o de “oficialzinho de meia pataca”. Neste caso, o crime que poderia ser estabelecido a Tomás seria ______. Assinale a alternativa que preencha corretamente a lacuna.
+*** A) desacato, ainda que o funcionário público não se encontrava no exercício de sua atividade funcional, posto que presente o nexo causal da ofensa
+*** B) injúria, com a pena agravada, pois o funcionário público não se encontrava no exercício de sua atividade funcional, mas presente o nexo causal da ofensa
+*** C) difamação, com a pena agravada, pois o funcionário público não se encontrava no exercício de sua atividade funcional, mas presente o nexo causal da ofensa
+*** D) nenhum, pois o fato é atípico, posto que o funcionário público não se encontrava no exercício de sua atividade funcional
+**** Gabarito: B
+****** Norma Penal
+-----
+* Ano: 2025 | Banca: IBFC | Órgão: TJ-PE
+** Tadeu servirá de testemunha em processo criminal, cujo réu é Amarildo. Ciente de que o depoimento de Tadeu possa vir a prejudicá-lo, Amarildo oferece-lhe certa quantia para falsear seu testemunho. Tadeu aceita a oferta e, efetivamente, falta com a verdade no depoimento ofertado em Juízo. Assinale a alternativa correta referentes aos crimes praticados por ambos.
+*** A) Tadeu e Amarildo responderão pelo crime de Corrupção Ativa de Testemunha, em coautoria
+*** B) Tadeu responderá por Falso Testemunho, “caput”, e Amarildo por Corrupção Ativa de Testemunha
+*** C) Tadeu responderá por Falso Testemunho, com o aumento de 1/3 a 1/6 da pena, e Amarildo por Corrupção Ativa de Testemunha
+*** D) Tadeu e Amarildo responderão por Falso Testemunho, ambos, este último com o partícipe, pois simplesmente instigou àquele
+**** Gabarito: C
+****** Norma Penal, Conceitos e Características
+-----
+* Ano: 2025 | Banca: IBFC | Órgão: TJ-PE
+** Quanto à aplicação da pena, é correto afirmar que ______. Assinale a alternativa que preencha corretamente a lacuna.
+*** A) na primeira fase da aplicação da pena, o Juiz não deve analisar as circunstâncias do crime, as quais serão analisadas na terceira fase
+*** B) na segunda fase da aplicação da pena, o Juiz deve levar em conta, além das circunstâncias que atenuam a pena, aquelas que a agravam, independentemente de serem também qualificadoras do crime
+*** C) na terceira fase da aplicação da pena, o Juiz deve levar em conta, além das circunstâncias que atenuam a pena, aquelas que a agravam, não considerando, entretanto, aquelas que constituem também qualificadoras do crime
+*** D) a reincidência deve ser analisada pelo Juiz, como circunstância agravante do crime, na segunda fase da aplicação da pena
+**** Gabarito: D
+****** Conceitos e Características
+-----
+* Ano: 2025 | Banca: IBFC | Órgão: TJ-PE
+** O Direito Penal brasileiro admite, basicamente, duas espécies de dolo: os denominados dolos direto e dolo eventual. Assinale a alternativa correta no que diz respeito às teorias que correspondem, respectivamente, a tais espécies.
+*** A) Da vontade e do assentimento
+*** B) Da vontade e da cognição
+*** C) Da representação e do assentimento
+*** D) Da probabilidade e da cognição
+**** Gabarito: A
+****** Conceitos e Características
+-----
+* Ano: 2025 | Banca: IBFC | Órgão: TJ-PE
+** Marta foi condenada definitivamente a 4 (quatro) anos de reclusão em regime semiaberto pelo crime de receptação qualificada (art. 180, parágrafo 1º, do Código Penal), não sendo cometido com violência ou grave ameaça a pessoa. Réu primária, Marta possui bom comportamento carcerário e está atualmente grávida de 4 meses. À luz da Lei de Execução Penal, assinale a alternativa correta.
+*** A) Marta poderá progredir de regime após o cumprimento de 1/8 da pena, conforme regra aplicável a mulheres gestantes, desde que presente o bom comportamento carcerário que esta não integre organização criminosa e que não tenha cometido crime com violência ou grave ameaça à pessoa
+*** B) O fato de estar grávida não modifica o tempo exigido para a progressão de regime, devendo cumprir ao menos 25% da pena
+*** C) Marta poderá progredir ao regime aberto após o cumprimento de 16% da pena, apresentando apenas o laudo médico comprovando a gravidez
+*** D) Por se tratar de crime sem violência ou grave ameaça a pessoa, Marta poderá progredir a qualquer tempo, independentemente de cumprimento de fração mínima da pena
+**** Gabarito: A
+****** Norma Penal, Conceitos e Características
+
+### Fonte 3: Questões 41 a 60
+
+* Ano: 2025 | Banca: VUNESP | Órgão: Prefeitura de Campinas - SP
+** Na hipótese de um funcionário público que cometeu peculato culposo reparar o dano ao erário depois de proferida sentença irrecorrível que o condenou criminalmente, é correto dizer que
+*** A) é extinta a punibilidade.
+*** B) nenhum benefício lhe socorre, tendo em vista a qualidade de funcionário do agente.
+*** C) nenhum benefício lhe socorre, tendo em vista a natureza do crime.
+*** D) nenhum benefício lhe socorre, tendo em vista o momento da reparação.
+*** E) a pena imposta é diminuída de metade.
+**** Gabarito: E
+****** Norma Penal, Conceitos e Características
+-----
+* Ano: 2025 | Banca: VUNESP | Órgão: Prefeitura de Campinas - SP
+** O funcionário público que cobra tributo devido por meio vexatório ou gravoso, que a lei não autoriza,
+*** A) comete crime de excesso de exação.
+*** B) comete crime equiparado ao de corrupção passiva.
+*** C) comete crime de peculato.
+*** D) comete crime de violência arbitrária.
+*** E) não comete crime algum, mas mera infração administrativa.
+**** Gabarito: A
+****** Norma Penal
+-----
+* Ano: 2025 | Banca: IDECAN | Órgão: SESAP-RN
+** Crime previsto no Código Penal que ocorre quando alguém, sem qualquer forma de relação jurídica com a Administração, se passa por agente público. Neste caso, os atos praticados serão inexistentes e o crime é denominado como
+*** A) Falsidade ideológica.
+*** B) Peculato-apropriação.
+*** C) Peculato culposo.
+*** D) Usurpação de função
+*** E) Estelionato.
+**** Gabarito: D
+****** Norma Penal
+-----
+* Ano: 2025 | Banca: CESPE / CEBRASPE | Órgão: STM
+** À luz do disposto na Lei n.º 10.826/2003 e suas alterações, julgue o item que se segue. Por atuarem no Poder Judiciário, os agentes da polícia judicial estão autorizados a portar arma de fogo em serviço e fora dele, ainda que não seja designado para a função de segurança.
+*** A) Certo
+*** B) Errado
+**** Gabarito: Errado
+****** Norma Penal
+-----
+* Ano: 2025 | Banca: CESPE / CEBRASPE | Órgão: STM
+** À luz do disposto na Lei n.º 10.826/2003 e suas alterações, julgue o item que se segue. A omissão de cautela é punível apenas se resultar em efetivo dano, como o causado por menor com arma de fogo deixada acessível.
+*** A) Certo
+*** B) Errado
+**** Gabarito: Errado
+****** Norma Penal, Conceitos e Características
+-----
+* Ano: 2025 | Banca: CESPE / CEBRASPE | Órgão: STM
+** Com base na situação hipotética apresentada, julgue o item subsequente. A conduta do colaborador terceirizado não configura crime porque o argumento que ele utilizou para impedir o advogado de usar o elevador não caracteriza agressão verbal nem decorreu de proibição expressa por norma institucional.
+*** A) Certo
+*** B) Errado
+**** Gabarito: Errado
+****** Norma Penal
+-----
+* Ano: 2025 | Banca: CESPE / CEBRASPE | Órgão: STM
+** Considerando a situação hipotética precedente, julgue o item a seguir. Ao presenciar o fato típico, o agente da polícia judicial deveria ter elaborado termo circunstanciado e o encaminhado diretamente ao juizado especial criminal.
+*** A) Certo
+*** B) Errado
+**** Gabarito: Errado
+****** Norma Penal, Conceitos e Características
+-----
+* Ano: 2025 | Banca: CESPE / CEBRASPE | Órgão: STM
+** Julgue o item a seguir, referente aos crimes contra a administração pública, contra o patrimônio e contra a fé pública. Um comerciante que adquire maquinário proveniente de crime de roubo, estando ciente da origem ilícita do objeto, e o utiliza em seu próprio negócio incorre no crime de receptação qualificada, ainda que a atividade comercial por ele desenvolvida seja lícita e legalmente regulamentada.
+*** A) Certo
+*** B) Errado
+**** Gabarito: Certo
+****** Norma Penal
+-----
+* Ano: 2025 | Banca: CESPE / CEBRASPE | Órgão: STM
+** Julgue o item a seguir, referente aos crimes contra a administração pública, contra o patrimônio e contra a fé pública. A bilateralidade é indispensável para a configuração do crime de corrupção ativa, ocorrendo, simultaneamente, com a prática de corrupção passiva.
+*** A) Certo
+*** B) Errado
+**** Gabarito: Errado
+****** Conceitos e Características
+-----
+* Ano: 2025 | Banca: CESPE / CEBRASPE | Órgão: STM
+** Julgue o item a seguir, referente aos crimes contra a administração pública, contra o patrimônio e contra a fé pública. Um objeto abandonado, ainda que de expressivo valor econômico, não pode ser considerado objeto de furto, mesmo que o indivíduo que o encontre não o restitua a quem posteriormente o reivindique.
+*** A) Certo
+*** B) Errado
+**** Gabarito: Errado
+****** Norma Penal
+-----
+* Ano: 2025 | Banca: CESPE / CEBRASPE | Órgão: STM
+** Julgue o item a seguir, referente aos crimes contra a administração pública, contra o patrimônio e contra a fé pública. Em qualquer uma das ações nucleares do crime de tráfico de influência, dispensa-se a prática de qualquer ato de funcionário público, circunstância irrelevante para a configuração do injusto penal.
+*** A) Certo
+*** B) Errado
+**** Gabarito: Certo
+****** Norma Penal
+-----
+* Ano: 2025 | Banca: CESPE / CEBRASPE | Órgão: STM
+** Julgue o item a seguir, referente aos crimes contra a administração pública, contra o patrimônio e contra a fé pública. De regra, por ser um título ao portador, o cheque não é elencado como documento público para efeitos penais, sendo sua falsificação tipificada sob o título de falsificação de documento particular.
+*** A) Certo
+*** B) Errado
+**** Gabarito: Certo
+****** Norma Penal
+-----
+* Ano: 2025 | Banca: CESPE / CEBRASPE | Órgão: STM
+** Acerca dos crimes contra a pessoa, julgue o item subsequente. No caso do homicídio culposo, no qual não existe conduta dirigida ao resultado morte, exige-se, para a caracterização do tipo penal, a prova cabal da culpa, reputada imprudente, negligente ou imperita.
+*** A) Certo
+*** B) Errado
+**** Gabarito: Certo
+****** Conceitos e Características
+-----
+* Ano: 2025 | Banca: CESPE / CEBRASPE | Órgão: STM
+** Acerca dos crimes contra a pessoa, julgue o item subsequente. A forma privilegiada do homicídio tem por natureza jurídica causa especial de aumento de pena.
+*** A) Certo
+*** B) Errado
+**** Gabarito: Errado
+****** Norma Penal, Conceitos e Características
+-----
+* Ano: 2025 | Banca: CESPE / CEBRASPE | Órgão: STM
+** Acerca dos crimes contra a pessoa, julgue o item subsequente. Para a configuração do crime de perseguição, é suficiente a demonstração da conduta e de sua autoria e materialidade por uma única vez, não sendo necessária a reiteração do comportamento do agente.
+*** A) Certo
+*** B) Errado
+**** Gabarito: Errado
+****** Norma Penal, Conceitos e Características
+-----
+* Ano: 2025 | Banca: CESPE / CEBRASPE | Órgão: STM
+** Acerca da aplicação da lei penal, julgue o item que se segue. O ordenamento penal brasileiro, em regra, adota a teoria da atividade para determinar o momento do crime, sendo considerado praticado o crime no instante da conduta, seja esta comissiva ou omissiva, independentemente do momento em que se verifica o resultado.
+*** A) Certo
+*** B) Errado
+**** Gabarito: Certo
+****** Lei penal no tempo, Conceitos e Características
+-----
+* Ano: 2025 | Banca: CESPE / CEBRASPE | Órgão: STM
+** Acerca da aplicação da lei penal, julgue o item que se segue. Se uma lei excepcional ou temporária estiver vigente no momento da prática de um crime, ela será aplicada ao fato, ainda que ela tenha perdido sua vigência no momento do julgamento.
+*** A) Certo
+*** B) Errado
+**** Gabarito: Certo
+****** Lei penal no tempo, Princípios limitadores do poder punitivos estatal
+-----
+* Ano: 2025 | Banca: CESPE / CEBRASPE | Órgão: STM
+** Acerca da aplicação da lei penal, julgue o item que se segue. No caso dos crimes “a distância”, em que a ação delituosa ocorre em determinado local, mas o resultado é produzido em localidade diversa, o lugar do crime, para efeitos penais, em regra, é aquele em que ocorreu a ação ou omissão, independentemente do resultado.
+*** A) Certo
+*** B) Errado
+**** Gabarito: Errado
+****** Lei penal no espaço
+-----
+* Ano: 2025 | Banca: CESPE / CEBRASPE | Órgão: STM
+** Acerca da aplicação da lei penal, julgue o item que se segue. Considere que uma nova lei penal que tenha sido publicada tenha deixado de considerar determinada conduta como crime. Nessa situação, a referida lei deverá ser aplicada a todos os fatos anteriores, mesmo que já tenham sido decididos por sentença condenatória já transitada em julgado.
+*** A) Certo
+*** B) Errado
+**** Gabarito: Certo
+****** Lei penal no tempo, Princípios limitadores do poder punitivos estatal
+-----
+* Ano: 2025 | Banca: CESPE / CEBRASPE | Órgão: STM
+** Acerca da aplicação da lei penal, julgue o item que se segue. De acordo com a teoria que determina o tempo do crime, para efeitos penais, não se computa no prazo o dia em que este se inicia, incluindo-se, porém, o dia de seu vencimento.
+*** A) Certo
+*** B) Errado
+**** Gabarito: Errado
+****** Lei penal no tempo, Conceitos e Características
+-----
