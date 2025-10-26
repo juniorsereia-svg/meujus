@@ -1,201 +1,105 @@
-// MeuJus — app.js (robusto: URL base + cache-busting + mobile)
-(function () {
-  const $ = (s) => document.querySelector(s);
-  const ano = $('#ano'); const rodapeAno = $('#rodapeAno');
-  [ano, rodapeAno].forEach(el => el && (el.textContent = new Date().getFullYear()));
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MeuJus</title>
+<style>
+  :root{--bg:#fff;--ink:#111827}
+  html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",Roboto,Ubuntu,Helvetica,Arial,sans-serif}
+  .layout{display:grid;grid-template-columns:320px 1fr;gap:24px;max-width:1200px;margin:0 auto;padding:24px}
+  @media (max-width:900px){.layout{grid-template-columns:1fr}}
+  @media (max-width:640px){.layout{padding:10px}}
+  .panel{border:1px solid #e5e7eb;border-radius:12px;padding:16px}
+  .row{display:flex;gap:8px;align-items:center}
+  .column{display:flex;flex-direction:column;gap:12px}
+  .field{display:flex;flex-direction:column;gap:6px}
+  label{font-size:.9rem;color:#374151}
+  .muted{color:#6b7280}
+  .hidden{display:none}
 
-  // Controles
-  const form = $('#formProva'); const btnLimpar = $('#btnLimpar'); const btnImprimir = $('#btnImprimir');
+  /* Combos */
+  .combo{position:relative}
+  .combo input{width:100%;border:1px solid #d1d5db;border-radius:10px;padding:.5rem .75rem;padding-right:2.6rem;background:#fff}
+  .combo .combo-caret,.combo .combo-close{position:absolute;top:.5rem;width:28px;height:28px;border:1px solid #e5e7eb;border-radius:8px;background:#f9fafb;display:grid;place-items:center;cursor:pointer}
+  .combo .combo-caret{right:.5rem}
+  .combo .combo-close{right:2.6rem}
+  .combo-panel{position:absolute;z-index:20;inset-inline:0;top:calc(100% + .25rem);background:#fff;border:1px solid #e5e7eb;border-radius:12px;box-shadow:0 10px 20px rgba(0,0,0,.05);max-height:14rem;overflow:auto}
+  .combo-item{padding:.5rem .75rem;cursor:pointer}
+  .combo-item:hover{background:#f3f4f6}
 
-  // Combos
-  const cursoInput=$('#cursoInput'), cursoPanel=$('#cursoPanel'), cursoHidden=$('#cursoHidden');
-  const cursoCaret=document.querySelector('#cursoCombo .combo-caret'), cursoClose=document.querySelector('#cursoCombo .combo-close');
-  const temaInput=$('#temaInput'), temaPanel=$('#temaPanel'), temasHidden=$('#temasHidden');
-  const temaCaret=temaInput?.closest('.combo')?.querySelector('.combo-caret')||null;
-  const temaClose=temaInput?.closest('.combo')?.querySelector('.combo-close')||null;
-  const provaSel=$('#provaSel');
+  select{width:100%;border:1px solid #d1d5db;border-radius:10px;padding:.5rem .75rem;background:#fff}
+  button{border:1px solid #e5e7eb;border-radius:12px;padding:.6rem .9rem;background:#fff;cursor:pointer}
+  .actions{display:flex;gap:8px;margin-top:8px}
 
-  // Áreas
-  const previewVazio=$('#previewVazio'), previewConteudo=$('#previewConteudo'), artigo=$('#artigo'), printArticle=$('#printArticle');
+  .questao .alternativas{margin-left:1rem}
+  .separador{height:1px;background:linear-gradient(90deg,transparent,#d1d5db,transparent);margin:1rem 0}
 
-  // Estado
-  let manifest={}; let cursos=[]; let cursoSelecionado=''; let temaSelecionado='';
-  let mapaTemasPorCurso=new Map(); let resultado=[]; const letras=['A','B','C','D','E'];
-
-  // Constantes de fetch
-  const VER=`v=${Date.now()}`;
-  const baseURL=new URL('./', location.href);
-  const dataURL=new URL('./data/', baseURL);
-
-  // Utils
-  const normalizarPontuacao=(t)=>t.replace(/\s+([,.;:?!])/g,'$1').replace(/\(\s+/g,'(').replace(/\s+\)/g,')').replace(/\s{2,}/g,' ').trim();
-  const padronizarAlternativas=(v)=>v.map(s=>s.trim().replace(/^\(?[A-E]\)?\s*[\)\.\-–—]?\s*/i,'').trim());
-
-  async function txt(url){const r=await fetch(url,{cache:'no-store'});if(!r.ok)throw new Error(`HTTP ${r.status} ${url}`);return r.text();}
-
-  function parseQuestoesTxt(ctx, raw){
-    const blocos=raw.replace(/\r\n/g,'\n').split(/\n-{5,}\s*\n/).map(s=>s.trim()).filter(Boolean);
-    const out=[];
-    for(let i=0;i<blocos.length;i++){
-      const linhas=blocos[i].split('\n').map(s=>s.trim()).filter(Boolean);
-      const metaL=linhas.find(l=>l.startsWith('* '));
-      const enunArr=linhas.filter(l=>l.startsWith('** ')).map(l=>l.replace(/^\*\*\s*/,''));
-      const alts=linhas.filter(l=>l.startsWith('*** ')).map(l=>l.replace(/^\*\*\*\s*/,''));
-      const gabL=linhas.find(l=>l.startsWith('**** '));
-      if(!metaL||!enunArr.length||alts.length<2||!gabL)continue;
-      const meta=metaL.replace(/^\*\s*/,'').trim();
-      const enunciado=normalizarPontuacao(enunArr.join(' '));
-      const alternativas=padronizarAlternativas(alts.map(normalizarPontuacao));
-      const gabarito=(gabL.replace(/^(\*{4}\s*)?Gabarito:\s*/i,'').trim().match(/^[A-E]/i)||[''])[0].toUpperCase();
-      out.push({id:`${ctx.curso}::${ctx.tema}::${ctx.src}::Q${i+1}`,meta,enunciado,alternativas,gabarito});
-    }
-    return out.slice(0,20);
+  @media (max-width:640px){
+    .panel{padding:12px}
+    .actions{flex-wrap:wrap}
+    .actions>*{flex:1 1 48%}
+    .combo input, select, button{font-size:16px;min-height:44px}
+    .combo .combo-caret,.combo .combo-close{width:36px;height:36px;top:4px}
   }
+  @media print{#painel{display:none}.layout{padding:0;margin:0}}
+</style>
+</head>
+<body>
+<header style="padding:12px 16px;border-bottom:1px solid #e5e7eb">
+  <div class="row"><strong>MeuJus</strong><span class="muted">© <span id="ano"></span></span></div>
+</header>
 
-  // Manifest + combos
-  async function carregarManifest(){
-    const url=new URL(`manifest.json?${VER}`, dataURL).href;
-    const r=await fetch(url,{cache:'no-store'}); if(!r.ok) throw new Error(`HTTP ${r.status} manifest.json`);
-    manifest=await r.json();
+<main class="layout">
+  <aside id="painel" class="panel">
+    <form id="formProva" class="column" onsubmit="return false;">
+      <div class="field">
+        <label for="cursoInput">Disciplina</label>
+        <div id="cursoCombo" class="combo">
+          <input id="cursoInput" placeholder="Selecione a disciplina" autocomplete="off">
+          <input id="cursoHidden" type="hidden">
+          <div class="combo-close" title="Limpar">×</div>
+          <div class="combo-caret" title="Abrir">⌄</div>
+          <div id="cursoPanel" class="combo-panel hidden"></div>
+        </div>
+      </div>
 
-    cursos=Object.keys(manifest||{}).sort((a,b)=>a.localeCompare(b,'pt'));
-    montarComboCurso(cursos);
+      <div class="field">
+        <label for="temaInput">Tema</label>
+        <div class="combo">
+          <input id="temaInput" placeholder="Selecione o tema" autocomplete="off" disabled>
+          <input id="temasHidden" type="hidden">
+          <div class="combo-close" title="Limpar">×</div>
+          <div class="combo-caret" title="Abrir">⌄</div>
+          <div id="temaPanel" class="combo-panel hidden"></div>
+        </div>
+      </div>
 
-    cursoCaret?.addEventListener('click',()=>{cursoPanel.classList.toggle('hidden'); if(!cursoPanel.classList.contains('hidden'))cursoInput.focus();});
-    cursoClose?.addEventListener('click',()=>{cursoInput.value='';cursoHidden.value='';cursoSelecionado='';temaInput.value='';temasHidden.value='';temaSelecionado='';temaPanel.innerHTML='';cursoPanel.classList.add('hidden');});
-    cursoInput?.addEventListener('input',()=>{const q=cursoInput.value.toLowerCase().trim();Array.from(cursoPanel.children).forEach(it=>it.style.display=it.textContent.toLowerCase().includes(q)?'':'none');cursoPanel.classList.remove('hidden');});
+      <div class="field">
+        <label for="provaSel">Lista</label>
+        <select id="provaSel"></select>
+      </div>
 
-    temaCaret?.addEventListener('click',()=>{if(temaInput.disabled)return;temaPanel.classList.toggle('hidden'); if(!temaPanel.classList.contains('hidden'))temaInput.focus();});
-    temaClose?.addEventListener('click',()=>{temaInput.value='';temasHidden.value='';temaSelecionado='';Array.from(temaPanel.children).forEach(it=>it.style.display='');temaPanel.classList.add('hidden');});
+      <div class="actions">
+        <button id="btnLimpar" type="button">Limpar</button>
+        <button id="btnImprimir" type="button">Imprimir</button>
+        <button type="submit">Abrir</button>
+      </div>
+    </form>
+  </aside>
 
-    setOpcoesProva(10);
+  <section class="panel" style="min-height:60vh">
+    <div id="previewVazio" class="muted">Selecione disciplina, tema e lista. Depois clique em Abrir.</div>
+    <div id="previewConteudo" class="hidden">
+      <article id="artigo"></article>
+    </div>
+  </section>
+</main>
 
-    form?.addEventListener('submit',e=>{e.preventDefault();gerar();});
-    btnLimpar?.addEventListener('click',limpar);
-    btnImprimir?.addEventListener('click',()=>{if(resultado.length)renderQuestoesPrint(resultado);window.print();});
-    document.addEventListener('click',onClickAlternativa);
-    document.addEventListener('keydown',onKeyAlternativa);
-  }
+<footer class="muted" style="padding:12px 16px;border-top:1px solid #e5e7eb">© <span id="rodapeAno"></span></footer>
 
-  function setOpcoesProva(qtd){
-    if(!provaSel) return;
-    const opts=['<option value="0">Aleatória (1–'+qtd+')</option>'].concat(Array.from({length:qtd},(_,i)=>`<option value="${i+1}">Lista ${i+1}</option>`));
-    provaSel.innerHTML=opts.join('');
-  }
+<section id="printArticle" class="hidden"></section>
 
-  async function detectarQtdProvas(base){
-    const entry=(manifest[cursoSelecionado]?.temas||{})[temaSelecionado];
-    const declarado=typeof entry==='object'?(entry.count|0):0;
-    if(declarado>0) return Math.min(declarado,10);
-    let qtd=0;
-    for(let i=1;i<=10;i++){
-      const url=new URL(`./${base}/p${i}.txt?${VER}`, dataURL).href;
-      try{const r=await fetch(url,{method:'HEAD',cache:'no-store'}); if(r.ok) qtd=i; else break;}catch{break;}
-    }
-    return Math.max(qtd,1);
-  }
-  function aquecerTema(base,count){try{if(!navigator.serviceWorker?.controller)return;navigator.serviceWorker.controller.postMessage({type:'warmup',base,count});}catch{}}
-
-  function montarComboCurso(lista){
-    if(!cursoPanel)return;
-    cursoPanel.innerHTML=lista.map(l=>`<div class="combo-item" data-value="${l}">${l}</div>`).join('');
-    cursoPanel.addEventListener('click',e=>{
-      const it=e.target.closest('.combo-item'); if(!it) return;
-      cursoInput.value=it.textContent; cursoHidden.value=it.dataset.value; cursoSelecionado=it.dataset.value;
-      montarTemasDoCurso(cursoSelecionado);
-      cursoPanel.classList.add('hidden'); temaInput?.focus();
-    });
-  }
-  function montarTemasDoCurso(curso){
-    const info=manifest[curso]||{}; const temas=Object.keys(info.temas||{});
-    mapaTemasPorCurso.set(curso, temas.map(t=>{const v=info.temas[t]; const base=typeof v==='string'?v:(v.base||t); const count=typeof v==='object'?(v.count|0):0; return {label:t,base,count};}));
-    temaPanel.innerHTML=(mapaTemasPorCurso.get(curso)||[]).map(({label})=>`<div class="combo-item" data-value="${label}">${label}</div>`).join('');
-    temaPanel.addEventListener('click',onClickTema); temaInput.disabled=false;
-  }
-  function onClickTema(e){
-    const it=e.target.closest('.combo-item'); if(!it) return;
-    temaInput.value=it.textContent; temasHidden.value=it.dataset.value; temaSelecionado=it.dataset.value; fecharPainelTemas();
-    const entry=(mapaTemasPorCurso.get(cursoSelecionado)||[]).find(x=>x.label===temaSelecionado);
-    if(entry){(async()=>{const qtd=await detectarQtdProvas(entry.base); setOpcoesProva(qtd); aquecerTema(entry.base,qtd);})();}
-    else{temaSelecionado=''; temasHidden.value=''; temaInput.value=''; setOpcoesProva(1);}
-  }
-  function abrirPainelTemas(){temaPanel?.classList.remove('hidden');}
-  function fecharPainelTemas(){temaPanel?.classList.add('hidden');}
-  temaInput?.addEventListener('focus',abrirPainelTemas);
-  temaInput?.addEventListener('input',()=>{const q=temaInput.value.trim().toLowerCase(); Array.from(temaPanel.children).forEach(it=>it.style.display=it.textContent.toLowerCase().includes(q)?'':'none'); abrirPainelTemas();});
-
-  // Carregar provas
-  async function carregarArquivoProva(curso, tema, num){
-    const entry=(manifest[curso]?.temas||{})[tema]; if(!entry) throw new Error('Tema inválido');
-    const base=typeof entry==='string'?entry:(entry.base||tema);
-    const src=new URL(`./${base}/p${num}.txt?${VER}`, dataURL).href;
-    const raw=await txt(src);
-    return parseQuestoesTxt({curso,tema,src,provaNum:num,base}, raw);
-  }
-
-  function urlGoogleModoIA(p){return `https://www.google.com/search?q=${encodeURIComponent(p)}&udm=28&fbs=AEQNm0B`;}
-  function montarLinksIA(q){
-    const {enunciado,alternativas,gabarito}=q;
-    const temaPrincipal=(q.meta||'').split(' - ')[0]||'';
-    const links=[
-      {t:'Comentário',p:`Explique o raciocínio. ENUNCIADO: "${enunciado}" ALTS: "${alternativas}"`},
-      {t:'Glossário', p:`Termos essenciais. ENUNCIADO: "${enunciado}" ALTS: "${alternativas}"`},
-      {t:'Princípios',p:`Princípios e base legal. ENUNCIADO: "${enunciado}" ALTS: "${alternativas}" GAB: "${gabarito}"`},
-      {t:'Vídeos',    p:`3 vídeos tema: "${temaPrincipal}" ENUNCIADO: "${enunciado}"`}
-    ];
-    return `<div class="acoes-ia">${links.map(x=>`<a class="btn-ia" target="_blank" rel="noopener" href="${urlGoogleModoIA(x.p)}" title="${x.t}">${x.t[0]}</a>`).join('')}</div>`;
-  }
-
-  // Render
-  function renderQuestoesTela(lista){
-    artigo.innerHTML=lista.map((q,idx)=>{
-      const alts=q.alternativas.map((a,i)=>`<li class="py-1" data-alt="${letras[i]}" role="button" tabindex="0">${a}</li>`).join('');
-      return `<section class="questao py-2" data-q="${idx}">
-        <div class="meta">${q.meta}</div>
-        <h4 class="enunciado mt-1">${idx+1}) ${q.enunciado}</h4>
-        <ul class="alternativas mt-2 space-y-1">${alts}</ul>
-        <div class="feedback mt-2 text-sm"></div>
-        <div class="separador"></div>
-      </section>`;
-    }).join('');
-  }
-  function renderQuestoesPrint(lista){
-    printArticle.innerHTML=lista.map((q,idx)=>{
-      const alts=q.alternativas.map(a=>`<li class="py-1" style="font-size:0.825rem;line-height:1.5">${a}</li>`).join('');
-      return `<section class="questao py-1" data-q="${idx}">
-        <div class="meta">${q.meta}</div>
-        <h4 class="enunciado mt-1" style="font-size:0.9rem;line-height:1.55;color:#111827;font-weight:400">${idx+1}) ${q.enunciado}</h4>
-        <ul class="alternativas mt-2" style="margin-left:1rem">${alts}</ul>
-        <div class="separador"></div>
-      </section>`;
-    }).join('');
-  }
-
-  function onClickAlternativa(e){
-    const li=e.target.closest('.alternativas li'); if(!li) return;
-    const sec=li.closest('section.questao'); const idx=+sec.dataset.q; const q=resultado[idx]; if(!q) return;
-    const alt=li.dataset.alt; const correta=q.gabarito;
-    sec.querySelectorAll('.alternativas li').forEach(n=>n.setAttribute('aria-disabled','true'));
-    const fb=sec.querySelector('.feedback');
-    if(alt===correta){li.style.backgroundColor='rgba(16,185,129,0.15)';li.style.borderRadius='8px'; fb.innerHTML=`Correto. Gabarito: ${correta}`+montarLinksIA(q);}
-    else{li.style.backgroundColor='rgba(239,68,68,0.15)';li.style.borderRadius='8px'; const right=sec.querySelector(`.alternativas li[data-alt="${correta}"]`); if(right){right.style.outline='2px solid rgba(16,185,129,0.6)'; right.style.borderRadius='8px';} fb.innerHTML=`Incorreto. Gabarito: ${correta}`+montarLinksIA(q);}
-  }
-  function onKeyAlternativa(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();onClickAlternativa(e);} }
-
-  // Gerar
-  async function gerar(){
-    if(!cursoSelecionado||!temaSelecionado){alert('Selecione disciplina e tema.');return;}
-    const totalOp=provaSel?.options?.length?(provaSel.options.length-1):10;
-    const sel=parseInt(provaSel?.value||'0',10);
-    const idxProva=(sel===0||Number.isNaN(sel))?(1+((Math.random()*totalOp)|0)):Math.max(1,Math.min(sel,totalOp));
-    try{
-      resultado=await carregarArquivoProva(cursoSelecionado, temaSelecionado, idxProva);
-      if(!resultado.length) throw new Error('Prova vazia.');
-      previewVazio.classList.add('hidden'); previewConteudo.classList.remove('hidden');
-      renderQuestoesTela(resultado);
-    }catch(e){alert(`Erro: ${e.message}`);}
-  }
-  function limpar(){previewVazio.classList.remove('hidden'); previewConteudo.classList.add('hidden'); artigo.innerHTML=''; printArticle.innerHTML='';}
-
-  carregarManifest().catch(e=>{console.error(e); alert(`Falha ao carregar manifest:\n${e.message}`);});
-})();
+<script src="app.js"></script>
+</body>
+</html>
