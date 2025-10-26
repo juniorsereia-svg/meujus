@@ -18,7 +18,14 @@
     .questao{padding-top:.75rem}
     .titulo-questao{font-size:0.95rem;font-weight:600;color:#1a335a}
     .meta{font-size:.78rem;color:#6b7280;margin-top:.25rem}
-    .enunciado{color:#1a335a;font-weight:400;text-align:justify;font-size:0.9rem;line-height:1.5;margin-top:.45rem;white-space:pre-line}
+/* site: fundo cinza claro no enunciado */
+.enunciado{
+  color:#1a335a; font-weight:400; text-align:justify;
+  font-size:0.9rem; line-height:1.5; margin-top:.45rem; white-space:pre-line;
+  background:#f8fafc;            /* cinza clarinho */
+  padding:.6rem .75rem;           /* respiro interno */
+  border-radius:.75rem;           /* cantos suaves */
+}
     .alternativas{margin-left:1rem;margin-top:.35rem}
     .alternativas li{cursor:pointer;user-select:none;font-size:0.8rem;line-height:1.5}
     .alternativas li[aria-disabled="true"]{cursor:default}
@@ -92,7 +99,15 @@
       #printArea{ column-count:2; column-gap:10mm; column-fill:auto; column-rule:0.1mm solid #cbd5e1; margin:0; padding:0; }
       .titulo-questao{font-size:0.80rem !important;font-weight:600;color:#111827 !important}
       .meta{ display:block !important; color:#6b7280 !important; font-size:.72rem !important; margin-top:.15rem }
-      .enunciado{font-size:0.90rem !important; line-height:1.5; color:#111827 !important; text-align:justify; hyphens:auto; -webkit-hyphens:auto; break-after:avoid-column}
+@media print{
+  .enunciado{
+    font-size:0.90rem !important; line-height:1.5; color:#111827 !important; text-align:justify;
+    hyphens:auto; -webkit-hyphens:auto; break-after:avoid-column;
+    background:transparent !important;  /* sem fundo na impressão */
+    padding:0 !important;               /* remove padding no papel */
+    border-radius:0 !important;
+  }
+}
       .alternativas li{font-size:0.8rem !important; line-height:1.5; break-inside:avoid}
       .acoes-ia,.btn-substituir{ display:none !important; }
       .questao{ break-inside:auto; page-break-inside:auto; }
