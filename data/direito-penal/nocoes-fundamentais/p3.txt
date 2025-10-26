@@ -1,0 +1,199 @@
+A seguir, estão as 20 questões na ordem original, formatadas exatamente conforme o modelo solicitado, prontas para copiar e colar em seu site.
+
+---
+
+* Ano: 2024 Banca: FGV Órgão: Câmara de Fortaleza - CE Prova: FGV - 2024 - Câmara de Fortaleza - CE - Advogado
+** Q 1: Com relação à aplicação da lei penal no espaço, segundo o vigente Código Penal, assinale a afirmativa correta.
+*** A) - Somente as embarcações e aeronaves brasileiras de natureza pública são consideradas como extensão do território nacional para fins penais.
+*** B) - Aplica-se a lei penal brasileira aos fatos praticados em quaisquer embarcações brasileiras, ainda que estejam ancoradas em porto estrangeiro.
+*** C) - A lei brasileira nunca é aplicável aos crimes praticados a bordo de aeronaves ou embarcações estrangeiras.
+*** D) - Ainda que seja cometido no estrangeiro, o crime de genocídio fica sujeito à lei brasileira quando o agente for brasileiro ou domiciliado no Brasil.
+*** E) - Não é aplicável a lei brasileira aos crimes praticados a bordo de aeronaves privadas estrangeiras, ainda que estejam em pouso no território nacional.
+**** Gabarito: D
+-----
+* Ano: 2024 Banca: FUNDATEC Órgão: Prefeitura de Foz do Iguaçu - PR Prova: FUNDATEC - 2024 - Prefeitura de Foz do Iguaçu - PR - Guarda Municipal de 3ª Classe
+** Q 2: Uma pessoa que nasceu e morava no Paraguai veio ao Brasil ilegalmente para realizar, junto com alguns brasileiros, um assalto a um banco. Os policiais brasileiros a prenderam durante a fuga, já na fronteira com a Argentina. De acordo com a legislação penal, considera-se praticado o crime:
+*** A) - No país da ação efetuada, ou seja, do assalto.
+*** B) - No país do destino após a fuga, caso haja convenção ou tratado internacional.
+*** C) - A definição do local do crime depende da sua gravidade.
+*** D) - Nos países onde foi efetuada a prisão, ou seja, no Brasil e na Argentina.
+*** E) - No país de origem do autor do crime.
+**** Gabarito: A
+-----
+* Ano: 2024 Banca: IV - UFG Órgão: TJ-AC Prova: CS-UFG - 2024 - TJ-AC - Técnico Judiciário - Técnico Judiciário
+** Q 3: No que tange à aplicação da Lei Penal, o Código Penal:
+*** A) - considera como tempo do crime o instante em que se produziu o resultado, mesmo que a conduta tenha sido perpetrada em outro momento.
+*** B) - considera como lugar do crime o local onde ocorreu a conduta, desconsiderando-se o espaço onde se produziu ou deveria se produzir o resultado.
+*** C) - considera que, tanto no espaço quanto no tempo, o crime ocorreu no momento e no lugar onde se produziu ou deveria se produzir o resultado.
+*** D) - considera como tempo do crime o momento em que ação ou a omissão é perpetrada, ainda que o resultado venha a ocorrer em outra ocasião.
+**** Gabarito: D
+-----
+* Ano: 2024 Banca: FGV Órgão: TJ-AP Prova: FGV - 2024 - TJ-AP - Técnico Judiciário - Área Judiciária - Administrativa
+** Q 4: Caio, Presidente da República Federativa do Brasil, enquanto cumpria agenda oficial em Nova York, nos Estados Unidos da América, é vítima de um crime contra a vida, perpetrado por Tício. Considerando as disposições do Código Penal, é correto afirmar que o crime praticado por Tício, cometido no estrangeiro:
+*** A) - não está sujeito à lei brasileira, que só tem aplicabilidade às condutas perpetradas no estrangeiro que caracterizem crime contra a fé pública da União;
+*** B) - não está sujeito à lei brasileira, que só tem aplicabilidade às condutas perpetradas no território pátrio;
+*** C) - está sujeito à lei brasileira, sendo uma manifestação de extraterritorialidade incondicionada;
+*** D) - está sujeito à lei brasileira, desde que haja requisição do ministro da Justiça;
+*** E) - está sujeito à lei brasileira, desde que Tício entre no território nacional.
+**** Gabarito: C
+-----
+* Ano: 2024 Banca: Instituto Consulplan Órgão: MPE-SC Prova: Instituto Consulplan - 2024 - MPE-SC - Promotor de Justiça Substituto - P1 - Fase Matutina
+** Q 5: Considerando os entendimentos modernos das doutrinas e dos Tribunais Superiores, bem como as jurisprudências que norteiam o direito penal brasileiro, julgue o item a seguir.
+O sistema constitucional proíbe que uma lei penal, qualquer que seja, possa ser aplicada a fatos ocorridos antes de sua vigência. Todavia, a lei penal mais grave aplica--se ao crime continuado ou ao crime permanente, se a sua vigência é anterior à cessação da continuidade ou da permanência.
+*** A) - Certo
+*** B) - Errado
+**** Gabarito: B
+-----
+* Ano: 2024 Banca: CESPE / CEBRASPE Órgão: PC-PE Prova: CESPE / CEBRASPE - 2024 - PC-PE - Delegado de Polícia
+** Q 6: De acordo com o entendimento jurisprudencial do Supremo Tribunal Federal (STF) acerca dos princípios penais fundamentais, a aplicabilidade do princípio da insignificância deve ser analisada em conexão com os postulados
+*** A) - da fragmentariedade e da intervenção mínima.
+*** B) - do controle social e da fragmentariedade.
+*** C) - do controle social e da subsidiariedade.
+*** D) - da subsidiariedade e da intervenção mínima.
+*** E) - do controle social e da intervenção mínima.
+**** Gabarito: A
+-----
+* Ano: 2024 Banca: FGV Órgão: CGM de Belo Horizonte - MG Prova: FGV - 2024 - CGM de Belo Horizonte - MG - Auditor Interno - Direito - Manhã
+** Q 7: Quanto ao conflito aparente de normas penais, analise as disposições a seguir.
+I. O  princípio da especialidade  determina que o tipo penal específico prevalece sobre o tipo penal de caráter geral.
+II. O  princípio da consunção  implica na absorção de um delito por outro, não sendo aplicável aos casos de crime progressivo, crime complexo, progressão criminosa, fato posterior não punível e fato anterior não punível.
+III. Os  requisitos  do conflito aparente de normas são os seguintes: pluralidade de condutas, relevância causal das condutas e liame subjetivo entre os agentes.
+Está correto o que se afirma em
+*** A) - III, apenas.
+*** B) - II, apenas.
+*** C) - I, apenas.
+*** D) - I e II, apenas.
+**** Gabarito: C
+-----
+* Ano: 2024 Banca: CESPE / CEBRASPE Órgão: PC-PE Prova: CESPE / CEBRASPE - 2024 - PC-PE - Escrivão de Polícia
+** Q 8: Durante sua estadia nos Estados Unidos da América, Caroline, brasileira, foi acusada de conduta tipificada como crime tanto na legislação estadunidense quanto na legislação brasileira. Considerando a situação hipotética anterior e a legislação brasileira referente à extraterritorialidade da lei penal, assinale a opção correta.
+*** A) - A extraterritorialidade da lei penal brasileira não se aplica à situação em apreço.
+*** B) - A extraterritorialidade da lei penal brasileira só se aplica a crimes cometidos por estrangeiros no exterior.
+*** C) - Para que Caroline possa ser processada no Brasil, basta que haja acordo de extradição entre o Brasil e os Estados Unidos da América.
+*** D) - Caroline poderá ser processada no Brasil, independentemente do interesse dos Estados Unidos da América.
+*** E) - A extraterritorialidade da lei penal brasileira só se aplica a crimes imprescritíveis e inafiançáveis.
+**** Gabarito: D
+-----
+* Ano: 2024 Banca: CESPE / CEBRASPE Órgão: PC-PE Prova: CESPE / CEBRASPE - 2024 - PC-PE - Escrivão de Polícia
+** Q 9: Sônia cometeu crime de furto em julho de 2023. Em agosto do mesmo ano, uma nova lei penal foi promulgada, aumentando a pena para esse delito. A partir da situação hipotética precedente, assinale a opção correta conforme o princípio da irretroatividade da lei penal.
+*** A) - A nova lei penal não se aplica a Sônia, pois o citado princípio impede a retroatividade da legislação penal mais gravosa.
+*** B) - Aplica-se a Sônia a nova lei penal, mais gravosa.
+*** C) - A nova lei penal pode ser aplicada retroativamente a Sônia, desde que ela não tenha sido julgada até a data de promulgação da lei.
+*** D) - Sônia só poderia ser submetida à pena estabelecida na nova lei se houvesse cometido crime grave.
+*** E) - O citado princípio só se aplica a casos já sentenciados, não influenciando processos em andamento, exceto quando a nova lei for mais benéfica ao réu.
+**** Gabarito: A
+-----
+* Ano: 2024 Banca: CESPE / CEBRASPE Órgão: PGE-RN Prova: CESPE / CEBRASPE - 2024 - PGE-RN - Procurador
+** Q 10: Determinada empresa com sede em Lajes – RN foi acusada de sonegar R$ 3 mil de ICMS, valor que não fora executado pelo fisco a tempo e modo. Durante o trâmite da ação penal, foi impetrado *habeas corpus* em que se requereu o trancamento da ação, com a aplicação do princípio da insignificância. A partir dessa situação hipotética, e considerando que decreto estadual do Rio Grande do Norte autoriza a PGE/RN a apresentar pedido de desistência das execuções fiscais já ajuizadas cujo valor do crédito tributário ou não tributário exequendo seja equivalente ou inferior a R$ 5 mil, assinale a opção correta à luz do entendimento do STJ.
+*** A) - O princípio da insignificância, além de incidir nos crimes tributários federais, pode incidir nos crimes tributários estaduais, desde que exista norma local reguladora que preveja a inexigibilidade da execução fiscal para débitos considerados insignificantes.
+*** B) - O princípio da insignificância não incide nos crimes tributários, uma vez que a parte lesada é a coletividade, de modo que não há espaço para trancamento da ação penal no caso.
+*** C) - O princípio da insignificância pode incidir tanto nos crimes tributários federais quanto nos estaduais, independentemente de norma local reguladora que preveja a inexigibilidade da execução fiscal para débitos considerados insignificantes, aplicando-se, na sua ausência, o limite estabelecido na lei federal.
+*** D) - O princípio da insignificância pode incidir nos crimes tributários, devendo servir de baliza para sua aplicação o limite mínimo estabelecido em legislação federal, podendo, por essa razão, ser determinado o trancamento da ação penal.
+*** E) - O princípio da insignificância incide apenas nos crimes tributários federais, não se aplicando aos crimes tributários estaduais, mesmo que exista norma local que estabeleça limite mínimo para a execução fiscal.
+**** Gabarito: A
+-----
+* Ano: 2024 Banca: CESPE / CEBRASPE Órgão: PGE-RN Prova: CESPE / CEBRASPE - 2024 - PGE-RN - Procurador
+** Q 11: Carlos deixou de promover o pagamento de imposto estadual durante os meses de fevereiro a dezembro de 2018. O órgão fazendário competente apurou a dívida em relação a todos os meses em um único procedimento administrativo, inscrevendo o crédito em dívida ativa. Considerando a situação hipotética apresentada e o atual entendimento jurisprudencial do Superior Tribunal de Justiça (STJ) acerca dos princípios penais, assinale a opção correta.
+*** A) - A despeito da permanência da conduta por diversos meses, admite-se a incidência do princípio da insignificância ao caso, desde que o valor apurado da dívida seja inferior a R$ 20 mil, pois houve apenas uma autuação administrativa.
+*** B) - Não incide o princípio da insignificância no caso apresentado, uma vez que a reiteração da conduta por diversos meses justifica a intervenção penal.
+*** C) - Não incide o princípio da insignificância no caso apresentado, pois a atipicidade material da conduta nos crimes tributários em razão do valor da dívida só é admitida na hipótese de impostos federais.
+*** D) - Apesar da reiteração da conduta por vários meses, admite-se a incidência do princípio da insignificância ao caso desde que o valor apurado da dívida seja de, no máximo, R$ 10 mil.
+*** E) - Admite-se a incidência do princípio da insignificância aos crimes tributários estaduais, porém, na hipótese apresentada, ele deve ser afastado, uma vez que a reiteração da conduta por vários meses demonstra a expressividade da lesão.
+**** Gabarito: A
+-----
+* Ano: 2024 Banca: IBFC Órgão: Prefeitura de Manaus - AM Prova: IBFC - 2024 - Prefeitura de Manaus - AM - Técnico Municipal I - Guarda Municipal
+** Q 12: De acordo com o Código Penal e as disposições sobre a aplicação da Lei Penal, assinale a alternativa  incorreta :
+*** A) - Não há pena sem prévia cominação legal
+*** B) - Ninguém pode ser punido por fato que lei posterior deixa de considerar crime, cessando em virtude dela a execução e os efeitos penais da sentença condenatória
+*** C) - A lei excepcional ou temporária, embora decorrido o período de sua duração ou cessadas as circunstâncias que a determinaram, aplica-se ao fato praticado durante sua vigência
+*** D) - A lei posterior, que de qualquer modo favorecer o agente, aplica-se aos fatos anteriores, salvo se decididos por sentença condenatória transitada em julgado
+*** E) - Não há crime sem lei anterior que o defina
+**** Gabarito: D
+-----
+* Ano: 2024 Banca: CESPE / CEBRASPE Órgão: ITAIPU BINACIONAL Prova: CESPE / CEBRASPE - 2024 - ITAIPU BINACIONAL - Profissional de Nível Técnico I - Função: Agente de Segurança
+** Q 13: Acerca da aplicação da lei penal, julgue os itens a seguir, de acordo com o previsto no Código Penal Brasileiro.
+I O crime é considerado praticado no momento da ação ou omissão, independentemente do momento do resultado.
+II A lei temporária aplica-se ao fato praticado durante sua vigência, ainda que decorrido o período de sua duração.
+III A lei posterior mais benéfica ao agente é aplicável aos fatos anteriores, exceto se decididos por sentença condenatória transitada em julgado.
+Assinale a opção correta.
+*** A) - Apenas o item III está certo.
+*** B) - Apenas os itens I e II estão certos.
+*** C) - Apenas os itens I e III estão certos.
+*** D) - Apenas os itens II e III estão certos.
+*** E) - Todos os itens estão certos.
+**** Gabarito: B
+-----
+* Ano: 2024 Banca: CESPE / CEBRASPE Órgão: ITAIPU BINACIONAL Prova: CESPE / CEBRASPE - 2024 - ITAIPU BINACIONAL - Profissional de Nível Técnico I - Função: Agente de Segurança
+** Q 14: Considerando o disposto no Código Penal Brasileiro quanto à aplicação da lei penal, julgue os próximos itens.
+I A prévia cominação legal é imprescindível para a existência de pena.
+II É admitida, em qualquer tempo, a punição do criminoso, ainda que o fato deixe de ser considerado crime por lei posterior.
+III Inexiste crime sem definição em lei anterior.
+Assinale a opção correta.
+*** A) - Apenas o item III está certo.
+*** B) - Apenas os itens I e II estão certos.
+*** C) - Apenas os itens I e III estão certos.
+*** D) - Apenas os itens II e III estão certos.
+*** E) - Todos os itens estão certos.
+**** Gabarito: C
+-----
+* Ano: 2024 Banca: CESPE / CEBRASPE Órgão: CGE-RJ Prova: CESPE / CEBRASPE - 2024 - CGE-RJ - Auditor do Estado
+** Q 15: Em relação à aplicação da lei penal, ao tempo e lugar do crime, aos crimes contra o patrimônio e aos crimes contra a administração pública, julgue o item seguinte.
+Suponha que, no dia 15 de dezembro de 2023, João tenha efetuado três disparos de arma de fogo contra Antônio, atingindo-o na cabeça, e que a vítima tenha sido socorrida por terceiros e levada ao hospital, mas, apesar dos esforços médicos, tenha falecido no dia 17 de dezembro de 2023. Nessa situação hipotética, de acordo com o Código Penal, o crime de homicídio considera-se praticado no momento da ação, ainda que o resultado morte tenha ocorrido em momento posterior.
+*** A) - Certo
+*** B) - Errado
+**** Gabarito: A
+-----
+* Ano: 2024 Banca: FGV Órgão: TJ-RJ Prova: FGV - 2024 - TJ-RJ - Programa de Residência - Direito
+** Q 16: Assinale a afirmativa que corretamente descreve um princípio do Direito Penal.
+*** A) - O princípio da insignificância afasta a tipicidade formal do delito.
+*** B) - O princípio da culpabilidade penal impõe que a responsabilidade deve ser pessoal, subjetiva e pelo fato, afastando-se a influência de qualidades pessoais na formação da culpa.
+*** C) - O princípio da anterioridade defende que a lei anterior ao delito é aplicável ao fato, afastando a possibilidade de aplicação de lei penal posterior que de qualquer forma modifique as características do tipo penal.
+*** D) - O princípio da adequação social possibilita afastar a ilicitude do fato e tolerar condutas socialmente aceitas, tal como a solicitação de pequenos presentes por servidores públicos.
+*** E) - O princípio da consunção se caracteriza pela absorção de um delito menos grave por um delito mais grave, também denominado de concurso formal perfeito.
+**** Gabarito: B
+-----
+* Ano: 2024 Banca: FGV Órgão: MPE-GO Prova: FGV - 2024 - MPE-GO - Promotor de Justiça Substituto
+** Q 17: Isabela vivia com sua mãe Patrícia, seu avô, Maurício, e seus dois irmãos mais velhos, Diego e Ricardo, de 10 e 12 anos, respectivamente, em Rochester, Inglaterra. Maurício, aproveitando-se dos momentos em que Patrícia o deixava supervisionando os filhos, diariamente, acariciava os seios e a vagina da neta. Em certa ocasião, vizinhos ouviram gritos de socorro e acionaram a polícia local, que encontrou a pequena com hemorragia e ferimentos na região da vagina e nádegas e os irmãos, Diego e Ricardo, trancados dentro do armário, com fitas adesivas nos tornozelos e sinais, com hematomas e marcas de queimadura nas costas e tórax, em vários estágios de cicatrização. Os policiais não encontraram Maurício no local, porque este fugira para o Brasil, após notar que a Polícia tinha sido acionada. Os infantes Diego e Ricardo, em contato com a rede protetiva inglesa, ainda esclareceram que Maurício, rotineiramente, queimava as costas dos netos com cigarro, utilizava alicate para causar cortes na barriga deles e desferia tapas e golpes com cinto, quando eles o desobedeciam, bem como pontuaram que ficavam trancados no armário, de onde tinham visão, por ser de vidro, de tudo o que ocorria no quarto, enquanto o avô abusava da irmã, e que foram eles que gritaram por socorro, permitindo o acionamento da polícia. Em avaliação, as crianças apresentavam sinais indicativos de transtorno de estresse pós-traumático. Ciente da narrativa acima, assinale a afirmativa correta.
+*** A) - Apesar do lugar do crime não ser o Brasil, aplica-se a lei brasileira ao caso, com base nos princípios da nacionalidade passiva e da justiça universal.
+*** B) - A conduta de Maurício de acariciar a neta Isabela configura, de acordo com recente julgado do Superior Tribunal de Justiça, importunação sexual e a de ferir Diego e Ricardo, na presença dela, configura violência psicológica, na forma da Lei nº 13431/2017.
+*** C) - A violência empregada contra Diego e Ricardo, por configurar tortura, não admite a aplicação da Lei brasileira, nos termos da Lei nº 9455/1997, porque, mesmo as vítimas sendo brasileiras, Maurício não está mais no território nacional.
+*** D) - De acordo como Superior Tribunal de Justiça, como não se pode delimitar o número de atos libidinosos perpetrados por Maurício contra a neta não é possível aplicar o aumento máximo previsto no Art. 71 do Código Penal.
+*** E) - Para a violência sexual perpetrada por Maurício, a prescrição, antes de transitar em julgado a sentença final, começa a correr da data em que a vítima completar dezoito anos, salvo se, a esse tempo, já tiver sido proposta ação penal.
+**** Gabarito: E
+-----
+* Ano: 2024 Banca: FGV Órgão: PC-SC Prova: FGV - 2024 - PC-SC - Psicólogo Policial Civil
+** Q 18: Relacione o princípio com a afirmativa com ele compatível:
+1. Princípio da legalidade
+2. Princípio da intervenção mínima
+3. Princípio da culpabilidade
+4. Princípio da humanidade
+( ) Este princípio também é chamado de  ultima ratio , implica na limitação do pode punitivo do Estado, segundo o qual a criminalização de uma conduta só se legitima se constituir meio necessário para a proteção de um determinado bem jurídico.
+( ) De acordo com este princípio, é vedada a responsabilidade objetiva no direito penal.
+( ) A ninguém pode ser imposta uma pena que não esteja prevista em lei.
+( ) São vedadas penas que violem a dignidade humana.
+Assinale a opção que indica a relação correta, na ordem apresentada.
+*** A) - 1 – 2 – 3 – 4.
+*** B) - 4 – 3 – 2 – 1.
+*** C) - 2 – 3 – 4 – 1.
+*** D) - 3 – 2 – 1 – 4.
+*** E) - 2 – 3 – 1 – 4.
+**** Gabarito: E
+-----
+* Ano: 2024 Banca: CESPE / CEBRASPE Órgão: Prefeitura de Camaçari - BA Prova: CESPE / CEBRASPE - 2024 - Prefeitura de Camaçari - BA - Assistente Administrativo
+** Q 19: O indivíduo autuado em flagrante pela prática de um crime não poderá ser considerado culpado até o trânsito em julgado de sentença penal condenatória, em razão do princípio
+*** A) - da legalidade estrita.
+*** B) - do devido processo legal.
+*** C) - da presunção de inocência.
+*** D) - da ampla defesa.
+*** E) - da anterioridade penal.
+**** Gabarito: C
+-----
+* Ano: 2024 Banca: FGV Órgão: PC-SC Prova: FGV - 2024 - PC-SC - Delegado
+** Q 20: Acerca dos princípios penais, assinale a afirmativa correta.
+*** A) - O princípio da intranscendência pressupõe que o Direito Penal só pode incidir nas hipóteses em que há lesão ou risco de lesão a um bem jurídico.
+*** B) - O princípio da fragmentariedade preconiza que a pena não pode passar da pessoa do condenado.
+*** C) - O princípio da insignificância exclui a tipicidade formal em razão de lesão ou risco de lesão irrelevante ao bem jurídico tutelado.
+*** D) - O princípio do  ne bis in idem  indica que uma mesma circunstância não pode ser valorada em desfavor do suposto autor do fato mais de uma vez.
+*** E) - O princípio da ofensividade veda as penas de morte, perpétuas e cruéis, bem como as penas de trabalhos forçados e de banimento.
+**** Gabarito: D
+-----
