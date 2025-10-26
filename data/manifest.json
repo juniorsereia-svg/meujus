@@ -1,33 +1,8 @@
 {
   "version": 1,
   "updatedAt": "2025-10-26",
-  "counts": {
-    "Direito Penal": 1243,
-    "Direito Civil": 980,
-    "Direito Constitucional": 712
-  },
-  "shards": {
-    "Direito Penal": [
-      "data/shards/penal-a.jsonl",
-      "data/shards/penal-b.jsonl"
-    ],
-    "Direito Civil": [
-      "data/shards/civil-a.jsonl"
-    ],
-    "Direito Constitucional": [
-      "data/shards/constitucional-a.jsonl"
-    ]
-  },
-  "temas": [
-    "Parte Geral",
-    "Teoria do Crime",
-    "Contratos",
-    "Direitos Fundamentais"
-  ],
-  "subtemas": [
-    "Tipicidade",
-    "Culpabilidade",
-    "Vício do Consentimento",
-    "Aplicabilidade"
-  ]
+  "counts": { "Direito Penal": 3 },
+  "shards": { "Direito Penal": ["data/shards/penal-a.jsonl"] },
+  "temas": ["Parte Geral","Teoria do Crime","Ilicitude","Penas","Lei penal no tempo","Direitos Fundamentais","Contratos"],
+  "subtemas": ["Norma Penal","Conceitos e Características","Princípios limitadores do poder punitivo estatal","Aplicabilidade","Vício do Consentimento"]
 }
