@@ -1,4 +1,4 @@
-// MeuJus — app.js (sem botão de "Trocar questão"; provas p1.txt..p10.txt; cache via Service Worker)
+// MeuJus — app.js (sem "trocar questão"; print render on demand)
 (function () {
   const $ = (sel) => document.querySelector(sel);
   const ano = $('#ano'); const rodapeAno = $('#rodapeAno');
@@ -204,7 +204,6 @@
       temaSelecionado = temas[0].label;
       temasHidden.value = temaSelecionado;
       temaInput.value = temaSelecionado;
-      // detectar e aquecer
       const base = temas[0].base;
       (async ()=>{
         const qtd = await detectarQtdProvas(base);
@@ -243,7 +242,6 @@
     temasHidden.value = temaSelecionado;
     temaInput.value = temaSelecionado;
     fecharPainelTemas();
-    // detectar e aquecer
     const base = item.getAttribute('data-base');
     (async ()=>{
       const qtd = await detectarQtdProvas(base);
@@ -371,7 +369,7 @@ ENUNCIADO: "${enunciado}"`;
       previewVazio.classList.add('hidden');
       previewConteudo.classList.remove('hidden');
       renderQuestoesTela(resultado);
-      renderQuestoesPrint(resultado);
+      // não renderiza versão de impressão aqui
       window.scrollTo({ top: previewConteudo.offsetTop - 60, behavior:'smooth' });
     }catch(err){
       console.error(err); alert(`Erro ao gerar prova:\n${err.message}`);
@@ -396,7 +394,11 @@ ENUNCIADO: "${enunciado}"`;
     previewConteudo.classList.add('hidden'); previewVazio.classList.remove('hidden');
     window.scrollTo({ top:0, behavior:'smooth' });
   });
-  btnImprimir?.addEventListener('click', ()=>window.print());
+  btnImprimir?.addEventListener('click', ()=>{
+    // renderiza a versão de impressão apenas agora
+    if (resultado.length) renderQuestoesPrint(resultado);
+    window.print();
+  });
   document.addEventListener('click', onClickAlternativa);
   document.addEventListener('keydown', onKeyAlternativa);
 
