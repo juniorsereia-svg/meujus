@@ -1,8 +1,21 @@
 {
   "version": 1,
   "updatedAt": "2025-10-26",
-  "counts": { "Direito Penal": 3 },
-  "shards": { "Direito Penal": ["data/shards/penal-a.jsonl"] },
-  "temas": ["Parte Geral","Teoria do Crime","Ilicitude","Penas","Lei penal no tempo","Direitos Fundamentais","Contratos"],
-  "subtemas": ["Norma Penal","Conceitos e Características","Princípios limitadores do poder punitivo estatal","Aplicabilidade","Vício do Consentimento"]
+  "counts": { "Direito Penal": 5 },
+  "shards": {
+    "Direito Penal": ["data/shards/penal-a.jsonl"]
+  },
+  "temas": [
+    "Legislação Penal Especial",
+    "Estatuto do Desarmamento",
+    "Imputabilidade",
+    "Penas",
+    "Ilicitude",
+    "Lei penal no tempo"
+  ],
+  "subtemas": [
+    "Norma Penal",
+    "Conceitos e Características",
+    "Princípios limitadores do poder punitivo estatal"
+  ]
 }
